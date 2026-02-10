@@ -20,10 +20,10 @@ A computable version of the following element information is available in: [Conc
 | [`Coverage.contained`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.contained](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.identifier`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.identifier](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.status`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.status](https://hl7.org/fhir/R4/Coverage.html#resource) |
-| [`Coverage.kind`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind](StructureDefinition-ext-R5-Coverage.kind.md) |
-| [`Coverage.paymentBy`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy](StructureDefinition-ext-R5-Coverage.paymentBy.md) |
-| [`Coverage.paymentBy.party`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Extension slice: party](StructureDefinition-ext-R5-Coverage.paymentBy.md) |
-| [`Coverage.paymentBy.responsibility`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Extension slice: responsibility](StructureDefinition-ext-R5-Coverage.paymentBy.md) |
+| [`Coverage.kind`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind](StructureDefinition-ext-R5-Coverage.kind.md) |
+| [`Coverage.paymentBy`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy](StructureDefinition-ext-R5-Coverage.paymentBy.md) |
+| [`Coverage.paymentBy.party`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage](https://hl7.org/fhir/R4/Coverage.html#resource)[Extension slice: party](StructureDefinition-ext-R5-Coverage.paymentBy.md) |
+| [`Coverage.paymentBy.responsibility`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage](https://hl7.org/fhir/R4/Coverage.html#resource)[Extension slice: responsibility](StructureDefinition-ext-R5-Coverage.paymentBy.md) |
 | [`Coverage.type`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.type](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.policyHolder`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.policyHolder](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.subscriber`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.subscriber](https://hl7.org/fhir/R4/Coverage.html#resource) |
@@ -41,15 +41,15 @@ A computable version of the following element information is available in: [Conc
 | [`Coverage.network`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.network](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.costToBeneficiary`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.costToBeneficiary.type`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary.type](https://hl7.org/fhir/R4/Coverage.html#resource) |
-| [`Coverage.costToBeneficiary.category`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category](StructureDefinition-ext-R5-Coverage.cos.category.md) |
-| [`Coverage.costToBeneficiary.network`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network](StructureDefinition-ext-R5-Coverage.cos.network.md) |
-| [`Coverage.costToBeneficiary.unit`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit](StructureDefinition-ext-R5-Coverage.cos.unit.md) |
-| [`Coverage.costToBeneficiary.term`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term](StructureDefinition-ext-R5-Coverage.cos.term.md) |
+| [`Coverage.costToBeneficiary.category`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category](StructureDefinition-ext-R5-Coverage.cos.category.md) |
+| [`Coverage.costToBeneficiary.network`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network](StructureDefinition-ext-R5-Coverage.cos.network.md) |
+| [`Coverage.costToBeneficiary.unit`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit](StructureDefinition-ext-R5-Coverage.cos.unit.md) |
+| [`Coverage.costToBeneficiary.term`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term](StructureDefinition-ext-R5-Coverage.cos.term.md) |
 | [`Coverage.costToBeneficiary.value[x]`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary.value[x]](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.costToBeneficiary.exception`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary.exception](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.costToBeneficiary.exception.type`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary.exception.type](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.costToBeneficiary.exception.period`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.costToBeneficiary.exception.period](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.subrogation`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.subrogation](https://hl7.org/fhir/R4/Coverage.html#resource) |
 | [`Coverage.contract`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage.contract](https://hl7.org/fhir/R4/Coverage.html#resource) |
-| [`Coverage.insurancePlan`](https://hl7.org/fhir/R5/Coverage.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.insurancePlan](StructureDefinition-ext-R5-Coverage.insurancePlan.md) |
+| [`Coverage.insurancePlan`](https://hl7.org/fhir/R5/Coverage.html#resource) | [Coverage](https://hl7.org/fhir/R4/Coverage.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.insurancePlan](StructureDefinition-ext-R5-Coverage.insurancePlan.md) |
 

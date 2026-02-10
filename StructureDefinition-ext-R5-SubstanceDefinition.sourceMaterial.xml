@@ -66,7 +66,7 @@
   <title value="Cross-version Extension `R5.SubstanceDefinition.sourceMaterial` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -205,7 +205,7 @@
       <sliceName value="type"/>
       <short value="Classification of the origin of the raw material. e.g. cat hair is an Animal source type"/>
       <definition value="A classification that provides the origin of the raw material. Example: cat hair would be an Animal source type."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.type` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.type` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -374,7 +374,7 @@
       <sliceName value="genus"/>
       <short value="The genus of an organism e.g. the Latin epithet of the plant/animal scientific name"/>
       <definition value="The genus of an organism, typically referring to the Latin epithet of the genus element of the plant/animal scientific name."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.genus` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.genus` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -543,7 +543,7 @@
       <sliceName value="species"/>
       <short value="The species of an organism e.g. the Latin epithet of the species of the plant/animal"/>
       <definition value="The species of an organism, typically referring to the Latin epithet of the species of the plant/animal."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.species` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.species` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -712,7 +712,7 @@
       <sliceName value="part"/>
       <short value="An anatomical origin of the source material within an organism"/>
       <definition value="An anatomical origin of the source material within an organism."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.part` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.part` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -881,7 +881,7 @@
       <sliceName value="countryOfOrigin"/>
       <short value="The country or countries where the material is harvested"/>
       <definition value="The country or countries where the material is harvested."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1286,7 +1286,7 @@
       <sliceName value="type"/>
       <short value="Classification of the origin of the raw material. e.g. cat hair is an Animal source type"/>
       <definition value="A classification that provides the origin of the raw material. Example: cat hair would be an Animal source type."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.type` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.type` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1331,7 +1331,7 @@
       <sliceName value="genus"/>
       <short value="The genus of an organism e.g. the Latin epithet of the plant/animal scientific name"/>
       <definition value="The genus of an organism, typically referring to the Latin epithet of the genus element of the plant/animal scientific name."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.genus` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.genus` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1376,7 +1376,7 @@
       <sliceName value="species"/>
       <short value="The species of an organism e.g. the Latin epithet of the species of the plant/animal"/>
       <definition value="The species of an organism, typically referring to the Latin epithet of the species of the plant/animal."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.species` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.species` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1421,7 +1421,7 @@
       <sliceName value="part"/>
       <short value="An anatomical origin of the source material within an organism"/>
       <definition value="An anatomical origin of the source material within an organism."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.part` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.part` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1466,7 +1466,7 @@
       <sliceName value="countryOfOrigin"/>
       <short value="The country or countries where the material is harvested"/>
       <definition value="The country or countries where the material is harvested."/>
-      <requirements value="Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

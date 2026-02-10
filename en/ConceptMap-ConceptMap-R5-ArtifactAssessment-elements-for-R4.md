@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.0329228-06:00",
+  "date" : "2026-02-09T22:05:43.4706124-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ArtifactAssessment` is representable via FHIR R4B Resource `Basic`.\nElement `ArtifactAssessment` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ArtifactAssessment.meta` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.meta` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ArtifactAssessment.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.implicitRules` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ArtifactAssessment.language` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.language` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ArtifactAssessment.text` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.text` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ArtifactAssessment.contained` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.contained` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ArtifactAssessment.identifier` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.identifier` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.title` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.title` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:citeAs",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.citeAs[x]` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.citeAs[x]` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.date` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.date` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.copyright` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.copyright` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:approvalDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.approvalDate` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.approvalDate` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:lastReviewDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.lastReviewDate` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.lastReviewDate` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:artifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.artifact[x]` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.artifact[x]` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -236,11 +236,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "ArtifactAssessment.content",
           "display" : "content",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content",
               "equivalence" : "relatedto",
@@ -253,11 +248,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "informationType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:informationType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.informationType` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.informationType` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.informationType` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:informationType",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.informationType` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
@@ -268,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "ArtifactAssessment.content.summary",
           "display" : "summary",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:summary",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.summary` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.summary` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.summary` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:summary",
               "equivalence" : "relatedto",
@@ -285,11 +270,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.type` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.type` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.type` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:type",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.type` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
@@ -300,11 +280,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "ArtifactAssessment.content.classifier",
           "display" : "classifier",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:classifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.classifier` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.classifier` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.classifier` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:classifier",
               "equivalence" : "relatedto",
@@ -317,11 +292,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.quantity` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.quantity` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.quantity` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:quantity",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.quantity` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
@@ -332,11 +302,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "ArtifactAssessment.content.author",
           "display" : "author",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:author",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.author` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.author` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.author` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:author",
               "equivalence" : "relatedto",
@@ -349,11 +314,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "path",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:path",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.path` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.path` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.path` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:path",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.path` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
@@ -364,11 +324,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "ArtifactAssessment.content.relatedArtifact",
           "display" : "relatedArtifact",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:relatedArtifact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.relatedArtifact` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.relatedArtifact` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.relatedArtifact` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:relatedArtifact",
               "equivalence" : "relatedto",
@@ -381,11 +336,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "freeToShare",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:freeToShare",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.freeToShare` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.freeToShare` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.freeToShare` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:freeToShare",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.freeToShare` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
@@ -396,11 +346,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "ArtifactAssessment.content.component",
           "display" : "component",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:content:component",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.content.component` is part of an existing definition because parent element `ArtifactAssessment.content` requires a cross-version extension.\nElement `ArtifactAssessment.content.component` is part of an existing definition because parent element `ArtifactAssessment.content` requires a component extension (e.g., if this element is used as a content reference).\nElement `ArtifactAssessment.content.component` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:component",
               "equivalence" : "relatedto",
@@ -415,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:workflowStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.workflowStatus` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.workflowStatus` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         },
@@ -426,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:disposition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ArtifactAssessment.disposition` is not mapped to FHIR R4B, since FHIR R5 `ArtifactAssessment` is not mapped."
+              "comment" : "Element `ArtifactAssessment.disposition` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
           ]
         }

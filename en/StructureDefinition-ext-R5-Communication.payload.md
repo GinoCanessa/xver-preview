@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Communicat
   "title" : "Cross-version Extension `R5.Communication.payload` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

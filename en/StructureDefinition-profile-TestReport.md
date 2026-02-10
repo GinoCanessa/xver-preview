@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestRepor
   "title" : "Cross-version Profile for R5.TestReport for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.81345-06:00",
+  "date" : "2026-02-09T22:05:43.3840166-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -165,9 +165,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestRepor
         }
       },
       {
-        "id" : "TestReport.testScript.extension",
+        "id" : "TestReport.testScript.extension:testScript",
         "path" : "TestReport.testScript.extension",
+        "sliceName" : "testScript",
         "short" : "Cross-version extension for TestReport.testScript from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/TestScript in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestReport.testScript` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -179,7 +182,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestRepor
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.testScript|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestReport.setup.action.assert.extension",
+        "path" : "TestReport.setup.action.assert.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TestReport.setup.action.assert.extension:requirement",
+        "path" : "TestReport.setup.action.assert.extension",
+        "sliceName" : "requirement",
+        "short" : "Cross-version extension for TestReport.setup.action.assert.requirement from R5 for use in FHIR R4",
+        "comment" : "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -206,9 +252,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestRepor
         }
       },
       {
-        "id" : "TestReport.test.action.extension",
+        "id" : "TestReport.test.action.extension:action",
         "path" : "TestReport.test.action.extension",
+        "sliceName" : "action",
         "short" : "Cross-version extension for TestReport.test.action from R5 for use in FHIR R4",
+        "comment" : "Element `TestReport.test.action` is mapped to FHIR R4 element `TestReport.test.action`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -238,7 +286,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestRepor
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -247,9 +295,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestRepor
         }
       },
       {
-        "id" : "TestReport.teardown.extension",
+        "id" : "TestReport.teardown.extension:teardown",
         "path" : "TestReport.teardown.extension",
+        "sliceName" : "teardown",
         "short" : "Cross-version extension for TestReport.teardown from R5 for use in FHIR R4",
+        "comment" : "Element `TestReport.teardown` is mapped to FHIR R4 element `TestReport.teardown`.",
         "min" : 0,
         "max" : "1",
         "base" : {

@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DocumentReference.c
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference-for-Media.md) and [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DocumentReference.con.profile)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
   "title" : "Cross-version Extension `R5.DocumentReference.content.profile` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.content.profile` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.content.profile` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.content.profile` 0..* `BackboneElement`\n*  R5: `DocumentReference.content.profile` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.content.profile` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.content.profile` is mapped to FHIR R4 structure `Media`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.content.profile` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.content.profile` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.content.profile` 0..* `BackboneElement`\n*  R5: `DocumentReference.content.profile` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.content.profile` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,11 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "DocumentReference.content"
+    },
+    {
+      "type" : "element",
+      "expression" : "Media.content"
     }
   ],
   "type" : "Extension",
@@ -185,7 +189,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
         "sliceName" : "value",
         "short" : "Code|uri|canonical",
         "definition" : "Code|uri|canonical.",
-        "requirements" : "Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.\nElement `DocumentReference.content.profile.value[x]` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.content.profile.value[x]` is mapped to FHIR R4 structure `Media`, but has no target element specified.",
+        "requirements" : "Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.\nElement `DocumentReference.content.profile.value[x]` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile.value[x]` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`.",
         "min" : 1,
         "max" : "1",
         "base" : {

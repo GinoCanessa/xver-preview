@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code","Extension.extension","code","","",1,1,"","","","Extension {[]} {[]}
 ","Reference to ValueSet.expansion.property.code","A code that is a reference to ValueSet.expansion.property.code.","","Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.
-Element `ValueSet.expansion.contains.property.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ValueSet.expansion.contains.property.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:value","Extension.extension","value","","",1,1,"","","","Extension {[]} {[]}
 ","Value of the property for this concept","The value of this property.","","Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.
-Element `ValueSet.expansion.contains.property.value[x]` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ValueSet.expansion.contains.property.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:value.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -43,7 +43,7 @@ Coding {[]} {[]}string {[]} {[]}integer {[]} {[]}boolean {[]} {[]}dateTime {[]} 
 ","N/A"
 "Extension.extension:subProperty","Extension.extension","subProperty","","",0,*,"","","","Extension {[]} {[]}
 ","SubProperty value for the concept","A subproperty value for this concept.","","Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.
-Element `ValueSet.expansion.contains.property.subProperty` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ValueSet.expansion.contains.property.subProperty` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:subProperty.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -53,7 +53,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:subProperty.extension:code","Extension.extension.extension","code","","",1,1,"","","","Extension {[]} {[]}
 ","Reference to ValueSet.expansion.property.code","A code that is a reference to ValueSet.expansion.property.code.","","Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.
-Element `ValueSet.expansion.contains.property.subProperty.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ValueSet.expansion.contains.property.subProperty.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:subProperty.extension:code.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -69,7 +69,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:subProperty.extension:value","Extension.extension.extension","value","","",1,1,"","","","Extension {[]} {[]}
 ","Value of the subproperty for this concept","The value of this subproperty.","","Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.
-Element `ValueSet.expansion.contains.property.subProperty.value[x]` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ValueSet.expansion.contains.property.subProperty.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:subProperty.extension:value.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

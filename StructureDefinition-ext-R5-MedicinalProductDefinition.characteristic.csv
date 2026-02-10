@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type","Extension.extension","type","","",1,1,"","","","Extension {[]} {[]}
 ","A code expressing the type of characteristic","A code expressing the type of characteristic.","","Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.
-Element `MedicinalProductDefinition.characteristic.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `MedicinalProductDefinition.characteristic.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:value","Extension.extension","value","","",0,1,"","","","Extension {[]} {[]}
 ","A value for the characteristic","A value for the characteristic.text.","Text, as markdown, is intended to be used only when the item cannot ever reasonably be coded. Otherwise, for cases where a code is not available, but is feasible, use CodeableConcept.text.","Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.
-Element `MedicinalProductDefinition.characteristic.value[x]` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `MedicinalProductDefinition.characteristic.value[x]` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:value.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

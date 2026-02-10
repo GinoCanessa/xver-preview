@@ -62,7 +62,7 @@
   "title" : "Cross-version Extension `R5.RequestOrchestration.action.dynamicValue` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [{
     "name" : "FHIR Infrastructure",
@@ -79,7 +79,7 @@
       "display" : "World"
     }]
   }],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RequestOrchestration.action.dynamicValue` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RequestOrchestration.action.dynamicValue` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RequestOrchestration.action.dynamicValue` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RequestOrchestration.action.dynamicValue` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RequestOrchestration.action.dynamicValue` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RequestOrchestration.action.dynamicValue` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "rim",
@@ -90,7 +90,7 @@
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "Element"
+    "expression" : "RequestGroup.action"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
@@ -209,7 +209,7 @@
       "short" : "The path to the element to be set dynamically",
       "definition" : "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details).",
       "comment" : "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -382,7 +382,7 @@
       "short" : "An expression that provides the dynamic value for the customization",
       "definition" : "An expression specifying the value of the customized element.",
       "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -797,7 +797,7 @@
       "short" : "The path to the element to be set dynamically",
       "definition" : "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details).",
       "comment" : "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -842,7 +842,7 @@
       "short" : "An expression that provides the dynamic value for the customization",
       "definition" : "An expression specifying the value of the customized element.",
       "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {

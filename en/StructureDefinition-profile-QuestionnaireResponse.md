@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
   "title" : "Cross-version Profile for R5.QuestionnaireResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7758971-06:00",
+  "date" : "2026-02-09T22:05:43.2916756-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "QuestionnaireResponse.source",
@@ -165,9 +165,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
         }
       },
       {
-        "id" : "QuestionnaireResponse.source.extension",
+        "id" : "QuestionnaireResponse.source.extension:source",
         "path" : "QuestionnaireResponse.source.extension",
+        "sliceName" : "source",
         "short" : "Cross-version extension for QuestionnaireResponse.source from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` is mapped to FHIR R4 element `QuestionnaireResponse.source`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -179,7 +182,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.source|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

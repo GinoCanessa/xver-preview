@@ -7,7 +7,7 @@ This cross-version profile allows R5 Specimen content to be represented via FHIR
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.Group.member.entity` for use in FHIR R4](StructureDefinition-ext-R5-Group.mem.entity.md) and [Cross-version Extension `R5.Procedure.focus` for use in FHIR R4](StructureDefinition-ext-R5-Procedure.focus.md)
+* Refer to this Profile: [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Specimen)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
   "title" : "Cross-version Profile for R5.Specimen for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7926562-06:00",
+  "date" : "2026-02-09T22:05:43.3292389-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,159 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
         "path" : "Specimen"
       },
       {
+        "id" : "Specimen.extension",
+        "path" : "Specimen.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Specimen.extension:combined",
+        "path" : "Specimen.extension",
+        "sliceName" : "combined",
+        "short" : "Cross-version extension for Specimen.combined from R5 for use in FHIR R4",
+        "comment" : "Element `Specimen.combined` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Specimen.extension:role",
+        "path" : "Specimen.extension",
+        "sliceName" : "role",
+        "short" : "Cross-version extension for Specimen.role from R5 for use in FHIR R4",
+        "comment" : "Element `Specimen.role` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Specimen.extension:feature",
+        "path" : "Specimen.extension",
+        "sliceName" : "feature",
+        "short" : "Cross-version extension for Specimen.feature from R5 for use in FHIR R4",
+        "comment" : "Element `Specimen.feature` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Specimen.collection.extension",
+        "path" : "Specimen.collection.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Specimen.collection.extension:device",
+        "path" : "Specimen.collection.extension",
+        "sliceName" : "device",
+        "short" : "Cross-version extension for Specimen.collection.device from R5 for use in FHIR R4",
+        "comment" : "Element `Specimen.collection.device` is will have a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Specimen.collection.extension:procedure",
+        "path" : "Specimen.collection.extension",
+        "sliceName" : "procedure",
+        "short" : "Cross-version extension for Specimen.collection.procedure from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Procedure in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.collection.procedure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.collection.procedure` is will have a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Specimen.collection.collector.extension",
         "path" : "Specimen.collection.collector.extension",
         "slicing" : {
@@ -156,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Specimen.collection.collector",
@@ -165,9 +318,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
         }
       },
       {
-        "id" : "Specimen.collection.collector.extension",
+        "id" : "Specimen.collection.collector.extension:collector",
         "path" : "Specimen.collection.collector.extension",
+        "sliceName" : "collector",
         "short" : "Cross-version extension for Specimen.collection.collector from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.collection.collector` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.collection.collector` is mapped to FHIR R4 element `Specimen.collection.collector`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -179,7 +335,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.collector|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -197,7 +353,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Specimen.collection.bodySite",
@@ -206,9 +362,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
         }
       },
       {
-        "id" : "Specimen.collection.bodySite.extension",
+        "id" : "Specimen.collection.bodySite.extension:bodySite",
         "path" : "Specimen.collection.bodySite.extension",
+        "sliceName" : "bodySite",
         "short" : "Cross-version extension for Specimen.collection.bodySite from R5 for use in FHIR R4",
+        "comment" : "Element `Specimen.collection.bodySite` is mapped to FHIR R4 element `Specimen.collection.bodySite`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -221,6 +379,73 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Specimen.
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.bodySite|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Specimen.container.extension",
+        "path" : "Specimen.container.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Specimen.container.extension:device",
+        "path" : "Specimen.container.extension",
+        "sliceName" : "device",
+        "short" : "Cross-version extension for Specimen.container.device from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.container.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.container.device` is will have a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Specimen.container.extension:location",
+        "path" : "Specimen.container.extension",
+        "sliceName" : "location",
+        "short" : "Cross-version extension for Specimen.container.location from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Location in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.container.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.container.location` is will have a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

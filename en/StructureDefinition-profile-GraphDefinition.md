@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GraphDefi
   "title" : "Cross-version Profile for R5.GraphDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7050339-06:00",
+  "date" : "2026-02-09T22:05:43.1422386-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,246 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GraphDefi
       {
         "id" : "GraphDefinition",
         "path" : "GraphDefinition"
+      },
+      {
+        "id" : "GraphDefinition.extension",
+        "path" : "GraphDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "GraphDefinition.extension:versionAlgorithm",
+        "path" : "GraphDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for GraphDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.versionAlgorithm[x]` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.extension:title",
+        "path" : "GraphDefinition.extension",
+        "sliceName" : "title",
+        "short" : "Cross-version extension for GraphDefinition.title from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.title` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.title|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.extension:copyright",
+        "path" : "GraphDefinition.extension",
+        "sliceName" : "copyright",
+        "short" : "Cross-version extension for GraphDefinition.copyright from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.copyright` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyright|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.extension:copyrightLabel",
+        "path" : "GraphDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for GraphDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.copyrightLabel` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.extension:node",
+        "path" : "GraphDefinition.extension",
+        "sliceName" : "node",
+        "short" : "Cross-version extension for GraphDefinition.node from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.node` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.link.extension",
+        "path" : "GraphDefinition.link.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 2,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "GraphDefinition.link.extension:sourceId",
+        "path" : "GraphDefinition.link.extension",
+        "sliceName" : "sourceId",
+        "short" : "Cross-version extension for GraphDefinition.link.sourceId from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.link.sourceId` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sourceId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.link.extension:targetId",
+        "path" : "GraphDefinition.link.extension",
+        "sliceName" : "targetId",
+        "short" : "Cross-version extension for GraphDefinition.link.targetId from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.link.targetId` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.targetId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.link.extension:params",
+        "path" : "GraphDefinition.link.extension",
+        "sliceName" : "params",
+        "short" : "Cross-version extension for GraphDefinition.link.params from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.link.params` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.params|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "GraphDefinition.link.extension:compartment",
+        "path" : "GraphDefinition.link.extension",
+        "sliceName" : "compartment",
+        "short" : "Cross-version extension for GraphDefinition.link.compartment from R5 for use in FHIR R4",
+        "comment" : "Element `GraphDefinition.link.compartment` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

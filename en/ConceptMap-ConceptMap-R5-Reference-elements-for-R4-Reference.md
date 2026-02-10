@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0825102-06:00",
+  "date" : "2026-02-09T22:05:44.169754-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Reference` is representable via FHIR R4B extensions.\nElement `Reference` is mapped to FHIR R4B element `Reference`."
+              "comment" : "FHIR R5 ComplexType `Reference` is representable via FHIR R4 extensions.\nElement `Reference` is mapped to FHIR R4 element `Reference`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Reference.reference` is mapped to FHIR R4B element `Reference.reference`."
+              "comment" : "Element `Reference.reference` is mapped to FHIR R4 element `Reference.reference`."
             }
           ]
         },
@@ -107,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Reference.type` is mapped to FHIR R4B element `Reference.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Reference.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Reference.type` is mapped to FHIR STU3 structure `Reference`, but has no target element specified."
+              "comment" : "Element `Reference.type` is mapped to FHIR R4 element `Reference.type`."
             }
           ]
         },
@@ -123,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Reference.identifier` is mapped to FHIR R4B element `Reference.identifier`."
-            },
-            {
-              "code" : "Basic.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Reference.identifier` is mapped to FHIR DSTU2 structure `Reference`, but has no target element specified."
+              "comment" : "Element `Reference.identifier` is mapped to FHIR R4 element `Reference.identifier`."
             }
           ]
         },
@@ -139,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `Reference.display` is mapped to FHIR R4B element `Reference.display`."
+              "comment" : "Element `Reference.display` is mapped to FHIR R4 element `Reference.display`."
             }
           ]
         }

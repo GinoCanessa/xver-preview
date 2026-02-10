@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
   "title" : "Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -450,7 +450,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -499,7 +499,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -651,7 +651,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -700,7 +700,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -852,7 +852,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -901,7 +901,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -973,7 +973,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "indication",
         "short" : "The indication which this is a contraidication for",
         "definition" : "The indication which this is a contraidication for.",
-        "requirements" : "Element `ClinicalUseDefinition.contraindication.indication` is part of an existing definition because parent element `ClinicalUseDefinition.contraindication` requires a cross-version extension.\nElement `ClinicalUseDefinition.contraindication.indication` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
+        "requirements" : "Element `ClinicalUseDefinition.contraindication.indication` is part of an existing definition because parent element `ClinicalUseDefinition.contraindication` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClinicalUseDefinition.contraindication.indication` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClinicalUseDefinition.contraindication.indication` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1246,7 +1246,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1295,7 +1295,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1447,7 +1447,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1496,7 +1496,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1648,7 +1648,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1697,7 +1697,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1849,7 +1849,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1898,7 +1898,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2018,7 +2018,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "undesirableEffect",
         "short" : "An unwanted side effect or negative outcome of the subject of this resource when being used for this indication",
         "definition" : "An unwanted side effect or negative outcome that may happen if you use the drug (or other subject of this resource) for this indication.",
-        "requirements" : "Element `ClinicalUseDefinition.indication.undesirableEffect` is part of an existing definition because parent element `ClinicalUseDefinition.indication` requires a cross-version extension.\nElement `ClinicalUseDefinition.indication.undesirableEffect` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
+        "requirements" : "Element `ClinicalUseDefinition.indication.undesirableEffect` is part of an existing definition because parent element `ClinicalUseDefinition.indication` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClinicalUseDefinition.indication.undesirableEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClinicalUseDefinition.indication.undesirableEffect` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2467,7 +2467,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2516,7 +2516,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2711,7 +2711,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "population",
         "short" : "The population group to which this applies",
         "definition" : "The population group to which this applies.",
-        "requirements" : "Element `ClinicalUseDefinition.population` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClinicalUseDefinition.population` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClinicalUseDefinition.population` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2760,7 +2760,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "library",
         "short" : "Logic used by the clinical use definition",
         "definition" : "Logic used by the clinical use definition.",
-        "requirements" : "Element `ClinicalUseDefinition.library` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClinicalUseDefinition.library` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ClinicalUseDefinition.library` is not mapped to FHIR R4, since FHIR R5 `ClinicalUseDefinition` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2925,7 +2925,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2974,7 +2974,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClinicalUs
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {

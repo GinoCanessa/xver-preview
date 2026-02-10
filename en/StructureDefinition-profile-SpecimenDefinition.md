@@ -7,7 +7,7 @@ This cross-version profile allows R5 SpecimenDefinition content to be represente
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.specimenRequirement` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.specimenRequirement.md), [Cross-version Extension `R5.ObservationDefinition.specimen` for use in FHIR R4](StructureDefinition-ext-R5-ObservationDefinition.specimen.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md)... Show 2 more, [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.SpecimenDefinition.derivedFromCanonical` for use in FHIR R4](StructureDefinition-ext-R5-SpecimenDefinition.derivedFromCanonical.md)
+* Refer to this Profile: [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SpecimenDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
   "title" : "Cross-version Profile for R5.SpecimenDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7938901-06:00",
+  "date" : "2026-02-09T22:05:43.3331034-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -139,8 +139,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition"
       },
       {
-        "id" : "SpecimenDefinition.typeTested.container.additive.extension",
-        "path" : "SpecimenDefinition.typeTested.container.additive.extension",
+        "id" : "SpecimenDefinition.extension",
+        "path" : "SpecimenDefinition.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -154,15 +154,634 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "min" : 1,
         "max" : "*",
         "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "SpecimenDefinition.extension:url",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "url",
+        "short" : "Cross-version extension for SpecimenDefinition.url from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.url` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.url|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:version",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "version",
+        "short" : "Cross-version extension for SpecimenDefinition.version from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.version` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.version|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:versionAlgorithm",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for SpecimenDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.versionAlgorithm[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:name",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "name",
+        "short" : "Cross-version extension for SpecimenDefinition.name from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.name` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.name|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:title",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "title",
+        "short" : "Cross-version extension for SpecimenDefinition.title from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.title` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.title|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:derivedFromUri",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "derivedFromUri",
+        "short" : "Cross-version extension for SpecimenDefinition.derivedFromUri from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.derivedFromUri` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.derivedFromUri|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:status",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "status",
+        "short" : "Cross-version extension for SpecimenDefinition.status from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.status` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:experimental",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "experimental",
+        "short" : "Cross-version extension for SpecimenDefinition.experimental from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.experimental` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.experimental|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:subject",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "subject",
+        "short" : "Cross-version extension for SpecimenDefinition.subject[x] from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.subject[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:subjectCanonical",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "subjectCanonical",
+        "short" : "Cross-version extension for SpecimenDefinition.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.subject[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:subjectReference",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "subjectReference",
+        "short" : "Cross-version extension for SpecimenDefinition.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.subject[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:date",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "date",
+        "short" : "Cross-version extension for SpecimenDefinition.date from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.date` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.date|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:publisher",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "publisher",
+        "short" : "Cross-version extension for SpecimenDefinition.publisher from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.publisher` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.publisher|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:contact",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "contact",
+        "short" : "Cross-version extension for SpecimenDefinition.contact from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.contact` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.contact|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:description",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "description",
+        "short" : "Cross-version extension for SpecimenDefinition.description from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.description` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.description|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:useContext",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "useContext",
+        "short" : "Cross-version extension for SpecimenDefinition.useContext from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.useContext` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.useContext|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:jurisdiction",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "jurisdiction",
+        "short" : "Cross-version extension for SpecimenDefinition.jurisdiction from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.jurisdiction` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.jurisdiction|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:purpose",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "purpose",
+        "short" : "Cross-version extension for SpecimenDefinition.purpose from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.purpose` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.purpose|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:copyright",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "copyright",
+        "short" : "Cross-version extension for SpecimenDefinition.copyright from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.copyright` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.copyright|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:copyrightLabel",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for SpecimenDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.copyrightLabel` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:approvalDate",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "approvalDate",
+        "short" : "Cross-version extension for SpecimenDefinition.approvalDate from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.approvalDate` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.approvalDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:lastReviewDate",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "lastReviewDate",
+        "short" : "Cross-version extension for SpecimenDefinition.lastReviewDate from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.lastReviewDate` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.lastReviewDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:effectivePeriod",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "effectivePeriod",
+        "short" : "Cross-version extension for SpecimenDefinition.effectivePeriod from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.effectivePeriod` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.effectivePeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.extension:derivedFromCanonical",
+        "path" : "SpecimenDefinition.extension",
+        "sliceName" : "derivedFromCanonical",
+        "short" : "Cross-version extension for SpecimenDefinition.derivedFromCanonical from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SpecimenDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SpecimenDefinition.derivedFromCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SpecimenDefinition.derivedFromCanonical` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.typeTested.extension",
+        "path" : "SpecimenDefinition.typeTested.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
           "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
+        "id" : "SpecimenDefinition.typeTested.extension:singleUse",
+        "path" : "SpecimenDefinition.typeTested.extension",
+        "sliceName" : "singleUse",
+        "short" : "Cross-version extension for SpecimenDefinition.typeTested.singleUse from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.typeTested.singleUse` is will have a context of SpecimenDefinition.typeTested based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.singleUse|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SpecimenDefinition.typeTested.extension:testingDestination",
+        "path" : "SpecimenDefinition.typeTested.extension",
+        "sliceName" : "testingDestination",
+        "short" : "Cross-version extension for SpecimenDefinition.typeTested.testingDestination from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.typeTested.testingDestination` is will have a context of SpecimenDefinition.typeTested based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.testingDestination|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "SpecimenDefinition.typeTested.container.additive.extension",
         "path" : "SpecimenDefinition.typeTested.container.additive.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "SpecimenDefinition.typeTested.container.additive.extension:additive",
+        "path" : "SpecimenDefinition.typeTested.container.additive.extension",
+        "sliceName" : "additive",
         "short" : "Cross-version extension for SpecimenDefinition.typeTested.container.additive from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.typeTested.container.additive` is mapped to FHIR R4 element `SpecimenDefinition.typeTested.container.additive`.",
         "min" : 0,
         "max" : "*",
         "base" : {

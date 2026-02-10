@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Verificat
   "title" : "Cross-version Profile for R5.VerificationResult for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8235596-06:00",
+  "date" : "2026-02-09T22:05:43.40296-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -160,9 +160,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Verificat
         }
       },
       {
-        "id" : "VerificationResult.status.extension",
+        "id" : "VerificationResult.status.extension:status",
         "path" : "VerificationResult.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for VerificationResult.status from R5 for use in FHIR R4",
+        "comment" : "Element `VerificationResult.status` is mapped to FHIR R4 element `VerificationResult.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {

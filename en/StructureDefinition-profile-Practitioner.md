@@ -7,7 +7,7 @@ This cross-version profile allows R5 Practitioner content to be represented via 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.par.typeReference.md), [Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.participant.md), [Cross-version Extension `R5.AllergyIntolerance.participant` for use in FHIR R4](StructureDefinition-ext-R5-AllergyIntolerance.participant.md), [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md)... Show 37 more, [Cross-version Extension `R5.Citation` for use in FHIR R4](StructureDefinition-ext-R5-Citation.md), [Cross-version Extension `R5.Composition.section` for use in FHIR R4](StructureDefinition-ext-R5-Composition.section.md), [Cross-version Extension `R5.Condition.participant` for use in FHIR R4](StructureDefinition-ext-R5-Condition.participant.md), [Cross-version Extension `R5.Consent.controller` for use in FHIR R4](StructureDefinition-ext-R5-Consent.controller.md), [Cross-version Extension `R5.Consent.grantor` for use in FHIR R4](StructureDefinition-ext-R5-Consent.grantor.md), [Cross-version Extension `R5.Consent.manager` for use in FHIR R4](StructureDefinition-ext-R5-Consent.manager.md), [Cross-version Extension `R5.Consent.provision` for use in FHIR R4](StructureDefinition-ext-R5-Consent.provision.md), [Cross-version Extension `R5.Consent.verification.verifiedBy` for use in FHIR R4](StructureDefinition-ext-R5-Consent.ver.verifiedBy.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DeviceAssociation.operation` for use in FHIR R4](StructureDefinition-ext-R5-DeviceAssociation.operation.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DocumentReference.attester` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.attester.md), [Cross-version Extension `R5.FamilyMemberHistory.participant` for use in FHIR R4](StructureDefinition-ext-R5-FamilyMemberHistory.participant.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.Immunization.informationSource` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.informationSource.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md), [Cross-version Extension `R5.MedicationAdministration.performer.actor` for use in FHIR R4](StructureDefinition-ext-R5-MA.per.actor.md), [Cross-version Extension `R5.MeasureReport.group.subject` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.gro.subject.md), [Cross-version Extension `R5.MedicationRequest.informationSource` for use in FHIR R4](StructureDefinition-ext-R5-MedicationRequest.informationSource.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.NutritionOrder.performer` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.performer.md), [Cross-version Extension `R5.PaymentReconciliation.enterer` for use in FHIR R4](StructureDefinition-ext-R5-PaymentReconciliation.enterer.md), [Cross-version Extension `R5.Permission` for use in FHIR R4](StructureDefinition-ext-R5-Permission.md), [Cross-version Extension `R5.PlanDefinition.action.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.par.typeReference.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.Procedure.focus` for use in FHIR R4](StructureDefinition-ext-R5-Procedure.focus.md), [Cross-version Extension `R5.Procedure.reported[x]` for use in FHIR R4](StructureDefinition-ext-R5-Procedure.reported.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.ResearchStudy.associatedParty` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.associatedParty.md), [Cross-version Extension `R5.Subscription.managingEntity` for use in FHIR R4](StructureDefinition-ext-R5-Subscription.managingEntity.md), [Cross-version Extension `R5.Task.performer` for use in FHIR R4](StructureDefinition-ext-R5-Task.performer.md), [Cross-version Extension `R5.Task.requestedPerformer` for use in FHIR R4](StructureDefinition-ext-R5-Task.requestedPerformer.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.participant.md), [Cross-version Extension `R5.AllergyIntolerance.participant` for use in FHIR R4](StructureDefinition-ext-R5-AllergyIntolerance.participant.md), [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md), [Cross-version Extension `R5.Citation` for use in FHIR R4](StructureDefinition-ext-R5-Citation.md)... Show 26 more, [Cross-version Extension `R5.Composition.section` for use in FHIR R4](StructureDefinition-ext-R5-Composition.section.md), [Cross-version Extension `R5.Condition.participant` for use in FHIR R4](StructureDefinition-ext-R5-Condition.participant.md), [Cross-version Extension `R5.Consent.provision` for use in FHIR R4](StructureDefinition-ext-R5-Consent.provision.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DeviceAssociation.operation` for use in FHIR R4](StructureDefinition-ext-R5-DeviceAssociation.operation.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DocumentReference.attester` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.attester.md), [Cross-version Extension `R5.FamilyMemberHistory.participant` for use in FHIR R4](StructureDefinition-ext-R5-FamilyMemberHistory.participant.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.Immunization.informationSource` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.informationSource.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md), [Cross-version Extension `R5.MedicationAdministration.performer.actor` for use in FHIR R4](StructureDefinition-ext-R5-MA.per.actor.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.NutritionOrder.performer` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.performer.md), [Cross-version Extension `R5.Permission` for use in FHIR R4](StructureDefinition-ext-R5-Permission.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.Procedure.reported[x]` for use in FHIR R4](StructureDefinition-ext-R5-Procedure.reported.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.ResearchStudy.associatedParty` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.associatedParty.md), [Cross-version Extension `R5.Task.performer` for use in FHIR R4](StructureDefinition-ext-R5-Task.performer.md), [Cross-version Extension `R5.Task.requestedPerformer` for use in FHIR R4](StructureDefinition-ext-R5-Task.requestedPerformer.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Practitioner)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Practitio
   "title" : "Cross-version Profile for R5.Practitioner for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7693181-06:00",
+  "date" : "2026-02-09T22:05:43.2762987-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Practitio
         "path" : "Practitioner"
       },
       {
+        "id" : "Practitioner.extension",
+        "path" : "Practitioner.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Practitioner.extension:deceased",
+        "path" : "Practitioner.extension",
+        "sliceName" : "deceased",
+        "short" : "Cross-version extension for Practitioner.deceased[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Practitioner.deceased[x]` is will have a context of Practitioner based on following the parent source element upwards and mapping to `Practitioner`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Practitioner.communication.extension",
         "path" : "Practitioner.communication.extension",
         "slicing" : {
@@ -161,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Practitio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Practitioner.communication",
@@ -170,9 +213,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Practitio
         }
       },
       {
-        "id" : "Practitioner.communication.extension",
+        "id" : "Practitioner.communication.extension:communication",
         "path" : "Practitioner.communication.extension",
+        "sliceName" : "communication",
         "short" : "Cross-version extension for Practitioner.communication from R5 for use in FHIR R4",
+        "comment" : "Element `Practitioner.communication` is mapped to FHIR R4 element `Practitioner.communication`.",
         "min" : 0,
         "max" : "*",
         "base" : {

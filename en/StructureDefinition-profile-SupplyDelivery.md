@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
   "title" : "Cross-version Profile for R5.SupplyDelivery for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8079906-06:00",
+  "date" : "2026-02-09T22:05:43.3699667-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -161,7 +161,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "SupplyDelivery.type",
@@ -170,9 +170,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
         }
       },
       {
-        "id" : "SupplyDelivery.type.extension",
+        "id" : "SupplyDelivery.type.extension:type",
         "path" : "SupplyDelivery.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for SupplyDelivery.type from R5 for use in FHIR R4",
+        "comment" : "Element `SupplyDelivery.type` is mapped to FHIR R4 element `SupplyDelivery.type`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -202,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -211,9 +213,57 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
         }
       },
       {
-        "id" : "SupplyDelivery.suppliedItem.extension",
+        "id" : "SupplyDelivery.suppliedItem.extension:item",
         "path" : "SupplyDelivery.suppliedItem.extension",
+        "sliceName" : "item",
         "short" : "Cross-version extension for SupplyDelivery.suppliedItem.item[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.\nElement `SupplyDelivery.suppliedItem.item[x]` is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.item[x]`.\nNote that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.suppliedItem.item|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SupplyDelivery.suppliedItem.extension:itemCanonical",
+        "path" : "SupplyDelivery.suppliedItem.extension",
+        "sliceName" : "itemCanonical",
+        "short" : "Cross-version extension for SupplyDelivery.suppliedItem.item[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct,http://hl7.org/fhir/StructureDefinition/InventoryItem,http://hl7.org/fhir/StructureDefinition/NutritionProduct in FHIR R4",
+        "comment" : "Note that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.\nElement `SupplyDelivery.suppliedItem.item[x]` is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.item[x]`.\nNote that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.suppliedItem.item|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SupplyDelivery.suppliedItem.extension:itemReference",
+        "path" : "SupplyDelivery.suppliedItem.extension",
+        "sliceName" : "itemReference",
+        "short" : "Cross-version extension for SupplyDelivery.suppliedItem.item[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct,http://hl7.org/fhir/StructureDefinition/InventoryItem,http://hl7.org/fhir/StructureDefinition/NutritionProduct in FHIR R4",
+        "comment" : "Note that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.\nElement `SupplyDelivery.suppliedItem.item[x]` is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.item[x]`.\nNote that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -243,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "SupplyDelivery.receiver",
@@ -252,9 +302,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
         }
       },
       {
-        "id" : "SupplyDelivery.receiver.extension",
+        "id" : "SupplyDelivery.receiver.extension:receiver",
         "path" : "SupplyDelivery.receiver.extension",
+        "sliceName" : "receiver",
         "short" : "Cross-version extension for SupplyDelivery.receiver from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyDelivery.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyDelivery.receiver` is mapped to FHIR R4 element `SupplyDelivery.receiver`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -266,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyDel
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.receiver|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

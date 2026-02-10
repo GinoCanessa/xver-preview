@@ -82,7 +82,7 @@
   <title value="Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -222,7 +222,7 @@
       <sliceName value="parameterFocus"/>
       <short value="The context of the order details by reference"/>
       <definition value="Indicates the context of the order details by reference."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameterFocus` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameterFocus` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -489,7 +489,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -653,7 +653,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1036,7 +1036,7 @@
       <sliceName value="parameter"/>
       <short value="The parameter details for the service being requested"/>
       <definition value="The parameter details for the service being requested."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameter` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameter` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -1138,7 +1138,7 @@
       <sliceName value="code"/>
       <short value="The detail of the order being requested"/>
       <definition value="A value representing the additional detail or instructions for the order (e.g., catheter insertion, body elevation, descriptive device configuration and/or setting instructions)."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.code` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.code` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1303,7 +1303,7 @@
       <short value="The value for the order detail"/>
       <definition value="Indicates a value for the order detail."/>
       <comment value="CodeableConcept values are indented to express concepts that would normally be coded - when a code is not available for a concept, CodeableConcept.text can be used. When the data is a text or not a single identifiable concept, string should be used."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.value[x]` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.value[x]` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1926,7 +1926,7 @@
       <sliceName value="parameterFocus"/>
       <short value="The context of the order details by reference"/>
       <definition value="Indicates the context of the order details by reference."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameterFocus` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameterFocus` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1997,7 +1997,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2037,7 +2037,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2114,7 +2114,7 @@
       <sliceName value="parameter"/>
       <short value="The parameter details for the service being requested"/>
       <definition value="The parameter details for the service being requested."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameter` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameter` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -2146,7 +2146,7 @@
       <sliceName value="code"/>
       <short value="The detail of the order being requested"/>
       <definition value="A value representing the additional detail or instructions for the order (e.g., catheter insertion, body elevation, descriptive device configuration and/or setting instructions)."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.code` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.code` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2187,7 +2187,7 @@
       <short value="The value for the order detail"/>
       <definition value="Indicates a value for the order detail."/>
       <comment value="CodeableConcept values are indented to express concepts that would normally be coded - when a code is not available for a concept, CodeableConcept.text can be used. When the data is a text or not a single identifiable concept, string should be used."/>
-      <requirements value="Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.value[x]` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified."/>
+      <requirements value="Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.value[x]` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

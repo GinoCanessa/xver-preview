@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.MedicationKnowledge.packaging` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "cost" ] ;
        fhir:short [ fhir:v "Cost of the packaged medication" ] ;
        fhir:definition [ fhir:v "The cost of the packaged medication." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.packaging.cost` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -769,7 +769,7 @@
        fhir:sliceName [ fhir:v "packagedProduct" ] ;
        fhir:short [ fhir:v "The packaged medication that is being priced" ] ;
        fhir:definition [ fhir:v "A reference to a PackagedProductDefinition that provides the details of the product that is in the packaging and is being priced." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.packaging.packagedProduct` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1343,7 +1343,7 @@
        fhir:sliceName [ fhir:v "cost" ] ;
        fhir:short [ fhir:v "Cost of the packaged medication" ] ;
        fhir:definition [ fhir:v "The cost of the packaged medication." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.packaging.cost` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1382,7 +1382,7 @@
        fhir:sliceName [ fhir:v "packagedProduct" ] ;
        fhir:short [ fhir:v "The packaged medication that is being priced" ] ;
        fhir:definition [ fhir:v "A reference to a PackagedProductDefinition that provides the details of the product that is in the packaging and is being priced." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.packaging.packagedProduct` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

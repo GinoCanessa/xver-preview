@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compartme
   "title" : "Cross-version Profile for R5.CompartmentDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6503647-06:00",
+  "date" : "2026-02-09T22:05:43.0345571-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compartme
         "path" : "CompartmentDefinition"
       },
       {
+        "id" : "CompartmentDefinition.extension",
+        "path" : "CompartmentDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CompartmentDefinition.extension:versionAlgorithm",
+        "path" : "CompartmentDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for CompartmentDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `CompartmentDefinition.versionAlgorithm[x]` is will have a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CompartmentDefinition.extension:title",
+        "path" : "CompartmentDefinition.extension",
+        "sliceName" : "title",
+        "short" : "Cross-version extension for CompartmentDefinition.title from R5 for use in FHIR R4",
+        "comment" : "Element `CompartmentDefinition.title` is will have a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.title|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "CompartmentDefinition.code.extension",
         "path" : "CompartmentDefinition.code.extension",
         "slicing" : {
@@ -175,9 +240,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compartme
         }
       },
       {
-        "id" : "CompartmentDefinition.code.extension",
+        "id" : "CompartmentDefinition.code.extension:code",
         "path" : "CompartmentDefinition.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for CompartmentDefinition.code from R5 for use in FHIR R4",
+        "comment" : "Element `CompartmentDefinition.code` is mapped to FHIR R4 element `CompartmentDefinition.code`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -190,6 +257,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compartme
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.code|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CompartmentDefinition.resource.extension",
+        "path" : "CompartmentDefinition.resource.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CompartmentDefinition.resource.extension:startParam",
+        "path" : "CompartmentDefinition.resource.extension",
+        "sliceName" : "startParam",
+        "short" : "Cross-version extension for CompartmentDefinition.resource.startParam from R5 for use in FHIR R4",
+        "comment" : "Element `CompartmentDefinition.resource.startParam` is will have a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.startParam|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CompartmentDefinition.resource.extension:endParam",
+        "path" : "CompartmentDefinition.resource.extension",
+        "sliceName" : "endParam",
+        "short" : "Cross-version extension for CompartmentDefinition.resource.endParam from R5 for use in FHIR R4",
+        "comment" : "Element `CompartmentDefinition.resource.endParam` is will have a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.endParam|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -216,9 +348,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compartme
         }
       },
       {
-        "id" : "CompartmentDefinition.resource.code.extension",
+        "id" : "CompartmentDefinition.resource.code.extension:code",
         "path" : "CompartmentDefinition.resource.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for CompartmentDefinition.resource.code from R5 for use in FHIR R4",
+        "comment" : "Element `CompartmentDefinition.resource.code` is mapped to FHIR R4 element `CompartmentDefinition.resource.code`.",
         "min" : 1,
         "max" : "1",
         "base" : {

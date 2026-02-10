@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.TestScript.setup.action.assert` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -1813,7 +1813,7 @@
        fhir:short [ fhir:v "fail | pass | skip | stop" ] ;
        fhir:definition [ fhir:v "The default manual completion outcome applied to this assertion." ] ;
        fhir:comment [ fhir:v "Manual completion is used to pause the test engine execution and evaluation allowing an external review of the defined assert condition. The defaultManualCompletion defines the default manual completion outcome applied if one of the enumerated values is not applied." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4606,7 +4606,7 @@
        fhir:short [ fhir:v "If this assert fails, will the current test execution stop?" ] ;
        fhir:definition [ fhir:v "Whether or not the current test execution will stop on failure for this assert." ] ;
        fhir:comment [ fhir:v "If this element is specified and it is true, then assertion failures should not stop the current test execution from proceeding." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5458,7 +5458,7 @@
        fhir:short [ fhir:v "Links or references to the testing requirements" ] ;
        fhir:definition [ fhir:v "Links or references providing traceability to the testing requirements for this assert." ] ;
        fhir:comment [ fhir:v "TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5587,7 +5587,7 @@
        fhir:sliceName [ fhir:v "link" ] ;
        fhir:short [ fhir:v "Link or reference to the testing requirement" ] ;
        fhir:definition [ fhir:v "Link or reference providing traceability to the testing requirement for this test." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -6839,7 +6839,7 @@
        fhir:short [ fhir:v "fail | pass | skip | stop" ] ;
        fhir:definition [ fhir:v "The default manual completion outcome applied to this assertion." ] ;
        fhir:comment [ fhir:v "Manual completion is used to pause the test engine execution and evaluation allowing an external review of the defined assert condition. The defaultManualCompletion defines the default manual completion outcome applied if one of the enumerated values is not applied." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7500,7 +7500,7 @@
        fhir:short [ fhir:v "If this assert fails, will the current test execution stop?" ] ;
        fhir:definition [ fhir:v "Whether or not the current test execution will stop on failure for this assert." ] ;
        fhir:comment [ fhir:v "If this element is specified and it is true, then assertion failures should not stop the current test execution from proceeding." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7696,7 +7696,7 @@
        fhir:short [ fhir:v "Links or references to the testing requirements" ] ;
        fhir:definition [ fhir:v "Links or references providing traceability to the testing requirements for this assert." ] ;
        fhir:comment [ fhir:v "TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7728,7 +7728,7 @@
        fhir:sliceName [ fhir:v "link" ] ;
        fhir:short [ fhir:v "Link or reference to the testing requirement" ] ;
        fhir:definition [ fhir:v "Link or reference providing traceability to the testing requirement for this test." ] ;
-       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestScript`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

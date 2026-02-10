@@ -52,8 +52,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.980"}
-    h3,h4,h5,h6{--heading-prefix:"7.980"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.845"}
+    h3,h4,h5,h6{--heading-prefix:"7.845"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -347,7 +347,7 @@ XML Profile
          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version Extension `R5.ObservationDefinition.component` for use in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-06T19:17:19.5427077+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-10T04:05:33.0136333+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
@@ -377,7 +377,7 @@ Across FHIR versions, the element set has been mapped as:
 *  R5: `ObservationDefinition.component` 0..* `BackboneElement`
 
 Following are the generation technical comments:
-Element `ObservationDefinition.component` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4.0.1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">mapping</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
@@ -388,7 +388,7 @@ Element `ObservationDefinition.component` is mapped to FHIR R4 structure `Observ
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.abstract">abstract</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;element&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ObservationDefinition&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Extension&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.baseDefinition">baseDefinition</a>
@@ -514,7 +514,7 @@ Element `ObservationDefinition.component` is mapped to FHIR R4 structure `Observ
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Describes what will be observed.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.code` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.code` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -705,7 +705,7 @@ Element `ObservationDefinition.component.code` is mapped to FHIR R4 structure `O
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The data types allowed for the value element of the instance of this component observations.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.permittedDataType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -897,7 +897,7 @@ Element `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Units allowed for the valueQuantity element in the instance observations conforming to this ObservationDefinition.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.permittedUnit` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1082,7 +1082,7 @@ Element `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 str
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A set of qualified values associated with a context and a set of conditions -  provides a range for quantitative and ordinal observations and a collection of value sets for qualitative observations.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.qualifiedValue` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1658,7 +1658,7 @@ Element `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 st
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Describes what will be observed.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.code` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.code` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1708,7 +1708,7 @@ Element `ObservationDefinition.component.code` is mapped to FHIR R4 structure `O
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The data types allowed for the value element of the instance of this component observations.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.permittedDataType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1759,7 +1759,7 @@ Element `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Units allowed for the valueQuantity element in the instance observations conforming to this ObservationDefinition.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.permittedUnit` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1803,7 +1803,7 @@ Element `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 str
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A set of qualified values associated with a context and a set of conditions -  provides a range for quantitative and ordinal observations and a collection of value sets for qualitative observations.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.
-Element `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.&quot;/&gt;
+Element `ObservationDefinition.component.qualifiedValue` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1915,8 +1915,8 @@ Element `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 st
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

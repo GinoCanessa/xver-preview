@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.8539102-06:00",
+  "date" : "2026-02-09T22:05:43.8875235-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Extension#Extension.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `Extension.url` is mapped to FHIR R4B element `Extension.url`."
+              "comment" : "Element `Extension.url` is mapped to FHIR R4 element `Extension.url`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Extension#Extension.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.\nElement `Extension.value[x]` is mapped to FHIR R4B element `Extension.value[x]`.\nNote that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`."
+              "comment" : "Note that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.\nElement `Extension.value[x]` is mapped to FHIR R4 element `Extension.value[x]`.\nNote that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`."
             }
           ]
         }

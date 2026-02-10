@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `BiologicallyDerived
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.BiologicallyDerivedProduct for use in FHIR R4](StructureDefinition-profile-BiologicallyDerivedProduct.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-BiologicallyDerivedProduct.property)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
   "title" : "Cross-version Extension `R5.BiologicallyDerivedProduct.property` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `BiologicallyDerivedProduct.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`BiologicallyDerivedProduct.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `BiologicallyDerivedProduct.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `BiologicallyDerivedProduct.property` is mapped to FHIR R4 structure `BiologicallyDerivedProduct`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `BiologicallyDerivedProduct.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`BiologicallyDerivedProduct.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `BiologicallyDerivedProduct.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `BiologicallyDerivedProduct.property` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "BiologicallyDerivedProduct"
     }
   ],
   "type" : "Extension",
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
         "short" : "Code that specifies the property",
         "definition" : "Code that specifies the property. It should reference an established coding system.",
         "comment" : "The element is identified by name and system URI in the type. Some types may have multiple occurrences.",
-        "requirements" : "Element `BiologicallyDerivedProduct.property.type` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.type` is mapped to FHIR R4 structure `BiologicallyDerivedProduct`, but has no target element specified.",
+        "requirements" : "Element `BiologicallyDerivedProduct.property.type` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.type` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
         "short" : "Property values",
         "definition" : "Property values.",
         "comment" : "The value should be provided as a boolean, integer, CodeableConcept, period, quantity, range, ratio, or attachment. The description can be a string only when these others are not available. The type of value will depend on the property type and is specified in ST-027.",
-        "requirements" : "Element `BiologicallyDerivedProduct.property.value[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.value[x]` is mapped to FHIR R4 structure `BiologicallyDerivedProduct`, but has no target element specified.",
+        "requirements" : "Element `BiologicallyDerivedProduct.property.value[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.value[x]` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
         "min" : 1,
         "max" : "1",
         "base" : {

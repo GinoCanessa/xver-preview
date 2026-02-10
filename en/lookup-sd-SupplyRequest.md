@@ -20,10 +20,10 @@ A computable version of the following element information is available in: [Conc
 | [`SupplyRequest.contained`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.contained](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.identifier`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.identifier](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.status`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.status](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.basedOn`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn](StructureDefinition-ext-R5-SupplyRequest.basedOn.md) |
+| [`SupplyRequest.basedOn`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn](StructureDefinition-ext-R5-SupplyRequest.basedOn.md) |
 | [`SupplyRequest.category`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.category](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.priority`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.priority](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.deliverFor`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor](StructureDefinition-ext-R5-SupplyRequest.deliverFor.md) |
+| [`SupplyRequest.deliverFor`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor](StructureDefinition-ext-R5-SupplyRequest.deliverFor.md) |
 | [`SupplyRequest.item`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.item[x]](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.quantity`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.quantity](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.parameter`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |

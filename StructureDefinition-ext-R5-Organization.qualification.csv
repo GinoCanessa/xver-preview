@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:identifier","Extension.extension","identifier","","",0,*,"","","","Extension {[]} {[]}
 ","An identifier for this qualification for the organization","An identifier allocated to this qualification for this organization.","","Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.
-Element `Organization.qualification.identifier` is mapped to FHIR R4 structure `Organization`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Organization.qualification.identifier` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:identifier.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:code","Extension.extension","code","","",1,1,"","","","Extension {[]} {[]}
 ","Coded representation of the qualification","Coded representation of the qualification.","","Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.
-Element `Organization.qualification.code` is mapped to FHIR R4 structure `Organization`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Organization.qualification.code` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -43,7 +43,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:period","Extension.extension","period","","",0,1,"","","","Extension {[]} {[]}
 ","Period during which the qualification is valid","Period during which the qualification is valid.","","Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.
-Element `Organization.qualification.period` is mapped to FHIR R4 structure `Organization`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Organization.qualification.period` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:period.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -59,7 +59,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:issuer","Extension.extension","issuer","","",0,1,"","","","Extension {[]} {[]}
 ","Organization that regulates and issues the qualification","Organization that regulates and issues the qualification.","","Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.
-Element `Organization.qualification.issuer` is mapped to FHIR R4 structure `Organization`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Organization.qualification.issuer` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:issuer.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

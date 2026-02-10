@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.9067842-06:00",
+  "date" : "2026-02-09T22:05:44.1232351-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Permission` is representable via FHIR R4B Resource `Basic`.\nElement `Permission` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Permission.meta` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.meta` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Permission.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.implicitRules` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Permission.language` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.language` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Permission.text` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.text` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Permission.contained` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.contained` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Permission.status` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.status` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:asserter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Permission.asserter` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.asserter` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:date",
               "equivalence" : "relatedto",
-              "comment" : "Element `Permission.date` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.date` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:validity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Permission.validity` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.validity` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
             }
           ]
         },
@@ -192,11 +192,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.justification",
           "display" : "justification",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:justification",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.justification` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification",
               "equivalence" : "relatedto",
@@ -209,11 +204,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basis",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:justification:basis",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.justification.basis` is part of an existing definition because parent element `Permission.justification` requires a cross-version extension.\nElement `Permission.justification.basis` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification:basis",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.justification.basis` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -224,11 +214,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.justification.evidence",
           "display" : "evidence",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:justification:evidence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.justification.evidence` is part of an existing definition because parent element `Permission.justification` requires a cross-version extension.\nElement `Permission.justification.evidence` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification:evidence",
               "equivalence" : "relatedto",
@@ -243,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:combining",
               "equivalence" : "relatedto",
-              "comment" : "Element `Permission.combining` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
+              "comment" : "Element `Permission.combining` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
             }
           ]
         },
@@ -251,11 +236,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule",
           "display" : "rule",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped.Note that the child extension for element `type` is a modifier, so this extension needs to be defined as a modifier."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule",
               "equivalence" : "relatedto",
@@ -268,11 +248,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.type` is part of an existing definition because parent element `Permission.rule` requires a cross-version extension.\nElement `Permission.rule.type` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:type",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.type` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -283,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule.data",
           "display" : "data",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data` is part of an existing definition because parent element `Permission.rule` requires a cross-version extension.\nElement `Permission.rule.data` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data",
               "equivalence" : "relatedto",
@@ -300,11 +270,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "resource",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data:resource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data.resource` is part of an existing definition because parent element `Permission.rule.data` requires a cross-version extension.\nElement `Permission.rule.data.resource` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.data.resource` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -315,11 +280,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule.data.resource.meaning",
           "display" : "meaning",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data:resource:meaning",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data.resource.meaning` is part of an existing definition because parent element `Permission.rule.data.resource` requires a cross-version extension.\nElement `Permission.rule.data.resource.meaning` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource:meaning",
               "equivalence" : "relatedto",
@@ -332,11 +292,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data:resource:reference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data.resource.reference` is part of an existing definition because parent element `Permission.rule.data.resource` requires a cross-version extension.\nElement `Permission.rule.data.resource.reference` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource:reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.data.resource.reference` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -347,11 +302,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule.data.security",
           "display" : "security",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data:security",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data.security` is part of an existing definition because parent element `Permission.rule.data` requires a cross-version extension.\nElement `Permission.rule.data.security` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data:security",
               "equivalence" : "relatedto",
@@ -364,11 +314,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "period",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data.period` is part of an existing definition because parent element `Permission.rule.data` requires a cross-version extension.\nElement `Permission.rule.data.period` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data:period",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.data.period` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -379,11 +324,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule.data.expression",
           "display" : "expression",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:data:expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.data.expression` is part of an existing definition because parent element `Permission.rule.data` requires a cross-version extension.\nElement `Permission.rule.data.expression` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data:expression",
               "equivalence" : "relatedto",
@@ -396,11 +336,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "activity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:activity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.activity` is part of an existing definition because parent element `Permission.rule` requires a cross-version extension.\nElement `Permission.rule.activity` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.activity` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -411,11 +346,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule.activity.actor",
           "display" : "actor",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:activity:actor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.activity.actor` is part of an existing definition because parent element `Permission.rule.activity` requires a cross-version extension.\nElement `Permission.rule.activity.actor` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity:actor",
               "equivalence" : "relatedto",
@@ -428,11 +358,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "action",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:activity:action",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.activity.action` is part of an existing definition because parent element `Permission.rule.activity` requires a cross-version extension.\nElement `Permission.rule.activity.action` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity:action",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.activity.action` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -444,11 +369,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:activity:purpose",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.activity.purpose` is part of an existing definition because parent element `Permission.rule.activity` requires a cross-version extension.\nElement `Permission.rule.activity.purpose` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity:purpose",
               "equivalence" : "relatedto",
               "comment" : "Element `Permission.rule.activity.purpose` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
@@ -459,11 +379,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Permission.rule.limit",
           "display" : "limit",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:rule:limit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Permission.rule.limit` is part of an existing definition because parent element `Permission.rule` requires a cross-version extension.\nElement `Permission.rule.limit` is not mapped to FHIR R4B, since FHIR R5 `Permission` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission:http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule:limit",
               "equivalence" : "relatedto",

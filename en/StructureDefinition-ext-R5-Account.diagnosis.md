@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Account.diagnosis` 
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Account for use in FHIR R4](StructureDefinition-profile-Account.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Account.diagnosis)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
   "title" : "Cross-version Extension `R5.Account.diagnosis` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.diagnosis` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.diagnosis` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.diagnosis` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.diagnosis` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.diagnosis` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.diagnosis` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.diagnosis` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.diagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Account"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "sequence",
         "short" : "Ranking of the diagnosis (for each type)",
         "definition" : "Ranking of the diagnosis (for each type).",
-        "requirements" : "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "condition",
         "short" : "The diagnosis relevant to the account",
         "definition" : "The diagnosis relevant to the account.",
-        "requirements" : "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -358,7 +358,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -430,7 +430,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "dateOfDiagnosis",
         "short" : "Date of the diagnosis (when coded diagnosis)",
         "definition" : "Ranking of the diagnosis (for each type).",
-        "requirements" : "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -475,7 +475,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "type",
         "short" : "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …)",
         "definition" : "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …).",
-        "requirements" : "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -520,7 +520,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "onAdmission",
         "short" : "Diagnosis present on Admission",
         "definition" : "Was the Diagnosis present on Admission in the related Encounter.",
-        "requirements" : "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -565,7 +565,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "packageCode",
         "short" : "Package Code specific for billing",
         "definition" : "The package code can be used to group diagnoses that may be priced or delivered as a single product. Such as DRGs.",
-        "requirements" : "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {

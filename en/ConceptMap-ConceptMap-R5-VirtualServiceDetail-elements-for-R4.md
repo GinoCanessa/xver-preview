@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.9208822-06:00",
+  "date" : "2026-02-09T22:05:44.3618514-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `VirtualServiceDetail` is representable via FHIR R4B extensions.\nElement `VirtualServiceDetail` is not mapped to FHIR R4B, since FHIR R5 `VirtualServiceDetail` is not mapped."
+              "comment" : "Element `VirtualServiceDetail` is not mapped to FHIR R4, since FHIR R5 `VirtualServiceDetail` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail:channelType",
               "equivalence" : "relatedto",
-              "comment" : "Element `VirtualServiceDetail.channelType` is not mapped to FHIR R4B, since FHIR R5 `VirtualServiceDetail` is not mapped."
+              "comment" : "Element `VirtualServiceDetail.channelType` is not mapped to FHIR R4, since FHIR R5 `VirtualServiceDetail` is not mapped."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail:address",
               "equivalence" : "relatedto",
-              "comment" : "Element `VirtualServiceDetail.address[x]` is not mapped to FHIR R4B, since FHIR R5 `VirtualServiceDetail` is not mapped."
+              "comment" : "Element `VirtualServiceDetail.address[x]` is not mapped to FHIR R4, since FHIR R5 `VirtualServiceDetail` is not mapped."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail:additionalInfo",
               "equivalence" : "relatedto",
-              "comment" : "Element `VirtualServiceDetail.additionalInfo` is not mapped to FHIR R4B, since FHIR R5 `VirtualServiceDetail` is not mapped."
+              "comment" : "Element `VirtualServiceDetail.additionalInfo` is not mapped to FHIR R4, since FHIR R5 `VirtualServiceDetail` is not mapped."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail:maxParticipants",
               "equivalence" : "relatedto",
-              "comment" : "Element `VirtualServiceDetail.maxParticipants` is not mapped to FHIR R4B, since FHIR R5 `VirtualServiceDetail` is not mapped."
+              "comment" : "Element `VirtualServiceDetail.maxParticipants` is not mapped to FHIR R4, since FHIR R5 `VirtualServiceDetail` is not mapped."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail:sessionKey",
               "equivalence" : "relatedto",
-              "comment" : "Element `VirtualServiceDetail.sessionKey` is not mapped to FHIR R4B, since FHIR R5 `VirtualServiceDetail` is not mapped."
+              "comment" : "Element `VirtualServiceDetail.sessionKey` is not mapped to FHIR R4, since FHIR R5 `VirtualServiceDetail` is not mapped."
             }
           ]
         }

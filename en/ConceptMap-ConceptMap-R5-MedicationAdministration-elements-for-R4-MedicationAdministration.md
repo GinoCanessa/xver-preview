@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.3575722-06:00",
+  "date" : "2026-02-09T22:05:44.0058898-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `MedicationAdministration` is representable via FHIR R4B Resource `MedicationAdministration`.\nElement `MedicationAdministration` is mapped to FHIR R4B element `MedicationAdministration`."
+              "comment" : "FHIR R5 Resource `MedicationAdministration` is representable via FHIR R4 Resource `MedicationAdministration`.\nElement `MedicationAdministration` is mapped to FHIR R4 element `MedicationAdministration`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.meta` is mapped to FHIR R4B element `MedicationAdministration.meta`."
+              "comment" : "Element `MedicationAdministration.meta` is mapped to FHIR R4 element `MedicationAdministration.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.implicitRules` is mapped to FHIR R4B element `MedicationAdministration.implicitRules`."
+              "comment" : "Element `MedicationAdministration.implicitRules` is mapped to FHIR R4 element `MedicationAdministration.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.language` is mapped to FHIR R4B element `MedicationAdministration.language`."
+              "comment" : "Element `MedicationAdministration.language` is mapped to FHIR R4 element `MedicationAdministration.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.text` is mapped to FHIR R4B element `MedicationAdministration.text`."
+              "comment" : "Element `MedicationAdministration.text` is mapped to FHIR R4 element `MedicationAdministration.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.contained` is mapped to FHIR R4B element `MedicationAdministration.contained`."
+              "comment" : "Element `MedicationAdministration.contained` is mapped to FHIR R4 element `MedicationAdministration.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.identifier` is mapped to FHIR R4B element `MedicationAdministration.identifier`."
+              "comment" : "Element `MedicationAdministration.identifier` is mapped to FHIR R4 element `MedicationAdministration.identifier`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.basedOn",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.basedOn` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationAdministration.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationAdministration.basedOn` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`."
             }
           ]
         },
@@ -173,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.partOf` is mapped to FHIR R4B element `MedicationAdministration.partOf`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.partOf",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.partOf` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationAdministration.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationAdministration.partOf` is mapped to FHIR R4 element `MedicationAdministration.partOf`."
             }
           ]
         },
@@ -189,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.status` is mapped to FHIR R4B element `MedicationAdministration.status`."
+              "comment" : "Element `MedicationAdministration.status` is mapped to FHIR R4 element `MedicationAdministration.status`."
             }
           ]
         },
@@ -200,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.statusReason` is mapped to FHIR R4B element `MedicationAdministration.statusReason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.statusReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.statusReason` is mapped to FHIR STU3 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.statusReason` is mapped to FHIR R4 element `MedicationAdministration.statusReason`."
             }
           ]
         },
@@ -216,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.category` is mapped to FHIR R4B element `MedicationAdministration.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.category` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.category` is mapped to FHIR R4 element `MedicationAdministration.category`."
             }
           ]
         },
@@ -232,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.medication[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.medication` is mapped to FHIR R4B element `MedicationAdministration.medication[x]`.\nNote that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`."
+              "comment" : "Note that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.medication` is mapped to FHIR R4 element `MedicationAdministration.medication[x]`.\nNote that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`."
             }
           ]
         },
@@ -243,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.subject` is mapped to FHIR R4B element `MedicationAdministration.subject`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MedicationAdministration.subject` is mapped to FHIR DSTU2 element `MedicationAdministration.patient`."
+              "comment" : "Element `MedicationAdministration.subject` is mapped to FHIR R4 element `MedicationAdministration.subject`."
             }
           ]
         },
@@ -259,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.context",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.encounter` is mapped to FHIR R4B element `MedicationAdministration.context`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.encounter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.encounter` is mapped to FHIR DSTU2 element `MedicationAdministration.encounter`."
+              "comment" : "Element `MedicationAdministration.encounter` is mapped to FHIR R4 element `MedicationAdministration.context`."
             }
           ]
         },
@@ -275,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.supportingInformation",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.supportingInformation` is mapped to FHIR R4B element `MedicationAdministration.supportingInformation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.supportingInformation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.supportingInformation` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.supportingInformation` is mapped to FHIR R4 element `MedicationAdministration.supportingInformation`."
             }
           ]
         },
@@ -291,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.effective[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR R4B element `MedicationAdministration.effective[x]`.\nNote that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.effectiveTime[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationAdministration.effectiveTime[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR DSTU2 element `MedicationAdministration.effectiveTime[x]`.\nNote that the target element context `MedicationAdministration.effectiveTime[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`."
+              "comment" : "Note that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR R4 element `MedicationAdministration.effective[x]`.\nNote that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`."
             }
           ]
         },
@@ -305,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recorded",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.recorded",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.recorded` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.recorded` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`."
             }
           ]
         },
@@ -316,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "isSubPotent",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.isSubPotent",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.isSubPotent` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.isSubPotent` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`."
             }
           ]
         },
@@ -327,9 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subPotentReason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.subPotentReason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.subPotentReason` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.subPotentReason` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`."
             }
           ]
         },
@@ -340,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.performer` is mapped to FHIR R4B element `MedicationAdministration.performer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.practitioner",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.performer` is mapped to FHIR DSTU2 element `MedicationAdministration.practitioner`."
+              "comment" : "Element `MedicationAdministration.performer` is mapped to FHIR R4 element `MedicationAdministration.performer`."
             }
           ]
         },
@@ -356,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer.function",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.performer.function` is mapped to FHIR R4B element `MedicationAdministration.performer.function`."
-            },
-            {
-              "code" : "function",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.performer.function` is mapped to FHIR STU3 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.performer.function` is mapped to FHIR R4 element `MedicationAdministration.performer.function`."
             }
           ]
         },
@@ -372,12 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.performer.actor` is mapped to FHIR R4B element `MedicationAdministration.performer.actor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.practitioner",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.performer.actor` is mapped to FHIR DSTU2 element `MedicationAdministration.practitioner`."
+              "comment" : "Element `MedicationAdministration.performer.actor` is mapped to FHIR R4 element `MedicationAdministration.performer.actor`."
             }
           ]
         },
@@ -388,22 +338,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonReference`."
+              "comment" : "Element `MedicationAdministration.reason` is mapped to FHIR R4 element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4 element `MedicationAdministration.reasonReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonNotGiven",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonNotGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonGiven",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.reason` is mapped to FHIR DSTU2 element `MedicationAdministration.reasonNotGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR DSTU2 element `MedicationAdministration.reasonGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.reason` is mapped to FHIR R4 element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4 element `MedicationAdministration.reasonReference`."
             }
           ]
         },
@@ -414,12 +354,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.request` is mapped to FHIR R4B element `MedicationAdministration.request`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.prescription",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.request` is mapped to FHIR STU3 element `MedicationAdministration.prescription`."
+              "comment" : "Element `MedicationAdministration.request` is mapped to FHIR R4 element `MedicationAdministration.request`."
             }
           ]
         },
@@ -430,7 +365,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.device",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.device` is mapped to FHIR R4B element `MedicationAdministration.device`."
+              "comment" : "Element `MedicationAdministration.device` is mapped to FHIR R4 element `MedicationAdministration.device`."
             }
           ]
         },
@@ -441,7 +376,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.note` is mapped to FHIR R4B element `MedicationAdministration.note`."
+              "comment" : "Element `MedicationAdministration.note` is mapped to FHIR R4 element `MedicationAdministration.note`."
             }
           ]
         },
@@ -452,7 +387,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage` is mapped to FHIR R4B element `MedicationAdministration.dosage`."
+              "comment" : "Element `MedicationAdministration.dosage` is mapped to FHIR R4 element `MedicationAdministration.dosage`."
             }
           ]
         },
@@ -463,7 +398,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage.text` is mapped to FHIR R4B element `MedicationAdministration.dosage.text`."
+              "comment" : "Element `MedicationAdministration.dosage.text` is mapped to FHIR R4 element `MedicationAdministration.dosage.text`."
             }
           ]
         },
@@ -474,12 +409,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.site",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage.site` is mapped to FHIR R4B element `MedicationAdministration.dosage.site`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.site[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationAdministration.dosage.site[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.site` is mapped to FHIR DSTU2 element `MedicationAdministration.dosage.site[x]`.\nNote that the target element context `MedicationAdministration.dosage.site[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`."
+              "comment" : "Element `MedicationAdministration.dosage.site` is mapped to FHIR R4 element `MedicationAdministration.dosage.site`."
             }
           ]
         },
@@ -490,7 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.route",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage.route` is mapped to FHIR R4B element `MedicationAdministration.dosage.route`."
+              "comment" : "Element `MedicationAdministration.dosage.route` is mapped to FHIR R4 element `MedicationAdministration.dosage.route`."
             }
           ]
         },
@@ -501,7 +431,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage.method` is mapped to FHIR R4B element `MedicationAdministration.dosage.method`."
+              "comment" : "Element `MedicationAdministration.dosage.method` is mapped to FHIR R4 element `MedicationAdministration.dosage.method`."
             }
           ]
         },
@@ -512,12 +442,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.dose",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage.dose` is mapped to FHIR R4B element `MedicationAdministration.dosage.dose`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.dosage.dose` is mapped to FHIR DSTU2 element `MedicationAdministration.dosage.quantity`."
+              "comment" : "Element `MedicationAdministration.dosage.dose` is mapped to FHIR R4 element `MedicationAdministration.dosage.dose`."
             }
           ]
         },
@@ -528,7 +453,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.rate[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.rate[x]` is mapped to FHIR R4B element `MedicationAdministration.dosage.rate[x]`.\nNote that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`."
+              "comment" : "Note that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.rate[x]` is mapped to FHIR R4 element `MedicationAdministration.dosage.rate[x]`.\nNote that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`."
             }
           ]
         },
@@ -539,12 +464,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.eventHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.eventHistory` is mapped to FHIR R4B element `MedicationAdministration.eventHistory`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.eventHistory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationAdministration.eventHistory` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified."
+              "comment" : "Element `MedicationAdministration.eventHistory` is mapped to FHIR R4 element `MedicationAdministration.eventHistory`."
             }
           ]
         }

@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "title" : "Cross-version Extension `R5.MedicationKnowledge.packaging` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "cost",
         "short" : "Cost of the packaged medication",
         "definition" : "The cost of the packaged medication.",
-        "requirements" : "Element `MedicationKnowledge.packaging.cost` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -222,7 +222,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "packagedProduct",
         "short" : "The packaged medication that is being priced",
         "definition" : "A reference to a PackagedProductDefinition that provides the details of the product that is in the packaging and is being priced.",
-        "requirements" : "Element `MedicationKnowledge.packaging.packagedProduct` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "1",
         "base" : {

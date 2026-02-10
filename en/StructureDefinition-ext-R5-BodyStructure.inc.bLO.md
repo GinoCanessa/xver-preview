@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `BodyStructure.inclu
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.BodyStructure for use in FHIR R4](StructureDefinition-profile-BodyStructure.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-BodyStructure.inc.bLO)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
   "title" : "Cross-version Extension `R5.BodyStructure.includedStructure.bodyLandmarkOrientation` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `BodyStructure.includedStructure.bodyLandmarkOrientation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`BodyStructure.includedStructure.bodyLandmarkOrientation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `BodyStructure.includedStructure.bodyLandmarkOrientation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `BodyStructure.includedStructure.bodyLandmarkOrientation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`BodyStructure.includedStructure.bodyLandmarkOrientation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `BodyStructure.includedStructure.bodyLandmarkOrientation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "BodyStructure"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "landmarkDescription",
         "short" : "Body ]andmark description",
         "definition" : "A description of a landmark on the body used as a reference to locate something else.",
-        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "clockFacePosition",
         "short" : "Clockface orientation",
         "definition" : "An description of the direction away from a landmark something is located based on a radial clock dial.",
-        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "distanceFromLandmark",
         "short" : "Landmark relative location",
         "definition" : "The distance in centimeters a certain observation is made from a body landmark.",
-        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -315,7 +315,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "device",
         "short" : "Measurement device",
         "definition" : "An instrument, tool, analyzer, etc. used in the measurement.",
-        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -395,7 +395,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -444,7 +444,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -516,7 +516,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "value",
         "short" : "Measured distance from body landmark",
         "definition" : "The measured distance (e.g., in cm) from a body landmark.",
-        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -584,7 +584,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-BodyStruct
         "sliceName" : "surfaceOrientation",
         "short" : "Relative landmark surface orientation",
         "definition" : "The surface area a body location is in relation to a landmark.",
-        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified.",
+        "requirements" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
         "min" : 0,
         "max" : "*",
         "base" : {

@@ -431,6 +431,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:relatesTo.extension:target.extension:resource","Extension.extension.extension.extension","resource","","",0,1,"","","","Extension {[]} {[]}
 ","Target of the relationship Resource reference","Target of the relationship Resource reference.","","Element `EvidenceReport.relatesTo.target.resource` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceReport.relatesTo.target.resource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:relatesTo.extension:target.extension:resource.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}

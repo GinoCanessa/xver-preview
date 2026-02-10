@@ -61,7 +61,7 @@
   "title" : "Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [{
     "name" : "FHIR Infrastructure",
@@ -206,7 +206,7 @@
       "sliceName" : "linkId",
       "short" : "Pointer to specific item from the PlanDefinition",
       "definition" : "The linkId of the action from the PlanDefinition that corresponds to this action in the RequestOrchestration resource.",
-      "requirements" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1583,7 +1583,7 @@
       "sliceName" : "goal",
       "short" : "What goals",
       "definition" : "Goals that are intended to be achieved by following the requests in this action.",
-      "requirements" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.goal` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -2420,7 +2420,7 @@
       "sliceName" : "input",
       "short" : "Input data requirements",
       "definition" : "Defines input data requirements for the action.",
-      "requirements" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -2526,7 +2526,7 @@
       "sliceName" : "title",
       "short" : "User-visible title",
       "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-      "requirements" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -2697,7 +2697,7 @@
       "sliceName" : "requirement",
       "short" : "What data is provided",
       "definition" : "Defines the data that is to be provided as input to the action.",
-      "requirements" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -2869,7 +2869,7 @@
       "short" : "What data is provided",
       "definition" : "Points to an existing input or output element that provides data to this input.",
       "comment" : "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action",
-      "requirements" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -3247,7 +3247,7 @@
       "sliceName" : "output",
       "short" : "Output data definition",
       "definition" : "Defines the outputs of the action, if any.",
-      "requirements" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -3353,7 +3353,7 @@
       "sliceName" : "title",
       "short" : "User-visible title",
       "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-      "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -3524,7 +3524,7 @@
       "sliceName" : "requirement",
       "short" : "What data is provided",
       "definition" : "Defines the data that results as output from the action.",
-      "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -3696,7 +3696,7 @@
       "short" : "What data is provided",
       "definition" : "Points to an existing input or output element that is results as output from the action.",
       "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-      "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -4527,7 +4527,7 @@
       "sliceName" : "endRelationship",
       "short" : "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end",
       "definition" : "The relationship of the end of this action to the related action.",
-      "requirements" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is will have a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -5272,7 +5272,7 @@
       "short" : "Where it should happen",
       "definition" : "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc.",
       "comment" : "May reference a specific clinical location or may just identify a type of location.",
-      "requirements" : "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -5550,7 +5550,7 @@
       "sliceName" : "concept",
       "short" : "Reference to a concept (by class)",
       "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -5721,7 +5721,7 @@
       "sliceName" : "reference",
       "short" : "Reference to a resource (by instance)",
       "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-      "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+      "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -6207,7 +6207,7 @@
       "sliceName" : "type",
       "short" : "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson",
       "definition" : "The type of participant in the action.",
-      "requirements" : "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -6383,7 +6383,7 @@
       "sliceName" : "typeCanonical",
       "short" : "Who or what can participate",
       "definition" : "The type of participant in the action.",
-      "requirements" : "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -6557,7 +6557,7 @@
       "short" : "Who or what can participate",
       "definition" : "The type of participant in the action.",
       "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-      "requirements" : "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -6753,7 +6753,7 @@
       "sliceName" : "role",
       "short" : "E.g. Nurse, Surgeon, Parent, etc",
       "definition" : "The role the participant should play in performing the described action.",
-      "requirements" : "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -6929,7 +6929,7 @@
       "sliceName" : "function",
       "short" : "E.g. Author, Reviewer, Witness, etc",
       "definition" : "Indicates how the actor will be involved in the action - author, reviewer, witness, etc.",
-      "requirements" : "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -7100,7 +7100,7 @@
       "sliceName" : "actor",
       "short" : "Who/what is participating?",
       "definition" : "A reference to the actual participant.",
-      "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -8738,7 +8738,7 @@
       "short" : "Description of the activity to be performed",
       "definition" : "A reference to an ActivityDefinition that describes the action to be taken in detail, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured.",
       "comment" : "Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically.",
-      "requirements" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -8924,7 +8924,7 @@
       "short" : "Transform to apply the template",
       "definition" : "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input.",
       "comment" : "Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-      "requirements" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.transform` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -9099,7 +9099,7 @@
       "short" : "Dynamic aspects of the definition",
       "definition" : "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result.",
       "comment" : "Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -9206,7 +9206,7 @@
       "short" : "The path to the element to be set dynamically",
       "definition" : "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details).",
       "comment" : "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -9379,7 +9379,7 @@
       "short" : "An expression that provides the dynamic value for the customization",
       "definition" : "An expression specifying the value of the customized element.",
       "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -10316,7 +10316,7 @@
       "sliceName" : "linkId",
       "short" : "Pointer to specific item from the PlanDefinition",
       "definition" : "The linkId of the action from the PlanDefinition that corresponds to this action in the RequestOrchestration resource.",
-      "requirements" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -10669,7 +10669,7 @@
       "sliceName" : "goal",
       "short" : "What goals",
       "definition" : "Goals that are intended to be achieved by following the requests in this action.",
-      "requirements" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.goal` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -10867,7 +10867,7 @@
       "sliceName" : "input",
       "short" : "Input data requirements",
       "definition" : "Defines input data requirements for the action.",
-      "requirements" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -10901,7 +10901,7 @@
       "sliceName" : "title",
       "short" : "User-visible title",
       "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-      "requirements" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -10944,7 +10944,7 @@
       "sliceName" : "requirement",
       "short" : "What data is provided",
       "definition" : "Defines the data that is to be provided as input to the action.",
-      "requirements" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -10988,7 +10988,7 @@
       "short" : "What data is provided",
       "definition" : "Points to an existing input or output element that provides data to this input.",
       "comment" : "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action",
-      "requirements" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11055,7 +11055,7 @@
       "sliceName" : "output",
       "short" : "Output data definition",
       "definition" : "Defines the outputs of the action, if any.",
-      "requirements" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -11089,7 +11089,7 @@
       "sliceName" : "title",
       "short" : "User-visible title",
       "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-      "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11132,7 +11132,7 @@
       "sliceName" : "requirement",
       "short" : "What data is provided",
       "definition" : "Defines the data that results as output from the action.",
-      "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11176,7 +11176,7 @@
       "short" : "What data is provided",
       "definition" : "Points to an existing input or output element that is results as output from the action.",
       "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-      "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11368,7 +11368,7 @@
       "sliceName" : "endRelationship",
       "short" : "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end",
       "definition" : "The relationship of the end of this action to the related action.",
-      "requirements" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is will have a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11546,7 +11546,7 @@
       "short" : "Where it should happen",
       "definition" : "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc.",
       "comment" : "May reference a specific clinical location or may just identify a type of location.",
-      "requirements" : "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11622,7 +11622,7 @@
       "sliceName" : "concept",
       "short" : "Reference to a concept (by class)",
       "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11665,7 +11665,7 @@
       "sliceName" : "reference",
       "short" : "Reference to a resource (by instance)",
       "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-      "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+      "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11768,7 +11768,7 @@
       "sliceName" : "type",
       "short" : "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson",
       "definition" : "The type of participant in the action.",
-      "requirements" : "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11816,7 +11816,7 @@
       "sliceName" : "typeCanonical",
       "short" : "Who or what can participate",
       "definition" : "The type of participant in the action.",
-      "requirements" : "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11862,7 +11862,7 @@
       "short" : "Who or what can participate",
       "definition" : "The type of participant in the action.",
       "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-      "requirements" : "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11930,7 +11930,7 @@
       "sliceName" : "role",
       "short" : "E.g. Nurse, Surgeon, Parent, etc",
       "definition" : "The role the participant should play in performing the described action.",
-      "requirements" : "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -11978,7 +11978,7 @@
       "sliceName" : "function",
       "short" : "E.g. Author, Reviewer, Witness, etc",
       "definition" : "Indicates how the actor will be involved in the action - author, reviewer, witness, etc.",
-      "requirements" : "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -12021,7 +12021,7 @@
       "sliceName" : "actor",
       "short" : "Who/what is participating?",
       "definition" : "A reference to the actual participant.",
-      "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -12452,7 +12452,7 @@
       "short" : "Description of the activity to be performed",
       "definition" : "A reference to an ActivityDefinition that describes the action to be taken in detail, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured.",
       "comment" : "Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically.",
-      "requirements" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -12510,7 +12510,7 @@
       "short" : "Transform to apply the template",
       "definition" : "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input.",
       "comment" : "Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-      "requirements" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.transform` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -12557,7 +12557,7 @@
       "short" : "Dynamic aspects of the definition",
       "definition" : "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result.",
       "comment" : "Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -12592,7 +12592,7 @@
       "short" : "The path to the element to be set dynamically",
       "definition" : "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details).",
       "comment" : "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -12637,7 +12637,7 @@
       "short" : "An expression that provides the dynamic value for the customization",
       "definition" : "An expression specifying the value of the customized element.",
       "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+      "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
       "min" : 0,
       "max" : "1",
       "base" : {

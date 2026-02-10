@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
   "title" : "Cross-version Profile for R5.MedicationStatement for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7386073-06:00",
+  "date" : "2026-02-09T22:05:43.2101026-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -161,7 +161,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
@@ -170,9 +170,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationStatement.extension",
+        "id" : "MedicationStatement.extension:effective",
         "path" : "MedicationStatement.extension",
+        "sliceName" : "effective",
         "short" : "Cross-version extension for MedicationStatement.effective[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` is mapped to FHIR R4 element `MedicationStatement.effective[x]`.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -185,6 +187,73 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.effective|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationStatement.extension:renderedDosageInstruction",
+        "path" : "MedicationStatement.extension",
+        "sliceName" : "renderedDosageInstruction",
+        "short" : "Cross-version extension for MedicationStatement.renderedDosageInstruction from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationStatement.renderedDosageInstruction` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.renderedDosageInstruction|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationStatement.extension:adherence",
+        "path" : "MedicationStatement.extension",
+        "sliceName" : "adherence",
+        "short" : "Cross-version extension for MedicationStatement.adherence from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationStatement.adherence` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationStatement.extension:relatedClinicalInformation",
+        "path" : "MedicationStatement.extension",
+        "sliceName" : "relatedClinicalInformation",
+        "short" : "Cross-version extension for MedicationStatement.relatedClinicalInformation from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Condition,http://hl7.org/fhir/StructureDefinition/Observation in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

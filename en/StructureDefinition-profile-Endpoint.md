@@ -7,7 +7,7 @@ This cross-version profile allows R5 Endpoint content to be represented via FHIR
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.par.typeReference.md), [Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.agent.md), [Cross-version Extension `R5.Communication.recipient` for use in FHIR R4](StructureDefinition-ext-R5-Communication.recipient.md), [Cross-version Extension `R5.Communication.sender` for use in FHIR R4](StructureDefinition-ext-R5-Communication.sender.md)... Show 11 more, [Cross-version Extension `R5.CommunicationRequest.informationProvider` for use in FHIR R4](StructureDefinition-ext-R5-CommunicationRequest.informationProvider.md), [Cross-version Extension `R5.CommunicationRequest.recipient` for use in FHIR R4](StructureDefinition-ext-R5-CommunicationRequest.recipient.md), [Cross-version Extension `R5.Device.endpoint` for use in FHIR R4](StructureDefinition-ext-R5-Device.endpoint.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.MessageHeader.destination.endpoint[x]` for use in FHIR R4](StructureDefinition-ext-R5-MessageHeader.des.endpoint.md), [Cross-version Extension `R5.MessageHeader.source.endpoint[x]` for use in FHIR R4](StructureDefinition-ext-R5-MessageHeader.sou.endpoint.md), [Cross-version Extension `R5.PlanDefinition.action.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.par.typeReference.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.agent.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.MessageHeader.destination.endpoint[x]` for use in FHIR R4](StructureDefinition-ext-R5-MessageHeader.des.endpoint.md), [Cross-version Extension `R5.MessageHeader.source.endpoint[x]` for use in FHIR R4](StructureDefinition-ext-R5-MessageHeader.sou.endpoint.md)... Show 4 more, [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Endpoint)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Endpoint.
   "title" : "Cross-version Profile for R5.Endpoint for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6825675-06:00",
+  "date" : "2026-02-09T22:05:43.0985026-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -139,6 +139,93 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Endpoint.
         "path" : "Endpoint"
       },
       {
+        "id" : "Endpoint.extension",
+        "path" : "Endpoint.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Endpoint.extension:description",
+        "path" : "Endpoint.extension",
+        "sliceName" : "description",
+        "short" : "Cross-version extension for Endpoint.description from R5 for use in FHIR R4",
+        "comment" : "Element `Endpoint.description` is will have a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Endpoint.extension:environmentType",
+        "path" : "Endpoint.extension",
+        "sliceName" : "environmentType",
+        "short" : "Cross-version extension for Endpoint.environmentType from R5 for use in FHIR R4",
+        "comment" : "Element `Endpoint.environmentType` is will have a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Endpoint.extension:type",
+        "path" : "Endpoint.extension",
+        "sliceName" : "type",
+        "short" : "Cross-version extension for Endpoint.payload.type from R5 for use in FHIR R4",
+        "comment" : "Element `Endpoint.payload.type` is will have a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Endpoint.connectionType.extension",
         "path" : "Endpoint.connectionType.extension",
         "slicing" : {
@@ -160,9 +247,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Endpoint.
         }
       },
       {
-        "id" : "Endpoint.connectionType.extension",
+        "id" : "Endpoint.connectionType.extension:connectionType",
         "path" : "Endpoint.connectionType.extension",
+        "sliceName" : "connectionType",
         "short" : "Cross-version extension for Endpoint.connectionType from R5 for use in FHIR R4",
+        "comment" : "Element `Endpoint.connectionType` is mapped to FHIR R4 element `Endpoint.connectionType`.",
         "min" : 1,
         "max" : "*",
         "base" : {

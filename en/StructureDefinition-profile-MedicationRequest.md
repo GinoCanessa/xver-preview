@@ -7,7 +7,7 @@ This cross-version profile allows R5 MedicationRequest content to be represented
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md), [Cross-version Extension `R5.Appointment.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.basedOn.md), [Cross-version Extension `R5.AuditEvent.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.basedOn.md)... Show 12 more, [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.Claim.item.request` for use in FHIR R4](StructureDefinition-ext-R5-Claim.ite.request.md), [Cross-version Extension `R5.ClaimResponse.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.add.request.md), [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md), [Cross-version Extension `R5.Encounter.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.basedOn.md), [Cross-version Extension `R5.ExplanationOfBenefit.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.add.request.md), [Cross-version Extension `R5.ExplanationOfBenefit.item.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.ite.request.md), [Cross-version Extension `R5.Goal.addresses` for use in FHIR R4](StructureDefinition-ext-R5-Goal.addresses.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md), [Cross-version Extension `R5.Immunization.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.basedOn.md), [Cross-version Extension `R5.Provenance.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Provenance.basedOn.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-MedicationRequest)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
   "title" : "Cross-version Profile for R5.MedicationRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7366883-06:00",
+  "date" : "2026-02-09T22:05:43.2078076-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,138 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "path" : "MedicationRequest"
       },
       {
+        "id" : "MedicationRequest.extension",
+        "path" : "MedicationRequest.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MedicationRequest.extension:statusChanged",
+        "path" : "MedicationRequest.extension",
+        "sliceName" : "statusChanged",
+        "short" : "Cross-version extension for MedicationRequest.statusChanged from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationRequest.statusChanged` is will have a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.statusChanged|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationRequest.extension:device",
+        "path" : "MedicationRequest.extension",
+        "sliceName" : "device",
+        "short" : "Cross-version extension for MedicationRequest.device from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationRequest.device` is will have a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.device|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationRequest.extension:renderedDosageInstruction",
+        "path" : "MedicationRequest.extension",
+        "sliceName" : "renderedDosageInstruction",
+        "short" : "Cross-version extension for MedicationRequest.renderedDosageInstruction from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationRequest.renderedDosageInstruction` is will have a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationRequest.extension:effectiveDosePeriod",
+        "path" : "MedicationRequest.extension",
+        "sliceName" : "effectiveDosePeriod",
+        "short" : "Cross-version extension for MedicationRequest.effectiveDosePeriod from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationRequest.effectiveDosePeriod` is will have a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationRequest.extension:informationSource",
+        "path" : "MedicationRequest.extension",
+        "sliceName" : "informationSource",
+        "short" : "Cross-version extension for MedicationRequest.informationSource from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationRequest.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationRequest.informationSource` is will have a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "MedicationRequest.status.extension",
         "path" : "MedicationRequest.status.extension",
         "slicing" : {
@@ -175,9 +307,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationRequest.status.extension",
+        "id" : "MedicationRequest.status.extension:status",
         "path" : "MedicationRequest.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for MedicationRequest.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `MedicationRequest.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `MedicationRequest.status` is mapped to FHIR R4 element `MedicationRequest.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -207,7 +341,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "MedicationRequest.performer",
@@ -216,9 +350,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationRequest.performer.extension",
+        "id" : "MedicationRequest.performer.extension:performer",
         "path" : "MedicationRequest.performer.extension",
+        "sliceName" : "performer",
         "short" : "Cross-version extension for MedicationRequest.performer from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DeviceDefinition,http://hl7.org/fhir/StructureDefinition/HealthcareService in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationRequest.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationRequest.performer` is mapped to FHIR R4 element `MedicationRequest.performer`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -230,7 +367,72 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.performer|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationRequest.dispenseRequest.extension",
+        "path" : "MedicationRequest.dispenseRequest.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MedicationRequest.dispenseRequest.extension:dispenserInstruction",
+        "path" : "MedicationRequest.dispenseRequest.extension",
+        "sliceName" : "dispenserInstruction",
+        "short" : "Cross-version extension for MedicationRequest.dispenseRequest.dispenserInstruction from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationRequest.dispenseRequest.dispenserInstruction` is will have a context of MedicationRequest.dispenseRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenserInstruction|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationRequest.dispenseRequest.extension:doseAdministrationAid",
+        "path" : "MedicationRequest.dispenseRequest.extension",
+        "sliceName" : "doseAdministrationAid",
+        "short" : "Cross-version extension for MedicationRequest.dispenseRequest.doseAdministrationAid from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationRequest.dispenseRequest.doseAdministrationAid` is will have a context of MedicationRequest.dispenseRequest based on following the parent source element upwards and mapping to `MedicationRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.doseAdministrationAid|0.0.1-snapshot-3"
             ]
           }
         ]

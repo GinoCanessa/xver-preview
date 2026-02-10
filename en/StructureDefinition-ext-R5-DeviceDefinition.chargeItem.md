@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DeviceDefinition.ch
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.DeviceDefinition for use in FHIR R4](StructureDefinition-profile-DeviceDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DeviceDefinition.chargeItem)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "title" : "Cross-version Extension `R5.DeviceDefinition.chargeItem` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.chargeItem` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.chargeItem` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.chargeItem` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.chargeItem` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.chargeItem` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.chargeItem` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.chargeItem` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.chargeItem` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "DeviceDefinition"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "chargeItemCode",
         "short" : "The code or reference for the charge item",
         "definition" : "The code or reference for the charge item.",
-        "requirements" : "Element `DeviceDefinition.chargeItem.chargeItemCode` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.chargeItemCode` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.chargeItem.chargeItemCode` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.chargeItemCode` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -264,7 +264,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -381,7 +381,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "count",
         "short" : "Coefficient applicable to the billing code",
         "definition" : "Coefficient applicable to the billing code.",
-        "requirements" : "Element `DeviceDefinition.chargeItem.count` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.chargeItem.count` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -426,7 +426,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "effectivePeriod",
         "short" : "A specific time period in which this charge item applies",
         "definition" : "A specific time period in which this charge item applies.",
-        "requirements" : "Element `DeviceDefinition.chargeItem.effectivePeriod` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.effectivePeriod` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.chargeItem.effectivePeriod` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.effectivePeriod` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -471,7 +471,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "useContext",
         "short" : "The context to which this charge item applies",
         "definition" : "The context to which this charge item applies.",
-        "requirements" : "Element `DeviceDefinition.chargeItem.useContext` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.useContext` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.chargeItem.useContext` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.useContext` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {

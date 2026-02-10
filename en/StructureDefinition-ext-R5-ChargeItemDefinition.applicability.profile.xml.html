@@ -52,8 +52,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.362"}
-    h3,h4,h5,h6{--heading-prefix:"7.362"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.333"}
+    h3,h4,h5,h6{--heading-prefix:"7.333"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -344,7 +344,7 @@ XML Profile
          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version Extension `R5.ChargeItemDefinition.applicability` for use in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-06T19:17:19.5427077+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-10T04:05:33.0136333+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
@@ -519,7 +519,7 @@ Element `ChargeItemDefinition.applicability` is mapped to FHIR R4 element `Charg
 FHIRPath expressions can traverse into other resources linked from the ChargeItem resource, however, testing rules such as that a billing code may be billed only once per encounter need a wider scope. In such scenarios, CQL may be the appropriate choice.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ChargeItemDefinition.applicability.condition` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).
-Element `ChargeItemDefinition.applicability.condition` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.&quot;/&gt;
+Element `ChargeItemDefinition.applicability.condition` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -709,7 +709,7 @@ FHIRPath expressions can traverse into other resources linked from the ChargeIte
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The effective period for a charge item definition  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Allows establishing a transition before a resource comes into effect and also allows for a sunsetting  process when new versions of the charge item definition are or are expected to be used instead. Element `ChargeItemDefinition.applicability.effectivePeriod` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).
-Element `ChargeItemDefinition.applicability.effectivePeriod` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.&quot;/&gt;
+Element `ChargeItemDefinition.applicability.effectivePeriod` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -897,7 +897,7 @@ Element `ChargeItemDefinition.applicability.effectivePeriod` is mapped to FHIR R
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Reference to / quotation of the external source of the group of properties.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ChargeItemDefinition.applicability.relatedArtifact` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).
-Element `ChargeItemDefinition.applicability.relatedArtifact` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.&quot;/&gt;
+Element `ChargeItemDefinition.applicability.relatedArtifact` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1332,7 +1332,7 @@ Element `ChargeItemDefinition.applicability.relatedArtifact` is mapped to FHIR R
 FHIRPath expressions can traverse into other resources linked from the ChargeItem resource, however, testing rules such as that a billing code may be billed only once per encounter need a wider scope. In such scenarios, CQL may be the appropriate choice.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ChargeItemDefinition.applicability.condition` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).
-Element `ChargeItemDefinition.applicability.condition` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.&quot;/&gt;
+Element `ChargeItemDefinition.applicability.condition` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1381,7 +1381,7 @@ FHIRPath expressions can traverse into other resources linked from the ChargeIte
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The effective period for a charge item definition  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Allows establishing a transition before a resource comes into effect and also allows for a sunsetting  process when new versions of the charge item definition are or are expected to be used instead. Element `ChargeItemDefinition.applicability.effectivePeriod` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).
-Element `ChargeItemDefinition.applicability.effectivePeriod` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.&quot;/&gt;
+Element `ChargeItemDefinition.applicability.effectivePeriod` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1428,7 +1428,7 @@ Element `ChargeItemDefinition.applicability.effectivePeriod` is mapped to FHIR R
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Reference to / quotation of the external source of the group of properties.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `ChargeItemDefinition.applicability.relatedArtifact` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).
-Element `ChargeItemDefinition.applicability.relatedArtifact` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.&quot;/&gt;
+Element `ChargeItemDefinition.applicability.relatedArtifact` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1546,8 +1546,8 @@ Element `ChargeItemDefinition.applicability.relatedArtifact` is mapped to FHIR R
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

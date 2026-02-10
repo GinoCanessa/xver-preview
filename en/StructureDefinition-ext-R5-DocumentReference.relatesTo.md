@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DocumentReference.r
 
 **Usages:**
 
-* Use this Extension: [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference.md)
+* Use this Extension: [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference-for-Media.md) and [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DocumentReference.relatesTo)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
   "title" : "Cross-version Extension `R5.DocumentReference.relatesTo` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.relatesTo` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4B: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4: `DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is mapped to FHIR R4 structure `Media`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.relatesTo` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4B: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4: `DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -136,6 +136,10 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
     {
       "type" : "element",
       "expression" : "DocumentReference.relatesTo"
+    },
+    {
+      "type" : "element",
+      "expression" : "Media"
     }
   ],
   "type" : "Extension",
@@ -186,7 +190,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
         "short" : "The relationship type with another document",
         "definition" : "The type of relationship that this document has with anther document.",
         "comment" : "If this document appends another document, then the document cannot be fully understood without also accessing the referenced document.",
-        "requirements" : "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is mapped to FHIR R4 structure `Media`, but has no target element specified.",
+        "requirements" : "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -237,7 +241,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
         "sliceName" : "target",
         "short" : "Target of the relationship",
         "definition" : "The target document of this relationship.",
-        "requirements" : "Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 structure `Media`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.3641644-06:00",
+  "date" : "2026-02-09T22:05:44.2396868-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Subscription` is representable via FHIR R4B Resource `Subscription`.\nElement `Subscription` is mapped to FHIR R4B element `Subscription`."
+              "comment" : "FHIR R5 Resource `Subscription` is representable via FHIR R4 Resource `Subscription`.\nElement `Subscription` is mapped to FHIR R4 element `Subscription`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.meta` is mapped to FHIR R4B element `Subscription.meta`."
+              "comment" : "Element `Subscription.meta` is mapped to FHIR R4 element `Subscription.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.implicitRules` is mapped to FHIR R4B element `Subscription.implicitRules`."
+              "comment" : "Element `Subscription.implicitRules` is mapped to FHIR R4 element `Subscription.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.language` is mapped to FHIR R4B element `Subscription.language`."
+              "comment" : "Element `Subscription.language` is mapped to FHIR R4 element `Subscription.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.text` is mapped to FHIR R4B element `Subscription.text`."
+              "comment" : "Element `Subscription.text` is mapped to FHIR R4 element `Subscription.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.contained` is mapped to FHIR R4B element `Subscription.contained`."
+              "comment" : "Element `Subscription.contained` is mapped to FHIR R4 element `Subscription.contained`."
             }
           ]
         },
@@ -149,9 +149,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "Basic.identifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Subscription.identifier` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Subscription.identifier` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.name",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.name` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` is mapped to FHIR R4B element `Subscription.status`."
+              "comment" : "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` is mapped to FHIR R4 element `Subscription.status`."
             }
           ]
         },
@@ -182,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "topic",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.topic",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.topic` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.contact` is mapped to FHIR R4B element `Subscription.contact`."
+              "comment" : "Element `Subscription.contact` is mapped to FHIR R4 element `Subscription.contact`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.end",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.end` is mapped to FHIR R4B element `Subscription.end`."
+              "comment" : "Element `Subscription.end` is mapped to FHIR R4 element `Subscription.end`."
             }
           ]
         },
@@ -215,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "managingEntity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.managingEntity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.managingEntity` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.reason` is mapped to FHIR R4B element `Subscription.reason`."
+              "comment" : "Element `Subscription.reason` is mapped to FHIR R4 element `Subscription.reason`."
             }
           ]
         },
@@ -237,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "filterBy",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.filterBy` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -248,9 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "resourceType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:resourceType",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -259,9 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "filterParameter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:filterParameter",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -270,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "comparator",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:comparator",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -281,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "modifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:modifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -292,9 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.channel.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.channelType` is mapped to FHIR R4B element `Subscription.channel.type`."
+              "comment" : "Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.channel.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.endpoint` is mapped to FHIR R4B element `Subscription.channel.endpoint`."
+              "comment" : "Element `Subscription.endpoint` is mapped to FHIR R4 element `Subscription.channel.endpoint`."
             }
           ]
         },
@@ -325,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "parameter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.parameter` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -336,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter:name",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -347,9 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -358,9 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "heartbeatPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.heartbeatPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.heartbeatPeriod` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -369,9 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "timeout",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.timeout",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.timeout` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription.channel.payload",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.contentType` is mapped to FHIR R4B element `Subscription.channel.payload`."
+              "comment" : "Element `Subscription.contentType` is mapped to FHIR R4 element `Subscription.channel.payload`."
             }
           ]
         },
@@ -391,9 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "content",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.content",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.content` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         },
@@ -402,9 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "maxCount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.maxCount",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Subscription#Subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `Subscription.maxCount` is mapped to FHIR R4B structure `Subscription`, but has no target element specified."
+              "comment" : "Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."
             }
           ]
         }

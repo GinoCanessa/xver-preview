@@ -7,7 +7,7 @@ This cross-version profile allows R5 Encounter content to be represented via FHI
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AuditEvent.encounter` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.encounter.md), [Cross-version Extension `R5.Claim.encounter` for use in FHIR R4](StructureDefinition-ext-R5-Claim.encounter.md), [Cross-version Extension `R5.ClaimResponse.encounter` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.encounter.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md)... Show 12 more, [Cross-version Extension `R5.DetectedIssue.encounter` for use in FHIR R4](StructureDefinition-ext-R5-DetectedIssue.encounter.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DeviceUsage.context` for use in FHIR R4](StructureDefinition-ext-R5-DeviceUsage.context.md), [Cross-version Extension `R5.DocumentReference.context` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.context.md), [Cross-version Extension `R5.EncounterHistory.encounter` for use in FHIR R4](StructureDefinition-ext-R5-EncounterHistory.encounter.md), [Cross-version Extension `R5.ExplanationOfBenefit.encounter` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.encounter.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PaymentReconciliation.allocation.encounter` for use in FHIR R4](StructureDefinition-ext-R5-PR.all.encounter.md), [Cross-version Extension `R5.PaymentReconciliation.allocation.target` for use in FHIR R4](StructureDefinition-ext-R5-PR.all.target.md), [Cross-version Extension `R5.Provenance.encounter` for use in FHIR R4](StructureDefinition-ext-R5-Provenance.encounter.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
+* Refer to this Profile: [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Encounter)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
   "title" : "Cross-version Profile for R5.Encounter for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.679136-06:00",
+  "date" : "2026-02-09T22:05:43.0905054-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,138 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         "path" : "Encounter"
       },
       {
+        "id" : "Encounter.extension",
+        "path" : "Encounter.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Encounter.extension:subjectStatus",
+        "path" : "Encounter.extension",
+        "sliceName" : "subjectStatus",
+        "short" : "Cross-version extension for Encounter.subjectStatus from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.subjectStatus` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:virtualService",
+        "path" : "Encounter.extension",
+        "sliceName" : "virtualService",
+        "short" : "Cross-version extension for Encounter.virtualService from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.virtualService` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:plannedStartDate",
+        "path" : "Encounter.extension",
+        "sliceName" : "plannedStartDate",
+        "short" : "Cross-version extension for Encounter.plannedStartDate from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.plannedStartDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:plannedEndDate",
+        "path" : "Encounter.extension",
+        "sliceName" : "plannedEndDate",
+        "short" : "Cross-version extension for Encounter.plannedEndDate from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.plannedEndDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:careTeam",
+        "path" : "Encounter.extension",
+        "sliceName" : "careTeam",
+        "short" : "Cross-version extension for Encounter.careTeam from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.careTeam` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.careTeam` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Encounter.status.extension",
         "path" : "Encounter.status.extension",
         "slicing" : {
@@ -170,9 +302,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.status.extension",
+        "id" : "Encounter.status.extension:status",
         "path" : "Encounter.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for Encounter.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Encounter.status` is mapped to FHIR R4 element `Encounter.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -202,7 +336,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Encounter.class",
@@ -211,9 +345,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.class.extension",
+        "id" : "Encounter.class.extension:class",
         "path" : "Encounter.class.extension",
+        "sliceName" : "class",
         "short" : "Cross-version extension for Encounter.class from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.class` is mapped to FHIR R4 element `Encounter.class`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -243,7 +379,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Encounter.serviceType",
@@ -252,9 +388,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.serviceType.extension",
+        "id" : "Encounter.serviceType.extension:serviceType",
         "path" : "Encounter.serviceType.extension",
+        "sliceName" : "serviceType",
         "short" : "Cross-version extension for Encounter.serviceType from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.serviceType` is mapped to FHIR R4 element `Encounter.serviceType`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -284,7 +422,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Encounter.basedOn",
@@ -293,9 +431,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.basedOn.extension",
+        "id" : "Encounter.basedOn.extension:basedOn",
         "path" : "Encounter.basedOn.extension",
+        "sliceName" : "basedOn",
         "short" : "Cross-version extension for Encounter.basedOn from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/MedicationRequest in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.basedOn` is mapped to FHIR R4 element `Encounter.basedOn`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -307,7 +448,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.basedOn|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -325,7 +466,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Encounter.participant.individual",
@@ -334,9 +475,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.participant.individual.extension",
+        "id" : "Encounter.participant.individual.extension:actor",
         "path" : "Encounter.participant.individual.extension",
+        "sliceName" : "actor",
         "short" : "Cross-version extension for Encounter.participant.actor from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/Group,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Patient in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.participant.actor` is mapped to FHIR R4 element `Encounter.participant.individual`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -348,7 +492,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant.actor|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -366,7 +510,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Encounter.diagnosis.condition",
@@ -375,9 +519,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.diagnosis.condition.extension",
+        "id" : "Encounter.diagnosis.condition.extension:condition",
         "path" : "Encounter.diagnosis.condition.extension",
+        "sliceName" : "condition",
         "short" : "Cross-version extension for Encounter.diagnosis.condition from R5 for use in FHIR R4",
+        "comment" : "Element `Encounter.diagnosis.condition` is mapped to FHIR R4 element `Encounter.diagnosis.condition`.",
         "min" : 0,
         "max" : "*",
         "base" : {

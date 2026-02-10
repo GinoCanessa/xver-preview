@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.GraphDefinition.link.compartment` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `GraphDefinition.link.compartment` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `GraphDefinition.link.compartment` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `GraphDefinition.link.compartment` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `GraphDefinition.link.compartment` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "GraphDefinition.link" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:short [ fhir:v "where | requires" ] ;
        fhir:definition [ fhir:v "Defines how the compartment rule is used - whether it it is used to test whether resources are subject to the rule, or whether it is a rule that must be followed." ] ;
        fhir:comment [ fhir:v "All conditional rules are evaluated; if they are true, then the rules are evaluated." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -533,7 +533,7 @@
        fhir:sliceName [ fhir:v "rule" ] ;
        fhir:short [ fhir:v "identical | matching | different | custom" ] ;
        fhir:definition [ fhir:v "identical | matching | different | no-rule | custom." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -751,7 +751,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Patient | Encounter | RelatedPerson | Practitioner | Device | EpisodeOfCare" ] ;
        fhir:definition [ fhir:v "Identifies the compartment." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -969,7 +969,7 @@
        fhir:sliceName [ fhir:v "expression" ] ;
        fhir:short [ fhir:v "Custom rule, as a FHIRPath expression" ] ;
        fhir:definition [ fhir:v "Custom rule, as a FHIRPath expression." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1180,7 +1180,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Documentation for FHIRPath expression" ] ;
        fhir:definition [ fhir:v "Documentation for FHIRPath expression." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1748,7 +1748,7 @@
        fhir:short [ fhir:v "where | requires" ] ;
        fhir:definition [ fhir:v "Defines how the compartment rule is used - whether it it is used to test whether resources are subject to the rule, or whether it is a rule that must be followed." ] ;
        fhir:comment [ fhir:v "All conditional rules are evaluated; if they are true, then the rules are evaluated." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1803,7 +1803,7 @@
        fhir:sliceName [ fhir:v "rule" ] ;
        fhir:short [ fhir:v "identical | matching | different | custom" ] ;
        fhir:definition [ fhir:v "identical | matching | different | no-rule | custom." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1857,7 +1857,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Patient | Encounter | RelatedPerson | Practitioner | Device | EpisodeOfCare" ] ;
        fhir:definition [ fhir:v "Identifies the compartment." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1911,7 +1911,7 @@
        fhir:sliceName [ fhir:v "expression" ] ;
        fhir:short [ fhir:v "Custom rule, as a FHIRPath expression" ] ;
        fhir:definition [ fhir:v "Custom rule, as a FHIRPath expression." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1958,7 +1958,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Documentation for FHIRPath expression" ] ;
        fhir:definition [ fhir:v "Documentation for FHIRPath expression." ] ;
-       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

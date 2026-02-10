@@ -7,7 +7,7 @@ This cross-version profile allows R5 ImagingSelection content to be represented 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.BodyStructure.includedStructure.spatialReference` for use in FHIR R4](StructureDefinition-ext-R5-BodyStructure.inc.spatialReference.md), [Cross-version Extension `R5.BodyStructure.includedStructure` for use in FHIR R4](StructureDefinition-ext-R5-BodyStructure.includedStructure.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md) and [Cross-version Extension `R5.Observation.derivedFrom` for use in FHIR R4](StructureDefinition-ext-R5-Observation.derivedFrom.md)
+* Refer to this Profile: [Cross-version Extension `R5.BodyStructure.includedStructure` for use in FHIR R4](StructureDefinition-ext-R5-BodyStructure.includedStructure.md) and [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ImagingSelection)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSe
   "title" : "Cross-version Profile for R5.ImagingSelection for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7092785-06:00",
+  "date" : "2026-02-09T22:05:43.1518866-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

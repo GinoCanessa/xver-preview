@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.413397-06:00",
+  "date" : "2026-02-09T22:05:43.5973277-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ClaimResponse` is representable via FHIR R4B Resource `ClaimResponse`.\nElement `ClaimResponse` is mapped to FHIR R4B element `ClaimResponse`."
+              "comment" : "FHIR R5 Resource `ClaimResponse` is representable via FHIR R4 Resource `ClaimResponse`.\nElement `ClaimResponse` is mapped to FHIR R4 element `ClaimResponse`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.meta` is mapped to FHIR R4B element `ClaimResponse.meta`."
+              "comment" : "Element `ClaimResponse.meta` is mapped to FHIR R4 element `ClaimResponse.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.implicitRules` is mapped to FHIR R4B element `ClaimResponse.implicitRules`."
+              "comment" : "Element `ClaimResponse.implicitRules` is mapped to FHIR R4 element `ClaimResponse.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.language` is mapped to FHIR R4B element `ClaimResponse.language`."
+              "comment" : "Element `ClaimResponse.language` is mapped to FHIR R4 element `ClaimResponse.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.text` is mapped to FHIR R4B element `ClaimResponse.text`."
+              "comment" : "Element `ClaimResponse.text` is mapped to FHIR R4 element `ClaimResponse.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.contained` is mapped to FHIR R4B element `ClaimResponse.contained`."
+              "comment" : "Element `ClaimResponse.contained` is mapped to FHIR R4 element `ClaimResponse.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.identifier` is mapped to FHIR R4B element `ClaimResponse.identifier`."
+              "comment" : "Element `ClaimResponse.identifier` is mapped to FHIR R4 element `ClaimResponse.identifier`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.traceNumber` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -173,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.status` is mapped to FHIR R4B element `ClaimResponse.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.status` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.status` is mapped to FHIR R4 element `ClaimResponse.status`."
             }
           ]
         },
@@ -189,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.type` is mapped to FHIR R4B element `ClaimResponse.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.type` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.type` is mapped to FHIR R4 element `ClaimResponse.type`."
             }
           ]
         },
@@ -205,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.subType",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.subType` is mapped to FHIR R4B element `ClaimResponse.subType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.subType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.subType` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.subType` is mapped to FHIR R4 element `ClaimResponse.subType`."
             }
           ]
         },
@@ -221,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.use` is mapped to FHIR R4B element `ClaimResponse.use`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.use",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.use` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.use` is mapped to FHIR R4 element `ClaimResponse.use`."
             }
           ]
         },
@@ -237,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.patient` is mapped to FHIR R4B element `ClaimResponse.patient`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.patient` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.patient` is mapped to FHIR R4 element `ClaimResponse.patient`."
             }
           ]
         },
@@ -253,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.created` is mapped to FHIR R4B element `ClaimResponse.created`."
+              "comment" : "Element `ClaimResponse.created` is mapped to FHIR R4 element `ClaimResponse.created`."
             }
           ]
         },
@@ -264,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurer` is mapped to FHIR R4B element `ClaimResponse.insurer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.organization",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurer` is mapped to FHIR DSTU2 element `ClaimResponse.organization`."
+              "comment" : "Element `ClaimResponse.insurer` is mapped to FHIR R4 element `ClaimResponse.insurer`."
             }
           ]
         },
@@ -280,17 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.requestor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.requestor` is mapped to FHIR R4B element `ClaimResponse.requestor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.requestOrganization",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.requestor` is mapped to FHIR STU3 element `ClaimResponse.requestProvider`.\nElement `ClaimResponse.requestor` is mapped to FHIR STU3 element `ClaimResponse.requestOrganization`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.requestProvider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.requestor` is mapped to FHIR STU3 element `ClaimResponse.requestProvider`.\nElement `ClaimResponse.requestor` is mapped to FHIR STU3 element `ClaimResponse.requestOrganization`."
+              "comment" : "Element `ClaimResponse.requestor` is mapped to FHIR R4 element `ClaimResponse.requestor`."
             }
           ]
         },
@@ -301,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.request` is mapped to FHIR R4B element `ClaimResponse.request`."
+              "comment" : "Element `ClaimResponse.request` is mapped to FHIR R4 element `ClaimResponse.request`."
             }
           ]
         },
@@ -312,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.outcome` is mapped to FHIR R4B element `ClaimResponse.outcome`."
+              "comment" : "Element `ClaimResponse.outcome` is mapped to FHIR R4 element `ClaimResponse.outcome`."
             }
           ]
         },
@@ -321,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.decision` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -334,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.disposition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.disposition` is mapped to FHIR R4B element `ClaimResponse.disposition`."
+              "comment" : "Element `ClaimResponse.disposition` is mapped to FHIR R4 element `ClaimResponse.disposition`."
             }
           ]
         },
@@ -345,17 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.preAuthRef",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.preAuthRef` is mapped to FHIR R4B element `ClaimResponse.preAuthRef`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance.preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.preAuthRef` is mapped to FHIR STU3 element `ClaimResponse.insurance.preAuthRef`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage.preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.preAuthRef` is mapped to FHIR DSTU2 element `ClaimResponse.coverage.preAuthRef`."
+              "comment" : "Element `ClaimResponse.preAuthRef` is mapped to FHIR R4 element `ClaimResponse.preAuthRef`."
             }
           ]
         },
@@ -366,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.preAuthPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.preAuthPeriod` is mapped to FHIR R4B element `ClaimResponse.preAuthPeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.preAuthPeriod` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.preAuthPeriod` is mapped to FHIR R4 element `ClaimResponse.preAuthPeriod`."
             }
           ]
         },
@@ -380,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "event",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.event",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.event` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.event` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -391,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.event:type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.event.type` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.type` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.event.type` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.type` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -402,9 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "when[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.event:when",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.event.when[x]` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.when[x]` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.event.when[x]` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.when[x]` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -415,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payeeType",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payeeType` is mapped to FHIR R4B element `ClaimResponse.payeeType`."
+              "comment" : "Element `ClaimResponse.payeeType` is mapped to FHIR R4 element `ClaimResponse.payeeType`."
             }
           ]
         },
@@ -424,9 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.encounter",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.encounter` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClaimResponse.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClaimResponse.encounter` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -435,9 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "diagnosisRelatedGroup",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.diagnosisRelatedGroup",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.diagnosisRelatedGroup` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.diagnosisRelatedGroup` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -448,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item` is mapped to FHIR R4B element `ClaimResponse.item`."
+              "comment" : "Element `ClaimResponse.item` is mapped to FHIR R4 element `ClaimResponse.item`."
             }
           ]
         },
@@ -459,12 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.itemSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.itemSequence` is mapped to FHIR R4B element `ClaimResponse.item.itemSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.sequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.itemSequence` is mapped to FHIR STU3 element `ClaimResponse.item.sequenceLinkId`."
+              "comment" : "Element `ClaimResponse.item.itemSequence` is mapped to FHIR R4 element `ClaimResponse.item.itemSequence`."
             }
           ]
         },
@@ -473,9 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.traceNumber` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -486,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.noteNumber` is mapped to FHIR R4B element `ClaimResponse.item.noteNumber`."
+              "comment" : "Element `ClaimResponse.item.noteNumber` is mapped to FHIR R4 element `ClaimResponse.item.noteNumber`."
             }
           ]
         },
@@ -495,9 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.reviewOutcome` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.reviewOutcome` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -506,9 +446,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.decision` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -517,9 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.reason` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.reason` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -528,9 +468,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.preAuthRef` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -539,9 +479,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.reviewOutcome.preAuthPeriod` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -552,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication` is mapped to FHIR R4B element `ClaimResponse.item.adjudication`."
+              "comment" : "Element `ClaimResponse.item.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.adjudication`."
             }
           ]
         },
@@ -563,12 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication.category` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.item.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.adjudication.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication.category` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.category` is mapped to FHIR DSTU2 element `ClaimResponse.item.adjudication.code`."
+              "comment" : "Element `ClaimResponse.item.adjudication.category` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.category`."
             }
           ]
         },
@@ -579,12 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication.reason` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.item.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.adjudication.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication.reason` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.reason` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.adjudication.reason` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.reason`."
             }
           ]
         },
@@ -595,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication.amount` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.item.adjudication.amount`."
+              "comment" : "Element `ClaimResponse.item.adjudication.amount` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.amount`."
             }
           ]
         },
@@ -606,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.adjudication.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.adjudication.quantity` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.quantity` is mapped to FHIR R4B element `ClaimResponse.item.adjudication.value`."
+              "comment" : "Element `ClaimResponse.item.adjudication.quantity` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ClaimResponse.item.adjudication.quantity` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.value`."
             }
           ]
         },
@@ -617,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail` is mapped to FHIR R4B element `ClaimResponse.item.detail`."
+              "comment" : "Element `ClaimResponse.item.detail` is mapped to FHIR R4 element `ClaimResponse.item.detail`."
             }
           ]
         },
@@ -628,12 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.detailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.detailSequence` is mapped to FHIR R4B element `ClaimResponse.item.detail.detailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.sequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.detailSequence` is mapped to FHIR STU3 element `ClaimResponse.item.detail.sequenceLinkId`."
+              "comment" : "Element `ClaimResponse.item.detail.detailSequence` is mapped to FHIR R4 element `ClaimResponse.item.detail.detailSequence`."
             }
           ]
         },
@@ -642,9 +567,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.traceNumber` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -655,12 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.noteNumber` is mapped to FHIR R4B element `ClaimResponse.item.detail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.noteNumber` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.item.detail.noteNumber`."
             }
           ]
         },
@@ -669,9 +589,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -680,9 +600,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.decision` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -691,9 +611,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.reason` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.reason` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -702,9 +622,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.preAuthRef` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -713,9 +633,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.reviewOutcome.preAuthPeriod` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -726,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication` is mapped to FHIR R4B element `ClaimResponse.item.detail.adjudication`."
+              "comment" : "Element `ClaimResponse.item.detail.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.detail.adjudication`."
             }
           ]
         },
@@ -737,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail`."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail`."
             }
           ]
         },
@@ -748,12 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.item.detail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.adjudication.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.category` is mapped to FHIR DSTU2 element `ClaimResponse.item.detail.adjudication.code`."
+              "comment" : "Element `ClaimResponse.item.detail.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.item.detail.adjudication.category`."
             }
           ]
         },
@@ -764,12 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.item.detail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.adjudication.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.reason` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.item.detail.adjudication.reason`."
             }
           ]
         },
@@ -780,12 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.subDetailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.subDetailSequence` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail.subDetailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.sequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.subDetailSequence` is mapped to FHIR STU3 element `ClaimResponse.item.detail.subDetail.sequenceLinkId`."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.subDetailSequence` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.subDetailSequence`."
             }
           ]
         },
@@ -796,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.item.detail.adjudication.amount`."
+              "comment" : "Element `ClaimResponse.item.detail.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.item.detail.adjudication.amount`."
             }
           ]
         },
@@ -805,9 +710,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.traceNumber` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -816,14 +721,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.quantity` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.adjudication.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.adjudication.quantity` is will have a context of ClaimResponse.item.detail.adjudication based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -834,12 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.noteNumber` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.noteNumber` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.noteNumber`."
             }
           ]
         },
@@ -848,9 +743,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -861,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail.adjudication`."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.adjudication`."
             }
           ]
         },
@@ -872,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem` is mapped to FHIR R4B element `ClaimResponse.addItem`."
+              "comment" : "Element `ClaimResponse.addItem` is mapped to FHIR R4 element `ClaimResponse.addItem`."
             }
           ]
         },
@@ -881,9 +776,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.decision` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -892,9 +787,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.reason` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.reason` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -905,12 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.itemSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.itemSequence` is mapped to FHIR R4B element `ClaimResponse.addItem.itemSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.sequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.itemSequence` is mapped to FHIR STU3 element `ClaimResponse.addItem.sequenceLinkId`."
+              "comment" : "Element `ClaimResponse.addItem.itemSequence` is mapped to FHIR R4 element `ClaimResponse.addItem.itemSequence`."
             }
           ]
         },
@@ -919,9 +809,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthRef` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -932,12 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detailSequence` is mapped to FHIR R4B element `ClaimResponse.addItem.detailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detailSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detailSequence` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detailSequence` is mapped to FHIR R4 element `ClaimResponse.addItem.detailSequence`."
             }
           ]
         },
@@ -946,9 +831,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.item.detail.subDetail.reviewOutcome.preAuthPeriod` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -959,12 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.subdetailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.subdetailSequence` is mapped to FHIR R4B element `ClaimResponse.addItem.subdetailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.subdetailSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.subdetailSequence` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.subdetailSequence` is mapped to FHIR R4 element `ClaimResponse.addItem.subdetailSequence`."
             }
           ]
         },
@@ -973,9 +853,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.traceNumber` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -986,12 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.provider` is mapped to FHIR R4B element `ClaimResponse.addItem.provider`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.provider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.provider` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.provider` is mapped to FHIR R4 element `ClaimResponse.addItem.provider`."
             }
           ]
         },
@@ -1000,9 +875,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "revenue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.revenue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.revenue` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.revenue` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1013,12 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.productOrService` is mapped to FHIR R4B element `ClaimResponse.addItem.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.productOrService` is mapped to FHIR STU3 element `ClaimResponse.addItem.service`."
+              "comment" : "Element `ClaimResponse.addItem.productOrService` is mapped to FHIR R4 element `ClaimResponse.addItem.productOrService`."
             }
           ]
         },
@@ -1027,9 +897,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.productOrServiceEnd` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.productOrServiceEnd` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1038,9 +908,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "request",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.request",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.request` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClaimResponse.addItem.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClaimResponse.addItem.request` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1051,12 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.modifier` is mapped to FHIR R4B element `ClaimResponse.addItem.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.modifier` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.modifier` is mapped to FHIR R4 element `ClaimResponse.addItem.modifier`."
             }
           ]
         },
@@ -1067,12 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.programCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.programCode` is mapped to FHIR R4B element `ClaimResponse.addItem.programCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.programCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.programCode` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.programCode` is mapped to FHIR R4 element `ClaimResponse.addItem.programCode`."
             }
           ]
         },
@@ -1083,12 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.serviced[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ClaimResponse.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`.\nElement `ClaimResponse.addItem.serviced[x]` is mapped to FHIR R4B element `ClaimResponse.addItem.serviced[x]`.\nNote that the target element context `ClaimResponse.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.serviced",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.serviced[x]` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Note that the target element context `ClaimResponse.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`.\nElement `ClaimResponse.addItem.serviced[x]` is mapped to FHIR R4 element `ClaimResponse.addItem.serviced[x]`.\nNote that the target element context `ClaimResponse.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`."
             }
           ]
         },
@@ -1099,12 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.location[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ClaimResponse.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`.\nElement `ClaimResponse.addItem.location[x]` is mapped to FHIR R4B element `ClaimResponse.addItem.location[x]`.\nNote that the target element context `ClaimResponse.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.location[x]` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Note that the target element context `ClaimResponse.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`.\nElement `ClaimResponse.addItem.location[x]` is mapped to FHIR R4 element `ClaimResponse.addItem.location[x]`.\nNote that the target element context `ClaimResponse.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`."
             }
           ]
         },
@@ -1115,12 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.quantity` is mapped to FHIR R4B element `ClaimResponse.addItem.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.quantity` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.quantity` is mapped to FHIR R4 element `ClaimResponse.addItem.quantity`."
             }
           ]
         },
@@ -1131,12 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.adjudication.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.category` is mapped to FHIR DSTU2 element `ClaimResponse.item.detail.subDetail.adjudication.code`."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.adjudication.category`."
             }
           ]
         },
@@ -1147,12 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.unitPrice` is mapped to FHIR R4B element `ClaimResponse.addItem.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.unitPrice` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.unitPrice` is mapped to FHIR R4 element `ClaimResponse.addItem.unitPrice`."
             }
           ]
         },
@@ -1163,12 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.adjudication.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.reason` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.adjudication.reason`."
             }
           ]
         },
@@ -1179,12 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.factor` is mapped to FHIR R4B element `ClaimResponse.addItem.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.factor` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.factor` is mapped to FHIR R4 element `ClaimResponse.addItem.factor`."
             }
           ]
         },
@@ -1195,7 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.item.detail.subDetail.adjudication.amount`."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.adjudication.amount`."
             }
           ]
         },
@@ -1204,9 +1029,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.tax` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.tax` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1215,14 +1040,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.item.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.quantity` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.adjudication.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication.quantity` is will have a context of ClaimResponse.item.detail.subDetail.adjudication based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1233,12 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.net` is mapped to FHIR R4B element `ClaimResponse.addItem.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.fee",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.net` is mapped to FHIR STU3 element `ClaimResponse.addItem.fee`."
+              "comment" : "Element `ClaimResponse.addItem.net` is mapped to FHIR R4 element `ClaimResponse.addItem.net`."
             }
           ]
         },
@@ -1249,12 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.bodySite` is mapped to FHIR R4B element `ClaimResponse.addItem.bodySite`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.bodySite` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.bodySite` is mapped to FHIR R4 element `ClaimResponse.addItem.bodySite`."
             }
           ]
         },
@@ -1263,14 +1073,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "site",
           "target" : [
             {
-              "code" : "site",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.bodySite.site` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite:site",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.bodySite.site` is part of an existing definition because parent element `ClaimResponse.addItem.bodySite` requires a cross-version extension.\nElement `ClaimResponse.addItem.bodySite.site` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.bodySite.site` is will have a context of ClaimResponse.addItem.bodySite based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1279,14 +1084,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subSite",
           "target" : [
             {
-              "code" : "subSite",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.bodySite.subSite` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite:subSite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.bodySite.subSite` is part of an existing definition because parent element `ClaimResponse.addItem.bodySite` requires a cross-version extension.\nElement `ClaimResponse.addItem.bodySite.subSite` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.bodySite.subSite` is will have a context of ClaimResponse.addItem.bodySite based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1297,12 +1097,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.noteNumber` is mapped to FHIR R4B element `ClaimResponse.addItem.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.noteNumberLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.noteNumber` is mapped to FHIR DSTU2 element `ClaimResponse.addItem.noteNumberLinkId`."
+              "comment" : "Element `ClaimResponse.addItem.noteNumber` is mapped to FHIR R4 element `ClaimResponse.addItem.noteNumber`."
             }
           ]
         },
@@ -1311,9 +1106,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.reviewOutcome` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.reviewOutcome` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1324,7 +1119,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication` is mapped to FHIR R4B element `ClaimResponse.addItem.adjudication`."
+              "comment" : "Element `ClaimResponse.addItem.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.adjudication`."
             }
           ]
         },
@@ -1335,7 +1130,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail` is mapped to FHIR R4B element `ClaimResponse.addItem.detail`."
+              "comment" : "Element `ClaimResponse.addItem.detail` is mapped to FHIR R4 element `ClaimResponse.addItem.detail`."
             }
           ]
         },
@@ -1344,9 +1139,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.traceNumber` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1355,9 +1150,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "revenue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.revenue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.revenue` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.revenue` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1368,12 +1163,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.productOrService` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.productOrService` is mapped to FHIR STU3 element `ClaimResponse.addItem.detail.service`."
+              "comment" : "Element `ClaimResponse.addItem.detail.productOrService` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.productOrService`."
             }
           ]
         },
@@ -1382,9 +1172,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.productOrServiceEnd` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.productOrServiceEnd` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1395,12 +1185,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.modifier` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.modifier` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.modifier` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.modifier`."
             }
           ]
         },
@@ -1411,12 +1196,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.quantity` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.quantity` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.quantity` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.quantity`."
             }
           ]
         },
@@ -1427,12 +1207,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.unitPrice` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.unitPrice` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.unitPrice` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.unitPrice`."
             }
           ]
         },
@@ -1443,12 +1218,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.factor` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.factor` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.factor` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.factor`."
             }
           ]
         },
@@ -1457,9 +1227,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.tax` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.tax` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1470,12 +1240,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.net` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.net` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.net` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.net`."
             }
           ]
         },
@@ -1486,12 +1251,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.noteNumber` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.noteNumber` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.noteNumber`."
             }
           ]
         },
@@ -1500,9 +1260,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1511,9 +1271,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.decision` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1522,9 +1282,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.reason` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.reason` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1533,9 +1293,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.preAuthRef` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1544,9 +1304,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.reviewOutcome.preAuthPeriod` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1557,7 +1317,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.adjudication`."
+              "comment" : "Element `ClaimResponse.addItem.detail.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.adjudication`."
             }
           ]
         },
@@ -1568,12 +1328,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.addItem.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.adjudication.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.category` is mapped to FHIR DSTU2 element `ClaimResponse.addItem.adjudication.code`."
+              "comment" : "Element `ClaimResponse.addItem.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.addItem.adjudication.category`."
             }
           ]
         },
@@ -1584,12 +1339,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail`."
             }
           ]
         },
@@ -1600,12 +1350,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.addItem.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.adjudication.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.reason` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.addItem.adjudication.reason`."
             }
           ]
         },
@@ -1616,7 +1361,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.addItem.adjudication.amount`."
+              "comment" : "Element `ClaimResponse.addItem.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.addItem.adjudication.amount`."
             }
           ]
         },
@@ -1625,14 +1370,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.quantity` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.adjudication.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.adjudication.quantity` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.adjudication.quantity` is will have a context of ClaimResponse.addItem.adjudication based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1641,14 +1381,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.traceNumber` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.traceNumber` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.traceNumber` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.traceNumber` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1657,14 +1392,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "revenue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.revenue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.revenue` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.revenue` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.revenue` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.revenue` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1675,12 +1405,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrService` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrService` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.productOrService` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrService` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.productOrService`."
             }
           ]
         },
@@ -1689,14 +1414,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1707,12 +1427,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.modifier` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.modifier` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.modifier` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.modifier` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.modifier`."
             }
           ]
         },
@@ -1723,12 +1438,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.quantity` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.quantity` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.quantity` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.quantity` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.quantity`."
             }
           ]
         },
@@ -1739,12 +1449,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.unitPrice` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.unitPrice` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.unitPrice` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.unitPrice` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.unitPrice`."
             }
           ]
         },
@@ -1755,12 +1460,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.factor` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.factor` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.factor` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.factor` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.factor`."
             }
           ]
         },
@@ -1769,14 +1469,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.tax` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.tax` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.tax` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.tax` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1787,12 +1482,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.net` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.net` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.net` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.net` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.net`."
             }
           ]
         },
@@ -1803,12 +1493,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.noteNumber` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.noteNumber` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.noteNumber` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.noteNumber`."
             }
           ]
         },
@@ -1817,14 +1502,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1835,12 +1515,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.adjudication` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.adjudication`."
             }
           ]
         },
@@ -1849,9 +1524,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.decision` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1860,9 +1535,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.reason` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.reason` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1873,12 +1548,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication` is mapped to FHIR R4B element `ClaimResponse.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.adjudication` is mapped to FHIR R4 element `ClaimResponse.adjudication`."
             }
           ]
         },
@@ -1887,9 +1557,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.preAuthRef` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1898,9 +1568,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.reviewOutcome.preAuthPeriod` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -1911,12 +1581,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.total",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total` is mapped to FHIR R4B element `ClaimResponse.total`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.total",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.total` is mapped to FHIR R4 element `ClaimResponse.total`."
             }
           ]
         },
@@ -1927,12 +1592,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.total.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total.category` is mapped to FHIR R4B element `ClaimResponse.total.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.total:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total.category` is part of an existing definition because parent element `ClaimResponse.total` requires a cross-version extension.\nElement `ClaimResponse.total.category` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.total.category` is mapped to FHIR R4 element `ClaimResponse.total.category`."
             }
           ]
         },
@@ -1943,17 +1603,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.total.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total.amount` is mapped to FHIR R4B element `ClaimResponse.total.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.totalBenefit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total.amount` is part of an existing definition because parent element `ClaimResponse.total` requires a cross-version extension.\nElement `ClaimResponse.total.amount` is mapped to FHIR STU3 element `ClaimResponse.totalCost`.\nElement `ClaimResponse.total.amount` is mapped to FHIR STU3 element `ClaimResponse.totalBenefit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.totalCost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.total.amount` is part of an existing definition because parent element `ClaimResponse.total` requires a cross-version extension.\nElement `ClaimResponse.total.amount` is mapped to FHIR STU3 element `ClaimResponse.totalCost`.\nElement `ClaimResponse.total.amount` is mapped to FHIR STU3 element `ClaimResponse.totalBenefit`."
+              "comment" : "Element `ClaimResponse.total.amount` is mapped to FHIR R4 element `ClaimResponse.total.amount`."
             }
           ]
         },
@@ -1964,12 +1614,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.adjudication.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.category` is mapped to FHIR DSTU2 element `ClaimResponse.addItem.detail.adjudication.code`."
+              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.adjudication.category`."
             }
           ]
         },
@@ -1980,12 +1625,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment` is mapped to FHIR R4B element `ClaimResponse.payment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.payment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.payment` is mapped to FHIR R4 element `ClaimResponse.payment`."
             }
           ]
         },
@@ -1996,12 +1636,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.adjudication.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.reason` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.adjudication.reason`."
             }
           ]
         },
@@ -2012,7 +1647,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.adjudication.amount`."
+              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.adjudication.amount`."
             }
           ]
         },
@@ -2021,14 +1656,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.quantity` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.adjudication.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.adjudication.quantity` is will have a context of ClaimResponse.addItem.detail.adjudication based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2039,12 +1669,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.type` is mapped to FHIR R4B element `ClaimResponse.payment.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.payment:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.type` is part of an existing definition because parent element `ClaimResponse.payment` requires a cross-version extension.\nElement `ClaimResponse.payment.type` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.payment.type` is mapped to FHIR R4 element `ClaimResponse.payment.type`."
             }
           ]
         },
@@ -2055,12 +1680,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment.adjustment",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.adjustment` is mapped to FHIR R4B element `ClaimResponse.payment.adjustment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.paymentAdjustment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.adjustment` is part of an existing definition because parent element `ClaimResponse.payment` requires a cross-version extension.\nElement `ClaimResponse.payment.adjustment` is mapped to FHIR DSTU2 element `ClaimResponse.paymentAdjustment`."
+              "comment" : "Element `ClaimResponse.payment.adjustment` is mapped to FHIR R4 element `ClaimResponse.payment.adjustment`."
             }
           ]
         },
@@ -2071,12 +1691,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment.adjustmentReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.adjustmentReason` is mapped to FHIR R4B element `ClaimResponse.payment.adjustmentReason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.paymentAdjustmentReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.adjustmentReason` is part of an existing definition because parent element `ClaimResponse.payment` requires a cross-version extension.\nElement `ClaimResponse.payment.adjustmentReason` is mapped to FHIR DSTU2 element `ClaimResponse.paymentAdjustmentReason`."
+              "comment" : "Element `ClaimResponse.payment.adjustmentReason` is mapped to FHIR R4 element `ClaimResponse.payment.adjustmentReason`."
             }
           ]
         },
@@ -2087,12 +1702,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.date` is mapped to FHIR R4B element `ClaimResponse.payment.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.paymentDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.date` is part of an existing definition because parent element `ClaimResponse.payment` requires a cross-version extension.\nElement `ClaimResponse.payment.date` is mapped to FHIR DSTU2 element `ClaimResponse.paymentDate`."
+              "comment" : "Element `ClaimResponse.payment.date` is mapped to FHIR R4 element `ClaimResponse.payment.date`."
             }
           ]
         },
@@ -2103,12 +1713,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.amount` is mapped to FHIR R4B element `ClaimResponse.payment.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.paymentAmount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.amount` is part of an existing definition because parent element `ClaimResponse.payment` requires a cross-version extension.\nElement `ClaimResponse.payment.amount` is mapped to FHIR DSTU2 element `ClaimResponse.paymentAmount`."
+              "comment" : "Element `ClaimResponse.payment.amount` is mapped to FHIR R4 element `ClaimResponse.payment.amount`."
             }
           ]
         },
@@ -2119,12 +1724,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.payment.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.identifier` is mapped to FHIR R4B element `ClaimResponse.payment.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.paymentRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.payment.identifier` is part of an existing definition because parent element `ClaimResponse.payment` requires a cross-version extension.\nElement `ClaimResponse.payment.identifier` is mapped to FHIR DSTU2 element `ClaimResponse.paymentRef`."
+              "comment" : "Element `ClaimResponse.payment.identifier` is mapped to FHIR R4 element `ClaimResponse.payment.identifier`."
             }
           ]
         },
@@ -2135,12 +1735,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.fundsReserve",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.fundsReserve` is mapped to FHIR R4B element `ClaimResponse.fundsReserve`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.reserved",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.fundsReserve` is mapped to FHIR STU3 element `ClaimResponse.reserved`."
+              "comment" : "Element `ClaimResponse.fundsReserve` is mapped to FHIR R4 element `ClaimResponse.fundsReserve`."
             }
           ]
         },
@@ -2151,12 +1746,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.formCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.formCode` is mapped to FHIR R4B element `ClaimResponse.formCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.form",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.formCode` is mapped to FHIR STU3 element `ClaimResponse.form`."
+              "comment" : "Element `ClaimResponse.formCode` is mapped to FHIR R4 element `ClaimResponse.formCode`."
             }
           ]
         },
@@ -2167,7 +1757,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.form",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.form` is mapped to FHIR R4B element `ClaimResponse.form`."
+              "comment" : "Element `ClaimResponse.form` is mapped to FHIR R4 element `ClaimResponse.form`."
             }
           ]
         },
@@ -2178,12 +1768,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.processNote",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote` is mapped to FHIR R4B element `ClaimResponse.processNote`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote` is mapped to FHIR DSTU2 element `ClaimResponse.note`."
+              "comment" : "Element `ClaimResponse.processNote` is mapped to FHIR R4 element `ClaimResponse.processNote`."
             }
           ]
         },
@@ -2194,12 +1779,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.processNote.number",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.number` is mapped to FHIR R4B element `ClaimResponse.processNote.number`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.note.number",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.number` is mapped to FHIR DSTU2 element `ClaimResponse.note.number`."
+              "comment" : "Element `ClaimResponse.processNote.number` is mapped to FHIR R4 element `ClaimResponse.processNote.number`."
             }
           ]
         },
@@ -2210,12 +1790,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.processNote.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.type` is mapped to FHIR R4B element `ClaimResponse.processNote.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.note.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.type` is mapped to FHIR DSTU2 element `ClaimResponse.note.type`."
+              "comment" : "Element `ClaimResponse.processNote.type` is mapped to FHIR R4 element `ClaimResponse.processNote.type`."
             }
           ]
         },
@@ -2226,12 +1801,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.processNote.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.text` is mapped to FHIR R4B element `ClaimResponse.processNote.text`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.note.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.text` is mapped to FHIR DSTU2 element `ClaimResponse.note.text`."
+              "comment" : "Element `ClaimResponse.processNote.text` is mapped to FHIR R4 element `ClaimResponse.processNote.text`."
             }
           ]
         },
@@ -2242,12 +1812,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.processNote.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.language` is mapped to FHIR R4B element `ClaimResponse.processNote.language`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.processNote.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.processNote.language` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.processNote.language` is mapped to FHIR R4 element `ClaimResponse.processNote.language`."
             }
           ]
         },
@@ -2258,12 +1823,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.communicationRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.communicationRequest` is mapped to FHIR R4B element `ClaimResponse.communicationRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.communicationRequest",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.communicationRequest` is mapped to FHIR DSTU2 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.communicationRequest` is mapped to FHIR R4 element `ClaimResponse.communicationRequest`."
             }
           ]
         },
@@ -2274,12 +1834,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance` is mapped to FHIR R4B element `ClaimResponse.insurance`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance` is mapped to FHIR DSTU2 element `ClaimResponse.coverage`."
+              "comment" : "Element `ClaimResponse.insurance` is mapped to FHIR R4 element `ClaimResponse.insurance`."
             }
           ]
         },
@@ -2290,12 +1845,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.sequence` is mapped to FHIR R4B element `ClaimResponse.insurance.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage.sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.sequence` is mapped to FHIR DSTU2 element `ClaimResponse.coverage.sequence`."
+              "comment" : "Element `ClaimResponse.insurance.sequence` is mapped to FHIR R4 element `ClaimResponse.insurance.sequence`."
             }
           ]
         },
@@ -2306,12 +1856,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance.focal",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.focal` is mapped to FHIR R4B element `ClaimResponse.insurance.focal`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage.focal",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.focal` is mapped to FHIR DSTU2 element `ClaimResponse.coverage.focal`."
+              "comment" : "Element `ClaimResponse.insurance.focal` is mapped to FHIR R4 element `ClaimResponse.insurance.focal`."
             }
           ]
         },
@@ -2322,12 +1867,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.coverage` is mapped to FHIR R4B element `ClaimResponse.insurance.coverage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage.coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.coverage` is mapped to FHIR DSTU2 element `ClaimResponse.coverage.coverage`."
+              "comment" : "Element `ClaimResponse.insurance.coverage` is mapped to FHIR R4 element `ClaimResponse.insurance.coverage`."
             }
           ]
         },
@@ -2338,12 +1878,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance.businessArrangement",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.businessArrangement` is mapped to FHIR R4B element `ClaimResponse.insurance.businessArrangement`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage.businessArrangement",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.businessArrangement` is mapped to FHIR DSTU2 element `ClaimResponse.coverage.businessArrangement`."
+              "comment" : "Element `ClaimResponse.insurance.businessArrangement` is mapped to FHIR R4 element `ClaimResponse.insurance.businessArrangement`."
             }
           ]
         },
@@ -2352,14 +1887,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.decision` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.decision` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.decision` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2370,12 +1900,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.insurance.claimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.claimResponse` is mapped to FHIR R4B element `ClaimResponse.insurance.claimResponse`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.coverage.claimResponse",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.insurance.claimResponse` is mapped to FHIR DSTU2 element `ClaimResponse.coverage.claimResponse`."
+              "comment" : "Element `ClaimResponse.insurance.claimResponse` is mapped to FHIR R4 element `ClaimResponse.insurance.claimResponse`."
             }
           ]
         },
@@ -2384,14 +1909,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.reason` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.reason` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.reason` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2402,7 +1922,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error` is mapped to FHIR R4B element `ClaimResponse.error`."
+              "comment" : "Element `ClaimResponse.error` is mapped to FHIR R4 element `ClaimResponse.error`."
             }
           ]
         },
@@ -2411,14 +1931,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthRef` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2427,14 +1942,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2445,12 +1955,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.itemSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.itemSequence` is mapped to FHIR R4B element `ClaimResponse.error.itemSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.sequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.itemSequence` is mapped to FHIR STU3 element `ClaimResponse.error.sequenceLinkId`."
+              "comment" : "Element `ClaimResponse.error.itemSequence` is mapped to FHIR R4 element `ClaimResponse.error.itemSequence`."
             }
           ]
         },
@@ -2461,12 +1966,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.detailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.detailSequence` is mapped to FHIR R4B element `ClaimResponse.error.detailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.detailSequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.detailSequence` is mapped to FHIR STU3 element `ClaimResponse.error.detailSequenceLinkId`."
+              "comment" : "Element `ClaimResponse.error.detailSequence` is mapped to FHIR R4 element `ClaimResponse.error.detailSequence`."
             }
           ]
         },
@@ -2477,12 +1977,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.subDetailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.subDetailSequence` is mapped to FHIR R4B element `ClaimResponse.error.subDetailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.subdetailSequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.subDetailSequence` is mapped to FHIR STU3 element `ClaimResponse.error.subdetailSequenceLinkId`."
+              "comment" : "Element `ClaimResponse.error.subDetailSequence` is mapped to FHIR R4 element `ClaimResponse.error.subDetailSequence`."
             }
           ]
         },
@@ -2493,7 +1988,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.code` is mapped to FHIR R4B element `ClaimResponse.error.code`."
+              "comment" : "Element `ClaimResponse.error.code` is mapped to FHIR R4 element `ClaimResponse.error.code`."
             }
           ]
         },
@@ -2502,9 +1997,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "expression",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.error.expression",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.error",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.error.expression` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.error.expression` is will have a context of ClaimResponse.error based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2515,12 +2010,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.category` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.adjudication.category` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.adjudication.category`."
             }
           ]
         },
@@ -2531,12 +2021,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.reason` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.adjudication.reason`."
             }
           ]
         },
@@ -2547,12 +2032,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.addItem.detail.subDetail.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.amount` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.adjudication.amount`."
             }
           ]
         },
@@ -2561,14 +2041,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.addItem.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.quantity` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.quantity` is part of an existing definition because parent element `ClaimResponse.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ClaimResponse.addItem.detail.subDetail.adjudication.quantity` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication.quantity` is will have a context of ClaimResponse.addItem.detail.subDetail.adjudication based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         },
@@ -2579,12 +2054,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.category` is mapped to FHIR R4B element `ClaimResponse.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.category` is part of an existing definition because parent element `ClaimResponse.adjudication` requires a cross-version extension.\nElement `ClaimResponse.adjudication.category` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.adjudication.category`."
             }
           ]
         },
@@ -2595,12 +2065,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.reason` is mapped to FHIR R4B element `ClaimResponse.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.reason` is part of an existing definition because parent element `ClaimResponse.adjudication` requires a cross-version extension.\nElement `ClaimResponse.adjudication.reason` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.adjudication.reason`."
             }
           ]
         },
@@ -2611,12 +2076,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.amount` is mapped to FHIR R4B element `ClaimResponse.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.amount` is part of an existing definition because parent element `ClaimResponse.adjudication` requires a cross-version extension.\nElement `ClaimResponse.adjudication.amount` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.adjudication.amount`."
             }
           ]
         },
@@ -2625,14 +2085,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse#ClaimResponse.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.quantity` is mapped to FHIR R4B structure `ClaimResponse`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ClaimResponse.adjudication.quantity` is part of an existing definition because parent element `ClaimResponse.adjudication` requires a cross-version extension.\nElement `ClaimResponse.adjudication.quantity` is mapped to FHIR STU3 structure `ClaimResponse`, but has no target element specified."
+              "comment" : "Element `ClaimResponse.adjudication.quantity` is will have a context of ClaimResponse.adjudication based on following the parent source element upwards and mapping to `ClaimResponse`."
             }
           ]
         }

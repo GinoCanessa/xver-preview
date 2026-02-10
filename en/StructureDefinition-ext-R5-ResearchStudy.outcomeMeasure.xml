@@ -64,7 +64,7 @@
   <title value="Cross-version Extension `R5.ResearchStudy.outcomeMeasure` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -81,7 +81,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ResearchStudy.outcomeMeasure` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ResearchStudy.outcomeMeasure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ResearchStudy.outcomeMeasure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ResearchStudy.outcomeMeasure` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ResearchStudy.outcomeMeasure` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ResearchStudy.outcomeMeasure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ResearchStudy.outcomeMeasure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ResearchStudy.outcomeMeasure` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -92,7 +92,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ResearchStudy"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -204,7 +204,7 @@
       <sliceName value="name"/>
       <short value="Label for the outcome"/>
       <definition value="Label for the outcome."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.name` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -368,7 +368,7 @@
       <sliceName value="type"/>
       <short value="primary | secondary | exploratory"/>
       <definition value="The parameter or characteristic being assessed as one of the values by which the study is assessed."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.type` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.type` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -537,7 +537,7 @@
       <sliceName value="description"/>
       <short value="Description of the outcome"/>
       <definition value="Description of the outcome."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.description` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.description` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -701,7 +701,7 @@
       <sliceName value="reference"/>
       <short value="Structured outcome definition"/>
       <definition value="Structured outcome definition."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.reference` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.outcomeMeasure.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `ResearchStudy.outcomeMeasure.reference` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1104,7 +1104,7 @@
       <sliceName value="name"/>
       <short value="Label for the outcome"/>
       <definition value="Label for the outcome."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.name` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1144,7 +1144,7 @@
       <sliceName value="type"/>
       <short value="primary | secondary | exploratory"/>
       <definition value="The parameter or characteristic being assessed as one of the values by which the study is assessed."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.type` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.type` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1189,7 +1189,7 @@
       <sliceName value="description"/>
       <short value="Description of the outcome"/>
       <definition value="Description of the outcome."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.description` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.description` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1229,7 +1229,7 @@
       <sliceName value="reference"/>
       <short value="Structured outcome definition"/>
       <definition value="Structured outcome definition."/>
-      <requirements value="Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Element `ResearchStudy.outcomeMeasure.reference` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.outcomeMeasure.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `ResearchStudy.outcomeMeasure.reference` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
   "title" : "Cross-version Extension `R5.SubscriptionTopic` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -422,7 +422,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "derivedFrom",
         "short" : "Based on FHIR protocol or definition",
         "definition" : "The canonical URL pointing to another FHIR-defined SubscriptionTopic that is adhered to in whole or in part by this SubscriptionTopic.",
-        "requirements" : "SubscriptionTopics may be refinements of more generic topics. Element `SubscriptionTopic.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.",
+        "requirements" : "SubscriptionTopics may be refinements of more generic topics. Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.derivedFrom` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SubscriptionTopic.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {

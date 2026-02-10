@@ -229,7 +229,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 ","N/A"
 "Extension.extension:expression","Extension.extension","expression","","",0,1,"","","","Extension {[]} {[]}
 ","A computable expression of the consent","A computable (FHIRPath or other) definition of what is controlled by this consent.","Constraining the expression type for a specific implementation via profile is recommended","Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).
-Element `Consent.provision.expression` is mapped to FHIR R4 structure `Consent`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:expression.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

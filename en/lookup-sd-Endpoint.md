@@ -22,14 +22,14 @@ A computable version of the following element information is available in: [Conc
 | [`Endpoint.status`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.status](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.connectionType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.connectionType](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.connectionType](StructureDefinition-ext-R5-Endpoint.connectionType.md) |
 | [`Endpoint.name`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.name](https://hl7.org/fhir/R4/Endpoint.html#resource) |
-| [`Endpoint.description`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description](StructureDefinition-ext-R5-Endpoint.description.md) |
-| [`Endpoint.environmentType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType](StructureDefinition-ext-R5-Endpoint.environmentType.md) |
+| [`Endpoint.description`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description](StructureDefinition-ext-R5-Endpoint.description.md) |
+| [`Endpoint.environmentType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType](StructureDefinition-ext-R5-Endpoint.environmentType.md) |
 | [`Endpoint.managingOrganization`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.managingOrganization](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.contact`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.contact](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.period`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.period](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.payload`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource) |
-| [`Endpoint.payload.type`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type](StructureDefinition-ext-R5-Endpoint.pay.type.md) |
-| [`Endpoint.payload.mimeType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.payloadMimeType](https://hl7.org/fhir/R4/Endpoint.html#resource) |
+| [`Endpoint.payload.type`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type](StructureDefinition-ext-R5-Endpoint.pay.type.md) |
+| [`Endpoint.payload.mimeType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[Endpoint.payloadMimeType](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.address`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.address](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.header`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.header](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 

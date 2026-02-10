@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Subscription.parameter` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.parameter` is mapped to FHIR R4 structure `Subscription`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Subscription" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "name" ] ;
        fhir:short [ fhir:v "Name (key) of the parameter" ] ;
        fhir:definition [ fhir:v "Parameter name for information passed to the channel for notifications, for example in the case of a REST hook wanting to pass through an authorization header, the name would be Authorization." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -525,7 +525,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the parameter to use or pass through" ] ;
        fhir:definition [ fhir:v "Parameter value for information passed to the channel for notifications, for example in the case of a REST hook wanting to pass through an authorization header, the value would be `Bearer 0193...`." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1093,7 +1093,7 @@
        fhir:sliceName [ fhir:v "name" ] ;
        fhir:short [ fhir:v "Name (key) of the parameter" ] ;
        fhir:definition [ fhir:v "Parameter name for information passed to the channel for notifications, for example in the case of a REST hook wanting to pass through an authorization header, the name would be Authorization." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1140,7 +1140,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the parameter to use or pass through" ] ;
        fhir:definition [ fhir:v "Parameter value for information passed to the channel for notifications, for example in the case of a REST hook wanting to pass through an authorization header, the value would be `Bearer 0193...`." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

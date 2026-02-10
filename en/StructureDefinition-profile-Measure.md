@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Measure.c
   "title" : "Cross-version Profile for R5.Measure for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7263441-06:00",
+  "date" : "2026-02-09T22:05:43.1885377-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,688 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Measure.c
       {
         "id" : "Measure",
         "path" : "Measure"
+      },
+      {
+        "id" : "Measure.extension",
+        "path" : "Measure.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Measure.extension:versionAlgorithm",
+        "path" : "Measure.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for Measure.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.versionAlgorithm[x]` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.extension:basis",
+        "path" : "Measure.extension",
+        "sliceName" : "basis",
+        "short" : "Cross-version extension for Measure.basis from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.basis` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.basis|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.extension:copyrightLabel",
+        "path" : "Measure.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for Measure.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.copyrightLabel` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.extension:scoringUnit",
+        "path" : "Measure.extension",
+        "sliceName" : "scoringUnit",
+        "short" : "Cross-version extension for Measure.scoringUnit from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.scoringUnit` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.scoringUnit|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.extension:term",
+        "path" : "Measure.extension",
+        "sliceName" : "term",
+        "short" : "Cross-version extension for Measure.term from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.term` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension",
+        "path" : "Measure.group.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Measure.group.extension:linkId",
+        "path" : "Measure.group.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for Measure.group.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.linkId` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:type",
+        "path" : "Measure.group.extension",
+        "sliceName" : "type",
+        "short" : "Cross-version extension for Measure.group.type from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.type` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.type|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:subject",
+        "path" : "Measure.group.extension",
+        "sliceName" : "subject",
+        "short" : "Cross-version extension for Measure.group.subject[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.subject[x]` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:subjectCanonical",
+        "path" : "Measure.group.extension",
+        "sliceName" : "subjectCanonical",
+        "short" : "Cross-version extension for Measure.group.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Element `Measure.group.subject[x]` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:subjectReference",
+        "path" : "Measure.group.extension",
+        "sliceName" : "subjectReference",
+        "short" : "Cross-version extension for Measure.group.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Element `Measure.group.subject[x]` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:basis",
+        "path" : "Measure.group.extension",
+        "sliceName" : "basis",
+        "short" : "Cross-version extension for Measure.group.basis from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.basis` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.basis|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:scoring",
+        "path" : "Measure.group.extension",
+        "sliceName" : "scoring",
+        "short" : "Cross-version extension for Measure.group.scoring from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.scoring` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoring|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:scoringUnit",
+        "path" : "Measure.group.extension",
+        "sliceName" : "scoringUnit",
+        "short" : "Cross-version extension for Measure.group.scoringUnit from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.scoringUnit` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoringUnit|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:rateAggregation",
+        "path" : "Measure.group.extension",
+        "sliceName" : "rateAggregation",
+        "short" : "Cross-version extension for Measure.group.rateAggregation from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.rateAggregation` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.rateAggregation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:improvementNotation",
+        "path" : "Measure.group.extension",
+        "sliceName" : "improvementNotation",
+        "short" : "Cross-version extension for Measure.group.improvementNotation from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.improvementNotation` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.improvementNotation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.extension:library",
+        "path" : "Measure.group.extension",
+        "sliceName" : "library",
+        "short" : "Cross-version extension for Measure.group.library from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Library in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Measure.group.library` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Measure.group.library` is will have a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.population.extension",
+        "path" : "Measure.group.population.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Measure.group.population.extension:linkId",
+        "path" : "Measure.group.population.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for Measure.group.population.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.population.linkId` is will have a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.population.extension:inputPopulationId",
+        "path" : "Measure.group.population.extension",
+        "sliceName" : "inputPopulationId",
+        "short" : "Cross-version extension for Measure.group.population.inputPopulationId from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.population.inputPopulationId` is will have a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.inputPopulationId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.population.extension:aggregateMethod",
+        "path" : "Measure.group.population.extension",
+        "sliceName" : "aggregateMethod",
+        "short" : "Cross-version extension for Measure.group.population.aggregateMethod from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.population.aggregateMethod` is will have a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.aggregateMethod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.population.extension:groupDefinition",
+        "path" : "Measure.group.population.extension",
+        "sliceName" : "groupDefinition",
+        "short" : "Cross-version extension for Measure.group.population.groupDefinition from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Measure.group.population.groupDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Measure.group.population.groupDefinition` is will have a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.stratifier.extension",
+        "path" : "Measure.group.stratifier.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Measure.group.stratifier.extension:linkId",
+        "path" : "Measure.group.stratifier.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for Measure.group.stratifier.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.stratifier.linkId` is will have a context of Measure.group.stratifier based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.stratifier.extension:groupDefinition",
+        "path" : "Measure.group.stratifier.extension",
+        "sliceName" : "groupDefinition",
+        "short" : "Cross-version extension for Measure.group.stratifier.groupDefinition from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Measure.group.stratifier.groupDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Measure.group.stratifier.groupDefinition` is will have a context of Measure.group.stratifier based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.stratifier.component.extension",
+        "path" : "Measure.group.stratifier.component.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Measure.group.stratifier.component.extension:linkId",
+        "path" : "Measure.group.stratifier.component.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for Measure.group.stratifier.component.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.group.stratifier.component.linkId` is will have a context of Measure.group.stratifier.component based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.group.stratifier.component.extension:groupDefinition",
+        "path" : "Measure.group.stratifier.component.extension",
+        "sliceName" : "groupDefinition",
+        "short" : "Cross-version extension for Measure.group.stratifier.component.groupDefinition from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Measure.group.stratifier.component.groupDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Measure.group.stratifier.component.groupDefinition` is will have a context of Measure.group.stratifier.component based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Measure.supplementalData.extension",
+        "path" : "Measure.supplementalData.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Measure.supplementalData.extension:linkId",
+        "path" : "Measure.supplementalData.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for Measure.supplementalData.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `Measure.supplementalData.linkId` is will have a context of Measure.supplementalData based on following the parent source element upwards and mapping to `Measure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

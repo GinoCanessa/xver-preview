@@ -7,7 +7,7 @@ This cross-version profile allows R5 ResearchSubject content to be represented v
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.participant.md), [Cross-version Extension `R5.AdverseEvent.recorder` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.recorder.md) and [Cross-version Extension `R5.AdverseEvent.suspectEntity.causality.author` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.sus.cau.author.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.participant.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ResearchSubject)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
   "title" : "Cross-version Profile for R5.ResearchSubject for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7834662-06:00",
+  "date" : "2026-02-09T22:05:43.3116366-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchSubject"
       },
       {
+        "id" : "ResearchSubject.extension",
+        "path" : "ResearchSubject.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ResearchSubject.extension:progress",
+        "path" : "ResearchSubject.extension",
+        "sliceName" : "progress",
+        "short" : "Cross-version extension for ResearchSubject.progress from R5 for use in FHIR R4",
+        "comment" : "Element `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "ResearchSubject.status.extension",
         "path" : "ResearchSubject.status.extension",
         "slicing" : {
@@ -170,9 +213,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         }
       },
       {
-        "id" : "ResearchSubject.status.extension",
+        "id" : "ResearchSubject.status.extension:status",
         "path" : "ResearchSubject.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for ResearchSubject.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` is mapped to FHIR R4 element `ResearchSubject.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {

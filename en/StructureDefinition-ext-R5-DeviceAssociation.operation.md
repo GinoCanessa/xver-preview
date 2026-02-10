@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DeviceAssociation.o
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.DeviceAssociation for use in FHIR R4](StructureDefinition-profile-DeviceAssociation-for-Device.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DeviceAssociation.operation)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceAsso
   "title" : "Cross-version Extension `R5.DeviceAssociation.operation` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceAsso
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceAssociation.operation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceAssociation.operation` is mapped to FHIR R4 structure `Device`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceAssociation.operation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceAssociation.operation` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceAsso
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Device"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceAsso
         "sliceName" : "status",
         "short" : "Device operational condition",
         "definition" : "Device operational condition corresponding to the association.",
-        "requirements" : "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is mapped to FHIR R4 structure `Device`, but has no target element specified.",
+        "requirements" : "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceAsso
         "sliceName" : "operator",
         "short" : "The individual performing the action enabled by the device",
         "definition" : "The individual performing the action enabled by the device.",
-        "requirements" : "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.operator` is mapped to FHIR R4 structure `Device`, but has no target element specified.",
+        "requirements" : "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.operation.operator` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -282,7 +282,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceAsso
         "sliceName" : "period",
         "short" : "Begin and end dates and times for the device's operation",
         "definition" : "Begin and end dates and times for the device's operation.",
-        "requirements" : "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is mapped to FHIR R4 structure `Device`, but has no target element specified.",
+        "requirements" : "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
         "min" : 0,
         "max" : "1",
         "base" : {

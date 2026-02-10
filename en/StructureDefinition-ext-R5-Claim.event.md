@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Claim.event` for us
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Claim for use in FHIR R4](StructureDefinition-profile-Claim.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Claim.event)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.even
   "title" : "Cross-version Extension `R5.Claim.event` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.even
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Claim.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Claim.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Claim.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Claim.event` is mapped to FHIR R4 structure `Claim`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Claim.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Claim.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Claim.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Claim.event` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.even
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Claim"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.even
         "sliceName" : "type",
         "short" : "Specific event",
         "definition" : "A coded event such as when a service is expected or a card printed.",
-        "requirements" : "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is mapped to FHIR R4 structure `Claim`, but has no target element specified.",
+        "requirements" : "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.even
         "sliceName" : "when",
         "short" : "Occurance date or period",
         "definition" : "A date or period in the past or future indicating when the event occurred or is expectd to occur.",
-        "requirements" : "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is mapped to FHIR R4 structure `Claim`, but has no target element specified.",
+        "requirements" : "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 1,
         "max" : "1",
         "base" : {

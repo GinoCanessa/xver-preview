@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ConceptMap.group.el
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ConceptMap for use in FHIR R4](StructureDefinition-profile-ConceptMap.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ConceptMap.gro.ele.tar.property)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
   "title" : "Cross-version Extension `R5.ConceptMap.group.element.target.property` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.group.element.target.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.group.element.target.property` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.group.element.target.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.group.element.target.property` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ConceptMap.group.element.target"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "code",
         "short" : "Reference to ConceptMap.property.code",
         "definition" : "A reference to a mapping property defined in ConceptMap.property.",
-        "requirements" : "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "value",
         "short" : "Value of the property for this concept",
         "definition" : "The value of this property. If the type chosen for this element is 'code', then the property SHALL be defined in a ConceptMap.property element.",
-        "requirements" : "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -67,7 +67,7 @@
   <title value="Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -84,7 +84,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `EpisodeOfCare.reason` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`EpisodeOfCare.reason` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `EpisodeOfCare.reason` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `EpisodeOfCare.reason` is mapped to FHIR R4 structure `EpisodeOfCare`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `EpisodeOfCare.reason` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`EpisodeOfCare.reason` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `EpisodeOfCare.reason` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `EpisodeOfCare.reason` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -95,7 +95,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="EpisodeOfCare"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -207,7 +207,7 @@
       <sliceName value="use"/>
       <short value="What the reason value should be used for/as"/>
       <definition value="What the reason value should be used as e.g. Chief Complaint, Health Concern, Health Maintenance (including screening)."/>
-      <requirements value="Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.use` is mapped to FHIR R4 structure `EpisodeOfCare`, but has no target element specified."/>
+      <requirements value="Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.use` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -371,7 +371,7 @@
       <sliceName value="value"/>
       <short value="Medical reason to be addressed"/>
       <definition value="The medical reason that is expected to be addressed during the episode of care, expressed as a text, code or a reference to another resource."/>
-      <requirements value="Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.value` is mapped to FHIR R4 structure `EpisodeOfCare`, but has no target element specified."/>
+      <requirements value="Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.value` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -638,7 +638,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -806,7 +806,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1418,7 +1418,7 @@
       <sliceName value="use"/>
       <short value="What the reason value should be used for/as"/>
       <definition value="What the reason value should be used as e.g. Chief Complaint, Health Concern, Health Maintenance (including screening)."/>
-      <requirements value="Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.use` is mapped to FHIR R4 structure `EpisodeOfCare`, but has no target element specified."/>
+      <requirements value="Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.use` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1458,7 +1458,7 @@
       <sliceName value="value"/>
       <short value="Medical reason to be addressed"/>
       <definition value="The medical reason that is expected to be addressed during the episode of care, expressed as a text, code or a reference to another resource."/>
-      <requirements value="Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.value` is mapped to FHIR R4 structure `EpisodeOfCare`, but has no target element specified."/>
+      <requirements value="Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.&#xA;Element `EpisodeOfCare.reason.value` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1529,7 +1529,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1573,7 +1573,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

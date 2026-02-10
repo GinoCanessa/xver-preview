@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
   "title" : "Cross-version Extension `R5.Citation` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -2188,7 +2188,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "Citation for the main version of the cited artifact",
         "definition" : "Citation for the main version of the cited artifact.",
         "comment" : "When referencing a baseCitation, one may inherit any data from the referenced Citation Resource and consider any data in the current Citation Resource as superceding to be version-specific.",
-        "requirements" : "Element `Citation.citedArtifact.version.baseCitation` is part of an existing definition because parent element `Citation.citedArtifact.version` requires a cross-version extension.\nElement `Citation.citedArtifact.version.baseCitation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.version.baseCitation` is part of an existing definition because parent element `Citation.citedArtifact.version` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.version.baseCitation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.version.baseCitation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3094,7 +3094,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "The citation for the full article or artifact",
         "definition" : "The citation for the full article or artifact.",
         "comment" : "When referencing a baseCitation, one may inherit any data from the referenced Citation Resource and consider any data in the current Citation Resource as superceding to be specific to the citation of the specified part. For example, the part-specific Citation may have additional contributorship data that supercedes the contributorship data for the full citation when there is a need to uniquely report the contributorship for an image or supplement associated with the fuller citation record.",
-        "requirements" : "Element `Citation.citedArtifact.part.baseCitation` is part of an existing definition because parent element `Citation.citedArtifact.part` requires a cross-version extension.\nElement `Citation.citedArtifact.part.baseCitation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.part.baseCitation` is part of an existing definition because parent element `Citation.citedArtifact.part` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.part.baseCitation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.part.baseCitation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3483,7 +3483,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "What artifact is being referenced",
         "definition" : "The related artifact, such as a library, value set, profile, or other knowledge resource.",
         "comment" : "If the type is predecessor, this is a reference to the succeeding knowledge resource. If the type is successor, this is a reference to the prior knowledge resource",
-        "requirements" : "Element `Citation.citedArtifact.relatesTo.resource` is part of an existing definition because parent element `Citation.citedArtifact.relatesTo` requires a cross-version extension.\nElement `Citation.citedArtifact.relatesTo.resource` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.relatesTo.resource` is part of an existing definition because parent element `Citation.citedArtifact.relatesTo` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.relatesTo.resource` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Citation.citedArtifact.relatesTo.resource` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3530,7 +3530,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "What artifact, if not a conformance resource",
         "definition" : "The related artifact, if the artifact is not a canonical resource, or a resource reference to a canonical resource.",
         "comment" : "If both resource and resourceReference are present, they SHOULD be consistent and reference the same resource. Although relatedArtifact is intended to support references to definitional resources, there are cases where non-definitional resources can be definitional (such as Location where the kind is mode). Related artifacts SHOULD be used to reference definitional resources, and profiles SHOULD be used to make that explicit for particular use cases.",
-        "requirements" : "Element `Citation.citedArtifact.relatesTo.resourceReference` is part of an existing definition because parent element `Citation.citedArtifact.relatesTo` requires a cross-version extension.\nElement `Citation.citedArtifact.relatesTo.resourceReference` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.relatesTo.resourceReference` is part of an existing definition because parent element `Citation.citedArtifact.relatesTo` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.relatesTo.resourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.relatesTo.resourceReference` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3815,7 +3815,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "sliceName" : "publisher",
         "short" : "Name of or resource describing the publisher",
         "definition" : "Name of or resource describing the publisher.",
-        "requirements" : "Element `Citation.citedArtifact.publicationForm.publishedIn.publisher` is part of an existing definition because parent element `Citation.citedArtifact.publicationForm.publishedIn` requires a cross-version extension.\nElement `Citation.citedArtifact.publicationForm.publishedIn.publisher` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.publicationForm.publishedIn.publisher` is part of an existing definition because parent element `Citation.citedArtifact.publicationForm.publishedIn` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.publicationForm.publishedIn.publisher` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.publicationForm.publishedIn.publisher` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -4892,7 +4892,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "Complex or externally created classification",
         "definition" : "Complex or externally created classification.",
         "comment" : "Examples relevant to study citations include MeSH Headings or Keywords that contain qualifier codings or sub-classifications, and include risk of bias assessments created by persons different from the creator of the citation record.",
-        "requirements" : "Element `Citation.citedArtifact.classification.artifactAssessment` is part of an existing definition because parent element `Citation.citedArtifact.classification` requires a cross-version extension.\nElement `Citation.citedArtifact.classification.artifactAssessment` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.classification.artifactAssessment` is part of an existing definition because parent element `Citation.citedArtifact.classification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.classification.artifactAssessment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.classification.artifactAssessment` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -5086,7 +5086,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "The identity of the individual contributor",
         "definition" : "The identity of the individual contributor.",
         "comment" : "If naming a contributor without additional detail or further structured data, the display element within the Reference datatype may be used for a simple string without referencing another resource.",
-        "requirements" : "Element `Citation.citedArtifact.contributorship.entry.contributor` is part of an existing definition because parent element `Citation.citedArtifact.contributorship.entry` requires a cross-version extension.\nElement `Citation.citedArtifact.contributorship.entry.contributor` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.contributorship.entry.contributor` is part of an existing definition because parent element `Citation.citedArtifact.contributorship.entry` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.contributorship.entry.contributor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.contributorship.entry.contributor` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -5186,7 +5186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Citation.c
         "short" : "Organizational affiliation",
         "definition" : "Organization affiliated with the contributor.",
         "comment" : "If naming an organization without additional detail or further structured data, the display element within the Reference datatype may be used for a simple string without referencing another resource.",
-        "requirements" : "Element `Citation.citedArtifact.contributorship.entry.affiliation` is part of an existing definition because parent element `Citation.citedArtifact.contributorship.entry` requires a cross-version extension.\nElement `Citation.citedArtifact.contributorship.entry.affiliation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
+        "requirements" : "Element `Citation.citedArtifact.contributorship.entry.affiliation` is part of an existing definition because parent element `Citation.citedArtifact.contributorship.entry` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.contributorship.entry.affiliation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.contributorship.entry.affiliation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {

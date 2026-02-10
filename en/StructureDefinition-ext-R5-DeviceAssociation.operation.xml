@@ -61,7 +61,7 @@
   <title value="Cross-version Extension `R5.DeviceAssociation.operation` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -78,7 +78,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DeviceAssociation.operation` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DeviceAssociation.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DeviceAssociation.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DeviceAssociation.operation` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DeviceAssociation.operation` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DeviceAssociation.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DeviceAssociation.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DeviceAssociation.operation` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -89,7 +89,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Device"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -200,7 +200,7 @@
       <sliceName value="status"/>
       <short value="Device operational condition"/>
       <definition value="Device operational condition corresponding to the association."/>
-      <requirements value="Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.status` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+      <requirements value="Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -364,7 +364,7 @@
       <sliceName value="operator"/>
       <short value="The individual performing the action enabled by the device"/>
       <definition value="The individual performing the action enabled by the device."/>
-      <requirements value="Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.operator` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+      <requirements value="Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DeviceAssociation.operation.operator` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -534,7 +534,7 @@
       <sliceName value="period"/>
       <short value="Begin and end dates and times for the device's operation"/>
       <definition value="Begin and end dates and times for the device's operation."/>
-      <requirements value="Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.period` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+      <requirements value="Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -934,7 +934,7 @@
       <sliceName value="status"/>
       <short value="Device operational condition"/>
       <definition value="Device operational condition corresponding to the association."/>
-      <requirements value="Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.status` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+      <requirements value="Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -974,7 +974,7 @@
       <sliceName value="operator"/>
       <short value="The individual performing the action enabled by the device"/>
       <definition value="The individual performing the action enabled by the device."/>
-      <requirements value="Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.operator` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+      <requirements value="Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DeviceAssociation.operation.operator` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1020,7 +1020,7 @@
       <sliceName value="period"/>
       <short value="Begin and end dates and times for the device's operation"/>
       <definition value="Begin and end dates and times for the device's operation."/>
-      <requirements value="Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.period` is mapped to FHIR R4 structure `Device`, but has no target element specified."/>
+      <requirements value="Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.&#xA;Element `DeviceAssociation.operation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

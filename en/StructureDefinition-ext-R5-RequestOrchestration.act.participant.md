@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
   "title" : "Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "type",
         "short" : "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -235,7 +235,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "typeCanonical",
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -285,7 +285,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
         "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-        "requirements" : "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -357,7 +357,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "role",
         "short" : "E.g. Nurse, Surgeon, Parent, etc",
         "definition" : "The role the participant should play in performing the described action.",
-        "requirements" : "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -407,7 +407,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "function",
         "short" : "E.g. Author, Reviewer, Witness, etc",
         "definition" : "Indicates how the actor will be involved in the action - author, reviewer, witness, etc.",
-        "requirements" : "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -452,7 +452,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "actor",
         "short" : "Who/what is participating?",
         "definition" : "A reference to the actual participant.",
-        "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {

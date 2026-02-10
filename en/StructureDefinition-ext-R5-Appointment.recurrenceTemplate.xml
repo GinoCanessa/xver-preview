@@ -124,7 +124,7 @@
   <title value="Cross-version Extension `R5.Appointment.recurrenceTemplate` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -141,7 +141,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Appointment.recurrenceTemplate` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Appointment.recurrenceTemplate` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Appointment.recurrenceTemplate` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Appointment.recurrenceTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Appointment.recurrenceTemplate` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Appointment.recurrenceTemplate` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Appointment.recurrenceTemplate` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Appointment.recurrenceTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -152,7 +152,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Appointment"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -263,7 +263,7 @@
       <sliceName value="timezone"/>
       <short value="The timezone of the occurrences"/>
       <definition value="The timezone of the recurring appointment occurrences."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.timezone` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.timezone` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -427,7 +427,7 @@
       <sliceName value="recurrenceType"/>
       <short value="The frequency of the recurrence"/>
       <definition value="How often the appointment series should recur."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.recurrenceType` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.recurrenceType` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -591,7 +591,7 @@
       <sliceName value="lastOccurrenceDate"/>
       <short value="The date when the recurrence should end"/>
       <definition value="Recurring appointments will not occur after this date."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -755,7 +755,7 @@
       <sliceName value="occurrenceCount"/>
       <short value="The number of planned occurrences"/>
       <definition value="How many appointments are planned in the recurrence."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceCount` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceCount` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -919,7 +919,7 @@
       <sliceName value="occurrenceDate"/>
       <short value="Specific dates for a recurring set of appointments (no template)"/>
       <definition value="The list of specific dates that will have appointments generated."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceDate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1083,7 +1083,7 @@
       <sliceName value="weeklyTemplate"/>
       <short value="Information about weekly recurring appointments"/>
       <definition value="Information about weekly recurring appointments."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1185,7 +1185,7 @@
       <sliceName value="monday"/>
       <short value="Recurs on Mondays"/>
       <definition value="Indicates that recurring appointments should occur on Mondays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1349,7 +1349,7 @@
       <sliceName value="tuesday"/>
       <short value="Recurs on Tuesday"/>
       <definition value="Indicates that recurring appointments should occur on Tuesdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1513,7 +1513,7 @@
       <sliceName value="wednesday"/>
       <short value="Recurs on Wednesday"/>
       <definition value="Indicates that recurring appointments should occur on Wednesdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1677,7 +1677,7 @@
       <sliceName value="thursday"/>
       <short value="Recurs on Thursday"/>
       <definition value="Indicates that recurring appointments should occur on Thursdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1841,7 +1841,7 @@
       <sliceName value="friday"/>
       <short value="Recurs on Friday"/>
       <definition value="Indicates that recurring appointments should occur on Fridays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2005,7 +2005,7 @@
       <sliceName value="saturday"/>
       <short value="Recurs on Saturday"/>
       <definition value="Indicates that recurring appointments should occur on Saturdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2169,7 +2169,7 @@
       <sliceName value="sunday"/>
       <short value="Recurs on Sunday"/>
       <definition value="Indicates that recurring appointments should occur on Sundays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2333,7 +2333,7 @@
       <sliceName value="weekInterval"/>
       <short value="Recurs every nth week"/>
       <definition value="The interval defines if the recurrence is every nth week. The default is every week, so it is expected that this value will be 2 or more.&#xD;&#xD;e.g. For recurring every second week this interval would be 2, or every third week the interval would be 3."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2700,7 +2700,7 @@
       <sliceName value="monthlyTemplate"/>
       <short value="Information about monthly recurring appointments"/>
       <definition value="Information about monthly recurring appointments."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2802,7 +2802,7 @@
       <sliceName value="dayOfMonth"/>
       <short value="Recurs on a specific day of the month"/>
       <definition value="Indicates that appointments in the series of recurring appointments should occur on a specific day of the month."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2966,7 +2966,7 @@
       <sliceName value="nthWeekOfMonth"/>
       <short value="Indicates which week of the month the appointment should occur"/>
       <definition value="Indicates which week within a month the appointments in the series of recurring appointments should occur on."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3131,7 +3131,7 @@
       <short value="Indicates which day of the week the appointment should occur"/>
       <definition value="Indicates which day of the week the recurring appointments should occur each nth week."/>
       <comment value="This property is intended to be used with Appointment.recurrenceTemplate.monthly.nthWeek."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3301,7 +3301,7 @@
       <sliceName value="monthInterval"/>
       <short value="Recurs every nth month"/>
       <definition value="Indicates that recurring appointments should occur every nth month."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3668,7 +3668,7 @@
       <sliceName value="yearlyTemplate"/>
       <short value="Information about yearly recurring appointments"/>
       <definition value="Information about yearly recurring appointments."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3770,7 +3770,7 @@
       <sliceName value="yearInterval"/>
       <short value="Recurs every nth year"/>
       <definition value="Appointment recurs every nth year."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -4138,7 +4138,7 @@
       <short value="Any dates that should be excluded from the series"/>
       <definition value="Any dates, such as holidays, that should be excluded from the recurrence."/>
       <comment value="excludingDate is an alternative to excludingRecurrenceId.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingDate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4304,7 +4304,7 @@
       <short value="Any recurrence IDs that should be excluded from the recurrence"/>
       <definition value="Any dates, such as holidays, that should be excluded from the recurrence."/>
       <comment value="excludingRecurrenceId is an alternative to excludingDate.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4705,7 +4705,7 @@
       <sliceName value="timezone"/>
       <short value="The timezone of the occurrences"/>
       <definition value="The timezone of the recurring appointment occurrences."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.timezone` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.timezone` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4745,7 +4745,7 @@
       <sliceName value="recurrenceType"/>
       <short value="The frequency of the recurrence"/>
       <definition value="How often the appointment series should recur."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.recurrenceType` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.recurrenceType` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -4785,7 +4785,7 @@
       <sliceName value="lastOccurrenceDate"/>
       <short value="The date when the recurrence should end"/>
       <definition value="Recurring appointments will not occur after this date."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4825,7 +4825,7 @@
       <sliceName value="occurrenceCount"/>
       <short value="The number of planned occurrences"/>
       <definition value="How many appointments are planned in the recurrence."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceCount` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceCount` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4865,7 +4865,7 @@
       <sliceName value="occurrenceDate"/>
       <short value="Specific dates for a recurring set of appointments (no template)"/>
       <definition value="The list of specific dates that will have appointments generated."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceDate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4905,7 +4905,7 @@
       <sliceName value="weeklyTemplate"/>
       <short value="Information about weekly recurring appointments"/>
       <definition value="Information about weekly recurring appointments."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4937,7 +4937,7 @@
       <sliceName value="monday"/>
       <short value="Recurs on Mondays"/>
       <definition value="Indicates that recurring appointments should occur on Mondays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4977,7 +4977,7 @@
       <sliceName value="tuesday"/>
       <short value="Recurs on Tuesday"/>
       <definition value="Indicates that recurring appointments should occur on Tuesdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5017,7 +5017,7 @@
       <sliceName value="wednesday"/>
       <short value="Recurs on Wednesday"/>
       <definition value="Indicates that recurring appointments should occur on Wednesdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5057,7 +5057,7 @@
       <sliceName value="thursday"/>
       <short value="Recurs on Thursday"/>
       <definition value="Indicates that recurring appointments should occur on Thursdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5097,7 +5097,7 @@
       <sliceName value="friday"/>
       <short value="Recurs on Friday"/>
       <definition value="Indicates that recurring appointments should occur on Fridays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5137,7 +5137,7 @@
       <sliceName value="saturday"/>
       <short value="Recurs on Saturday"/>
       <definition value="Indicates that recurring appointments should occur on Saturdays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5177,7 +5177,7 @@
       <sliceName value="sunday"/>
       <short value="Recurs on Sunday"/>
       <definition value="Indicates that recurring appointments should occur on Sundays."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5217,7 +5217,7 @@
       <sliceName value="weekInterval"/>
       <short value="Recurs every nth week"/>
       <definition value="The interval defines if the recurrence is every nth week. The default is every week, so it is expected that this value will be 2 or more.&#xD;&#xD;e.g. For recurring every second week this interval would be 2, or every third week the interval would be 3."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5278,7 +5278,7 @@
       <sliceName value="monthlyTemplate"/>
       <short value="Information about monthly recurring appointments"/>
       <definition value="Information about monthly recurring appointments."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5310,7 +5310,7 @@
       <sliceName value="dayOfMonth"/>
       <short value="Recurs on a specific day of the month"/>
       <definition value="Indicates that appointments in the series of recurring appointments should occur on a specific day of the month."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5350,7 +5350,7 @@
       <sliceName value="nthWeekOfMonth"/>
       <short value="Indicates which week of the month the appointment should occur"/>
       <definition value="Indicates which week within a month the appointments in the series of recurring appointments should occur on."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5391,7 +5391,7 @@
       <short value="Indicates which day of the week the appointment should occur"/>
       <definition value="Indicates which day of the week the recurring appointments should occur each nth week."/>
       <comment value="This property is intended to be used with Appointment.recurrenceTemplate.monthly.nthWeek."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5437,7 +5437,7 @@
       <sliceName value="monthInterval"/>
       <short value="Recurs every nth month"/>
       <definition value="Indicates that recurring appointments should occur every nth month."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -5498,7 +5498,7 @@
       <sliceName value="yearlyTemplate"/>
       <short value="Information about yearly recurring appointments"/>
       <definition value="Information about yearly recurring appointments."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5530,7 +5530,7 @@
       <sliceName value="yearInterval"/>
       <short value="Recurs every nth year"/>
       <definition value="Appointment recurs every nth year."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -5592,7 +5592,7 @@
       <short value="Any dates that should be excluded from the series"/>
       <definition value="Any dates, such as holidays, that should be excluded from the recurrence."/>
       <comment value="excludingDate is an alternative to excludingRecurrenceId.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingDate` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5634,7 +5634,7 @@
       <short value="Any recurrence IDs that should be excluded from the recurrence"/>
       <definition value="Any dates, such as holidays, that should be excluded from the recurrence."/>
       <comment value="excludingRecurrenceId is an alternative to excludingDate.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property."/>
-      <requirements value="Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is mapped to FHIR R4 structure `Appointment`, but has no target element specified."/>
+      <requirements value="Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ResearchStudy.progr
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ResearchStudy for use in FHIR R4](StructureDefinition-profile-ResearchStudy.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ResearchStudy.progressStatus)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "title" : "Cross-version Extension `R5.ResearchStudy.progressStatus` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.progressStatus` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.progressStatus` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.progressStatus` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.progressStatus` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.progressStatus` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.progressStatus` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.progressStatus` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.progressStatus` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ResearchStudy"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "state",
         "short" : "Label for status or state (e.g. recruitment status)",
         "definition" : "Label for status or state (e.g. recruitment status).",
-        "requirements" : "Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.state` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.state` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "actual",
         "short" : "Actual if true else anticipated",
         "definition" : "An indication of whether or not the date is a known date when the state changed or will change. A value of true indicates a known date. A value of false indicates an estimated date.",
-        "requirements" : "Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.actual` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.actual` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "period",
         "short" : "Date range",
         "definition" : "Date range.",
-        "requirements" : "Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.period` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.period` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {

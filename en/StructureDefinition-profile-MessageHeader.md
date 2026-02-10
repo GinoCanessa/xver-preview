@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
   "title" : "Cross-version Profile for R5.MessageHeader for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7427924-06:00",
+  "date" : "2026-02-09T22:05:43.2225008-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "MessageHeader.destination.endpoint",
@@ -165,9 +165,57 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
         }
       },
       {
-        "id" : "MessageHeader.destination.endpoint.extension",
+        "id" : "MessageHeader.destination.endpoint.extension:endpoint",
         "path" : "MessageHeader.destination.endpoint.extension",
+        "sliceName" : "endpoint",
         "short" : "Cross-version extension for MessageHeader.destination.endpoint[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MessageHeader.destination.endpoint.extension:endpointCanonical",
+        "path" : "MessageHeader.destination.endpoint.extension",
+        "sliceName" : "endpointCanonical",
+        "short" : "Cross-version extension for MessageHeader.destination.endpoint[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
+        "comment" : "Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MessageHeader.destination.endpoint.extension:endpointReference",
+        "path" : "MessageHeader.destination.endpoint.extension",
+        "sliceName" : "endpointReference",
+        "short" : "Cross-version extension for MessageHeader.destination.endpoint[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
+        "comment" : "Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -197,7 +245,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "MessageHeader.sender",
@@ -206,9 +254,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
         }
       },
       {
-        "id" : "MessageHeader.sender.extension",
+        "id" : "MessageHeader.sender.extension:sender",
         "path" : "MessageHeader.sender.extension",
+        "sliceName" : "sender",
         "short" : "Cross-version extension for MessageHeader.sender from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.sender` is mapped to FHIR R4 element `MessageHeader.sender`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -220,7 +271,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.sender|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -238,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "MessageHeader.source.endpoint",
@@ -247,9 +298,57 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
         }
       },
       {
-        "id" : "MessageHeader.source.endpoint.extension",
+        "id" : "MessageHeader.source.endpoint.extension:endpoint",
         "path" : "MessageHeader.source.endpoint.extension",
+        "sliceName" : "endpoint",
         "short" : "Cross-version extension for MessageHeader.source.endpoint[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MessageHeader.source.endpoint.extension:endpointCanonical",
+        "path" : "MessageHeader.source.endpoint.extension",
+        "sliceName" : "endpointCanonical",
+        "short" : "Cross-version extension for MessageHeader.source.endpoint[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
+        "comment" : "Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MessageHeader.source.endpoint.extension:endpointReference",
+        "path" : "MessageHeader.source.endpoint.extension",
+        "sliceName" : "endpointReference",
+        "short" : "Cross-version extension for MessageHeader.source.endpoint[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
+        "comment" : "Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -288,9 +387,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageHe
         }
       },
       {
-        "id" : "MessageHeader.response.identifier.extension",
+        "id" : "MessageHeader.response.identifier.extension:identifier",
         "path" : "MessageHeader.response.identifier.extension",
+        "sliceName" : "identifier",
         "short" : "Cross-version extension for MessageHeader.response.identifier from R5 for use in FHIR R4",
+        "comment" : "Element `MessageHeader.response.identifier` is mapped to FHIR R4 element `MessageHeader.response.identifier`.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:function","Extension.extension","function","","",0,1,"","","","Extension {[]} {[]}
 ","Type of involvement","Distinguishes the type of involvement of the actor in the activities related to the allergy or intolerance.","","Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.
-Element `AllergyIntolerance.participant.function` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `AllergyIntolerance.participant.function` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:function.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:actor","Extension.extension","actor","","",1,1,"","","","Extension {[]} {[]}
 ","Who or what participated in the activities related to the allergy or intolerance","Indicates who or what participated in the activities related to the allergy or intolerance.","","Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.
-Element `AllergyIntolerance.participant.actor` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AllergyIntolerance.participant.actor` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:actor.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

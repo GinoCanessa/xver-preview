@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
   "title" : "Cross-version Extension `R5.SubscriptionStatus` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -457,7 +457,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "focus",
         "short" : "Reference to the primary resource or information of this event",
         "definition" : "The focus of this event. While this will usually be a reference to the focus resource of the event, it MAY contain a reference to a non-FHIR object.",
-        "requirements" : "Element `SubscriptionStatus.notificationEvent.focus` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nElement `SubscriptionStatus.notificationEvent.focus` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
+        "requirements" : "Element `SubscriptionStatus.notificationEvent.focus` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.notificationEvent.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubscriptionStatus.notificationEvent.focus` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -506,7 +506,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "additionalContext",
         "short" : "References related to the focus resource and/or context of this event",
         "definition" : "Additional context information for this event. Generally, this will contain references to additional resources included with the event (e.g., the Patient relevant to an Encounter), however it MAY refer to non-FHIR objects.",
-        "requirements" : "Element `SubscriptionStatus.notificationEvent.additionalContext` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nElement `SubscriptionStatus.notificationEvent.additionalContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
+        "requirements" : "Element `SubscriptionStatus.notificationEvent.additionalContext` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.notificationEvent.additionalContext` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubscriptionStatus.notificationEvent.additionalContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -578,7 +578,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "subscription",
         "short" : "Reference to the Subscription responsible for this notification",
         "definition" : "The reference to the Subscription which generated this notification.",
-        "requirements" : "Element `SubscriptionStatus.subscription` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.subscription` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubscriptionStatus.subscription` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -628,7 +628,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "short" : "Reference to the SubscriptionTopic this notification relates to",
         "definition" : "The reference to the SubscriptionTopic for the Subscription which generated this notification.",
         "comment" : "This value SHOULD NOT be present when using `empty` payloads, MAY be present when using `id-only` payloads, and SHOULD be present when using `full-resource` payloads.",
-        "requirements" : "Element `SubscriptionStatus.topic` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SubscriptionStatus.topic` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {

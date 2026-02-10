@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.6139222-06:00",
+  "date" : "2026-02-09T22:05:44.0646731-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Narrative#Narrative",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Narrative` is representable via FHIR R4B extensions.\nElement `Narrative` is mapped to FHIR R4B element `Narrative`."
+              "comment" : "FHIR R5 ComplexType `Narrative` is representable via FHIR R4 extensions.\nElement `Narrative` is mapped to FHIR R4 element `Narrative`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Narrative#Narrative.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Narrative.status` is mapped to FHIR R4B element `Narrative.status`."
+              "comment" : "Element `Narrative.status` is mapped to FHIR R4 element `Narrative.status`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Narrative#Narrative.div",
               "equivalence" : "relatedto",
-              "comment" : "Element `Narrative.div` is mapped to FHIR R4B element `Narrative.div`."
+              "comment" : "Element `Narrative.div` is mapped to FHIR R4 element `Narrative.div`."
             }
           ]
         }

@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
   "title" : "Cross-version Extension `R5.AuditEvent.outcome` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Whether the event succeeded or failed",
         "definition" : "Indicates whether the event succeeded or failed.",
         "comment" : "In some cases a \"success\" may be partial, for example, an incomplete or interrupted transfer of a radiological study. For the purpose of establishing accountability, these distinctions are not relevant.",
-        "requirements" : "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is mapped to FHIR R4 structure `AuditEvent`, but has no target element specified.",
+        "requirements" : "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -238,7 +238,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Additional outcome detail",
         "definition" : "Additional details about the error. This may be a text description of the error or a system code that identifies the error.",
         "comment" : "A human readable description of the error issue SHOULD be placed in details.text.",
-        "requirements" : "Element `AuditEvent.outcome.detail` is mapped to FHIR R4 structure `AuditEvent`, but has no target element specified.",
+        "requirements" : "Element `AuditEvent.outcome.detail` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {

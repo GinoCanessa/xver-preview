@@ -7,7 +7,7 @@ This cross-version profile allows R5 ObservationDefinition content to be represe
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.observationResultRequirement` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.oRR.md), [Cross-version Extension `R5.ActivityDefinition.observationRequirement` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.observationRequirement.md), [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)... Show 6 more, [Cross-version Extension `R5.Observation.instantiates[x]` for use in FHIR R4](StructureDefinition-ext-R5-Observation.instantiates.md), [Cross-version Extension `R5.ObservationDefinition.derivedFromCanonical` for use in FHIR R4](StructureDefinition-ext-R5-ObservationDefinition.derivedFromCanonical.md), [Cross-version Extension `R5.ObservationDefinition.hasMember` for use in FHIR R4](StructureDefinition-ext-R5-ObservationDefinition.hasMember.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.Observation.instantiates[x]` for use in FHIR R4](StructureDefinition-ext-R5-Observation.instantiates.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md)... Show 2 more, [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ObservationDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
   "title" : "Cross-version Profile for R5.ObservationDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7528093-06:00",
+  "date" : "2026-02-09T22:05:43.2429371-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,647 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "path" : "ObservationDefinition"
       },
       {
+        "id" : "ObservationDefinition.extension",
+        "path" : "ObservationDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ObservationDefinition.extension:url",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "url",
+        "short" : "Cross-version extension for ObservationDefinition.url from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.url` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.url|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:version",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "version",
+        "short" : "Cross-version extension for ObservationDefinition.version from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.version` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.version|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:versionAlgorithm",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for ObservationDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.versionAlgorithm[x]` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:name",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "name",
+        "short" : "Cross-version extension for ObservationDefinition.name from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.name` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.name|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:title",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "title",
+        "short" : "Cross-version extension for ObservationDefinition.title from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.title` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.title|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:status",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "status",
+        "short" : "Cross-version extension for ObservationDefinition.status from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.status` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:experimental",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "experimental",
+        "short" : "Cross-version extension for ObservationDefinition.experimental from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.experimental` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.experimental|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:date",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "date",
+        "short" : "Cross-version extension for ObservationDefinition.date from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.date` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.date|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:publisher",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "publisher",
+        "short" : "Cross-version extension for ObservationDefinition.publisher from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.publisher` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.publisher|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:contact",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "contact",
+        "short" : "Cross-version extension for ObservationDefinition.contact from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.contact` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.contact|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:description",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "description",
+        "short" : "Cross-version extension for ObservationDefinition.description from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.description` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.description|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:useContext",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "useContext",
+        "short" : "Cross-version extension for ObservationDefinition.useContext from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.useContext` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.useContext|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:jurisdiction",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "jurisdiction",
+        "short" : "Cross-version extension for ObservationDefinition.jurisdiction from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.jurisdiction` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.jurisdiction|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:purpose",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "purpose",
+        "short" : "Cross-version extension for ObservationDefinition.purpose from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.purpose` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.purpose|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:copyright",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "copyright",
+        "short" : "Cross-version extension for ObservationDefinition.copyright from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.copyright` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyright|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:copyrightLabel",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for ObservationDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.copyrightLabel` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:approvalDate",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "approvalDate",
+        "short" : "Cross-version extension for ObservationDefinition.approvalDate from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.approvalDate` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.approvalDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:lastReviewDate",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "lastReviewDate",
+        "short" : "Cross-version extension for ObservationDefinition.lastReviewDate from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.lastReviewDate` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.lastReviewDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:effectivePeriod",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "effectivePeriod",
+        "short" : "Cross-version extension for ObservationDefinition.effectivePeriod from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.effectivePeriod` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.effectivePeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:derivedFromUri",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "derivedFromUri",
+        "short" : "Cross-version extension for ObservationDefinition.derivedFromUri from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.derivedFromUri` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromUri|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:subject",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "subject",
+        "short" : "Cross-version extension for ObservationDefinition.subject from R5 for use in FHIR R4",
+        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `CodeableConcept`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).\nElement `ObservationDefinition.subject` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:performerType",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "performerType",
+        "short" : "Cross-version extension for ObservationDefinition.performerType from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.performerType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.performerType|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:bodySite",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "bodySite",
+        "short" : "Cross-version extension for ObservationDefinition.bodySite from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.bodySite` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.bodySite|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:component",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "component",
+        "short" : "Cross-version extension for ObservationDefinition.component from R5 for use in FHIR R4",
+        "comment" : "Element `ObservationDefinition.component` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:derivedFromCanonical",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "derivedFromCanonical",
+        "short" : "Cross-version extension for ObservationDefinition.derivedFromCanonical from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ObservationDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.derivedFromCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.derivedFromCanonical` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:specimen",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "specimen",
+        "short" : "Cross-version extension for ObservationDefinition.specimen from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/SpecimenDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.specimen` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ObservationDefinition.specimen` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:device",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "device",
+        "short" : "Cross-version extension for ObservationDefinition.device from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/DeviceDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ObservationDefinition.device` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ObservationDefinition.extension:hasMember",
+        "path" : "ObservationDefinition.extension",
+        "sliceName" : "hasMember",
+        "short" : "Cross-version extension for ObservationDefinition.hasMember from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ObservationDefinition,http://hl7.org/fhir/StructureDefinition/Questionnaire in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.hasMember` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ObservationDefinition.hasMember` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "ObservationDefinition.validCodedValueSet.extension",
         "path" : "ObservationDefinition.validCodedValueSet.extension",
         "slicing" : {
@@ -156,7 +797,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ObservationDefinition.validCodedValueSet",
@@ -165,9 +806,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         }
       },
       {
-        "id" : "ObservationDefinition.validCodedValueSet.extension",
+        "id" : "ObservationDefinition.validCodedValueSet.extension:validCodedValueSet",
         "path" : "ObservationDefinition.validCodedValueSet.extension",
+        "sliceName" : "validCodedValueSet",
         "short" : "Cross-version extension for ObservationDefinition.qualifiedValue.validCodedValueSet from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ValueSet in FHIR R4",
+        "comment" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -179,7 +823,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.validCodedValueSet|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]
@@ -197,7 +841,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ObservationDefinition.normalCodedValueSet",
@@ -206,9 +850,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         }
       },
       {
-        "id" : "ObservationDefinition.normalCodedValueSet.extension",
+        "id" : "ObservationDefinition.normalCodedValueSet.extension:normalCodedValueSet",
         "path" : "ObservationDefinition.normalCodedValueSet.extension",
+        "sliceName" : "normalCodedValueSet",
         "short" : "Cross-version extension for ObservationDefinition.qualifiedValue.normalCodedValueSet from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ValueSet in FHIR R4",
+        "comment" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -220,7 +867,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.normalCodedValueSet|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]
@@ -238,7 +885,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ObservationDefinition.abnormalCodedValueSet",
@@ -247,9 +894,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         }
       },
       {
-        "id" : "ObservationDefinition.abnormalCodedValueSet.extension",
+        "id" : "ObservationDefinition.abnormalCodedValueSet.extension:abnormalCodedValueSet",
         "path" : "ObservationDefinition.abnormalCodedValueSet.extension",
+        "sliceName" : "abnormalCodedValueSet",
         "short" : "Cross-version extension for ObservationDefinition.qualifiedValue.abnormalCodedValueSet from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ValueSet in FHIR R4",
+        "comment" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -261,7 +911,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.abnormalCodedValueSet|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]
@@ -279,7 +929,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ObservationDefinition.criticalCodedValueSet",
@@ -288,9 +938,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         }
       },
       {
-        "id" : "ObservationDefinition.criticalCodedValueSet.extension",
+        "id" : "ObservationDefinition.criticalCodedValueSet.extension:criticalCodedValueSet",
         "path" : "ObservationDefinition.criticalCodedValueSet.extension",
+        "sliceName" : "criticalCodedValueSet",
         "short" : "Cross-version extension for ObservationDefinition.qualifiedValue.criticalCodedValueSet from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ValueSet in FHIR R4",
+        "comment" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -302,7 +955,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.criticalCodedValueSet|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]

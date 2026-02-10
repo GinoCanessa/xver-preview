@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`HealthcareService.identifier`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.identifier](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.active`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.active](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.providedBy`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.providedBy](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
-| [`HealthcareService.offeredIn`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.offeredIn](StructureDefinition-ext-R5-HealthcareService.offeredIn.md) |
+| [`HealthcareService.offeredIn`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService](https://hl7.org/fhir/R4/HealthcareService.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.offeredIn](StructureDefinition-ext-R5-HealthcareService.offeredIn.md) |
 | [`HealthcareService.category`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.category](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.type`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.type](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.specialty`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.specialty](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
@@ -30,7 +30,7 @@ A computable version of the following element information is available in: [Conc
 | [`HealthcareService.comment`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.comment](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.extraDetails`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.extraDetails](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.photo`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.photo](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
-| [`HealthcareService.contact`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact](StructureDefinition-ext-R5-HealthcareService.contact.md) |
+| [`HealthcareService.contact`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService](https://hl7.org/fhir/R4/HealthcareService.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact](StructureDefinition-ext-R5-HealthcareService.contact.md) |
 | [`HealthcareService.coverageArea`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.coverageArea](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.serviceProvisionCode`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.serviceProvisionCode](https://hl7.org/fhir/R4/HealthcareService.html#resource) |
 | [`HealthcareService.eligibility`](https://hl7.org/fhir/R5/HealthcareService.html#resource) | [HealthcareService.eligibility](https://hl7.org/fhir/R4/HealthcareService.html#resource) |

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Consent.provision` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -3875,7 +3875,7 @@
        fhir:short [ fhir:v "A computable expression of the consent" ] ;
        fhir:definition [ fhir:v "A computable (FHIRPath or other) definition of what is controlled by this consent." ] ;
        fhir:comment [ fhir:v "Constraining the expression type for a specific implementation via profile is recommended" ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is mapped to FHIR R4 structure `Consent`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5704,7 +5704,7 @@
        fhir:short [ fhir:v "A computable expression of the consent" ] ;
        fhir:definition [ fhir:v "A computable (FHIRPath or other) definition of what is controlled by this consent." ] ;
        fhir:comment [ fhir:v "Constraining the expression type for a specific implementation via profile is recommended" ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is mapped to FHIR R4 structure `Consent`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceRe
   "title" : "Cross-version Extension `R5.EvidenceReport` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -1482,7 +1482,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceRe
         "sliceName" : "resource",
         "short" : "Target of the relationship Resource reference",
         "definition" : "Target of the relationship Resource reference.",
-        "requirements" : "Element `EvidenceReport.relatesTo.target.resource` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.",
+        "requirements" : "Element `EvidenceReport.relatesTo.target.resource` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceReport.relatesTo.target.resource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {

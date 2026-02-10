@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.c
   "title" : "Cross-version Extension `R5.ValueSet.compose.include` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -727,7 +727,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.c
         "sliceName" : "copyright",
         "short" : "A copyright statement for the specific code system included in the value set",
         "definition" : "A copyright statement for the specific code system asserted by the containing ValueSet.compose.include element's system value (if the associated ValueSet.compose.include.version element is not present); or the code system and version combination (if the associated ValueSet.compose.include.version element is present).",
-        "requirements" : "Element `ValueSet.compose.include.copyright` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.copyright` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified.",
+        "requirements" : "Element `ValueSet.compose.include.copyright` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.copyright` is will have a context of ValueSet.compose.include based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {

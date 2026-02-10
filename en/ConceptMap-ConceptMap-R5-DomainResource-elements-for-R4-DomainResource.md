@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.2995194-06:00",
+  "date" : "2026-02-09T22:05:43.7926687-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DomainResource#DomainResource",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DomainResource` is representable via FHIR R4B Resource `DomainResource`.\nElement `DomainResource` is mapped to FHIR R4B element `DomainResource`."
+              "comment" : "FHIR R5 Resource `DomainResource` is representable via FHIR R4 Resource `DomainResource`.\nElement `DomainResource` is mapped to FHIR R4 element `DomainResource`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DomainResource#DomainResource.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DomainResource.meta` is mapped to FHIR R4B element `DomainResource.meta`."
+              "comment" : "Element `DomainResource.meta` is mapped to FHIR R4 element `DomainResource.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DomainResource#DomainResource.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DomainResource.implicitRules` is mapped to FHIR R4B element `DomainResource.implicitRules`."
+              "comment" : "Element `DomainResource.implicitRules` is mapped to FHIR R4 element `DomainResource.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DomainResource#DomainResource.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DomainResource.language` is mapped to FHIR R4B element `DomainResource.language`."
+              "comment" : "Element `DomainResource.language` is mapped to FHIR R4 element `DomainResource.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DomainResource#DomainResource.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DomainResource.text` is mapped to FHIR R4B element `DomainResource.text`."
+              "comment" : "Element `DomainResource.text` is mapped to FHIR R4 element `DomainResource.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DomainResource#DomainResource.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DomainResource.contained` is mapped to FHIR R4B element `DomainResource.contained`."
+              "comment" : "Element `DomainResource.contained` is mapped to FHIR R4 element `DomainResource.contained`."
             }
           ]
         }

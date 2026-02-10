@@ -7,7 +7,7 @@ This cross-version profile allows R5 AppointmentResponse content to be represent
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md) and [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md)
+* Refer to this Profile: [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-AppointmentResponse)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
   "title" : "Cross-version Profile for R5.AppointmentResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6204689-06:00",
+  "date" : "2026-02-09T22:05:42.984309-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,115 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "AppointmentResponse"
       },
       {
+        "id" : "AppointmentResponse.extension",
+        "path" : "AppointmentResponse.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "AppointmentResponse.extension:proposedNewTime",
+        "path" : "AppointmentResponse.extension",
+        "sliceName" : "proposedNewTime",
+        "short" : "Cross-version extension for AppointmentResponse.proposedNewTime from R5 for use in FHIR R4",
+        "comment" : "Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "AppointmentResponse.extension:recurring",
+        "path" : "AppointmentResponse.extension",
+        "sliceName" : "recurring",
+        "short" : "Cross-version extension for AppointmentResponse.recurring from R5 for use in FHIR R4",
+        "comment" : "Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "AppointmentResponse.extension:occurrenceDate",
+        "path" : "AppointmentResponse.extension",
+        "sliceName" : "occurrenceDate",
+        "short" : "Cross-version extension for AppointmentResponse.occurrenceDate from R5 for use in FHIR R4",
+        "comment" : "Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "AppointmentResponse.extension:recurrenceId",
+        "path" : "AppointmentResponse.extension",
+        "sliceName" : "recurrenceId",
+        "short" : "Cross-version extension for AppointmentResponse.recurrenceId from R5 for use in FHIR R4",
+        "comment" : "Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "AppointmentResponse.actor.extension",
         "path" : "AppointmentResponse.actor.extension",
         "slicing" : {
@@ -166,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "AppointmentResponse.actor",
@@ -175,9 +284,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "AppointmentResponse.actor.extension",
+        "id" : "AppointmentResponse.actor.extension:actor",
         "path" : "AppointmentResponse.actor.extension",
+        "sliceName" : "actor",
         "short" : "Cross-version extension for AppointmentResponse.actor from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -189,7 +301,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.actor|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -216,9 +328,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "AppointmentResponse.participantStatus.extension",
+        "id" : "AppointmentResponse.participantStatus.extension:participantStatus",
         "path" : "AppointmentResponse.participantStatus.extension",
+        "sliceName" : "participantStatus",
         "short" : "Cross-version extension for AppointmentResponse.participantStatus from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`.",
         "min" : 1,
         "max" : "1",
         "base" : {

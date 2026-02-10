@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DeviceDefinition.gu
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.DeviceDefinition for use in FHIR R4](StructureDefinition-profile-DeviceDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DeviceDefinition.guideline)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "title" : "Cross-version Extension `R5.DeviceDefinition.guideline` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.guideline` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.guideline` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.guideline` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.guideline` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.guideline` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.guideline` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.guideline` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.guideline` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "DeviceDefinition"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "useContext",
         "short" : "The circumstances that form the setting for using the device",
         "definition" : "The circumstances that form the setting for using the device.",
-        "requirements" : "Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.useContext` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.useContext` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "usageInstruction",
         "short" : "Detailed written and visual directions for the user on how to use the device",
         "definition" : "Detailed written and visual directions for the user on how to use the device.",
-        "requirements" : "Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.usageInstruction` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.usageInstruction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "relatedArtifact",
         "short" : "A source of information or reference for this guideline",
         "definition" : "A source of information or reference for this guideline.",
-        "requirements" : "Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.relatedArtifact` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.relatedArtifact` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -321,7 +321,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "short" : "A clinical condition for which the device was designed to be used",
         "definition" : "A clinical condition for which the device was designed to be used.",
         "comment" : "A ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.",
-        "requirements" : "Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.indication` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.indication` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -368,7 +368,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "short" : "A specific situation when a device should not be used because it may cause harm",
         "definition" : "A specific situation when a device should not be used because it may cause harm.",
         "comment" : "A ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.",
-        "requirements" : "Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.contraindication` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.contraindication` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -415,7 +415,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "short" : "Specific hazard alert information that a user needs to know before using the device",
         "definition" : "Specific hazard alert information that a user needs to know before using the device.",
         "comment" : "A ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.",
-        "requirements" : "Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.warning` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.warning` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -461,7 +461,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "intendedUse",
         "short" : "A description of the general purpose or medical use of the device or its function",
         "definition" : "A description of the general purpose or medical use of the device or its function.",
-        "requirements" : "Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.intendedUse` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.intendedUse` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {

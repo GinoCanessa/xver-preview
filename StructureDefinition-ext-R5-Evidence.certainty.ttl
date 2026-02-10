@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.certainty` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.certainty` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.certainty` 0..* `BackboneElement`\n*  R4B: `Evidence.certainty` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.certainty` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.certainty` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.certainty` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.certainty` 0..* `BackboneElement`\n*  R4B: `Evidence.certainty` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.certainty` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Evidence" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Textual description of certainty" ] ;
        fhir:definition [ fhir:v "Textual description of certainty." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Footnotes and/or explanatory notes" ] ;
        fhir:definition [ fhir:v "Footnotes and/or explanatory notes." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -735,7 +735,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Aspect of certainty being rated" ] ;
        fhir:definition [ fhir:v "Aspect of certainty being rated." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.type` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.type` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -954,7 +954,7 @@
        fhir:sliceName [ fhir:v "rating" ] ;
        fhir:short [ fhir:v "Assessment or judgement of the aspect" ] ;
        fhir:definition [ fhir:v "Assessment or judgement of the aspect." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rating` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rating` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1173,7 +1173,7 @@
        fhir:sliceName [ fhir:v "rater" ] ;
        fhir:short [ fhir:v "Individual or group who did the rating" ] ;
        fhir:definition [ fhir:v "Individual or group who did the rating." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rater` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rater` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1384,7 +1384,7 @@
        fhir:sliceName [ fhir:v "subcomponent" ] ;
        fhir:short [ fhir:v "A domain or subdomain of certainty" ] ;
        fhir:definition [ fhir:v "A domain or subdomain of certainty." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.subcomponent` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.subcomponent` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2196,7 +2196,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Textual description of certainty" ] ;
        fhir:definition [ fhir:v "Textual description of certainty." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2243,7 +2243,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Footnotes and/or explanatory notes" ] ;
        fhir:definition [ fhir:v "Footnotes and/or explanatory notes." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2290,7 +2290,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Aspect of certainty being rated" ] ;
        fhir:definition [ fhir:v "Aspect of certainty being rated." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.type` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.type` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2345,7 +2345,7 @@
        fhir:sliceName [ fhir:v "rating" ] ;
        fhir:short [ fhir:v "Assessment or judgement of the aspect" ] ;
        fhir:definition [ fhir:v "Assessment or judgement of the aspect." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rating` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rating` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2400,7 +2400,7 @@
        fhir:sliceName [ fhir:v "rater" ] ;
        fhir:short [ fhir:v "Individual or group who did the rating" ] ;
        fhir:definition [ fhir:v "Individual or group who did the rating." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rater` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rater` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2447,7 +2447,7 @@
        fhir:sliceName [ fhir:v "subcomponent" ] ;
        fhir:short [ fhir:v "A domain or subdomain of certainty" ] ;
        fhir:definition [ fhir:v "A domain or subdomain of certainty." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.subcomponent` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.subcomponent` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

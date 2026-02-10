@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.860121-06:00",
+  "date" : "2026-02-09T22:05:44.1120546-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Patient` is representable via FHIR R4B Resource `Patient`.\nElement `Patient` is mapped to FHIR R4B element `Patient`."
+              "comment" : "FHIR R5 Resource `Patient` is representable via FHIR R4 Resource `Patient`.\nElement `Patient` is mapped to FHIR R4 element `Patient`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.meta` is mapped to FHIR R4B element `Patient.meta`."
+              "comment" : "Element `Patient.meta` is mapped to FHIR R4 element `Patient.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.implicitRules` is mapped to FHIR R4B element `Patient.implicitRules`."
+              "comment" : "Element `Patient.implicitRules` is mapped to FHIR R4 element `Patient.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.language` is mapped to FHIR R4B element `Patient.language`."
+              "comment" : "Element `Patient.language` is mapped to FHIR R4 element `Patient.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.text` is mapped to FHIR R4B element `Patient.text`."
+              "comment" : "Element `Patient.text` is mapped to FHIR R4 element `Patient.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contained` is mapped to FHIR R4B element `Patient.contained`."
+              "comment" : "Element `Patient.contained` is mapped to FHIR R4 element `Patient.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.identifier` is mapped to FHIR R4B element `Patient.identifier`."
+              "comment" : "Element `Patient.identifier` is mapped to FHIR R4 element `Patient.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.active` is mapped to FHIR R4B element `Patient.active`."
+              "comment" : "Element `Patient.active` is mapped to FHIR R4 element `Patient.active`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.name` is mapped to FHIR R4B element `Patient.name`."
+              "comment" : "Element `Patient.name` is mapped to FHIR R4 element `Patient.name`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.telecom",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.telecom` is mapped to FHIR R4B element `Patient.telecom`."
+              "comment" : "Element `Patient.telecom` is mapped to FHIR R4 element `Patient.telecom`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.gender",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.gender` is mapped to FHIR R4B element `Patient.gender`."
+              "comment" : "Element `Patient.gender` is mapped to FHIR R4 element `Patient.gender`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.birthDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.birthDate` is mapped to FHIR R4B element `Patient.birthDate`."
+              "comment" : "Element `Patient.birthDate` is mapped to FHIR R4 element `Patient.birthDate`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.deceased[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.deceased[x]` is mapped to FHIR R4B element `Patient.deceased[x]`.\nNote that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`."
+              "comment" : "Note that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.deceased[x]` is mapped to FHIR R4 element `Patient.deceased[x]`.\nNote that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.address",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.address` is mapped to FHIR R4B element `Patient.address`."
+              "comment" : "Element `Patient.address` is mapped to FHIR R4 element `Patient.address`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.maritalStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.maritalStatus` is mapped to FHIR R4B element `Patient.maritalStatus`."
+              "comment" : "Element `Patient.maritalStatus` is mapped to FHIR R4 element `Patient.maritalStatus`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.multipleBirth[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.multipleBirth[x]` is mapped to FHIR R4B element `Patient.multipleBirth[x]`.\nNote that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`."
+              "comment" : "Note that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.multipleBirth[x]` is mapped to FHIR R4 element `Patient.multipleBirth[x]`.\nNote that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.photo",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.photo` is mapped to FHIR R4B element `Patient.photo`."
+              "comment" : "Element `Patient.photo` is mapped to FHIR R4 element `Patient.photo`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact` is mapped to FHIR R4B element `Patient.contact`."
+              "comment" : "Element `Patient.contact` is mapped to FHIR R4 element `Patient.contact`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.relationship` is mapped to FHIR R4B element `Patient.contact.relationship`."
+              "comment" : "Element `Patient.contact.relationship` is mapped to FHIR R4 element `Patient.contact.relationship`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.name` is mapped to FHIR R4B element `Patient.contact.name`."
+              "comment" : "Element `Patient.contact.name` is mapped to FHIR R4 element `Patient.contact.name`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.telecom",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.telecom` is mapped to FHIR R4B element `Patient.contact.telecom`."
+              "comment" : "Element `Patient.contact.telecom` is mapped to FHIR R4 element `Patient.contact.telecom`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.address",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.address` is mapped to FHIR R4B element `Patient.contact.address`."
+              "comment" : "Element `Patient.contact.address` is mapped to FHIR R4 element `Patient.contact.address`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.gender",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.gender` is mapped to FHIR R4B element `Patient.contact.gender`."
+              "comment" : "Element `Patient.contact.gender` is mapped to FHIR R4 element `Patient.contact.gender`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.organization` is mapped to FHIR R4B element `Patient.contact.organization`."
+              "comment" : "Element `Patient.contact.organization` is mapped to FHIR R4 element `Patient.contact.organization`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.contact.period` is mapped to FHIR R4B element `Patient.contact.period`."
+              "comment" : "Element `Patient.contact.period` is mapped to FHIR R4 element `Patient.contact.period`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.communication` is mapped to FHIR R4B element `Patient.communication`."
+              "comment" : "Element `Patient.communication` is mapped to FHIR R4 element `Patient.communication`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.communication.language` is mapped to FHIR R4B element `Patient.communication.language`."
+              "comment" : "Element `Patient.communication.language` is mapped to FHIR R4 element `Patient.communication.language`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication.preferred",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.communication.preferred` is mapped to FHIR R4B element `Patient.communication.preferred`."
+              "comment" : "Element `Patient.communication.preferred` is mapped to FHIR R4 element `Patient.communication.preferred`."
             }
           ]
         },
@@ -393,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.generalPractitioner",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.generalPractitioner` is mapped to FHIR R4B element `Patient.generalPractitioner`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.careProvider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Patient.generalPractitioner` is mapped to FHIR DSTU2 element `Patient.careProvider`."
+              "comment" : "Element `Patient.generalPractitioner` is mapped to FHIR R4 element `Patient.generalPractitioner`."
             }
           ]
         },
@@ -409,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.managingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.managingOrganization` is mapped to FHIR R4B element `Patient.managingOrganization`."
+              "comment" : "Element `Patient.managingOrganization` is mapped to FHIR R4 element `Patient.managingOrganization`."
             }
           ]
         },
@@ -420,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.link` is mapped to FHIR R4B element `Patient.link`."
+              "comment" : "Element `Patient.link` is mapped to FHIR R4 element `Patient.link`."
             }
           ]
         },
@@ -431,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.link.other",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.link.other` is mapped to FHIR R4B element `Patient.link.other`."
+              "comment" : "Element `Patient.link.other` is mapped to FHIR R4 element `Patient.link.other`."
             }
           ]
         },
@@ -442,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Patient#Patient.link.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Patient.link.type` is mapped to FHIR R4B element `Patient.link.type`."
+              "comment" : "Element `Patient.link.type` is mapped to FHIR R4 element `Patient.link.type`."
             }
           ]
         }

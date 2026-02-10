@@ -61,7 +61,7 @@
   "title" : "Cross-version Extension `R5.ServiceRequest.patientInstruction` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [{
     "name" : "FHIR Infrastructure",
@@ -206,7 +206,7 @@
       "sliceName" : "instruction",
       "short" : "Patient or consumer-oriented instructions",
       "definition" : "Instructions in terms that are understood by the patient or consumer.",
-      "requirements" : "Element `ServiceRequest.patientInstruction.instruction[x]` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified.",
+      "requirements" : "Element `ServiceRequest.patientInstruction.instruction[x]` is will have a context of ServiceRequest.patientInstruction based on following the parent source element upwards and mapping to `ServiceRequest`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -623,7 +623,7 @@
       "sliceName" : "instruction",
       "short" : "Patient or consumer-oriented instructions",
       "definition" : "Instructions in terms that are understood by the patient or consumer.",
-      "requirements" : "Element `ServiceRequest.patientInstruction.instruction[x]` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified.",
+      "requirements" : "Element `ServiceRequest.patientInstruction.instruction[x]` is will have a context of ServiceRequest.patientInstruction based on following the parent source element upwards and mapping to `ServiceRequest`.",
       "min" : 0,
       "max" : "1",
       "base" : {

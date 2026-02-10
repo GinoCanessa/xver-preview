@@ -433,7 +433,7 @@ XML Profile
          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-06T19:17:19.5427077+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-10T04:05:33.0136333+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
@@ -605,7 +605,7 @@ Element `EvidenceVariable.characteristic` is mapped to FHIR R4 element `Evidence
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Label used for when a characteristic refers to another characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -977,7 +977,7 @@ Element `EvidenceVariable.characteristic.description` is mapped to FHIR R4 eleme
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A human-readable string to clarify or explain concepts about the characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1351,7 +1351,8 @@ Element `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4 element `
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using a Reference.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1549,7 +1550,8 @@ Element `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using Canonical.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1743,7 +1745,7 @@ Element `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using CodeableConcept.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1931,7 +1933,7 @@ Element `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2119,7 +2121,7 @@ Element `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using id.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2305,7 +2307,7 @@ Element `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 stru
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using both a type and value[x] elements.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2420,7 +2422,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to express the type of characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2614,7 +2616,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mappe
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Method for how the characteristic value was determined.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2803,7 +2805,8 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is map
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Device used for determining characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3001,7 +3004,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is map
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic when paired with characteristic.type.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3207,7 +3210,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is m
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3607,7 +3610,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is map
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic as a combination of two or more characteristics.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3723,7 +3726,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to F
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to specify if two or more characteristics are combined with OR or AND.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;If code is &amp;quot;at-least&amp;quot; or &amp;quot;at-most&amp;quot; then threshold SHALL be used. If code is neither &amp;quot;at-least&amp;quot; nor &amp;quot;at-most&amp;quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3920,7 +3923,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Provides the value of &amp;quot;n&amp;quot; when &amp;quot;at-least&amp;quot; or &amp;quot;at-most&amp;quot; codes are used.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4110,7 +4113,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is m
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A defining factor of the characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4656,7 +4659,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination.characteristic`
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of occurrences meeting the characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4843,7 +4846,7 @@ Element `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 stru
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Length of time in which the characteristic is met.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -5143,7 +5146,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Human readable description&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Human readable description.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -5329,7 +5332,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A human-readable string to clarify or explain concepts about the timeFromEvent.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -5514,7 +5517,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The event used as a base point (reference point) in time.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -5710,7 +5713,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to express the observation at a defined amount of time before or after the event.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -5898,7 +5901,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to express the observation within a period before and/or after the event.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6541,7 +6544,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Label used for when a characteristic refers to another characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6631,7 +6634,7 @@ Element `EvidenceVariable.characteristic.description` is mapped to FHIR R4 eleme
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A human-readable string to clarify or explain concepts about the characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6723,7 +6726,8 @@ Element `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4 element `
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using a Reference.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6780,7 +6784,8 @@ Element `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using Canonical.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6833,7 +6838,7 @@ Element `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using CodeableConcept.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6880,7 +6885,7 @@ Element `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6927,7 +6932,7 @@ Element `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using id.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6972,7 +6977,7 @@ Element `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 stru
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic using both a type and value[x] elements.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7007,7 +7012,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to express the type of characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7058,7 +7063,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mappe
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Method for how the characteristic value was determined.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7104,7 +7109,8 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is map
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Device used for determining characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7159,7 +7165,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is map
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic when paired with characteristic.type.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7222,7 +7228,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is m
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7291,7 +7297,7 @@ Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is map
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Defines the characteristic as a combination of two or more characteristics.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7327,7 +7333,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to F
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to specify if two or more characteristics are combined with OR or AND.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;If code is &amp;quot;at-least&amp;quot; or &amp;quot;at-most&amp;quot; then threshold SHALL be used. If code is neither &amp;quot;at-least&amp;quot; nor &amp;quot;at-most&amp;quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7381,7 +7387,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Provides the value of &amp;quot;n&amp;quot; when &amp;quot;at-least&amp;quot; or &amp;quot;at-most&amp;quot; codes are used.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7428,7 +7434,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is m
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A defining factor of the characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
-Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7490,7 +7496,7 @@ Element `EvidenceVariable.characteristic.definitionByCombination.characteristic`
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of occurrences meeting the characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7536,7 +7542,7 @@ Element `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 stru
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Length of time in which the characteristic is met.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).
-Element `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+Element `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7615,7 +7621,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Human readable description&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Human readable description.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7659,7 +7665,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A human-readable string to clarify or explain concepts about the timeFromEvent.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7703,7 +7709,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The event used as a base point (reference point) in time.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7757,7 +7763,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to express the observation at a defined amount of time before or after the event.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7803,7 +7809,7 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Used to express the observation within a period before and/or after the event.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7943,8 +7949,8 @@ Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 ele
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

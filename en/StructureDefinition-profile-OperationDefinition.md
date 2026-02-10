@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
   "title" : "Cross-version Profile for R5.OperationDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7542879-06:00",
+  "date" : "2026-02-09T22:05:43.24593-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,158 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
       {
         "id" : "OperationDefinition",
         "path" : "OperationDefinition"
+      },
+      {
+        "id" : "OperationDefinition.extension",
+        "path" : "OperationDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "OperationDefinition.extension:versionAlgorithm",
+        "path" : "OperationDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for OperationDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.versionAlgorithm[x]` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "OperationDefinition.extension:copyright",
+        "path" : "OperationDefinition.extension",
+        "sliceName" : "copyright",
+        "short" : "Cross-version extension for OperationDefinition.copyright from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.copyright` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyright|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "OperationDefinition.extension:copyrightLabel",
+        "path" : "OperationDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for OperationDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.copyrightLabel` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "OperationDefinition.parameter.extension",
+        "path" : "OperationDefinition.parameter.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "OperationDefinition.parameter.extension:scope",
+        "path" : "OperationDefinition.parameter.extension",
+        "sliceName" : "scope",
+        "short" : "Cross-version extension for OperationDefinition.parameter.scope from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "OperationDefinition.parameter.extension:allowedType",
+        "path" : "OperationDefinition.parameter.extension",
+        "sliceName" : "allowedType",
+        "short" : "Cross-version extension for OperationDefinition.parameter.allowedType from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.3810286-06:00",
+  "date" : "2026-02-09T22:05:44.2426085-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -83,11 +83,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "SubscriptionStatus",
           "target" : [
             {
-              "code" : "#SubscriptionStatus",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SubscriptionStatus` is representable via FHIR R4B Resource `SubscriptionStatus`.\nElement `SubscriptionStatus` is mapped to FHIR R4B element `SubscriptionStatus`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus",
               "equivalence" : "relatedto",
               "comment" : "FHIR R5 Resource `SubscriptionStatus` is representable via FHIR R4 Resource `Basic`.\nElement `SubscriptionStatus` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
@@ -98,11 +93,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubscriptionStatus.meta",
           "display" : "meta",
           "target" : [
-            {
-              "code" : "#SubscriptionStatus.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.meta` is mapped to FHIR R4B element `SubscriptionStatus.meta`."
-            },
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
@@ -115,11 +105,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "implicitRules",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.implicitRules` is mapped to FHIR R4B element `SubscriptionStatus.implicitRules`."
-            },
-            {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `SubscriptionStatus.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
@@ -130,11 +115,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubscriptionStatus.language",
           "display" : "language",
           "target" : [
-            {
-              "code" : "#SubscriptionStatus.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.language` is mapped to FHIR R4B element `SubscriptionStatus.language`."
-            },
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
@@ -147,11 +127,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "text",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.text` is mapped to FHIR R4B element `SubscriptionStatus.text`."
-            },
-            {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `SubscriptionStatus.text` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
@@ -162,11 +137,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubscriptionStatus.contained",
           "display" : "contained",
           "target" : [
-            {
-              "code" : "#SubscriptionStatus.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.contained` is mapped to FHIR R4B element `SubscriptionStatus.contained`."
-            },
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
@@ -179,11 +149,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.status` is mapped to FHIR R4B element `SubscriptionStatus.status`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:status",
               "equivalence" : "relatedto",
               "comment" : "Element `SubscriptionStatus.status` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
@@ -194,11 +159,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubscriptionStatus.type",
           "display" : "type",
           "target" : [
-            {
-              "code" : "#SubscriptionStatus.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.type` is mapped to FHIR R4B element `SubscriptionStatus.type`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:type",
               "equivalence" : "relatedto",
@@ -211,11 +171,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "eventsSinceSubscriptionStart",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.eventsSinceSubscriptionStart",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.eventsSinceSubscriptionStart` is mapped to FHIR R4B element `SubscriptionStatus.eventsSinceSubscriptionStart`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:eventsSinceSubscriptionStart",
               "equivalence" : "relatedto",
               "comment" : "Element `SubscriptionStatus.eventsSinceSubscriptionStart` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
@@ -227,19 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "notificationEvent",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.notificationEvent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent` is mapped to FHIR R4B element `SubscriptionStatus.notificationEvent`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:notificationEvent",
               "equivalence" : "relatedto",
               "comment" : "Element `SubscriptionStatus.notificationEvent` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus.notificationEvent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent` is not mapped to FHIR STU3, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -248,19 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "eventNumber",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.notificationEvent.eventNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.eventNumber` is mapped to FHIR R4B element `SubscriptionStatus.notificationEvent.eventNumber`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:notificationEvent:eventNumber",
               "equivalence" : "relatedto",
               "comment" : "Element `SubscriptionStatus.notificationEvent.eventNumber` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nElement `SubscriptionStatus.notificationEvent.eventNumber` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus.notificationEvent:eventNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.eventNumber` is not mapped to FHIR STU3, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -269,19 +204,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "timestamp",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.notificationEvent.timestamp",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.timestamp` is mapped to FHIR R4B element `SubscriptionStatus.notificationEvent.timestamp`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:notificationEvent:timestamp",
               "equivalence" : "relatedto",
               "comment" : "Element `SubscriptionStatus.notificationEvent.timestamp` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nElement `SubscriptionStatus.notificationEvent.timestamp` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus.notificationEvent:timestamp",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.timestamp` is not mapped to FHIR STU3, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -290,19 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "focus",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.notificationEvent.focus",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.focus` is mapped to FHIR R4B element `SubscriptionStatus.notificationEvent.focus`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:notificationEvent:focus",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.focus` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nElement `SubscriptionStatus.notificationEvent.focus` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus.notificationEvent:focus",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.focus` is not mapped to FHIR STU3, since FHIR R5 `SubscriptionStatus` is not mapped."
+              "comment" : "Element `SubscriptionStatus.notificationEvent.focus` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.notificationEvent.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubscriptionStatus.notificationEvent.focus` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -311,19 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "additionalContext",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.notificationEvent.additionalContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.additionalContext` is mapped to FHIR R4B element `SubscriptionStatus.notificationEvent.additionalContext`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:notificationEvent:additionalContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.additionalContext` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nElement `SubscriptionStatus.notificationEvent.additionalContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus.notificationEvent:additionalContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.notificationEvent.additionalContext` is not mapped to FHIR STU3, since FHIR R5 `SubscriptionStatus` is not mapped."
+              "comment" : "Element `SubscriptionStatus.notificationEvent.additionalContext` is part of an existing definition because parent element `SubscriptionStatus.notificationEvent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.notificationEvent.additionalContext` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubscriptionStatus.notificationEvent.additionalContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -332,14 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subscription",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.subscription",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.subscription` is mapped to FHIR R4B element `SubscriptionStatus.subscription`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:subscription",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.subscription` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.subscription` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubscriptionStatus.subscription` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -348,14 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "topic",
           "target" : [
             {
-              "code" : "#SubscriptionStatus.topic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.topic` is mapped to FHIR R4B element `SubscriptionStatus.topic`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:topic",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.topic` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionStatus.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SubscriptionStatus.topic` is not mapped to FHIR R4, since FHIR R5 `SubscriptionStatus` is not mapped."
             }
           ]
         },
@@ -363,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubscriptionStatus.error",
           "display" : "error",
           "target" : [
-            {
-              "code" : "#SubscriptionStatus.error",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubscriptionStatus.error` is mapped to FHIR R4B element `SubscriptionStatus.error`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionStatus:error",
               "equivalence" : "relatedto",

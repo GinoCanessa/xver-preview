@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RelatedArt
   "title" : "Cross-version Extension `R5.RelatedArtifact.publicationDate` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RelatedArt
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RelatedArtifact.publicationDate` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RelatedArtifact.publicationDate` 0..1 `date`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RelatedArtifact.publicationDate` 0..1 `date`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RelatedArtifact.publicationDate` is mapped to FHIR R4 structure `RelatedArtifact`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RelatedArtifact.publicationDate` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RelatedArtifact.publicationDate` 0..1 `date`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RelatedArtifact.publicationDate` 0..1 `date`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RelatedArtifact.publicationDate` is will have a context of RelatedArtifact based on following the parent source element upwards and mapping to `RelatedArtifact`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RelatedArt
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "RelatedArtifact"
     }
   ],
   "type" : "Extension",

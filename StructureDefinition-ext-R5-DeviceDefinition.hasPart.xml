@@ -57,7 +57,7 @@
   <title value="Cross-version Extension `R5.DeviceDefinition.hasPart` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -74,7 +74,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DeviceDefinition.hasPart` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DeviceDefinition.hasPart` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DeviceDefinition.hasPart` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DeviceDefinition.hasPart` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DeviceDefinition.hasPart` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DeviceDefinition.hasPart` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DeviceDefinition.hasPart` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DeviceDefinition.hasPart` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -85,7 +85,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="DeviceDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -196,7 +196,7 @@
       <sliceName value="reference"/>
       <short value="Reference to the part"/>
       <definition value="Reference to the device that is part of the current device."/>
-      <requirements value="Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Element `DeviceDefinition.hasPart.reference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.hasPart.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DeviceDefinition.hasPart.reference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -362,7 +362,7 @@
       <sliceName value="count"/>
       <short value="Number of occurrences of the part"/>
       <definition value="Number of instances of the component device in the current device."/>
-      <requirements value="Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Element `DeviceDefinition.hasPart.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Element `DeviceDefinition.hasPart.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -762,7 +762,7 @@
       <sliceName value="reference"/>
       <short value="Reference to the part"/>
       <definition value="Reference to the device that is part of the current device."/>
-      <requirements value="Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Element `DeviceDefinition.hasPart.reference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.hasPart.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DeviceDefinition.hasPart.reference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -804,7 +804,7 @@
       <sliceName value="count"/>
       <short value="Number of occurrences of the part"/>
       <definition value="Number of instances of the component device in the current device."/>
-      <requirements value="Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Element `DeviceDefinition.hasPart.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.&#xA;Element `DeviceDefinition.hasPart.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

@@ -7,7 +7,7 @@ This cross-version profile allows R5 InsurancePlan content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Coverage.insurancePlan` for use in FHIR R4](StructureDefinition-ext-R5-Coverage.insurancePlan.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-InsurancePlan)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Insurance
   "title" : "Cross-version Profile for R5.InsurancePlan for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.717929-06:00",
+  "date" : "2026-02-09T22:05:43.1682541-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

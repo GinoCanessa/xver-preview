@@ -61,7 +61,7 @@
   <title value="Cross-version Extension `R5.ResearchStudy.progressStatus` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -78,7 +78,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ResearchStudy.progressStatus` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ResearchStudy.progressStatus` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ResearchStudy.progressStatus` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ResearchStudy.progressStatus` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ResearchStudy.progressStatus` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ResearchStudy.progressStatus` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ResearchStudy.progressStatus` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ResearchStudy.progressStatus` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -89,7 +89,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ResearchStudy"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -200,7 +200,7 @@
       <sliceName value="state"/>
       <short value="Label for status or state (e.g. recruitment status)"/>
       <definition value="Label for status or state (e.g. recruitment status)."/>
-      <requirements value="Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.state` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.state` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -369,7 +369,7 @@
       <sliceName value="actual"/>
       <short value="Actual if true else anticipated"/>
       <definition value="An indication of whether or not the date is a known date when the state changed or will change. A value of true indicates a known date. A value of false indicates an estimated date."/>
-      <requirements value="Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.actual` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.actual` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -533,7 +533,7 @@
       <sliceName value="period"/>
       <short value="Date range"/>
       <definition value="Date range."/>
-      <requirements value="Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.period` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.period` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -933,7 +933,7 @@
       <sliceName value="state"/>
       <short value="Label for status or state (e.g. recruitment status)"/>
       <definition value="Label for status or state (e.g. recruitment status)."/>
-      <requirements value="Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.state` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.state` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -978,7 +978,7 @@
       <sliceName value="actual"/>
       <short value="Actual if true else anticipated"/>
       <definition value="An indication of whether or not the date is a known date when the state changed or will change. A value of true indicates a known date. A value of false indicates an estimated date."/>
-      <requirements value="Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.actual` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.actual` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1018,7 +1018,7 @@
       <sliceName value="period"/>
       <short value="Date range"/>
       <definition value="Date range."/>
-      <requirements value="Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.period` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.&#xA;Element `ResearchStudy.progressStatus.period` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

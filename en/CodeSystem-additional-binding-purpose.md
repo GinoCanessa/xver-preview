@@ -58,7 +58,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "Additional Binding Purpose Codes",
   "status" : "active",
   "experimental" : true,
-  "date" : "2026-02-06T13:22:22-06:00",
+  "date" : "2026-02-09T22:08:15-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

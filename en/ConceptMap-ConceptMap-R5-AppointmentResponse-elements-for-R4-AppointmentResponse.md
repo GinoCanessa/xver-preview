@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.0234421-06:00",
+  "date" : "2026-02-09T22:05:43.4660182-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `AppointmentResponse` is representable via FHIR R4B Resource `AppointmentResponse`.\nElement `AppointmentResponse` is mapped to FHIR R4B element `AppointmentResponse`."
+              "comment" : "FHIR R5 Resource `AppointmentResponse` is representable via FHIR R4 Resource `AppointmentResponse`.\nElement `AppointmentResponse` is mapped to FHIR R4 element `AppointmentResponse`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.meta` is mapped to FHIR R4B element `AppointmentResponse.meta`."
+              "comment" : "Element `AppointmentResponse.meta` is mapped to FHIR R4 element `AppointmentResponse.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.implicitRules` is mapped to FHIR R4B element `AppointmentResponse.implicitRules`."
+              "comment" : "Element `AppointmentResponse.implicitRules` is mapped to FHIR R4 element `AppointmentResponse.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.language` is mapped to FHIR R4B element `AppointmentResponse.language`."
+              "comment" : "Element `AppointmentResponse.language` is mapped to FHIR R4 element `AppointmentResponse.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.text` is mapped to FHIR R4B element `AppointmentResponse.text`."
+              "comment" : "Element `AppointmentResponse.text` is mapped to FHIR R4 element `AppointmentResponse.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.contained` is mapped to FHIR R4B element `AppointmentResponse.contained`."
+              "comment" : "Element `AppointmentResponse.contained` is mapped to FHIR R4 element `AppointmentResponse.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.identifier` is mapped to FHIR R4B element `AppointmentResponse.identifier`."
+              "comment" : "Element `AppointmentResponse.identifier` is mapped to FHIR R4 element `AppointmentResponse.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.appointment` is mapped to FHIR R4B element `AppointmentResponse.appointment`."
+              "comment" : "Element `AppointmentResponse.appointment` is mapped to FHIR R4 element `AppointmentResponse.appointment`."
             }
           ]
         },
@@ -171,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "proposedNewTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.proposedNewTime` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified."
+              "comment" : "Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.start",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.start` is mapped to FHIR R4B element `AppointmentResponse.start`."
+              "comment" : "Element `AppointmentResponse.start` is mapped to FHIR R4 element `AppointmentResponse.start`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.end",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.end` is mapped to FHIR R4B element `AppointmentResponse.end`."
+              "comment" : "Element `AppointmentResponse.end` is mapped to FHIR R4 element `AppointmentResponse.end`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.participantType",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.participantType` is mapped to FHIR R4B element `AppointmentResponse.participantType`."
+              "comment" : "Element `AppointmentResponse.participantType` is mapped to FHIR R4 element `AppointmentResponse.participantType`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.actor` is mapped to FHIR R4B element `AppointmentResponse.actor`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.participantStatus",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4B element `AppointmentResponse.participantStatus`."
+              "comment" : "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.comment` is mapped to FHIR R4B element `AppointmentResponse.comment`."
+              "comment" : "Element `AppointmentResponse.comment` is mapped to FHIR R4 element `AppointmentResponse.comment`."
             }
           ]
         },
@@ -248,9 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recurring",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.recurring` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified."
+              "comment" : "Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."
             }
           ]
         },
@@ -259,9 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "occurrenceDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.occurrenceDate` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified."
+              "comment" : "Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."
             }
           ]
         },
@@ -270,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recurrenceId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `AppointmentResponse.recurrenceId` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified."
+              "comment" : "Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."
             }
           ]
         }

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0356706-06:00",
+  "date" : "2026-02-09T22:05:44.157214-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Quantity` is representable via FHIR R4B extensions.\nElement `Quantity` is mapped to FHIR R4B element `Quantity`."
+              "comment" : "FHIR R5 ComplexType `Quantity` is representable via FHIR R4 extensions.\nElement `Quantity` is mapped to FHIR R4 element `Quantity`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.value` is mapped to FHIR R4B element `Quantity.value`."
+              "comment" : "Element `Quantity.value` is mapped to FHIR R4 element `Quantity.value`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Quantity.comparator` is mapped to FHIR R4B element `Quantity.comparator`."
+              "comment" : "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Quantity.comparator` is mapped to FHIR R4 element `Quantity.comparator`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.unit` is mapped to FHIR R4B element `Quantity.unit`."
+              "comment" : "Element `Quantity.unit` is mapped to FHIR R4 element `Quantity.unit`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.system` is mapped to FHIR R4B element `Quantity.system`."
+              "comment" : "Element `Quantity.system` is mapped to FHIR R4 element `Quantity.system`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.code` is mapped to FHIR R4B element `Quantity.code`."
+              "comment" : "Element `Quantity.code` is mapped to FHIR R4 element `Quantity.code`."
             }
           ]
         }

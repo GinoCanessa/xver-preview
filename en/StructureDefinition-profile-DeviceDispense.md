@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDis
   "title" : "Cross-version Profile for R5.DeviceDispense for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6698284-06:00",
+  "date" : "2026-02-09T22:05:43.0696256-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.MedicationKnowledge.indicationGuideline.dosingGuideline` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.indicationGuideline.dosingGuideline` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.indicationGuideline.dosingGuideline` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.indicationGuideline.dosingGuideline` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.indicationGuideline.dosingGuideline` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.indicationGuideline.dosingGuideline` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.indicationGuideline.dosingGuideline` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "MedicationKnowledge.administrationGuidelines" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "treatmentIntent" ] ;
        fhir:short [ fhir:v "Intention of the treatment" ] ;
        fhir:definition [ fhir:v "The overall intention of the treatment, for example, prophylactic, supporative, curative, etc." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1398,7 +1398,7 @@
        fhir:sliceName [ fhir:v "administrationTreatment" ] ;
        fhir:short [ fhir:v "Type of treatment the guideline applies to" ] ;
        fhir:definition [ fhir:v "The type of the treatment that the guideline applies to, for example, long term therapy, first line treatment, etc." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1738,7 +1738,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Categorization of specific characteristic that is relevant to the administration guideline" ] ;
        fhir:definition [ fhir:v "The categorization of the specific characteristic that is relevant to the administration guideline (e.g. height, weight, gender)." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is will have a context of MedicationKnowledge.administrationGuidelines.patientCharacteristics based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2848,7 +2848,7 @@
        fhir:sliceName [ fhir:v "treatmentIntent" ] ;
        fhir:short [ fhir:v "Intention of the treatment" ] ;
        fhir:definition [ fhir:v "The overall intention of the treatment, for example, prophylactic, supporative, curative, etc." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3046,7 +3046,7 @@
        fhir:sliceName [ fhir:v "administrationTreatment" ] ;
        fhir:short [ fhir:v "Type of treatment the guideline applies to" ] ;
        fhir:definition [ fhir:v "The type of the treatment that the guideline applies to, for example, long term therapy, first line treatment, etc." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3125,7 +3125,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Categorization of specific characteristic that is relevant to the administration guideline" ] ;
        fhir:definition [ fhir:v "The categorization of the specific characteristic that is relevant to the administration guideline (e.g. height, weight, gender)." ] ;
-       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is will have a context of MedicationKnowledge.administrationGuidelines.patientCharacteristics based on following the parent source element upwards and mapping to `MedicationKnowledge`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

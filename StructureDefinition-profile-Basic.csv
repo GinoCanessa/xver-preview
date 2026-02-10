@@ -47,12 +47,13 @@ This element is labeled as a modifier because it defines the meaning of the reso
 ","./participation[typeCode='AUT']/time (possibly through a ControlAct and Role)","FiveWs.recorded"
 "Basic.created.id","Basic.created.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"Basic.created.extension","Basic.created.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Basic.created.extension","Basic.created.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Basic.created.extension","Basic.created.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Basic.created|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Basic.created from R5 for use in FHIR R4","Identifies when the resource was first created.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Basic.created.extension:created","Basic.created.extension","created","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Basic.created|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Basic.created from R5 for use in FHIR R4","Identifies when the resource was first created.","Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -> basic: `date`:0..1).
+Element `Basic.created` is mapped to FHIR R4 element `Basic.created`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Basic.created.value","Basic.created.value","","","",0,1,"","","","date {[]} {[]}

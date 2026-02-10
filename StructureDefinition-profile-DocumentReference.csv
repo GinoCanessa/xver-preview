@@ -20,10 +20,30 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "DocumentReference.contained","DocumentReference.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"DocumentReference.extension","DocumentReference.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"DocumentReference.extension","DocumentReference.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DocumentReference.extension:version","DocumentReference.extension","version","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.version from R5 for use in FHIR R4","An explicitly assigned identifer of a variation of the content in the DocumentReference.","Element `DocumentReference.version` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.version` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DocumentReference.extension:bodySite","DocumentReference.extension","bodySite","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.bodySite|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.bodySite from R5 for use in FHIR R4","The anatomic structures included in the document.","Element `DocumentReference.bodySite` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DocumentReference.extension:attester","DocumentReference.extension","attester","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.attester from R5 for use in FHIR R4","A participant who has authenticated the accuracy of the document.","Element `DocumentReference.attester` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.attester` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DocumentReference.extension:basedOn","DocumentReference.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+","Cross-version extension for DocumentReference.basedOn from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment,http://hl7.org/fhir/StructureDefinition/AppointmentResponse,http://hl7.org/fhir/StructureDefinition/Claim,http://hl7.org/fhir/StructureDefinition/CommunicationRequest,http://hl7.org/fhir/StructureDefinition/Contract,http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/EnrollmentRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/RequestOrchestration,http://hl7.org/fhir/StructureDefinition/SupplyRequest,http://hl7.org/fhir/StructureDefinition/VisionPrescription in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `DocumentReference.basedOn` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.basedOn` is mapped to FHIR R4 element `Media.basedOn`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DocumentReference.modifierExtension","DocumentReference.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -46,12 +66,13 @@ This element is labeled as a modifier because the status contains the codes that
 ","Composition.status",".statusCode","FiveWs.status","TXA-17"
 "DocumentReference.docStatus.id","DocumentReference.docStatus.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"DocumentReference.docStatus.extension","DocumentReference.docStatus.extension","","","",1,*,"","","","Extension {[]} {[]}
+"DocumentReference.docStatus.extension","DocumentReference.docStatus.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DocumentReference.docStatus.extension","DocumentReference.docStatus.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.docStatus|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for DocumentReference.docStatus from R5 for use in FHIR R4","The status of the underlying document.","The document that is pointed to might be in various lifecycle states.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"DocumentReference.docStatus.extension:docStatus","DocumentReference.docStatus.extension","docStatus","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.docStatus|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.docStatus from R5 for use in FHIR R4","The status of the underlying document.","Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus`.
+Element `DocumentReference.docStatus` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DocumentReference.docStatus.value","DocumentReference.docStatus.value","","","",0,1,"","","","string {[]} {[]}
@@ -86,12 +107,13 @@ The typeCode should be mapped from the ClinicalDocument/code element to a set of
 ","Composition.relatesTo",".outboundRelationship","DocumentEntry Associations"
 "DocumentReference.relatesTo.id","DocumentReference.relatesTo.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"DocumentReference.relatesTo.extension","DocumentReference.relatesTo.extension","","","",1,*,"","","","Extension {[]} {[]}
+"DocumentReference.relatesTo.extension","DocumentReference.relatesTo.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DocumentReference.relatesTo.extension","DocumentReference.relatesTo.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.relatesTo|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for DocumentReference.relatesTo from R5 for use in FHIR R4","Relationships that this document has with other document references that already exist.","This element is labeled as a modifier because documents that append to other documents are incomplete on their own.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"DocumentReference.relatesTo.extension:relatesTo","DocumentReference.relatesTo.extension","relatesTo","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.relatesTo|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.relatesTo from R5 for use in FHIR R4","Relationships that this document has with other document references that already exist.","Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.
+Element `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DocumentReference.relatesTo.modifierExtension","DocumentReference.relatesTo.modifierExtension","","extensions
@@ -119,10 +141,15 @@ In the HL7 Healthcare Privacy and Security Classification (HCS) there are code s
 ","Bundle(Composition+*)","document.text"
 "DocumentReference.content.id","DocumentReference.content.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"DocumentReference.content.extension","DocumentReference.content.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"DocumentReference.content.extension","DocumentReference.content.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DocumentReference.content.extension:profile","DocumentReference.content.extension","profile","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.content.profile from R5 for use in FHIR R4","An identifier of the document constraints, encoding, structure, and template that the document conforms to beyond the base format indicated in the mimeType.","Element `DocumentReference.content.profile` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.content.profile` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DocumentReference.content.modifierExtension","DocumentReference.content.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -142,13 +169,14 @@ Composition.date","document.text","ClinicalDocument/languageCode, ClinicalDocume
 ","outboundRelationship[typeCode=""SUBJ""].target[classCode<'ACT']"
 "DocumentReference.context.id","DocumentReference.context.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"DocumentReference.context.extension","DocumentReference.context.extension","","","",1,*,"","","","Extension {[]} {[]}
+"DocumentReference.context.extension","DocumentReference.context.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DocumentReference.context.extension","DocumentReference.context.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.context|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for DocumentReference.context from R5 for use in FHIR R4","Describes the clinical encounter or type of care that the document content is associated with.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"DocumentReference.context.extension:context","DocumentReference.context.extension","context","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+","Cross-version extension for DocumentReference.context from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment,http://hl7.org/fhir/StructureDefinition/Encounter,http://hl7.org/fhir/StructureDefinition/EpisodeOfCare in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context`.
+Element `DocumentReference.context` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DocumentReference.context.modifierExtension","DocumentReference.context.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
@@ -164,12 +192,13 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Composition.event.code",".code","DocumentEntry.eventCodeList"
 "DocumentReference.context.event.id","DocumentReference.context.event.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"DocumentReference.context.event.extension","DocumentReference.context.event.extension","","","",1,*,"","","","Extension {[]} {[]}
+"DocumentReference.context.event.extension","DocumentReference.context.event.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DocumentReference.context.event.extension","DocumentReference.context.event.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.event|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for DocumentReference.event from R5 for use in FHIR R4","This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the type Code, such as a ""History and Physical Report"" in which the procedure being documented is necessarily a ""History and Physical"" act.","An event can further specialize the act inherent in the type, such as  where it is simply ""Procedure Report"" and the procedure was a ""colonoscopy"". If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"DocumentReference.context.event.extension:event","DocumentReference.context.event.extension","event","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.event|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DocumentReference.event from R5 for use in FHIR R4","This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the type Code, such as a ""History and Physical Report"" in which the procedure being documented is necessarily a ""History and Physical"" act.","Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event`.
+Element `DocumentReference.event` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DocumentReference.context.event.coding","DocumentReference.context.event.coding","","","",0,*,"","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

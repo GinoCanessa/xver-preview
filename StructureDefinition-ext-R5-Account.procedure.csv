@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:sequence","Extension.extension","sequence","","",0,1,"","","","Extension {[]} {[]}
 ","Ranking of the procedure (for each type)","Ranking of the procedure (for each type).","","Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.
-Element `Account.procedure.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Account.procedure.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:sequence.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:code","Extension.extension","code","","",1,1,"","","","Extension {[]} {[]}
 ","The procedure relevant to the account","The procedure relevant to the account.","","Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.
-Element `Account.procedure.code` is mapped to FHIR R4 structure `Account`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Account.procedure.code` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -52,7 +52,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:code.extension:concept","Extension.extension.extension","concept","","",0,1,"","","","Extension {[]} {[]}
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.
-Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code.extension:concept.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -67,7 +67,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-procedure-code-for-R4","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:code.extension:reference","Extension.extension.extension","reference","","",0,1,"","","","Extension {[]} {[]}
-","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.
+","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.
 Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code.extension:reference.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -89,7 +89,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 ","N/A"
 "Extension.extension:dateOfService","Extension.extension","dateOfService","","",0,1,"","","","Extension {[]} {[]}
 ","Date of the procedure (when coded procedure)","Date of the procedure when using a coded procedure. If using a reference to a procedure, then the date on the procedure should be used.","","Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.
-Element `Account.procedure.dateOfService` is mapped to FHIR R4 structure `Account`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Account.procedure.dateOfService` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:dateOfService.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -105,7 +105,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:type","Extension.extension","type","","",0,*,"","","","Extension {[]} {[]}
 ","How this procedure value should be used in charging the account","How this procedure value should be used in charging the account.","","Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.
-Element `Account.procedure.type` is mapped to FHIR R4 structure `Account`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Account.procedure.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -121,7 +121,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:packageCode","Extension.extension","packageCode","","",0,*,"","","","Extension {[]} {[]}
 ","Package Code specific for billing","The package code can be used to group procedures that may be priced or delivered as a single product. Such as DRGs.","","Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.
-Element `Account.procedure.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Account.procedure.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:packageCode.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -137,7 +137,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:device","Extension.extension","device","","",0,*,"","","","Extension {[]} {[]}
 ","Any devices that were associated with the procedure","Any devices that were associated with the procedure relevant to the account.","","Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.
-Element `Account.procedure.device` is mapped to FHIR R4 structure `Account`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Account.procedure.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Account.procedure.device` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:device.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

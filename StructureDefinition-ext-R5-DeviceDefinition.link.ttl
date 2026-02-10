@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.DeviceDefinition.link` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.link` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.link` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.link` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.link` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.link` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.link` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.link` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.link` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "DeviceDefinition" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "relation" ] ;
        fhir:short [ fhir:v "The type indicates the relationship of the related device to the device instance" ] ;
        fhir:definition [ fhir:v "The type indicates the relationship of the related device to the device instance." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "relatedDevice" ] ;
        fhir:short [ fhir:v "A reference to the linked device" ] ;
        fhir:definition [ fhir:v "A reference to the linked device." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -868,7 +868,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1079,7 +1079,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1975,7 +1975,7 @@
        fhir:sliceName [ fhir:v "relation" ] ;
        fhir:short [ fhir:v "The type indicates the relationship of the related device to the device instance" ] ;
        fhir:definition [ fhir:v "The type indicates the relationship of the related device to the device instance." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2022,7 +2022,7 @@
        fhir:sliceName [ fhir:v "relatedDevice" ] ;
        fhir:short [ fhir:v "A reference to the linked device" ] ;
        fhir:definition [ fhir:v "A reference to the linked device." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2103,7 +2103,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2150,7 +2150,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

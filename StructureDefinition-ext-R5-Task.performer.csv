@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:function","Extension.extension","function","","",0,1,"","","","Extension {[]} {[]}
 ","Type of performance","A code or description of the performer of the task.","","Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.
-Element `Task.performer.function` is mapped to FHIR R4 structure `Task`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Task.performer.function` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:function.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:actor","Extension.extension","actor","","",1,1,"","","","Extension {[]} {[]}
 ","Who performed the task","The actor or entity who performed the task.","","Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.
-Element `Task.performer.actor` is mapped to FHIR R4 structure `Task`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Task.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Task.performer.actor` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:actor.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

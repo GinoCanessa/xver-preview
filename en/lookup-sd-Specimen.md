@@ -26,19 +26,19 @@ A computable version of the following element information is available in: [Conc
 | [`Specimen.receivedTime`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.receivedTime](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.parent`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.parent](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.request`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.request](https://hl7.org/fhir/R4/Specimen.html#resource) |
-| [`Specimen.combined`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined](StructureDefinition-ext-R5-Specimen.combined.md) |
-| [`Specimen.role`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role](StructureDefinition-ext-R5-Specimen.role.md) |
-| [`Specimen.feature`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature](StructureDefinition-ext-R5-Specimen.feature.md) |
-| [`Specimen.feature.type`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Extension slice: type](StructureDefinition-ext-R5-Specimen.feature.md) |
-| [`Specimen.feature.description`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Extension slice: description](StructureDefinition-ext-R5-Specimen.feature.md) |
+| [`Specimen.combined`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined](StructureDefinition-ext-R5-Specimen.combined.md) |
+| [`Specimen.role`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role](StructureDefinition-ext-R5-Specimen.role.md) |
+| [`Specimen.feature`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature](StructureDefinition-ext-R5-Specimen.feature.md) |
+| [`Specimen.feature.type`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen](https://hl7.org/fhir/R4/Specimen.html#resource)[Extension slice: type](StructureDefinition-ext-R5-Specimen.feature.md) |
+| [`Specimen.feature.description`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen](https://hl7.org/fhir/R4/Specimen.html#resource)[Extension slice: description](StructureDefinition-ext-R5-Specimen.feature.md) |
 | [`Specimen.collection`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.collection.collector`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.collector](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.collector](StructureDefinition-ext-R5-Specimen.col.collector.md) |
 | [`Specimen.collection.collected[x]`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.collected[x]](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.collection.duration`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.duration](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.collection.quantity`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.quantity](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.collection.method`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.method](https://hl7.org/fhir/R4/Specimen.html#resource) |
-| [`Specimen.collection.device`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device](StructureDefinition-ext-R5-Specimen.col.device.md) |
-| [`Specimen.collection.procedure`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.procedure](StructureDefinition-ext-R5-Specimen.col.procedure.md) |
+| [`Specimen.collection.device`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device](StructureDefinition-ext-R5-Specimen.col.device.md) |
+| [`Specimen.collection.procedure`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.procedure](StructureDefinition-ext-R5-Specimen.col.procedure.md) |
 | [`Specimen.collection.bodySite`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.bodySite](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.bodySite](StructureDefinition-ext-R5-Specimen.col.bodySite.md) |
 | [`Specimen.collection.fastingStatus[x]`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.collection.fastingStatus[x]](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.processing`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.processing](https://hl7.org/fhir/R4/Specimen.html#resource) |
@@ -47,8 +47,8 @@ A computable version of the following element information is available in: [Conc
 | [`Specimen.processing.additive`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.processing.additive](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.processing.time[x]`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.processing.time[x]](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.container`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.container](https://hl7.org/fhir/R4/Specimen.html#resource) |
-| [`Specimen.container.device`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device](StructureDefinition-ext-R5-Specimen.con.device.md) |
-| [`Specimen.container.location`](https://hl7.org/fhir/R5/Specimen.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location](StructureDefinition-ext-R5-Specimen.con.location.md) |
+| [`Specimen.container.device`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.container](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device](StructureDefinition-ext-R5-Specimen.con.device.md) |
+| [`Specimen.container.location`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.container](https://hl7.org/fhir/R4/Specimen.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location](StructureDefinition-ext-R5-Specimen.con.location.md) |
 | [`Specimen.container.specimenQuantity`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.container.specimenQuantity](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.condition`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.condition](https://hl7.org/fhir/R4/Specimen.html#resource) |
 | [`Specimen.note`](https://hl7.org/fhir/R5/Specimen.html#resource) | [Specimen.note](https://hl7.org/fhir/R4/Specimen.html#resource) |

@@ -57,7 +57,7 @@
   <title value="Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -74,7 +74,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DiagnosticReport.supportingInfo` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DiagnosticReport.supportingInfo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DiagnosticReport.supportingInfo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DiagnosticReport.supportingInfo` is mapped to FHIR R4 structure `DiagnosticReport`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DiagnosticReport.supportingInfo` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DiagnosticReport.supportingInfo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DiagnosticReport.supportingInfo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DiagnosticReport.supportingInfo` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -85,7 +85,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="DiagnosticReport"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -196,7 +196,7 @@
       <sliceName value="type"/>
       <short value="Supporting information role code"/>
       <definition value="The code value for the role of the supporting information in the diagnostic report."/>
-      <requirements value="Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Element `DiagnosticReport.supportingInfo.type` is mapped to FHIR R4 structure `DiagnosticReport`, but has no target element specified."/>
+      <requirements value="Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Element `DiagnosticReport.supportingInfo.type` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -360,7 +360,7 @@
       <sliceName value="reference"/>
       <short value="Supporting information reference"/>
       <definition value="The reference for the supporting information in the diagnostic report."/>
-      <requirements value="Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Element `DiagnosticReport.supportingInfo.reference` is mapped to FHIR R4 structure `DiagnosticReport`, but has no target element specified."/>
+      <requirements value="Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.supportingInfo.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DiagnosticReport.supportingInfo.reference` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -768,7 +768,7 @@
       <sliceName value="type"/>
       <short value="Supporting information role code"/>
       <definition value="The code value for the role of the supporting information in the diagnostic report."/>
-      <requirements value="Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Element `DiagnosticReport.supportingInfo.type` is mapped to FHIR R4 structure `DiagnosticReport`, but has no target element specified."/>
+      <requirements value="Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Element `DiagnosticReport.supportingInfo.type` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -808,7 +808,7 @@
       <sliceName value="reference"/>
       <short value="Supporting information reference"/>
       <definition value="The reference for the supporting information in the diagnostic report."/>
-      <requirements value="Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Element `DiagnosticReport.supportingInfo.reference` is mapped to FHIR R4 structure `DiagnosticReport`, but has no target element specified."/>
+      <requirements value="Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.supportingInfo.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DiagnosticReport.supportingInfo.reference` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

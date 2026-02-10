@@ -17,12 +17,15 @@
 inv-1:A parameter must have one and only one of (value, resource, part) {(part.exists() and value.empty() and resource.empty()) or (part.empty() and (value.exists() xor resource.exists()))}"
 "Parameters.parameter.id","Parameters.parameter.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Parameters.parameter.extension","Parameters.parameter.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Parameters.parameter.extension","Parameters.parameter.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Parameters.parameter.extension","Parameters.parameter.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Parameters.parameter.value|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Parameters.parameter.value[x] from R5 for use in FHIR R4","Conveys the content if the parameter is a data type.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Parameters.parameter.extension:value","Parameters.parameter.extension","value","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Parameters.parameter.value|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Parameters.parameter.value[x] from R5 for use in FHIR R4","Conveys the content if the parameter is a data type.","Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Note that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.
+Element `Parameters.parameter.value[x]` is mapped to FHIR R4 element `Parameters.parameter.value[x]`.
+Note that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Parameters.parameter.modifierExtension","Parameters.parameter.modifierExtension","","extensions

@@ -7,7 +7,7 @@ This cross-version profile allows R5 Invoice content to be represented via FHIR 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.PaymentReconciliation.allocation.target` for use in FHIR R4](StructureDefinition-ext-R5-PR.all.target.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Invoice)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
   "title" : "Cross-version Profile for R5.Invoice for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7206858-06:00",
+  "date" : "2026-02-09T22:05:43.1776283-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,114 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
       {
         "id" : "Invoice",
         "path" : "Invoice"
+      },
+      {
+        "id" : "Invoice.extension",
+        "path" : "Invoice.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Invoice.extension:creation",
+        "path" : "Invoice.extension",
+        "sliceName" : "creation",
+        "short" : "Cross-version extension for Invoice.creation from R5 for use in FHIR R4",
+        "comment" : "Element `Invoice.creation` is will have a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.creation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Invoice.extension:period",
+        "path" : "Invoice.extension",
+        "sliceName" : "period",
+        "short" : "Cross-version extension for Invoice.period[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Invoice.period[x]` is will have a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Invoice.lineItem.extension",
+        "path" : "Invoice.lineItem.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Invoice.lineItem.extension:serviced",
+        "path" : "Invoice.lineItem.extension",
+        "sliceName" : "serviced",
+        "short" : "Cross-version extension for Invoice.lineItem.serviced[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Invoice.lineItem.serviced[x]` is will have a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

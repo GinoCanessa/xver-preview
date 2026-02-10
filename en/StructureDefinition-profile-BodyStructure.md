@@ -7,7 +7,7 @@ This cross-version profile allows R5 BodyStructure content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ClaimResponse.addItem.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.add.bodySite.md), [Cross-version Extension `R5.DeviceAssociation.bodyStructure` for use in FHIR R4](StructureDefinition-ext-R5-DeviceAssociation.bodyStructure.md), [Cross-version Extension `R5.DeviceUsage.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-DeviceUsage.bodySite.md), [Cross-version Extension `R5.DocumentReference.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.bodySite.md)... Show 6 more, [Cross-version Extension `R5.ExplanationOfBenefit.addItem.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.add.bodySite.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.ImagingStudy.series.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-ImagingStudy.ser.bodySite.md), [Cross-version Extension `R5.Observation.bodyStructure` for use in FHIR R4](StructureDefinition-ext-R5-Observation.bodyStructure.md), [Cross-version Extension `R5.ServiceRequest.bodyStructure` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.bodyStructure.md) and [Cross-version Extension `R5.Specimen.collection.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-Specimen.col.bodySite.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClaimResponse.addItem.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.add.bodySite.md), [Cross-version Extension `R5.DeviceUsage.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-DeviceUsage.bodySite.md), [Cross-version Extension `R5.DocumentReference.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.bodySite.md), [Cross-version Extension `R5.ExplanationOfBenefit.addItem.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.add.bodySite.md)... Show 3 more, [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.ImagingStudy.series.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-ImagingStudy.ser.bodySite.md) and [Cross-version Extension `R5.Specimen.collection.bodySite` for use in FHIR R4](StructureDefinition-ext-R5-Specimen.col.bodySite.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-BodyStructure)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-BodyStruc
   "title" : "Cross-version Profile for R5.BodyStructure for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6277916-06:00",
+  "date" : "2026-02-09T22:05:42.9926091-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,138 @@ Other representations of profile: [CSV](../StructureDefinition-profile-BodyStruc
       {
         "id" : "BodyStructure",
         "path" : "BodyStructure"
+      },
+      {
+        "id" : "BodyStructure.extension",
+        "path" : "BodyStructure.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "BodyStructure.extension:excludedStructure",
+        "path" : "BodyStructure.extension",
+        "sliceName" : "excludedStructure",
+        "short" : "Cross-version extension for BodyStructure.excludedStructure from R5 for use in FHIR R4",
+        "comment" : "Element `BodyStructure.excludedStructure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BodyStructure.extension:structure",
+        "path" : "BodyStructure.extension",
+        "sliceName" : "structure",
+        "short" : "Cross-version extension for BodyStructure.includedStructure.structure from R5 for use in FHIR R4",
+        "comment" : "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.structure|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BodyStructure.extension:laterality",
+        "path" : "BodyStructure.extension",
+        "sliceName" : "laterality",
+        "short" : "Cross-version extension for BodyStructure.includedStructure.laterality from R5 for use in FHIR R4",
+        "comment" : "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.laterality|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BodyStructure.extension:bodyLandmarkOrientation",
+        "path" : "BodyStructure.extension",
+        "sliceName" : "bodyLandmarkOrientation",
+        "short" : "Cross-version extension for BodyStructure.includedStructure.bodyLandmarkOrientation from R5 for use in FHIR R4",
+        "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BodyStructure.extension:spatialReference",
+        "path" : "BodyStructure.extension",
+        "sliceName" : "spatialReference",
+        "short" : "Cross-version extension for BodyStructure.includedStructure.spatialReference from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ImagingSelection in FHIR R4",
+        "comment" : "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BodyStructure.includedStructure.spatialReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BodyStructure.includedStructure.spatialReference` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
       }
     ]
   }

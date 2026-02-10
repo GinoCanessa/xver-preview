@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Account.procedure` 
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Account for use in FHIR R4](StructureDefinition-profile-Account.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Account.procedure)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
   "title" : "Cross-version Extension `R5.Account.procedure` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.procedure` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.procedure` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.procedure` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.procedure` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.procedure` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.procedure` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.procedure` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.procedure` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Account"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "sequence",
         "short" : "Ranking of the procedure (for each type)",
         "definition" : "Ranking of the procedure (for each type).",
-        "requirements" : "Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "code",
         "short" : "The procedure relevant to the account",
         "definition" : "The procedure relevant to the account.",
-        "requirements" : "Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.code` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.code` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -358,7 +358,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -430,7 +430,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "dateOfService",
         "short" : "Date of the procedure (when coded procedure)",
         "definition" : "Date of the procedure when using a coded procedure. If using a reference to a procedure, then the date on the procedure should be used.",
-        "requirements" : "Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.dateOfService` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.dateOfService` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -475,7 +475,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "type",
         "short" : "How this procedure value should be used in charging the account",
         "definition" : "How this procedure value should be used in charging the account.",
-        "requirements" : "Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.type` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -520,7 +520,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "packageCode",
         "short" : "Package Code specific for billing",
         "definition" : "The package code can be used to group procedures that may be priced or delivered as a single product. Such as DRGs.",
-        "requirements" : "Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -565,7 +565,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.pr
         "sliceName" : "device",
         "short" : "Any devices that were associated with the procedure",
         "definition" : "Any devices that were associated with the procedure relevant to the account.",
-        "requirements" : "Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.device` is mapped to FHIR R4 structure `Account`, but has no target element specified.",
+        "requirements" : "Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Account.procedure.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Account.procedure.device` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {

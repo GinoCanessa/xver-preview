@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
   "title" : "Cross-version Profile for R5.AllergyIntolerance for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6173969-06:00",
+  "date" : "2026-02-09T22:05:42.9798533-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
         "path" : "AllergyIntolerance"
       },
       {
+        "id" : "AllergyIntolerance.extension",
+        "path" : "AllergyIntolerance.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "AllergyIntolerance.extension:participant",
+        "path" : "AllergyIntolerance.extension",
+        "sliceName" : "participant",
+        "short" : "Cross-version extension for AllergyIntolerance.participant from R5 for use in FHIR R4",
+        "comment" : "Element `AllergyIntolerance.participant` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "AllergyIntolerance.verificationStatus.extension",
         "path" : "AllergyIntolerance.verificationStatus.extension",
         "slicing" : {
@@ -156,7 +199,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "AllergyIntolerance.verificationStatus",
@@ -165,9 +208,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
         }
       },
       {
-        "id" : "AllergyIntolerance.verificationStatus.extension",
+        "id" : "AllergyIntolerance.verificationStatus.extension:verificationStatus",
         "path" : "AllergyIntolerance.verificationStatus.extension",
+        "sliceName" : "verificationStatus",
         "short" : "Cross-version extension for AllergyIntolerance.verificationStatus from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `AllergyIntolerance.verificationStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` is mapped to FHIR R4 element `AllergyIntolerance.verificationStatus`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -197,7 +242,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "AllergyIntolerance.type",
@@ -206,9 +251,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
         }
       },
       {
-        "id" : "AllergyIntolerance.type.extension",
+        "id" : "AllergyIntolerance.type.extension:type",
         "path" : "AllergyIntolerance.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for AllergyIntolerance.type from R5 for use in FHIR R4",
+        "comment" : "Element `AllergyIntolerance.type` is mapped to FHIR R4 element `AllergyIntolerance.type`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -247,9 +294,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AllergyIn
         }
       },
       {
-        "id" : "AllergyIntolerance.reaction.manifestation.extension",
+        "id" : "AllergyIntolerance.reaction.manifestation.extension:manifestation",
         "path" : "AllergyIntolerance.reaction.manifestation.extension",
+        "sliceName" : "manifestation",
         "short" : "Cross-version extension for AllergyIntolerance.reaction.manifestation from R5 for use in FHIR R4",
+        "comment" : "Element `AllergyIntolerance.reaction.manifestation` is mapped to FHIR R4 element `AllergyIntolerance.reaction.manifestation`.",
         "min" : 1,
         "max" : "*",
         "base" : {

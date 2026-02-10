@@ -7,7 +7,7 @@ This cross-version profile allows R5 Location content to be represented via FHIR
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.location` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.location.md), [Cross-version Extension `R5.ActivityDefinition.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.par.typeReference.md), [Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.agent.md), [Cross-version Extension `R5.AuditEvent.source` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.source.md)... Show 21 more, [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md), [Cross-version Extension `R5.Communication.recipient` for use in FHIR R4](StructureDefinition-ext-R5-Communication.recipient.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.Group.member.entity` for use in FHIR R4](StructureDefinition-ext-R5-Group.mem.entity.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md), [Cross-version Extension `R5.MeasureReport.group.subject` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.gro.subject.md), [Cross-version Extension `R5.MeasureReport.location` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.location.md), [Cross-version Extension `R5.MedicationDispense.receiver` for use in FHIR R4](StructureDefinition-ext-R5-MedicationDispense.receiver.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PaymentReconciliation.location` for use in FHIR R4](StructureDefinition-ext-R5-PaymentReconciliation.location.md), [Cross-version Extension `R5.PlanDefinition.action.location` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.location.md), [Cross-version Extension `R5.PlanDefinition.action.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.par.typeReference.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.location` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.location.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Specimen.container.location` for use in FHIR R4](StructureDefinition-ext-R5-Specimen.con.location.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
+* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.location` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.location.md), [Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.agent.md), [Cross-version Extension `R5.AuditEvent.source` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.source.md), [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md)... Show 12 more, [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PlanDefinition.action.location` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.location.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.location` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.location.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Location)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Location.
   "title" : "Cross-version Profile for R5.Location for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.724722-06:00",
+  "date" : "2026-02-09T22:05:43.186568-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,93 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Location.
       {
         "id" : "Location",
         "path" : "Location"
+      },
+      {
+        "id" : "Location.extension",
+        "path" : "Location.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Location.extension:contact",
+        "path" : "Location.extension",
+        "sliceName" : "contact",
+        "short" : "Cross-version extension for Location.contact from R5 for use in FHIR R4",
+        "comment" : "Element `Location.contact` is will have a context of Location based on following the parent source element upwards and mapping to `Location`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Location.extension:characteristic",
+        "path" : "Location.extension",
+        "sliceName" : "characteristic",
+        "short" : "Cross-version extension for Location.characteristic from R5 for use in FHIR R4",
+        "comment" : "Element `Location.characteristic` is will have a context of Location based on following the parent source element upwards and mapping to `Location`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Location.extension:virtualService",
+        "path" : "Location.extension",
+        "sliceName" : "virtualService",
+        "short" : "Cross-version extension for Location.virtualService from R5 for use in FHIR R4",
+        "comment" : "Element `Location.virtualService` is will have a context of Location based on following the parent source element upwards and mapping to `Location`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

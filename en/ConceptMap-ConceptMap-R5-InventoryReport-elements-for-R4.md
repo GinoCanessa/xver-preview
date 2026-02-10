@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.1672758-06:00",
+  "date" : "2026-02-09T22:05:43.9648711-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `InventoryReport` is representable via FHIR R4B Resource `Basic`.\nElement `InventoryReport` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `InventoryReport.meta` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.meta` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `InventoryReport.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `InventoryReport.language` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.language` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `InventoryReport.text` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.text` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `InventoryReport.contained` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.contained` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `InventoryReport.identifier` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.identifier` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:status",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.status` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.status` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:countType",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.countType` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.countType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:operationType",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.operationType` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.operationType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:operationTypeReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.operationTypeReason` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.operationTypeReason` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:reportedDateTime",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.reportedDateTime` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.reportedDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:reporter",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.reporter` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.reporter` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:reportingPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.reportingPeriod` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.reportingPeriod` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         },
@@ -236,11 +236,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "InventoryReport.inventoryListing",
           "display" : "inventoryListing",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing",
               "equivalence" : "relatedto",
@@ -253,11 +248,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.location` is part of an existing definition because parent element `InventoryReport.inventoryListing` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.location` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:location",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.location` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
@@ -268,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "InventoryReport.inventoryListing.itemStatus",
           "display" : "itemStatus",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:itemStatus",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.itemStatus` is part of an existing definition because parent element `InventoryReport.inventoryListing` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.itemStatus` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:itemStatus",
               "equivalence" : "relatedto",
@@ -285,11 +270,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "countingDateTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:countingDateTime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.countingDateTime` is part of an existing definition because parent element `InventoryReport.inventoryListing` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.countingDateTime` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:countingDateTime",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.countingDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
@@ -300,11 +280,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "InventoryReport.inventoryListing.item",
           "display" : "item",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:item",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.item` is part of an existing definition because parent element `InventoryReport.inventoryListing` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.item` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item",
               "equivalence" : "relatedto",
@@ -317,11 +292,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:item:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.item.category` is part of an existing definition because parent element `InventoryReport.inventoryListing.item` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.item.category` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:category",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.item.category` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
@@ -333,11 +303,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:item:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.item.quantity` is part of an existing definition because parent element `InventoryReport.inventoryListing.item` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.item.quantity` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:quantity",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.item.quantity` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
@@ -348,11 +313,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "InventoryReport.inventoryListing.item.item",
           "display" : "item",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:inventoryListing:item:item",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.inventoryListing.item.item` is part of an existing definition because parent element `InventoryReport.inventoryListing.item` requires a cross-version extension.\nElement `InventoryReport.inventoryListing.item.item` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:item",
               "equivalence" : "relatedto",
@@ -367,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:note",
               "equivalence" : "relatedto",
-              "comment" : "Element `InventoryReport.note` is not mapped to FHIR R4B, since FHIR R5 `InventoryReport` is not mapped."
+              "comment" : "Element `InventoryReport.note` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
           ]
         }

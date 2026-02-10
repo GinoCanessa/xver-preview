@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.ValueSet.expansion.property` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ValueSet.expansion.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ValueSet.expansion.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ValueSet.expansion.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ValueSet.expansion.property` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ValueSet.expansion.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ValueSet.expansion.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ValueSet.expansion.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ValueSet.expansion.property` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "ValueSet.expansion" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Identifies the property on the concepts, and when referred to in operations" ] ;
        fhir:definition [ fhir:v "A code that is used to identify the property. The code is used in ValueSet.expansion.contains.property.code." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.code` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "uri" ] ;
        fhir:short [ fhir:v "Formal identifier for the property" ] ;
        fhir:definition [ fhir:v "Reference to the formal meaning of the property. One possible source of meaning is the [Concept Properties](https://hl7.org/fhir/codesystem-concept-properties.html) code system." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.uri` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.uri` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1091,7 +1091,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Identifies the property on the concepts, and when referred to in operations" ] ;
        fhir:definition [ fhir:v "A code that is used to identify the property. The code is used in ValueSet.expansion.contains.property.code." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.code` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1138,7 +1138,7 @@
        fhir:sliceName [ fhir:v "uri" ] ;
        fhir:short [ fhir:v "Formal identifier for the property" ] ;
        fhir:definition [ fhir:v "Reference to the formal meaning of the property. One possible source of meaning is the [Concept Properties](https://hl7.org/fhir/codesystem-concept-properties.html) code system." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.uri` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.uri` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

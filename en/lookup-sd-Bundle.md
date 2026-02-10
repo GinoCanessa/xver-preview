@@ -46,5 +46,5 @@ A computable version of the following element information is available in: [Conc
 | [`Bundle.entry.response.lastModified`](https://hl7.org/fhir/R5/Bundle.html#resource) | [Bundle.entry.response.lastModified](https://hl7.org/fhir/R4/Bundle.html#resource) |
 | [`Bundle.entry.response.outcome`](https://hl7.org/fhir/R5/Bundle.html#resource) | [Bundle.entry.response.outcome](https://hl7.org/fhir/R4/Bundle.html#resource) |
 | [`Bundle.signature`](https://hl7.org/fhir/R5/Bundle.html#resource) | [Bundle.signature](https://hl7.org/fhir/R4/Bundle.html#resource) |
-| [`Bundle.issues`](https://hl7.org/fhir/R5/Bundle.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues](StructureDefinition-ext-R5-Bundle.issues.md) |
+| [`Bundle.issues`](https://hl7.org/fhir/R5/Bundle.html#resource) | [Bundle](https://hl7.org/fhir/R4/Bundle.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues](StructureDefinition-ext-R5-Bundle.issues.md) |
 

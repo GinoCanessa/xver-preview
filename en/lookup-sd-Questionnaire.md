@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`Questionnaire.url`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.url](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.identifier`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.identifier](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.version`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.version](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
-| [`Questionnaire.versionAlgorithm[x]`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm](StructureDefinition-ext-R5-Questionnaire.versionAlgorithm.md) |
+| [`Questionnaire.versionAlgorithm[x]`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire](https://hl7.org/fhir/R4/Questionnaire.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm](StructureDefinition-ext-R5-Questionnaire.versionAlgorithm.md) |
 | [`Questionnaire.name`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.name](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.title`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.title](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.derivedFrom`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.derivedFrom](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
@@ -36,7 +36,7 @@ A computable version of the following element information is available in: [Conc
 | [`Questionnaire.jurisdiction`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.jurisdiction](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.purpose`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.purpose](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.copyright`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.copyright](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
-| [`Questionnaire.copyrightLabel`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel](StructureDefinition-ext-R5-Questionnaire.copyrightLabel.md) |
+| [`Questionnaire.copyrightLabel`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire](https://hl7.org/fhir/R4/Questionnaire.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel](StructureDefinition-ext-R5-Questionnaire.copyrightLabel.md) |
 | [`Questionnaire.approvalDate`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.approvalDate](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.lastReviewDate`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.lastReviewDate](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.effectivePeriod`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.effectivePeriod](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
@@ -53,7 +53,7 @@ A computable version of the following element information is available in: [Conc
 | [`Questionnaire.item.enableWhen.operator`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item.enableWhen.operator](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.item.enableWhen.answer[x]`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item.enableWhen.answer[x]](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.item.enableBehavior`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item.enableBehavior](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
-| [`Questionnaire.item.disabledDisplay`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay](StructureDefinition-ext-R5-Questionnaire.ite.disabledDisplay.md) |
+| [`Questionnaire.item.disabledDisplay`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item](https://hl7.org/fhir/R4/Questionnaire.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay](StructureDefinition-ext-R5-Questionnaire.ite.disabledDisplay.md) |
 | [`Questionnaire.item.required`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item.required](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.item.repeats`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item.repeats](https://hl7.org/fhir/R4/Questionnaire.html#resource) |
 | [`Questionnaire.item.readOnly`](https://hl7.org/fhir/R5/Questionnaire.html#resource) | [Questionnaire.item.readOnly](https://hl7.org/fhir/R4/Questionnaire.html#resource) |

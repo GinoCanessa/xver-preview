@@ -58,7 +58,7 @@
   <title value="Cross-version Extension `R5.MedicationKnowledge.packaging` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -197,7 +197,7 @@
       <sliceName value="cost"/>
       <short value="Cost of the packaged medication"/>
       <definition value="The cost of the packaged medication."/>
-      <requirements value="Element `MedicationKnowledge.packaging.cost` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified."/>
+      <requirements value="Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -508,7 +508,7 @@
       <sliceName value="packagedProduct"/>
       <short value="The packaged medication that is being priced"/>
       <definition value="A reference to a PackagedProductDefinition that provides the details of the product that is in the packaging and is being priced."/>
-      <requirements value="Element `MedicationKnowledge.packaging.packagedProduct` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -910,7 +910,7 @@
       <sliceName value="cost"/>
       <short value="Cost of the packaged medication"/>
       <definition value="The cost of the packaged medication."/>
-      <requirements value="Element `MedicationKnowledge.packaging.cost` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified."/>
+      <requirements value="Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -945,7 +945,7 @@
       <sliceName value="packagedProduct"/>
       <short value="The packaged medication that is being priced"/>
       <definition value="A reference to a PackagedProductDefinition that provides the details of the product that is in the packaging and is being priced."/>
-      <requirements value="Element `MedicationKnowledge.packaging.packagedProduct` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Account.diagnosis` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.diagnosis` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.diagnosis` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.diagnosis` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.diagnosis` is mapped to FHIR R4 structure `Account`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.diagnosis` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.diagnosis` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.diagnosis` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.diagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Account" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "sequence" ] ;
        fhir:short [ fhir:v "Ranking of the diagnosis (for each type)" ] ;
        fhir:definition [ fhir:v "Ranking of the diagnosis (for each type)." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -525,7 +525,7 @@
        fhir:sliceName [ fhir:v "condition" ] ;
        fhir:short [ fhir:v "The diagnosis relevant to the account" ] ;
        fhir:definition [ fhir:v "The diagnosis relevant to the account." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -869,7 +869,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1087,7 +1087,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1627,7 +1627,7 @@
        fhir:sliceName [ fhir:v "dateOfDiagnosis" ] ;
        fhir:short [ fhir:v "Date of the diagnosis (when coded diagnosis)" ] ;
        fhir:definition [ fhir:v "Ranking of the diagnosis (for each type)." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1838,7 +1838,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …)" ] ;
        fhir:definition [ fhir:v "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …)." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2049,7 +2049,7 @@
        fhir:sliceName [ fhir:v "onAdmission" ] ;
        fhir:short [ fhir:v "Diagnosis present on Admission" ] ;
        fhir:definition [ fhir:v "Was the Diagnosis present on Admission in the related Encounter." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2260,7 +2260,7 @@
        fhir:sliceName [ fhir:v "packageCode" ] ;
        fhir:short [ fhir:v "Package Code specific for billing" ] ;
        fhir:definition [ fhir:v "The package code can be used to group diagnoses that may be priced or delivered as a single product. Such as DRGs." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2827,7 +2827,7 @@
        fhir:sliceName [ fhir:v "sequence" ] ;
        fhir:short [ fhir:v "Ranking of the diagnosis (for each type)" ] ;
        fhir:definition [ fhir:v "Ranking of the diagnosis (for each type)." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2874,7 +2874,7 @@
        fhir:sliceName [ fhir:v "condition" ] ;
        fhir:short [ fhir:v "The diagnosis relevant to the account" ] ;
        fhir:definition [ fhir:v "The diagnosis relevant to the account." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2955,7 +2955,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3009,7 +3009,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3088,7 +3088,7 @@
        fhir:sliceName [ fhir:v "dateOfDiagnosis" ] ;
        fhir:short [ fhir:v "Date of the diagnosis (when coded diagnosis)" ] ;
        fhir:definition [ fhir:v "Ranking of the diagnosis (for each type)." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3135,7 +3135,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …)" ] ;
        fhir:definition [ fhir:v "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …)." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3182,7 +3182,7 @@
        fhir:sliceName [ fhir:v "onAdmission" ] ;
        fhir:short [ fhir:v "Diagnosis present on Admission" ] ;
        fhir:definition [ fhir:v "Was the Diagnosis present on Admission in the related Encounter." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3229,7 +3229,7 @@
        fhir:sliceName [ fhir:v "packageCode" ] ;
        fhir:short [ fhir:v "Package Code specific for billing" ] ;
        fhir:definition [ fhir:v "The package code can be used to group diagnoses that may be priced or delivered as a single product. Such as DRGs." ] ;
-       fhir:requirements [ fhir:v "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

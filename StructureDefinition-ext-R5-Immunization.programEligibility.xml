@@ -57,7 +57,7 @@
   <title value="Cross-version Extension `R5.Immunization.programEligibility` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -196,7 +196,7 @@
       <sliceName value="program"/>
       <short value="The program that eligibility is declared for"/>
       <definition value="Indicates which program the patient had their eligility evaluated for."/>
-      <requirements value="Element `Immunization.programEligibility.program` is mapped to FHIR R4 structure `Immunization`, but has no target element specified."/>
+      <requirements value="Element `Immunization.programEligibility.program` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -360,7 +360,7 @@
       <sliceName value="programStatus"/>
       <short value="The patient's eligibility status for the program"/>
       <definition value="Indicates the patient's eligility status for for a specific payment program."/>
-      <requirements value="Element `Immunization.programEligibility.programStatus` is mapped to FHIR R4 structure `Immunization`, but has no target element specified."/>
+      <requirements value="Element `Immunization.programEligibility.programStatus` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -765,7 +765,7 @@
       <sliceName value="program"/>
       <short value="The program that eligibility is declared for"/>
       <definition value="Indicates which program the patient had their eligility evaluated for."/>
-      <requirements value="Element `Immunization.programEligibility.program` is mapped to FHIR R4 structure `Immunization`, but has no target element specified."/>
+      <requirements value="Element `Immunization.programEligibility.program` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -805,7 +805,7 @@
       <sliceName value="programStatus"/>
       <short value="The patient's eligibility status for the program"/>
       <definition value="Indicates the patient's eligility status for for a specific payment program."/>
-      <requirements value="Element `Immunization.programEligibility.programStatus` is mapped to FHIR R4 structure `Immunization`, but has no target element specified."/>
+      <requirements value="Element `Immunization.programEligibility.programStatus` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

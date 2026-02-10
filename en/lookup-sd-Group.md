@@ -21,10 +21,10 @@ A computable version of the following element information is available in: [Conc
 | [`Group.identifier`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.identifier](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.active`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.active](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.type`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.type](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type](StructureDefinition-ext-R5-Group.type.md) |
-| [`Group.membership`](https://hl7.org/fhir/R5/Group.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership](StructureDefinition-ext-R5-Group.membership.md) |
+| [`Group.membership`](https://hl7.org/fhir/R5/Group.html#resource) | [Group](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership](StructureDefinition-ext-R5-Group.membership.md) |
 | [`Group.code`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.code](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.name`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.name](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.description`](https://hl7.org/fhir/R5/Group.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description](StructureDefinition-ext-R5-Group.description.md) |
+| [`Group.description`](https://hl7.org/fhir/R5/Group.html#resource) | [Group](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description](StructureDefinition-ext-R5-Group.description.md) |
 | [`Group.quantity`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.quantity](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.managingEntity`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.managingEntity](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.characteristic`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic](https://hl7.org/fhir/R4/Group.html#resource) |

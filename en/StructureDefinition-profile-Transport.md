@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Transport
   "title" : "Cross-version Profile for R5.Transport for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8203496-06:00",
+  "date" : "2026-02-09T22:05:43.3950922-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

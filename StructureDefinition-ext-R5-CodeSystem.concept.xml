@@ -96,7 +96,7 @@
   <title value="Cross-version Extension `R5.CodeSystem.concept` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -1169,7 +1169,7 @@
       <short value="Additional ways how this designation would be used"/>
       <definition value="Additional codes that detail how this designation would be used, if there is more than one use."/>
       <comment value="This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility."/>
-      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is mapped to FHIR R4 structure `CodeSystem`, but has no target element specified."/>
+      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3148,7 +3148,7 @@
       <short value="Additional ways how this designation would be used"/>
       <definition value="Additional codes that detail how this designation would be used, if there is more than one use."/>
       <comment value="This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility."/>
-      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is mapped to FHIR R4 structure `CodeSystem`, but has no target element specified."/>
+      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

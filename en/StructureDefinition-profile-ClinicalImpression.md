@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
   "title" : "Cross-version Profile for R5.ClinicalImpression for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6428998-06:00",
+  "date" : "2026-02-09T22:05:43.0245656-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
         "path" : "ClinicalImpression"
       },
       {
+        "id" : "ClinicalImpression.extension",
+        "path" : "ClinicalImpression.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ClinicalImpression.extension:changePattern",
+        "path" : "ClinicalImpression.extension",
+        "sliceName" : "changePattern",
+        "short" : "Cross-version extension for ClinicalImpression.changePattern from R5 for use in FHIR R4",
+        "comment" : "Element `ClinicalImpression.changePattern` is will have a context of ClinicalImpression based on following the parent source element upwards and mapping to `ClinicalImpression`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "ClinicalImpression.status.extension",
         "path" : "ClinicalImpression.status.extension",
         "slicing" : {
@@ -170,9 +213,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
         }
       },
       {
-        "id" : "ClinicalImpression.status.extension",
+        "id" : "ClinicalImpression.status.extension:status",
         "path" : "ClinicalImpression.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for ClinicalImpression.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` is mapped to FHIR R4 element `ClinicalImpression.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {

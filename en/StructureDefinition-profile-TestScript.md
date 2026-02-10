@@ -7,7 +7,7 @@ This cross-version profile allows R5 TestScript content to be represented via FH
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.TestReport.testScript` for use in FHIR R4](StructureDefinition-ext-R5-TestReport.testScript.md)
+* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-TestScript)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
   "title" : "Cross-version Profile for R5.TestScript for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8153213-06:00",
+  "date" : "2026-02-09T22:05:43.3882261-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,8 +149,225 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
         "path" : "TestScript"
       },
       {
+        "id" : "TestScript.extension",
+        "path" : "TestScript.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TestScript.extension:versionAlgorithm",
+        "path" : "TestScript.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for TestScript.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.versionAlgorithm[x]` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.extension:copyrightLabel",
+        "path" : "TestScript.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for TestScript.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.copyrightLabel` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.extension:scope",
+        "path" : "TestScript.extension",
+        "sliceName" : "scope",
+        "short" : "Cross-version extension for TestScript.scope from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.scope` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.origin.extension",
+        "path" : "TestScript.origin.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TestScript.origin.extension:url",
+        "path" : "TestScript.origin.extension",
+        "sliceName" : "url",
+        "short" : "Cross-version extension for TestScript.origin.url from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.origin.url` is will have a context of TestScript.origin based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin.url|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.destination.extension",
+        "path" : "TestScript.destination.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TestScript.destination.extension:url",
+        "path" : "TestScript.destination.extension",
+        "sliceName" : "url",
+        "short" : "Cross-version extension for TestScript.destination.url from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.destination.url` is will have a context of TestScript.destination based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination.url|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "TestScript.profile.extension",
         "path" : "TestScript.profile.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "TestScript.profile",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TestScript.profile.extension:profile",
+        "path" : "TestScript.profile.extension",
+        "sliceName" : "profile",
+        "short" : "Cross-version extension for TestScript.profile from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/StructureDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.setup.action.assert.extension",
+        "path" : "TestScript.setup.action.assert.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -164,15 +381,61 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
         "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "TestScript.profile",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "TestScript.profile.extension",
-        "path" : "TestScript.profile.extension",
-        "short" : "Cross-version extension for TestScript.profile from R5 for use in FHIR R4",
+        "id" : "TestScript.setup.action.assert.extension:defaultManualCompletion",
+        "path" : "TestScript.setup.action.assert.extension",
+        "sliceName" : "defaultManualCompletion",
+        "short" : "Cross-version extension for TestScript.setup.action.assert.defaultManualCompletion from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.defaultManualCompletion|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.setup.action.assert.extension:stopTestOnFail",
+        "path" : "TestScript.setup.action.assert.extension",
+        "sliceName" : "stopTestOnFail",
+        "short" : "Cross-version extension for TestScript.setup.action.assert.stopTestOnFail from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.stopTestOnFail|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TestScript.setup.action.assert.extension:requirement",
+        "path" : "TestScript.setup.action.assert.extension",
+        "sliceName" : "requirement",
+        "short" : "Cross-version extension for TestScript.setup.action.assert.requirement from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -184,7 +447,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.profile|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -202,7 +465,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "TestScript.setup.action.assert.operator",
@@ -211,9 +474,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
         }
       },
       {
-        "id" : "TestScript.setup.action.assert.operator.extension",
+        "id" : "TestScript.setup.action.assert.operator.extension:operator",
         "path" : "TestScript.setup.action.assert.operator.extension",
+        "sliceName" : "operator",
         "short" : "Cross-version extension for TestScript.setup.action.assert.operator from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.setup.action.assert.operator` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -243,7 +508,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "TestScript.setup.action.assert.response",
@@ -252,9 +517,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
         }
       },
       {
-        "id" : "TestScript.setup.action.assert.response.extension",
+        "id" : "TestScript.setup.action.assert.response.extension:response",
         "path" : "TestScript.setup.action.assert.response.extension",
+        "sliceName" : "response",
         "short" : "Cross-version extension for TestScript.setup.action.assert.response from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.setup.action.assert.response` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -293,9 +560,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
         }
       },
       {
-        "id" : "TestScript.test.action.extension",
+        "id" : "TestScript.test.action.extension:action",
         "path" : "TestScript.test.action.extension",
+        "sliceName" : "action",
         "short" : "Cross-version extension for TestScript.test.action from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.test.action` is mapped to FHIR R4 element `TestScript.test.action`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -325,7 +594,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -334,9 +603,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-TestScrip
         }
       },
       {
-        "id" : "TestScript.teardown.extension",
+        "id" : "TestScript.teardown.extension:teardown",
         "path" : "TestScript.teardown.extension",
+        "sliceName" : "teardown",
         "short" : "Cross-version extension for TestScript.teardown from R5 for use in FHIR R4",
+        "comment" : "Element `TestScript.teardown` is mapped to FHIR R4 element `TestScript.teardown`.",
         "min" : 0,
         "max" : "1",
         "base" : {

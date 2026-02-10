@@ -10,7 +10,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:targetNumber","Extension.extension","targetNumber","","",0,1,"","","","Extension {[]} {[]}
-","Estimated total number of participants to be enrolled","Estimated total number of participants to be enrolled.","","Element `ResearchStudy.recruitment.targetNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Estimated total number of participants to be enrolled","Estimated total number of participants to be enrolled.","","Element `ResearchStudy.recruitment.targetNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:targetNumber.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -25,7 +25,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Estimated total number of participants to be enrolled","Estimated total number of participants to be enrolled.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:actualNumber","Extension.extension","actualNumber","","",0,1,"","","","Extension {[]} {[]}
-","Actual total number of participants enrolled in study","Actual total number of participants enrolled in study.","","Element `ResearchStudy.recruitment.actualNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Actual total number of participants enrolled in study","Actual total number of participants enrolled in study.","","Element `ResearchStudy.recruitment.actualNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:actualNumber.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -40,7 +40,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Actual total number of participants enrolled in study","Actual total number of participants enrolled in study.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:eligibility","Extension.extension","eligibility","","",0,1,"","","","Extension {[]} {[]}
-","Inclusion and exclusion criteria","Inclusion and exclusion criteria.","","Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Inclusion and exclusion criteria","Inclusion and exclusion criteria.","","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:eligibility.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -55,7 +56,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Inclusion and exclusion criteria","Inclusion and exclusion criteria.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:actualGroup","Extension.extension","actualGroup","","",0,1,"","","","Extension {[]} {[]}
-","Group of participants who were enrolled in study","Group of participants who were enrolled in study.","","Element `ResearchStudy.recruitment.actualGroup` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Group of participants who were enrolled in study","Group of participants who were enrolled in study.","","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.recruitment.actualGroup` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:actualGroup.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

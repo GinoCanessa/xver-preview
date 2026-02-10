@@ -7,7 +7,7 @@ This cross-version profile allows R5 Questionnaire content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ConditionDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ConditionDefinition.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.ObservationDefinition.hasMember` for use in FHIR R4](StructureDefinition-ext-R5-ObservationDefinition.hasMember.md)... Show 3 more, [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.ConditionDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ConditionDefinition.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md)... Show 2 more, [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Questionnaire)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
   "title" : "Cross-version Profile for R5.Questionnaire for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7743538-06:00",
+  "date" : "2026-02-09T22:05:43.2874713-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
         "path" : "Questionnaire"
       },
       {
+        "id" : "Questionnaire.extension",
+        "path" : "Questionnaire.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Questionnaire.extension:versionAlgorithm",
+        "path" : "Questionnaire.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for Questionnaire.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Questionnaire.versionAlgorithm[x]` is will have a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Questionnaire.extension:copyrightLabel",
+        "path" : "Questionnaire.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for Questionnaire.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `Questionnaire.copyrightLabel` is will have a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Questionnaire.subjectType.extension",
         "path" : "Questionnaire.subjectType.extension",
         "slicing" : {
@@ -166,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Questionnaire.subjectType",
@@ -175,9 +240,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
         }
       },
       {
-        "id" : "Questionnaire.subjectType.extension",
+        "id" : "Questionnaire.subjectType.extension:subjectType",
         "path" : "Questionnaire.subjectType.extension",
+        "sliceName" : "subjectType",
         "short" : "Cross-version extension for Questionnaire.subjectType from R5 for use in FHIR R4",
+        "comment" : "Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -190,6 +257,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Questionnaire.item.extension",
+        "path" : "Questionnaire.item.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Questionnaire.item.extension:disabledDisplay",
+        "path" : "Questionnaire.item.extension",
+        "sliceName" : "disabledDisplay",
+        "short" : "Cross-version extension for Questionnaire.item.disabledDisplay from R5 for use in FHIR R4",
+        "comment" : "Element `Questionnaire.item.disabledDisplay` is part of an existing definition because parent element `Questionnaire.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `Questionnaire.item.disabledDisplay` is will have a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -216,9 +326,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
         }
       },
       {
-        "id" : "Questionnaire.item.type.extension",
+        "id" : "Questionnaire.item.type.extension:type",
         "path" : "Questionnaire.item.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for Questionnaire.item.type from R5 for use in FHIR R4",
+        "comment" : "Element `Questionnaire.item.type` is part of an existing definition because parent element `Questionnaire.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type`.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -7,7 +7,7 @@ This cross-version profile allows R5 DeviceRequest content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Appointment.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.basedOn.md), [Cross-version Extension `R5.AuditEvent.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.basedOn.md), [Cross-version Extension `R5.Claim.item.request` for use in FHIR R4](StructureDefinition-ext-R5-Claim.ite.request.md), [Cross-version Extension `R5.ClaimResponse.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.add.request.md)... Show 9 more, [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DeviceRequest.replaces` for use in FHIR R4](StructureDefinition-ext-R5-DeviceRequest.replaces.md), [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md), [Cross-version Extension `R5.Encounter.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.basedOn.md), [Cross-version Extension `R5.ExplanationOfBenefit.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.add.request.md), [Cross-version Extension `R5.ExplanationOfBenefit.item.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.ite.request.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md), [Cross-version Extension `R5.Provenance.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Provenance.basedOn.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
+* Refer to this Profile: [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-DeviceRequest)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceReq
   "title" : "Cross-version Profile for R5.DeviceRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6716877-06:00",
+  "date" : "2026-02-09T22:05:43.0725014-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,115 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceReq
         "path" : "DeviceRequest"
       },
       {
+        "id" : "DeviceRequest.extension",
+        "path" : "DeviceRequest.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DeviceRequest.extension:doNotPerform",
+        "path" : "DeviceRequest.extension",
+        "sliceName" : "doNotPerform",
+        "short" : "Cross-version extension for DeviceRequest.doNotPerform from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceRequest.doNotPerform` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceRequest.extension:quantity",
+        "path" : "DeviceRequest.extension",
+        "sliceName" : "quantity",
+        "short" : "Cross-version extension for DeviceRequest.quantity from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceRequest.quantity` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceRequest.extension:asNeeded",
+        "path" : "DeviceRequest.extension",
+        "sliceName" : "asNeeded",
+        "short" : "Cross-version extension for DeviceRequest.asNeeded from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceRequest.asNeeded` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceRequest.extension:asNeededFor",
+        "path" : "DeviceRequest.extension",
+        "sliceName" : "asNeededFor",
+        "short" : "Cross-version extension for DeviceRequest.asNeededFor from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceRequest.asNeededFor` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "DeviceRequest.priorRequest.extension",
         "path" : "DeviceRequest.priorRequest.extension",
         "slicing" : {
@@ -166,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceReq
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "DeviceRequest.priorRequest",
@@ -175,9 +284,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceReq
         }
       },
       {
-        "id" : "DeviceRequest.priorRequest.extension",
+        "id" : "DeviceRequest.priorRequest.extension:replaces",
         "path" : "DeviceRequest.priorRequest.extension",
+        "sliceName" : "replaces",
         "short" : "Cross-version extension for DeviceRequest.replaces from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DeviceRequest in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceRequest.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceRequest.replaces` is mapped to FHIR R4 element `DeviceRequest.priorRequest`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -189,7 +301,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceReq
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.replaces|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

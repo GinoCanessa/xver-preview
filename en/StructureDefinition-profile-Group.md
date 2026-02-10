@@ -7,7 +7,7 @@ This cross-version profile allows R5 Group content to be represented via FHIR R4
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.par.typeReference.md), [Cross-version Extension `R5.Appointment.participant.actor` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.par.actor.md), [Cross-version Extension `R5.AppointmentResponse.actor` for use in FHIR R4](StructureDefinition-ext-R5-AppointmentResponse.actor.md), [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md)... Show 28 more, [Cross-version Extension `R5.Consent.provision` for use in FHIR R4](StructureDefinition-ext-R5-Consent.provision.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.Encounter.participant.actor` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.par.actor.md), [Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.statistic.md), [Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.variableDefinition.md), [Cross-version Extension `R5.EvidenceVariable.characteristic.definitionReference` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.cha.definitionReference.md), [Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.characteristic.md), [Cross-version Extension `R5.Measure.group.population.groupDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Measure.gro.pop.groupDefinition.md), [Cross-version Extension `R5.Measure.group.stratifier.component.groupDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Measure.gro.str.com.groupDefinition.md), [Cross-version Extension `R5.Measure.group.stratifier.groupDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Measure.gro.str.groupDefinition.md), [Cross-version Extension `R5.Measure.group.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-Measure.gro.subject.md), [Cross-version Extension `R5.MeasureReport.group.population.subjects` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.gro.pop.subjects.md), [Cross-version Extension `R5.MeasureReport.group.stratifier.stratum.population.subjects` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.gro.str.str.pop.subjects.md), [Cross-version Extension `R5.MeasureReport.group.subject` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.gro.subject.md), [Cross-version Extension `R5.MeasureReport.reporter` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.reporter.md), [Cross-version Extension `R5.Observation.specimen` for use in FHIR R4](StructureDefinition-ext-R5-Observation.specimen.md), [Cross-version Extension `R5.Permission` for use in FHIR R4](StructureDefinition-ext-R5-Permission.md), [Cross-version Extension `R5.PlanDefinition.action.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.par.typeReference.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.Procedure.focus` for use in FHIR R4](StructureDefinition-ext-R5-Procedure.focus.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.ResearchStudy.comparisonGroup.observedGroup` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.com.observedGroup.md), [Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.recruitment.md), [Cross-version Extension `R5.SpecimenDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-SpecimenDefinition.subject.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Consent.provision` for use in FHIR R4](StructureDefinition-ext-R5-Consent.provision.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.statistic.md)... Show 12 more, [Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.variableDefinition.md), [Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.characteristic.md), [Cross-version Extension `R5.Measure.group.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-Measure.gro.subject.md), [Cross-version Extension `R5.Permission` for use in FHIR R4](StructureDefinition-ext-R5-Permission.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.recruitment.md), [Cross-version Extension `R5.SpecimenDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-SpecimenDefinition.subject.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Group)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Group.csv
   "title" : "Cross-version Profile for R5.Group for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7061346-06:00",
+  "date" : "2026-02-09T22:05:43.1453199-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -139,6 +139,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Group.csv
         "path" : "Group"
       },
       {
+        "id" : "Group.extension",
+        "path" : "Group.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Group.extension:membership",
+        "path" : "Group.extension",
+        "sliceName" : "membership",
+        "short" : "Cross-version extension for Group.membership from R5 for use in FHIR R4",
+        "comment" : "Element `Group.membership` is will have a context of Group based on following the parent source element upwards and mapping to `Group`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Group.extension:description",
+        "path" : "Group.extension",
+        "sliceName" : "description",
+        "short" : "Cross-version extension for Group.description from R5 for use in FHIR R4",
+        "comment" : "Element `Group.description` is will have a context of Group based on following the parent source element upwards and mapping to `Group`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Group.type.extension",
         "path" : "Group.type.extension",
         "slicing" : {
@@ -160,9 +225,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Group.csv
         }
       },
       {
-        "id" : "Group.type.extension",
+        "id" : "Group.type.extension:type",
         "path" : "Group.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for Group.type from R5 for use in FHIR R4",
+        "comment" : "Element `Group.type` is mapped to FHIR R4 element `Group.type`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -201,9 +268,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Group.csv
         }
       },
       {
-        "id" : "Group.member.entity.extension",
+        "id" : "Group.member.entity.extension:entity",
         "path" : "Group.member.entity.extension",
+        "sliceName" : "entity",
         "short" : "Cross-version extension for Group.member.entity from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Location,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Specimen in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` is mapped to FHIR R4 element `Group.member.entity`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -215,7 +285,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Group.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member.entity|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

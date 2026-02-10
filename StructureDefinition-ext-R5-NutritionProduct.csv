@@ -55,7 +55,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Broad product groups or categories used to classify the product, such as Legume and Legume Products, Beverages, or Beef Products","Nutrition products can have different classifications - according to its nutritional properties, preparation methods, etc.","","","","","","","","","",,"example","Codes identifying classes of nutrition products.","http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-nutrition-product-category-for-R4","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:manufacturer","Extension.extension","manufacturer","","",0,*,"","","","Extension {[]} {[]}
-","Manufacturer, representative or officially responsible for the product","The organisation (manufacturer, representative or legal authorization holder) that is responsible for the device.","","Element `NutritionProduct.manufacturer` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Manufacturer, representative or officially responsible for the product","The organisation (manufacturer, representative or legal authorization holder) that is responsible for the device.","","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionProduct.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `NutritionProduct.manufacturer` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:manufacturer.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -105,7 +106,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:nutrient.extension:item.extension:concept","Extension.extension.extension.extension","concept","","",0,1,"","","","Extension {[]} {[]}
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.
-Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:nutrient.extension:item.extension:concept.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -120,7 +121,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-nutrition-product-nutrient-for-R4","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:nutrient.extension:item.extension:reference","Extension.extension.extension.extension","reference","","",0,1,"","","","Extension {[]} {[]}
-","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.
+","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.
 Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:nutrient.extension:item.extension:reference.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -197,7 +198,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:ingredient.extension:item.extension:concept","Extension.extension.extension.extension","concept","","",0,1,"","","","Extension {[]} {[]}
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.
-Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:ingredient.extension:item.extension:concept.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -212,7 +213,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:ingredient.extension:item.extension:reference","Extension.extension.extension.extension","reference","","",0,1,"","","","Extension {[]} {[]}
-","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.
+","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.
 Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:ingredient.extension:item.extension:reference.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -279,7 +280,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:knownAllergen.extension:concept","Extension.extension.extension","concept","","",0,1,"","","","Extension {[]} {[]}
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.
-Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:knownAllergen.extension:concept.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -294,7 +295,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-allergen-class-for-R4","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:knownAllergen.extension:reference","Extension.extension.extension","reference","","",0,1,"","","","Extension {[]} {[]}
-","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.
+","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.
 Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:knownAllergen.extension:reference.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}

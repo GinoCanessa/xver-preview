@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.ConceptMap.additionalAttribute` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.additionalAttribute` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.additionalAttribute` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.additionalAttribute` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.additionalAttribute` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.additionalAttribute` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.additionalAttribute` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.additionalAttribute` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.additionalAttribute` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "ConceptMap" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -315,7 +315,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Identifies this additional attribute through this resource" ] ;
        fhir:definition [ fhir:v "A code that is used to identify this additional data attribute. The code is used internally in ConceptMap.group.element.target.dependsOn.attribute and ConceptMap.group.element.target.product.attribute." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -526,7 +526,7 @@
        fhir:sliceName [ fhir:v "uri" ] ;
        fhir:short [ fhir:v "Formal identifier for the data element referred to in this attribte" ] ;
        fhir:definition [ fhir:v "Reference to the formal definition of the source/target data element. For elements defined by the FHIR specification, or using a FHIR logical model, the correct format is {canonical-url}#{element-id}." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -737,7 +737,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Why the additional attribute is defined, and/or what the data element it refers to is" ] ;
        fhir:definition [ fhir:v "A description of the additional attribute and/or the data element it refers to - why it is defined, and how the value might be used in mappings, and a discussion of issues associated with the use of the data element." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -949,7 +949,7 @@
        fhir:short [ fhir:v "code | Coding | string | boolean | Quantity" ] ;
        fhir:definition [ fhir:v "The type of the source data contained in this concept map for this data element." ] ;
        fhir:comment [ fhir:v "When the source or target is not content defined by FHIR, some additional application logic might be required to map from the FHIR Datatype to the externally defined content" ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1518,7 +1518,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Identifies this additional attribute through this resource" ] ;
        fhir:definition [ fhir:v "A code that is used to identify this additional data attribute. The code is used internally in ConceptMap.group.element.target.dependsOn.attribute and ConceptMap.group.element.target.product.attribute." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1565,7 +1565,7 @@
        fhir:sliceName [ fhir:v "uri" ] ;
        fhir:short [ fhir:v "Formal identifier for the data element referred to in this attribte" ] ;
        fhir:definition [ fhir:v "Reference to the formal definition of the source/target data element. For elements defined by the FHIR specification, or using a FHIR logical model, the correct format is {canonical-url}#{element-id}." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1612,7 +1612,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Why the additional attribute is defined, and/or what the data element it refers to is" ] ;
        fhir:definition [ fhir:v "A description of the additional attribute and/or the data element it refers to - why it is defined, and how the value might be used in mappings, and a discussion of issues associated with the use of the data element." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1660,7 +1660,7 @@
        fhir:short [ fhir:v "code | Coding | string | boolean | Quantity" ] ;
        fhir:definition [ fhir:v "The type of the source data contained in this concept map for this data element." ] ;
        fhir:comment [ fhir:v "When the source or target is not content defined by FHIR, some additional application logic might be required to map from the FHIR Datatype to the externally defined content" ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

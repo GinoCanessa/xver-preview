@@ -12,7 +12,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:description","Extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
 ","Textual description of certainty","Textual description of certainty.","","Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.
 Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).
-Element `Evidence.certainty.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Evidence.certainty.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:description.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -29,7 +29,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:note","Extension.extension","note","","",0,*,"","","","Extension {[]} {[]}
 ","Footnotes and/or explanatory notes","Footnotes and/or explanatory notes.","","Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.
 Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).
-Element `Evidence.certainty.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Evidence.certainty.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:note.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -46,7 +46,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:type","Extension.extension","type","","",0,1,"","","","Extension {[]} {[]}
 ","Aspect of certainty being rated","Aspect of certainty being rated.","","Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.
 Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).
-Element `Evidence.certainty.type` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Evidence.certainty.type` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -63,7 +63,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:rating","Extension.extension","rating","","",0,1,"","","","Extension {[]} {[]}
 ","Assessment or judgement of the aspect","Assessment or judgement of the aspect.","","Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.
 Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).
-Element `Evidence.certainty.rating` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Evidence.certainty.rating` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:rating.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -80,7 +80,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:rater","Extension.extension","rater","","",0,1,"","","","Extension {[]} {[]}
 ","Individual or group who did the rating","Individual or group who did the rating.","","Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.
 Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).
-Element `Evidence.certainty.rater` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Evidence.certainty.rater` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:rater.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -97,7 +97,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:subcomponent","Extension.extension","subcomponent","","",0,*,"","","","Extension {[]} {[]}
 ","A domain or subdomain of certainty","A domain or subdomain of certainty.","","Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.
 Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).
-Element `Evidence.certainty.subcomponent` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Evidence.certainty.subcomponent` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:subcomponent.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

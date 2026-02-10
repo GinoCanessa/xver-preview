@@ -60,7 +60,7 @@
   <title value="Cross-version Extension `R5.MedicationAdministration.performer.actor` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -364,7 +364,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -528,7 +528,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -977,7 +977,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1017,7 +1017,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

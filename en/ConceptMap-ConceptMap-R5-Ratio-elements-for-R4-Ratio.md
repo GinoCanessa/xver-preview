@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.077134-06:00",
+  "date" : "2026-02-09T22:05:44.1683163-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Ratio#Ratio",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Ratio` is representable via FHIR R4B extensions.\nElement `Ratio` is mapped to FHIR R4B element `Ratio`."
+              "comment" : "FHIR R5 ComplexType `Ratio` is representable via FHIR R4 extensions.\nElement `Ratio` is mapped to FHIR R4 element `Ratio`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Ratio#Ratio.numerator",
               "equivalence" : "relatedto",
-              "comment" : "Element `Ratio.numerator` is mapped to FHIR R4B element `Ratio.numerator`."
+              "comment" : "Element `Ratio.numerator` is mapped to FHIR R4 element `Ratio.numerator`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Ratio#Ratio.denominator",
               "equivalence" : "relatedto",
-              "comment" : "Element `Ratio.denominator` is mapped to FHIR R4B element `Ratio.denominator`."
+              "comment" : "Element `Ratio.denominator` is mapped to FHIR R4 element `Ratio.denominator`."
             }
           ]
         }

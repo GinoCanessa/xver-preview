@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
   "title" : "Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -549,7 +549,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -594,7 +594,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -766,7 +766,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "holder",
         "short" : "The organization that has been granted this authorization, by the regulator",
         "definition" : "The organization that has been granted this authorization, by some authoritative body (the 'regulator').",
-        "requirements" : "Element `RegulatedAuthorization.holder` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.holder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.holder` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -815,7 +815,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "regulator",
         "short" : "The regulatory authority or authorizing body granting the authorization",
         "definition" : "The regulatory authority or authorizing body granting the authorization. For example, European Medicines Agency (EMA), Food and Drug Administration (FDA), Health Canada (HC), etc.",
-        "requirements" : "Element `RegulatedAuthorization.regulator` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.regulator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.regulator` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -864,7 +864,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "attachedDocument",
         "short" : "Additional information or supporting documentation about the authorization",
         "definition" : "Additional information or supporting documentation about the authorization.",
-        "requirements" : "Element `RegulatedAuthorization.attachedDocument` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.attachedDocument` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {

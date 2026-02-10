@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
   "title" : "Cross-version Extension `R5.ChargeItemDefinition.applicability` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
         "short" : "Boolean-valued expression",
         "definition" : "An expression that returns true or false, indicating whether the condition is satisfied. When using FHIRPath expressions, the %context environment variable must be replaced at runtime with the ChargeItem resource to which this definition is applied.",
         "comment" : "Please note that FHIRPath Expressions can only be evaluated in the scope of the current ChargeItem resource to which this definition is being applied.\nFHIRPath expressions can traverse into other resources linked from the ChargeItem resource, however, testing rules such as that a billing code may be billed only once per encounter need a wider scope. In such scenarios, CQL may be the appropriate choice.",
-        "requirements" : "Element `ChargeItemDefinition.applicability.condition` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.condition` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.",
+        "requirements" : "Element `ChargeItemDefinition.applicability.condition` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.condition` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
         "short" : "When the charge item definition is expected to be used",
         "definition" : "The period during which the charge item definition content was or is planned to be in active use.",
         "comment" : "The effective period for a charge item definition  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.",
-        "requirements" : "Allows establishing a transition before a resource comes into effect and also allows for a sunsetting  process when new versions of the charge item definition are or are expected to be used instead. Element `ChargeItemDefinition.applicability.effectivePeriod` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.effectivePeriod` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.",
+        "requirements" : "Allows establishing a transition before a resource comes into effect and also allows for a sunsetting  process when new versions of the charge item definition are or are expected to be used instead. Element `ChargeItemDefinition.applicability.effectivePeriod` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.effectivePeriod` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
         "sliceName" : "relatedArtifact",
         "short" : "Reference to / quotation of the external source of the group of properties",
         "definition" : "Reference to / quotation of the external source of the group of properties.",
-        "requirements" : "Element `ChargeItemDefinition.applicability.relatedArtifact` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.relatedArtifact` is mapped to FHIR R4 structure `ChargeItemDefinition`, but has no target element specified.",
+        "requirements" : "Element `ChargeItemDefinition.applicability.relatedArtifact` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.relatedArtifact` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {

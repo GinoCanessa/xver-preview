@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Subscription.parame
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Subscription for use in FHIR R4](StructureDefinition-profile-Subscription.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Subscription.parameter)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
   "title" : "Cross-version Extension `R5.Subscription.parameter` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.parameter` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Subscription"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "name",
         "short" : "Name (key) of the parameter",
         "definition" : "Parameter name for information passed to the channel for notifications, for example in the case of a REST hook wanting to pass through an authorization header, the name would be Authorization.",
-        "requirements" : "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "value",
         "short" : "Value of the parameter to use or pass through",
         "definition" : "Parameter value for information passed to the channel for notifications, for example in the case of a REST hook wanting to pass through an authorization header, the value would be `Bearer 0193...`.",
-        "requirements" : "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.\nElement `Subscription.parameter.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 1,
         "max" : "1",
         "base" : {

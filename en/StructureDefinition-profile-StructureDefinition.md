@@ -7,7 +7,7 @@ This cross-version profile allows R5 StructureDefinition content to be represent
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ElementDefinition.valueAlternatives` for use in FHIR R4](StructureDefinition-ext-R5-ElementDefinition.valueAlternatives.md), [Cross-version Extension `R5.GraphDefinition.node` for use in FHIR R4](StructureDefinition-ext-R5-GraphDefinition.node.md), [Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4](StructureDefinition-ext-R5-OperationDefinition.parameter.md) and [Cross-version Extension `R5.TestScript.profile` for use in FHIR R4](StructureDefinition-ext-R5-TestScript.profile.md)
+* Refer to this Profile: [Cross-version Extension `R5.GraphDefinition.node` for use in FHIR R4](StructureDefinition-ext-R5-GraphDefinition.node.md) and [Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4](StructureDefinition-ext-R5-OperationDefinition.parameter.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-StructureDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
   "title" : "Cross-version Profile for R5.StructureDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7952119-06:00",
+  "date" : "2026-02-09T22:05:43.3360249-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         "path" : "StructureDefinition"
       },
       {
+        "id" : "StructureDefinition.extension",
+        "path" : "StructureDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "StructureDefinition.extension:versionAlgorithm",
+        "path" : "StructureDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for StructureDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.versionAlgorithm[x]` is will have a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureDefinition.extension:copyrightLabel",
+        "path" : "StructureDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for StructureDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.copyrightLabel` is will have a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "StructureDefinition.fhirVersion.extension",
         "path" : "StructureDefinition.fhirVersion.extension",
         "slicing" : {
@@ -166,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "StructureDefinition.fhirVersion",
@@ -175,9 +240,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         }
       },
       {
-        "id" : "StructureDefinition.fhirVersion.extension",
+        "id" : "StructureDefinition.fhirVersion.extension:fhirVersion",
         "path" : "StructureDefinition.fhirVersion.extension",
+        "sliceName" : "fhirVersion",
         "short" : "Cross-version extension for StructureDefinition.fhirVersion from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.fhirVersion` is mapped to FHIR R4 element `StructureDefinition.fhirVersion`.",
         "min" : 0,
         "max" : "1",
         "base" : {

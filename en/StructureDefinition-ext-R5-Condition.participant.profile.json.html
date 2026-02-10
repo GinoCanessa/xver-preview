@@ -52,8 +52,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.481"}
-    h3,h4,h5,h6{--heading-prefix:"7.481"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.439"}
+    h3,h4,h5,h6{--heading-prefix:"7.439"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -344,7 +344,7 @@ JSON Profile
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.title">title</a>" : "Cross-version Extension `R5.Condition.participant` for use in FHIR R4",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a>" : "active",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a>" : "2026-02-06T19:17:19.5427077+00:00",
+  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a>" : "2026-02-10T04:05:33.0136333+00:00",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a>" : "FHIR Infrastructure",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>" : [
     {
@@ -369,7 +369,7 @@ JSON Profile
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.purpose">purpose</a>" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Condition.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Condition.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Condition.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Condition.participant` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.purpose">purpose</a>" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Condition.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Condition.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Condition.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Condition.participant` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a>" : "4.0.1",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">mapping</a>" : [
     {
@@ -383,7 +383,7 @@ JSON Profile
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.type">type</a>" : "element",
-      "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a>" : "Element"
+      "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a>" : "Condition"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.type">type</a>" : "Extension",
@@ -522,7 +522,7 @@ JSON Profile
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.sliceName">sliceName</a>" : "function",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Type of involvement",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "Distinguishes the type of involvement of the actor in the activities related to the condition.",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>" : {
@@ -733,7 +733,7 @@ JSON Profile
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.sliceName">sliceName</a>" : "actor",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Who or what participated in the activities related to the condition",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "Indicates who or what participated in the activities related to the condition.",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.actor` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Condition.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Condition.participant.actor` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>" : {
@@ -1215,7 +1215,7 @@ JSON Profile
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.sliceName">sliceName</a>" : "function",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Type of involvement",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "Distinguishes the type of involvement of the actor in the activities related to the condition.",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>" : {
@@ -1264,7 +1264,7 @@ JSON Profile
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.sliceName">sliceName</a>" : "actor",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Who or what participated in the activities related to the condition",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "Indicates who or what participated in the activities related to the condition.",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.actor` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Condition.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Condition.participant.actor` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a>" : 1,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>" : {
@@ -1402,8 +1402,8 @@ JSON Profile
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

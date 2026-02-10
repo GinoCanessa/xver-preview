@@ -29,22 +29,22 @@ A computable version of the following element information is available in: [Conc
 | [`Task.businessStatus`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.businessStatus](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.intent`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.intent](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.priority`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.priority](https://hl7.org/fhir/R4/Task.html#resource) |
-| [`Task.doNotPerform`](https://hl7.org/fhir/R5/Task.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform](StructureDefinition-ext-R5-Task.doNotPerform.md) |
+| [`Task.doNotPerform`](https://hl7.org/fhir/R5/Task.html#resource) | [Task](https://hl7.org/fhir/R4/Task.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform](StructureDefinition-ext-R5-Task.doNotPerform.md) |
 | [`Task.code`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.code](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.description`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.description](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.focus`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.focus](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.for`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.for](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.encounter`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.encounter](https://hl7.org/fhir/R4/Task.html#resource) |
-| [`Task.requestedPeriod`](https://hl7.org/fhir/R5/Task.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod](StructureDefinition-ext-R5-Task.requestedPeriod.md) |
+| [`Task.requestedPeriod`](https://hl7.org/fhir/R5/Task.html#resource) | [Task](https://hl7.org/fhir/R4/Task.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod](StructureDefinition-ext-R5-Task.requestedPeriod.md) |
 | [`Task.executionPeriod`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.executionPeriod](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.authoredOn`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.authoredOn](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.lastModified`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.lastModified](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.requester`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.requester](https://hl7.org/fhir/R4/Task.html#resource) |
-| [`Task.requestedPerformer`](https://hl7.org/fhir/R5/Task.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer](StructureDefinition-ext-R5-Task.requestedPerformer.md) |
+| [`Task.requestedPerformer`](https://hl7.org/fhir/R5/Task.html#resource) | [Task](https://hl7.org/fhir/R4/Task.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer](StructureDefinition-ext-R5-Task.requestedPerformer.md) |
 | [`Task.owner`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.owner](https://hl7.org/fhir/R4/Task.html#resource) |
-| [`Task.performer`](https://hl7.org/fhir/R5/Task.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer](StructureDefinition-ext-R5-Task.performer.md) |
-| [`Task.performer.function`](https://hl7.org/fhir/R5/Task.html#resource) | [Extension slice: function](StructureDefinition-ext-R5-Task.performer.md) |
-| [`Task.performer.actor`](https://hl7.org/fhir/R5/Task.html#resource) | [Extension slice: actor](StructureDefinition-ext-R5-Task.performer.md) |
+| [`Task.performer`](https://hl7.org/fhir/R5/Task.html#resource) | [Task](https://hl7.org/fhir/R4/Task.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer](StructureDefinition-ext-R5-Task.performer.md) |
+| [`Task.performer.function`](https://hl7.org/fhir/R5/Task.html#resource) | [Task](https://hl7.org/fhir/R4/Task.html#resource)[Extension slice: function](StructureDefinition-ext-R5-Task.performer.md) |
+| [`Task.performer.actor`](https://hl7.org/fhir/R5/Task.html#resource) | [Task](https://hl7.org/fhir/R4/Task.html#resource)[Extension slice: actor](StructureDefinition-ext-R5-Task.performer.md) |
 | [`Task.location`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.location](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.reason`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.reasonCode](https://hl7.org/fhir/R4/Task.html#resource)[Task.reasonReference](https://hl7.org/fhir/R4/Task.html#resource) |
 | [`Task.insurance`](https://hl7.org/fhir/R5/Task.html#resource) | [Task.insurance](https://hl7.org/fhir/R4/Task.html#resource) |

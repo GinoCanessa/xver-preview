@@ -7,7 +7,7 @@ This cross-version profile allows R5 SubscriptionTopic content to be represented
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.Subscription.topic` for use in FHIR R4](StructureDefinition-ext-R5-Subscription.topic.md), [Cross-version Extension `R5.SubscriptionStatus` for use in FHIR R4](StructureDefinition-ext-R5-SubscriptionStatus.md), [Cross-version Extension `R5.SubscriptionTopic` for use in FHIR R4](StructureDefinition-ext-R5-SubscriptionTopic.md) and [Cross-version Extension `R5.TriggerDefinition.subscriptionTopic` for use in FHIR R4](StructureDefinition-ext-R5-TriggerDefinition.subscriptionTopic.md)
+* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.SubscriptionStatus` for use in FHIR R4](StructureDefinition-ext-R5-SubscriptionStatus.md) and [Cross-version Extension `R5.SubscriptionTopic` for use in FHIR R4](StructureDefinition-ext-R5-SubscriptionTopic.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SubscriptionTopic)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
   "title" : "Cross-version Profile for R5.SubscriptionTopic for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8004639-06:00",
+  "date" : "2026-02-09T22:05:43.3464217-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Observation.triggeredBy` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.triggeredBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.triggeredBy` is mapped to FHIR R4 structure `Observation`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.triggeredBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.triggeredBy` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Observation" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "observation" ] ;
        fhir:short [ fhir:v "Triggering observation" ] ;
        fhir:definition [ fhir:v "Reference to the triggering observation." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.observation` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.triggeredBy.observation` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -531,7 +531,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "reflex | repeat | re-run" ] ;
        fhir:definition [ fhir:v "The type of trigger.\nReflex | Repeat | Re-run." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -742,7 +742,7 @@
        fhir:sliceName [ fhir:v "reason" ] ;
        fhir:short [ fhir:v "Reason that the observation was triggered" ] ;
        fhir:definition [ fhir:v "Provides the reason why this observation was performed as a result of the observation(s) referenced." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1309,7 +1309,7 @@
        fhir:sliceName [ fhir:v "observation" ] ;
        fhir:short [ fhir:v "Triggering observation" ] ;
        fhir:definition [ fhir:v "Reference to the triggering observation." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.observation` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.triggeredBy.observation` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1363,7 +1363,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "reflex | repeat | re-run" ] ;
        fhir:definition [ fhir:v "The type of trigger.\nReflex | Repeat | Re-run." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1410,7 +1410,7 @@
        fhir:sliceName [ fhir:v "reason" ] ;
        fhir:short [ fhir:v "Reason that the observation was triggered" ] ;
        fhir:definition [ fhir:v "Provides the reason why this observation was performed as a result of the observation(s) referenced." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

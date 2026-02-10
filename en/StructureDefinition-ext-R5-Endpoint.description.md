@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Endpoint.descriptio
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Endpoint for use in FHIR R4](StructureDefinition-profile-Endpoint.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Endpoint.description)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.d
   "title" : "Cross-version Extension `R5.Endpoint.description` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.d
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Endpoint.description` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Endpoint.description` 0..1 `string`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Endpoint.description` 0..1 `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Endpoint.description` is mapped to FHIR R4 structure `Endpoint`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Endpoint.description` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Endpoint.description` 0..1 `string`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Endpoint.description` 0..1 `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Endpoint.description` is will have a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.d
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Endpoint"
     }
   ],
   "type" : "Extension",

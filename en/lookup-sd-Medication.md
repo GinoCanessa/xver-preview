@@ -31,5 +31,5 @@ A computable version of the following element information is available in: [Conc
 | [`Medication.batch`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch](https://hl7.org/fhir/R4/Medication.html#resource) |
 | [`Medication.batch.lotNumber`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch.lotNumber](https://hl7.org/fhir/R4/Medication.html#resource) |
 | [`Medication.batch.expirationDate`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch.expirationDate](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.definition`](https://hl7.org/fhir/R5/Medication.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.definition](StructureDefinition-ext-R5-Medication.definition.md) |
+| [`Medication.definition`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication](https://hl7.org/fhir/R4/Medication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.definition](StructureDefinition-ext-R5-Medication.definition.md) |
 

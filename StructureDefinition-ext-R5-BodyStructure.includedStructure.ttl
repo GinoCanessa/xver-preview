@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.BodyStructure.includedStructure` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "structure" ] ;
        fhir:short [ fhir:v "Code that represents the included structure" ] ;
        fhir:definition [ fhir:v "Code that represents the included structure." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -532,7 +532,7 @@
        fhir:sliceName [ fhir:v "laterality" ] ;
        fhir:short [ fhir:v "Code that represents the included structure laterality" ] ;
        fhir:definition [ fhir:v "Code that represents the included structure laterality." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -751,7 +751,7 @@
        fhir:sliceName [ fhir:v "bodyLandmarkOrientation" ] ;
        fhir:short [ fhir:v "Landmark relative location" ] ;
        fhir:definition [ fhir:v "Body locations in relation to a specific body landmark (tatoo, scar, other body structure)." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -880,7 +880,7 @@
        fhir:sliceName [ fhir:v "landmarkDescription" ] ;
        fhir:short [ fhir:v "Body ]andmark description" ] ;
        fhir:definition [ fhir:v "A description of a landmark on the body used as a reference to locate something else." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1099,7 +1099,7 @@
        fhir:sliceName [ fhir:v "clockFacePosition" ] ;
        fhir:short [ fhir:v "Clockface orientation" ] ;
        fhir:definition [ fhir:v "An description of the direction away from a landmark something is located based on a radial clock dial." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1310,7 +1310,7 @@
        fhir:sliceName [ fhir:v "distanceFromLandmark" ] ;
        fhir:short [ fhir:v "Landmark relative location" ] ;
        fhir:definition [ fhir:v "The distance in centimeters a certain observation is made from a body landmark." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1439,7 +1439,7 @@
        fhir:sliceName [ fhir:v "device" ] ;
        fhir:short [ fhir:v "Measurement device" ] ;
        fhir:definition [ fhir:v "An instrument, tool, analyzer, etc. used in the measurement." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1783,7 +1783,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2001,7 +2001,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2541,7 +2541,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Measured distance from body landmark" ] ;
        fhir:definition [ fhir:v "The measured distance (e.g., in cm) from a body landmark." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3074,7 +3074,7 @@
        fhir:sliceName [ fhir:v "surfaceOrientation" ] ;
        fhir:short [ fhir:v "Relative landmark surface orientation" ] ;
        fhir:definition [ fhir:v "The surface area a body location is in relation to a landmark." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3615,7 +3615,7 @@
        fhir:sliceName [ fhir:v "spatialReference" ] ;
        fhir:short [ fhir:v "Cartesian reference for structure" ] ;
        fhir:definition [ fhir:v "XY or XYZ-coordinate orientation for structure." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.spatialReference` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BodyStructure.includedStructure.spatialReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BodyStructure.includedStructure.spatialReference` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4408,7 +4408,7 @@
        fhir:sliceName [ fhir:v "structure" ] ;
        fhir:short [ fhir:v "Code that represents the included structure" ] ;
        fhir:definition [ fhir:v "Code that represents the included structure." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4463,7 +4463,7 @@
        fhir:sliceName [ fhir:v "laterality" ] ;
        fhir:short [ fhir:v "Code that represents the included structure laterality" ] ;
        fhir:definition [ fhir:v "Code that represents the included structure laterality." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4518,7 +4518,7 @@
        fhir:sliceName [ fhir:v "bodyLandmarkOrientation" ] ;
        fhir:short [ fhir:v "Landmark relative location" ] ;
        fhir:definition [ fhir:v "Body locations in relation to a specific body landmark (tatoo, scar, other body structure)." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4550,7 +4550,7 @@
        fhir:sliceName [ fhir:v "landmarkDescription" ] ;
        fhir:short [ fhir:v "Body ]andmark description" ] ;
        fhir:definition [ fhir:v "A description of a landmark on the body used as a reference to locate something else." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4605,7 +4605,7 @@
        fhir:sliceName [ fhir:v "clockFacePosition" ] ;
        fhir:short [ fhir:v "Clockface orientation" ] ;
        fhir:definition [ fhir:v "An description of the direction away from a landmark something is located based on a radial clock dial." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4652,7 +4652,7 @@
        fhir:sliceName [ fhir:v "distanceFromLandmark" ] ;
        fhir:short [ fhir:v "Landmark relative location" ] ;
        fhir:definition [ fhir:v "The distance in centimeters a certain observation is made from a body landmark." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4684,7 +4684,7 @@
        fhir:sliceName [ fhir:v "device" ] ;
        fhir:short [ fhir:v "Measurement device" ] ;
        fhir:definition [ fhir:v "An instrument, tool, analyzer, etc. used in the measurement." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4765,7 +4765,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4819,7 +4819,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4898,7 +4898,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Measured distance from body landmark" ] ;
        fhir:definition [ fhir:v "The measured distance (e.g., in cm) from a body landmark." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4970,7 +4970,7 @@
        fhir:sliceName [ fhir:v "surfaceOrientation" ] ;
        fhir:short [ fhir:v "Relative landmark surface orientation" ] ;
        fhir:definition [ fhir:v "The surface area a body location is in relation to a landmark." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5050,7 +5050,7 @@
        fhir:sliceName [ fhir:v "spatialReference" ] ;
        fhir:short [ fhir:v "Cartesian reference for structure" ] ;
        fhir:definition [ fhir:v "XY or XYZ-coordinate orientation for structure." ] ;
-       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.spatialReference` is mapped to FHIR R4 structure `BodyStructure`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BodyStructure.includedStructure.spatialReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BodyStructure.includedStructure.spatialReference` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

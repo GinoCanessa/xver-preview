@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Coverage.
   "title" : "Cross-version Profile for R5.Coverage for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6602165-06:00",
+  "date" : "2026-02-09T22:05:43.0531231-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -159,8 +159,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Coverage.
         "path" : "Coverage"
       },
       {
-        "id" : "Coverage.subscriberId.extension",
-        "path" : "Coverage.subscriberId.extension",
+        "id" : "Coverage.extension",
+        "path" : "Coverage.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -174,15 +174,105 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Coverage.
         "min" : 1,
         "max" : "*",
         "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Coverage.extension:kind",
+        "path" : "Coverage.extension",
+        "sliceName" : "kind",
+        "short" : "Cross-version extension for Coverage.kind from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.kind` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.extension:paymentBy",
+        "path" : "Coverage.extension",
+        "sliceName" : "paymentBy",
+        "short" : "Cross-version extension for Coverage.paymentBy from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.paymentBy` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.extension:insurancePlan",
+        "path" : "Coverage.extension",
+        "sliceName" : "insurancePlan",
+        "short" : "Cross-version extension for Coverage.insurancePlan from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/InsurancePlan in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Coverage.insurancePlan` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Coverage.insurancePlan` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.subscriberId.extension",
+        "path" : "Coverage.subscriberId.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
           "path" : "Coverage.subscriberId",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "Coverage.subscriberId.extension",
+        "id" : "Coverage.subscriberId.extension:subscriberId",
         "path" : "Coverage.subscriberId.extension",
+        "sliceName" : "subscriberId",
         "short" : "Cross-version extension for Coverage.subscriberId from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -221,9 +311,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Coverage.
         }
       },
       {
-        "id" : "Coverage.class.value.extension",
+        "id" : "Coverage.class.value.extension:value",
         "path" : "Coverage.class.value.extension",
+        "sliceName" : "value",
         "short" : "Cross-version extension for Coverage.class.value from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -236,6 +328,115 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Coverage.
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class.value|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.costToBeneficiary.extension",
+        "path" : "Coverage.costToBeneficiary.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Coverage.costToBeneficiary.extension:category",
+        "path" : "Coverage.costToBeneficiary.extension",
+        "sliceName" : "category",
+        "short" : "Cross-version extension for Coverage.costToBeneficiary.category from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.costToBeneficiary.category` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.costToBeneficiary.extension:network",
+        "path" : "Coverage.costToBeneficiary.extension",
+        "sliceName" : "network",
+        "short" : "Cross-version extension for Coverage.costToBeneficiary.network from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.costToBeneficiary.network` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.costToBeneficiary.extension:unit",
+        "path" : "Coverage.costToBeneficiary.extension",
+        "sliceName" : "unit",
+        "short" : "Cross-version extension for Coverage.costToBeneficiary.unit from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.costToBeneficiary.unit` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Coverage.costToBeneficiary.extension:term",
+        "path" : "Coverage.costToBeneficiary.extension",
+        "sliceName" : "term",
+        "short" : "Cross-version extension for Coverage.costToBeneficiary.term from R5 for use in FHIR R4",
+        "comment" : "Element `Coverage.costToBeneficiary.term` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term|0.0.1-snapshot-3"
             ]
           }
         ]

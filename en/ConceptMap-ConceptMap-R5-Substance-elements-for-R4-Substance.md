@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.4315731-06:00",
+  "date" : "2026-02-09T22:05:44.2533951-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Substance` is representable via FHIR R4B Resource `Substance`.\nElement `Substance` is mapped to FHIR R4B element `Substance`."
+              "comment" : "FHIR R5 Resource `Substance` is representable via FHIR R4 Resource `Substance`.\nElement `Substance` is mapped to FHIR R4 element `Substance`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.meta` is mapped to FHIR R4B element `Substance.meta`."
+              "comment" : "Element `Substance.meta` is mapped to FHIR R4 element `Substance.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.implicitRules` is mapped to FHIR R4B element `Substance.implicitRules`."
+              "comment" : "Element `Substance.implicitRules` is mapped to FHIR R4 element `Substance.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.language` is mapped to FHIR R4B element `Substance.language`."
+              "comment" : "Element `Substance.language` is mapped to FHIR R4 element `Substance.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.text` is mapped to FHIR R4B element `Substance.text`."
+              "comment" : "Element `Substance.text` is mapped to FHIR R4 element `Substance.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.contained` is mapped to FHIR R4B element `Substance.contained`."
+              "comment" : "Element `Substance.contained` is mapped to FHIR R4 element `Substance.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.identifier` is mapped to FHIR R4B element `Substance.identifier`."
+              "comment" : "Element `Substance.identifier` is mapped to FHIR R4 element `Substance.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.instance",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.instance` is mapped to FHIR R4B element `Substance.instance`."
+              "comment" : "Element `Substance.instance` is mapped to FHIR R4 element `Substance.instance`."
             }
           ]
         },
@@ -173,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.status` is mapped to FHIR R4B element `Substance.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Substance.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Substance.status` is mapped to FHIR DSTU2 structure `Substance`, but has no target element specified."
+              "comment" : "Element `Substance.status` is mapped to FHIR R4 element `Substance.status`."
             }
           ]
         },
@@ -189,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.category` is mapped to FHIR R4B element `Substance.category`."
+              "comment" : "Element `Substance.category` is mapped to FHIR R4 element `Substance.category`."
             }
           ]
         },
@@ -200,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.code` is mapped to FHIR R4B element `Substance.code`."
+              "comment" : "Element `Substance.code` is mapped to FHIR R4 element `Substance.code`."
             }
           ]
         },
@@ -211,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.description` is mapped to FHIR R4B element `Substance.description`."
+              "comment" : "Element `Substance.description` is mapped to FHIR R4 element `Substance.description`."
             }
           ]
         },
@@ -222,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.instance.expiry",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.expiry` is mapped to FHIR R4B element `Substance.instance.expiry`."
+              "comment" : "Element `Substance.expiry` is mapped to FHIR R4 element `Substance.instance.expiry`."
             }
           ]
         },
@@ -233,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.instance.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.quantity` is mapped to FHIR R4B element `Substance.instance.quantity`."
+              "comment" : "Element `Substance.quantity` is mapped to FHIR R4 element `Substance.instance.quantity`."
             }
           ]
         },
@@ -244,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.ingredient",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.ingredient` is mapped to FHIR R4B element `Substance.ingredient`."
+              "comment" : "Element `Substance.ingredient` is mapped to FHIR R4 element `Substance.ingredient`."
             }
           ]
         },
@@ -255,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.ingredient.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Substance.ingredient.quantity` is mapped to FHIR R4B element `Substance.ingredient.quantity`."
+              "comment" : "Element `Substance.ingredient.quantity` is mapped to FHIR R4 element `Substance.ingredient.quantity`."
             }
           ]
         },
@@ -266,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.ingredient.substance[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Substance.ingredient.substance[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Substance.ingredient`.\nElement `Substance.ingredient.substance[x]` is mapped to FHIR R4B element `Substance.ingredient.substance[x]`.\nNote that the target element context `Substance.ingredient.substance[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Substance.ingredient`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Substance#Substance.ingredient.substance",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Substance.ingredient.substance[x]` is mapped to FHIR DSTU2 element `Substance.ingredient.substance`."
+              "comment" : "Note that the target element context `Substance.ingredient.substance[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Substance.ingredient`.\nElement `Substance.ingredient.substance[x]` is mapped to FHIR R4 element `Substance.ingredient.substance[x]`.\nNote that the target element context `Substance.ingredient.substance[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Substance.ingredient`."
             }
           ]
         }

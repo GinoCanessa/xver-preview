@@ -57,7 +57,7 @@
   <title value="Cross-version Extension `R5.Person.communication` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -74,7 +74,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Person.communication` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Person.communication` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Person.communication` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Person.communication` is mapped to FHIR R4 structure `Person`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Person.communication` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Person.communication` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Person.communication` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Person.communication` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -85,7 +85,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Person"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -198,7 +198,7 @@
       <short value="The language which can be used to communicate with the person about his or her health"/>
       <definition value="The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. &quot;en&quot; for English, or &quot;en-US&quot; for American English versus &quot;en-AU&quot; for Australian English."/>
       <comment value="The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type."/>
-      <requirements value="Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.language` is mapped to FHIR R4 structure `Person`, but has no target element specified."/>
+      <requirements value="Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.language` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -364,7 +364,7 @@
       <short value="Language preference indicator"/>
       <definition value="Indicates whether or not the person prefers this language (over other languages he masters up a certain level)."/>
       <comment value="This language is specifically identified for communicating healthcare information."/>
-      <requirements value="People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.preferred` is mapped to FHIR R4 structure `Person`, but has no target element specified."/>
+      <requirements value="People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.preferred` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -767,7 +767,7 @@
       <short value="The language which can be used to communicate with the person about his or her health"/>
       <definition value="The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. &quot;en&quot; for English, or &quot;en-US&quot; for American English versus &quot;en-AU&quot; for Australian English."/>
       <comment value="The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type."/>
-      <requirements value="Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.language` is mapped to FHIR R4 structure `Person`, but has no target element specified."/>
+      <requirements value="Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.language` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -809,7 +809,7 @@
       <short value="Language preference indicator"/>
       <definition value="Indicates whether or not the person prefers this language (over other languages he masters up a certain level)."/>
       <comment value="This language is specifically identified for communicating healthcare information."/>
-      <requirements value="People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.preferred` is mapped to FHIR R4 structure `Person`, but has no target element specified."/>
+      <requirements value="People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.&#xA;Element `Person.communication.preferred` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

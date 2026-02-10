@@ -47,6 +47,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:who","Extension.extension","who","","",1,1,"","","","Extension {[]} {[]}
 ","Identifier of who","Reference to who this agent is that was involved in the event.","Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display.","This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:who.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}

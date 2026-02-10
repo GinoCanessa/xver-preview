@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
   "title" : "Cross-version Profile for R5.Immunization for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7121893-06:00",
+  "date" : "2026-02-09T22:05:43.1546558-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,117 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
         "path" : "Immunization"
       },
       {
+        "id" : "Immunization.extension",
+        "path" : "Immunization.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Immunization.extension:administeredProduct",
+        "path" : "Immunization.extension",
+        "sliceName" : "administeredProduct",
+        "short" : "Cross-version extension for Immunization.administeredProduct from R5 for use in FHIR R4",
+        "comment" : "Element `Immunization.administeredProduct` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.administeredProduct|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Immunization.extension:informationSource",
+        "path" : "Immunization.extension",
+        "sliceName" : "informationSource",
+        "short" : "Cross-version extension for Immunization.informationSource from R5 for use in FHIR R4",
+        "comment" : "Element `Immunization.informationSource` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.informationSource|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Immunization.extension:basedOn",
+        "path" : "Immunization.extension",
+        "sliceName" : "basedOn",
+        "short" : "Cross-version extension for Immunization.basedOn from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/ServiceRequest in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.basedOn` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Immunization.extension:supportingInformation",
+        "path" : "Immunization.extension",
+        "sliceName" : "supportingInformation",
+        "short" : "Cross-version extension for Immunization.supportingInformation from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.supportingInformation` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Immunization.manufacturer.extension",
         "path" : "Immunization.manufacturer.extension",
         "slicing" : {
@@ -166,7 +277,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Immunization.manufacturer",
@@ -175,9 +286,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
         }
       },
       {
-        "id" : "Immunization.manufacturer.extension",
+        "id" : "Immunization.manufacturer.extension:manufacturer",
         "path" : "Immunization.manufacturer.extension",
+        "sliceName" : "manufacturer",
         "short" : "Cross-version extension for Immunization.manufacturer from R5 for use in FHIR R4",
+        "comment" : "Element `Immunization.manufacturer` is mapped to FHIR R4 element `Immunization.manufacturer`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -216,9 +329,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
         }
       },
       {
-        "id" : "Immunization.performer.actor.extension",
+        "id" : "Immunization.performer.actor.extension:actor",
         "path" : "Immunization.performer.actor.extension",
+        "sliceName" : "actor",
         "short" : "Cross-version extension for Immunization.performer.actor from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` is mapped to FHIR R4 element `Immunization.performer.actor`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -230,7 +346,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.performer.actor|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -248,7 +364,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Immunization.programEligibility",
@@ -257,9 +373,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
         }
       },
       {
-        "id" : "Immunization.programEligibility.extension",
+        "id" : "Immunization.programEligibility.extension:programEligibility",
         "path" : "Immunization.programEligibility.extension",
+        "sliceName" : "programEligibility",
         "short" : "Cross-version extension for Immunization.programEligibility from R5 for use in FHIR R4",
+        "comment" : "Element `Immunization.programEligibility` is mapped to FHIR R4 element `Immunization.programEligibility`.",
         "min" : 0,
         "max" : "*",
         "base" : {

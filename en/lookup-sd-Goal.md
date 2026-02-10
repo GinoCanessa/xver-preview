@@ -22,7 +22,7 @@ A computable version of the following element information is available in: [Conc
 | [`Goal.lifecycleStatus`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.lifecycleStatus](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.achievementStatus`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.achievementStatus](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.category`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.category](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.continuous`](https://hl7.org/fhir/R5/Goal.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous](StructureDefinition-ext-R5-Goal.continuous.md) |
+| [`Goal.continuous`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal](https://hl7.org/fhir/R4/Goal.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous](StructureDefinition-ext-R5-Goal.continuous.md) |
 | [`Goal.priority`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.priority](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.description`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.description](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.subject`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.subject](https://hl7.org/fhir/R4/Goal.html#resource) |

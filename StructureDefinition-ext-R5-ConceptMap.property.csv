@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code","Extension.extension","code","","",1,1,"","","","Extension {[]} {[]}
 ","Identifies the property on the mappings, and when referred to in the $translate operation","A code that is used to identify the property. The code is used internally (in ConceptMap.group.element.target.property.code) and also in the $translate operation.","","Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.
-Element `ConceptMap.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ConceptMap.property.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:code.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:uri","Extension.extension","uri","","",0,1,"","","","Extension {[]} {[]}
 ","Formal identifier for the property","Reference to the formal meaning of the property.","","Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.
-Element `ConceptMap.property.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ConceptMap.property.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:uri.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -43,7 +43,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:description","Extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
 ","Why the property is defined, and/or what it conveys","A description of the property - why it is defined, and how its value might be used.","","Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.
-Element `ConceptMap.property.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ConceptMap.property.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:description.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -59,7 +59,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:type","Extension.extension","type","","",1,1,"","","","Extension {[]} {[]}
 ","Coding | string | integer | boolean | dateTime | decimal | code","The type of the property value.","","Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.
-Element `ConceptMap.property.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ConceptMap.property.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -75,7 +75,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:system","Extension.extension","system","","",0,1,"","","","Extension {[]} {[]}
 ","The CodeSystem from which code values come","The CodeSystem that defines the codes from which values of type ```code``` in property values.","","Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.
-Element `ConceptMap.property.system` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.property.system` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:system.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

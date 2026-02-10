@@ -7,7 +7,7 @@ This cross-version profile allows R5 PlanDefinition content to be represented vi
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ChargeItemDefinition.instance` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItemDefinition.instance.md), [Cross-version Extension `R5.ConditionDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ConditionDefinition.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4](StructureDefinition-ext-R5-MedicinalProductDefinition.operation.md)... Show 5 more, [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.ServiceRequest.code` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.code.md)
+* Refer to this Profile: [Cross-version Extension `R5.ConditionDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ConditionDefinition.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4](StructureDefinition-ext-R5-MedicinalProductDefinition.operation.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)... Show 4 more, [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.ServiceRequest.code` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.code.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-PlanDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
   "title" : "Cross-version Profile for R5.PlanDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.767494-06:00",
+  "date" : "2026-02-09T22:05:43.2721926-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -161,7 +161,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
@@ -170,9 +170,33 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         }
       },
       {
-        "id" : "PlanDefinition.extension",
+        "id" : "PlanDefinition.extension:versionAlgorithm",
         "path" : "PlanDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for PlanDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.versionAlgorithm[x]` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.extension:subject",
+        "path" : "PlanDefinition.extension",
+        "sliceName" : "subject",
         "short" : "Cross-version extension for PlanDefinition.subject[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.\nElement `PlanDefinition.subject[x]` is mapped to FHIR R4 element `PlanDefinition.subject[x]`.\nNote that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -190,6 +214,118 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         ]
       },
       {
+        "id" : "PlanDefinition.extension:subjectCanonical",
+        "path" : "PlanDefinition.extension",
+        "sliceName" : "subjectCanonical",
+        "short" : "Cross-version extension for PlanDefinition.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition,http://hl7.org/fhir/StructureDefinition/EvidenceVariable,http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition,http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition,http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition in FHIR R4",
+        "comment" : "Note that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.\nElement `PlanDefinition.subject[x]` is mapped to FHIR R4 element `PlanDefinition.subject[x]`.\nNote that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.extension:subjectReference",
+        "path" : "PlanDefinition.extension",
+        "sliceName" : "subjectReference",
+        "short" : "Cross-version extension for PlanDefinition.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition,http://hl7.org/fhir/StructureDefinition/EvidenceVariable,http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition,http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition,http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition in FHIR R4",
+        "comment" : "Note that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.\nElement `PlanDefinition.subject[x]` is mapped to FHIR R4 element `PlanDefinition.subject[x]`.\nNote that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.extension:copyrightLabel",
+        "path" : "PlanDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for PlanDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.copyrightLabel` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.extension:actor",
+        "path" : "PlanDefinition.extension",
+        "sliceName" : "actor",
+        "short" : "Cross-version extension for PlanDefinition.actor from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.actor` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.extension:asNeeded",
+        "path" : "PlanDefinition.extension",
+        "sliceName" : "asNeeded",
+        "short" : "Cross-version extension for PlanDefinition.asNeeded[x] from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.asNeeded[x]` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.asNeeded|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "PlanDefinition.goal.target.extension",
         "path" : "PlanDefinition.goal.target.extension",
         "slicing" : {
@@ -202,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -211,9 +347,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         }
       },
       {
-        "id" : "PlanDefinition.goal.target.extension",
+        "id" : "PlanDefinition.goal.target.extension:detail",
         "path" : "PlanDefinition.goal.target.extension",
+        "sliceName" : "detail",
         "short" : "Cross-version extension for PlanDefinition.goal.target.detail[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `PlanDefinition.goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.goal.target`.\nElement `PlanDefinition.goal.target.detail[x]` is mapped to FHIR R4 element `PlanDefinition.goal.target.detail[x]`.\nNote that the target element context `PlanDefinition.goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.goal.target`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -243,7 +381,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -252,9 +390,33 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         }
       },
       {
-        "id" : "PlanDefinition.action.extension",
+        "id" : "PlanDefinition.action.extension:linkId",
         "path" : "PlanDefinition.action.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for PlanDefinition.action.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.action.extension:subject",
+        "path" : "PlanDefinition.action.extension",
+        "sliceName" : "subject",
         "short" : "Cross-version extension for PlanDefinition.action.subject[x] from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.subject[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.subject[x]` is mapped to FHIR R4 element `PlanDefinition.action.subject[x]`.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -272,6 +434,28 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         ]
       },
       {
+        "id" : "PlanDefinition.action.extension:location",
+        "path" : "PlanDefinition.action.extension",
+        "sliceName" : "location",
+        "short" : "Cross-version extension for PlanDefinition.action.location from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.location|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "PlanDefinition.action.input.extension",
         "path" : "PlanDefinition.action.input.extension",
         "slicing" : {
@@ -284,7 +468,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "PlanDefinition.action.input",
@@ -293,9 +477,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         }
       },
       {
-        "id" : "PlanDefinition.action.input.extension",
+        "id" : "PlanDefinition.action.input.extension:input",
         "path" : "PlanDefinition.action.input.extension",
+        "sliceName" : "input",
         "short" : "Cross-version extension for PlanDefinition.action.input from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.input` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.input` is mapped to FHIR R4 element `PlanDefinition.action.input`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -325,7 +511,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "PlanDefinition.action.output",
@@ -334,9 +520,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         }
       },
       {
-        "id" : "PlanDefinition.action.output.extension",
+        "id" : "PlanDefinition.action.output.extension:output",
         "path" : "PlanDefinition.action.output.extension",
+        "sliceName" : "output",
         "short" : "Cross-version extension for PlanDefinition.action.output from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.output` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.output` is mapped to FHIR R4 element `PlanDefinition.action.output`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -354,6 +542,117 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         ]
       },
       {
+        "id" : "PlanDefinition.action.participant.extension",
+        "path" : "PlanDefinition.action.participant.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "PlanDefinition.action.participant.extension:actorId",
+        "path" : "PlanDefinition.action.participant.extension",
+        "sliceName" : "actorId",
+        "short" : "Cross-version extension for PlanDefinition.action.participant.actorId from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.participant.actorId` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.participant.actorId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.action.participant.extension:function",
+        "path" : "PlanDefinition.action.participant.extension",
+        "sliceName" : "function",
+        "short" : "Cross-version extension for PlanDefinition.action.participant.function from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.participant.function` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.participant.function|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.action.participant.extension:typeCanonical",
+        "path" : "PlanDefinition.action.participant.extension",
+        "sliceName" : "typeCanonical",
+        "short" : "Cross-version extension for PlanDefinition.action.participant.typeCanonical from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/CapabilityStatement in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "PlanDefinition.action.participant.extension:typeReference",
+        "path" : "PlanDefinition.action.participant.extension",
+        "sliceName" : "typeReference",
+        "short" : "Cross-version extension for PlanDefinition.action.participant.typeReference from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/DeviceDefinition,http://hl7.org/fhir/StructureDefinition/Endpoint,http://hl7.org/fhir/StructureDefinition/Group,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Location,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "PlanDefinition.action.participant.type.extension",
         "path" : "PlanDefinition.action.participant.type.extension",
         "slicing" : {
@@ -366,7 +665,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "PlanDefinition.action.participant.type",
@@ -375,9 +674,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PlanDefin
         }
       },
       {
-        "id" : "PlanDefinition.action.participant.type.extension",
+        "id" : "PlanDefinition.action.participant.type.extension:type",
         "path" : "PlanDefinition.action.participant.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for PlanDefinition.action.participant.type from R5 for use in FHIR R4",
+        "comment" : "Element `PlanDefinition.action.participant.type` is mapped to FHIR R4 element `PlanDefinition.action.participant.type`.",
         "min" : 0,
         "max" : "1",
         "base" : {

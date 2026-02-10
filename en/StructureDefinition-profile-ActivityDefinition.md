@@ -7,7 +7,7 @@ This cross-version profile allows R5 ActivityDefinition content to be represente
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ChargeItemDefinition.instance` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItemDefinition.instance.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4](StructureDefinition-ext-R5-MedicinalProductDefinition.operation.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)... Show 5 more, [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.ServiceRequest.code` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.code.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
+* Refer to this Profile: [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4](StructureDefinition-ext-R5-MedicinalProductDefinition.operation.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md)... Show 4 more, [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.ServiceRequest.code` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.code.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ActivityDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
   "title" : "Cross-version Profile for R5.ActivityDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6111782-06:00",
+  "date" : "2026-02-09T22:05:42.9681585-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -161,7 +161,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
@@ -170,9 +170,33 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.extension",
+        "id" : "ActivityDefinition.extension:versionAlgorithm",
         "path" : "ActivityDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for ActivityDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.versionAlgorithm[x]` is will have a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:subject",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "subject",
         "short" : "Cross-version extension for ActivityDefinition.subject[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` is mapped to FHIR R4 element `ActivityDefinition.subject[x]`.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -190,9 +214,147 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         ]
       },
       {
-        "id" : "ActivityDefinition.extension",
+        "id" : "ActivityDefinition.extension:subjectCanonical",
         "path" : "ActivityDefinition.extension",
+        "sliceName" : "subjectCanonical",
+        "short" : "Cross-version extension for ActivityDefinition.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition,http://hl7.org/fhir/StructureDefinition/EvidenceVariable,http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition,http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition,http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition in FHIR R4",
+        "comment" : "Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` is mapped to FHIR R4 element `ActivityDefinition.subject[x]`.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:subjectReference",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "subjectReference",
+        "short" : "Cross-version extension for ActivityDefinition.subject[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition,http://hl7.org/fhir/StructureDefinition/EvidenceVariable,http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition,http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition,http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition in FHIR R4",
+        "comment" : "Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` is mapped to FHIR R4 element `ActivityDefinition.subject[x]`.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.subject|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:copyrightLabel",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for ActivityDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.copyrightLabel` is will have a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:asNeeded",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "asNeeded",
+        "short" : "Cross-version extension for ActivityDefinition.asNeeded[x] from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.asNeeded[x]` is will have a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.asNeeded|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:product",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "product",
         "short" : "Cross-version extension for ActivityDefinition.product[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4 element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.product|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:productCanonical",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "productCanonical",
+        "short" : "Cross-version extension for ActivityDefinition.product[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Ingredient,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition in FHIR R4",
+        "comment" : "Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4 element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.product|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.extension:productReference",
+        "path" : "ActivityDefinition.extension",
+        "sliceName" : "productReference",
+        "short" : "Cross-version extension for ActivityDefinition.product[x] from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Ingredient,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition in FHIR R4",
+        "comment" : "Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4 element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -222,7 +384,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ActivityDefinition.kind",
@@ -231,9 +393,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.kind.extension",
+        "id" : "ActivityDefinition.kind.extension:kind",
         "path" : "ActivityDefinition.kind.extension",
+        "sliceName" : "kind",
         "short" : "Cross-version extension for ActivityDefinition.kind from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.kind` is mapped to FHIR R4 element `ActivityDefinition.kind`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -263,7 +427,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ActivityDefinition.location",
@@ -272,9 +436,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.location.extension",
+        "id" : "ActivityDefinition.location.extension:location",
         "path" : "ActivityDefinition.location.extension",
+        "sliceName" : "location",
         "short" : "Cross-version extension for ActivityDefinition.location from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.location` is mapped to FHIR R4 element `ActivityDefinition.location`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -292,6 +458,95 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         ]
       },
       {
+        "id" : "ActivityDefinition.participant.extension",
+        "path" : "ActivityDefinition.participant.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ActivityDefinition.participant.extension:function",
+        "path" : "ActivityDefinition.participant.extension",
+        "sliceName" : "function",
+        "short" : "Cross-version extension for ActivityDefinition.participant.function from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.participant.function` is will have a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.function|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.participant.extension:typeCanonical",
+        "path" : "ActivityDefinition.participant.extension",
+        "sliceName" : "typeCanonical",
+        "short" : "Cross-version extension for ActivityDefinition.participant.typeCanonical from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/CapabilityStatement in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.participant.typeCanonical` is will have a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ActivityDefinition.participant.extension:typeReference",
+        "path" : "ActivityDefinition.participant.extension",
+        "sliceName" : "typeReference",
+        "short" : "Cross-version extension for ActivityDefinition.participant.typeReference from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/DeviceDefinition,http://hl7.org/fhir/StructureDefinition/Endpoint,http://hl7.org/fhir/StructureDefinition/Group,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Location,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ActivityDefinition.participant.typeReference` is will have a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "ActivityDefinition.participant.type.extension",
         "path" : "ActivityDefinition.participant.type.extension",
         "slicing" : {
@@ -304,7 +559,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ActivityDefinition.participant.type",
@@ -313,9 +568,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.participant.type.extension",
+        "id" : "ActivityDefinition.participant.type.extension:type",
         "path" : "ActivityDefinition.participant.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for ActivityDefinition.participant.type from R5 for use in FHIR R4",
+        "comment" : "Element `ActivityDefinition.participant.type` is mapped to FHIR R4 element `ActivityDefinition.participant.type`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -345,7 +602,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ActivityDefinition.specimenRequirement",
@@ -354,9 +611,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.specimenRequirement.extension",
+        "id" : "ActivityDefinition.specimenRequirement.extension:specimenRequirement",
         "path" : "ActivityDefinition.specimenRequirement.extension",
+        "sliceName" : "specimenRequirement",
         "short" : "Cross-version extension for ActivityDefinition.specimenRequirement from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SpecimenDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.specimenRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.specimenRequirement` is mapped to FHIR R4 element `ActivityDefinition.specimenRequirement`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -368,7 +628,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.specimenRequirement|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]
@@ -386,7 +646,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ActivityDefinition.observationRequirement",
@@ -395,9 +655,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.observationRequirement.extension",
+        "id" : "ActivityDefinition.observationRequirement.extension:observationRequirement",
         "path" : "ActivityDefinition.observationRequirement.extension",
+        "sliceName" : "observationRequirement",
         "short" : "Cross-version extension for ActivityDefinition.observationRequirement from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ObservationDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.observationRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.observationRequirement` is mapped to FHIR R4 element `ActivityDefinition.observationRequirement`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -409,7 +672,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.observationRequirement|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]
@@ -427,7 +690,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ActivityDefinition.observationResultRequirement",
@@ -436,9 +699,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
         }
       },
       {
-        "id" : "ActivityDefinition.observationResultRequirement.extension",
+        "id" : "ActivityDefinition.observationResultRequirement.extension:observationResultRequirement",
         "path" : "ActivityDefinition.observationResultRequirement.extension",
+        "sliceName" : "observationResultRequirement",
         "short" : "Cross-version extension for ActivityDefinition.observationResultRequirement from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ObservationDefinition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.observationResultRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.observationResultRequirement` is mapped to FHIR R4 element `ActivityDefinition.observationResultRequirement`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -450,7 +716,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ActivityD
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.observationResultRequirement|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
             ]
           }
         ]

@@ -64,7 +64,7 @@
   <title value="Cross-version Extension `R5.ConceptMap.group.element.target.property` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -81,7 +81,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ConceptMap.group.element.target.property` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ConceptMap.group.element.target.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ConceptMap.group.element.target.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ConceptMap.group.element.target.property` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ConceptMap.group.element.target.property` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ConceptMap.group.element.target.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ConceptMap.group.element.target.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ConceptMap.group.element.target.property` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -92,7 +92,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ConceptMap.group.element.target"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -203,7 +203,7 @@
       <sliceName value="code"/>
       <short value="Reference to ConceptMap.property.code"/>
       <definition value="A reference to a mapping property defined in ConceptMap.property."/>
-      <requirements value="Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.code` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -367,7 +367,7 @@
       <sliceName value="value"/>
       <short value="Value of the property for this concept"/>
       <definition value="The value of this property. If the type chosen for this element is 'code', then the property SHALL be defined in a ConceptMap.property element."/>
-      <requirements value="Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.value[x]` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.value[x]` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -785,7 +785,7 @@
       <sliceName value="code"/>
       <short value="Reference to ConceptMap.property.code"/>
       <definition value="A reference to a mapping property defined in ConceptMap.property."/>
-      <requirements value="Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.code` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -825,7 +825,7 @@
       <sliceName value="value"/>
       <short value="Value of the property for this concept"/>
       <definition value="The value of this property. If the type chosen for this element is 'code', then the property SHALL be defined in a ConceptMap.property element."/>
-      <requirements value="Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.value[x]` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.&#xA;Element `ConceptMap.group.element.target.property.value[x]` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

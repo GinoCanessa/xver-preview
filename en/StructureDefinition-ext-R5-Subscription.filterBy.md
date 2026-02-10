@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Subscription.filter
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Subscription for use in FHIR R4](StructureDefinition-profile-Subscription.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Subscription.filterBy)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
   "title" : "Cross-version Extension `R5.Subscription.filterBy` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.filterBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.filterBy` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.filterBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Subscription"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "resourceType",
         "short" : "Allowed Resource (reference to definition) for this Subscription filter",
         "definition" : "A resource listed in the `SubscriptionTopic` this `Subscription` references (`SubscriptionTopic.canFilterBy.resource`). This element can be used to differentiate filters for topics that include more than one resource type.",
-        "requirements" : "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "filterParameter",
         "short" : "Filter label defined in SubscriptionTopic",
         "definition" : "The filter as defined in the `SubscriptionTopic.canFilterBy.filterParameter` element.",
-        "requirements" : "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "short" : "eq | ne | gt | lt | ge | le | sa | eb | ap",
         "definition" : "Comparator applied to this filter parameter.",
         "comment" : "Must be a comparator allowed by the SubscriptionTopic relevant to this Subscription filter.",
-        "requirements" : "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -327,7 +327,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "short" : "missing | exact | contains | not | text | in | not-in | below | above | type | identifier | of-type | code-text | text-advanced | iterate",
         "definition" : "Modifier applied to this filter parameter.",
         "comment" : "Must be a modifier allowed by the SubscriptionTopic relevant to this Subscription filter.",
-        "requirements" : "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -378,7 +378,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscripti
         "sliceName" : "value",
         "short" : "Literal value or resource path",
         "definition" : "The literal value or resource path as is legal in search - for example, `Patient/123` or `le1950`.",
-        "requirements" : "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is mapped to FHIR R4 structure `Subscription`, but has no target element specified.",
+        "requirements" : "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 1,
         "max" : "1",
         "base" : {

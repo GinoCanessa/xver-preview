@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.TestReport.setup.action.assert` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -955,7 +955,7 @@
        fhir:short [ fhir:v "Links or references to the testing requirements" ] ;
        fhir:definition [ fhir:v "Links or references providing traceability to the testing requirements for this assert." ] ;
        fhir:comment [ fhir:v "TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements." ] ;
-       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestReport`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1084,7 +1084,7 @@
        fhir:sliceName [ fhir:v "link" ] ;
        fhir:short [ fhir:v "Link or reference to the testing requirement" ] ;
        fhir:definition [ fhir:v "Link or reference providing traceability to the testing requirement for this test." ] ;
-       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestReport`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2135,7 +2135,7 @@
        fhir:short [ fhir:v "Links or references to the testing requirements" ] ;
        fhir:definition [ fhir:v "Links or references providing traceability to the testing requirements for this assert." ] ;
        fhir:comment [ fhir:v "TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements." ] ;
-       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestReport`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2167,7 +2167,7 @@
        fhir:sliceName [ fhir:v "link" ] ;
        fhir:short [ fhir:v "Link or reference to the testing requirement" ] ;
        fhir:definition [ fhir:v "Link or reference providing traceability to the testing requirement for this test." ] ;
-       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestReport`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

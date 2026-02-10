@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `GraphDefinition.lin
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.GraphDefinition for use in FHIR R4](StructureDefinition-profile-GraphDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-GraphDefinition.lin.compartment)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
   "title" : "Cross-version Extension `R5.GraphDefinition.link.compartment` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `GraphDefinition.link.compartment` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `GraphDefinition.link.compartment` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `GraphDefinition.link.compartment` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `GraphDefinition.link.compartment` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `GraphDefinition.link.compartment` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "GraphDefinition.link"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
         "short" : "where | requires",
         "definition" : "Defines how the compartment rule is used - whether it it is used to test whether resources are subject to the rule, or whether it is a rule that must be followed.",
         "comment" : "All conditional rules are evaluated; if they are true, then the rules are evaluated.",
-        "requirements" : "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified.",
+        "requirements" : "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -235,7 +235,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
         "sliceName" : "rule",
         "short" : "identical | matching | different | custom",
         "definition" : "identical | matching | different | no-rule | custom.",
-        "requirements" : "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified.",
+        "requirements" : "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
         "sliceName" : "code",
         "short" : "Patient | Encounter | RelatedPerson | Practitioner | Device | EpisodeOfCare",
         "definition" : "Identifies the compartment.",
-        "requirements" : "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified.",
+        "requirements" : "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -333,7 +333,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
         "sliceName" : "expression",
         "short" : "Custom rule, as a FHIRPath expression",
         "definition" : "Custom rule, as a FHIRPath expression.",
-        "requirements" : "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified.",
+        "requirements" : "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -378,7 +378,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GraphDefin
         "sliceName" : "description",
         "short" : "Documentation for FHIRPath expression",
         "definition" : "Documentation for FHIRPath expression.",
-        "requirements" : "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified.",
+        "requirements" : "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {

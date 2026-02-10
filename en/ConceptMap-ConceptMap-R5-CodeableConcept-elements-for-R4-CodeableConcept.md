@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.6596732-06:00",
+  "date" : "2026-02-09T22:05:43.6563638-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeableConcept#CodeableConcept",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `CodeableConcept` is representable via FHIR R4B extensions.\nElement `CodeableConcept` is mapped to FHIR R4B element `CodeableConcept`."
+              "comment" : "FHIR R5 ComplexType `CodeableConcept` is representable via FHIR R4 extensions.\nElement `CodeableConcept` is mapped to FHIR R4 element `CodeableConcept`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeableConcept#CodeableConcept.coding",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableConcept.coding` is mapped to FHIR R4B element `CodeableConcept.coding`."
+              "comment" : "Element `CodeableConcept.coding` is mapped to FHIR R4 element `CodeableConcept.coding`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeableConcept#CodeableConcept.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableConcept.text` is mapped to FHIR R4B element `CodeableConcept.text`."
+              "comment" : "Element `CodeableConcept.text` is mapped to FHIR R4 element `CodeableConcept.text`."
             }
           ]
         }

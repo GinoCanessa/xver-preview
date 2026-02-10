@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
   "title" : "Cross-version Extension `R5.NutritionOrder.enteralFormula.administration.schedule` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
         "sliceName" : "timing",
         "short" : "Scheduled frequency of enteral formula",
         "definition" : "The time period and frequency at which the enteral formula should be given.  The enteral formula should be given for the combination of all schedules if more than one schedule is present.",
-        "requirements" : "Element `NutritionOrder.enteralFormula.administration.schedule.timing` is mapped to FHIR R4 structure `NutritionOrder`, but has no target element specified.",
+        "requirements" : "Element `NutritionOrder.enteralFormula.administration.schedule.timing` is will have a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
         "sliceName" : "asNeeded",
         "short" : "Take 'as needed'",
         "definition" : "Indicates whether the enteral formula is only taken when needed within a specific dosing schedule.",
-        "requirements" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeeded` is mapped to FHIR R4 structure `NutritionOrder`, but has no target element specified.",
+        "requirements" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeeded` is will have a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
         "sliceName" : "asNeededFor",
         "short" : "Take 'as needed' for x",
         "definition" : "Indicates whether the enteral formula is only taken based on a precondition for taking the enteral formula.",
-        "requirements" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` is mapped to FHIR R4 structure `NutritionOrder`, but has no target element specified.",
+        "requirements" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` is will have a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "1",
         "base" : {

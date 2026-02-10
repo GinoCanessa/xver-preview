@@ -78,7 +78,7 @@
   <title value="Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -561,7 +561,7 @@
       <short value="Identifier of who"/>
       <definition value="Reference to who this agent is that was involved in the event."/>
       <comment value="Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display."/>
-      <requirements value="This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`."/>
+      <requirements value="This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1903,7 +1903,7 @@
       <short value="Identifier of who"/>
       <definition value="Reference to who this agent is that was involved in the event."/>
       <comment value="Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display."/>
-      <requirements value="This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`."/>
+      <requirements value="This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

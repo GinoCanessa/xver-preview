@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
   "title" : "Cross-version Profile for R5.Communication for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.647827-06:00",
+  "date" : "2026-02-09T22:05:43.0296153-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Communication.recipient",
@@ -165,9 +165,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         }
       },
       {
-        "id" : "Communication.recipient.extension",
+        "id" : "Communication.recipient.extension:recipient",
         "path" : "Communication.recipient.extension",
+        "sliceName" : "recipient",
         "short" : "Cross-version extension for Communication.recipient from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint,http://hl7.org/fhir/StructureDefinition/Location in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Communication.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Communication.recipient` is mapped to FHIR R4 element `Communication.recipient`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -179,7 +182,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.recipient|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -197,7 +200,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Communication.sender",
@@ -206,9 +209,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         }
       },
       {
-        "id" : "Communication.sender.extension",
+        "id" : "Communication.sender.extension:sender",
         "path" : "Communication.sender.extension",
+        "sliceName" : "sender",
         "short" : "Cross-version extension for Communication.sender from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Communication.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Communication.sender` is mapped to FHIR R4 element `Communication.sender`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -220,7 +226,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.sender|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -238,7 +244,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -247,9 +253,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         }
       },
       {
-        "id" : "Communication.payload.extension",
+        "id" : "Communication.payload.extension:payload",
         "path" : "Communication.payload.extension",
+        "sliceName" : "payload",
         "short" : "Cross-version extension for Communication.payload from R5 for use in FHIR R4",
+        "comment" : "Element `Communication.payload` is mapped to FHIR R4 element `Communication.payload`.",
         "min" : 0,
         "max" : "*",
         "base" : {

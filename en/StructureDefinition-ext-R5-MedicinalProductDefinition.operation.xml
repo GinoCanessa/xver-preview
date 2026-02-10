@@ -74,7 +74,7 @@
   <title value="Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -91,7 +91,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `MedicinalProductDefinition.operation` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`MedicinalProductDefinition.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `MedicinalProductDefinition.operation` 0..* `BackboneElement`&#xA;*  R4B: `MedicinalProductDefinition.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `MedicinalProductDefinition.operation` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `MedicinalProductDefinition.operation` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`MedicinalProductDefinition.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `MedicinalProductDefinition.operation` 0..* `BackboneElement`&#xA;*  R4B: `MedicinalProductDefinition.operation` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `MedicinalProductDefinition.operation` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -102,7 +102,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="MedicinalProduct"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -213,7 +213,7 @@
       <sliceName value="type"/>
       <short value="The type of manufacturing operation e.g. manufacturing itself, re-packaging"/>
       <definition value="The type of manufacturing operation e.g. manufacturing itself, re-packaging. For the authorization of this, a RegulatedAuthorization would point to the same plan or activity referenced here."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.type` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.type` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -480,7 +480,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -644,7 +644,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1015,7 +1015,7 @@
       <sliceName value="effectiveDate"/>
       <short value="Date range of applicability"/>
       <definition value="Date range of applicability."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.effectiveDate` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.effectiveDate` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.effectiveDate` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.effectiveDate` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1179,7 +1179,7 @@
       <sliceName value="organization"/>
       <short value="The organization responsible for the particular process, e.g. the manufacturer or importer"/>
       <definition value="The organization or establishment responsible for (or associated with) the particular process or step, examples include the manufacturer, importer, agent."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.organization` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.organization` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.organization` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.operation.organization` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `MedicinalProductDefinition.operation.organization` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1345,7 +1345,7 @@
       <sliceName value="confidentialityIndicator"/>
       <short value="Specifies whether this process is considered proprietary or confidential"/>
       <definition value="Specifies whether this particular business or manufacturing process is considered proprietary or confidential."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.confidentialityIndicator` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.confidentialityIndicator` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.confidentialityIndicator` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.confidentialityIndicator` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1750,7 +1750,7 @@
       <sliceName value="type"/>
       <short value="The type of manufacturing operation e.g. manufacturing itself, re-packaging"/>
       <definition value="The type of manufacturing operation e.g. manufacturing itself, re-packaging. For the authorization of this, a RegulatedAuthorization would point to the same plan or activity referenced here."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.type` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.type` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1821,7 +1821,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1861,7 +1861,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1926,7 +1926,7 @@
       <sliceName value="effectiveDate"/>
       <short value="Date range of applicability"/>
       <definition value="Date range of applicability."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.effectiveDate` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.effectiveDate` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.effectiveDate` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.effectiveDate` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1966,7 +1966,7 @@
       <sliceName value="organization"/>
       <short value="The organization responsible for the particular process, e.g. the manufacturer or importer"/>
       <definition value="The organization or establishment responsible for (or associated with) the particular process or step, examples include the manufacturer, importer, agent."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.organization` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.organization` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.organization` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.operation.organization` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `MedicinalProductDefinition.operation.organization` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2008,7 +2008,7 @@
       <sliceName value="confidentialityIndicator"/>
       <short value="Specifies whether this process is considered proprietary or confidential"/>
       <definition value="Specifies whether this particular business or manufacturing process is considered proprietary or confidential."/>
-      <requirements value="Element `MedicinalProductDefinition.operation.confidentialityIndicator` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.confidentialityIndicator` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.operation.confidentialityIndicator` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.operation.confidentialityIndicator` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

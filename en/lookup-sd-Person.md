@@ -24,13 +24,13 @@ A computable version of the following element information is available in: [Conc
 | [`Person.telecom`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.telecom](https://hl7.org/fhir/R4/Person.html#resource) |
 | [`Person.gender`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.gender](https://hl7.org/fhir/R4/Person.html#resource) |
 | [`Person.birthDate`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.birthDate](https://hl7.org/fhir/R4/Person.html#resource) |
-| [`Person.deceased[x]`](https://hl7.org/fhir/R5/Person.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceased](StructureDefinition-ext-R5-Person.deceased.md) |
+| [`Person.deceased[x]`](https://hl7.org/fhir/R5/Person.html#resource) | [Person](https://hl7.org/fhir/R4/Person.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceased](StructureDefinition-ext-R5-Person.deceased.md) |
 | [`Person.address`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.address](https://hl7.org/fhir/R4/Person.html#resource) |
-| [`Person.maritalStatus`](https://hl7.org/fhir/R5/Person.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus](StructureDefinition-ext-R5-Person.maritalStatus.md) |
+| [`Person.maritalStatus`](https://hl7.org/fhir/R5/Person.html#resource) | [Person](https://hl7.org/fhir/R4/Person.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus](StructureDefinition-ext-R5-Person.maritalStatus.md) |
 | [`Person.photo`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.photo](https://hl7.org/fhir/R4/Person.html#resource) |
-| [`Person.communication`](https://hl7.org/fhir/R5/Person.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication](StructureDefinition-ext-R5-Person.communication.md) |
-| [`Person.communication.language`](https://hl7.org/fhir/R5/Person.html#resource) | [Extension slice: language](StructureDefinition-ext-R5-Person.communication.md) |
-| [`Person.communication.preferred`](https://hl7.org/fhir/R5/Person.html#resource) | [Extension slice: preferred](StructureDefinition-ext-R5-Person.communication.md) |
+| [`Person.communication`](https://hl7.org/fhir/R5/Person.html#resource) | [Person](https://hl7.org/fhir/R4/Person.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication](StructureDefinition-ext-R5-Person.communication.md) |
+| [`Person.communication.language`](https://hl7.org/fhir/R5/Person.html#resource) | [Person](https://hl7.org/fhir/R4/Person.html#resource)[Extension slice: language](StructureDefinition-ext-R5-Person.communication.md) |
+| [`Person.communication.preferred`](https://hl7.org/fhir/R5/Person.html#resource) | [Person](https://hl7.org/fhir/R4/Person.html#resource)[Extension slice: preferred](StructureDefinition-ext-R5-Person.communication.md) |
 | [`Person.managingOrganization`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.managingOrganization](https://hl7.org/fhir/R4/Person.html#resource) |
 | [`Person.link`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.link](https://hl7.org/fhir/R4/Person.html#resource) |
 | [`Person.link.target`](https://hl7.org/fhir/R5/Person.html#resource) | [Person.link.target](https://hl7.org/fhir/R4/Person.html#resource) |

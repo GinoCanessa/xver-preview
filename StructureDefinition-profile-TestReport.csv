@@ -50,8 +50,9 @@ This element is labeled as a modifier because the status contains codes that mar
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TestReport.testScript.extension","TestReport.testScript.extension","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.testScript|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for TestReport.testScript from R5 for use in FHIR R4","Ideally this is an absolute URL that is used to identify the version-specific TestScript that was executed, matching the `TestScript.url`.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"TestReport.testScript.extension:testScript","TestReport.testScript.extension","testScript","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0]]} {[]}
+","Cross-version extension for TestReport.testScript from R5 for use in FHIR R4","This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/TestScript in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestReport.testScript` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "TestReport.testScript.reference","TestReport.testScript.reference","","","",0,1,"","","Y","string {[]} {[]}
 ","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ref-1
@@ -169,10 +170,15 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "TestReport.setup.action.assert.id","TestReport.setup.action.assert.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"TestReport.setup.action.assert.extension","TestReport.setup.action.assert.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"TestReport.setup.action.assert.extension","TestReport.setup.action.assert.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"TestReport.setup.action.assert.extension:requirement","TestReport.setup.action.assert.extension","requirement","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for TestReport.setup.action.assert.requirement from R5 for use in FHIR R4","Links or references providing traceability to the testing requirements for this assert.","Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).
+Element `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "TestReport.setup.action.assert.modifierExtension","TestReport.setup.action.assert.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -218,8 +224,8 @@ inv-2:Test action SHALL contain either an operation or assert but not both. {ope
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TestReport.test.action.extension","TestReport.test.action.extension","","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.test.action|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for TestReport.test.action from R5 for use in FHIR R4","Action would contain either an operation or an assertion.","An action should contain either an operation or an assertion but not both.  It can contain any number of variables.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"TestReport.test.action.extension:action","TestReport.test.action.extension","action","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.test.action|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for TestReport.test.action from R5 for use in FHIR R4","Action would contain either an operation or an assertion.","Element `TestReport.test.action` is mapped to FHIR R4 element `TestReport.test.action`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "TestReport.test.action.modifierExtension","TestReport.test.action.modifierExtension","","extensions
@@ -239,12 +245,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "TestReport.teardown.id","TestReport.teardown.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"TestReport.teardown.extension","TestReport.teardown.extension","","","",1,*,"","","","Extension {[]} {[]}
+"TestReport.teardown.extension","TestReport.teardown.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TestReport.teardown.extension","TestReport.teardown.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.teardown|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for TestReport.teardown from R5 for use in FHIR R4","The results of the series of operations required to clean up after all the tests were executed (successfully or otherwise).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"TestReport.teardown.extension:teardown","TestReport.teardown.extension","teardown","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.teardown|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for TestReport.teardown from R5 for use in FHIR R4","The results of the series of operations required to clean up after all the tests were executed (successfully or otherwise).","Element `TestReport.teardown` is mapped to FHIR R4 element `TestReport.teardown`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "TestReport.teardown.modifierExtension","TestReport.teardown.modifierExtension","","extensions

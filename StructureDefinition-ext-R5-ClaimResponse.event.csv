@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type","Extension.extension","type","","",1,1,"","","","Extension {[]} {[]}
 ","Specific event","A coded event such as when a service is expected or a card printed.","","Element `ClaimResponse.event.type` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.
-Element `ClaimResponse.event.type` is mapped to FHIR R4 structure `ClaimResponse`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ClaimResponse.event.type` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:when","Extension.extension","when","","",1,1,"","","","Extension {[]} {[]}
 ","Occurance date or period","A date or period in the past or future indicating when the event occurred or is expectd to occur.","","Element `ClaimResponse.event.when[x]` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.
-Element `ClaimResponse.event.when[x]` is mapped to FHIR R4 structure `ClaimResponse`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ClaimResponse.event.when[x]` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:when.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Implementa
   "title" : "Cross-version Extension `R5.ImplementationGuide.definition.page` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Implementa
         "short" : "Source for page",
         "definition" : "Indicates the URL or the actual content to provide for the page.",
         "comment" : "If absent and the page isn't a generated page, this may be inferred from the page name by checking input locations.  String is used for XHTML content - sent as an escaped string.  FHIR tooling can't support 'direct' XHTML anywhere other than in narrative.",
-        "requirements" : "Element `ImplementationGuide.definition.page.source[x]` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.source[x]` is mapped to FHIR R4 structure `ImplementationGuide`, but has no target element specified.",
+        "requirements" : "Element `ImplementationGuide.definition.page.source[x]` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.source[x]` is will have a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`.",
         "min" : 0,
         "max" : "1",
         "base" : {

@@ -43,7 +43,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:scope","Extension.extension","scope","","",0,*,"","","","Extension {[]} {[]}
 ","instance | type | system","If present, indicates that the parameter applies when the operation is being invoked at the specified level.","","Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
-Element `OperationDefinition.parameter.scope` is mapped to FHIR R4 structure `OperationDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:scope.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -123,7 +123,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:allowedType","Extension.extension","allowedType","","",0,*,"","","","Extension {[]} {[]}
 ","Allowed sub-type this parameter can have (if type is abstract)","Support for polymorphic types. If the parameter type is abstract, this element lists allowed sub-types for the parameter.","In previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type","Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
-Element `OperationDefinition.parameter.allowedType` is mapped to FHIR R4 structure `OperationDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:allowedType.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

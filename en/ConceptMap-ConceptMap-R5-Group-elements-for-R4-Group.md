@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.9447319-06:00",
+  "date" : "2026-02-09T22:05:43.9084614-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Group` is representable via FHIR R4B Resource `Group`.\nElement `Group` is mapped to FHIR R4B element `Group`."
+              "comment" : "FHIR R5 Resource `Group` is representable via FHIR R4 Resource `Group`.\nElement `Group` is mapped to FHIR R4 element `Group`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.meta` is mapped to FHIR R4B element `Group.meta`."
+              "comment" : "Element `Group.meta` is mapped to FHIR R4 element `Group.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.implicitRules` is mapped to FHIR R4B element `Group.implicitRules`."
+              "comment" : "Element `Group.implicitRules` is mapped to FHIR R4 element `Group.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.language` is mapped to FHIR R4B element `Group.language`."
+              "comment" : "Element `Group.language` is mapped to FHIR R4 element `Group.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.text` is mapped to FHIR R4B element `Group.text`."
+              "comment" : "Element `Group.text` is mapped to FHIR R4 element `Group.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.contained` is mapped to FHIR R4B element `Group.contained`."
+              "comment" : "Element `Group.contained` is mapped to FHIR R4 element `Group.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.identifier` is mapped to FHIR R4B element `Group.identifier`."
+              "comment" : "Element `Group.identifier` is mapped to FHIR R4 element `Group.identifier`."
             }
           ]
         },
@@ -162,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.active` is mapped to FHIR R4B element `Group.active`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.active",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Group.active` is mapped to FHIR DSTU2 structure `Group`, but has no target element specified."
+              "comment" : "Element `Group.active` is mapped to FHIR R4 element `Group.active`."
             }
           ]
         },
@@ -178,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.type` is mapped to FHIR R4B element `Group.type`."
+              "comment" : "Element `Group.type` is mapped to FHIR R4 element `Group.type`."
             }
           ]
         },
@@ -187,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "membership",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.membership` is mapped to FHIR R4B structure `Group`, but has no target element specified."
+              "comment" : "Element `Group.membership` is will have a context of Group based on following the parent source element upwards and mapping to `Group`."
             }
           ]
         },
@@ -200,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.code` is mapped to FHIR R4B element `Group.code`."
+              "comment" : "Element `Group.code` is mapped to FHIR R4 element `Group.code`."
             }
           ]
         },
@@ -211,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.name` is mapped to FHIR R4B element `Group.name`."
+              "comment" : "Element `Group.name` is mapped to FHIR R4 element `Group.name`."
             }
           ]
         },
@@ -220,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.description` is mapped to FHIR R4B structure `Group`, but has no target element specified."
+              "comment" : "Element `Group.description` is will have a context of Group based on following the parent source element upwards and mapping to `Group`."
             }
           ]
         },
@@ -233,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.quantity` is mapped to FHIR R4B element `Group.quantity`."
+              "comment" : "Element `Group.quantity` is mapped to FHIR R4 element `Group.quantity`."
             }
           ]
         },
@@ -244,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.managingEntity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.managingEntity` is mapped to FHIR R4B element `Group.managingEntity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.managingEntity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Group.managingEntity` is mapped to FHIR STU3 structure `Group`, but has no target element specified."
+              "comment" : "Element `Group.managingEntity` is mapped to FHIR R4 element `Group.managingEntity`."
             }
           ]
         },
@@ -260,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.characteristic` is mapped to FHIR R4B element `Group.characteristic`."
+              "comment" : "Element `Group.characteristic` is mapped to FHIR R4 element `Group.characteristic`."
             }
           ]
         },
@@ -271,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.characteristic.code` is mapped to FHIR R4B element `Group.characteristic.code`."
+              "comment" : "Element `Group.characteristic.code` is mapped to FHIR R4 element `Group.characteristic.code`."
             }
           ]
         },
@@ -282,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` is mapped to FHIR R4B element `Group.characteristic.value[x]`.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`."
+              "comment" : "Note that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` is mapped to FHIR R4 element `Group.characteristic.value[x]`.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`."
             }
           ]
         },
@@ -293,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.exclude",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.characteristic.exclude` is mapped to FHIR R4B element `Group.characteristic.exclude`."
+              "comment" : "Element `Group.characteristic.exclude` is mapped to FHIR R4 element `Group.characteristic.exclude`."
             }
           ]
         },
@@ -304,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.characteristic.period` is mapped to FHIR R4B element `Group.characteristic.period`."
+              "comment" : "Element `Group.characteristic.period` is mapped to FHIR R4 element `Group.characteristic.period`."
             }
           ]
         },
@@ -315,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.member",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.member` is mapped to FHIR R4B element `Group.member`."
+              "comment" : "Element `Group.member` is mapped to FHIR R4 element `Group.member`."
             }
           ]
         },
@@ -326,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.member.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.member.entity` is mapped to FHIR R4B element `Group.member.entity`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` is mapped to FHIR R4 element `Group.member.entity`."
             }
           ]
         },
@@ -337,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.member.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.member.period` is mapped to FHIR R4B element `Group.member.period`."
+              "comment" : "Element `Group.member.period` is mapped to FHIR R4 element `Group.member.period`."
             }
           ]
         },
@@ -348,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Group#Group.member.inactive",
               "equivalence" : "relatedto",
-              "comment" : "Element `Group.member.inactive` is mapped to FHIR R4B element `Group.member.inactive`."
+              "comment" : "Element `Group.member.inactive` is mapped to FHIR R4 element `Group.member.inactive`."
             }
           ]
         }

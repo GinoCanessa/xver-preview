@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0989178-06:00",
+  "date" : "2026-02-09T22:05:44.1737432-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `RelatedArtifact` is representable via FHIR R4B extensions.\nElement `RelatedArtifact` is mapped to FHIR R4B element `RelatedArtifact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `RelatedArtifact` is representable via FHIR DSTU2 extensions.\nElement `RelatedArtifact` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "FHIR R5 ComplexType `RelatedArtifact` is representable via FHIR R4 extensions.\nElement `RelatedArtifact` is mapped to FHIR R4 element `RelatedArtifact`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.type` is mapped to FHIR R4B element `RelatedArtifact.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.type` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.type` is mapped to FHIR R4 element `RelatedArtifact.type`."
             }
           ]
         },
@@ -115,14 +105,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "classifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact.classifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.classifier` is mapped to FHIR R4B structure `RelatedArtifact`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:classifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.classifier` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.classifier` is will have a context of RelatedArtifact based on following the parent source element upwards and mapping to `RelatedArtifact`."
             }
           ]
         },
@@ -133,17 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact.label",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.label` is mapped to FHIR R4B element `RelatedArtifact.label`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact.label",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.label` is mapped to FHIR STU3 structure `RelatedArtifact`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:label",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.label` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.label` is mapped to FHIR R4 element `RelatedArtifact.label`."
             }
           ]
         },
@@ -154,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.display` is mapped to FHIR R4B element `RelatedArtifact.display`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:display",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.display` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.display` is mapped to FHIR R4 element `RelatedArtifact.display`."
             }
           ]
         },
@@ -170,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact.citation",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.citation` is mapped to FHIR R4B element `RelatedArtifact.citation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:citation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.citation` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.citation` is mapped to FHIR R4 element `RelatedArtifact.citation`."
             }
           ]
         },
@@ -186,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact.document",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.document` is mapped to FHIR R4B element `RelatedArtifact.document`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:document",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.document` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.document` is mapped to FHIR R4 element `RelatedArtifact.document`."
             }
           ]
         },
@@ -202,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.resource` is mapped to FHIR R4B element `RelatedArtifact.resource`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:resource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.resource` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.resource` is mapped to FHIR R4 element `RelatedArtifact.resource`."
             }
           ]
         },
@@ -216,14 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "resourceReference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact.resourceReference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.resourceReference` is mapped to FHIR R4B structure `RelatedArtifact`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:resourceReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.resourceReference` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RelatedArtifact.resourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RelatedArtifact.resourceReference` is will have a context of RelatedArtifact based on following the parent source element upwards and mapping to `RelatedArtifact`."
             }
           ]
         },
@@ -232,14 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publicationStatus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact.publicationStatus",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.publicationStatus` is mapped to FHIR R4B structure `RelatedArtifact`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:publicationStatus",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.publicationStatus` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.publicationStatus` is will have a context of RelatedArtifact based on following the parent source element upwards and mapping to `RelatedArtifact`."
             }
           ]
         },
@@ -248,14 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publicationDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact.publicationDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RelatedArtifact#RelatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.publicationDate` is mapped to FHIR R4B structure `RelatedArtifact`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedArtifact:publicationDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RelatedArtifact.publicationDate` is not mapped to FHIR DSTU2, since FHIR R5 `RelatedArtifact` is not mapped."
+              "comment" : "Element `RelatedArtifact.publicationDate` is will have a context of RelatedArtifact based on following the parent source element upwards and mapping to `RelatedArtifact`."
             }
           ]
         }

@@ -28,6 +28,6 @@ A computable version of the following element information is available in: [Conc
 | [`OrganizationAffiliation.specialty`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.specialty](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
 | [`OrganizationAffiliation.location`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.location](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
 | [`OrganizationAffiliation.healthcareService`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.healthcareService](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
-| [`OrganizationAffiliation.contact`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-OrganizationAffiliation.contact](StructureDefinition-ext-R5-OrganizationAffiliation.contact.md) |
+| [`OrganizationAffiliation.contact`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-OrganizationAffiliation.contact](StructureDefinition-ext-R5-OrganizationAffiliation.contact.md) |
 | [`OrganizationAffiliation.endpoint`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.endpoint](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
 

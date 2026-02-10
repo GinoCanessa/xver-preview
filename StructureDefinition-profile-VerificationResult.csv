@@ -48,8 +48,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"VerificationResult.status.extension","VerificationResult.status.extension","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for VerificationResult.status from R5 for use in FHIR R4","The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"VerificationResult.status.extension:status","VerificationResult.status.extension","status","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for VerificationResult.status from R5 for use in FHIR R4","The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed).","Element `VerificationResult.status` is mapped to FHIR R4 element `VerificationResult.status`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "VerificationResult.status.value","VerificationResult.status.value","","","",0,1,"","","","string {[]} {[]}

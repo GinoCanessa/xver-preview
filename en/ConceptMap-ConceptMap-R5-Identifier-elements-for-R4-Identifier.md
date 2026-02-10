@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.9857597-06:00",
+  "date" : "2026-02-09T22:05:43.9247303-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Identifier` is representable via FHIR R4B extensions.\nElement `Identifier` is mapped to FHIR R4B element `Identifier`."
+              "comment" : "FHIR R5 ComplexType `Identifier` is representable via FHIR R4 extensions.\nElement `Identifier` is mapped to FHIR R4 element `Identifier`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.use` is mapped to FHIR R4B element `Identifier.use`."
+              "comment" : "Element `Identifier.use` is mapped to FHIR R4 element `Identifier.use`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.type` is mapped to FHIR R4B element `Identifier.type`."
+              "comment" : "Element `Identifier.type` is mapped to FHIR R4 element `Identifier.type`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.system` is mapped to FHIR R4B element `Identifier.system`."
+              "comment" : "Element `Identifier.system` is mapped to FHIR R4 element `Identifier.system`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.value` is mapped to FHIR R4B element `Identifier.value`."
+              "comment" : "Element `Identifier.value` is mapped to FHIR R4 element `Identifier.value`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.period` is mapped to FHIR R4B element `Identifier.period`."
+              "comment" : "Element `Identifier.period` is mapped to FHIR R4 element `Identifier.period`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.assigner",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.assigner` is mapped to FHIR R4B element `Identifier.assigner`."
+              "comment" : "Element `Identifier.assigner` is mapped to FHIR R4 element `Identifier.assigner`."
             }
           ]
         }

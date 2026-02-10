@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
   "title" : "Cross-version Profile for R5.BiologicallyDerivedProduct for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6258642-06:00",
+  "date" : "2026-02-09T22:05:42.9905529-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,160 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
         "path" : "BiologicallyDerivedProduct"
       },
       {
+        "id" : "BiologicallyDerivedProduct.extension",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "BiologicallyDerivedProduct.extension:biologicalSourceEvent",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "sliceName" : "biologicalSourceEvent",
+        "short" : "Cross-version extension for BiologicallyDerivedProduct.biologicalSourceEvent from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.biologicalSourceEvent` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.biologicalSourceEvent|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BiologicallyDerivedProduct.extension:division",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "sliceName" : "division",
+        "short" : "Cross-version extension for BiologicallyDerivedProduct.division from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.division` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.division|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BiologicallyDerivedProduct.extension:expirationDate",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "sliceName" : "expirationDate",
+        "short" : "Cross-version extension for BiologicallyDerivedProduct.expirationDate from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.expirationDate` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.expirationDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BiologicallyDerivedProduct.extension:storageTempRequirements",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "sliceName" : "storageTempRequirements",
+        "short" : "Cross-version extension for BiologicallyDerivedProduct.storageTempRequirements from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.storageTempRequirements` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.storageTempRequirements|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BiologicallyDerivedProduct.extension:property",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "sliceName" : "property",
+        "short" : "Cross-version extension for BiologicallyDerivedProduct.property from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.property` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "BiologicallyDerivedProduct.extension:processingFacility",
+        "path" : "BiologicallyDerivedProduct.extension",
+        "sliceName" : "processingFacility",
+        "short" : "Cross-version extension for BiologicallyDerivedProduct.processingFacility from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BiologicallyDerivedProduct.processingFacility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BiologicallyDerivedProduct.processingFacility` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "BiologicallyDerivedProduct.productCategory.extension",
         "path" : "BiologicallyDerivedProduct.productCategory.extension",
         "slicing" : {
@@ -156,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "BiologicallyDerivedProduct.productCategory",
@@ -165,9 +319,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
         }
       },
       {
-        "id" : "BiologicallyDerivedProduct.productCategory.extension",
+        "id" : "BiologicallyDerivedProduct.productCategory.extension:productCategory",
         "path" : "BiologicallyDerivedProduct.productCategory.extension",
+        "sliceName" : "productCategory",
         "short" : "Cross-version extension for BiologicallyDerivedProduct.productCategory from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.productCategory` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -197,7 +353,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "BiologicallyDerivedProduct.status",
@@ -206,9 +362,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
         }
       },
       {
-        "id" : "BiologicallyDerivedProduct.status.extension",
+        "id" : "BiologicallyDerivedProduct.status.extension:productStatus",
         "path" : "BiologicallyDerivedProduct.status.extension",
+        "sliceName" : "productStatus",
         "short" : "Cross-version extension for BiologicallyDerivedProduct.productStatus from R5 for use in FHIR R4",
+        "comment" : "Element `BiologicallyDerivedProduct.productStatus` is mapped to FHIR R4 element `BiologicallyDerivedProduct.status`.",
         "min" : 0,
         "max" : "1",
         "base" : {

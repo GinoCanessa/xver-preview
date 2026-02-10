@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Person.communication` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Person.communication` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Person.communication` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Person.communication` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Person.communication` is mapped to FHIR R4 structure `Person`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Person.communication` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Person.communication` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Person.communication` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Person.communication` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Person" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -316,7 +316,7 @@
        fhir:short [ fhir:v "The language which can be used to communicate with the person about his or her health" ] ;
        fhir:definition [ fhir:v "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-AU\" for Australian English." ] ;
        fhir:comment [ fhir:v "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type." ] ;
-       fhir:requirements [ fhir:v "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is mapped to FHIR R4 structure `Person`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is will have a context of Person based on following the parent source element upwards and mapping to `Person`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -529,7 +529,7 @@
        fhir:short [ fhir:v "Language preference indicator" ] ;
        fhir:definition [ fhir:v "Indicates whether or not the person prefers this language (over other languages he masters up a certain level)." ] ;
        fhir:comment [ fhir:v "This language is specifically identified for communicating healthcare information." ] ;
-       fhir:requirements [ fhir:v "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is mapped to FHIR R4 structure `Person`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is will have a context of Person based on following the parent source element upwards and mapping to `Person`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1099,7 +1099,7 @@
        fhir:short [ fhir:v "The language which can be used to communicate with the person about his or her health" ] ;
        fhir:definition [ fhir:v "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-AU\" for Australian English." ] ;
        fhir:comment [ fhir:v "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type." ] ;
-       fhir:requirements [ fhir:v "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is mapped to FHIR R4 structure `Person`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is will have a context of Person based on following the parent source element upwards and mapping to `Person`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1148,7 +1148,7 @@
        fhir:short [ fhir:v "Language preference indicator" ] ;
        fhir:definition [ fhir:v "Indicates whether or not the person prefers this language (over other languages he masters up a certain level)." ] ;
        fhir:comment [ fhir:v "This language is specifically identified for communicating healthcare information." ] ;
-       fhir:requirements [ fhir:v "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is mapped to FHIR R4 structure `Person`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is will have a context of Person based on following the parent source element upwards and mapping to `Person`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

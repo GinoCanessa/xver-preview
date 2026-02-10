@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.7239582-06:00",
+  "date" : "2026-02-09T22:05:44.3111584-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `TestScript` is representable via FHIR R4B Resource `TestScript`.\nElement `TestScript` is mapped to FHIR R4B element `TestScript`."
+              "comment" : "FHIR R5 Resource `TestScript` is representable via FHIR R4 Resource `TestScript`.\nElement `TestScript` is mapped to FHIR R4 element `TestScript`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.meta` is mapped to FHIR R4B element `TestScript.meta`."
+              "comment" : "Element `TestScript.meta` is mapped to FHIR R4 element `TestScript.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.implicitRules` is mapped to FHIR R4B element `TestScript.implicitRules`."
+              "comment" : "Element `TestScript.implicitRules` is mapped to FHIR R4 element `TestScript.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.language` is mapped to FHIR R4B element `TestScript.language`."
+              "comment" : "Element `TestScript.language` is mapped to FHIR R4 element `TestScript.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.text` is mapped to FHIR R4B element `TestScript.text`."
+              "comment" : "Element `TestScript.text` is mapped to FHIR R4 element `TestScript.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.contained` is mapped to FHIR R4B element `TestScript.contained`."
+              "comment" : "Element `TestScript.contained` is mapped to FHIR R4 element `TestScript.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.url` is mapped to FHIR R4B element `TestScript.url`."
+              "comment" : "Element `TestScript.url` is mapped to FHIR R4 element `TestScript.url`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.identifier` is mapped to FHIR R4B element `TestScript.identifier`."
+              "comment" : "Element `TestScript.identifier` is mapped to FHIR R4 element `TestScript.identifier`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.version` is mapped to FHIR R4B element `TestScript.version`."
+              "comment" : "Element `TestScript.version` is mapped to FHIR R4 element `TestScript.version`."
             }
           ]
         },
@@ -182,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.versionAlgorithm[x]` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.versionAlgorithm[x]` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.name` is mapped to FHIR R4B element `TestScript.name`."
+              "comment" : "Element `TestScript.name` is mapped to FHIR R4 element `TestScript.name`."
             }
           ]
         },
@@ -206,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.title` is mapped to FHIR R4B element `TestScript.title`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.title` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.title` is mapped to FHIR R4 element `TestScript.title`."
             }
           ]
         },
@@ -222,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.status` is mapped to FHIR R4B element `TestScript.status`."
+              "comment" : "Element `TestScript.status` is mapped to FHIR R4 element `TestScript.status`."
             }
           ]
         },
@@ -233,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.experimental` is mapped to FHIR R4B element `TestScript.experimental`."
+              "comment" : "Element `TestScript.experimental` is mapped to FHIR R4 element `TestScript.experimental`."
             }
           ]
         },
@@ -244,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.date` is mapped to FHIR R4B element `TestScript.date`."
+              "comment" : "Element `TestScript.date` is mapped to FHIR R4 element `TestScript.date`."
             }
           ]
         },
@@ -255,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.publisher` is mapped to FHIR R4B element `TestScript.publisher`."
+              "comment" : "Element `TestScript.publisher` is mapped to FHIR R4 element `TestScript.publisher`."
             }
           ]
         },
@@ -266,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.contact` is mapped to FHIR R4B element `TestScript.contact`."
+              "comment" : "Element `TestScript.contact` is mapped to FHIR R4 element `TestScript.contact`."
             }
           ]
         },
@@ -277,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.description` is mapped to FHIR R4B element `TestScript.description`."
+              "comment" : "Element `TestScript.description` is mapped to FHIR R4 element `TestScript.description`."
             }
           ]
         },
@@ -288,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.useContext` is mapped to FHIR R4B element `TestScript.useContext`."
+              "comment" : "Element `TestScript.useContext` is mapped to FHIR R4 element `TestScript.useContext`."
             }
           ]
         },
@@ -299,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.jurisdiction` is mapped to FHIR R4B element `TestScript.jurisdiction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.jurisdiction` is mapped to FHIR DSTU2 element `TestScript.useContext`."
+              "comment" : "Element `TestScript.jurisdiction` is mapped to FHIR R4 element `TestScript.jurisdiction`."
             }
           ]
         },
@@ -315,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.purpose` is mapped to FHIR R4B element `TestScript.purpose`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.requirements",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.purpose` is mapped to FHIR DSTU2 element `TestScript.requirements`."
+              "comment" : "Element `TestScript.purpose` is mapped to FHIR R4 element `TestScript.purpose`."
             }
           ]
         },
@@ -331,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.copyright` is mapped to FHIR R4B element `TestScript.copyright`."
+              "comment" : "Element `TestScript.copyright` is mapped to FHIR R4 element `TestScript.copyright`."
             }
           ]
         },
@@ -340,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.copyrightLabel` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.copyrightLabel` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -353,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin` is mapped to FHIR R4B element `TestScript.origin`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.origin` is mapped to FHIR R4 element `TestScript.origin`."
             }
           ]
         },
@@ -369,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.origin.index",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin.index` is mapped to FHIR R4B element `TestScript.origin.index`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin:index",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin.index` is part of an existing definition because parent element `TestScript.origin` requires a cross-version extension.\nElement `TestScript.origin.index` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.origin.index` is mapped to FHIR R4 element `TestScript.origin.index`."
             }
           ]
         },
@@ -385,12 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.origin.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin.profile` is mapped to FHIR R4B element `TestScript.origin.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin:profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin.profile` is part of an existing definition because parent element `TestScript.origin` requires a cross-version extension.\nElement `TestScript.origin.profile` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.origin.profile` is mapped to FHIR R4 element `TestScript.origin.profile`."
             }
           ]
         },
@@ -399,14 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin.url",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin.url` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin:url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.origin.url` is part of an existing definition because parent element `TestScript.origin` requires a cross-version extension.\nElement `TestScript.origin.url` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.origin.url` is will have a context of TestScript.origin based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -417,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination` is mapped to FHIR R4B element `TestScript.destination`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.destination` is mapped to FHIR R4 element `TestScript.destination`."
             }
           ]
         },
@@ -433,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.destination.index",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination.index` is mapped to FHIR R4B element `TestScript.destination.index`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination:index",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination.index` is part of an existing definition because parent element `TestScript.destination` requires a cross-version extension.\nElement `TestScript.destination.index` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.destination.index` is mapped to FHIR R4 element `TestScript.destination.index`."
             }
           ]
         },
@@ -449,12 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.destination.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination.profile` is mapped to FHIR R4B element `TestScript.destination.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination:profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination.profile` is part of an existing definition because parent element `TestScript.destination` requires a cross-version extension.\nElement `TestScript.destination.profile` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.destination.profile` is mapped to FHIR R4 element `TestScript.destination.profile`."
             }
           ]
         },
@@ -463,14 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination.url",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination.url` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination:url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.destination.url` is part of an existing definition because parent element `TestScript.destination` requires a cross-version extension.\nElement `TestScript.destination.url` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.destination.url` is will have a context of TestScript.destination based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -481,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata` is mapped to FHIR R4B element `TestScript.metadata`."
+              "comment" : "Element `TestScript.metadata` is mapped to FHIR R4 element `TestScript.metadata`."
             }
           ]
         },
@@ -492,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.link` is mapped to FHIR R4B element `TestScript.metadata.link`."
+              "comment" : "Element `TestScript.metadata.link` is mapped to FHIR R4 element `TestScript.metadata.link`."
             }
           ]
         },
@@ -503,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.link.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.link.url` is mapped to FHIR R4B element `TestScript.metadata.link.url`."
+              "comment" : "Element `TestScript.metadata.link.url` is mapped to FHIR R4 element `TestScript.metadata.link.url`."
             }
           ]
         },
@@ -514,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.link.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.link.description` is mapped to FHIR R4B element `TestScript.metadata.link.description`."
+              "comment" : "Element `TestScript.metadata.link.description` is mapped to FHIR R4 element `TestScript.metadata.link.description`."
             }
           ]
         },
@@ -525,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability` is mapped to FHIR R4B element `TestScript.metadata.capability`."
+              "comment" : "Element `TestScript.metadata.capability` is mapped to FHIR R4 element `TestScript.metadata.capability`."
             }
           ]
         },
@@ -536,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.required",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.required` is mapped to FHIR R4B element `TestScript.metadata.capability.required`."
+              "comment" : "Element `TestScript.metadata.capability.required` is mapped to FHIR R4 element `TestScript.metadata.capability.required`."
             }
           ]
         },
@@ -547,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.validated",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.validated` is mapped to FHIR R4B element `TestScript.metadata.capability.validated`."
+              "comment" : "Element `TestScript.metadata.capability.validated` is mapped to FHIR R4 element `TestScript.metadata.capability.validated`."
             }
           ]
         },
@@ -558,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.description` is mapped to FHIR R4B element `TestScript.metadata.capability.description`."
+              "comment" : "Element `TestScript.metadata.capability.description` is mapped to FHIR R4 element `TestScript.metadata.capability.description`."
             }
           ]
         },
@@ -569,12 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.origin` is mapped to FHIR R4B element `TestScript.metadata.capability.origin`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.metadata.capability.origin",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.origin` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.metadata.capability.origin` is mapped to FHIR R4 element `TestScript.metadata.capability.origin`."
             }
           ]
         },
@@ -585,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.destination` is mapped to FHIR R4B element `TestScript.metadata.capability.destination`."
+              "comment" : "Element `TestScript.metadata.capability.destination` is mapped to FHIR R4 element `TestScript.metadata.capability.destination`."
             }
           ]
         },
@@ -596,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.link` is mapped to FHIR R4B element `TestScript.metadata.capability.link`."
+              "comment" : "Element `TestScript.metadata.capability.link` is mapped to FHIR R4 element `TestScript.metadata.capability.link`."
             }
           ]
         },
@@ -607,12 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.capabilities",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.capabilities` is mapped to FHIR R4B element `TestScript.metadata.capability.capabilities`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.metadata.capability.conformance",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.metadata.capability.capabilities` is mapped to FHIR DSTU2 element `TestScript.metadata.capability.conformance`."
+              "comment" : "Element `TestScript.metadata.capability.capabilities` is mapped to FHIR R4 element `TestScript.metadata.capability.capabilities`."
             }
           ]
         },
@@ -621,9 +556,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "scope",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.scope` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.scope` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -632,9 +567,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "artifact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:artifact",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.artifact` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.scope.artifact` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.scope.artifact` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -643,9 +578,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "conformance",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:conformance",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.conformance` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.conformance` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -654,9 +589,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "phase",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:phase",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.phase` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.phase` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -667,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.fixture",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.fixture` is mapped to FHIR R4B element `TestScript.fixture`."
+              "comment" : "Element `TestScript.fixture` is mapped to FHIR R4 element `TestScript.fixture`."
             }
           ]
         },
@@ -678,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.fixture.autocreate",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.fixture.autocreate` is mapped to FHIR R4B element `TestScript.fixture.autocreate`."
+              "comment" : "Element `TestScript.fixture.autocreate` is mapped to FHIR R4 element `TestScript.fixture.autocreate`."
             }
           ]
         },
@@ -689,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.fixture.autodelete",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.fixture.autodelete` is mapped to FHIR R4B element `TestScript.fixture.autodelete`."
+              "comment" : "Element `TestScript.fixture.autodelete` is mapped to FHIR R4 element `TestScript.fixture.autodelete`."
             }
           ]
         },
@@ -700,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.fixture.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.fixture.resource` is mapped to FHIR R4B element `TestScript.fixture.resource`."
+              "comment" : "Element `TestScript.fixture.resource` is mapped to FHIR R4 element `TestScript.fixture.resource`."
             }
           ]
         },
@@ -711,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.profile` is mapped to FHIR R4B element `TestScript.profile`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile`."
             }
           ]
         },
@@ -722,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable` is mapped to FHIR R4B element `TestScript.variable`."
+              "comment" : "Element `TestScript.variable` is mapped to FHIR R4 element `TestScript.variable`."
             }
           ]
         },
@@ -733,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.name` is mapped to FHIR R4B element `TestScript.variable.name`."
+              "comment" : "Element `TestScript.variable.name` is mapped to FHIR R4 element `TestScript.variable.name`."
             }
           ]
         },
@@ -744,12 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.defaultValue",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.defaultValue` is mapped to FHIR R4B element `TestScript.variable.defaultValue`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.variable.defaultValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.defaultValue` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.variable.defaultValue` is mapped to FHIR R4 element `TestScript.variable.defaultValue`."
             }
           ]
         },
@@ -760,12 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.description` is mapped to FHIR R4B element `TestScript.variable.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.variable.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.description` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.variable.description` is mapped to FHIR R4 element `TestScript.variable.description`."
             }
           ]
         },
@@ -776,12 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.expression` is mapped to FHIR R4B element `TestScript.variable.expression`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.variable.expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.expression` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.variable.expression` is mapped to FHIR R4 element `TestScript.variable.expression`."
             }
           ]
         },
@@ -792,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.headerField",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.headerField` is mapped to FHIR R4B element `TestScript.variable.headerField`."
+              "comment" : "Element `TestScript.variable.headerField` is mapped to FHIR R4 element `TestScript.variable.headerField`."
             }
           ]
         },
@@ -803,12 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.hint",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.hint` is mapped to FHIR R4B element `TestScript.variable.hint`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.variable.hint",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.hint` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.variable.hint` is mapped to FHIR R4 element `TestScript.variable.hint`."
             }
           ]
         },
@@ -819,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.path` is mapped to FHIR R4B element `TestScript.variable.path`."
+              "comment" : "Element `TestScript.variable.path` is mapped to FHIR R4 element `TestScript.variable.path`."
             }
           ]
         },
@@ -830,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.variable.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.variable.sourceId` is mapped to FHIR R4B element `TestScript.variable.sourceId`."
+              "comment" : "Element `TestScript.variable.sourceId` is mapped to FHIR R4 element `TestScript.variable.sourceId`."
             }
           ]
         },
@@ -841,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup` is mapped to FHIR R4B element `TestScript.setup`."
+              "comment" : "Element `TestScript.setup` is mapped to FHIR R4 element `TestScript.setup`."
             }
           ]
         },
@@ -852,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action` is mapped to FHIR R4B element `TestScript.setup.action`."
+              "comment" : "Element `TestScript.setup.action` is mapped to FHIR R4 element `TestScript.setup.action`."
             }
           ]
         },
@@ -863,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation` is mapped to FHIR R4B element `TestScript.setup.action.operation`."
+              "comment" : "Element `TestScript.setup.action.operation` is mapped to FHIR R4 element `TestScript.setup.action.operation`."
             }
           ]
         },
@@ -874,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.type` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.type` is mapped to FHIR R4B element `TestScript.setup.action.operation.type`."
+              "comment" : "Element `TestScript.setup.action.operation.type` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.type` is mapped to FHIR R4 element `TestScript.setup.action.operation.type`."
             }
           ]
         },
@@ -885,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.resource` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.resource` is mapped to FHIR R4B element `TestScript.setup.action.operation.resource`."
+              "comment" : "Element `TestScript.setup.action.operation.resource` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.resource` is mapped to FHIR R4 element `TestScript.setup.action.operation.resource`."
             }
           ]
         },
@@ -896,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.label",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.label` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.label` is mapped to FHIR R4B element `TestScript.setup.action.operation.label`."
+              "comment" : "Element `TestScript.setup.action.operation.label` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.label` is mapped to FHIR R4 element `TestScript.setup.action.operation.label`."
             }
           ]
         },
@@ -907,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.description` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.description` is mapped to FHIR R4B element `TestScript.setup.action.operation.description`."
+              "comment" : "Element `TestScript.setup.action.operation.description` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.description` is mapped to FHIR R4 element `TestScript.setup.action.operation.description`."
             }
           ]
         },
@@ -918,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.accept",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.accept` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.accept` is mapped to FHIR R4B element `TestScript.setup.action.operation.accept`."
+              "comment" : "Element `TestScript.setup.action.operation.accept` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.accept` is mapped to FHIR R4 element `TestScript.setup.action.operation.accept`."
             }
           ]
         },
@@ -929,7 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.contentType` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.contentType` is mapped to FHIR R4B element `TestScript.setup.action.operation.contentType`."
+              "comment" : "Element `TestScript.setup.action.operation.contentType` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.contentType` is mapped to FHIR R4 element `TestScript.setup.action.operation.contentType`."
             }
           ]
         },
@@ -940,7 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.destination` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.destination` is mapped to FHIR R4B element `TestScript.setup.action.operation.destination`."
+              "comment" : "Element `TestScript.setup.action.operation.destination` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.destination` is mapped to FHIR R4 element `TestScript.setup.action.operation.destination`."
             }
           ]
         },
@@ -951,7 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.encodeRequestUrl",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.encodeRequestUrl` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.encodeRequestUrl` is mapped to FHIR R4B element `TestScript.setup.action.operation.encodeRequestUrl`."
+              "comment" : "Element `TestScript.setup.action.operation.encodeRequestUrl` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.encodeRequestUrl` is mapped to FHIR R4 element `TestScript.setup.action.operation.encodeRequestUrl`."
             }
           ]
         },
@@ -962,12 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.method` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.method` is mapped to FHIR R4B element `TestScript.setup.action.operation.method`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.operation.method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.method` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.method` is mapped to FHIR STU3 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.operation.method` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.method` is mapped to FHIR R4 element `TestScript.setup.action.operation.method`."
             }
           ]
         },
@@ -978,12 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.origin` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.origin` is mapped to FHIR R4B element `TestScript.setup.action.operation.origin`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.operation.origin",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.origin` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.origin` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.operation.origin` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.origin` is mapped to FHIR R4 element `TestScript.setup.action.operation.origin`."
             }
           ]
         },
@@ -994,7 +899,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.params",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.params` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.params` is mapped to FHIR R4B element `TestScript.setup.action.operation.params`."
+              "comment" : "Element `TestScript.setup.action.operation.params` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.params` is mapped to FHIR R4 element `TestScript.setup.action.operation.params`."
             }
           ]
         },
@@ -1005,7 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.requestHeader",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.requestHeader` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.requestHeader` is mapped to FHIR R4B element `TestScript.setup.action.operation.requestHeader`."
+              "comment" : "Element `TestScript.setup.action.operation.requestHeader` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.requestHeader` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader`."
             }
           ]
         },
@@ -1016,7 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.requestHeader.field",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.requestHeader.field` is mapped to FHIR R4B element `TestScript.setup.action.operation.requestHeader.field`."
+              "comment" : "Element `TestScript.setup.action.operation.requestHeader.field` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.field`."
             }
           ]
         },
@@ -1027,7 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.requestHeader.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.requestHeader.value` is mapped to FHIR R4B element `TestScript.setup.action.operation.requestHeader.value`."
+              "comment" : "Element `TestScript.setup.action.operation.requestHeader.value` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.value`."
             }
           ]
         },
@@ -1038,12 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.requestId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.requestId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.requestId` is mapped to FHIR R4B element `TestScript.setup.action.operation.requestId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.operation.requestId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.requestId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.requestId` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.operation.requestId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.requestId` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestId`."
             }
           ]
         },
@@ -1054,7 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.responseId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.responseId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.responseId` is mapped to FHIR R4B element `TestScript.setup.action.operation.responseId`."
+              "comment" : "Element `TestScript.setup.action.operation.responseId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.responseId` is mapped to FHIR R4 element `TestScript.setup.action.operation.responseId`."
             }
           ]
         },
@@ -1065,7 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.sourceId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.sourceId` is mapped to FHIR R4B element `TestScript.setup.action.operation.sourceId`."
+              "comment" : "Element `TestScript.setup.action.operation.sourceId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.operation.sourceId`."
             }
           ]
         },
@@ -1076,7 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.targetId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.targetId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.targetId` is mapped to FHIR R4B element `TestScript.setup.action.operation.targetId`."
+              "comment" : "Element `TestScript.setup.action.operation.targetId` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.targetId` is mapped to FHIR R4 element `TestScript.setup.action.operation.targetId`."
             }
           ]
         },
@@ -1087,7 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.operation.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.operation.url` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.url` is mapped to FHIR R4B element `TestScript.setup.action.operation.url`."
+              "comment" : "Element `TestScript.setup.action.operation.url` is part of an existing definition because parent element `TestScript.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.operation.url` is mapped to FHIR R4 element `TestScript.setup.action.operation.url`."
             }
           ]
         },
@@ -1098,7 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert` is mapped to FHIR R4B element `TestScript.setup.action.assert`."
+              "comment" : "Element `TestScript.setup.action.assert` is mapped to FHIR R4 element `TestScript.setup.action.assert`."
             }
           ]
         },
@@ -1109,7 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.label",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.label` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.label` is mapped to FHIR R4B element `TestScript.setup.action.assert.label`."
+              "comment" : "Element `TestScript.setup.action.assert.label` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.label` is mapped to FHIR R4 element `TestScript.setup.action.assert.label`."
             }
           ]
         },
@@ -1120,7 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.description` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.description` is mapped to FHIR R4B element `TestScript.setup.action.assert.description`."
+              "comment" : "Element `TestScript.setup.action.assert.description` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.description` is mapped to FHIR R4 element `TestScript.setup.action.assert.description`."
             }
           ]
         },
@@ -1131,7 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.direction",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.direction` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.direction` is mapped to FHIR R4B element `TestScript.setup.action.assert.direction`."
+              "comment" : "Element `TestScript.setup.action.assert.direction` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.direction` is mapped to FHIR R4 element `TestScript.setup.action.assert.direction`."
             }
           ]
         },
@@ -1142,7 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.compareToSourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.compareToSourceId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourceId` is mapped to FHIR R4B element `TestScript.setup.action.assert.compareToSourceId`."
+              "comment" : "Element `TestScript.setup.action.assert.compareToSourceId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceId`."
             }
           ]
         },
@@ -1153,12 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.compareToSourceExpression",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.compareToSourceExpression` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourceExpression` is mapped to FHIR R4B element `TestScript.setup.action.assert.compareToSourceExpression`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.compareToSourceExpression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.compareToSourceExpression` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourceExpression` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.compareToSourceExpression` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourceExpression` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceExpression`."
             }
           ]
         },
@@ -1169,7 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.compareToSourcePath",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.compareToSourcePath` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourcePath` is mapped to FHIR R4B element `TestScript.setup.action.assert.compareToSourcePath`."
+              "comment" : "Element `TestScript.setup.action.assert.compareToSourcePath` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.compareToSourcePath` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourcePath`."
             }
           ]
         },
@@ -1180,7 +1075,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.contentType` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.contentType` is mapped to FHIR R4B element `TestScript.setup.action.assert.contentType`."
+              "comment" : "Element `TestScript.setup.action.assert.contentType` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.contentType` is mapped to FHIR R4 element `TestScript.setup.action.assert.contentType`."
             }
           ]
         },
@@ -1189,9 +1084,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "defaultManualCompletion",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.defaultManualCompletion",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -1202,12 +1097,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.expression` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.expression` is mapped to FHIR R4B element `TestScript.setup.action.assert.expression`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.expression` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.expression` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.expression` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.expression` is mapped to FHIR R4 element `TestScript.setup.action.assert.expression`."
             }
           ]
         },
@@ -1218,7 +1108,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.headerField",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.headerField` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.headerField` is mapped to FHIR R4B element `TestScript.setup.action.assert.headerField`."
+              "comment" : "Element `TestScript.setup.action.assert.headerField` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.headerField` is mapped to FHIR R4 element `TestScript.setup.action.assert.headerField`."
             }
           ]
         },
@@ -1229,7 +1119,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.minimumId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.minimumId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.minimumId` is mapped to FHIR R4B element `TestScript.setup.action.assert.minimumId`."
+              "comment" : "Element `TestScript.setup.action.assert.minimumId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.minimumId` is mapped to FHIR R4 element `TestScript.setup.action.assert.minimumId`."
             }
           ]
         },
@@ -1240,7 +1130,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.navigationLinks",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.navigationLinks` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.navigationLinks` is mapped to FHIR R4B element `TestScript.setup.action.assert.navigationLinks`."
+              "comment" : "Element `TestScript.setup.action.assert.navigationLinks` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.navigationLinks` is mapped to FHIR R4 element `TestScript.setup.action.assert.navigationLinks`."
             }
           ]
         },
@@ -1251,7 +1141,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.operator",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.operator` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.operator` is mapped to FHIR R4B element `TestScript.setup.action.assert.operator`."
+              "comment" : "Element `TestScript.setup.action.assert.operator` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator`."
             }
           ]
         },
@@ -1262,7 +1152,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.path` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.path` is mapped to FHIR R4B element `TestScript.setup.action.assert.path`."
+              "comment" : "Element `TestScript.setup.action.assert.path` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.path` is mapped to FHIR R4 element `TestScript.setup.action.assert.path`."
             }
           ]
         },
@@ -1273,12 +1163,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.requestMethod",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.requestMethod` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requestMethod` is mapped to FHIR R4B element `TestScript.setup.action.assert.requestMethod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requestMethod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.requestMethod` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requestMethod` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.requestMethod` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requestMethod` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestMethod`."
             }
           ]
         },
@@ -1289,12 +1174,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.requestURL",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.requestURL` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requestURL` is mapped to FHIR R4B element `TestScript.setup.action.assert.requestURL`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requestURL",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.requestURL` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requestURL` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.requestURL` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requestURL` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestURL`."
             }
           ]
         },
@@ -1305,7 +1185,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.resource` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.resource` is mapped to FHIR R4B element `TestScript.setup.action.assert.resource`."
+              "comment" : "Element `TestScript.setup.action.assert.resource` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.resource` is mapped to FHIR R4 element `TestScript.setup.action.assert.resource`."
             }
           ]
         },
@@ -1316,7 +1196,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.response",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.response` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.response` is mapped to FHIR R4B element `TestScript.setup.action.assert.response`."
+              "comment" : "Element `TestScript.setup.action.assert.response` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response`."
             }
           ]
         },
@@ -1327,7 +1207,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.responseCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.responseCode` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.responseCode` is mapped to FHIR R4B element `TestScript.setup.action.assert.responseCode`."
+              "comment" : "Element `TestScript.setup.action.assert.responseCode` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.responseCode` is mapped to FHIR R4 element `TestScript.setup.action.assert.responseCode`."
             }
           ]
         },
@@ -1338,7 +1218,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.sourceId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.sourceId` is mapped to FHIR R4B element `TestScript.setup.action.assert.sourceId`."
+              "comment" : "Element `TestScript.setup.action.assert.sourceId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.sourceId`."
             }
           ]
         },
@@ -1347,9 +1227,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "stopTestOnFail",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.stopTestOnFail",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -1360,7 +1240,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.validateProfileId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.validateProfileId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.validateProfileId` is mapped to FHIR R4B element `TestScript.setup.action.assert.validateProfileId`."
+              "comment" : "Element `TestScript.setup.action.assert.validateProfileId` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.validateProfileId` is mapped to FHIR R4 element `TestScript.setup.action.assert.validateProfileId`."
             }
           ]
         },
@@ -1371,7 +1251,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.value` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.value` is mapped to FHIR R4B element `TestScript.setup.action.assert.value`."
+              "comment" : "Element `TestScript.setup.action.assert.value` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.value` is mapped to FHIR R4 element `TestScript.setup.action.assert.value`."
             }
           ]
         },
@@ -1382,7 +1262,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert.warningOnly",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.warningOnly` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.warningOnly` is mapped to FHIR R4B element `TestScript.setup.action.assert.warningOnly`."
+              "comment" : "Element `TestScript.setup.action.assert.warningOnly` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.warningOnly` is mapped to FHIR R4 element `TestScript.setup.action.assert.warningOnly`."
             }
           ]
         },
@@ -1391,9 +1271,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requirement",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -1402,9 +1282,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "link[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement:link",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -1415,7 +1295,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test` is mapped to FHIR R4B element `TestScript.test`."
+              "comment" : "Element `TestScript.test` is mapped to FHIR R4 element `TestScript.test`."
             }
           ]
         },
@@ -1426,7 +1306,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.name` is mapped to FHIR R4B element `TestScript.test.name`."
+              "comment" : "Element `TestScript.test.name` is mapped to FHIR R4 element `TestScript.test.name`."
             }
           ]
         },
@@ -1437,7 +1317,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.description` is mapped to FHIR R4B element `TestScript.test.description`."
+              "comment" : "Element `TestScript.test.description` is mapped to FHIR R4 element `TestScript.test.description`."
             }
           ]
         },
@@ -1448,7 +1328,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action` is mapped to FHIR R4B element `TestScript.test.action`."
+              "comment" : "Element `TestScript.test.action` is mapped to FHIR R4 element `TestScript.test.action`."
             }
           ]
         },
@@ -1459,7 +1339,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation` is mapped to FHIR R4B element `TestScript.test.action.operation`."
+              "comment" : "Element `TestScript.test.action.operation` is mapped to FHIR R4 element `TestScript.test.action.operation`."
             }
           ]
         },
@@ -1470,7 +1350,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.type` is mapped to FHIR R4B element `TestScript.test.action.operation.type`."
+              "comment" : "Element `TestScript.test.action.operation.type` is mapped to FHIR R4 element `TestScript.test.action.operation.type`."
             }
           ]
         },
@@ -1481,7 +1361,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.resource` is mapped to FHIR R4B element `TestScript.test.action.operation.resource`."
+              "comment" : "Element `TestScript.test.action.operation.resource` is mapped to FHIR R4 element `TestScript.test.action.operation.resource`."
             }
           ]
         },
@@ -1492,7 +1372,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.label",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.label` is mapped to FHIR R4B element `TestScript.test.action.operation.label`."
+              "comment" : "Element `TestScript.test.action.operation.label` is mapped to FHIR R4 element `TestScript.test.action.operation.label`."
             }
           ]
         },
@@ -1503,7 +1383,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.description` is mapped to FHIR R4B element `TestScript.test.action.operation.description`."
+              "comment" : "Element `TestScript.test.action.operation.description` is mapped to FHIR R4 element `TestScript.test.action.operation.description`."
             }
           ]
         },
@@ -1514,7 +1394,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.accept",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.accept` is mapped to FHIR R4B element `TestScript.test.action.operation.accept`."
+              "comment" : "Element `TestScript.test.action.operation.accept` is mapped to FHIR R4 element `TestScript.test.action.operation.accept`."
             }
           ]
         },
@@ -1525,7 +1405,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.contentType` is mapped to FHIR R4B element `TestScript.test.action.operation.contentType`."
+              "comment" : "Element `TestScript.test.action.operation.contentType` is mapped to FHIR R4 element `TestScript.test.action.operation.contentType`."
             }
           ]
         },
@@ -1536,7 +1416,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.destination` is mapped to FHIR R4B element `TestScript.test.action.operation.destination`."
+              "comment" : "Element `TestScript.test.action.operation.destination` is mapped to FHIR R4 element `TestScript.test.action.operation.destination`."
             }
           ]
         },
@@ -1547,7 +1427,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.encodeRequestUrl",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.encodeRequestUrl` is mapped to FHIR R4B element `TestScript.test.action.operation.encodeRequestUrl`."
+              "comment" : "Element `TestScript.test.action.operation.encodeRequestUrl` is mapped to FHIR R4 element `TestScript.test.action.operation.encodeRequestUrl`."
             }
           ]
         },
@@ -1558,12 +1438,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.method` is mapped to FHIR R4B element `TestScript.test.action.operation.method`."
-            },
-            {
-              "code" : "method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.method` is mapped to FHIR STU3 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.operation.method` is mapped to FHIR R4 element `TestScript.test.action.operation.method`."
             }
           ]
         },
@@ -1574,12 +1449,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.origin` is mapped to FHIR R4B element `TestScript.test.action.operation.origin`."
-            },
-            {
-              "code" : "origin",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.origin` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.operation.origin` is mapped to FHIR R4 element `TestScript.test.action.operation.origin`."
             }
           ]
         },
@@ -1590,7 +1460,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.params",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.params` is mapped to FHIR R4B element `TestScript.test.action.operation.params`."
+              "comment" : "Element `TestScript.test.action.operation.params` is mapped to FHIR R4 element `TestScript.test.action.operation.params`."
             }
           ]
         },
@@ -1601,7 +1471,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.requestHeader",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.requestHeader` is mapped to FHIR R4B element `TestScript.test.action.operation.requestHeader`."
+              "comment" : "Element `TestScript.test.action.operation.requestHeader` is mapped to FHIR R4 element `TestScript.test.action.operation.requestHeader`."
             }
           ]
         },
@@ -1612,7 +1482,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.requestHeader.field",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.requestHeader.field` is mapped to FHIR R4B element `TestScript.test.action.operation.requestHeader.field`."
+              "comment" : "Element `TestScript.test.action.operation.requestHeader.field` is mapped to FHIR R4 element `TestScript.test.action.operation.requestHeader.field`."
             }
           ]
         },
@@ -1623,7 +1493,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.requestHeader.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.requestHeader.value` is mapped to FHIR R4B element `TestScript.test.action.operation.requestHeader.value`."
+              "comment" : "Element `TestScript.test.action.operation.requestHeader.value` is mapped to FHIR R4 element `TestScript.test.action.operation.requestHeader.value`."
             }
           ]
         },
@@ -1634,12 +1504,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.requestId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.requestId` is mapped to FHIR R4B element `TestScript.test.action.operation.requestId`."
-            },
-            {
-              "code" : "requestId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.requestId` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.operation.requestId` is mapped to FHIR R4 element `TestScript.test.action.operation.requestId`."
             }
           ]
         },
@@ -1650,7 +1515,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.responseId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.responseId` is mapped to FHIR R4B element `TestScript.test.action.operation.responseId`."
+              "comment" : "Element `TestScript.test.action.operation.responseId` is mapped to FHIR R4 element `TestScript.test.action.operation.responseId`."
             }
           ]
         },
@@ -1661,7 +1526,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.sourceId` is mapped to FHIR R4B element `TestScript.test.action.operation.sourceId`."
+              "comment" : "Element `TestScript.test.action.operation.sourceId` is mapped to FHIR R4 element `TestScript.test.action.operation.sourceId`."
             }
           ]
         },
@@ -1672,7 +1537,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.targetId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.targetId` is mapped to FHIR R4B element `TestScript.test.action.operation.targetId`."
+              "comment" : "Element `TestScript.test.action.operation.targetId` is mapped to FHIR R4 element `TestScript.test.action.operation.targetId`."
             }
           ]
         },
@@ -1683,7 +1548,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.operation.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.operation.url` is mapped to FHIR R4B element `TestScript.test.action.operation.url`."
+              "comment" : "Element `TestScript.test.action.operation.url` is mapped to FHIR R4 element `TestScript.test.action.operation.url`."
             }
           ]
         },
@@ -1694,7 +1559,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert` is mapped to FHIR R4B element `TestScript.test.action.assert`."
+              "comment" : "Element `TestScript.test.action.assert` is mapped to FHIR R4 element `TestScript.test.action.assert`."
             }
           ]
         },
@@ -1705,7 +1570,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.label",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.label` is mapped to FHIR R4B element `TestScript.test.action.assert.label`."
+              "comment" : "Element `TestScript.test.action.assert.label` is mapped to FHIR R4 element `TestScript.test.action.assert.label`."
             }
           ]
         },
@@ -1716,7 +1581,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.description` is mapped to FHIR R4B element `TestScript.test.action.assert.description`."
+              "comment" : "Element `TestScript.test.action.assert.description` is mapped to FHIR R4 element `TestScript.test.action.assert.description`."
             }
           ]
         },
@@ -1727,7 +1592,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.direction",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.direction` is mapped to FHIR R4B element `TestScript.test.action.assert.direction`."
+              "comment" : "Element `TestScript.test.action.assert.direction` is mapped to FHIR R4 element `TestScript.test.action.assert.direction`."
             }
           ]
         },
@@ -1738,7 +1603,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.compareToSourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.compareToSourceId` is mapped to FHIR R4B element `TestScript.test.action.assert.compareToSourceId`."
+              "comment" : "Element `TestScript.test.action.assert.compareToSourceId` is mapped to FHIR R4 element `TestScript.test.action.assert.compareToSourceId`."
             }
           ]
         },
@@ -1749,7 +1614,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown` is mapped to FHIR R4B element `TestScript.teardown`."
+              "comment" : "Element `TestScript.teardown` is mapped to FHIR R4 element `TestScript.teardown`."
             }
           ]
         },
@@ -1760,12 +1625,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.compareToSourceExpression",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.compareToSourceExpression` is mapped to FHIR R4B element `TestScript.test.action.assert.compareToSourceExpression`."
-            },
-            {
-              "code" : "compareToSourceExpression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.compareToSourceExpression` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.compareToSourceExpression` is mapped to FHIR R4 element `TestScript.test.action.assert.compareToSourceExpression`."
             }
           ]
         },
@@ -1776,7 +1636,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.compareToSourcePath",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.compareToSourcePath` is mapped to FHIR R4B element `TestScript.test.action.assert.compareToSourcePath`."
+              "comment" : "Element `TestScript.test.action.assert.compareToSourcePath` is mapped to FHIR R4 element `TestScript.test.action.assert.compareToSourcePath`."
             }
           ]
         },
@@ -1787,7 +1647,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.contentType` is mapped to FHIR R4B element `TestScript.test.action.assert.contentType`."
+              "comment" : "Element `TestScript.test.action.assert.contentType` is mapped to FHIR R4 element `TestScript.test.action.assert.contentType`."
             }
           ]
         },
@@ -1796,9 +1656,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "defaultManualCompletion",
           "target" : [
             {
-              "code" : "defaultManualCompletion",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.defaultManualCompletion` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.defaultManualCompletion` is will have a context of TestScript.test.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -1809,7 +1669,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action` is mapped to FHIR R4B element `TestScript.teardown.action`."
+              "comment" : "Element `TestScript.teardown.action` is mapped to FHIR R4 element `TestScript.teardown.action`."
             }
           ]
         },
@@ -1820,12 +1680,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.expression` is mapped to FHIR R4B element `TestScript.test.action.assert.expression`."
-            },
-            {
-              "code" : "expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.expression` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.expression` is mapped to FHIR R4 element `TestScript.test.action.assert.expression`."
             }
           ]
         },
@@ -1836,7 +1691,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.headerField",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.headerField` is mapped to FHIR R4B element `TestScript.test.action.assert.headerField`."
+              "comment" : "Element `TestScript.test.action.assert.headerField` is mapped to FHIR R4 element `TestScript.test.action.assert.headerField`."
             }
           ]
         },
@@ -1847,7 +1702,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.minimumId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.minimumId` is mapped to FHIR R4B element `TestScript.test.action.assert.minimumId`."
+              "comment" : "Element `TestScript.test.action.assert.minimumId` is mapped to FHIR R4 element `TestScript.test.action.assert.minimumId`."
             }
           ]
         },
@@ -1858,7 +1713,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.navigationLinks",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.navigationLinks` is mapped to FHIR R4B element `TestScript.test.action.assert.navigationLinks`."
+              "comment" : "Element `TestScript.test.action.assert.navigationLinks` is mapped to FHIR R4 element `TestScript.test.action.assert.navigationLinks`."
             }
           ]
         },
@@ -1869,7 +1724,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation` is mapped to FHIR R4B element `TestScript.teardown.action.operation`."
+              "comment" : "Element `TestScript.teardown.action.operation` is mapped to FHIR R4 element `TestScript.teardown.action.operation`."
             }
           ]
         },
@@ -1880,7 +1735,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.operator",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.operator` is mapped to FHIR R4B element `TestScript.test.action.assert.operator`."
+              "comment" : "Element `TestScript.test.action.assert.operator` is mapped to FHIR R4 element `TestScript.test.action.assert.operator`."
             }
           ]
         },
@@ -1891,7 +1746,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.path` is mapped to FHIR R4B element `TestScript.test.action.assert.path`."
+              "comment" : "Element `TestScript.test.action.assert.path` is mapped to FHIR R4 element `TestScript.test.action.assert.path`."
             }
           ]
         },
@@ -1902,12 +1757,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.requestMethod",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.requestMethod` is mapped to FHIR R4B element `TestScript.test.action.assert.requestMethod`."
-            },
-            {
-              "code" : "requestMethod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.requestMethod` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.requestMethod` is mapped to FHIR R4 element `TestScript.test.action.assert.requestMethod`."
             }
           ]
         },
@@ -1918,12 +1768,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.requestURL",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.requestURL` is mapped to FHIR R4B element `TestScript.test.action.assert.requestURL`."
-            },
-            {
-              "code" : "requestURL",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.requestURL` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.requestURL` is mapped to FHIR R4 element `TestScript.test.action.assert.requestURL`."
             }
           ]
         },
@@ -1934,7 +1779,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.resource` is mapped to FHIR R4B element `TestScript.test.action.assert.resource`."
+              "comment" : "Element `TestScript.test.action.assert.resource` is mapped to FHIR R4 element `TestScript.test.action.assert.resource`."
             }
           ]
         },
@@ -1945,7 +1790,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.response",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.response` is mapped to FHIR R4B element `TestScript.test.action.assert.response`."
+              "comment" : "Element `TestScript.test.action.assert.response` is mapped to FHIR R4 element `TestScript.test.action.assert.response`."
             }
           ]
         },
@@ -1956,7 +1801,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.responseCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.responseCode` is mapped to FHIR R4B element `TestScript.test.action.assert.responseCode`."
+              "comment" : "Element `TestScript.test.action.assert.responseCode` is mapped to FHIR R4 element `TestScript.test.action.assert.responseCode`."
             }
           ]
         },
@@ -1967,7 +1812,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.sourceId` is mapped to FHIR R4B element `TestScript.test.action.assert.sourceId`."
+              "comment" : "Element `TestScript.test.action.assert.sourceId` is mapped to FHIR R4 element `TestScript.test.action.assert.sourceId`."
             }
           ]
         },
@@ -1976,9 +1821,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "stopTestOnFail",
           "target" : [
             {
-              "code" : "stopTestOnFail",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.stopTestOnFail` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.stopTestOnFail` is will have a context of TestScript.test.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -1989,7 +1834,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.validateProfileId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.validateProfileId` is mapped to FHIR R4B element `TestScript.test.action.assert.validateProfileId`."
+              "comment" : "Element `TestScript.test.action.assert.validateProfileId` is mapped to FHIR R4 element `TestScript.test.action.assert.validateProfileId`."
             }
           ]
         },
@@ -2000,7 +1845,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.value` is mapped to FHIR R4B element `TestScript.test.action.assert.value`."
+              "comment" : "Element `TestScript.test.action.assert.value` is mapped to FHIR R4 element `TestScript.test.action.assert.value`."
             }
           ]
         },
@@ -2011,7 +1856,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert.warningOnly",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.warningOnly` is mapped to FHIR R4B element `TestScript.test.action.assert.warningOnly`."
+              "comment" : "Element `TestScript.test.action.assert.warningOnly` is mapped to FHIR R4 element `TestScript.test.action.assert.warningOnly`."
             }
           ]
         },
@@ -2020,9 +1865,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requirement",
           "target" : [
             {
-              "code" : "requirement",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.requirement` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.requirement` is will have a context of TestScript.test.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -2031,9 +1876,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "link[x]",
           "target" : [
             {
-              "code" : "requirement:link",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.test.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.test.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.test.action.assert.requirement.link[x]` is mapped to FHIR R4B structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.test.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.test.action.assert.requirement.link[x]` is will have a context of TestScript.test.action.assert based on following the parent source element upwards and mapping to `TestScript`."
             }
           ]
         },
@@ -2044,7 +1889,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.type` is mapped to FHIR R4B element `TestScript.teardown.action.operation.type`."
+              "comment" : "Element `TestScript.teardown.action.operation.type` is mapped to FHIR R4 element `TestScript.teardown.action.operation.type`."
             }
           ]
         },
@@ -2055,7 +1900,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.resource` is mapped to FHIR R4B element `TestScript.teardown.action.operation.resource`."
+              "comment" : "Element `TestScript.teardown.action.operation.resource` is mapped to FHIR R4 element `TestScript.teardown.action.operation.resource`."
             }
           ]
         },
@@ -2066,7 +1911,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.label",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.label` is mapped to FHIR R4B element `TestScript.teardown.action.operation.label`."
+              "comment" : "Element `TestScript.teardown.action.operation.label` is mapped to FHIR R4 element `TestScript.teardown.action.operation.label`."
             }
           ]
         },
@@ -2077,7 +1922,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.description` is mapped to FHIR R4B element `TestScript.teardown.action.operation.description`."
+              "comment" : "Element `TestScript.teardown.action.operation.description` is mapped to FHIR R4 element `TestScript.teardown.action.operation.description`."
             }
           ]
         },
@@ -2088,7 +1933,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.accept",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.accept` is mapped to FHIR R4B element `TestScript.teardown.action.operation.accept`."
+              "comment" : "Element `TestScript.teardown.action.operation.accept` is mapped to FHIR R4 element `TestScript.teardown.action.operation.accept`."
             }
           ]
         },
@@ -2099,7 +1944,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.contentType` is mapped to FHIR R4B element `TestScript.teardown.action.operation.contentType`."
+              "comment" : "Element `TestScript.teardown.action.operation.contentType` is mapped to FHIR R4 element `TestScript.teardown.action.operation.contentType`."
             }
           ]
         },
@@ -2110,7 +1955,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.destination` is mapped to FHIR R4B element `TestScript.teardown.action.operation.destination`."
+              "comment" : "Element `TestScript.teardown.action.operation.destination` is mapped to FHIR R4 element `TestScript.teardown.action.operation.destination`."
             }
           ]
         },
@@ -2121,7 +1966,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.encodeRequestUrl",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.encodeRequestUrl` is mapped to FHIR R4B element `TestScript.teardown.action.operation.encodeRequestUrl`."
+              "comment" : "Element `TestScript.teardown.action.operation.encodeRequestUrl` is mapped to FHIR R4 element `TestScript.teardown.action.operation.encodeRequestUrl`."
             }
           ]
         },
@@ -2132,12 +1977,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.method` is mapped to FHIR R4B element `TestScript.teardown.action.operation.method`."
-            },
-            {
-              "code" : "method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.method` is mapped to FHIR STU3 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.teardown.action.operation.method` is mapped to FHIR R4 element `TestScript.teardown.action.operation.method`."
             }
           ]
         },
@@ -2148,12 +1988,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.origin` is mapped to FHIR R4B element `TestScript.teardown.action.operation.origin`."
-            },
-            {
-              "code" : "origin",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.origin` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.teardown.action.operation.origin` is mapped to FHIR R4 element `TestScript.teardown.action.operation.origin`."
             }
           ]
         },
@@ -2164,7 +1999,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.params",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.params` is mapped to FHIR R4B element `TestScript.teardown.action.operation.params`."
+              "comment" : "Element `TestScript.teardown.action.operation.params` is mapped to FHIR R4 element `TestScript.teardown.action.operation.params`."
             }
           ]
         },
@@ -2175,7 +2010,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.requestHeader",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.requestHeader` is mapped to FHIR R4B element `TestScript.teardown.action.operation.requestHeader`."
+              "comment" : "Element `TestScript.teardown.action.operation.requestHeader` is mapped to FHIR R4 element `TestScript.teardown.action.operation.requestHeader`."
             }
           ]
         },
@@ -2186,7 +2021,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.requestHeader.field",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.requestHeader.field` is mapped to FHIR R4B element `TestScript.teardown.action.operation.requestHeader.field`."
+              "comment" : "Element `TestScript.teardown.action.operation.requestHeader.field` is mapped to FHIR R4 element `TestScript.teardown.action.operation.requestHeader.field`."
             }
           ]
         },
@@ -2197,7 +2032,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.requestHeader.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.requestHeader.value` is mapped to FHIR R4B element `TestScript.teardown.action.operation.requestHeader.value`."
+              "comment" : "Element `TestScript.teardown.action.operation.requestHeader.value` is mapped to FHIR R4 element `TestScript.teardown.action.operation.requestHeader.value`."
             }
           ]
         },
@@ -2208,12 +2043,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.requestId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.requestId` is mapped to FHIR R4B element `TestScript.teardown.action.operation.requestId`."
-            },
-            {
-              "code" : "requestId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.requestId` is mapped to FHIR DSTU2 structure `TestScript`, but has no target element specified."
+              "comment" : "Element `TestScript.teardown.action.operation.requestId` is mapped to FHIR R4 element `TestScript.teardown.action.operation.requestId`."
             }
           ]
         },
@@ -2224,7 +2054,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.responseId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.responseId` is mapped to FHIR R4B element `TestScript.teardown.action.operation.responseId`."
+              "comment" : "Element `TestScript.teardown.action.operation.responseId` is mapped to FHIR R4 element `TestScript.teardown.action.operation.responseId`."
             }
           ]
         },
@@ -2235,7 +2065,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.sourceId` is mapped to FHIR R4B element `TestScript.teardown.action.operation.sourceId`."
+              "comment" : "Element `TestScript.teardown.action.operation.sourceId` is mapped to FHIR R4 element `TestScript.teardown.action.operation.sourceId`."
             }
           ]
         },
@@ -2246,7 +2076,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.targetId",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.targetId` is mapped to FHIR R4B element `TestScript.teardown.action.operation.targetId`."
+              "comment" : "Element `TestScript.teardown.action.operation.targetId` is mapped to FHIR R4 element `TestScript.teardown.action.operation.targetId`."
             }
           ]
         },
@@ -2257,7 +2087,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestScript#TestScript.teardown.action.operation.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestScript.teardown.action.operation.url` is mapped to FHIR R4B element `TestScript.teardown.action.operation.url`."
+              "comment" : "Element `TestScript.teardown.action.operation.url` is mapped to FHIR R4 element `TestScript.teardown.action.operation.url`."
             }
           ]
         }

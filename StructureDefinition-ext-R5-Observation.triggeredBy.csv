@@ -11,7 +11,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:observation","Extension.extension","observation","","",1,1,"","","","Extension {[]} {[]}
 ","Triggering observation","Reference to the triggering observation.","","Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.
-Element `Observation.triggeredBy.observation` is mapped to FHIR R4 structure `Observation`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Observation.triggeredBy.observation` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:observation.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -28,7 +29,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:type","Extension.extension","type","","",1,1,"","","","Extension {[]} {[]}
 ","reflex | repeat | re-run","The type of trigger.
 Reflex | Repeat | Re-run.","","Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.
-Element `Observation.triggeredBy.type` is mapped to FHIR R4 structure `Observation`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Observation.triggeredBy.type` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -45,7 +46,7 @@ Reflex | Repeat | Re-run.","","","","","","","","","",,,,,"",,,,"Extension.value
 ","N/A"
 "Extension.extension:reason","Extension.extension","reason","","",0,1,"","","","Extension {[]} {[]}
 ","Reason that the observation was triggered","Provides the reason why this observation was performed as a result of the observation(s) referenced.","","Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.
-Element `Observation.triggeredBy.reason` is mapped to FHIR R4 structure `Observation`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Observation.triggeredBy.reason` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:reason.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

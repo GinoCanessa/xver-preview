@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ObservationDefiniti
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ObservationDefinition for use in FHIR R4](StructureDefinition-profile-ObservationDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ObservationDefinition.component)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
   "title" : "Cross-version Extension `R5.ObservationDefinition.component` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ObservationDefinition.component` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ObservationDefinition.component` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ObservationDefinition.component` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ObservationDefinition.component` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ObservationDefinition.component` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ObservationDefinition.component` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ObservationDefinition.component` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ObservationDefinition.component` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ObservationDefinition"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "code",
         "short" : "Type of observation",
         "definition" : "Describes what will be observed.",
-        "requirements" : "Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.",
+        "requirements" : "Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "permittedDataType",
         "short" : "Quantity | CodeableConcept | string | boolean | integer | Range | Ratio | SampledData | time | dateTime | Period",
         "definition" : "The data types allowed for the value element of the instance of this component observations.",
-        "requirements" : "Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.",
+        "requirements" : "Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "permittedUnit",
         "short" : "Unit for quantitative results",
         "definition" : "Units allowed for the valueQuantity element in the instance observations conforming to this ObservationDefinition.",
-        "requirements" : "Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.",
+        "requirements" : "Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -329,7 +329,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "qualifiedValue",
         "short" : "Set of qualified values for observation results",
         "definition" : "A set of qualified values associated with a context and a set of conditions -  provides a range for quantitative and ordinal observations and a collection of value sets for qualitative observations.",
-        "requirements" : "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified.",
+        "requirements" : "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {

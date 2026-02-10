@@ -7,7 +7,7 @@ This cross-version profile allows R5 Task content to be represented via FHIR R4 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AuditEvent.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.basedOn.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md) and [Cross-version Extension `R5.Provenance.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Provenance.basedOn.md)
+* Refer to this Profile: [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md) and [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Task)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
   "title" : "Cross-version Profile for R5.Task for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8101259-06:00",
+  "date" : "2026-02-09T22:05:43.3768798-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,115 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         "path" : "Task"
       },
       {
+        "id" : "Task.extension",
+        "path" : "Task.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Task.extension:doNotPerform",
+        "path" : "Task.extension",
+        "sliceName" : "doNotPerform",
+        "short" : "Cross-version extension for Task.doNotPerform from R5 for use in FHIR R4",
+        "comment" : "Element `Task.doNotPerform` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Task.extension:requestedPeriod",
+        "path" : "Task.extension",
+        "sliceName" : "requestedPeriod",
+        "short" : "Cross-version extension for Task.requestedPeriod from R5 for use in FHIR R4",
+        "comment" : "Element `Task.requestedPeriod` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Task.extension:requestedPerformer",
+        "path" : "Task.extension",
+        "sliceName" : "requestedPerformer",
+        "short" : "Cross-version extension for Task.requestedPerformer from R5 for use in FHIR R4",
+        "comment" : "Element `Task.requestedPerformer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Task.extension:performer",
+        "path" : "Task.extension",
+        "sliceName" : "performer",
+        "short" : "Cross-version extension for Task.performer from R5 for use in FHIR R4",
+        "comment" : "Element `Task.performer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Task.statusReason.extension",
         "path" : "Task.statusReason.extension",
         "slicing" : {
@@ -161,7 +270,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Task.statusReason",
@@ -170,9 +279,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         }
       },
       {
-        "id" : "Task.statusReason.extension",
+        "id" : "Task.statusReason.extension:statusReason",
         "path" : "Task.statusReason.extension",
+        "sliceName" : "statusReason",
         "short" : "Cross-version extension for Task.statusReason from R5 for use in FHIR R4",
+        "comment" : "Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -211,9 +322,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         }
       },
       {
-        "id" : "Task.input.extension",
+        "id" : "Task.input.extension:value",
         "path" : "Task.input.extension",
+        "sliceName" : "value",
         "short" : "Cross-version extension for Task.input.value[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.\nElement `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]`.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -252,9 +365,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         }
       },
       {
-        "id" : "Task.output.extension",
+        "id" : "Task.output.extension:value",
         "path" : "Task.output.extension",
+        "sliceName" : "value",
         "short" : "Cross-version extension for Task.output.value[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.\nElement `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]`.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.",
         "min" : 1,
         "max" : "1",
         "base" : {

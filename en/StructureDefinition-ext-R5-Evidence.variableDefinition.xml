@@ -70,7 +70,7 @@
   <title value="Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -87,7 +87,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Evidence.variableDefinition` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Evidence.variableDefinition` 1..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Evidence.variableDefinition` 1..* `BackboneElement`&#xA;*  R4B: `Evidence.variableDefinition` 1..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Evidence.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Evidence.variableDefinition` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Evidence.variableDefinition` 1..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Evidence.variableDefinition` 1..* `BackboneElement`&#xA;*  R4B: `Evidence.variableDefinition` 1..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Evidence.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -98,7 +98,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Evidence"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -209,7 +209,7 @@
       <sliceName value="description"/>
       <short value="A text description or summary of the variable"/>
       <definition value="A text description or summary of the variable."/>
-      <requirements value="Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -373,7 +373,7 @@
       <sliceName value="note"/>
       <short value="Footnotes and/or explanatory notes"/>
       <definition value="Footnotes and/or explanatory notes."/>
-      <requirements value="Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -537,7 +537,7 @@
       <sliceName value="variableRole"/>
       <short value="population | subpopulation | exposure | referenceExposure | measuredVariable | confounder"/>
       <definition value="population | subpopulation | exposure | referenceExposure | measuredVariable | confounder."/>
-      <requirements value="Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.variableRole` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.variableRole` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -706,7 +706,7 @@
       <sliceName value="observed"/>
       <short value="Definition of the actual variable related to the statistic(s)"/>
       <definition value="Definition of the actual variable related to the statistic(s)."/>
-      <requirements value="Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.observed` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.observed` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Evidence.variableDefinition.observed` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -874,7 +874,7 @@
       <sliceName value="intended"/>
       <short value="Definition of the intended variable related to the Evidence"/>
       <definition value="Definition of the intended variable related to the Evidence."/>
-      <requirements value="Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.intended` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.intended` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Evidence.variableDefinition.intended` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1042,7 +1042,7 @@
       <sliceName value="directnessMatch"/>
       <short value="low | moderate | high | exact"/>
       <definition value="Indication of quality of match between intended variable to actual variable."/>
-      <requirements value="Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.directnessMatch` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.directnessMatch` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1447,7 +1447,7 @@
       <sliceName value="description"/>
       <short value="A text description or summary of the variable"/>
       <definition value="A text description or summary of the variable."/>
-      <requirements value="Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1487,7 +1487,7 @@
       <sliceName value="note"/>
       <short value="Footnotes and/or explanatory notes"/>
       <definition value="Footnotes and/or explanatory notes."/>
-      <requirements value="Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1527,7 +1527,7 @@
       <sliceName value="variableRole"/>
       <short value="population | subpopulation | exposure | referenceExposure | measuredVariable | confounder"/>
       <definition value="population | subpopulation | exposure | referenceExposure | measuredVariable | confounder."/>
-      <requirements value="Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.variableRole` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.variableRole` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1572,7 +1572,7 @@
       <sliceName value="observed"/>
       <short value="Definition of the actual variable related to the statistic(s)"/>
       <definition value="Definition of the actual variable related to the statistic(s)."/>
-      <requirements value="Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.observed` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.observed` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Evidence.variableDefinition.observed` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1616,7 +1616,7 @@
       <sliceName value="intended"/>
       <short value="Definition of the intended variable related to the Evidence"/>
       <definition value="Definition of the intended variable related to the Evidence."/>
-      <requirements value="Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.intended` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.intended` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Evidence.variableDefinition.intended` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1660,7 +1660,7 @@
       <sliceName value="directnessMatch"/>
       <short value="low | moderate | high | exact"/>
       <definition value="Indication of quality of match between intended variable to actual variable."/>
-      <requirements value="Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.directnessMatch` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.&#xA;Element `Evidence.variableDefinition.directnessMatch` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

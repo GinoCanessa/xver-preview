@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.0822723-06:00",
+  "date" : "2026-02-09T22:05:43.486352-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Availability` is representable via FHIR R4B extensions.\nElement `Availability` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
+              "comment" : "Element `Availability` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }
           ]
         },
@@ -93,11 +93,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Availability.availableTime",
           "display" : "availableTime",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:availableTime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.availableTime` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime",
               "equivalence" : "relatedto",
@@ -110,11 +105,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "daysOfWeek",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:availableTime:daysOfWeek",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.availableTime.daysOfWeek` is part of an existing definition because parent element `Availability.availableTime` requires a cross-version extension.\nElement `Availability.availableTime.daysOfWeek` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:daysOfWeek",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.availableTime.daysOfWeek` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
@@ -125,11 +115,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Availability.availableTime.allDay",
           "display" : "allDay",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:availableTime:allDay",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.availableTime.allDay` is part of an existing definition because parent element `Availability.availableTime` requires a cross-version extension.\nElement `Availability.availableTime.allDay` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:allDay",
               "equivalence" : "relatedto",
@@ -142,11 +127,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "availableStartTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:availableTime:availableStartTime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.availableTime.availableStartTime` is part of an existing definition because parent element `Availability.availableTime` requires a cross-version extension.\nElement `Availability.availableTime.availableStartTime` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:availableStartTime",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.availableTime.availableStartTime` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
@@ -157,11 +137,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Availability.availableTime.availableEndTime",
           "display" : "availableEndTime",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:availableTime:availableEndTime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.availableTime.availableEndTime` is part of an existing definition because parent element `Availability.availableTime` requires a cross-version extension.\nElement `Availability.availableTime.availableEndTime` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:availableEndTime",
               "equivalence" : "relatedto",
@@ -174,11 +149,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "notAvailableTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:notAvailableTime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.notAvailableTime` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.notAvailableTime` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
@@ -190,11 +160,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:notAvailableTime:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.notAvailableTime.description` is part of an existing definition because parent element `Availability.notAvailableTime` requires a cross-version extension.\nElement `Availability.notAvailableTime.description` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime:description",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.notAvailableTime.description` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
@@ -205,11 +170,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "Availability.notAvailableTime.during",
           "display" : "during",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:notAvailableTime:during",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Availability.notAvailableTime.during` is part of an existing definition because parent element `Availability.notAvailableTime` requires a cross-version extension.\nElement `Availability.notAvailableTime.during` is not mapped to FHIR R4B, since FHIR R5 `Availability` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime:during",
               "equivalence" : "relatedto",

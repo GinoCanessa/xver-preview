@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Task.performer` for
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Task for use in FHIR R4](StructureDefinition-profile-Task.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Task.performer)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Task.perfo
   "title" : "Cross-version Extension `R5.Task.performer` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Task.perfo
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Task.performer` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Task.performer` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Task.performer` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Task.performer` is mapped to FHIR R4 structure `Task`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Task.performer` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Task.performer` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Task.performer` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Task.performer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Task.perfo
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Task"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Task.perfo
         "sliceName" : "function",
         "short" : "Type of performance",
         "definition" : "A code or description of the performer of the task.",
-        "requirements" : "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is mapped to FHIR R4 structure `Task`, but has no target element specified.",
+        "requirements" : "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Task.perfo
         "sliceName" : "actor",
         "short" : "Who performed the task",
         "definition" : "The actor or entity who performed the task.",
-        "requirements" : "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` is mapped to FHIR R4 structure `Task`, but has no target element specified.",
+        "requirements" : "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Task.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Task.performer.actor` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
         "min" : 1,
         "max" : "1",
         "base" : {

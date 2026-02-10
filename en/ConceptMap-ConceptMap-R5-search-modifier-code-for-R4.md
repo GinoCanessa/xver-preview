@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of concepts from ValueSet `
   "title" : "Cross-version ConceptMap for ValueSet ValueSet-R5-search-modifier-code-for-R4 from FHIR R5 to FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:24.0212825-06:00",
+  "date" : "2026-02-09T22:05:37.3393439-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",

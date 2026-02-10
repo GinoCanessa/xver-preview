@@ -52,8 +52,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.846"}
-    h3,h4,h5,h6{--heading-prefix:"7.846"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.734"}
+    h3,h4,h5,h6{--heading-prefix:"7.734"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -357,7 +357,7 @@ XML Profile
          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version Extension `R5.MedicationKnowledge.storageGuideline` for use in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-06T19:17:19.5427077+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-10T04:05:33.0136333+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
@@ -387,7 +387,7 @@ Across FHIR versions, the element set has been mapped as:
 *  R5: `MedicationKnowledge.storageGuideline` 0..* `BackboneElement`
 
 Following are the generation technical comments:
-Element `MedicationKnowledge.storageGuideline` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4.0.1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">mapping</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
@@ -398,7 +398,7 @@ Element `MedicationKnowledge.storageGuideline` is mapped to FHIR R4 structure `M
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.abstract">abstract</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;element&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MedicationKnowledge&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Extension&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.baseDefinition">baseDefinition</a>
@@ -525,7 +525,7 @@ Element `MedicationKnowledge.storageGuideline` is mapped to FHIR R4 structure `M
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Reference to additional information about the storage guidelines.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.reference` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.reference` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -709,7 +709,7 @@ Element `MedicationKnowledge.storageGuideline.reference` is mapped to FHIR R4 st
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Additional notes about the storage.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.note` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.note` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -893,7 +893,7 @@ Element `MedicationKnowledge.storageGuideline.note` is mapped to FHIR R4 structu
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Duration that the medication remains stable if the environmentalSetting is respected.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.stabilityDuration` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.stabilityDuration` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1078,7 +1078,7 @@ Element `MedicationKnowledge.storageGuideline.stabilityDuration` is mapped to FH
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Describes a setting/value on the environment for the adequate storage of the medication and other substances.  Environment settings may involve temperature, humidity, or exposure to light.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.environmentalSetting` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.environmentalSetting` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1193,7 +1193,7 @@ Element `MedicationKnowledge.storageGuideline.environmentalSetting` is mapped to
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Identifies the category or type of setting (e.g., type of location, temperature, humidity).&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1381,7 +1381,7 @@ Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is mapp
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Value associated to the setting. E.g., 40° – 50°F for temperature.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2030,7 +2030,7 @@ Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Reference to additional information about the storage guidelines.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.reference` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.reference` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2073,7 +2073,7 @@ Element `MedicationKnowledge.storageGuideline.reference` is mapped to FHIR R4 st
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Additional notes about the storage.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.note` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.note` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2116,7 +2116,7 @@ Element `MedicationKnowledge.storageGuideline.note` is mapped to FHIR R4 structu
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Duration that the medication remains stable if the environmentalSetting is respected.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.stabilityDuration` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.stabilityDuration` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2160,7 +2160,7 @@ Element `MedicationKnowledge.storageGuideline.stabilityDuration` is mapped to FH
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Describes a setting/value on the environment for the adequate storage of the medication and other substances.  Environment settings may involve temperature, humidity, or exposure to light.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.environmentalSetting` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.environmentalSetting` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2195,7 +2195,7 @@ Element `MedicationKnowledge.storageGuideline.environmentalSetting` is mapped to
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Identifies the category or type of setting (e.g., type of location, temperature, humidity).&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2241,7 +2241,7 @@ Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is mapp
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Value associated to the setting. E.g., 40° – 50°F for temperature.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.
-Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.&quot;/&gt;
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2388,8 +2388,8 @@ Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Questionnaire.item.
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Questionnaire for use in FHIR R4](StructureDefinition-profile-Questionnaire.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Questionnaire.ite.disabledDisplay)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Questionna
   "title" : "Cross-version Extension `R5.Questionnaire.item.disabledDisplay` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Questionna
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Questionnaire.item.disabledDisplay` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Questionnaire.item.disabledDisplay` 0..1 `code`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Questionnaire.item.disabledDisplay` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Questionnaire.item.disabledDisplay` is part of an existing definition because parent element `Questionnaire.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `Questionnaire.item.disabledDisplay` is mapped to FHIR R4 structure `Questionnaire`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Questionnaire.item.disabledDisplay` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Questionnaire.item.disabledDisplay` 0..1 `code`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Questionnaire.item.disabledDisplay` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Questionnaire.item.disabledDisplay` is part of an existing definition because parent element `Questionnaire.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `Questionnaire.item.disabledDisplay` is will have a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Questionna
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Questionnaire.item"
     }
   ],
   "type" : "Extension",

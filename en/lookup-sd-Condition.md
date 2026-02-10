@@ -30,9 +30,9 @@ A computable version of the following element information is available in: [Conc
 | [`Condition.onset[x]`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition.onset[x]](https://hl7.org/fhir/R4/Condition.html#resource) |
 | [`Condition.abatement[x]`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition.abatement[x]](https://hl7.org/fhir/R4/Condition.html#resource) |
 | [`Condition.recordedDate`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition.recordedDate](https://hl7.org/fhir/R4/Condition.html#resource) |
-| [`Condition.participant`](https://hl7.org/fhir/R5/Condition.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant](StructureDefinition-ext-R5-Condition.participant.md) |
-| [`Condition.participant.function`](https://hl7.org/fhir/R5/Condition.html#resource) | [Extension slice: function](StructureDefinition-ext-R5-Condition.participant.md) |
-| [`Condition.participant.actor`](https://hl7.org/fhir/R5/Condition.html#resource) | [Extension slice: actor](StructureDefinition-ext-R5-Condition.participant.md) |
+| [`Condition.participant`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition](https://hl7.org/fhir/R4/Condition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant](StructureDefinition-ext-R5-Condition.participant.md) |
+| [`Condition.participant.function`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition](https://hl7.org/fhir/R4/Condition.html#resource)[Extension slice: function](StructureDefinition-ext-R5-Condition.participant.md) |
+| [`Condition.participant.actor`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition](https://hl7.org/fhir/R4/Condition.html#resource)[Extension slice: actor](StructureDefinition-ext-R5-Condition.participant.md) |
 | [`Condition.stage`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition.stage](https://hl7.org/fhir/R4/Condition.html#resource) |
 | [`Condition.stage.summary`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition.stage.summary](https://hl7.org/fhir/R4/Condition.html#resource) |
 | [`Condition.stage.assessment`](https://hl7.org/fhir/R5/Condition.html#resource) | [Condition.stage.assessment](https://hl7.org/fhir/R4/Condition.html#resource) |

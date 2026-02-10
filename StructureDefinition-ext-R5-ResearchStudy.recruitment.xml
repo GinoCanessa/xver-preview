@@ -63,7 +63,7 @@
   <title value="Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -202,7 +202,7 @@
       <sliceName value="targetNumber"/>
       <short value="Estimated total number of participants to be enrolled"/>
       <definition value="Estimated total number of participants to be enrolled."/>
-      <requirements value="Element `ResearchStudy.recruitment.targetNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.recruitment.targetNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -366,7 +366,7 @@
       <sliceName value="actualNumber"/>
       <short value="Actual total number of participants enrolled in study"/>
       <definition value="Actual total number of participants enrolled in study."/>
-      <requirements value="Element `ResearchStudy.recruitment.actualNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.recruitment.actualNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -530,7 +530,7 @@
       <sliceName value="eligibility"/>
       <short value="Inclusion and exclusion criteria"/>
       <definition value="Inclusion and exclusion criteria."/>
-      <requirements value="Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -696,7 +696,7 @@
       <sliceName value="actualGroup"/>
       <short value="Group of participants who were enrolled in study"/>
       <definition value="Group of participants who were enrolled in study."/>
-      <requirements value="Element `ResearchStudy.recruitment.actualGroup` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `ResearchStudy.recruitment.actualGroup` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1098,7 +1098,7 @@
       <sliceName value="targetNumber"/>
       <short value="Estimated total number of participants to be enrolled"/>
       <definition value="Estimated total number of participants to be enrolled."/>
-      <requirements value="Element `ResearchStudy.recruitment.targetNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.recruitment.targetNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1138,7 +1138,7 @@
       <sliceName value="actualNumber"/>
       <short value="Actual total number of participants enrolled in study"/>
       <definition value="Actual total number of participants enrolled in study."/>
-      <requirements value="Element `ResearchStudy.recruitment.actualNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Element `ResearchStudy.recruitment.actualNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1178,7 +1178,7 @@
       <sliceName value="eligibility"/>
       <short value="Inclusion and exclusion criteria"/>
       <definition value="Inclusion and exclusion criteria."/>
-      <requirements value="Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1220,7 +1220,7 @@
       <sliceName value="actualGroup"/>
       <short value="Group of participants who were enrolled in study"/>
       <definition value="Group of participants who were enrolled in study."/>
-      <requirements value="Element `ResearchStudy.recruitment.actualGroup` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `ResearchStudy.recruitment.actualGroup` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

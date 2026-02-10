@@ -12,7 +12,7 @@
   fhir:language [ fhir:v "en"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Annotation-elements-for-R4-Annotation</b></p><a name=\"ConceptMap-R5-Annotation-elements-for-R4-Annotation\"> </a><a name=\"hcConceptMap-R5-Annotation-elements-for-R4-Annotation\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Annotation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Annotation</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation</td><td>FHIR R5 ComplexType `Annotation` is representable via FHIR R4B extensions.\nElement `Annotation` is mapped to FHIR R4B element `Annotation`.</td></tr><tr><td>Annotation.author[x] (author[x])</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.author[x]</td><td>Note that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`.\nElement `Annotation.author[x]` is mapped to FHIR R4B element `Annotation.author[x]`.\nNote that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`.</td></tr><tr><td>Annotation.time (time)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.time</td><td>Element `Annotation.time` is mapped to FHIR R4B element `Annotation.time`.</td></tr><tr><td>Annotation.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.text</td><td>Element `Annotation.text` is mapped to FHIR R4B element `Annotation.text`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Annotation-elements-for-R4-Annotation</b></p><a name=\"ConceptMap-R5-Annotation-elements-for-R4-Annotation\"> </a><a name=\"hcConceptMap-R5-Annotation-elements-for-R4-Annotation\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Annotation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Annotation</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation</td><td>FHIR R5 ComplexType `Annotation` is representable via FHIR R4 extensions.\nElement `Annotation` is mapped to FHIR R4 element `Annotation`.</td></tr><tr><td>Annotation.author[x] (author[x])</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.author[x]</td><td>Note that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`.\nElement `Annotation.author[x]` is mapped to FHIR R4 element `Annotation.author[x]`.\nNote that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`.</td></tr><tr><td>Annotation.time (time)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.time</td><td>Element `Annotation.time` is mapped to FHIR R4 element `Annotation.time`.</td></tr><tr><td>Annotation.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.text</td><td>Element `Annotation.text` is mapped to FHIR R4 element `Annotation.text`.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -73,7 +73,7 @@
   fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T13:17:30.988967-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-09T22:05:43.4581858-06:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
@@ -104,7 +104,7 @@
        fhir:target ( [
          fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Annotation#Annotation" ] ;
          fhir:equivalence [ fhir:v "relatedto" ] ;
-         fhir:comment [ fhir:v "FHIR R5 ComplexType `Annotation` is representable via FHIR R4B extensions.\nElement `Annotation` is mapped to FHIR R4B element `Annotation`." ]
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `Annotation` is representable via FHIR R4 extensions.\nElement `Annotation` is mapped to FHIR R4 element `Annotation`." ]
        ] )
      ] [
        fhir:code [ fhir:v "Annotation.author[x]" ] ;
@@ -112,7 +112,7 @@
        fhir:target ( [
          fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.author[x]" ] ;
          fhir:equivalence [ fhir:v "relatedto" ] ;
-         fhir:comment [ fhir:v "Note that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`.\nElement `Annotation.author[x]` is mapped to FHIR R4B element `Annotation.author[x]`.\nNote that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`." ]
+         fhir:comment [ fhir:v "Note that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`.\nElement `Annotation.author[x]` is mapped to FHIR R4 element `Annotation.author[x]`.\nNote that the target element context `Annotation.author[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Annotation`." ]
        ] )
      ] [
        fhir:code [ fhir:v "Annotation.time" ] ;
@@ -120,7 +120,7 @@
        fhir:target ( [
          fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.time" ] ;
          fhir:equivalence [ fhir:v "relatedto" ] ;
-         fhir:comment [ fhir:v "Element `Annotation.time` is mapped to FHIR R4B element `Annotation.time`." ]
+         fhir:comment [ fhir:v "Element `Annotation.time` is mapped to FHIR R4 element `Annotation.time`." ]
        ] )
      ] [
        fhir:code [ fhir:v "Annotation.text" ] ;
@@ -128,7 +128,7 @@
        fhir:target ( [
          fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Annotation#Annotation.text" ] ;
          fhir:equivalence [ fhir:v "relatedto" ] ;
-         fhir:comment [ fhir:v "Element `Annotation.text` is mapped to FHIR R4B element `Annotation.text`." ]
+         fhir:comment [ fhir:v "Element `Annotation.text` is mapped to FHIR R4 element `Annotation.text`." ]
        ] )
      ] )
   ] ) . # 

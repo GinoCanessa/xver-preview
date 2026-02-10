@@ -150,7 +150,7 @@
   <title value="Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -290,7 +290,7 @@
       <sliceName value="linkId"/>
       <short value="Label for internal linking"/>
       <definition value="Label used for when a characteristic refers to another characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -618,7 +618,7 @@
       <sliceName value="note"/>
       <short value="Used for footnotes or explanatory notes"/>
       <definition value="A human-readable string to clarify or explain concepts about the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -946,7 +946,7 @@
       <sliceName value="definitionReference"/>
       <short value="Defines the characteristic (without using type and value) by a Reference"/>
       <definition value="Defines the characteristic using a Reference."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1116,7 +1116,7 @@
       <sliceName value="definitionCanonical"/>
       <short value="Defines the characteristic (without using type and value) by a Canonical"/>
       <definition value="Defines the characteristic using Canonical."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1284,7 +1284,7 @@
       <sliceName value="definitionCodeableConcept"/>
       <short value="Defines the characteristic (without using type and value) by a CodeableConcept"/>
       <definition value="Defines the characteristic using CodeableConcept."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1449,7 +1449,7 @@
       <short value="Defines the characteristic (without using type and value) by an expression"/>
       <definition value="Defines the characteristic using Expression."/>
       <comment value="When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1614,7 +1614,7 @@
       <sliceName value="definitionId"/>
       <short value="Defines the characteristic (without using type and value) by an id"/>
       <definition value="Defines the characteristic using id."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1778,7 +1778,7 @@
       <sliceName value="definitionByTypeAndValue"/>
       <short value="Defines the characteristic using type and value"/>
       <definition value="Defines the characteristic using both a type and value[x] elements."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1880,7 +1880,7 @@
       <sliceName value="type"/>
       <short value="Expresses the type of characteristic"/>
       <definition value="Used to express the type of characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2048,7 +2048,7 @@
       <sliceName value="method"/>
       <short value="Method for how the characteristic value was determined"/>
       <definition value="Method for how the characteristic value was determined."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2212,7 +2212,7 @@
       <sliceName value="device"/>
       <short value="Device used for determining characteristic"/>
       <definition value="Device used for determining characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2380,7 +2380,7 @@
       <sliceName value="value"/>
       <short value="Defines the characteristic when coupled with characteristic.type"/>
       <definition value="Defines the characteristic when paired with characteristic.type."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2559,7 +2559,7 @@
       <sliceName value="offset"/>
       <short value="Reference point for valueQuantity or valueRange"/>
       <definition value="Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2926,7 +2926,7 @@
       <sliceName value="definitionByCombination"/>
       <short value="Used to specify how two or more characteristics are combined"/>
       <definition value="Defines the characteristic as a combination of two or more characteristics."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3028,7 +3028,7 @@
       <sliceName value="code"/>
       <short value="all-of | any-of | at-least | at-most | statistical | net-effect | dataset"/>
       <definition value="Used to specify if two or more characteristics are combined with OR or AND."/>
-      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3196,7 +3196,7 @@
       <sliceName value="threshold"/>
       <short value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used"/>
       <definition value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3360,7 +3360,7 @@
       <sliceName value="characteristic"/>
       <short value="A defining factor of the characteristic"/>
       <definition value="A defining factor of the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -3874,7 +3874,7 @@
       <sliceName value="instances"/>
       <short value="Number of occurrences meeting the characteristic"/>
       <definition value="Number of occurrences meeting the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4041,7 +4041,7 @@
       <sliceName value="duration"/>
       <short value="Length of time in which the characteristic is met"/>
       <definition value="Length of time in which the characteristic is met."/>
-      <requirements value="Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4310,7 +4310,7 @@
       <sliceName value="description"/>
       <short value="Human readable description"/>
       <definition value="Human readable description."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4474,7 +4474,7 @@
       <sliceName value="note"/>
       <short value="Used for footnotes or explanatory notes"/>
       <definition value="A human-readable string to clarify or explain concepts about the timeFromEvent."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4638,7 +4638,7 @@
       <sliceName value="event"/>
       <short value="The event used as a base point (reference point) in time"/>
       <definition value="The event used as a base point (reference point) in time."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4811,7 +4811,7 @@
       <sliceName value="quantity"/>
       <short value="Used to express the observation at a defined amount of time before or after the event"/>
       <definition value="Used to express the observation at a defined amount of time before or after the event."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4975,7 +4975,7 @@
       <sliceName value="range"/>
       <short value="Used to express the observation within a period before and/or after the event"/>
       <definition value="Used to express the observation within a period before and/or after the event."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5579,7 +5579,7 @@
       <sliceName value="linkId"/>
       <short value="Label for internal linking"/>
       <definition value="Label used for when a characteristic refers to another characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5659,7 +5659,7 @@
       <sliceName value="note"/>
       <short value="Used for footnotes or explanatory notes"/>
       <definition value="A human-readable string to clarify or explain concepts about the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5739,7 +5739,7 @@
       <sliceName value="definitionReference"/>
       <short value="Defines the characteristic (without using type and value) by a Reference"/>
       <definition value="Defines the characteristic using a Reference."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5785,7 +5785,7 @@
       <sliceName value="definitionCanonical"/>
       <short value="Defines the characteristic (without using type and value) by a Canonical"/>
       <definition value="Defines the characteristic using Canonical."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5829,7 +5829,7 @@
       <sliceName value="definitionCodeableConcept"/>
       <short value="Defines the characteristic (without using type and value) by a CodeableConcept"/>
       <definition value="Defines the characteristic using CodeableConcept."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5870,7 +5870,7 @@
       <short value="Defines the characteristic (without using type and value) by an expression"/>
       <definition value="Defines the characteristic using Expression."/>
       <comment value="When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5911,7 +5911,7 @@
       <sliceName value="definitionId"/>
       <short value="Defines the characteristic (without using type and value) by an id"/>
       <definition value="Defines the characteristic using id."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5951,7 +5951,7 @@
       <sliceName value="definitionByTypeAndValue"/>
       <short value="Defines the characteristic using type and value"/>
       <definition value="Defines the characteristic using both a type and value[x] elements."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5983,7 +5983,7 @@
       <sliceName value="type"/>
       <short value="Expresses the type of characteristic"/>
       <definition value="Used to express the type of characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -6027,7 +6027,7 @@
       <sliceName value="method"/>
       <short value="Method for how the characteristic value was determined"/>
       <definition value="Method for how the characteristic value was determined."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -6067,7 +6067,7 @@
       <sliceName value="device"/>
       <short value="Device used for determining characteristic"/>
       <definition value="Device used for determining characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6111,7 +6111,7 @@
       <sliceName value="value"/>
       <short value="Defines the characteristic when coupled with characteristic.type"/>
       <definition value="Defines the characteristic when paired with characteristic.type."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -6166,7 +6166,7 @@
       <sliceName value="offset"/>
       <short value="Reference point for valueQuantity or valueRange"/>
       <definition value="Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6227,7 +6227,7 @@
       <sliceName value="definitionByCombination"/>
       <short value="Used to specify how two or more characteristics are combined"/>
       <definition value="Defines the characteristic as a combination of two or more characteristics."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6259,7 +6259,7 @@
       <sliceName value="code"/>
       <short value="all-of | any-of | at-least | at-most | statistical | net-effect | dataset"/>
       <definition value="Used to specify if two or more characteristics are combined with OR or AND."/>
-      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -6303,7 +6303,7 @@
       <sliceName value="threshold"/>
       <short value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used"/>
       <definition value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6343,7 +6343,7 @@
       <sliceName value="characteristic"/>
       <short value="A defining factor of the characteristic"/>
       <definition value="A defining factor of the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -6399,7 +6399,7 @@
       <sliceName value="instances"/>
       <short value="Number of occurrences meeting the characteristic"/>
       <definition value="Number of occurrences meeting the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6442,7 +6442,7 @@
       <sliceName value="duration"/>
       <short value="Length of time in which the characteristic is met"/>
       <definition value="Length of time in which the characteristic is met."/>
-      <requirements value="Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6517,7 +6517,7 @@
       <sliceName value="description"/>
       <short value="Human readable description"/>
       <definition value="Human readable description."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6557,7 +6557,7 @@
       <sliceName value="note"/>
       <short value="Used for footnotes or explanatory notes"/>
       <definition value="A human-readable string to clarify or explain concepts about the timeFromEvent."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -6597,7 +6597,7 @@
       <sliceName value="event"/>
       <short value="The event used as a base point (reference point) in time"/>
       <definition value="The event used as a base point (reference point) in time."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6646,7 +6646,7 @@
       <sliceName value="quantity"/>
       <short value="Used to express the observation at a defined amount of time before or after the event"/>
       <definition value="Used to express the observation at a defined amount of time before or after the event."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -6686,7 +6686,7 @@
       <sliceName value="range"/>
       <short value="Used to express the observation within a period before and/or after the event"/>
       <definition value="Used to express the observation within a period before and/or after the event."/>
-      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

@@ -67,7 +67,7 @@
   <title value="Cross-version Extension `R5.ConceptMap.property` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -84,7 +84,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ConceptMap.property` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ConceptMap.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ConceptMap.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ConceptMap.property` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ConceptMap.property` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ConceptMap.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ConceptMap.property` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ConceptMap.property` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -95,7 +95,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ConceptMap"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -207,7 +207,7 @@
       <sliceName value="code"/>
       <short value="Identifies the property on the mappings, and when referred to in the $translate operation"/>
       <definition value="A code that is used to identify the property. The code is used internally (in ConceptMap.group.element.target.property.code) and also in the $translate operation."/>
-      <requirements value="Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -371,7 +371,7 @@
       <sliceName value="uri"/>
       <short value="Formal identifier for the property"/>
       <definition value="Reference to the formal meaning of the property."/>
-      <requirements value="Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -535,7 +535,7 @@
       <sliceName value="description"/>
       <short value="Why the property is defined, and/or what it conveys"/>
       <definition value="A description of the property - why it is defined, and how its value might be used."/>
-      <requirements value="Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -699,7 +699,7 @@
       <sliceName value="type"/>
       <short value="Coding | string | integer | boolean | dateTime | decimal | code"/>
       <definition value="The type of the property value."/>
-      <requirements value="Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -863,7 +863,7 @@
       <sliceName value="system"/>
       <short value="The CodeSystem from which code values come"/>
       <definition value="The CodeSystem that defines the codes from which values of type ```code``` in property values."/>
-      <requirements value="Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.system` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `ConceptMap.property.system` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1266,7 +1266,7 @@
       <sliceName value="code"/>
       <short value="Identifies the property on the mappings, and when referred to in the $translate operation"/>
       <definition value="A code that is used to identify the property. The code is used internally (in ConceptMap.group.element.target.property.code) and also in the $translate operation."/>
-      <requirements value="Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1306,7 +1306,7 @@
       <sliceName value="uri"/>
       <short value="Formal identifier for the property"/>
       <definition value="Reference to the formal meaning of the property."/>
-      <requirements value="Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1346,7 +1346,7 @@
       <sliceName value="description"/>
       <short value="Why the property is defined, and/or what it conveys"/>
       <definition value="A description of the property - why it is defined, and how its value might be used."/>
-      <requirements value="Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1386,7 +1386,7 @@
       <sliceName value="type"/>
       <short value="Coding | string | integer | boolean | dateTime | decimal | code"/>
       <definition value="The type of the property value."/>
-      <requirements value="Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1426,7 +1426,7 @@
       <sliceName value="system"/>
       <short value="The CodeSystem from which code values come"/>
       <definition value="The CodeSystem that defines the codes from which values of type ```code``` in property values."/>
-      <requirements value="Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Element `ConceptMap.property.system` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `ConceptMap.property.system` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

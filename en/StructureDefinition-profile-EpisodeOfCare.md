@@ -7,7 +7,7 @@ This cross-version profile allows R5 EpisodeOfCare content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DeviceUsage.context` for use in FHIR R4](StructureDefinition-ext-R5-DeviceUsage.context.md) and [Cross-version Extension `R5.DocumentReference.context` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.context.md)
+* Refer to this Profile: [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-EpisodeOfCare)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
   "title" : "Cross-version Profile for R5.EpisodeOfCare for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6856435-06:00",
+  "date" : "2026-02-09T22:05:43.1069605-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
         "path" : "EpisodeOfCare"
       },
       {
+        "id" : "EpisodeOfCare.extension",
+        "path" : "EpisodeOfCare.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "EpisodeOfCare.extension:reason",
+        "path" : "EpisodeOfCare.extension",
+        "sliceName" : "reason",
+        "short" : "Cross-version extension for EpisodeOfCare.reason from R5 for use in FHIR R4",
+        "comment" : "Element `EpisodeOfCare.reason` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "EpisodeOfCare.diagnosis.condition.extension",
         "path" : "EpisodeOfCare.diagnosis.condition.extension",
         "slicing" : {
@@ -156,7 +199,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "EpisodeOfCare.diagnosis.condition",
@@ -165,9 +208,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
         }
       },
       {
-        "id" : "EpisodeOfCare.diagnosis.condition.extension",
+        "id" : "EpisodeOfCare.diagnosis.condition.extension:condition",
         "path" : "EpisodeOfCare.diagnosis.condition.extension",
+        "sliceName" : "condition",
         "short" : "Cross-version extension for EpisodeOfCare.diagnosis.condition from R5 for use in FHIR R4",
+        "comment" : "Element `EpisodeOfCare.diagnosis.condition` is mapped to FHIR R4 element `EpisodeOfCare.diagnosis.condition`.",
         "min" : 0,
         "max" : "*",
         "base" : {

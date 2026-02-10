@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
   "title" : "Cross-version Profile for R5.Subscription for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7986935-06:00",
+  "date" : "2026-02-09T22:05:43.3430726-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -139,6 +139,227 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription"
       },
       {
+        "id" : "Subscription.extension",
+        "path" : "Subscription.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Subscription.extension:name",
+        "path" : "Subscription.extension",
+        "sliceName" : "name",
+        "short" : "Cross-version extension for Subscription.name from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.name|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:filterBy",
+        "path" : "Subscription.extension",
+        "sliceName" : "filterBy",
+        "short" : "Cross-version extension for Subscription.filterBy from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:parameter",
+        "path" : "Subscription.extension",
+        "sliceName" : "parameter",
+        "short" : "Cross-version extension for Subscription.parameter from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:heartbeatPeriod",
+        "path" : "Subscription.extension",
+        "sliceName" : "heartbeatPeriod",
+        "short" : "Cross-version extension for Subscription.heartbeatPeriod from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.heartbeatPeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:timeout",
+        "path" : "Subscription.extension",
+        "sliceName" : "timeout",
+        "short" : "Cross-version extension for Subscription.timeout from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.timeout|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:content",
+        "path" : "Subscription.extension",
+        "sliceName" : "content",
+        "short" : "Cross-version extension for Subscription.content from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.content|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:maxCount",
+        "path" : "Subscription.extension",
+        "sliceName" : "maxCount",
+        "short" : "Cross-version extension for Subscription.maxCount from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.maxCount|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:topic",
+        "path" : "Subscription.extension",
+        "sliceName" : "topic",
+        "short" : "Cross-version extension for Subscription.topic from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SubscriptionTopic in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Subscription.extension:managingEntity",
+        "path" : "Subscription.extension",
+        "sliceName" : "managingEntity",
+        "short" : "Cross-version extension for Subscription.managingEntity from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Subscription.status.extension",
         "path" : "Subscription.status.extension",
         "slicing" : {
@@ -160,9 +381,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         }
       },
       {
-        "id" : "Subscription.status.extension",
+        "id" : "Subscription.status.extension:status",
         "path" : "Subscription.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for Subscription.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` is mapped to FHIR R4 element `Subscription.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -201,9 +424,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         }
       },
       {
-        "id" : "Subscription.channel.type.extension",
+        "id" : "Subscription.channel.type.extension:channelType",
         "path" : "Subscription.channel.type.extension",
+        "sliceName" : "channelType",
         "short" : "Cross-version extension for Subscription.channelType from R5 for use in FHIR R4",
+        "comment" : "Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`.",
         "min" : 1,
         "max" : "1",
         "base" : {

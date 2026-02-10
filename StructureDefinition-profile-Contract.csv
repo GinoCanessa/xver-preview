@@ -20,12 +20,26 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "Contract.contained","Contract.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"Contract.extension","Contract.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Contract.extension","Contract.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Contract.extension","Contract.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legallyBinding|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4","Legally binding Contract: This is the signed and legally recognized representation of the Contract, which is considered the ""source of truth"" and which would be the basis for legal action related to enforcement of this Contract.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Contract.extension:legallyBinding","Contract.extension","legallyBinding","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legallyBinding|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4","Legally binding Contract: This is the signed and legally recognized representation of the Contract, which is considered the ""source of truth"" and which would be the basis for legal action related to enforcement of this Contract.","Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.
+Element `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.
+Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Contract.extension:legallyBindingCanonical","Contract.extension","legallyBindingCanonical","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legallyBinding|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4","This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4","Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.
+Element `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.
+Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Contract.extension:legallyBindingReference","Contract.extension","legallyBindingReference","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legallyBinding|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4","Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.
+Element `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.
+Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Contract.modifierExtension","Contract.modifierExtension","","extensions
@@ -359,12 +373,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "Contract.term.asset.answer.id","Contract.term.asset.answer.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Contract.term.asset.answer.extension","Contract.term.asset.answer.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Contract.term.asset.answer.extension","Contract.term.asset.answer.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Contract.term.asset.answer.extension","Contract.term.asset.answer.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.asset.answer|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Contract.term.asset.answer from R5 for use in FHIR R4","Response to assets.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Contract.term.asset.answer.extension:answer","Contract.term.asset.answer.extension","answer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.asset.answer|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.term.asset.answer from R5 for use in FHIR R4","Response to assets.","Element `Contract.term.asset.answer` is mapped to FHIR R4 element `Contract.term.asset.answer`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Contract.term.asset.answer.modifierExtension","Contract.term.asset.answer.modifierExtension","","extensions
@@ -570,12 +584,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","LanguageCommunication","FiveWs.what[x]"
 "Contract.friendly.id","Contract.friendly.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Contract.friendly.extension","Contract.friendly.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Contract.friendly.extension","Contract.friendly.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Contract.friendly.extension","Contract.friendly.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.friendly|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Contract.friendly from R5 for use in FHIR R4","The ""patient friendly language"" versionof the Contract in whole or in parts. ""Patient friendly language"" means the representation of the Contract and Contract Provisions in a manner that is readily accessible and understandable by a layperson in accordance with best practices for communication styles that ensure that those agreeing to or signing the Contract understand the roles, actions, obligations, responsibilities, and implication of the agreement.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Contract.friendly.extension:friendly","Contract.friendly.extension","friendly","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.friendly|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.friendly from R5 for use in FHIR R4","The ""patient friendly language"" versionof the Contract in whole or in parts. ""Patient friendly language"" means the representation of the Contract and Contract Provisions in a manner that is readily accessible and understandable by a layperson in accordance with best practices for communication styles that ensure that those agreeing to or signing the Contract understand the roles, actions, obligations, responsibilities, and implication of the agreement.","Element `Contract.friendly` is mapped to FHIR R4 element `Contract.friendly`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Contract.friendly.modifierExtension","Contract.friendly.modifierExtension","","extensions
@@ -592,12 +606,12 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Compositi
 ","LanguageCommunication","FiveWs.what[x]"
 "Contract.legal.id","Contract.legal.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Contract.legal.extension","Contract.legal.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Contract.legal.extension","Contract.legal.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Contract.legal.extension","Contract.legal.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legal|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Contract.legal from R5 for use in FHIR R4","List of Legal expressions or representations of this Contract.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Contract.legal.extension:legal","Contract.legal.extension","legal","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legal|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.legal from R5 for use in FHIR R4","List of Legal expressions or representations of this Contract.","Element `Contract.legal` is mapped to FHIR R4 element `Contract.legal`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Contract.legal.modifierExtension","Contract.legal.modifierExtension","","extensions
@@ -614,12 +628,12 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Compositi
 ","LanguageCommunication","FiveWs.what[x]"
 "Contract.rule.id","Contract.rule.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Contract.rule.extension","Contract.rule.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Contract.rule.extension","Contract.rule.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Contract.rule.extension","Contract.rule.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.rule|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Contract.rule from R5 for use in FHIR R4","List of Computable Policy Rule Language Representations of this Contract.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Contract.rule.extension:rule","Contract.rule.extension","rule","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.rule|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Contract.rule from R5 for use in FHIR R4","List of Computable Policy Rule Language Representations of this Contract.","Element `Contract.rule` is mapped to FHIR R4 element `Contract.rule`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Contract.rule.modifierExtension","Contract.rule.modifierExtension","","extensions

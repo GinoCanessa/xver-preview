@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceAss
   "title" : "Cross-version Profile for R5.DeviceAssociation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6669463-06:00",
+  "date" : "2026-02-09T22:05:43.0647064-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,161 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceAss
         "path" : "Device"
       },
       {
+        "id" : "Device.extension",
+        "path" : "Device.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 2,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Device.extension:category",
+        "path" : "Device.extension",
+        "sliceName" : "category",
+        "short" : "Cross-version extension for DeviceAssociation.category from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceAssociation.category` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.category|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Device.extension:status",
+        "path" : "Device.extension",
+        "sliceName" : "status",
+        "short" : "Cross-version extension for DeviceAssociation.status from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceAssociation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Device.extension:period",
+        "path" : "Device.extension",
+        "sliceName" : "period",
+        "short" : "Cross-version extension for DeviceAssociation.period from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceAssociation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.period|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Device.extension:operation",
+        "path" : "Device.extension",
+        "sliceName" : "operation",
+        "short" : "Cross-version extension for DeviceAssociation.operation from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceAssociation.operation` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Device.extension:device",
+        "path" : "Device.extension",
+        "sliceName" : "device",
+        "short" : "Cross-version extension for DeviceAssociation.device from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.device` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Device.extension:bodyStructure",
+        "path" : "Device.extension",
+        "sliceName" : "bodyStructure",
+        "short" : "Cross-version extension for DeviceAssociation.bodyStructure from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BodyStructure in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.bodyStructure` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Device.statusReason.extension",
         "path" : "Device.statusReason.extension",
         "slicing" : {
@@ -156,7 +311,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceAss
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Device.statusReason",
@@ -165,9 +320,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceAss
         }
       },
       {
-        "id" : "Device.statusReason.extension",
+        "id" : "Device.statusReason.extension:statusReason",
         "path" : "Device.statusReason.extension",
+        "sliceName" : "statusReason",
         "short" : "Cross-version extension for DeviceAssociation.statusReason from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceAssociation.statusReason` is mapped to FHIR R4 element `Device.statusReason`.",
         "min" : 0,
         "max" : "*",
         "base" : {

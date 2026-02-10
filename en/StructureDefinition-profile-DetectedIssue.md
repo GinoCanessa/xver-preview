@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
   "title" : "Cross-version Profile for R5.DetectedIssue for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6640015-06:00",
+  "date" : "2026-02-09T22:05:43.0616976-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,72 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
         "path" : "DetectedIssue"
       },
       {
+        "id" : "DetectedIssue.extension",
+        "path" : "DetectedIssue.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DetectedIssue.extension:category",
+        "path" : "DetectedIssue.extension",
+        "sliceName" : "category",
+        "short" : "Cross-version extension for DetectedIssue.category from R5 for use in FHIR R4",
+        "comment" : "Element `DetectedIssue.category` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DetectedIssue.extension:encounter",
+        "path" : "DetectedIssue.extension",
+        "sliceName" : "encounter",
+        "short" : "Cross-version extension for DetectedIssue.encounter from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.encounter` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "DetectedIssue.status.extension",
         "path" : "DetectedIssue.status.extension",
         "slicing" : {
@@ -170,9 +236,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
         }
       },
       {
-        "id" : "DetectedIssue.status.extension",
+        "id" : "DetectedIssue.status.extension:status",
         "path" : "DetectedIssue.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for DetectedIssue.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4 element `DetectedIssue.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -185,6 +253,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DetectedIssue.mitigation.extension",
+        "path" : "DetectedIssue.mitigation.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DetectedIssue.mitigation.extension:note",
+        "path" : "DetectedIssue.mitigation.extension",
+        "sliceName" : "note",
+        "short" : "Cross-version extension for DetectedIssue.mitigation.note from R5 for use in FHIR R4",
+        "comment" : "Element `DetectedIssue.mitigation.note` is will have a context of DetectedIssue.mitigation based on following the parent source element upwards and mapping to `DetectedIssue`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note|0.0.1-snapshot-3"
             ]
           }
         ]

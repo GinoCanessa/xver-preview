@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Administr
   "title" : "Cross-version Profile for R5.AdministrableProductDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6145668-06:00",
+  "date" : "2026-02-09T22:05:42.9737646-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

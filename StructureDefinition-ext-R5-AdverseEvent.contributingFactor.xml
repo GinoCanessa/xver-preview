@@ -56,7 +56,7 @@
   <title value="Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -73,7 +73,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `AdverseEvent.contributingFactor` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`AdverseEvent.contributingFactor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `AdverseEvent.contributingFactor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `AdverseEvent.contributingFactor` is mapped to FHIR R4 structure `AdverseEvent`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `AdverseEvent.contributingFactor` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`AdverseEvent.contributingFactor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `AdverseEvent.contributingFactor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `AdverseEvent.contributingFactor` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -84,7 +84,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="AdverseEvent"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -195,7 +195,7 @@
       <sliceName value="item"/>
       <short value="Item suspected to have increased the probability or severity of the adverse event"/>
       <definition value="The item that is suspected to have increased the probability or severity of the adverse event."/>
-      <requirements value="Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.&#xA;Element `AdverseEvent.contributingFactor.item[x]` is mapped to FHIR R4 structure `AdverseEvent`, but has no target element specified."/>
+      <requirements value="Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.&#xA;Element `AdverseEvent.contributingFactor.item[x]` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -620,7 +620,7 @@
       <sliceName value="item"/>
       <short value="Item suspected to have increased the probability or severity of the adverse event"/>
       <definition value="The item that is suspected to have increased the probability or severity of the adverse event."/>
-      <requirements value="Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.&#xA;Element `AdverseEvent.contributingFactor.item[x]` is mapped to FHIR R4 structure `AdverseEvent`, but has no target element specified."/>
+      <requirements value="Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.&#xA;Element `AdverseEvent.contributingFactor.item[x]` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

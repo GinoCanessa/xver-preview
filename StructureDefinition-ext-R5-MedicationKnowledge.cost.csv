@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:effectiveDate","Extension.extension","effectiveDate","","",0,*,"","","","Extension {[]} {[]}
 ","The date range for which the cost is effective","The date range for which the cost information of the medication is effective.","","Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).
-Element `MedicationKnowledge.cost.effectiveDate` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `MedicationKnowledge.cost.effectiveDate` is will have a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:effectiveDate.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

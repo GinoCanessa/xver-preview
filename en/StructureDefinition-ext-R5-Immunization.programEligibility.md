@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
   "title" : "Cross-version Extension `R5.Immunization.programEligibility` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
         "sliceName" : "program",
         "short" : "The program that eligibility is declared for",
         "definition" : "Indicates which program the patient had their eligility evaluated for.",
-        "requirements" : "Element `Immunization.programEligibility.program` is mapped to FHIR R4 structure `Immunization`, but has no target element specified.",
+        "requirements" : "Element `Immunization.programEligibility.program` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
         "sliceName" : "programStatus",
         "short" : "The patient's eligibility status for the program",
         "definition" : "Indicates the patient's eligility status for for a specific payment program.",
-        "requirements" : "Element `Immunization.programEligibility.programStatus` is mapped to FHIR R4 structure `Immunization`, but has no target element specified.",
+        "requirements" : "Element `Immunization.programEligibility.programStatus` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.",
         "min" : 1,
         "max" : "1",
         "base" : {

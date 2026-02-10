@@ -7,7 +7,7 @@ This cross-version profile allows R5 CoverageEligibilityRequest content to be re
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md) and [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-CoverageEligibilityRequest)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
   "title" : "Cross-version Profile for R5.CoverageEligibilityRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6614479-06:00",
+  "date" : "2026-02-09T22:05:43.0572523-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
       {
         "id" : "CoverageEligibilityRequest",
         "path" : "CoverageEligibilityRequest"
+      },
+      {
+        "id" : "CoverageEligibilityRequest.extension",
+        "path" : "CoverageEligibilityRequest.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityRequest.extension:event",
+        "path" : "CoverageEligibilityRequest.extension",
+        "sliceName" : "event",
+        "short" : "Cross-version extension for CoverageEligibilityRequest.event from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityRequest.event` is will have a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

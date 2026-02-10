@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.9366-06:00",
+  "date" : "2026-02-09T22:05:43.7233928-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contributor#Contributor",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Contributor` is representable via FHIR R4B extensions.\nElement `Contributor` is mapped to FHIR R4B element `Contributor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contributor",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Contributor` is representable via FHIR DSTU2 extensions.\nElement `Contributor` is not mapped to FHIR DSTU2, since FHIR R5 `Contributor` is not mapped."
+              "comment" : "FHIR R5 ComplexType `Contributor` is representable via FHIR R4 extensions.\nElement `Contributor` is mapped to FHIR R4 element `Contributor`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contributor#Contributor.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contributor.type` is mapped to FHIR R4B element `Contributor.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contributor:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Contributor.type` is not mapped to FHIR DSTU2, since FHIR R5 `Contributor` is not mapped."
+              "comment" : "Element `Contributor.type` is mapped to FHIR R4 element `Contributor.type`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contributor#Contributor.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contributor.name` is mapped to FHIR R4B element `Contributor.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contributor:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Contributor.name` is not mapped to FHIR DSTU2, since FHIR R5 `Contributor` is not mapped."
+              "comment" : "Element `Contributor.name` is mapped to FHIR R4 element `Contributor.name`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contributor#Contributor.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contributor.contact` is mapped to FHIR R4B element `Contributor.contact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contributor:contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Contributor.contact` is not mapped to FHIR DSTU2, since FHIR R5 `Contributor` is not mapped."
+              "comment" : "Element `Contributor.contact` is mapped to FHIR R4 element `Contributor.contact`."
             }
           ]
         }

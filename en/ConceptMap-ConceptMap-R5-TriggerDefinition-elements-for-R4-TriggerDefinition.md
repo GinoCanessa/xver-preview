@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.8567618-06:00",
+  "date" : "2026-02-09T22:05:44.3418168-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `TriggerDefinition` is representable via FHIR R4B extensions.\nElement `TriggerDefinition` is mapped to FHIR R4B element `TriggerDefinition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `TriggerDefinition` is representable via FHIR DSTU2 extensions.\nElement `TriggerDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "FHIR R5 ComplexType `TriggerDefinition` is representable via FHIR R4 extensions.\nElement `TriggerDefinition` is mapped to FHIR R4 element `TriggerDefinition`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.type` is mapped to FHIR R4B element `TriggerDefinition.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.type` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Element `TriggerDefinition.type` is mapped to FHIR R4 element `TriggerDefinition.type`."
             }
           ]
         },
@@ -117,17 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.name` is mapped to FHIR R4B element `TriggerDefinition.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.eventName",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.name` is mapped to FHIR STU3 element `TriggerDefinition.eventName`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.name` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Element `TriggerDefinition.name` is mapped to FHIR R4 element `TriggerDefinition.name`."
             }
           ]
         },
@@ -136,14 +116,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition.code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.code` is mapped to FHIR R4B structure `TriggerDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.code` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Element `TriggerDefinition.code` is will have a context of TriggerDefinition based on following the parent source element upwards and mapping to `TriggerDefinition`."
             }
           ]
         },
@@ -152,14 +127,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subscriptionTopic",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition.subscriptionTopic",
+              "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.subscriptionTopic` is mapped to FHIR R4B structure `TriggerDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:subscriptionTopic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.subscriptionTopic` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TriggerDefinition.subscriptionTopic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TriggerDefinition.subscriptionTopic` is will have a context of TriggerDefinition based on following the parent source element upwards and mapping to `TriggerDefinition`."
             }
           ]
         },
@@ -170,17 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.timing[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `TriggerDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `TriggerDefinition`.\nElement `TriggerDefinition.timing[x]` is mapped to FHIR R4B element `TriggerDefinition.timing[x]`.\nNote that the target element context `TriggerDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `TriggerDefinition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.eventTiming[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `TriggerDefinition.eventTiming[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `TriggerDefinition`.\nElement `TriggerDefinition.timing[x]` is mapped to FHIR STU3 element `TriggerDefinition.eventTiming[x]`.\nNote that the target element context `TriggerDefinition.eventTiming[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `TriggerDefinition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:timing",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.timing[x]` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Note that the target element context `TriggerDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `TriggerDefinition`.\nElement `TriggerDefinition.timing[x]` is mapped to FHIR R4 element `TriggerDefinition.timing[x]`.\nNote that the target element context `TriggerDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `TriggerDefinition`."
             }
           ]
         },
@@ -191,17 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.data",
               "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.data` is mapped to FHIR R4B element `TriggerDefinition.data`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.eventData",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.data` is mapped to FHIR STU3 element `TriggerDefinition.eventData`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:data",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.data` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Element `TriggerDefinition.data` is mapped to FHIR R4 element `TriggerDefinition.data`."
             }
           ]
         },
@@ -212,17 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TriggerDefinition#TriggerDefinition.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.condition` is mapped to FHIR R4B element `TriggerDefinition.condition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition.condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.condition` is mapped to FHIR STU3 structure `TriggerDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TriggerDefinition:condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TriggerDefinition.condition` is not mapped to FHIR DSTU2, since FHIR R5 `TriggerDefinition` is not mapped."
+              "comment" : "Element `TriggerDefinition.condition` is mapped to FHIR R4 element `TriggerDefinition.condition`."
             }
           ]
         }

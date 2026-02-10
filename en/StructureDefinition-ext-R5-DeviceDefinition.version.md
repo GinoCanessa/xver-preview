@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "title" : "Cross-version Extension `R5.DeviceDefinition.version` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "type",
         "short" : "The type of the device version, e.g. manufacturer, approved, internal",
         "definition" : "The type of the device version, e.g. manufacturer, approved, internal.",
-        "requirements" : "Element `DeviceDefinition.version.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.version.type` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "short" : "The hardware or software module of the device to which the version applies",
         "definition" : "The hardware or software module of the device to which the version applies.",
         "comment" : "Note that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version.",
-        "requirements" : "Element `DeviceDefinition.version.component` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.version.component` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "value",
         "short" : "The version text",
         "definition" : "The version text.",
-        "requirements" : "Element `DeviceDefinition.version.value` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.version.value` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {

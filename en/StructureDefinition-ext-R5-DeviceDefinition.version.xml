@@ -61,7 +61,7 @@
   <title value="Cross-version Extension `R5.DeviceDefinition.version` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -200,7 +200,7 @@
       <sliceName value="type"/>
       <short value="The type of the device version, e.g. manufacturer, approved, internal"/>
       <definition value="The type of the device version, e.g. manufacturer, approved, internal."/>
-      <requirements value="Element `DeviceDefinition.version.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.version.type` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -365,7 +365,7 @@
       <short value="The hardware or software module of the device to which the version applies"/>
       <definition value="The hardware or software module of the device to which the version applies."/>
       <comment value="Note that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version."/>
-      <requirements value="Element `DeviceDefinition.version.component` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.version.component` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -530,7 +530,7 @@
       <sliceName value="value"/>
       <short value="The version text"/>
       <definition value="The version text."/>
-      <requirements value="Element `DeviceDefinition.version.value` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.version.value` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -930,7 +930,7 @@
       <sliceName value="type"/>
       <short value="The type of the device version, e.g. manufacturer, approved, internal"/>
       <definition value="The type of the device version, e.g. manufacturer, approved, internal."/>
-      <requirements value="Element `DeviceDefinition.version.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.version.type` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -971,7 +971,7 @@
       <short value="The hardware or software module of the device to which the version applies"/>
       <definition value="The hardware or software module of the device to which the version applies."/>
       <comment value="Note that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version."/>
-      <requirements value="Element `DeviceDefinition.version.component` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.version.component` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1012,7 +1012,7 @@
       <sliceName value="value"/>
       <short value="The version text"/>
       <definition value="The version text."/>
-      <requirements value="Element `DeviceDefinition.version.value` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.version.value` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Observation.referenceRange` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -745,7 +745,7 @@
        fhir:sliceName [ fhir:v "normalValue" ] ;
        fhir:short [ fhir:v "Normal value, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the normal value of the reference range." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2279,7 +2279,7 @@
        fhir:sliceName [ fhir:v "normalValue" ] ;
        fhir:short [ fhir:v "Normal value, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the normal value of the reference range." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is mapped to FHIR R4 structure `Observation`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

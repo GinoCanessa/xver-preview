@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ResearchStudy.assoc
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ResearchStudy for use in FHIR R4](StructureDefinition-profile-ResearchStudy.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ResearchStudy.associatedParty)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "title" : "Cross-version Extension `R5.ResearchStudy.associatedParty` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.associatedParty` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.associatedParty` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.associatedParty` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.associatedParty` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.associatedParty` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.associatedParty` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.associatedParty` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.associatedParty` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ResearchStudy"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "name",
         "short" : "Name of associated party",
         "definition" : "Name of associated party.",
-        "requirements" : "Element `ResearchStudy.associatedParty.name` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.name` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.associatedParty.name` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "role",
         "short" : "sponsor | lead-sponsor | sponsor-investigator | primary-investigator | collaborator | funding-source | general-contact | recruitment-contact | sub-investigator | study-director | study-chair",
         "definition" : "Type of association.",
-        "requirements" : "Element `ResearchStudy.associatedParty.role` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.role` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.associatedParty.role` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.role` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "short" : "When active in the role",
         "definition" : "Identifies the start date and the end date of the associated party in the role.",
         "comment" : "The cardinality is 0..* due to the fact that an associated party may be intermittently active in a given role over multiple time periods.",
-        "requirements" : "Element `ResearchStudy.associatedParty.period` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.period` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.associatedParty.period` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.period` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -322,7 +322,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "classifier",
         "short" : "nih | fda | government | nonprofit | academic | industry",
         "definition" : "A categorization other than role for the associated party.",
-        "requirements" : "Element `ResearchStudy.associatedParty.classifier` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.classifier` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.associatedParty.classifier` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.classifier` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -368,7 +368,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "short" : "Individual or organization associated with study (use practitionerRole to specify their organisation)",
         "definition" : "Individual or organization associated with study (use practitionerRole to specify their organisation).",
         "comment" : "Suggestions of a better attribute name are appreciated",
-        "requirements" : "Element `ResearchStudy.associatedParty.party` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.party` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.associatedParty.party` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.associatedParty.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.associatedParty.party` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {

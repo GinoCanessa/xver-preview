@@ -78,7 +78,7 @@
   "title" : "Cross-version ValueSet R5.QuestionnaireItemType for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -110,10 +110,6 @@
         "system" : "http://hl7.org/fhir/item-type",
         "version" : "5.0.0",
         "concept" : [
-          {
-            "code" : "coding",
-            "display" : "Coding"
-          },
           {
             "code" : "coding",
             "display" : "Coding"

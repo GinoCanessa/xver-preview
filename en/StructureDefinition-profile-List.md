@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
   "title" : "Cross-version Profile for R5.List for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7236315-06:00",
+  "date" : "2026-02-09T22:05:43.1852707-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -151,7 +151,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "List.source",
@@ -160,9 +160,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
         }
       },
       {
-        "id" : "List.source.extension",
+        "id" : "List.source.extension:source",
         "path" : "List.source.extension",
+        "sliceName" : "source",
         "short" : "Cross-version extension for List.source from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `List.source` is mapped to FHIR R4 element `List.source`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -174,7 +177,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-List.source|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

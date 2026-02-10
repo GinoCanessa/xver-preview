@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ConceptMap.property
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ConceptMap for use in FHIR R4](StructureDefinition-profile-ConceptMap.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ConceptMap.property)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
   "title" : "Cross-version Extension `R5.ConceptMap.property` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.property` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.property` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ConceptMap"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "code",
         "short" : "Identifies the property on the mappings, and when referred to in the $translate operation",
         "definition" : "A code that is used to identify the property. The code is used internally (in ConceptMap.group.element.target.property.code) and also in the $translate operation.",
-        "requirements" : "Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "uri",
         "short" : "Formal identifier for the property",
         "definition" : "Reference to the formal meaning of the property.",
-        "requirements" : "Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "description",
         "short" : "Why the property is defined, and/or what it conveys",
         "definition" : "A description of the property - why it is defined, and how its value might be used.",
-        "requirements" : "Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -320,7 +320,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "type",
         "short" : "Coding | string | integer | boolean | dateTime | decimal | code",
         "definition" : "The type of the property value.",
-        "requirements" : "Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -365,7 +365,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "system",
         "short" : "The CodeSystem from which code values come",
         "definition" : "The CodeSystem that defines the codes from which values of type ```code``` in property values.",
-        "requirements" : "Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.system` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.property.system` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 0,
         "max" : "1",
         "base" : {

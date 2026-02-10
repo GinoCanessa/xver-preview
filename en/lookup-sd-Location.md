@@ -26,7 +26,7 @@ A computable version of the following element information is available in: [Conc
 | [`Location.description`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.description](https://hl7.org/fhir/R4/Location.html#resource) |
 | [`Location.mode`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.mode](https://hl7.org/fhir/R4/Location.html#resource) |
 | [`Location.type`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.type](https://hl7.org/fhir/R4/Location.html#resource) |
-| [`Location.contact`](https://hl7.org/fhir/R5/Location.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact](StructureDefinition-ext-R5-Location.contact.md) |
+| [`Location.contact`](https://hl7.org/fhir/R5/Location.html#resource) | [Location](https://hl7.org/fhir/R4/Location.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact](StructureDefinition-ext-R5-Location.contact.md) |
 | [`Location.address`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.address](https://hl7.org/fhir/R4/Location.html#resource) |
 | [`Location.form`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.physicalType](https://hl7.org/fhir/R4/Location.html#resource) |
 | [`Location.position`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.position](https://hl7.org/fhir/R4/Location.html#resource) |
@@ -35,8 +35,8 @@ A computable version of the following element information is available in: [Conc
 | [`Location.position.altitude`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.position.altitude](https://hl7.org/fhir/R4/Location.html#resource) |
 | [`Location.managingOrganization`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.managingOrganization](https://hl7.org/fhir/R4/Location.html#resource) |
 | [`Location.partOf`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.partOf](https://hl7.org/fhir/R4/Location.html#resource) |
-| [`Location.characteristic`](https://hl7.org/fhir/R5/Location.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic](StructureDefinition-ext-R5-Location.characteristic.md) |
+| [`Location.characteristic`](https://hl7.org/fhir/R5/Location.html#resource) | [Location](https://hl7.org/fhir/R4/Location.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic](StructureDefinition-ext-R5-Location.characteristic.md) |
 | [`Location.hoursOfOperation`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.hoursOfOperation](https://hl7.org/fhir/R4/Location.html#resource) |
-| [`Location.virtualService`](https://hl7.org/fhir/R5/Location.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService](StructureDefinition-ext-R5-Location.virtualService.md) |
+| [`Location.virtualService`](https://hl7.org/fhir/R5/Location.html#resource) | [Location](https://hl7.org/fhir/R4/Location.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService](StructureDefinition-ext-R5-Location.virtualService.md) |
 | [`Location.endpoint`](https://hl7.org/fhir/R5/Location.html#resource) | [Location.endpoint](https://hl7.org/fhir/R4/Location.html#resource) |
 

@@ -7,7 +7,7 @@ This cross-version profile allows R5 SupplyRequest content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.CarePlan.activity.plannedActivityReference` for use in FHIR R4](StructureDefinition-ext-R5-CarePlan.act.pAR.md), [Cross-version Extension `R5.Claim.item.request` for use in FHIR R4](StructureDefinition-ext-R5-Claim.ite.request.md), [Cross-version Extension `R5.ClaimResponse.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.add.request.md), [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md)... Show 4 more, [Cross-version Extension `R5.ExplanationOfBenefit.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.add.request.md), [Cross-version Extension `R5.ExplanationOfBenefit.item.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.ite.request.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
+* Refer to this Profile: [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SupplyRequest)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
   "title" : "Cross-version Profile for R5.SupplyRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8090908-06:00",
+  "date" : "2026-02-09T22:05:43.3728978-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,73 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
         "path" : "SupplyRequest"
       },
       {
+        "id" : "SupplyRequest.extension",
+        "path" : "SupplyRequest.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "SupplyRequest.extension:basedOn",
+        "path" : "SupplyRequest.extension",
+        "sliceName" : "basedOn",
+        "short" : "Cross-version extension for SupplyRequest.basedOn from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.basedOn` is will have a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SupplyRequest.extension:deliverFor",
+        "path" : "SupplyRequest.extension",
+        "sliceName" : "deliverFor",
+        "short" : "Cross-version extension for SupplyRequest.deliverFor from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.deliverFor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.deliverFor` is will have a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "SupplyRequest.requester.extension",
         "path" : "SupplyRequest.requester.extension",
         "slicing" : {
@@ -161,7 +228,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "SupplyRequest.requester",
@@ -170,9 +237,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
         }
       },
       {
-        "id" : "SupplyRequest.requester.extension",
+        "id" : "SupplyRequest.requester.extension:requester",
         "path" : "SupplyRequest.requester.extension",
+        "sliceName" : "requester",
         "short" : "Cross-version extension for SupplyRequest.requester from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.requester` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.requester` is mapped to FHIR R4 element `SupplyRequest.requester`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -184,7 +254,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.requester|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -202,7 +272,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "SupplyRequest.deliverTo",
@@ -211,9 +281,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
         }
       },
       {
-        "id" : "SupplyRequest.deliverTo.extension",
+        "id" : "SupplyRequest.deliverTo.extension:deliverTo",
         "path" : "SupplyRequest.deliverTo.extension",
+        "sliceName" : "deliverTo",
         "short" : "Cross-version extension for SupplyRequest.deliverTo from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.deliverTo` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.deliverTo` is mapped to FHIR R4 element `SupplyRequest.deliverTo`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -225,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SupplyReq
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverTo|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

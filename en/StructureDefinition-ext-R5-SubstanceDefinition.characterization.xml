@@ -64,7 +64,7 @@
   <title value="Cross-version Extension `R5.SubstanceDefinition.characterization` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -81,7 +81,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `SubstanceDefinition.characterization` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`SubstanceDefinition.characterization` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `SubstanceDefinition.characterization` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `SubstanceDefinition.characterization` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `SubstanceDefinition.characterization` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`SubstanceDefinition.characterization` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `SubstanceDefinition.characterization` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `SubstanceDefinition.characterization` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -92,7 +92,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="SubstanceSpecification"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -203,7 +203,7 @@
       <sliceName value="technique"/>
       <short value="The method used to find the characterization e.g. HPLC"/>
       <definition value="The method used to elucidate the characterization of the drug substance. Example: HPLC."/>
-      <requirements value="Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.technique` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.technique` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -372,7 +372,7 @@
       <sliceName value="form"/>
       <short value="Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form"/>
       <definition value="Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form."/>
-      <requirements value="Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.form` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.form` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -536,7 +536,7 @@
       <sliceName value="description"/>
       <short value="The description or justification in support of the interpretation of the data file"/>
       <definition value="The description or justification in support of the interpretation of the data file."/>
-      <requirements value="Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.description` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.description` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -700,7 +700,7 @@
       <sliceName value="file"/>
       <short value="The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis"/>
       <definition value="The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis."/>
-      <requirements value="Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.file` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.file` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1100,7 +1100,7 @@
       <sliceName value="technique"/>
       <short value="The method used to find the characterization e.g. HPLC"/>
       <definition value="The method used to elucidate the characterization of the drug substance. Example: HPLC."/>
-      <requirements value="Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.technique` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.technique` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1145,7 +1145,7 @@
       <sliceName value="form"/>
       <short value="Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form"/>
       <definition value="Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form."/>
-      <requirements value="Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.form` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.form` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1185,7 +1185,7 @@
       <sliceName value="description"/>
       <short value="The description or justification in support of the interpretation of the data file"/>
       <definition value="The description or justification in support of the interpretation of the data file."/>
-      <requirements value="Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.description` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.description` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1225,7 +1225,7 @@
       <sliceName value="file"/>
       <short value="The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis"/>
       <definition value="The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis."/>
-      <requirements value="Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.file` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."/>
+      <requirements value="Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.&#xA;Element `SubstanceDefinition.characterization.file` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

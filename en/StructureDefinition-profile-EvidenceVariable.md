@@ -7,7 +7,7 @@ This cross-version profile allows R5 EvidenceVariable content to be represented 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.subject.md), [Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.statistic.md), [Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.variableDefinition.md), [Cross-version Extension `R5.EvidenceVariable.characteristic.definitionCanonical` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.cha.definitionCanonical.md)... Show 7 more, [Cross-version Extension `R5.EvidenceVariable.characteristic.definitionReference` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.cha.definitionReference.md), [Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.characteristic.md), [Cross-version Extension `R5.PlanDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.subject.md), [Cross-version Extension `R5.ResearchStudy.comparisonGroup.intendedExposure` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.com.intendedExposure.md), [Cross-version Extension `R5.ResearchStudy.focus` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.focus.md), [Cross-version Extension `R5.ResearchStudy.outcomeMeasure` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.outcomeMeasure.md) and [Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.recruitment.md)
+* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.subject.md), [Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.statistic.md), [Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.variableDefinition.md), [Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.characteristic.md)... Show 4 more, [Cross-version Extension `R5.PlanDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.subject.md), [Cross-version Extension `R5.ResearchStudy.focus` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.focus.md), [Cross-version Extension `R5.ResearchStudy.outcomeMeasure` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.outcomeMeasure.md) and [Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.recruitment.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-EvidenceVariable)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EvidenceV
   "title" : "Cross-version Profile for R5.EvidenceVariable for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6917774-06:00",
+  "date" : "2026-02-09T22:05:43.1171504-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,534 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EvidenceV
         "path" : "EvidenceVariable"
       },
       {
+        "id" : "EvidenceVariable.extension",
+        "path" : "EvidenceVariable.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "EvidenceVariable.extension:versionAlgorithm",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for EvidenceVariable.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.versionAlgorithm[x]` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:experimental",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "experimental",
+        "short" : "Cross-version extension for EvidenceVariable.experimental from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.experimental` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.experimental|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:purpose",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "purpose",
+        "short" : "Cross-version extension for EvidenceVariable.purpose from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.purpose` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.purpose|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:copyright",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "copyright",
+        "short" : "Cross-version extension for EvidenceVariable.copyright from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.copyright` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyright|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:copyrightLabel",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for EvidenceVariable.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.copyrightLabel` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:approvalDate",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "approvalDate",
+        "short" : "Cross-version extension for EvidenceVariable.approvalDate from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.approvalDate` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.approvalDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:lastReviewDate",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "lastReviewDate",
+        "short" : "Cross-version extension for EvidenceVariable.lastReviewDate from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.lastReviewDate` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.lastReviewDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:effectivePeriod",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "effectivePeriod",
+        "short" : "Cross-version extension for EvidenceVariable.effectivePeriod from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.effectivePeriod` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.effectivePeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:actual",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "actual",
+        "short" : "Cross-version extension for EvidenceVariable.actual from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.actual` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.actual|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:handling",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "handling",
+        "short" : "Cross-version extension for EvidenceVariable.handling from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.handling` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.handling|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.extension:category",
+        "path" : "EvidenceVariable.extension",
+        "sliceName" : "category",
+        "short" : "Cross-version extension for EvidenceVariable.category from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.category` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:linkId",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:note",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "note",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.note from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.note|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionCodeableConcept",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionCodeableConcept",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionCodeableConcept from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCodeableConcept|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionExpression",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionExpression",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionExpression from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionExpression|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionId",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionId",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionId from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionByTypeAndValue",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionByTypeAndValue",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionByTypeAndValue from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionByCombination",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionByCombination",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionByCombination from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:instances",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "instances",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.instances[x] from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.instances|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:duration",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "duration",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.duration[x] from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.duration|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionCanonical",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionCanonical",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionCanonical from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Evidence,http://hl7.org/fhir/StructureDefinition/EvidenceVariable in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EvidenceVariable.characteristic.extension:definitionReference",
+        "path" : "EvidenceVariable.characteristic.extension",
+        "sliceName" : "definitionReference",
+        "short" : "Cross-version extension for EvidenceVariable.characteristic.definitionReference from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Evidence,http://hl7.org/fhir/StructureDefinition/EvidenceVariable,http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "EvidenceVariable.characteristic.timeFromStart.extension",
         "path" : "EvidenceVariable.characteristic.timeFromStart.extension",
         "slicing" : {
@@ -161,7 +689,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EvidenceV
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "EvidenceVariable.characteristic.timeFromStart",
@@ -170,9 +698,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EvidenceV
         }
       },
       {
-        "id" : "EvidenceVariable.characteristic.timeFromStart.extension",
+        "id" : "EvidenceVariable.characteristic.timeFromStart.extension:timeFromEvent",
         "path" : "EvidenceVariable.characteristic.timeFromStart.extension",
+        "sliceName" : "timeFromEvent",
         "short" : "Cross-version extension for EvidenceVariable.characteristic.timeFromEvent from R5 for use in FHIR R4",
+        "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 element `EvidenceVariable.characteristic.timeFromStart`.",
         "min" : 0,
         "max" : "*",
         "base" : {

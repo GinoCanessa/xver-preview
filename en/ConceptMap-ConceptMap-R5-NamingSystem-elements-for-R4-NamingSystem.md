@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.5914382-06:00",
+  "date" : "2026-02-09T22:05:44.0608349-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `NamingSystem` is representable via FHIR R4B Resource `NamingSystem`.\nElement `NamingSystem` is mapped to FHIR R4B element `NamingSystem`."
+              "comment" : "FHIR R5 Resource `NamingSystem` is representable via FHIR R4 Resource `NamingSystem`.\nElement `NamingSystem` is mapped to FHIR R4 element `NamingSystem`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.meta` is mapped to FHIR R4B element `NamingSystem.meta`."
+              "comment" : "Element `NamingSystem.meta` is mapped to FHIR R4 element `NamingSystem.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.implicitRules` is mapped to FHIR R4B element `NamingSystem.implicitRules`."
+              "comment" : "Element `NamingSystem.implicitRules` is mapped to FHIR R4 element `NamingSystem.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.language` is mapped to FHIR R4B element `NamingSystem.language`."
+              "comment" : "Element `NamingSystem.language` is mapped to FHIR R4 element `NamingSystem.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.text` is mapped to FHIR R4B element `NamingSystem.text`."
+              "comment" : "Element `NamingSystem.text` is mapped to FHIR R4 element `NamingSystem.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.contained` is mapped to FHIR R4B element `NamingSystem.contained`."
+              "comment" : "Element `NamingSystem.contained` is mapped to FHIR R4 element `NamingSystem.contained`."
             }
           ]
         },
@@ -149,9 +149,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.url` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.url` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "Basic.identifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `NamingSystem.identifier` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `NamingSystem.identifier` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -171,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.version` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.version` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -182,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.versionAlgorithm[x]` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.versionAlgorithm[x]` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.name` is mapped to FHIR R4B element `NamingSystem.name`."
+              "comment" : "Element `NamingSystem.name` is mapped to FHIR R4 element `NamingSystem.name`."
             }
           ]
         },
@@ -204,9 +204,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.title",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.title` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.title` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.status` is mapped to FHIR R4B element `NamingSystem.status`."
+              "comment" : "Element `NamingSystem.status` is mapped to FHIR R4 element `NamingSystem.status`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.kind` is mapped to FHIR R4B element `NamingSystem.kind`."
+              "comment" : "Element `NamingSystem.kind` is mapped to FHIR R4 element `NamingSystem.kind`."
             }
           ]
         },
@@ -237,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.experimental",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.experimental` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.experimental` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.date` is mapped to FHIR R4B element `NamingSystem.date`."
+              "comment" : "Element `NamingSystem.date` is mapped to FHIR R4 element `NamingSystem.date`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.publisher` is mapped to FHIR R4B element `NamingSystem.publisher`."
+              "comment" : "Element `NamingSystem.publisher` is mapped to FHIR R4 element `NamingSystem.publisher`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.contact` is mapped to FHIR R4B element `NamingSystem.contact`."
+              "comment" : "Element `NamingSystem.contact` is mapped to FHIR R4 element `NamingSystem.contact`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.responsible",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.responsible` is mapped to FHIR R4B element `NamingSystem.responsible`."
+              "comment" : "Element `NamingSystem.responsible` is mapped to FHIR R4 element `NamingSystem.responsible`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.type` is mapped to FHIR R4B element `NamingSystem.type`."
+              "comment" : "Element `NamingSystem.type` is mapped to FHIR R4 element `NamingSystem.type`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.description` is mapped to FHIR R4B element `NamingSystem.description`."
+              "comment" : "Element `NamingSystem.description` is mapped to FHIR R4 element `NamingSystem.description`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.useContext` is mapped to FHIR R4B element `NamingSystem.useContext`."
+              "comment" : "Element `NamingSystem.useContext` is mapped to FHIR R4 element `NamingSystem.useContext`."
             }
           ]
         },
@@ -327,12 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.jurisdiction` is mapped to FHIR R4B element `NamingSystem.jurisdiction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.jurisdiction` is mapped to FHIR DSTU2 element `NamingSystem.useContext`."
+              "comment" : "Element `NamingSystem.jurisdiction` is mapped to FHIR R4 element `NamingSystem.jurisdiction`."
             }
           ]
         },
@@ -341,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.purpose",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.purpose` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.purpose` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -352,9 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.copyright",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.copyright` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.copyright` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -363,9 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.copyrightLabel` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.copyrightLabel` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -374,9 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "approvalDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.approvalDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.approvalDate` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.approvalDate` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -385,9 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastReviewDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.lastReviewDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.lastReviewDate` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.lastReviewDate` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -396,9 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "effectivePeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.effectivePeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.effectivePeriod` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.effectivePeriod` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -407,9 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "topic",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.topic",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.topic` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.topic` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -418,9 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "author",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.author",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `NamingSystem.author` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `NamingSystem.author` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -429,9 +424,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "editor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.editor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.editor` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.editor` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -440,9 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewer",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.reviewer",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.reviewer` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.reviewer` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -451,9 +446,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "endorser",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.endorser",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.endorser` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.endorser` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -462,9 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedArtifact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.relatedArtifact",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.relatedArtifact` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.relatedArtifact` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         },
@@ -475,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.usage",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.usage` is mapped to FHIR R4B element `NamingSystem.usage`."
+              "comment" : "Element `NamingSystem.usage` is mapped to FHIR R4 element `NamingSystem.usage`."
             }
           ]
         },
@@ -486,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId` is mapped to FHIR R4B element `NamingSystem.uniqueId`."
+              "comment" : "Element `NamingSystem.uniqueId` is mapped to FHIR R4 element `NamingSystem.uniqueId`."
             }
           ]
         },
@@ -497,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.type` is mapped to FHIR R4B element `NamingSystem.uniqueId.type`."
+              "comment" : "Element `NamingSystem.uniqueId.type` is mapped to FHIR R4 element `NamingSystem.uniqueId.type`."
             }
           ]
         },
@@ -508,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.value` is mapped to FHIR R4B element `NamingSystem.uniqueId.value`."
+              "comment" : "Element `NamingSystem.uniqueId.value` is mapped to FHIR R4 element `NamingSystem.uniqueId.value`."
             }
           ]
         },
@@ -519,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.preferred",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.preferred` is mapped to FHIR R4B element `NamingSystem.uniqueId.preferred`."
+              "comment" : "Element `NamingSystem.uniqueId.preferred` is mapped to FHIR R4 element `NamingSystem.uniqueId.preferred`."
             }
           ]
         },
@@ -530,12 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.comment` is mapped to FHIR R4B element `NamingSystem.uniqueId.comment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.comment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.comment` is mapped to FHIR DSTU2 structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.uniqueId.comment` is mapped to FHIR R4 element `NamingSystem.uniqueId.comment`."
             }
           ]
         },
@@ -546,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.period` is mapped to FHIR R4B element `NamingSystem.uniqueId.period`."
+              "comment" : "Element `NamingSystem.uniqueId.period` is mapped to FHIR R4 element `NamingSystem.uniqueId.period`."
             }
           ]
         },
@@ -555,9 +545,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "authoritative",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.authoritative",
+              "code" : "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId",
               "equivalence" : "relatedto",
-              "comment" : "Element `NamingSystem.uniqueId.authoritative` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified."
+              "comment" : "Element `NamingSystem.uniqueId.authoritative` is will have a context of NamingSystem.uniqueId based on following the parent source element upwards and mapping to `NamingSystem`."
             }
           ]
         }

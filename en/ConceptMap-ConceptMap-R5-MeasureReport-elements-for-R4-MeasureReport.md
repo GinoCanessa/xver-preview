@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.3082445-06:00",
+  "date" : "2026-02-09T22:05:43.9959476-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `MeasureReport` is representable via FHIR R4B Resource `MeasureReport`.\nElement `MeasureReport` is mapped to FHIR R4B element `MeasureReport`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `MeasureReport` is representable via FHIR DSTU2 Resource `Basic`.\nElement `MeasureReport` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "FHIR R5 Resource `MeasureReport` is representable via FHIR R4 Resource `MeasureReport`.\nElement `MeasureReport` is mapped to FHIR R4 element `MeasureReport`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.meta` is mapped to FHIR R4B element `MeasureReport.meta`."
-            },
-            {
-              "code" : "Basic.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `MeasureReport.meta` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.meta` is mapped to FHIR R4 element `MeasureReport.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.implicitRules` is mapped to FHIR R4B element `MeasureReport.implicitRules`."
-            },
-            {
-              "code" : "Basic.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `MeasureReport.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.implicitRules` is mapped to FHIR R4 element `MeasureReport.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.language` is mapped to FHIR R4B element `MeasureReport.language`."
-            },
-            {
-              "code" : "Basic.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `MeasureReport.language` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.language` is mapped to FHIR R4 element `MeasureReport.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.text` is mapped to FHIR R4B element `MeasureReport.text`."
-            },
-            {
-              "code" : "Basic.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `MeasureReport.text` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.text` is mapped to FHIR R4 element `MeasureReport.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.contained` is mapped to FHIR R4B element `MeasureReport.contained`."
-            },
-            {
-              "code" : "Basic.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `MeasureReport.contained` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.contained` is mapped to FHIR R4 element `MeasureReport.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.identifier` is mapped to FHIR R4B element `MeasureReport.identifier`."
-            },
-            {
-              "code" : "Basic.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `MeasureReport.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.identifier` is mapped to FHIR R4 element `MeasureReport.identifier`."
             }
           ]
         },
@@ -197,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.status` is mapped to FHIR R4B element `MeasureReport.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.status` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.status` is mapped to FHIR R4 element `MeasureReport.status`."
             }
           ]
         },
@@ -213,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.type` is mapped to FHIR R4B element `MeasureReport.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.type` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.type` is mapped to FHIR R4 element `MeasureReport.type`."
             }
           ]
         },
@@ -227,14 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "dataUpdateType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.dataUpdateType",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.dataUpdateType` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:dataUpdateType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.dataUpdateType` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.dataUpdateType` is will have a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -245,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.measure",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.measure` is mapped to FHIR R4B element `MeasureReport.measure`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:measure",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.measure` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.measure` is mapped to FHIR R4 element `MeasureReport.measure`."
             }
           ]
         },
@@ -261,17 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MeasureReport.subject` is mapped to FHIR R4B element `MeasureReport.subject`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MeasureReport.subject` is mapped to FHIR STU3 element `MeasureReport.patient`."
-            },
-            {
-              "code" : "Basic.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MeasureReport.subject` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.subject` is mapped to FHIR R4 element `MeasureReport.subject`."
             }
           ]
         },
@@ -282,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.date` is mapped to FHIR R4B element `MeasureReport.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.date` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.date` is mapped to FHIR R4 element `MeasureReport.date`."
             }
           ]
         },
@@ -298,17 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.reporter",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.reporter` is mapped to FHIR R4B element `MeasureReport.reporter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.reportingOrganization",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.reporter` is mapped to FHIR STU3 element `MeasureReport.reportingOrganization`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:reporter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.reporter` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.reporter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.reporter` is mapped to FHIR R4 element `MeasureReport.reporter`."
             }
           ]
         },
@@ -317,14 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reportingVendor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.reportingVendor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.reportingVendor` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:reportingVendor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.reportingVendor` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.reportingVendor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.reportingVendor` is will have a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -333,14 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.location",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.location` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.location` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.location` is will have a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -351,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.period` is mapped to FHIR R4B element `MeasureReport.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.period` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.period` is mapped to FHIR R4 element `MeasureReport.period`."
             }
           ]
         },
@@ -365,14 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "inputParameters",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.inputParameters",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.inputParameters` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:inputParameters",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.inputParameters` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.inputParameters` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.inputParameters` is will have a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -381,14 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "scoring",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.scoring",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.scoring` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:scoring",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.scoring` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.scoring` is will have a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -399,17 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.improvementNotation",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.improvementNotation` is mapped to FHIR R4B element `MeasureReport.improvementNotation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.improvementNotation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.improvementNotation` is mapped to FHIR STU3 structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:improvementNotation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.improvementNotation` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.improvementNotation` is mapped to FHIR R4 element `MeasureReport.improvementNotation`."
             }
           ]
         },
@@ -420,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group` is mapped to FHIR R4B element `MeasureReport.group`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group` is mapped to FHIR R4 element `MeasureReport.group`."
             }
           ]
         },
@@ -434,14 +314,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.linkId` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.linkId` is part of an existing definition because parent element `MeasureReport.group` requires a cross-version extension.\nElement `MeasureReport.group.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.linkId` is will have a context of MeasureReport.group based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -452,17 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.code` is mapped to FHIR R4B element `MeasureReport.group.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.code` is mapped to FHIR STU3 element `MeasureReport.group.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.code` is part of an existing definition because parent element `MeasureReport.group` requires a cross-version extension.\nElement `MeasureReport.group.code` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.code` is mapped to FHIR R4 element `MeasureReport.group.code`."
             }
           ]
         },
@@ -471,14 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subject",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.subject",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.subject` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.subject` is part of an existing definition because parent element `MeasureReport.group` requires a cross-version extension.\nElement `MeasureReport.group.subject` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.group.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.group.subject` is will have a context of MeasureReport.group based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -489,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population` is mapped to FHIR R4B element `MeasureReport.group.population`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population` is part of an existing definition because parent element `MeasureReport.group` requires a cross-version extension.\nElement `MeasureReport.group.population` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.population` is mapped to FHIR R4 element `MeasureReport.group.population`."
             }
           ]
         },
@@ -503,14 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.linkId` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.linkId` is part of an existing definition because parent element `MeasureReport.group.population` requires a cross-version extension.\nElement `MeasureReport.group.population.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.population.linkId` is will have a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -521,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.code` is mapped to FHIR R4B element `MeasureReport.group.population.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.code` is part of an existing definition because parent element `MeasureReport.group.population` requires a cross-version extension.\nElement `MeasureReport.group.population.code` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.population.code` is mapped to FHIR R4 element `MeasureReport.group.population.code`."
             }
           ]
         },
@@ -537,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population.count",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.count` is mapped to FHIR R4B element `MeasureReport.group.population.count`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population:count",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.count` is part of an existing definition because parent element `MeasureReport.group.population` requires a cross-version extension.\nElement `MeasureReport.group.population.count` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.population.count` is mapped to FHIR R4 element `MeasureReport.group.population.count`."
             }
           ]
         },
@@ -553,17 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population.subjectResults",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjectResults` is mapped to FHIR R4B element `MeasureReport.group.population.subjectResults`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population.patients",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjectResults` is mapped to FHIR STU3 element `MeasureReport.group.population.patients`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population:subjectResults",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjectResults` is part of an existing definition because parent element `MeasureReport.group.population` requires a cross-version extension.\nElement `MeasureReport.group.population.subjectResults` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.population.subjectResults` is mapped to FHIR R4 element `MeasureReport.group.population.subjectResults`."
             }
           ]
         },
@@ -572,14 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subjectReport",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.subjectReport",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjectReport` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population:subjectReport",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjectReport` is part of an existing definition because parent element `MeasureReport.group.population` requires a cross-version extension.\nElement `MeasureReport.group.population.subjectReport` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.group.population.subjectReport` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.group.population.subjectReport` is will have a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -588,14 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subjects",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.subjects",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjects` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:population:subjects",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.population.subjects` is part of an existing definition because parent element `MeasureReport.group.population` requires a cross-version extension.\nElement `MeasureReport.group.population.subjects` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.group.population.subjects` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.group.population.subjects` is will have a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -606,12 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.measureScore",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.measureScore[x]` is mapped to FHIR R4B element `MeasureReport.group.measureScore`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:measureScore",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.measureScore[x]` is part of an existing definition because parent element `MeasureReport.group` requires a cross-version extension.\nElement `MeasureReport.group.measureScore[x]` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.measureScore`."
             }
           ]
         },
@@ -622,12 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier` is mapped to FHIR R4B element `MeasureReport.group.stratifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier` is part of an existing definition because parent element `MeasureReport.group` requires a cross-version extension.\nElement `MeasureReport.group.stratifier` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier` is mapped to FHIR R4 element `MeasureReport.group.stratifier`."
             }
           ]
         },
@@ -636,14 +446,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.linkId` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.linkId` is part of an existing definition because parent element `MeasureReport.group.stratifier` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.linkId` is will have a context of MeasureReport.group.stratifier based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -654,17 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.code` is mapped to FHIR R4B element `MeasureReport.group.stratifier.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.code` is mapped to FHIR STU3 element `MeasureReport.group.stratifier.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.code` is part of an existing definition because parent element `MeasureReport.group.stratifier` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.code` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.code` is mapped to FHIR R4 element `MeasureReport.group.stratifier.code`."
             }
           ]
         },
@@ -675,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum` is part of an existing definition because parent element `MeasureReport.group.stratifier` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum`."
             }
           ]
         },
@@ -691,12 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.value[x]` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.value[x]` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.value`."
             }
           ]
         },
@@ -707,17 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.component",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.component`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component` is mapped to FHIR STU3 structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:component",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.component` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component`."
             }
           ]
         },
@@ -726,19 +501,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.component",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.linkId` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.linkId` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.component` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component.linkId` is mapped to FHIR STU3 structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:component:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.linkId` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.component` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.linkId` is will have a context of MeasureReport.group.stratifier.stratum.component based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -749,17 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.component.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.code` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.component.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.code` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.component` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component.code` is mapped to FHIR STU3 structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:component:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.code` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.component` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component.code` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.code` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component.code`."
             }
           ]
         },
@@ -770,17 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.component.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.component.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.component` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component.value[x]` is mapped to FHIR STU3 structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:component:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.component` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.component.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component.value`."
             }
           ]
         },
@@ -791,12 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.population`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.population` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population`."
             }
           ]
         },
@@ -805,14 +545,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.linkId` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.linkId` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.population` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.linkId` is will have a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -823,12 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.code` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.population.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.code` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.population` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population.code` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.code` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population.code`."
             }
           ]
         },
@@ -839,12 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population.count",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.count` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.population.count`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population:count",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.count` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.population` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population.count` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.count` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population.count`."
             }
           ]
         },
@@ -855,17 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population.subjectResults",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectResults` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.population.subjectResults`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population.patients",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectResults` is mapped to FHIR STU3 element `MeasureReport.group.stratifier.stratum.population.patients`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population:subjectResults",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectResults` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.population` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population.subjectResults` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectResults` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population.subjectResults`."
             }
           ]
         },
@@ -874,14 +589,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subjectReport",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.subjectReport",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectReport` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population:subjectReport",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectReport` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.population` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population.subjectReport` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.group.stratifier.stratum.population.subjectReport` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.group.stratifier.stratum.population.subjectReport` is will have a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -890,14 +600,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subjects",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.subjects",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.population",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjects` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:population:subjects",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjects` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum.population` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.population.subjects` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.group.stratifier.stratum.population.subjects` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.group.stratifier.stratum.population.subjects` is will have a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -908,12 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.group.stratifier.stratum.measureScore",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.measureScore[x]` is mapped to FHIR R4B element `MeasureReport.group.stratifier.stratum.measureScore`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:group:stratifier:stratum:measureScore",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.group.stratifier.stratum.measureScore[x]` is part of an existing definition because parent element `MeasureReport.group.stratifier.stratum` requires a cross-version extension.\nElement `MeasureReport.group.stratifier.stratum.measureScore[x]` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.group.stratifier.stratum.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.measureScore`."
             }
           ]
         },
@@ -922,14 +622,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "supplementalData",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.supplementalData",
+              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.supplementalData` is mapped to FHIR R4B structure `MeasureReport`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:supplementalData",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.supplementalData` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MeasureReport.supplementalData` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MeasureReport.supplementalData` is will have a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`."
             }
           ]
         },
@@ -940,17 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.evaluatedResource",
               "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.evaluatedResource` is mapped to FHIR R4B element `MeasureReport.evaluatedResource`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MeasureReport#MeasureReport.evaluatedResources",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.evaluatedResource` is mapped to FHIR STU3 element `MeasureReport.evaluatedResources`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport:evaluatedResource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MeasureReport.evaluatedResource` is not mapped to FHIR DSTU2, since FHIR R5 `MeasureReport` is not mapped."
+              "comment" : "Element `MeasureReport.evaluatedResource` is mapped to FHIR R4 element `MeasureReport.evaluatedResource`."
             }
           ]
         }

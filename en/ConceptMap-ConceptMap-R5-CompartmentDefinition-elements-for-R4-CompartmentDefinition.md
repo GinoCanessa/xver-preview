@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.7086561-06:00",
+  "date" : "2026-02-09T22:05:43.6692418-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CompartmentDefinition` is representable via FHIR R4B Resource `CompartmentDefinition`.\nElement `CompartmentDefinition` is mapped to FHIR R4B element `CompartmentDefinition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CompartmentDefinition` is representable via FHIR DSTU2 Resource `Basic`.\nElement `CompartmentDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "FHIR R5 Resource `CompartmentDefinition` is representable via FHIR R4 Resource `CompartmentDefinition`.\nElement `CompartmentDefinition` is mapped to FHIR R4 element `CompartmentDefinition`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.meta` is mapped to FHIR R4B element `CompartmentDefinition.meta`."
-            },
-            {
-              "code" : "Basic.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `CompartmentDefinition.meta` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.meta` is mapped to FHIR R4 element `CompartmentDefinition.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.implicitRules` is mapped to FHIR R4B element `CompartmentDefinition.implicitRules`."
-            },
-            {
-              "code" : "Basic.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `CompartmentDefinition.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.implicitRules` is mapped to FHIR R4 element `CompartmentDefinition.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.language` is mapped to FHIR R4B element `CompartmentDefinition.language`."
-            },
-            {
-              "code" : "Basic.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `CompartmentDefinition.language` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.language` is mapped to FHIR R4 element `CompartmentDefinition.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.text` is mapped to FHIR R4B element `CompartmentDefinition.text`."
-            },
-            {
-              "code" : "Basic.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `CompartmentDefinition.text` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.text` is mapped to FHIR R4 element `CompartmentDefinition.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.contained` is mapped to FHIR R4B element `CompartmentDefinition.contained`."
-            },
-            {
-              "code" : "Basic.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `CompartmentDefinition.contained` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.contained` is mapped to FHIR R4 element `CompartmentDefinition.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.url` is mapped to FHIR R4B element `CompartmentDefinition.url`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.url` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.url` is mapped to FHIR R4 element `CompartmentDefinition.url`."
             }
           ]
         },
@@ -197,17 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.version` is mapped to FHIR R4B element `CompartmentDefinition.version`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.version",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.version` is mapped to FHIR STU3 structure `CompartmentDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:version",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.version` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.version` is mapped to FHIR R4 element `CompartmentDefinition.version`."
             }
           ]
         },
@@ -216,14 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `CompartmentDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:versionAlgorithm",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.versionAlgorithm[x]` is will have a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`."
             }
           ]
         },
@@ -234,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.name` is mapped to FHIR R4B element `CompartmentDefinition.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.name` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.name` is mapped to FHIR R4 element `CompartmentDefinition.name`."
             }
           ]
         },
@@ -248,14 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.title",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.title` is mapped to FHIR R4B structure `CompartmentDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.title` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.title` is will have a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`."
             }
           ]
         },
@@ -266,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.status` is mapped to FHIR R4B element `CompartmentDefinition.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.status` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.status` is mapped to FHIR R4 element `CompartmentDefinition.status`."
             }
           ]
         },
@@ -282,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.experimental` is mapped to FHIR R4B element `CompartmentDefinition.experimental`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:experimental",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.experimental` is mapped to FHIR R4 element `CompartmentDefinition.experimental`."
             }
           ]
         },
@@ -298,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.date` is mapped to FHIR R4B element `CompartmentDefinition.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.date` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.date` is mapped to FHIR R4 element `CompartmentDefinition.date`."
             }
           ]
         },
@@ -314,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.publisher` is mapped to FHIR R4B element `CompartmentDefinition.publisher`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:publisher",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.publisher` is mapped to FHIR R4 element `CompartmentDefinition.publisher`."
             }
           ]
         },
@@ -330,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.contact` is mapped to FHIR R4B element `CompartmentDefinition.contact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.contact` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.contact` is mapped to FHIR R4 element `CompartmentDefinition.contact`."
             }
           ]
         },
@@ -346,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.description` is mapped to FHIR R4B element `CompartmentDefinition.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.description` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.description` is mapped to FHIR R4 element `CompartmentDefinition.description`."
             }
           ]
         },
@@ -362,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.useContext` is mapped to FHIR R4B element `CompartmentDefinition.useContext`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.useContext` is mapped to FHIR R4 element `CompartmentDefinition.useContext`."
             }
           ]
         },
@@ -378,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.purpose` is mapped to FHIR R4B element `CompartmentDefinition.purpose`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:purpose",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.purpose` is mapped to FHIR R4 element `CompartmentDefinition.purpose`."
             }
           ]
         },
@@ -394,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.code` is mapped to FHIR R4B element `CompartmentDefinition.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.code` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.code` is mapped to FHIR R4 element `CompartmentDefinition.code`."
             }
           ]
         },
@@ -410,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.search",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.search` is mapped to FHIR R4B element `CompartmentDefinition.search`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:search",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.search` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.search` is mapped to FHIR R4 element `CompartmentDefinition.search`."
             }
           ]
         },
@@ -426,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource` is mapped to FHIR R4B element `CompartmentDefinition.resource`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:resource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.resource` is mapped to FHIR R4 element `CompartmentDefinition.resource`."
             }
           ]
         },
@@ -442,12 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.resource.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.code` is mapped to FHIR R4B element `CompartmentDefinition.resource.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:resource:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.code` is part of an existing definition because parent element `CompartmentDefinition.resource` requires a cross-version extension.\nElement `CompartmentDefinition.resource.code` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.resource.code` is mapped to FHIR R4 element `CompartmentDefinition.resource.code`."
             }
           ]
         },
@@ -458,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.resource.param",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.param` is mapped to FHIR R4B element `CompartmentDefinition.resource.param`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:resource:param",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.param` is part of an existing definition because parent element `CompartmentDefinition.resource` requires a cross-version extension.\nElement `CompartmentDefinition.resource.param` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.resource.param` is mapped to FHIR R4 element `CompartmentDefinition.resource.param`."
             }
           ]
         },
@@ -474,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.resource.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.documentation` is mapped to FHIR R4B element `CompartmentDefinition.resource.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:resource:documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.documentation` is part of an existing definition because parent element `CompartmentDefinition.resource` requires a cross-version extension.\nElement `CompartmentDefinition.resource.documentation` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.resource.documentation` is mapped to FHIR R4 element `CompartmentDefinition.resource.documentation`."
             }
           ]
         },
@@ -488,14 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "startParam",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.startParam",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.startParam` is mapped to FHIR R4B structure `CompartmentDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:resource:startParam",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.startParam` is part of an existing definition because parent element `CompartmentDefinition.resource` requires a cross-version extension.\nElement `CompartmentDefinition.resource.startParam` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.resource.startParam` is will have a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`."
             }
           ]
         },
@@ -504,14 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "endParam",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.endParam",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition#CompartmentDefinition.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.endParam` is mapped to FHIR R4B structure `CompartmentDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition:resource:endParam",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CompartmentDefinition.resource.endParam` is part of an existing definition because parent element `CompartmentDefinition.resource` requires a cross-version extension.\nElement `CompartmentDefinition.resource.endParam` is not mapped to FHIR DSTU2, since FHIR R5 `CompartmentDefinition` is not mapped."
+              "comment" : "Element `CompartmentDefinition.resource.endParam` is will have a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`."
             }
           ]
         }

@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Binary.cs
   "title" : "Cross-version Profile for R5.Binary for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6249364-06:00",
+  "date" : "2026-02-09T22:05:42.9896103-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.7164822-06:00",
+  "date" : "2026-02-09T22:05:44.0859473-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ObservationDefinition` is representable via FHIR R4B Resource `ObservationDefinition`.\nElement `ObservationDefinition` is mapped to FHIR R4B element `ObservationDefinition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ObservationDefinition` is representable via FHIR STU3 Resource `Basic`.\nElement `ObservationDefinition` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "FHIR R5 Resource `ObservationDefinition` is representable via FHIR R4 Resource `ObservationDefinition`.\nElement `ObservationDefinition` is mapped to FHIR R4 element `ObservationDefinition`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.meta` is mapped to FHIR R4B element `ObservationDefinition.meta`."
-            },
-            {
-              "code" : "Basic.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ObservationDefinition.meta` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.meta` is mapped to FHIR R4 element `ObservationDefinition.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.implicitRules` is mapped to FHIR R4B element `ObservationDefinition.implicitRules`."
-            },
-            {
-              "code" : "Basic.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ObservationDefinition.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.implicitRules` is mapped to FHIR R4 element `ObservationDefinition.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.language` is mapped to FHIR R4B element `ObservationDefinition.language`."
-            },
-            {
-              "code" : "Basic.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ObservationDefinition.language` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.language` is mapped to FHIR R4 element `ObservationDefinition.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.text` is mapped to FHIR R4B element `ObservationDefinition.text`."
-            },
-            {
-              "code" : "Basic.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ObservationDefinition.text` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.text` is mapped to FHIR R4 element `ObservationDefinition.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.contained` is mapped to FHIR R4B element `ObservationDefinition.contained`."
-            },
-            {
-              "code" : "Basic.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ObservationDefinition.contained` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.contained` is mapped to FHIR R4 element `ObservationDefinition.contained`."
             }
           ]
         },
@@ -179,14 +149,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.url",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.url` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.url` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.url` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -197,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.identifier` is mapped to FHIR R4B element `ObservationDefinition.identifier`."
-            },
-            {
-              "code" : "Basic.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ObservationDefinition.identifier` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.identifier` is mapped to FHIR R4 element `ObservationDefinition.identifier`."
             }
           ]
         },
@@ -211,14 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.version",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.version` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:version",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.version` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.version` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -227,14 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:versionAlgorithm",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.versionAlgorithm[x]` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.versionAlgorithm[x]` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -243,14 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.name",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.name` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.name` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.name` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -259,14 +204,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.title",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.title` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.title` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.title` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -275,14 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.status",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.status` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.status` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.status` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -291,14 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.experimental",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.experimental` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:experimental",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.experimental` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.experimental` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -307,14 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.date",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.date` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.date` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.date` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -323,14 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publisher",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.publisher",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.publisher` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:publisher",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.publisher` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.publisher` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -339,14 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.contact",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.contact` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.contact` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.contact` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -355,14 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.description",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.description` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.description` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.description` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -371,14 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "useContext",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.useContext",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.useContext` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.useContext` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.useContext` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -387,14 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "jurisdiction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.jurisdiction",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.jurisdiction` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:jurisdiction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.jurisdiction` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.jurisdiction` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -403,14 +303,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.purpose",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.purpose` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:purpose",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.purpose` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.purpose` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -419,14 +314,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyright",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.copyright` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:copyright",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.copyright` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.copyright` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -435,14 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.copyrightLabel` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:copyrightLabel",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.copyrightLabel` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.copyrightLabel` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -451,14 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "approvalDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.approvalDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.approvalDate` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:approvalDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.approvalDate` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.approvalDate` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -467,14 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastReviewDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.lastReviewDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.lastReviewDate` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:lastReviewDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.lastReviewDate` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.lastReviewDate` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -483,14 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "effectivePeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.effectivePeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.effectivePeriod` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:effectivePeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.effectivePeriod` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.effectivePeriod` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -499,14 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFromCanonical",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromCanonical",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.derivedFromCanonical` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:derivedFromCanonical",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.derivedFromCanonical` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.derivedFromCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.derivedFromCanonical` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -515,14 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFromUri",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromUri",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.derivedFromUri` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:derivedFromUri",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.derivedFromUri` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.derivedFromUri` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -531,14 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subject",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.subject",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `CodeableConcept`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).\nElement `ObservationDefinition.subject` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:subject",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `CodeableConcept`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).\nElement `ObservationDefinition.subject` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `CodeableConcept`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).\nElement `ObservationDefinition.subject` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -547,14 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "performerType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.performerType",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.performerType` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:performerType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.performerType` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.performerType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -565,12 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.category` is mapped to FHIR R4B element `ObservationDefinition.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.category` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.category` is mapped to FHIR R4 element `ObservationDefinition.category`."
             }
           ]
         },
@@ -581,12 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.code` is mapped to FHIR R4B element `ObservationDefinition.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.code` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.code` is mapped to FHIR R4 element `ObservationDefinition.code`."
             }
           ]
         },
@@ -597,12 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.permittedDataType",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.permittedDataType` is mapped to FHIR R4B element `ObservationDefinition.permittedDataType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:permittedDataType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.permittedDataType` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.permittedDataType` is mapped to FHIR R4 element `ObservationDefinition.permittedDataType`."
             }
           ]
         },
@@ -613,12 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.multipleResultsAllowed",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.multipleResultsAllowed` is mapped to FHIR R4B element `ObservationDefinition.multipleResultsAllowed`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:multipleResultsAllowed",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.multipleResultsAllowed` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.multipleResultsAllowed` is mapped to FHIR R4 element `ObservationDefinition.multipleResultsAllowed`."
             }
           ]
         },
@@ -627,14 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodySite",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.bodySite",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.bodySite` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:bodySite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.bodySite` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.bodySite` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -645,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.method` is mapped to FHIR R4B element `ObservationDefinition.method`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.method` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.method` is mapped to FHIR R4 element `ObservationDefinition.method`."
             }
           ]
         },
@@ -659,14 +479,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "specimen",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.specimen",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.specimen` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:specimen",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.specimen` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.specimen` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ObservationDefinition.specimen` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -675,14 +490,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.device` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:device",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.device` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ObservationDefinition.device` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -693,12 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.preferredReportName",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.preferredReportName` is mapped to FHIR R4B element `ObservationDefinition.preferredReportName`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:preferredReportName",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.preferredReportName` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.preferredReportName` is mapped to FHIR R4 element `ObservationDefinition.preferredReportName`."
             }
           ]
         },
@@ -709,12 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.quantitativeDetails.customaryUnit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.permittedUnit` is mapped to FHIR R4B element `ObservationDefinition.quantitativeDetails.customaryUnit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:permittedUnit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.permittedUnit` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.permittedUnit` is mapped to FHIR R4 element `ObservationDefinition.quantitativeDetails.customaryUnit`."
             }
           ]
         },
@@ -725,17 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval`."
             }
           ]
         },
@@ -746,17 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.context",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.context`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.context` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.context` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`."
             }
           ]
         },
@@ -767,17 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.appliesTo",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.appliesTo`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:appliesTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.appliesTo` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:appliesTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.appliesTo` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`."
             }
           ]
         },
@@ -788,17 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.gender",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.gender`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:gender",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gender` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:gender",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.gender` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`."
             }
           ]
         },
@@ -809,17 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.age",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.age`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:age",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.age` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:age",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.age` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`."
             }
           ]
         },
@@ -830,17 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.gestationalAge",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.gestationalAge`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:gestationalAge",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:gestationalAge",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.gestationalAge` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`."
             }
           ]
         },
@@ -851,17 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.condition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.condition` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.condition` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`."
             }
           ]
         },
@@ -872,17 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:rangeCategory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:rangeCategory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.rangeCategory` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`."
             }
           ]
         },
@@ -893,17 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.qualifiedInterval.range",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4B element `ObservationDefinition.qualifiedInterval.range`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.range` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.range` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`."
             }
           ]
         },
@@ -914,17 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.validCodedValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4B element `ObservationDefinition.validCodedValueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:validCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:validCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`."
             }
           ]
         },
@@ -935,17 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.normalCodedValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4B element `ObservationDefinition.normalCodedValueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:normalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:normalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`."
             }
           ]
         },
@@ -956,17 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.abnormalCodedValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4B element `ObservationDefinition.abnormalCodedValueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:abnormalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:abnormalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`."
             }
           ]
         },
@@ -977,17 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition.criticalCodedValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4B element `ObservationDefinition.criticalCodedValueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:qualifiedValue:criticalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue:criticalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`."
             }
           ]
         },
@@ -996,14 +666,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "hasMember",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.hasMember",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.hasMember` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:hasMember",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.hasMember` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.hasMember` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ObservationDefinition.hasMember` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1012,19 +677,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "component",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1033,19 +688,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.code` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1054,19 +699,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "permittedDataType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedDataType",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:permittedDataType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedDataType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.permittedDataType` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1075,19 +710,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "permittedUnit",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedUnit",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:permittedUnit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedUnit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.permittedUnit` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1096,19 +721,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "qualifiedValue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1117,19 +732,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "context",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:context",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.context` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.context` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.context` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.context` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1138,19 +743,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "appliesTo",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:appliesTo",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.appliesTo` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:appliesTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.appliesTo` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:appliesTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.appliesTo` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.appliesTo` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1159,19 +754,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "gender",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:gender",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.gender` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:gender",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.gender` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:gender",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gender` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.gender` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1180,19 +765,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "age",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:age",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.age` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:age",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.age` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:age",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.age` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.age` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1201,19 +776,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "gestationalAge",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:gestationalAge",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.gestationalAge` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:gestationalAge",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.gestationalAge` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:gestationalAge",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gestationalAge` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.gestationalAge` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1222,19 +787,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "condition",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:condition",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.condition` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.condition` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.condition` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.condition` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1243,19 +798,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "rangeCategory",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:rangeCategory",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.rangeCategory` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:rangeCategory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.rangeCategory` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:rangeCategory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.rangeCategory` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.rangeCategory` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1264,19 +809,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "range",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:range",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.range` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.range` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.range` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.range` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1285,19 +820,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "validCodedValueSet",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:validCodedValueSet",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:validCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:validCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.component.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.component.qualifiedValue.validCodedValueSet` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1306,19 +831,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "normalCodedValueSet",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:normalCodedValueSet",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:normalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:normalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.component.qualifiedValue.normalCodedValueSet` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1327,19 +842,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "abnormalCodedValueSet",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:abnormalCodedValueSet",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:abnormalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:abnormalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.component.qualifiedValue.abnormalCodedValueSet` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         },
@@ -1348,19 +853,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "criticalCodedValueSet",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:criticalCodedValueSet",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ObservationDefinition#ObservationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4B structure `ObservationDefinition`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:component:qualifiedValue:criticalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is not mapped to FHIR STU3, since FHIR R5 `ObservationDefinition` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component.qualifiedValue:criticalCodedValueSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is not mapped to FHIR DSTU2, since FHIR R5 `ObservationDefinition` is not mapped."
+              "comment" : "Element `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.component.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.component.qualifiedValue.criticalCodedValueSet` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."
             }
           ]
         }

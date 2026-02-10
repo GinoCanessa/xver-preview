@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.2056479-06:00",
+  "date" : "2026-02-09T22:05:43.7732742-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceRequest` is representable via FHIR R4B Resource `DeviceRequest`.\nElement `DeviceRequest` is mapped to FHIR R4B element `DeviceRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceRequest` is representable via FHIR DSTU2 Resource `DeviceUseRequest`.\nElement `DeviceRequest` is mapped to FHIR DSTU2 element `DeviceUseRequest`."
+              "comment" : "FHIR R5 Resource `DeviceRequest` is representable via FHIR R4 Resource `DeviceRequest`.\nElement `DeviceRequest` is mapped to FHIR R4 element `DeviceRequest`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.meta` is mapped to FHIR R4B element `DeviceRequest.meta`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.meta` is mapped to FHIR DSTU2 element `DeviceUseRequest.meta`."
+              "comment" : "Element `DeviceRequest.meta` is mapped to FHIR R4 element `DeviceRequest.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.implicitRules` is mapped to FHIR R4B element `DeviceRequest.implicitRules`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.implicitRules` is mapped to FHIR DSTU2 element `DeviceUseRequest.implicitRules`."
+              "comment" : "Element `DeviceRequest.implicitRules` is mapped to FHIR R4 element `DeviceRequest.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.language` is mapped to FHIR R4B element `DeviceRequest.language`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.language` is mapped to FHIR DSTU2 element `DeviceUseRequest.language`."
+              "comment" : "Element `DeviceRequest.language` is mapped to FHIR R4 element `DeviceRequest.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.text` is mapped to FHIR R4B element `DeviceRequest.text`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.text` is mapped to FHIR DSTU2 element `DeviceUseRequest.text`."
+              "comment" : "Element `DeviceRequest.text` is mapped to FHIR R4 element `DeviceRequest.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.contained` is mapped to FHIR R4B element `DeviceRequest.contained`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.contained` is mapped to FHIR DSTU2 element `DeviceUseRequest.contained`."
+              "comment" : "Element `DeviceRequest.contained` is mapped to FHIR R4 element `DeviceRequest.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.identifier` is mapped to FHIR R4B element `DeviceRequest.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.identifier` is mapped to FHIR DSTU2 element `DeviceUseRequest.identifier`."
+              "comment" : "Element `DeviceRequest.identifier` is mapped to FHIR R4 element `DeviceRequest.identifier`."
             }
           ]
         },
@@ -197,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.instantiatesCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.instantiatesCanonical` is mapped to FHIR R4B element `DeviceRequest.instantiatesCanonical`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.instantiatesCanonical",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.instantiatesCanonical` is mapped to FHIR STU3 structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.instantiatesCanonical` is mapped to FHIR R4 element `DeviceRequest.instantiatesCanonical`."
             }
           ]
         },
@@ -213,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.instantiatesUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.instantiatesUri` is mapped to FHIR R4B element `DeviceRequest.instantiatesUri`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.instantiatesUri",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.instantiatesUri` is mapped to FHIR STU3 structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.instantiatesUri` is mapped to FHIR R4 element `DeviceRequest.instantiatesUri`."
             }
           ]
         },
@@ -229,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.basedOn` is mapped to FHIR R4B element `DeviceRequest.basedOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.basedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.basedOn` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.basedOn` is mapped to FHIR R4 element `DeviceRequest.basedOn`."
             }
           ]
         },
@@ -245,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.priorRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.replaces` is mapped to FHIR R4B element `DeviceRequest.priorRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.replaces",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.replaces` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceRequest.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceRequest.replaces` is mapped to FHIR R4 element `DeviceRequest.priorRequest`."
             }
           ]
         },
@@ -261,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.groupIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.groupIdentifier` is mapped to FHIR R4B element `DeviceRequest.groupIdentifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.groupIdentifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.groupIdentifier` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.groupIdentifier` is mapped to FHIR R4 element `DeviceRequest.groupIdentifier`."
             }
           ]
         },
@@ -277,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.status` is mapped to FHIR R4B element `DeviceRequest.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.status",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceUseRequest.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DeviceRequest.status` is mapped to FHIR DSTU2 element `DeviceUseRequest.status`."
+              "comment" : "Element `DeviceRequest.status` is mapped to FHIR R4 element `DeviceRequest.status`."
             }
           ]
         },
@@ -293,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.intent",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.intent` is mapped to FHIR R4B element `DeviceRequest.intent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.intent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.intent` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.intent` is mapped to FHIR R4 element `DeviceRequest.intent`."
             }
           ]
         },
@@ -309,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.priority` is mapped to FHIR R4B element `DeviceRequest.priority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.priority` is mapped to FHIR DSTU2 element `DeviceUseRequest.priority`."
+              "comment" : "Element `DeviceRequest.priority` is mapped to FHIR R4 element `DeviceRequest.priority`."
             }
           ]
         },
@@ -323,9 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "doNotPerform",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.doNotPerform` is mapped to FHIR R4B structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.doNotPerform` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`."
             }
           ]
         },
@@ -336,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.code[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceRequest.code[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`.\nElement `DeviceRequest.code` is mapped to FHIR R4B element `DeviceRequest.code[x]`.\nNote that the target element context `DeviceRequest.code[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.device",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.code` is mapped to FHIR DSTU2 element `DeviceUseRequest.device`."
+              "comment" : "Note that the target element context `DeviceRequest.code[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`.\nElement `DeviceRequest.code` is mapped to FHIR R4 element `DeviceRequest.code[x]`.\nNote that the target element context `DeviceRequest.code[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`."
             }
           ]
         },
@@ -350,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.quantity` is mapped to FHIR R4B structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.quantity` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`."
             }
           ]
         },
@@ -363,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.parameter` is mapped to FHIR R4B element `DeviceRequest.parameter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.parameter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.parameter` is mapped to FHIR STU3 structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.parameter` is mapped to FHIR R4 element `DeviceRequest.parameter`."
             }
           ]
         },
@@ -379,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.parameter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.parameter.code` is mapped to FHIR R4B element `DeviceRequest.parameter.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.parameter:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.parameter.code` is part of an existing definition because parent element `DeviceRequest.parameter` requires a cross-version extension.\nElement `DeviceRequest.parameter.code` is mapped to FHIR STU3 structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.parameter.code` is mapped to FHIR R4 element `DeviceRequest.parameter.code`."
             }
           ]
         },
@@ -395,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.parameter.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest.parameter`.\nElement `DeviceRequest.parameter.value[x]` is mapped to FHIR R4B element `DeviceRequest.parameter.value[x]`.\nNote that the target element context `DeviceRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest.parameter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.parameter:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.parameter.value[x]` is part of an existing definition because parent element `DeviceRequest.parameter` requires a cross-version extension.\nElement `DeviceRequest.parameter.value[x]` is mapped to FHIR STU3 structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Note that the target element context `DeviceRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest.parameter`.\nElement `DeviceRequest.parameter.value[x]` is mapped to FHIR R4 element `DeviceRequest.parameter.value[x]`.\nNote that the target element context `DeviceRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest.parameter`."
             }
           ]
         },
@@ -411,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.subject` is mapped to FHIR R4B element `DeviceRequest.subject`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceRequest.subject` is mapped to FHIR DSTU2 element `DeviceUseRequest.subject`."
+              "comment" : "Element `DeviceRequest.subject` is mapped to FHIR R4 element `DeviceRequest.subject`."
             }
           ]
         },
@@ -427,17 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.encounter` is mapped to FHIR R4B element `DeviceRequest.encounter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.encounter` is mapped to FHIR STU3 element `DeviceRequest.context`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.encounter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.encounter` is mapped to FHIR DSTU2 element `DeviceUseRequest.encounter`."
+              "comment" : "Element `DeviceRequest.encounter` is mapped to FHIR R4 element `DeviceRequest.encounter`."
             }
           ]
         },
@@ -448,17 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`.\nElement `DeviceRequest.occurrence[x]` is mapped to FHIR R4B element `DeviceRequest.occurrence[x]`.\nNote that the target element context `DeviceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.orderedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.occurrence[x]` is mapped to FHIR DSTU2 element `DeviceUseRequest.orderedOn`.\nElement `DeviceRequest.occurrence[x]` is mapped to FHIR DSTU2 element `DeviceUseRequest.timing[x]`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.timing[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.occurrence[x]` is mapped to FHIR DSTU2 element `DeviceUseRequest.orderedOn`.\nElement `DeviceRequest.occurrence[x]` is mapped to FHIR DSTU2 element `DeviceUseRequest.timing[x]`."
+              "comment" : "Note that the target element context `DeviceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`.\nElement `DeviceRequest.occurrence[x]` is mapped to FHIR R4 element `DeviceRequest.occurrence[x]`.\nNote that the target element context `DeviceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`."
             }
           ]
         },
@@ -469,17 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.authoredOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.authoredOn` is mapped to FHIR R4B element `DeviceRequest.authoredOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.orderedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.authoredOn` is mapped to FHIR DSTU2 element `DeviceUseRequest.orderedOn`.\nElement `DeviceRequest.authoredOn` is mapped to FHIR DSTU2 element `DeviceUseRequest.recordedOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.recordedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.authoredOn` is mapped to FHIR DSTU2 element `DeviceUseRequest.orderedOn`.\nElement `DeviceRequest.authoredOn` is mapped to FHIR DSTU2 element `DeviceUseRequest.recordedOn`."
+              "comment" : "Element `DeviceRequest.authoredOn` is mapped to FHIR R4 element `DeviceRequest.authoredOn`."
             }
           ]
         },
@@ -490,17 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.requester",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.requester` is mapped to FHIR R4B element `DeviceRequest.requester`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.requester.agent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.requester` is mapped to FHIR STU3 element `DeviceRequest.requester.agent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.requester",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.requester` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.requester` is mapped to FHIR R4 element `DeviceRequest.requester`."
             }
           ]
         },
@@ -511,17 +371,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.performer` is mapped to FHIR R4B element `DeviceRequest.performerType`.\nElement `DeviceRequest.performer` is mapped to FHIR R4B element `DeviceRequest.performer`."
+              "comment" : "Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.performerType",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.performer` is mapped to FHIR R4B element `DeviceRequest.performerType`.\nElement `DeviceRequest.performer` is mapped to FHIR R4B element `DeviceRequest.performer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.performer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.performer` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified.\nElement `DeviceRequest.performer` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer`."
             }
           ]
         },
@@ -532,17 +387,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.reason` is mapped to FHIR R4B element `DeviceRequest.reasonCode`.\nElement `DeviceRequest.reason` is mapped to FHIR R4B element `DeviceRequest.reasonReference`."
+              "comment" : "Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.reason` is mapped to FHIR R4B element `DeviceRequest.reasonCode`.\nElement `DeviceRequest.reason` is mapped to FHIR R4B element `DeviceRequest.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.indication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.reason` is mapped to FHIR DSTU2 element `DeviceUseRequest.indication`.\nElement `DeviceRequest.reason` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference`."
             }
           ]
         },
@@ -551,9 +401,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "asNeeded",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.asNeeded` is mapped to FHIR R4B structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.asNeeded` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`."
             }
           ]
         },
@@ -562,9 +412,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "asNeededFor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.asNeededFor` is mapped to FHIR R4B structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.asNeededFor` is will have a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`."
             }
           ]
         },
@@ -575,12 +425,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.insurance",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.insurance` is mapped to FHIR R4B element `DeviceRequest.insurance`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.insurance",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.insurance` is mapped to FHIR STU3 structure `DeviceRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.insurance` is mapped to FHIR R4 element `DeviceRequest.insurance`."
             }
           ]
         },
@@ -591,12 +436,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.supportingInfo",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.supportingInfo` is mapped to FHIR R4B element `DeviceRequest.supportingInfo`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.supportingInfo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.supportingInfo` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.supportingInfo` is mapped to FHIR R4 element `DeviceRequest.supportingInfo`."
             }
           ]
         },
@@ -607,12 +447,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.note` is mapped to FHIR R4B element `DeviceRequest.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceUseRequest.notes",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.note` is mapped to FHIR DSTU2 element `DeviceUseRequest.notes`."
+              "comment" : "Element `DeviceRequest.note` is mapped to FHIR R4 element `DeviceRequest.note`."
             }
           ]
         },
@@ -623,12 +458,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceRequest#DeviceRequest.relevantHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.relevantHistory` is mapped to FHIR R4B element `DeviceRequest.relevantHistory`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.relevantHistory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceRequest.relevantHistory` is mapped to FHIR DSTU2 structure `DeviceUseRequest`, but has no target element specified."
+              "comment" : "Element `DeviceRequest.relevantHistory` is mapped to FHIR R4 element `DeviceRequest.relevantHistory`."
             }
           ]
         }

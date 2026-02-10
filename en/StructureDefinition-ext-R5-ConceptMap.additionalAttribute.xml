@@ -64,7 +64,7 @@
   <title value="Cross-version Extension `R5.ConceptMap.additionalAttribute` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -81,7 +81,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ConceptMap.additionalAttribute` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ConceptMap.additionalAttribute` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ConceptMap.additionalAttribute` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ConceptMap.additionalAttribute` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ConceptMap.additionalAttribute` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ConceptMap.additionalAttribute` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ConceptMap.additionalAttribute` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ConceptMap.additionalAttribute` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -92,7 +92,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ConceptMap"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -204,7 +204,7 @@
       <sliceName value="code"/>
       <short value="Identifies this additional attribute through this resource"/>
       <definition value="A code that is used to identify this additional data attribute. The code is used internally in ConceptMap.group.element.target.dependsOn.attribute and ConceptMap.group.element.target.product.attribute."/>
-      <requirements value="Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -368,7 +368,7 @@
       <sliceName value="uri"/>
       <short value="Formal identifier for the data element referred to in this attribte"/>
       <definition value="Reference to the formal definition of the source/target data element. For elements defined by the FHIR specification, or using a FHIR logical model, the correct format is {canonical-url}#{element-id}."/>
-      <requirements value="Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -532,7 +532,7 @@
       <sliceName value="description"/>
       <short value="Why the additional attribute is defined, and/or what the data element it refers to is"/>
       <definition value="A description of the additional attribute and/or the data element it refers to - why it is defined, and how the value might be used in mappings, and a discussion of issues associated with the use of the data element."/>
-      <requirements value="Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -697,7 +697,7 @@
       <short value="code | Coding | string | boolean | Quantity"/>
       <definition value="The type of the source data contained in this concept map for this data element."/>
       <comment value="When the source or target is not content defined by FHIR, some additional application logic might be required to map from the FHIR Datatype to the externally defined content"/>
-      <requirements value="Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1099,7 +1099,7 @@
       <sliceName value="code"/>
       <short value="Identifies this additional attribute through this resource"/>
       <definition value="A code that is used to identify this additional data attribute. The code is used internally in ConceptMap.group.element.target.dependsOn.attribute and ConceptMap.group.element.target.product.attribute."/>
-      <requirements value="Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1139,7 +1139,7 @@
       <sliceName value="uri"/>
       <short value="Formal identifier for the data element referred to in this attribte"/>
       <definition value="Reference to the formal definition of the source/target data element. For elements defined by the FHIR specification, or using a FHIR logical model, the correct format is {canonical-url}#{element-id}."/>
-      <requirements value="Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.uri` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1179,7 +1179,7 @@
       <sliceName value="description"/>
       <short value="Why the additional attribute is defined, and/or what the data element it refers to is"/>
       <definition value="A description of the additional attribute and/or the data element it refers to - why it is defined, and how the value might be used in mappings, and a discussion of issues associated with the use of the data element."/>
-      <requirements value="Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.description` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1220,7 +1220,7 @@
       <short value="code | Coding | string | boolean | Quantity"/>
       <definition value="The type of the source data contained in this concept map for this data element."/>
       <comment value="When the source or target is not content defined by FHIR, some additional application logic might be required to map from the FHIR Datatype to the externally defined content"/>
-      <requirements value="Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.type` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."/>
+      <requirements value="Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.&#xA;Element `ConceptMap.additionalAttribute.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

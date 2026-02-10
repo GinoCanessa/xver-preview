@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.8746431-06:00",
+  "date" : "2026-02-09T22:05:43.8920271-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Flag` is representable via FHIR R4B Resource `Flag`.\nElement `Flag` is mapped to FHIR R4B element `Flag`."
+              "comment" : "FHIR R5 Resource `Flag` is representable via FHIR R4 Resource `Flag`.\nElement `Flag` is mapped to FHIR R4 element `Flag`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.meta` is mapped to FHIR R4B element `Flag.meta`."
+              "comment" : "Element `Flag.meta` is mapped to FHIR R4 element `Flag.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.implicitRules` is mapped to FHIR R4B element `Flag.implicitRules`."
+              "comment" : "Element `Flag.implicitRules` is mapped to FHIR R4 element `Flag.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.language` is mapped to FHIR R4B element `Flag.language`."
+              "comment" : "Element `Flag.language` is mapped to FHIR R4 element `Flag.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.text` is mapped to FHIR R4B element `Flag.text`."
+              "comment" : "Element `Flag.text` is mapped to FHIR R4 element `Flag.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.contained` is mapped to FHIR R4B element `Flag.contained`."
+              "comment" : "Element `Flag.contained` is mapped to FHIR R4 element `Flag.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.identifier` is mapped to FHIR R4B element `Flag.identifier`."
+              "comment" : "Element `Flag.identifier` is mapped to FHIR R4 element `Flag.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.status` is mapped to FHIR R4B element `Flag.status`."
+              "comment" : "Element `Flag.status` is mapped to FHIR R4 element `Flag.status`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.category` is mapped to FHIR R4B element `Flag.category`."
+              "comment" : "Element `Flag.category` is mapped to FHIR R4 element `Flag.category`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.code` is mapped to FHIR R4B element `Flag.code`."
+              "comment" : "Element `Flag.code` is mapped to FHIR R4 element `Flag.code`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Flag.subject` is mapped to FHIR R4B element `Flag.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Flag.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Flag.subject` is mapped to FHIR R4 element `Flag.subject`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.period` is mapped to FHIR R4B element `Flag.period`."
+              "comment" : "Element `Flag.period` is mapped to FHIR R4 element `Flag.period`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Flag.encounter` is mapped to FHIR R4B element `Flag.encounter`."
+              "comment" : "Element `Flag.encounter` is mapped to FHIR R4 element `Flag.encounter`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Flag#Flag.author",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nElement `Flag.author` is mapped to FHIR R4B element `Flag.author`."
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Flag.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Flag.author` is mapped to FHIR R4 element `Flag.author`."
             }
           ]
         }

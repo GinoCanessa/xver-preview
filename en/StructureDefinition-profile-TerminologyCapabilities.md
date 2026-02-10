@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Terminolo
   "title" : "Cross-version Profile for R5.TerminologyCapabilities for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8113827-06:00",
+  "date" : "2026-02-09T22:05:43.3797379-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,8 +149,73 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Terminolo
         "path" : "TerminologyCapabilities"
       },
       {
-        "id" : "TerminologyCapabilities.codeSystem.version.language.extension",
-        "path" : "TerminologyCapabilities.codeSystem.version.language.extension",
+        "id" : "TerminologyCapabilities.extension",
+        "path" : "TerminologyCapabilities.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TerminologyCapabilities.extension:versionAlgorithm",
+        "path" : "TerminologyCapabilities.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for TerminologyCapabilities.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `TerminologyCapabilities.versionAlgorithm[x]` is will have a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TerminologyCapabilities.extension:copyrightLabel",
+        "path" : "TerminologyCapabilities.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for TerminologyCapabilities.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `TerminologyCapabilities.copyrightLabel` is will have a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TerminologyCapabilities.codeSystem.extension",
+        "path" : "TerminologyCapabilities.codeSystem.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -164,15 +229,60 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Terminolo
         "min" : 1,
         "max" : "*",
         "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "TerminologyCapabilities.codeSystem.extension:content",
+        "path" : "TerminologyCapabilities.codeSystem.extension",
+        "sliceName" : "content",
+        "short" : "Cross-version extension for TerminologyCapabilities.codeSystem.content from R5 for use in FHIR R4",
+        "comment" : "Element `TerminologyCapabilities.codeSystem.content` is will have a context of TerminologyCapabilities.codeSystem based on following the parent source element upwards and mapping to `TerminologyCapabilities`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.content|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "TerminologyCapabilities.codeSystem.version.language.extension",
+        "path" : "TerminologyCapabilities.codeSystem.version.language.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
           "path" : "TerminologyCapabilities.codeSystem.version.language",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "TerminologyCapabilities.codeSystem.version.language.extension",
+        "id" : "TerminologyCapabilities.codeSystem.version.language.extension:language",
         "path" : "TerminologyCapabilities.codeSystem.version.language.extension",
+        "sliceName" : "language",
         "short" : "Cross-version extension for TerminologyCapabilities.codeSystem.version.language from R5 for use in FHIR R4",
+        "comment" : "Element `TerminologyCapabilities.codeSystem.version.language` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -202,7 +312,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Terminolo
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "TerminologyCapabilities.codeSearch",
@@ -211,9 +321,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Terminolo
         }
       },
       {
-        "id" : "TerminologyCapabilities.codeSearch.extension",
+        "id" : "TerminologyCapabilities.codeSearch.extension:codeSearch",
         "path" : "TerminologyCapabilities.codeSearch.extension",
+        "sliceName" : "codeSearch",
         "short" : "Cross-version extension for TerminologyCapabilities.codeSearch from R5 for use in FHIR R4",
+        "comment" : "Element `TerminologyCapabilities.codeSearch` is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch`.",
         "min" : 0,
         "max" : "1",
         "base" : {

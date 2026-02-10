@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Task.performer` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Task.performer` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Task.performer` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Task.performer` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Task.performer` is mapped to FHIR R4 structure `Task`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Task.performer` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Task.performer` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Task.performer` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Task.performer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Task" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "Type of performance" ] ;
        fhir:definition [ fhir:v "A code or description of the performer of the task." ] ;
-       fhir:requirements [ fhir:v "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is mapped to FHIR R4 structure `Task`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is will have a context of Task based on following the parent source element upwards and mapping to `Task`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who performed the task" ] ;
        fhir:definition [ fhir:v "The actor or entity who performed the task." ] ;
-       fhir:requirements [ fhir:v "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` is mapped to FHIR R4 structure `Task`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Task.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Task.performer.actor` is will have a context of Task based on following the parent source element upwards and mapping to `Task`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1128,7 +1128,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "Type of performance" ] ;
        fhir:definition [ fhir:v "A code or description of the performer of the task." ] ;
-       fhir:requirements [ fhir:v "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is mapped to FHIR R4 structure `Task`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is will have a context of Task based on following the parent source element upwards and mapping to `Task`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1175,7 +1175,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who performed the task" ] ;
        fhir:definition [ fhir:v "The actor or entity who performed the task." ] ;
-       fhir:requirements [ fhir:v "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` is mapped to FHIR R4 structure `Task`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Task.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Task.performer.actor` is will have a context of Task based on following the parent source element upwards and mapping to `Task`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

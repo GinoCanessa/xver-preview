@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `TestReport.setup.ac
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.TestReport for use in FHIR R4](StructureDefinition-profile-TestReport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-TestReport.set.act.ass.requirement)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
   "title" : "Cross-version Extension `R5.TestReport.setup.action.assert.requirement` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TestReport.setup.action.assert.requirement` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TestReport.setup.action.assert.requirement` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TestReport.setup.action.assert.requirement` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestReport`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TestReport.setup.action.assert.requirement` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TestReport.setup.action.assert.requirement` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TestReport.setup.action.assert.requirement` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "TestReport.setup.action.assert"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
         "sliceName" : "link",
         "short" : "Link or reference to the testing requirement",
         "definition" : "Link or reference providing traceability to the testing requirement for this test.",
-        "requirements" : "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestReport`, but has no target element specified.",
+        "requirements" : "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.",
         "min" : 0,
         "max" : "1",
         "base" : {

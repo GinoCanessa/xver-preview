@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:name","Extension.extension","name","","",0,1,"","","","Extension {[]} {[]}
 ","Constant name","Other maps used by this map (canonical URLs).","","Element `StructureMap.const.name` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.
-Element `StructureMap.const.name` is mapped to FHIR R4 structure `StructureMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `StructureMap.const.name` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:name.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:value","Extension.extension","value","","",0,1,"","","","Extension {[]} {[]}
 ","FHIRPath exression - value of the constant","A FHIRPath expression that is the value of this variable.","","Element `StructureMap.const.value` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.
-Element `StructureMap.const.value` is mapped to FHIR R4 structure `StructureMap`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `StructureMap.const.value` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:value.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

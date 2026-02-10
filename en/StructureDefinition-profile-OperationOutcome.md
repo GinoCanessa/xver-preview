@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
   "title" : "Cross-version Profile for R5.OperationOutcome for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7555694-06:00",
+  "date" : "2026-02-09T22:05:43.248843-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -160,9 +160,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
         }
       },
       {
-        "id" : "OperationOutcome.issue.severity.extension",
+        "id" : "OperationOutcome.issue.severity.extension:severity",
         "path" : "OperationOutcome.issue.severity.extension",
+        "sliceName" : "severity",
         "short" : "Cross-version extension for OperationOutcome.issue.severity from R5 for use in FHIR R4",
+        "comment" : "Element `OperationOutcome.issue.severity` is mapped to FHIR R4 element `OperationOutcome.issue.severity`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -201,9 +203,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
         }
       },
       {
-        "id" : "OperationOutcome.issue.code.extension",
+        "id" : "OperationOutcome.issue.code.extension:code",
         "path" : "OperationOutcome.issue.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for OperationOutcome.issue.code from R5 for use in FHIR R4",
+        "comment" : "Element `OperationOutcome.issue.code` is mapped to FHIR R4 element `OperationOutcome.issue.code`.",
         "min" : 1,
         "max" : "1",
         "base" : {

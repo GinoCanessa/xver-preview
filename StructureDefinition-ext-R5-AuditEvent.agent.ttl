@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -757,7 +757,7 @@
        fhir:short [ fhir:v "Identifier of who" ] ;
        fhir:definition [ fhir:v "Reference to who this agent is that was involved in the event." ] ;
        fhir:comment [ fhir:v "Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display." ] ;
-       fhir:requirements [ fhir:v "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`." ] ;
+       fhir:requirements [ fhir:v "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2543,7 +2543,7 @@
        fhir:short [ fhir:v "Identifier of who" ] ;
        fhir:definition [ fhir:v "Reference to who this agent is that was involved in the event." ] ;
        fhir:comment [ fhir:v "Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display." ] ;
-       fhir:requirements [ fhir:v "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`." ] ;
+       fhir:requirements [ fhir:v "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

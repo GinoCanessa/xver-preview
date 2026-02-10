@@ -13,8 +13,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:value","Extension.extension","value","","",1,1,"","","","Extension {[]} {[]}
 ","Code|uri|canonical","Code|uri|canonical.","","Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.
-Element `DocumentReference.content.profile.value[x]` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.
-Element `DocumentReference.content.profile.value[x]` is mapped to FHIR R4 structure `Media`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DocumentReference.content.profile.value[x]` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.content.profile.value[x]` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:value.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

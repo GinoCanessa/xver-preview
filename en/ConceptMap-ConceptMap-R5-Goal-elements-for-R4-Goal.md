@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.9101555-06:00",
+  "date" : "2026-02-09T22:05:43.8993551-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Goal` is representable via FHIR R4B Resource `Goal`.\nElement `Goal` is mapped to FHIR R4B element `Goal`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcome",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Goal` is representable via FHIR DSTU2 Resource `Goal`.\nElement `Goal` is mapped to FHIR DSTU2 element `Goal.outcome`."
+              "comment" : "FHIR R5 Resource `Goal` is representable via FHIR R4 Resource `Goal`.\nElement `Goal` is mapped to FHIR R4 element `Goal`."
             }
           ]
         },
@@ -101,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.meta` is mapped to FHIR R4B element `Goal.meta`."
+              "comment" : "Element `Goal.meta` is mapped to FHIR R4 element `Goal.meta`."
             }
           ]
         },
@@ -112,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.implicitRules` is mapped to FHIR R4B element `Goal.implicitRules`."
+              "comment" : "Element `Goal.implicitRules` is mapped to FHIR R4 element `Goal.implicitRules`."
             }
           ]
         },
@@ -123,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.language` is mapped to FHIR R4B element `Goal.language`."
+              "comment" : "Element `Goal.language` is mapped to FHIR R4 element `Goal.language`."
             }
           ]
         },
@@ -134,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.text` is mapped to FHIR R4B element `Goal.text`."
+              "comment" : "Element `Goal.text` is mapped to FHIR R4 element `Goal.text`."
             }
           ]
         },
@@ -145,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.contained` is mapped to FHIR R4B element `Goal.contained`."
+              "comment" : "Element `Goal.contained` is mapped to FHIR R4 element `Goal.contained`."
             }
           ]
         },
@@ -156,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.identifier` is mapped to FHIR R4B element `Goal.identifier`."
+              "comment" : "Element `Goal.identifier` is mapped to FHIR R4 element `Goal.identifier`."
             }
           ]
         },
@@ -167,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.lifecycleStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.lifecycleStatus` is mapped to FHIR R4B element `Goal.lifecycleStatus`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.status",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Goal.lifecycleStatus` is mapped to FHIR STU3 element `Goal.status`."
+              "comment" : "Element `Goal.lifecycleStatus` is mapped to FHIR R4 element `Goal.lifecycleStatus`."
             }
           ]
         },
@@ -183,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.achievementStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.achievementStatus` is mapped to FHIR R4B element `Goal.achievementStatus`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Goal.achievementStatus` is mapped to FHIR STU3 element `Goal.status`."
+              "comment" : "Element `Goal.achievementStatus` is mapped to FHIR R4 element `Goal.achievementStatus`."
             }
           ]
         },
@@ -199,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.category` is mapped to FHIR R4B element `Goal.category`."
+              "comment" : "Element `Goal.category` is mapped to FHIR R4 element `Goal.category`."
             }
           ]
         },
@@ -208,9 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "continuous",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.continuous` is mapped to FHIR R4B structure `Goal`, but has no target element specified."
+              "comment" : "Element `Goal.continuous` is will have a context of Goal based on following the parent source element upwards and mapping to `Goal`."
             }
           ]
         },
@@ -221,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.priority` is mapped to FHIR R4B element `Goal.priority`."
+              "comment" : "Element `Goal.priority` is mapped to FHIR R4 element `Goal.priority`."
             }
           ]
         },
@@ -232,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.description` is mapped to FHIR R4B element `Goal.description`."
+              "comment" : "Element `Goal.description` is mapped to FHIR R4 element `Goal.description`."
             }
           ]
         },
@@ -243,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.subject` is mapped to FHIR R4B element `Goal.subject`."
+              "comment" : "Element `Goal.subject` is mapped to FHIR R4 element `Goal.subject`."
             }
           ]
         },
@@ -254,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.start[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.start[x]` is mapped to FHIR R4B element `Goal.start[x]`.\nNote that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`."
+              "comment" : "Note that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.start[x]` is mapped to FHIR R4 element `Goal.start[x]`.\nNote that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`."
             }
           ]
         },
@@ -265,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.target` is mapped to FHIR R4B element `Goal.target`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`."
+              "comment" : "Element `Goal.target` is mapped to FHIR R4 element `Goal.target`."
             }
           ]
         },
@@ -281,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.measure",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.target.measure` is mapped to FHIR R4B element `Goal.target.measure`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.measure` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`."
+              "comment" : "Element `Goal.target.measure` is mapped to FHIR R4 element `Goal.target.measure`."
             }
           ]
         },
@@ -297,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.detail[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.detail[x]` is mapped to FHIR R4B element `Goal.target.detail[x]`.\nNote that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.detail[x]` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`."
+              "comment" : "Note that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.detail[x]` is mapped to FHIR R4 element `Goal.target.detail[x]`.\nNote that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`."
             }
           ]
         },
@@ -313,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.due[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.due[x]` is mapped to FHIR R4B element `Goal.target.due[x]`.\nNote that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.due[x]` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`."
+              "comment" : "Note that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.due[x]` is mapped to FHIR R4 element `Goal.target.due[x]`.\nNote that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`."
             }
           ]
         },
@@ -329,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.statusDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.statusDate` is mapped to FHIR R4B element `Goal.statusDate`."
+              "comment" : "Element `Goal.statusDate` is mapped to FHIR R4 element `Goal.statusDate`."
             }
           ]
         },
@@ -340,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.statusReason` is mapped to FHIR R4B element `Goal.statusReason`."
+              "comment" : "Element `Goal.statusReason` is mapped to FHIR R4 element `Goal.statusReason`."
             }
           ]
         },
@@ -351,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.expressedBy",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.source` is mapped to FHIR R4B element `Goal.expressedBy`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.author",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Goal.source` is mapped to FHIR DSTU2 element `Goal.author`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.source` is mapped to FHIR R4 element `Goal.expressedBy`."
             }
           ]
         },
@@ -367,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.addresses",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.addresses` is mapped to FHIR R4B element `Goal.addresses`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.addresses` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.addresses` is mapped to FHIR R4 element `Goal.addresses`."
             }
           ]
         },
@@ -378,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.note` is mapped to FHIR R4B element `Goal.note`."
+              "comment" : "Element `Goal.note` is mapped to FHIR R4 element `Goal.note`."
             }
           ]
         },
@@ -389,17 +349,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcomeCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeReference`."
+              "comment" : "Element `Goal.outcome` is mapped to FHIR R4 element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4 element `Goal.outcomeReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcomeReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcome.result[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.\nElement `Goal.outcome` is mapped to FHIR DSTU2 element `Goal.outcome.result[x]`.\nNote that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.\nElement `Goal.outcome` is mapped to FHIR DSTU2 element `Goal.outcome.result[x]`.\nNote that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`."
+              "comment" : "Element `Goal.outcome` is mapped to FHIR R4 element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4 element `Goal.outcomeReference`."
             }
           ]
         }

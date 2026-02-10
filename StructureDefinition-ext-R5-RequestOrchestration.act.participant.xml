@@ -69,7 +69,7 @@
   <title value="Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -209,7 +209,7 @@
       <sliceName value="type"/>
       <short value="careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -378,7 +378,7 @@
       <sliceName value="typeCanonical"/>
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -545,7 +545,7 @@
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
       <comment value="When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)."/>
-      <requirements value="Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -734,7 +734,7 @@
       <sliceName value="role"/>
       <short value="E.g. Nurse, Surgeon, Parent, etc"/>
       <definition value="The role the participant should play in performing the described action."/>
-      <requirements value="Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -903,7 +903,7 @@
       <sliceName value="function"/>
       <short value="E.g. Author, Reviewer, Witness, etc"/>
       <definition value="Indicates how the actor will be involved in the action - author, reviewer, witness, etc."/>
-      <requirements value="Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1067,7 +1067,7 @@
       <sliceName value="actor"/>
       <short value="Who/what is participating?"/>
       <definition value="A reference to the actual participant."/>
-      <requirements value="Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1497,7 +1497,7 @@
       <sliceName value="type"/>
       <short value="careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1542,7 +1542,7 @@
       <sliceName value="typeCanonical"/>
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1585,7 +1585,7 @@
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
       <comment value="When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)."/>
-      <requirements value="Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1650,7 +1650,7 @@
       <sliceName value="role"/>
       <short value="E.g. Nurse, Surgeon, Parent, etc"/>
       <definition value="The role the participant should play in performing the described action."/>
-      <requirements value="Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1695,7 +1695,7 @@
       <sliceName value="function"/>
       <short value="E.g. Author, Reviewer, Witness, etc"/>
       <definition value="Indicates how the actor will be involved in the action - author, reviewer, witness, etc."/>
-      <requirements value="Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1735,7 +1735,7 @@
       <sliceName value="actor"/>
       <short value="Who/what is participating?"/>
       <definition value="A reference to the actual participant."/>
-      <requirements value="Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

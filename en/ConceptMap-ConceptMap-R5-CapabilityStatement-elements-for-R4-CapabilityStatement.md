@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.1533608-06:00",
+  "date" : "2026-02-09T22:05:43.5062037-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CapabilityStatement` is representable via FHIR R4B Resource `CapabilityStatement`.\nElement `CapabilityStatement` is mapped to FHIR R4B element `CapabilityStatement`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CapabilityStatement` is representable via FHIR DSTU2 Resource `Conformance`.\nElement `CapabilityStatement` is mapped to FHIR DSTU2 element `Conformance`."
+              "comment" : "FHIR R5 Resource `CapabilityStatement` is representable via FHIR R4 Resource `CapabilityStatement`.\nElement `CapabilityStatement` is mapped to FHIR R4 element `CapabilityStatement`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.meta` is mapped to FHIR R4B element `CapabilityStatement.meta`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.meta` is mapped to FHIR DSTU2 element `Conformance.meta`."
+              "comment" : "Element `CapabilityStatement.meta` is mapped to FHIR R4 element `CapabilityStatement.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implicitRules` is mapped to FHIR R4B element `CapabilityStatement.implicitRules`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implicitRules` is mapped to FHIR DSTU2 element `Conformance.implicitRules`."
+              "comment" : "Element `CapabilityStatement.implicitRules` is mapped to FHIR R4 element `CapabilityStatement.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.language` is mapped to FHIR R4B element `CapabilityStatement.language`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.language` is mapped to FHIR DSTU2 element `Conformance.language`."
+              "comment" : "Element `CapabilityStatement.language` is mapped to FHIR R4 element `CapabilityStatement.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.text` is mapped to FHIR R4B element `CapabilityStatement.text`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.text` is mapped to FHIR DSTU2 element `Conformance.text`."
+              "comment" : "Element `CapabilityStatement.text` is mapped to FHIR R4 element `CapabilityStatement.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.contained` is mapped to FHIR R4B element `CapabilityStatement.contained`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.contained` is mapped to FHIR DSTU2 element `Conformance.contained`."
+              "comment" : "Element `CapabilityStatement.contained` is mapped to FHIR R4 element `CapabilityStatement.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.url` is mapped to FHIR R4B element `CapabilityStatement.url`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.url` is mapped to FHIR DSTU2 element `Conformance.url`."
+              "comment" : "Element `CapabilityStatement.url` is mapped to FHIR R4 element `CapabilityStatement.url`."
             }
           ]
         },
@@ -195,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "Basic.identifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `CapabilityStatement.identifier` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `CapabilityStatement.identifier` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`."
             }
           ]
         },
@@ -208,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.version` is mapped to FHIR R4B element `CapabilityStatement.version`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.version",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.version` is mapped to FHIR DSTU2 element `Conformance.version`."
+              "comment" : "Element `CapabilityStatement.version` is mapped to FHIR R4 element `CapabilityStatement.version`."
             }
           ]
         },
@@ -222,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.versionAlgorithm[x]` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.versionAlgorithm[x]` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`."
             }
           ]
         },
@@ -235,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.name` is mapped to FHIR R4B element `CapabilityStatement.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.name` is mapped to FHIR DSTU2 element `Conformance.name`."
+              "comment" : "Element `CapabilityStatement.name` is mapped to FHIR R4 element `CapabilityStatement.name`."
             }
           ]
         },
@@ -251,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.title` is mapped to FHIR R4B element `CapabilityStatement.title`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.title` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.title` is mapped to FHIR R4 element `CapabilityStatement.title`."
             }
           ]
         },
@@ -267,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.status` is mapped to FHIR R4B element `CapabilityStatement.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.status",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Conformance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CapabilityStatement.status` is mapped to FHIR DSTU2 element `Conformance.status`."
+              "comment" : "Element `CapabilityStatement.status` is mapped to FHIR R4 element `CapabilityStatement.status`."
             }
           ]
         },
@@ -283,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.experimental` is mapped to FHIR R4B element `CapabilityStatement.experimental`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.experimental",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.experimental` is mapped to FHIR DSTU2 element `Conformance.experimental`."
+              "comment" : "Element `CapabilityStatement.experimental` is mapped to FHIR R4 element `CapabilityStatement.experimental`."
             }
           ]
         },
@@ -299,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.date` is mapped to FHIR R4B element `CapabilityStatement.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.date` is mapped to FHIR DSTU2 element `Conformance.date`."
+              "comment" : "Element `CapabilityStatement.date` is mapped to FHIR R4 element `CapabilityStatement.date`."
             }
           ]
         },
@@ -315,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.publisher` is mapped to FHIR R4B element `CapabilityStatement.publisher`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.publisher",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.publisher` is mapped to FHIR DSTU2 element `Conformance.publisher`."
+              "comment" : "Element `CapabilityStatement.publisher` is mapped to FHIR R4 element `CapabilityStatement.publisher`."
             }
           ]
         },
@@ -331,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.contact` is mapped to FHIR R4B element `CapabilityStatement.contact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.contact` is mapped to FHIR DSTU2 element `Conformance.contact`."
+              "comment" : "Element `CapabilityStatement.contact` is mapped to FHIR R4 element `CapabilityStatement.contact`."
             }
           ]
         },
@@ -347,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.description` is mapped to FHIR R4B element `CapabilityStatement.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.description` is mapped to FHIR DSTU2 element `Conformance.description`."
+              "comment" : "Element `CapabilityStatement.description` is mapped to FHIR R4 element `CapabilityStatement.description`."
             }
           ]
         },
@@ -363,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.useContext` is mapped to FHIR R4B element `CapabilityStatement.useContext`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.useContext` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.useContext` is mapped to FHIR R4 element `CapabilityStatement.useContext`."
             }
           ]
         },
@@ -379,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.jurisdiction` is mapped to FHIR R4B element `CapabilityStatement.jurisdiction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.jurisdiction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.jurisdiction` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.jurisdiction` is mapped to FHIR R4 element `CapabilityStatement.jurisdiction`."
             }
           ]
         },
@@ -395,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.purpose` is mapped to FHIR R4B element `CapabilityStatement.purpose`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.requirements",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.purpose` is mapped to FHIR DSTU2 element `Conformance.requirements`."
+              "comment" : "Element `CapabilityStatement.purpose` is mapped to FHIR R4 element `CapabilityStatement.purpose`."
             }
           ]
         },
@@ -411,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.copyright` is mapped to FHIR R4B element `CapabilityStatement.copyright`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.copyright",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.copyright` is mapped to FHIR DSTU2 element `Conformance.copyright`."
+              "comment" : "Element `CapabilityStatement.copyright` is mapped to FHIR R4 element `CapabilityStatement.copyright`."
             }
           ]
         },
@@ -425,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.copyrightLabel` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.copyrightLabel` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`."
             }
           ]
         },
@@ -438,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.kind` is mapped to FHIR R4B element `CapabilityStatement.kind`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.kind",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.kind` is mapped to FHIR DSTU2 element `Conformance.kind`."
+              "comment" : "Element `CapabilityStatement.kind` is mapped to FHIR R4 element `CapabilityStatement.kind`."
             }
           ]
         },
@@ -454,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.instantiates",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.instantiates` is mapped to FHIR R4B element `CapabilityStatement.instantiates`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.instantiates",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.instantiates` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.instantiates` is mapped to FHIR R4 element `CapabilityStatement.instantiates`."
             }
           ]
         },
@@ -470,12 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.imports",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.imports` is mapped to FHIR R4B element `CapabilityStatement.imports`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.imports",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.imports` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.imports` is mapped to FHIR R4 element `CapabilityStatement.imports`."
             }
           ]
         },
@@ -486,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software` is mapped to FHIR R4B element `CapabilityStatement.software`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software` is mapped to FHIR DSTU2 element `Conformance.software`."
+              "comment" : "Element `CapabilityStatement.software` is mapped to FHIR R4 element `CapabilityStatement.software`."
             }
           ]
         },
@@ -502,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software.name` is mapped to FHIR R4B element `CapabilityStatement.software.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software.name` is mapped to FHIR DSTU2 element `Conformance.software.name`."
+              "comment" : "Element `CapabilityStatement.software.name` is mapped to FHIR R4 element `CapabilityStatement.software.name`."
             }
           ]
         },
@@ -518,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software.version` is mapped to FHIR R4B element `CapabilityStatement.software.version`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.version",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software.version` is mapped to FHIR DSTU2 element `Conformance.software.version`."
+              "comment" : "Element `CapabilityStatement.software.version` is mapped to FHIR R4 element `CapabilityStatement.software.version`."
             }
           ]
         },
@@ -534,12 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.releaseDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software.releaseDate` is mapped to FHIR R4B element `CapabilityStatement.software.releaseDate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.releaseDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.software.releaseDate` is mapped to FHIR DSTU2 element `Conformance.software.releaseDate`."
+              "comment" : "Element `CapabilityStatement.software.releaseDate` is mapped to FHIR R4 element `CapabilityStatement.software.releaseDate`."
             }
           ]
         },
@@ -550,12 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation` is mapped to FHIR R4B element `CapabilityStatement.implementation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation` is mapped to FHIR DSTU2 element `Conformance.implementation`."
+              "comment" : "Element `CapabilityStatement.implementation` is mapped to FHIR R4 element `CapabilityStatement.implementation`."
             }
           ]
         },
@@ -566,12 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation.description` is mapped to FHIR R4B element `CapabilityStatement.implementation.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation.description` is mapped to FHIR DSTU2 element `Conformance.implementation.description`."
+              "comment" : "Element `CapabilityStatement.implementation.description` is mapped to FHIR R4 element `CapabilityStatement.implementation.description`."
             }
           ]
         },
@@ -582,12 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation.url` is mapped to FHIR R4B element `CapabilityStatement.implementation.url`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation.url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation.url` is mapped to FHIR DSTU2 element `Conformance.implementation.url`."
+              "comment" : "Element `CapabilityStatement.implementation.url` is mapped to FHIR R4 element `CapabilityStatement.implementation.url`."
             }
           ]
         },
@@ -598,12 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.custodian",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation.custodian` is mapped to FHIR R4B element `CapabilityStatement.implementation.custodian`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementation.custodian",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementation.custodian` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.implementation.custodian` is mapped to FHIR R4 element `CapabilityStatement.implementation.custodian`."
             }
           ]
         },
@@ -614,12 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.fhirVersion",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4B element `CapabilityStatement.fhirVersion`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.fhirVersion",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.fhirVersion` is mapped to FHIR DSTU2 element `Conformance.fhirVersion`."
+              "comment" : "Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4 element `CapabilityStatement.fhirVersion`."
             }
           ]
         },
@@ -630,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.format",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.format` is mapped to FHIR R4B element `CapabilityStatement.format`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.format",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.format` is mapped to FHIR DSTU2 element `Conformance.format`."
+              "comment" : "Element `CapabilityStatement.format` is mapped to FHIR R4 element `CapabilityStatement.format`."
             }
           ]
         },
@@ -646,12 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.patchFormat",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.patchFormat` is mapped to FHIR R4B element `CapabilityStatement.patchFormat`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.patchFormat",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.patchFormat` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.patchFormat` is mapped to FHIR R4 element `CapabilityStatement.patchFormat`."
             }
           ]
         },
@@ -660,9 +490,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "acceptLanguage",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.acceptLanguage",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.acceptLanguage` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.acceptLanguage` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`."
             }
           ]
         },
@@ -673,12 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementationGuide",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementationGuide` is mapped to FHIR R4B element `CapabilityStatement.implementationGuide`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementationGuide",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.implementationGuide` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.implementationGuide` is mapped to FHIR R4 element `CapabilityStatement.implementationGuide`."
             }
           ]
         },
@@ -689,12 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest` is mapped to FHIR R4B element `CapabilityStatement.rest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest` is mapped to FHIR DSTU2 element `Conformance.rest`."
+              "comment" : "Element `CapabilityStatement.rest` is mapped to FHIR R4 element `CapabilityStatement.rest`."
             }
           ]
         },
@@ -705,12 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.mode` is mapped to FHIR R4B element `CapabilityStatement.rest.mode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.mode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.mode` is mapped to FHIR DSTU2 element `Conformance.rest.mode`."
+              "comment" : "Element `CapabilityStatement.rest.mode` is mapped to FHIR R4 element `CapabilityStatement.rest.mode`."
             }
           ]
         },
@@ -721,12 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.documentation`."
+              "comment" : "Element `CapabilityStatement.rest.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.documentation`."
             }
           ]
         },
@@ -737,12 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security` is mapped to FHIR R4B element `CapabilityStatement.rest.security`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security` is mapped to FHIR DSTU2 element `Conformance.rest.security`."
+              "comment" : "Element `CapabilityStatement.rest.security` is mapped to FHIR R4 element `CapabilityStatement.rest.security`."
             }
           ]
         },
@@ -753,12 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.cors",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security.cors` is mapped to FHIR R4B element `CapabilityStatement.rest.security.cors`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.cors",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security.cors` is mapped to FHIR DSTU2 element `Conformance.rest.security.cors`."
+              "comment" : "Element `CapabilityStatement.rest.security.cors` is mapped to FHIR R4 element `CapabilityStatement.rest.security.cors`."
             }
           ]
         },
@@ -769,12 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.service",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security.service` is mapped to FHIR R4B element `CapabilityStatement.rest.security.service`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security.service` is mapped to FHIR DSTU2 element `Conformance.rest.security.service`."
+              "comment" : "Element `CapabilityStatement.rest.security.service` is mapped to FHIR R4 element `CapabilityStatement.rest.security.service`."
             }
           ]
         },
@@ -785,12 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security.description` is mapped to FHIR R4B element `CapabilityStatement.rest.security.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.security.description` is mapped to FHIR DSTU2 element `Conformance.rest.security.description`."
+              "comment" : "Element `CapabilityStatement.rest.security.description` is mapped to FHIR R4 element `CapabilityStatement.rest.security.description`."
             }
           ]
         },
@@ -801,12 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource` is mapped to FHIR R4B element `CapabilityStatement.rest.resource`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource` is mapped to FHIR DSTU2 element `Conformance.rest.resource`."
+              "comment" : "Element `CapabilityStatement.rest.resource` is mapped to FHIR R4 element `CapabilityStatement.rest.resource`."
             }
           ]
         },
@@ -817,12 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR DSTU2 element `Conformance.rest.resource.type`."
+              "comment" : "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.type`."
             }
           ]
         },
@@ -833,12 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`."
+              "comment" : "Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.profile`."
             }
           ]
         },
@@ -849,27 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.supportedProfile",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.supportedProfile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.rest.resource.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.rest.resource.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`."
+              "comment" : "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.supportedProfile`."
             }
           ]
         },
@@ -880,12 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.documentation`."
             }
           ]
         },
@@ -896,12 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction`."
+              "comment" : "Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction`."
             }
           ]
         },
@@ -912,12 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction.code`."
+              "comment" : "Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction.code`."
             }
           ]
         },
@@ -928,12 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction.documentation`."
+              "comment" : "Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction.documentation`."
             }
           ]
         },
@@ -944,12 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.versioning",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.versioning`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.versioning",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR DSTU2 element `Conformance.rest.resource.versioning`."
+              "comment" : "Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.versioning`."
             }
           ]
         },
@@ -960,12 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.readHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.readHistory`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.readHistory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR DSTU2 element `Conformance.rest.resource.readHistory`."
+              "comment" : "Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.readHistory`."
             }
           ]
         },
@@ -976,12 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.updateCreate",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.updateCreate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.updateCreate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.updateCreate`."
+              "comment" : "Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.updateCreate`."
             }
           ]
         },
@@ -992,12 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalCreate",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalCreate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalCreate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalCreate`."
+              "comment" : "Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalCreate`."
             }
           ]
         },
@@ -1008,12 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalRead",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalRead`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalRead",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalRead`."
             }
           ]
         },
@@ -1024,12 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalUpdate",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalUpdate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalUpdate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalUpdate`."
+              "comment" : "Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalUpdate`."
             }
           ]
         },
@@ -1038,9 +743,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "conditionalPatch",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch",
+              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalPatch` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.rest.resource.conditionalPatch` is will have a context of CapabilityStatement.rest.resource based on following the parent source element upwards and mapping to `CapabilityStatement`."
             }
           ]
         },
@@ -1051,12 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalDelete",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalDelete`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalDelete",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalDelete`."
+              "comment" : "Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalDelete`."
             }
           ]
         },
@@ -1067,12 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.referencePolicy",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.referencePolicy`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.referencePolicy",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.referencePolicy`."
             }
           ]
         },
@@ -1083,12 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchInclude",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchInclude`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchInclude",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchInclude`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchInclude`."
             }
           ]
         },
@@ -1099,12 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchRevInclude",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchRevInclude`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchRevInclude",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchRevInclude`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchRevInclude`."
             }
           ]
         },
@@ -1115,12 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam`."
             }
           ]
         },
@@ -1131,12 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.name`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.name`."
             }
           ]
         },
@@ -1147,12 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.definition`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.definition`."
             }
           ]
         },
@@ -1163,12 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.type`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.type`."
             }
           ]
         },
@@ -1179,12 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.documentation`."
+              "comment" : "Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.documentation`."
             }
           ]
         },
@@ -1195,17 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR DSTU2 element `Conformance.rest.operation`."
+              "comment" : "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation`."
             }
           ]
         },
@@ -1216,17 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR DSTU2 element `Conformance.rest.operation.name`."
+              "comment" : "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.name`."
             }
           ]
         },
@@ -1237,17 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR DSTU2 element `Conformance.rest.operation.definition`."
+              "comment" : "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.definition`."
             }
           ]
         },
@@ -1258,12 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.operation.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.documentation`."
             }
           ]
         },
@@ -1274,12 +899,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.interaction` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.interaction` is mapped to FHIR DSTU2 element `Conformance.rest.interaction`."
+              "comment" : "Element `CapabilityStatement.rest.interaction` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction`."
             }
           ]
         },
@@ -1290,12 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR DSTU2 element `Conformance.rest.interaction.code`."
+              "comment" : "Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction.code`."
             }
           ]
         },
@@ -1306,12 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.interaction.documentation`."
+              "comment" : "Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction.documentation`."
             }
           ]
         },
@@ -1322,12 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam`."
+              "comment" : "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam`."
             }
           ]
         },
@@ -1338,12 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.name`."
+              "comment" : "Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam.name`."
             }
           ]
         },
@@ -1354,12 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.definition`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CapabilityStatement.rest.searchParam.definition` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam.definition`."
             }
           ]
         },
@@ -1370,12 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.type`."
+              "comment" : "Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam.type`."
             }
           ]
         },
@@ -1386,12 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.documentation`."
+              "comment" : "Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam.documentation`."
             }
           ]
         },
@@ -1402,12 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation` is mapped to FHIR R4B element `CapabilityStatement.rest.operation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation` is mapped to FHIR DSTU2 element `Conformance.rest.operation`."
+              "comment" : "Element `CapabilityStatement.rest.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.operation`."
             }
           ]
         },
@@ -1418,12 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.compartment",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.compartment` is mapped to FHIR R4B element `CapabilityStatement.rest.compartment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.compartment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.compartment` is mapped to FHIR DSTU2 element `Conformance.rest.compartment`."
+              "comment" : "Element `CapabilityStatement.rest.compartment` is mapped to FHIR R4 element `CapabilityStatement.rest.compartment`."
             }
           ]
         },
@@ -1434,12 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging` is mapped to FHIR R4B element `CapabilityStatement.messaging`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging` is mapped to FHIR DSTU2 element `Conformance.messaging`."
+              "comment" : "Element `CapabilityStatement.messaging` is mapped to FHIR R4 element `CapabilityStatement.messaging`."
             }
           ]
         },
@@ -1450,12 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation.name` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation.name` is mapped to FHIR DSTU2 element `Conformance.rest.operation.name`."
+              "comment" : "Element `CapabilityStatement.rest.operation.name` is mapped to FHIR R4 element `CapabilityStatement.rest.operation.name`."
             }
           ]
         },
@@ -1466,12 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint`."
+              "comment" : "Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint`."
             }
           ]
         },
@@ -1482,12 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation.definition` is mapped to FHIR DSTU2 element `Conformance.rest.operation.definition`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CapabilityStatement.rest.operation.definition` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `CapabilityStatement.rest.operation.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.operation.definition`."
             }
           ]
         },
@@ -1498,12 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.operation.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.operation.documentation`."
             }
           ]
         },
@@ -1514,12 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint.protocol",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint.protocol`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint.protocol",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint.protocol`."
+              "comment" : "Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint.protocol`."
             }
           ]
         },
@@ -1530,12 +1075,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint.address",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint.address`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint.address",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint.address`."
+              "comment" : "Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint.address`."
             }
           ]
         },
@@ -1546,12 +1086,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.reliableCache",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR R4B element `CapabilityStatement.messaging.reliableCache`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.reliableCache",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR DSTU2 element `Conformance.messaging.reliableCache`."
+              "comment" : "Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR R4 element `CapabilityStatement.messaging.reliableCache`."
             }
           ]
         },
@@ -1562,12 +1097,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.documentation` is mapped to FHIR R4B element `CapabilityStatement.messaging.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.documentation` is mapped to FHIR DSTU2 element `Conformance.messaging.documentation`."
+              "comment" : "Element `CapabilityStatement.messaging.documentation` is mapped to FHIR R4 element `CapabilityStatement.messaging.documentation`."
             }
           ]
         },
@@ -1578,12 +1108,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage`."
             }
           ]
         },
@@ -1594,12 +1119,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage.mode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage:mode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.supportedMessage.mode` is part of an existing definition because parent element `CapabilityStatement.messaging.supportedMessage` requires a cross-version extension.\nElement `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage.mode`."
             }
           ]
         },
@@ -1610,12 +1130,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage:definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.messaging.supportedMessage.definition` is part of an existing definition because parent element `CapabilityStatement.messaging.supportedMessage` requires a cross-version extension.\nElement `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified."
+              "comment" : "Element `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage.definition`."
             }
           ]
         },
@@ -1626,12 +1141,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document` is mapped to FHIR R4B element `CapabilityStatement.document`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document` is mapped to FHIR DSTU2 element `Conformance.document`."
+              "comment" : "Element `CapabilityStatement.document` is mapped to FHIR R4 element `CapabilityStatement.document`."
             }
           ]
         },
@@ -1642,12 +1152,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document.mode` is mapped to FHIR R4B element `CapabilityStatement.document.mode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.mode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document.mode` is mapped to FHIR DSTU2 element `Conformance.document.mode`."
+              "comment" : "Element `CapabilityStatement.document.mode` is mapped to FHIR R4 element `CapabilityStatement.document.mode`."
             }
           ]
         },
@@ -1658,12 +1163,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document.documentation` is mapped to FHIR R4B element `CapabilityStatement.document.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document.documentation` is mapped to FHIR DSTU2 element `Conformance.document.documentation`."
+              "comment" : "Element `CapabilityStatement.document.documentation` is mapped to FHIR R4 element `CapabilityStatement.document.documentation`."
             }
           ]
         },
@@ -1674,12 +1174,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document.profile` is mapped to FHIR R4B element `CapabilityStatement.document.profile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CapabilityStatement.document.profile` is mapped to FHIR DSTU2 element `Conformance.document.profile`."
+              "comment" : "Element `CapabilityStatement.document.profile` is mapped to FHIR R4 element `CapabilityStatement.document.profile`."
             }
           ]
         }

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.0547915-06:00",
+  "date" : "2026-02-09T22:05:43.7418866-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DetectedIssue` is representable via FHIR R4B Resource `DetectedIssue`.\nElement `DetectedIssue` is mapped to FHIR R4B element `DetectedIssue`."
+              "comment" : "FHIR R5 Resource `DetectedIssue` is representable via FHIR R4 Resource `DetectedIssue`.\nElement `DetectedIssue` is mapped to FHIR R4 element `DetectedIssue`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.meta` is mapped to FHIR R4B element `DetectedIssue.meta`."
+              "comment" : "Element `DetectedIssue.meta` is mapped to FHIR R4 element `DetectedIssue.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.implicitRules` is mapped to FHIR R4B element `DetectedIssue.implicitRules`."
+              "comment" : "Element `DetectedIssue.implicitRules` is mapped to FHIR R4 element `DetectedIssue.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.language` is mapped to FHIR R4B element `DetectedIssue.language`."
+              "comment" : "Element `DetectedIssue.language` is mapped to FHIR R4 element `DetectedIssue.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.text` is mapped to FHIR R4B element `DetectedIssue.text`."
+              "comment" : "Element `DetectedIssue.text` is mapped to FHIR R4 element `DetectedIssue.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.contained` is mapped to FHIR R4B element `DetectedIssue.contained`."
+              "comment" : "Element `DetectedIssue.contained` is mapped to FHIR R4 element `DetectedIssue.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.identifier` is mapped to FHIR R4B element `DetectedIssue.identifier`."
+              "comment" : "Element `DetectedIssue.identifier` is mapped to FHIR R4 element `DetectedIssue.identifier`."
             }
           ]
         },
@@ -162,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4B element `DetectedIssue.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.status` is mapped to FHIR DSTU2 structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4 element `DetectedIssue.status`."
             }
           ]
         },
@@ -176,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.category` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Element `DetectedIssue.category` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`."
             }
           ]
         },
@@ -189,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.code` is mapped to FHIR R4B element `DetectedIssue.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.code` is mapped to FHIR STU3 element `DetectedIssue.category`."
+              "comment" : "Element `DetectedIssue.code` is mapped to FHIR R4 element `DetectedIssue.code`."
             }
           ]
         },
@@ -205,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.severity",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.severity` is mapped to FHIR R4B element `DetectedIssue.severity`."
+              "comment" : "Element `DetectedIssue.severity` is mapped to FHIR R4 element `DetectedIssue.severity`."
             }
           ]
         },
@@ -216,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DetectedIssue.subject` is mapped to FHIR R4B element `DetectedIssue.patient`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.subject` is mapped to FHIR R4 element `DetectedIssue.patient`."
             }
           ]
         },
@@ -225,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.encounter",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.encounter` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.encounter` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`."
             }
           ]
         },
@@ -238,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.identified[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`.\nElement `DetectedIssue.identified[x]` is mapped to FHIR R4B element `DetectedIssue.identified[x]`.\nNote that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.identified[x]` is mapped to FHIR STU3 element `DetectedIssue.date`."
+              "comment" : "Note that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`.\nElement `DetectedIssue.identified[x]` is mapped to FHIR R4 element `DetectedIssue.identified[x]`.\nNote that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`."
             }
           ]
         },
@@ -254,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.author",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nElement `DetectedIssue.author` is mapped to FHIR R4B element `DetectedIssue.author`."
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.author` is mapped to FHIR R4 element `DetectedIssue.author`."
             }
           ]
         },
@@ -265,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.implicated",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.implicated` is mapped to FHIR R4B element `DetectedIssue.implicated`."
+              "comment" : "Element `DetectedIssue.implicated` is mapped to FHIR R4 element `DetectedIssue.implicated`."
             }
           ]
         },
@@ -276,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.evidence` is mapped to FHIR R4B element `DetectedIssue.evidence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.evidence` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Element `DetectedIssue.evidence` is mapped to FHIR R4 element `DetectedIssue.evidence`."
             }
           ]
         },
@@ -292,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.evidence.code` is mapped to FHIR R4B element `DetectedIssue.evidence.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.evidence.code` is part of an existing definition because parent element `DetectedIssue.evidence` requires a cross-version extension.\nElement `DetectedIssue.evidence.code` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Element `DetectedIssue.evidence.code` is mapped to FHIR R4 element `DetectedIssue.evidence.code`."
             }
           ]
         },
@@ -308,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.evidence.detail` is mapped to FHIR R4B element `DetectedIssue.evidence.detail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence:detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.evidence.detail` is part of an existing definition because parent element `DetectedIssue.evidence` requires a cross-version extension.\nElement `DetectedIssue.evidence.detail` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Element `DetectedIssue.evidence.detail` is mapped to FHIR R4 element `DetectedIssue.evidence.detail`."
             }
           ]
         },
@@ -324,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.detail` is mapped to FHIR R4B element `DetectedIssue.detail`."
+              "comment" : "Element `DetectedIssue.detail` is mapped to FHIR R4 element `DetectedIssue.detail`."
             }
           ]
         },
@@ -335,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.reference` is mapped to FHIR R4B element `DetectedIssue.reference`."
+              "comment" : "Element `DetectedIssue.reference` is mapped to FHIR R4 element `DetectedIssue.reference`."
             }
           ]
         },
@@ -346,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.mitigation` is mapped to FHIR R4B element `DetectedIssue.mitigation`."
+              "comment" : "Element `DetectedIssue.mitigation` is mapped to FHIR R4 element `DetectedIssue.mitigation`."
             }
           ]
         },
@@ -357,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.mitigation.action` is mapped to FHIR R4B element `DetectedIssue.mitigation.action`."
+              "comment" : "Element `DetectedIssue.mitigation.action` is mapped to FHIR R4 element `DetectedIssue.mitigation.action`."
             }
           ]
         },
@@ -368,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.mitigation.date` is mapped to FHIR R4B element `DetectedIssue.mitigation.date`."
+              "comment" : "Element `DetectedIssue.mitigation.date` is mapped to FHIR R4 element `DetectedIssue.mitigation.date`."
             }
           ]
         },
@@ -379,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.mitigation.author` is mapped to FHIR R4B element `DetectedIssue.mitigation.author`."
+              "comment" : "Element `DetectedIssue.mitigation.author` is mapped to FHIR R4 element `DetectedIssue.mitigation.author`."
             }
           ]
         },
@@ -388,9 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note",
+              "code" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation",
               "equivalence" : "relatedto",
-              "comment" : "Element `DetectedIssue.mitigation.note` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified."
+              "comment" : "Element `DetectedIssue.mitigation.note` is will have a context of DetectedIssue.mitigation based on following the parent source element upwards and mapping to `DetectedIssue`."
             }
           ]
         }

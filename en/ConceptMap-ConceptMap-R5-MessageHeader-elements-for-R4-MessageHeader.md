@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.5492709-06:00",
+  "date" : "2026-02-09T22:05:44.0504636-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `MessageHeader` is representable via FHIR R4B Resource `MessageHeader`.\nElement `MessageHeader` is mapped to FHIR R4B element `MessageHeader`."
+              "comment" : "FHIR R5 Resource `MessageHeader` is representable via FHIR R4 Resource `MessageHeader`.\nElement `MessageHeader` is mapped to FHIR R4 element `MessageHeader`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.meta` is mapped to FHIR R4B element `MessageHeader.meta`."
+              "comment" : "Element `MessageHeader.meta` is mapped to FHIR R4 element `MessageHeader.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.implicitRules` is mapped to FHIR R4B element `MessageHeader.implicitRules`."
+              "comment" : "Element `MessageHeader.implicitRules` is mapped to FHIR R4 element `MessageHeader.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.language` is mapped to FHIR R4B element `MessageHeader.language`."
+              "comment" : "Element `MessageHeader.language` is mapped to FHIR R4 element `MessageHeader.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.text` is mapped to FHIR R4B element `MessageHeader.text`."
+              "comment" : "Element `MessageHeader.text` is mapped to FHIR R4 element `MessageHeader.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.contained` is mapped to FHIR R4B element `MessageHeader.contained`."
+              "comment" : "Element `MessageHeader.contained` is mapped to FHIR R4 element `MessageHeader.contained`."
             }
           ]
         },
@@ -151,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.event[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.\nElement `MessageHeader.event[x]` is mapped to FHIR R4B element `MessageHeader.event[x]`.\nNote that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.event",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.event[x]` is mapped to FHIR STU3 element `MessageHeader.event`."
+              "comment" : "Note that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.\nElement `MessageHeader.event[x]` is mapped to FHIR R4 element `MessageHeader.event[x]`.\nNote that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`."
             }
           ]
         },
@@ -167,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.destination` is mapped to FHIR R4B element `MessageHeader.destination`."
+              "comment" : "Element `MessageHeader.destination` is mapped to FHIR R4 element `MessageHeader.destination`."
             }
           ]
         },
@@ -178,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4B element `MessageHeader.destination.endpoint`."
+              "comment" : "Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint`."
             }
           ]
         },
@@ -189,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.destination.name` is mapped to FHIR R4B element `MessageHeader.destination.name`."
+              "comment" : "Element `MessageHeader.destination.name` is mapped to FHIR R4 element `MessageHeader.destination.name`."
             }
           ]
         },
@@ -200,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.destination.target` is mapped to FHIR R4B element `MessageHeader.destination.target`."
+              "comment" : "Element `MessageHeader.destination.target` is mapped to FHIR R4 element `MessageHeader.destination.target`."
             }
           ]
         },
@@ -211,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.receiver",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.destination.receiver` is mapped to FHIR R4B element `MessageHeader.destination.receiver`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.receiver",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.destination.receiver` is mapped to FHIR STU3 element `MessageHeader.receiver`."
+              "comment" : "Element `MessageHeader.destination.receiver` is mapped to FHIR R4 element `MessageHeader.destination.receiver`."
             }
           ]
         },
@@ -227,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.sender",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.sender` is mapped to FHIR R4B element `MessageHeader.sender`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.sender",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.sender` is mapped to FHIR DSTU2 structure `MessageHeader`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.sender` is mapped to FHIR R4 element `MessageHeader.sender`."
             }
           ]
         },
@@ -243,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.author",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nElement `MessageHeader.author` is mapped to FHIR R4B element `MessageHeader.author`."
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.author` is mapped to FHIR R4 element `MessageHeader.author`."
             }
           ]
         },
@@ -254,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.source` is mapped to FHIR R4B element `MessageHeader.source`."
+              "comment" : "Element `MessageHeader.source` is mapped to FHIR R4 element `MessageHeader.source`."
             }
           ]
         },
@@ -265,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4B element `MessageHeader.source.endpoint`."
+              "comment" : "Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint`."
             }
           ]
         },
@@ -276,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.source.name` is mapped to FHIR R4B element `MessageHeader.source.name`."
+              "comment" : "Element `MessageHeader.source.name` is mapped to FHIR R4 element `MessageHeader.source.name`."
             }
           ]
         },
@@ -287,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.software",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.source.software` is mapped to FHIR R4B element `MessageHeader.source.software`."
+              "comment" : "Element `MessageHeader.source.software` is mapped to FHIR R4 element `MessageHeader.source.software`."
             }
           ]
         },
@@ -298,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.source.version` is mapped to FHIR R4B element `MessageHeader.source.version`."
+              "comment" : "Element `MessageHeader.source.version` is mapped to FHIR R4 element `MessageHeader.source.version`."
             }
           ]
         },
@@ -309,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.source.contact` is mapped to FHIR R4B element `MessageHeader.source.contact`."
+              "comment" : "Element `MessageHeader.source.contact` is mapped to FHIR R4 element `MessageHeader.source.contact`."
             }
           ]
         },
@@ -320,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.responsible",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.responsible` is mapped to FHIR R4B element `MessageHeader.responsible`."
+              "comment" : "Element `MessageHeader.responsible` is mapped to FHIR R4 element `MessageHeader.responsible`."
             }
           ]
         },
@@ -331,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.reason` is mapped to FHIR R4B element `MessageHeader.reason`."
+              "comment" : "Element `MessageHeader.reason` is mapped to FHIR R4 element `MessageHeader.reason`."
             }
           ]
         },
@@ -342,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.response` is mapped to FHIR R4B element `MessageHeader.response`."
+              "comment" : "Element `MessageHeader.response` is mapped to FHIR R4 element `MessageHeader.response`."
             }
           ]
         },
@@ -353,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.response.identifier` is mapped to FHIR R4B element `MessageHeader.response.identifier`."
+              "comment" : "Element `MessageHeader.response.identifier` is mapped to FHIR R4 element `MessageHeader.response.identifier`."
             }
           ]
         },
@@ -364,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.response.code` is mapped to FHIR R4B element `MessageHeader.response.code`."
+              "comment" : "Element `MessageHeader.response.code` is mapped to FHIR R4 element `MessageHeader.response.code`."
             }
           ]
         },
@@ -375,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.details",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.response.details` is mapped to FHIR R4B element `MessageHeader.response.details`."
+              "comment" : "Element `MessageHeader.response.details` is mapped to FHIR R4 element `MessageHeader.response.details`."
             }
           ]
         },
@@ -386,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.focus",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.focus` is mapped to FHIR R4B element `MessageHeader.focus`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.data",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.focus` is mapped to FHIR DSTU2 element `MessageHeader.data`."
+              "comment" : "Element `MessageHeader.focus` is mapped to FHIR R4 element `MessageHeader.focus`."
             }
           ]
         },
@@ -402,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.definition` is mapped to FHIR R4B element `MessageHeader.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MessageHeader.definition` is mapped to FHIR STU3 structure `MessageHeader`, but has no target element specified."
+              "comment" : "Element `MessageHeader.definition` is mapped to FHIR R4 element `MessageHeader.definition`."
             }
           ]
         }

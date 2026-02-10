@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0192725-06:00",
+  "date" : "2026-02-09T22:05:44.1532249-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ProductShelfLife` is representable via FHIR R4B extensions.\nElement `ProductShelfLife` is mapped to FHIR R4B element `ProductShelfLife`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ProductShelfLife",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ProductShelfLife` is representable via FHIR STU3 extensions.\nElement `ProductShelfLife` is not mapped to FHIR STU3, since FHIR R5 `ProductShelfLife` is not mapped."
+              "comment" : "FHIR R5 ComplexType `ProductShelfLife` is representable via FHIR R4 extensions.\nElement `ProductShelfLife` is mapped to FHIR R4 element `ProductShelfLife`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.type` is mapped to FHIR R4B element `ProductShelfLife.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ProductShelfLife:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.type` is not mapped to FHIR STU3, since FHIR R5 `ProductShelfLife` is not mapped."
+              "comment" : "Element `ProductShelfLife.type` is mapped to FHIR R4 element `ProductShelfLife.type`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.period[x]` is mapped to FHIR R4B element `ProductShelfLife.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ProductShelfLife:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.period[x]` is not mapped to FHIR STU3, since FHIR R5 `ProductShelfLife` is not mapped."
+              "comment" : "Element `ProductShelfLife.period[x]` is mapped to FHIR R4 element `ProductShelfLife.period`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife.specialPrecautionsForStorage",
               "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.specialPrecautionsForStorage` is mapped to FHIR R4B element `ProductShelfLife.specialPrecautionsForStorage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ProductShelfLife:specialPrecautionsForStorage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.specialPrecautionsForStorage` is not mapped to FHIR STU3, since FHIR R5 `ProductShelfLife` is not mapped."
+              "comment" : "Element `ProductShelfLife.specialPrecautionsForStorage` is mapped to FHIR R4 element `ProductShelfLife.specialPrecautionsForStorage`."
             }
           ]
         }

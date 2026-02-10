@@ -25,10 +25,10 @@ A computable version of the following element information is available in: [Conc
 | [`Encounter.type`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.type](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.serviceType`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.serviceType](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.serviceType](StructureDefinition-ext-R5-Encounter.serviceType.md) |
 | [`Encounter.subject`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.subject](https://hl7.org/fhir/R4/Encounter.html#resource) |
-| [`Encounter.subjectStatus`](https://hl7.org/fhir/R5/Encounter.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus](StructureDefinition-ext-R5-Encounter.subjectStatus.md) |
+| [`Encounter.subjectStatus`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus](StructureDefinition-ext-R5-Encounter.subjectStatus.md) |
 | [`Encounter.episodeOfCare`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.episodeOfCare](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.basedOn`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.basedOn](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.basedOn](StructureDefinition-ext-R5-Encounter.basedOn.md) |
-| [`Encounter.careTeam`](https://hl7.org/fhir/R5/Encounter.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.careTeam](StructureDefinition-ext-R5-Encounter.careTeam.md) |
+| [`Encounter.careTeam`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.careTeam](StructureDefinition-ext-R5-Encounter.careTeam.md) |
 | [`Encounter.partOf`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.partOf](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.serviceProvider`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.serviceProvider](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.participant`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.participant](https://hl7.org/fhir/R4/Encounter.html#resource) |
@@ -36,10 +36,10 @@ A computable version of the following element information is available in: [Conc
 | [`Encounter.participant.period`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.participant.period](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.participant.actor`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.participant.individual](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant.actor](StructureDefinition-ext-R5-Encounter.par.actor.md) |
 | [`Encounter.appointment`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.appointment](https://hl7.org/fhir/R4/Encounter.html#resource) |
-| [`Encounter.virtualService`](https://hl7.org/fhir/R5/Encounter.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService](StructureDefinition-ext-R5-Encounter.virtualService.md) |
+| [`Encounter.virtualService`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService](StructureDefinition-ext-R5-Encounter.virtualService.md) |
 | [`Encounter.actualPeriod`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.period](https://hl7.org/fhir/R4/Encounter.html#resource) |
-| [`Encounter.plannedStartDate`](https://hl7.org/fhir/R5/Encounter.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate](StructureDefinition-ext-R5-Encounter.plannedStartDate.md) |
-| [`Encounter.plannedEndDate`](https://hl7.org/fhir/R5/Encounter.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate](StructureDefinition-ext-R5-Encounter.plannedEndDate.md) |
+| [`Encounter.plannedStartDate`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate](StructureDefinition-ext-R5-Encounter.plannedStartDate.md) |
+| [`Encounter.plannedEndDate`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter](https://hl7.org/fhir/R4/Encounter.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate](StructureDefinition-ext-R5-Encounter.plannedEndDate.md) |
 | [`Encounter.length`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.length](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.reason`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.reasonCode](https://hl7.org/fhir/R4/Encounter.html#resource) |
 | [`Encounter.reason.use`](https://hl7.org/fhir/R5/Encounter.html#resource) | [Encounter.reasonCode](https://hl7.org/fhir/R4/Encounter.html#resource) |

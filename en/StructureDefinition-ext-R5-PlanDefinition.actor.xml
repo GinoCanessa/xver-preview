@@ -74,7 +74,7 @@
   <title value="Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -91,7 +91,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `PlanDefinition.actor` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`PlanDefinition.actor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `PlanDefinition.actor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `PlanDefinition.actor` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `PlanDefinition.actor` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`PlanDefinition.actor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `PlanDefinition.actor` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `PlanDefinition.actor` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -102,7 +102,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="PlanDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -213,7 +213,7 @@
       <sliceName value="title"/>
       <short value="User-visible title"/>
       <definition value="A descriptive label for the actor."/>
-      <requirements value="Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.title` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -377,7 +377,7 @@
       <sliceName value="description"/>
       <short value="Describes the actor"/>
       <definition value="A description of how the actor fits into the overall actions of the plan definition."/>
-      <requirements value="Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.description` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.description` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -541,7 +541,7 @@
       <sliceName value="option"/>
       <short value="Who or what can be this actor"/>
       <definition value="The characteristics of the candidates that could serve as the actor."/>
-      <requirements value="Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -643,7 +643,7 @@
       <sliceName value="type"/>
       <short value="careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.type` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.type` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -812,7 +812,7 @@
       <sliceName value="typeCanonical"/>
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.typeCanonical` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `PlanDefinition.actor.option.typeCanonical` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -979,7 +979,7 @@
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
       <comment value="When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)."/>
-      <requirements value="Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.typeReference` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `PlanDefinition.actor.option.typeReference` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1168,7 +1168,7 @@
       <sliceName value="role"/>
       <short value="E.g. Nurse, Surgeon, Parent"/>
       <definition value="The role the participant should play in performing the described action."/>
-      <requirements value="Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.role` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.role` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1775,7 +1775,7 @@
       <sliceName value="title"/>
       <short value="User-visible title"/>
       <definition value="A descriptive label for the actor."/>
-      <requirements value="Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.title` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1815,7 +1815,7 @@
       <sliceName value="description"/>
       <short value="Describes the actor"/>
       <definition value="A description of how the actor fits into the overall actions of the plan definition."/>
-      <requirements value="Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.description` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.description` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1855,7 +1855,7 @@
       <sliceName value="option"/>
       <short value="Who or what can be this actor"/>
       <definition value="The characteristics of the candidates that could serve as the actor."/>
-      <requirements value="Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -1887,7 +1887,7 @@
       <sliceName value="type"/>
       <short value="careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.type` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.type` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1932,7 +1932,7 @@
       <sliceName value="typeCanonical"/>
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
-      <requirements value="Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.typeCanonical` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `PlanDefinition.actor.option.typeCanonical` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1975,7 +1975,7 @@
       <short value="Who or what can participate"/>
       <definition value="The type of participant in the action."/>
       <comment value="When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)."/>
-      <requirements value="Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.typeReference` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `PlanDefinition.actor.option.typeReference` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2040,7 +2040,7 @@
       <sliceName value="role"/>
       <short value="E.g. Nurse, Surgeon, Parent"/>
       <definition value="The role the participant should play in performing the described action."/>
-      <requirements value="Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.role` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified."/>
+      <requirements value="Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.&#xA;Element `PlanDefinition.actor.option.role` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

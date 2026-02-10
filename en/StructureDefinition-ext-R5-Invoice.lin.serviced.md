@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Invoice.lineItem.se
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Invoice for use in FHIR R4](StructureDefinition-profile-Invoice.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Invoice.lin.serviced)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Invoice.li
   "title" : "Cross-version Extension `R5.Invoice.lineItem.serviced[x]` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Invoice.li
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Invoice.lineItem.serviced[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Invoice.lineItem.serviced[x]` 0..1 `date, Period`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Invoice.lineItem.serviced[x]` 0..1 `date, Period`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Invoice.lineItem.serviced[x]` is mapped to FHIR R4 structure `Invoice`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Invoice.lineItem.serviced[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Invoice.lineItem.serviced[x]` 0..1 `date, Period`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Invoice.lineItem.serviced[x]` 0..1 `date, Period`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Invoice.lineItem.serviced[x]` is will have a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Invoice.li
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Invoice.lineItem"
     }
   ],
   "type" : "Extension",

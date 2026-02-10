@@ -66,7 +66,7 @@
   <title value="Cross-version Extension `R5.GraphDefinition.link.compartment` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -83,7 +83,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `GraphDefinition.link.compartment` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`GraphDefinition.link.compartment` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `GraphDefinition.link.compartment` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `GraphDefinition.link.compartment` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `GraphDefinition.link.compartment` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`GraphDefinition.link.compartment` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `GraphDefinition.link.compartment` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `GraphDefinition.link.compartment` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -94,7 +94,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="GraphDefinition.link"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -206,7 +206,7 @@
       <short value="where | requires"/>
       <definition value="Defines how the compartment rule is used - whether it it is used to test whether resources are subject to the rule, or whether it is a rule that must be followed."/>
       <comment value="All conditional rules are evaluated; if they are true, then the rules are evaluated."/>
-      <requirements value="Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.use` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.use` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -375,7 +375,7 @@
       <sliceName value="rule"/>
       <short value="identical | matching | different | custom"/>
       <definition value="identical | matching | different | no-rule | custom."/>
-      <requirements value="Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.rule` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.rule` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -543,7 +543,7 @@
       <sliceName value="code"/>
       <short value="Patient | Encounter | RelatedPerson | Practitioner | Device | EpisodeOfCare"/>
       <definition value="Identifies the compartment."/>
-      <requirements value="Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.code` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.code` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -711,7 +711,7 @@
       <sliceName value="expression"/>
       <short value="Custom rule, as a FHIRPath expression"/>
       <definition value="Custom rule, as a FHIRPath expression."/>
-      <requirements value="Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.expression` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.expression` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -875,7 +875,7 @@
       <sliceName value="description"/>
       <short value="Documentation for FHIRPath expression"/>
       <definition value="Documentation for FHIRPath expression."/>
-      <requirements value="Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.description` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1276,7 +1276,7 @@
       <short value="where | requires"/>
       <definition value="Defines how the compartment rule is used - whether it it is used to test whether resources are subject to the rule, or whether it is a rule that must be followed."/>
       <comment value="All conditional rules are evaluated; if they are true, then the rules are evaluated."/>
-      <requirements value="Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.use` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.use` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1321,7 +1321,7 @@
       <sliceName value="rule"/>
       <short value="identical | matching | different | custom"/>
       <definition value="identical | matching | different | no-rule | custom."/>
-      <requirements value="Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.rule` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.rule` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1365,7 +1365,7 @@
       <sliceName value="code"/>
       <short value="Patient | Encounter | RelatedPerson | Practitioner | Device | EpisodeOfCare"/>
       <definition value="Identifies the compartment."/>
-      <requirements value="Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.code` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.code` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1409,7 +1409,7 @@
       <sliceName value="expression"/>
       <short value="Custom rule, as a FHIRPath expression"/>
       <definition value="Custom rule, as a FHIRPath expression."/>
-      <requirements value="Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.expression` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.expression` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1449,7 +1449,7 @@
       <sliceName value="description"/>
       <short value="Documentation for FHIRPath expression"/>
       <definition value="Documentation for FHIRPath expression."/>
-      <requirements value="Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.&#xA;Element `GraphDefinition.link.compartment.description` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.0065443-06:00",
+  "date" : "2026-02-09T22:05:43.9302825-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ImagingStudy` is representable via FHIR R4B Resource `ImagingStudy`.\nElement `ImagingStudy` is mapped to FHIR R4B element `ImagingStudy`."
+              "comment" : "FHIR R5 Resource `ImagingStudy` is representable via FHIR R4 Resource `ImagingStudy`.\nElement `ImagingStudy` is mapped to FHIR R4 element `ImagingStudy`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.meta` is mapped to FHIR R4B element `ImagingStudy.meta`."
+              "comment" : "Element `ImagingStudy.meta` is mapped to FHIR R4 element `ImagingStudy.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.implicitRules` is mapped to FHIR R4B element `ImagingStudy.implicitRules`."
+              "comment" : "Element `ImagingStudy.implicitRules` is mapped to FHIR R4 element `ImagingStudy.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.language` is mapped to FHIR R4B element `ImagingStudy.language`."
+              "comment" : "Element `ImagingStudy.language` is mapped to FHIR R4 element `ImagingStudy.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.text` is mapped to FHIR R4B element `ImagingStudy.text`."
+              "comment" : "Element `ImagingStudy.text` is mapped to FHIR R4 element `ImagingStudy.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.contained` is mapped to FHIR R4B element `ImagingStudy.contained`."
+              "comment" : "Element `ImagingStudy.contained` is mapped to FHIR R4 element `ImagingStudy.contained`."
             }
           ]
         },
@@ -151,17 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.identifier` is mapped to FHIR R4B element `ImagingStudy.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.accession",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.identifier` is mapped to FHIR STU3 element `ImagingStudy.uid`.\nElement `ImagingStudy.identifier` is mapped to FHIR STU3 element `ImagingStudy.accession`.\nElement `ImagingStudy.identifier` is mapped to FHIR STU3 element `ImagingStudy.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.uid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.identifier` is mapped to FHIR STU3 element `ImagingStudy.uid`.\nElement `ImagingStudy.identifier` is mapped to FHIR STU3 element `ImagingStudy.accession`.\nElement `ImagingStudy.identifier` is mapped to FHIR STU3 element `ImagingStudy.identifier`."
+              "comment" : "Element `ImagingStudy.identifier` is mapped to FHIR R4 element `ImagingStudy.identifier`."
             }
           ]
         },
@@ -172,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.status` is mapped to FHIR R4B element `ImagingStudy.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.availability",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.status` is mapped to FHIR STU3 element `ImagingStudy.availability`."
+              "comment" : "Element `ImagingStudy.status` is mapped to FHIR R4 element `ImagingStudy.status`."
             }
           ]
         },
@@ -188,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.modality",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.modality` is mapped to FHIR R4B element `ImagingStudy.modality`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.modalityList",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.modality` is mapped to FHIR STU3 element `ImagingStudy.modalityList`."
+              "comment" : "Element `ImagingStudy.modality` is mapped to FHIR R4 element `ImagingStudy.modality`."
             }
           ]
         },
@@ -204,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.subject` is mapped to FHIR R4B element `ImagingStudy.subject`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ImagingStudy.subject` is mapped to FHIR STU3 element `ImagingStudy.patient`."
+              "comment" : "Element `ImagingStudy.subject` is mapped to FHIR R4 element `ImagingStudy.subject`."
             }
           ]
         },
@@ -220,17 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.encounter` is mapped to FHIR R4B element `ImagingStudy.encounter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.encounter` is mapped to FHIR STU3 element `ImagingStudy.context`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.order",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.encounter` is mapped to FHIR DSTU2 element `ImagingStudy.order`."
+              "comment" : "Element `ImagingStudy.encounter` is mapped to FHIR R4 element `ImagingStudy.encounter`."
             }
           ]
         },
@@ -241,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.started",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.started` is mapped to FHIR R4B element `ImagingStudy.started`."
+              "comment" : "Element `ImagingStudy.started` is mapped to FHIR R4 element `ImagingStudy.started`."
             }
           ]
         },
@@ -252,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.basedOn` is mapped to FHIR R4B element `ImagingStudy.basedOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.basedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.basedOn` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.basedOn` is mapped to FHIR R4 element `ImagingStudy.basedOn`."
             }
           ]
         },
@@ -266,9 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "partOf",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.partOf",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.partOf` is mapped to FHIR R4B structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImagingStudy.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ImagingStudy.partOf` is will have a context of ImagingStudy based on following the parent source element upwards and mapping to `ImagingStudy`."
             }
           ]
         },
@@ -279,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.referrer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.referrer` is mapped to FHIR R4B element `ImagingStudy.referrer`."
+              "comment" : "Element `ImagingStudy.referrer` is mapped to FHIR R4 element `ImagingStudy.referrer`."
             }
           ]
         },
@@ -290,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.endpoint` is mapped to FHIR R4B element `ImagingStudy.endpoint`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.endpoint",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.endpoint` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.endpoint` is mapped to FHIR R4 element `ImagingStudy.endpoint`."
             }
           ]
         },
@@ -306,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.numberOfSeries",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.numberOfSeries` is mapped to FHIR R4B element `ImagingStudy.numberOfSeries`."
+              "comment" : "Element `ImagingStudy.numberOfSeries` is mapped to FHIR R4 element `ImagingStudy.numberOfSeries`."
             }
           ]
         },
@@ -317,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.numberOfInstances",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.numberOfInstances` is mapped to FHIR R4B element `ImagingStudy.numberOfInstances`."
+              "comment" : "Element `ImagingStudy.numberOfInstances` is mapped to FHIR R4 element `ImagingStudy.numberOfInstances`."
             }
           ]
         },
@@ -328,17 +283,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.procedureCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.procedure` is mapped to FHIR R4B element `ImagingStudy.procedureReference`.\nElement `ImagingStudy.procedure` is mapped to FHIR R4B element `ImagingStudy.procedureCode`."
+              "comment" : "Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureReference`.\nElement `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureCode`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.procedureReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.procedure` is mapped to FHIR R4B element `ImagingStudy.procedureReference`.\nElement `ImagingStudy.procedure` is mapped to FHIR R4B element `ImagingStudy.procedureCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.procedure",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.procedure` is mapped to FHIR DSTU2 element `ImagingStudy.procedure`.\nElement `ImagingStudy.procedure` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureReference`.\nElement `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureCode`."
             }
           ]
         },
@@ -349,12 +299,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.location` is mapped to FHIR R4B element `ImagingStudy.location`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.location` is mapped to FHIR STU3 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.location` is mapped to FHIR R4 element `ImagingStudy.location`."
             }
           ]
         },
@@ -365,22 +310,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.reason` is mapped to FHIR R4B element `ImagingStudy.reasonCode`.\nElement `ImagingStudy.reason` is mapped to FHIR R4B element `ImagingStudy.reasonReference`."
+              "comment" : "Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode`.\nElement `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.reason` is mapped to FHIR R4B element `ImagingStudy.reasonCode`.\nElement `ImagingStudy.reason` is mapped to FHIR R4B element `ImagingStudy.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.reason` is mapped to FHIR STU3 element `ImagingStudy.reason`.\nElement `ImagingStudy.reason` is mapped to FHIR STU3 structure `ImagingStudy`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.reason` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified.\nElement `ImagingStudy.reason` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode`.\nElement `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference`."
             }
           ]
         },
@@ -391,12 +326,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.note` is mapped to FHIR R4B element `ImagingStudy.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.note` is mapped to FHIR STU3 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.note` is mapped to FHIR R4 element `ImagingStudy.note`."
             }
           ]
         },
@@ -407,7 +337,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.description` is mapped to FHIR R4B element `ImagingStudy.description`."
+              "comment" : "Element `ImagingStudy.description` is mapped to FHIR R4 element `ImagingStudy.description`."
             }
           ]
         },
@@ -418,7 +348,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series` is mapped to FHIR R4B element `ImagingStudy.series`."
+              "comment" : "Element `ImagingStudy.series` is mapped to FHIR R4 element `ImagingStudy.series`."
             }
           ]
         },
@@ -429,7 +359,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.uid",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.uid` is mapped to FHIR R4B element `ImagingStudy.series.uid`."
+              "comment" : "Element `ImagingStudy.series.uid` is mapped to FHIR R4 element `ImagingStudy.series.uid`."
             }
           ]
         },
@@ -440,7 +370,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.number",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.number` is mapped to FHIR R4B element `ImagingStudy.series.number`."
+              "comment" : "Element `ImagingStudy.series.number` is mapped to FHIR R4 element `ImagingStudy.series.number`."
             }
           ]
         },
@@ -451,7 +381,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.modality",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.modality` is mapped to FHIR R4B element `ImagingStudy.series.modality`."
+              "comment" : "Element `ImagingStudy.series.modality` is mapped to FHIR R4 element `ImagingStudy.series.modality`."
             }
           ]
         },
@@ -462,7 +392,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.description` is mapped to FHIR R4B element `ImagingStudy.series.description`."
+              "comment" : "Element `ImagingStudy.series.description` is mapped to FHIR R4 element `ImagingStudy.series.description`."
             }
           ]
         },
@@ -473,7 +403,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.numberOfInstances",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.numberOfInstances` is mapped to FHIR R4B element `ImagingStudy.series.numberOfInstances`."
+              "comment" : "Element `ImagingStudy.series.numberOfInstances` is mapped to FHIR R4 element `ImagingStudy.series.numberOfInstances`."
             }
           ]
         },
@@ -484,12 +414,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.endpoint` is mapped to FHIR R4B element `ImagingStudy.series.endpoint`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.endpoint",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.endpoint` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.series.endpoint` is mapped to FHIR R4 element `ImagingStudy.series.endpoint`."
             }
           ]
         },
@@ -500,7 +425,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.bodySite` is mapped to FHIR R4B element `ImagingStudy.series.bodySite`."
+              "comment" : "Element `ImagingStudy.series.bodySite` is mapped to FHIR R4 element `ImagingStudy.series.bodySite`."
             }
           ]
         },
@@ -511,7 +436,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.laterality",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.laterality` is mapped to FHIR R4B element `ImagingStudy.series.laterality`."
+              "comment" : "Element `ImagingStudy.series.laterality` is mapped to FHIR R4 element `ImagingStudy.series.laterality`."
             }
           ]
         },
@@ -522,12 +447,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.specimen` is mapped to FHIR R4B element `ImagingStudy.series.specimen`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.specimen",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.specimen` is mapped to FHIR STU3 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.series.specimen` is mapped to FHIR R4 element `ImagingStudy.series.specimen`."
             }
           ]
         },
@@ -538,7 +458,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.started",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.started` is mapped to FHIR R4B element `ImagingStudy.series.started`."
+              "comment" : "Element `ImagingStudy.series.started` is mapped to FHIR R4 element `ImagingStudy.series.started`."
             }
           ]
         },
@@ -549,12 +469,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer` is mapped to FHIR R4B element `ImagingStudy.series.performer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.performer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.series.performer` is mapped to FHIR R4 element `ImagingStudy.series.performer`."
             }
           ]
         },
@@ -565,17 +480,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.performer.function",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer.function` is mapped to FHIR R4B element `ImagingStudy.series.performer.function`."
-            },
-            {
-              "code" : "function",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer.function` is mapped to FHIR STU3 structure `ImagingStudy`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.performer:function",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer.function` is part of an existing definition because parent element `ImagingStudy.series.performer` requires a cross-version extension.\nElement `ImagingStudy.series.performer.function` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Element `ImagingStudy.series.performer.function` is mapped to FHIR R4 element `ImagingStudy.series.performer.function`."
             }
           ]
         },
@@ -586,17 +491,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.performer.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer.actor` is mapped to FHIR R4B element `ImagingStudy.series.performer.actor`."
-            },
-            {
-              "code" : "actor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer.actor` is mapped to FHIR STU3 structure `ImagingStudy`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.performer:actor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.performer.actor` is part of an existing definition because parent element `ImagingStudy.series.performer` requires a cross-version extension.\nElement `ImagingStudy.series.performer.actor` is mapped to FHIR DSTU2 structure `ImagingStudy`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImagingStudy.series.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ImagingStudy.series.performer.actor` is mapped to FHIR R4 element `ImagingStudy.series.performer.actor`."
             }
           ]
         },
@@ -607,7 +502,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.instance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.instance` is mapped to FHIR R4B element `ImagingStudy.series.instance`."
+              "comment" : "Element `ImagingStudy.series.instance` is mapped to FHIR R4 element `ImagingStudy.series.instance`."
             }
           ]
         },
@@ -618,7 +513,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.instance.uid",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.instance.uid` is mapped to FHIR R4B element `ImagingStudy.series.instance.uid`."
+              "comment" : "Element `ImagingStudy.series.instance.uid` is mapped to FHIR R4 element `ImagingStudy.series.instance.uid`."
             }
           ]
         },
@@ -629,7 +524,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.instance.sopClass",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.instance.sopClass` is mapped to FHIR R4B element `ImagingStudy.series.instance.sopClass`."
+              "comment" : "Element `ImagingStudy.series.instance.sopClass` is mapped to FHIR R4 element `ImagingStudy.series.instance.sopClass`."
             }
           ]
         },
@@ -640,7 +535,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.instance.number",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.instance.number` is mapped to FHIR R4B element `ImagingStudy.series.instance.number`."
+              "comment" : "Element `ImagingStudy.series.instance.number` is mapped to FHIR R4 element `ImagingStudy.series.instance.number`."
             }
           ]
         },
@@ -651,7 +546,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy#ImagingStudy.series.instance.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImagingStudy.series.instance.title` is mapped to FHIR R4B element `ImagingStudy.series.instance.title`."
+              "comment" : "Element `ImagingStudy.series.instance.title` is mapped to FHIR R4 element `ImagingStudy.series.instance.title`."
             }
           ]
         }

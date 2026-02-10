@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.0868666-06:00",
+  "date" : "2026-02-09T22:05:43.4886212-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BackboneType",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `BackboneType` is representable via FHIR R4B extensions.\nElement `BackboneType` is not mapped to FHIR R4B, since FHIR R5 `BackboneType` is not mapped."
+              "comment" : "Element `BackboneType` is not mapped to FHIR R4, since FHIR R5 `BackboneType` is not mapped."
             }
           ]
         }

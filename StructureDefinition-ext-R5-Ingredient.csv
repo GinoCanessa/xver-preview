@@ -25,7 +25,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","draft | active | retired | unknown","The status of this ingredient. Enables tracking the life-cycle of the content.","Allows filtering of ingredient that are appropriate for use versus not.","","","","","","","","",,"required","The lifecycle status of an artifact.","http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-publication-status-for-R4","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:for","Extension.extension","for","","",0,*,"","","","Extension {[]} {[]}
-","The product which this ingredient is a constituent part of","The product which this ingredient is a constituent part of.","","Element `Ingredient.for` is not mapped to FHIR R4, since FHIR R5 `Ingredient` is not mapped.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","The product which this ingredient is a constituent part of","The product which this ingredient is a constituent part of.","","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Ingredient.for` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Ingredient.for` is not mapped to FHIR R4, since FHIR R5 `Ingredient` is not mapped.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:for.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -141,6 +142,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:manufacturer.extension:manufacturer","Extension.extension.extension","manufacturer","","",1,1,"","","","Extension {[]} {[]}
 ","An organization that manufactures this ingredient","An organization that manufactures this ingredient.","","Element `Ingredient.manufacturer.manufacturer` is part of an existing definition because parent element `Ingredient.manufacturer` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Ingredient.manufacturer.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Ingredient.manufacturer.manufacturer` is not mapped to FHIR R4, since FHIR R5 `Ingredient` is not mapped.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:manufacturer.extension:manufacturer.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -196,7 +198,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:substance.extension:code.extension:concept","Extension.extension.extension.extension","concept","","",0,1,"","","","Extension {[]} {[]}
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.
-Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:substance.extension:code.extension:concept.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -211,7 +213,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:substance.extension:code.extension:reference","Extension.extension.extension.extension","reference","","",0,1,"","","","Extension {[]} {[]}
-","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.
+","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.
 Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:substance.extension:code.extension:reference.id","Extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -508,7 +510,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:substance.extension:strength.extension:referenceStrength.extension:substance.extension:concept","Extension.extension.extension.extension.extension.extension","concept","","",0,1,"","","","Extension {[]} {[]}
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.
-Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:substance.extension:strength.extension:referenceStrength.extension:substance.extension:concept.id","Extension.extension.extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -523,7 +525,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Reference to a concept (by class)","A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:substance.extension:strength.extension:referenceStrength.extension:substance.extension:reference","Extension.extension.extension.extension.extension.extension","reference","","",0,1,"","","","Extension {[]} {[]}
-","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.
+","Reference to a resource (by instance)","A reference to a resource the provides exact details about the information being referenced.","","Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.
 Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:substance.extension:strength.extension:referenceStrength.extension:substance.extension:reference.id","Extension.extension.extension.extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}

@@ -25,7 +25,7 @@ A computable version of the following element information is available in: [Conc
 | [`ImagingStudy.encounter`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy.encounter](https://hl7.org/fhir/R4/ImagingStudy.html#resource) |
 | [`ImagingStudy.started`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy.started](https://hl7.org/fhir/R4/ImagingStudy.html#resource) |
 | [`ImagingStudy.basedOn`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy.basedOn](https://hl7.org/fhir/R4/ImagingStudy.html#resource) |
-| [`ImagingStudy.partOf`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.partOf](StructureDefinition-ext-R5-ImagingStudy.partOf.md) |
+| [`ImagingStudy.partOf`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy](https://hl7.org/fhir/R4/ImagingStudy.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.partOf](StructureDefinition-ext-R5-ImagingStudy.partOf.md) |
 | [`ImagingStudy.referrer`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy.referrer](https://hl7.org/fhir/R4/ImagingStudy.html#resource) |
 | [`ImagingStudy.endpoint`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy.endpoint](https://hl7.org/fhir/R4/ImagingStudy.html#resource) |
 | [`ImagingStudy.numberOfSeries`](https://hl7.org/fhir/R5/ImagingStudy.html#resource) | [ImagingStudy.numberOfSeries](https://hl7.org/fhir/R4/ImagingStudy.html#resource) |

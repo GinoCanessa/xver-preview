@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8346519-06:00",
+  "date" : "2026-02-09T22:05:43.4207579-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Account` is representable via FHIR R4B Resource `Account`.\nElement `Account` is mapped to FHIR R4B element `Account`."
+              "comment" : "FHIR R5 Resource `Account` is representable via FHIR R4 Resource `Account`.\nElement `Account` is mapped to FHIR R4 element `Account`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.meta` is mapped to FHIR R4B element `Account.meta`."
+              "comment" : "Element `Account.meta` is mapped to FHIR R4 element `Account.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.implicitRules` is mapped to FHIR R4B element `Account.implicitRules`."
+              "comment" : "Element `Account.implicitRules` is mapped to FHIR R4 element `Account.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.language` is mapped to FHIR R4B element `Account.language`."
+              "comment" : "Element `Account.language` is mapped to FHIR R4 element `Account.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.text` is mapped to FHIR R4B element `Account.text`."
+              "comment" : "Element `Account.text` is mapped to FHIR R4 element `Account.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.contained` is mapped to FHIR R4B element `Account.contained`."
+              "comment" : "Element `Account.contained` is mapped to FHIR R4 element `Account.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.identifier` is mapped to FHIR R4B element `Account.identifier`."
+              "comment" : "Element `Account.identifier` is mapped to FHIR R4 element `Account.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.status` is mapped to FHIR R4B element `Account.status`."
+              "comment" : "Element `Account.status` is mapped to FHIR R4 element `Account.status`."
             }
           ]
         },
@@ -171,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "billingStatus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.billingStatus",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.billingStatus` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.billingStatus` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.type` is mapped to FHIR R4B element `Account.type`."
+              "comment" : "Element `Account.type` is mapped to FHIR R4 element `Account.type`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.name` is mapped to FHIR R4B element `Account.name`."
+              "comment" : "Element `Account.name` is mapped to FHIR R4 element `Account.name`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.subject` is mapped to FHIR R4B element `Account.subject`."
+              "comment" : "Element `Account.subject` is mapped to FHIR R4 element `Account.subject`."
             }
           ]
         },
@@ -217,17 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.servicePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.servicePeriod` is mapped to FHIR R4B element `Account.servicePeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.servicePeriod` is mapped to FHIR STU3 element `Account.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.activePeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.servicePeriod` is mapped to FHIR DSTU2 element `Account.activePeriod`."
+              "comment" : "Element `Account.servicePeriod` is mapped to FHIR R4 element `Account.servicePeriod`."
             }
           ]
         },
@@ -238,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.coverage` is mapped to FHIR R4B element `Account.coverage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.coverage` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.coverage` is mapped to FHIR R4 element `Account.coverage`."
             }
           ]
         },
@@ -254,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.coverage.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.coverage.coverage` is mapped to FHIR R4B element `Account.coverage.coverage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.coverage:coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.coverage.coverage` is part of an existing definition because parent element `Account.coverage` requires a cross-version extension.\nElement `Account.coverage.coverage` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.coverage.coverage` is mapped to FHIR R4 element `Account.coverage.coverage`."
             }
           ]
         },
@@ -270,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.coverage.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.coverage.priority` is mapped to FHIR R4B element `Account.coverage.priority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.coverage:priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.coverage.priority` is part of an existing definition because parent element `Account.coverage` requires a cross-version extension.\nElement `Account.coverage.priority` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.coverage.priority` is mapped to FHIR R4 element `Account.coverage.priority`."
             }
           ]
         },
@@ -286,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.owner",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.owner` is mapped to FHIR R4B element `Account.owner`."
+              "comment" : "Element `Account.owner` is mapped to FHIR R4 element `Account.owner`."
             }
           ]
         },
@@ -297,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.description` is mapped to FHIR R4B element `Account.description`."
+              "comment" : "Element `Account.description` is mapped to FHIR R4 element `Account.description`."
             }
           ]
         },
@@ -308,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.guarantor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor` is mapped to FHIR R4B element `Account.guarantor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.guarantor` is mapped to FHIR R4 element `Account.guarantor`."
             }
           ]
         },
@@ -324,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.guarantor.party",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor.party` is mapped to FHIR R4B element `Account.guarantor.party`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor:party",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor.party` is part of an existing definition because parent element `Account.guarantor` requires a cross-version extension.\nElement `Account.guarantor.party` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.guarantor.party` is mapped to FHIR R4 element `Account.guarantor.party`."
             }
           ]
         },
@@ -340,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.guarantor.onHold",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor.onHold` is mapped to FHIR R4B element `Account.guarantor.onHold`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor:onHold",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor.onHold` is part of an existing definition because parent element `Account.guarantor` requires a cross-version extension.\nElement `Account.guarantor.onHold` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.guarantor.onHold` is mapped to FHIR R4 element `Account.guarantor.onHold`."
             }
           ]
         },
@@ -356,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.guarantor.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor.period` is mapped to FHIR R4B element `Account.guarantor.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.guarantor.period` is part of an existing definition because parent element `Account.guarantor` requires a cross-version extension.\nElement `Account.guarantor.period` is mapped to FHIR DSTU2 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.guarantor.period` is mapped to FHIR R4 element `Account.guarantor.period`."
             }
           ]
         },
@@ -370,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "diagnosis",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -381,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sequence",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis:sequence",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -392,9 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "condition",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis:condition",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -403,9 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "dateOfDiagnosis",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis:dateOfDiagnosis",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -414,9 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis:type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -425,9 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "onAdmission",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis:onAdmission",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -436,9 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "packageCode",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis:packageCode",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -447,9 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "procedure",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -458,9 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sequence",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure:sequence",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.sequence` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -469,9 +424,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure:code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.code` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.code` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -480,9 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "dateOfService",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure:dateOfService",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.dateOfService` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.dateOfService` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -491,9 +446,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure:type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.type` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -502,9 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "packageCode",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure:packageCode",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.packageCode` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -513,9 +468,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure:device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nElement `Account.procedure.device` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Account.procedure.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Account.procedure.device` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -526,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.relatedAccount` is mapped to FHIR R4B element `Account`."
+              "comment" : "Element `Account.relatedAccount` is mapped to FHIR R4 element `Account`."
             }
           ]
         },
@@ -535,14 +490,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relationship",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount.relationship",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.relatedAccount.relationship` is mapped to FHIR R4B structure `Account`, but has no target element specified."
-            },
-            {
-              "code" : "relationship",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Account.relatedAccount.relationship` is mapped to FHIR STU3 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.relatedAccount.relationship` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -551,14 +501,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "account",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.partOf",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.relatedAccount.account` is mapped to FHIR R4B structure `Account`, but has no target element specified.\nElement `Account.relatedAccount.account` is mapped to FHIR R4B element `Account.partOf`."
+              "comment" : "Element `Account.relatedAccount.account` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.\nElement `Account.relatedAccount.account` is mapped to FHIR R4 element `Account.partOf`."
             },
             {
-              "code" : "account",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.relatedAccount.account` is mapped to FHIR STU3 structure `Account`, but has no target element specified.\nElement `Account.relatedAccount.account` is mapped to FHIR STU3 structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.relatedAccount.account` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.\nElement `Account.relatedAccount.account` is mapped to FHIR R4 element `Account.partOf`."
             }
           ]
         },
@@ -567,9 +517,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "currency",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.currency",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.currency` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.currency` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -578,9 +528,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "balance",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.balance` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.balance` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -589,9 +539,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "aggregate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance:aggregate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.balance.aggregate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.aggregate` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.balance.aggregate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.aggregate` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -600,9 +550,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "term",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance:term",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.balance.term` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.term` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.balance.term` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.term` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -611,9 +561,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "estimate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance:estimate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.balance.estimate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.estimate` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.balance.estimate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.estimate` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -622,9 +572,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance:amount",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.balance.amount` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.amount` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.balance.amount` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.amount` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         },
@@ -633,9 +583,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "calculatedAt",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.calculatedAt",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Account#Account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Account.calculatedAt` is mapped to FHIR R4B structure `Account`, but has no target element specified."
+              "comment" : "Element `Account.calculatedAt` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."
             }
           ]
         }

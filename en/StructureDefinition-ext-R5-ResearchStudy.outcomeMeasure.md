@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ResearchStudy.outco
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ResearchStudy for use in FHIR R4](StructureDefinition-profile-ResearchStudy.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ResearchStudy.outcomeMeasure)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "title" : "Cross-version Extension `R5.ResearchStudy.outcomeMeasure` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.outcomeMeasure` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.outcomeMeasure` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.outcomeMeasure` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.outcomeMeasure` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.outcomeMeasure` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.outcomeMeasure` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.outcomeMeasure` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.outcomeMeasure` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ResearchStudy"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "name",
         "short" : "Label for the outcome",
         "definition" : "Label for the outcome.",
-        "requirements" : "Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.name` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "type",
         "short" : "primary | secondary | exploratory",
         "definition" : "The parameter or characteristic being assessed as one of the values by which the study is assessed.",
-        "requirements" : "Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.type` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.type` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -280,7 +280,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "description",
         "short" : "Description of the outcome",
         "definition" : "Description of the outcome.",
-        "requirements" : "Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.description` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.description` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -325,7 +325,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "reference",
         "short" : "Structured outcome definition",
         "definition" : "Structured outcome definition.",
-        "requirements" : "Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.reference` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.outcomeMeasure.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.outcomeMeasure.reference` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {

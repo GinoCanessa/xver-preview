@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
   "title" : "Cross-version Profile for R5.CoverageEligibilityResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6626579-06:00",
+  "date" : "2026-02-09T22:05:43.0601359-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,92 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
       {
         "id" : "CoverageEligibilityResponse",
         "path" : "CoverageEligibilityResponse"
+      },
+      {
+        "id" : "CoverageEligibilityResponse.extension",
+        "path" : "CoverageEligibilityResponse.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityResponse.extension:event",
+        "path" : "CoverageEligibilityResponse.extension",
+        "sliceName" : "event",
+        "short" : "Cross-version extension for CoverageEligibilityResponse.event from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityResponse.event` is will have a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.event|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CoverageEligibilityResponse.error.extension",
+        "path" : "CoverageEligibilityResponse.error.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityResponse.error.extension:expression",
+        "path" : "CoverageEligibilityResponse.error.extension",
+        "sliceName" : "expression",
+        "short" : "Cross-version extension for CoverageEligibilityResponse.error.expression from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityResponse.error.expression` is will have a context of CoverageEligibilityResponse.error based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error.expression|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

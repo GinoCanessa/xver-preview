@@ -63,7 +63,7 @@
   <title value="Cross-version Extension `R5.GraphDefinition.node` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -80,7 +80,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `GraphDefinition.node` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`GraphDefinition.node` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `GraphDefinition.node` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `GraphDefinition.node` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `GraphDefinition.node` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`GraphDefinition.node` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `GraphDefinition.node` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `GraphDefinition.node` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -91,7 +91,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="GraphDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -202,7 +202,7 @@
       <sliceName value="nodeId"/>
       <short value="Internal ID - target for link references"/>
       <definition value="Internal ID of node - target for link references."/>
-      <requirements value="Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.nodeId` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.nodeId` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -366,7 +366,7 @@
       <sliceName value="description"/>
       <short value="Why this node is specified"/>
       <definition value="Information about why this node is of interest in this graph definition."/>
-      <requirements value="Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.description` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -530,7 +530,7 @@
       <sliceName value="type"/>
       <short value="Type of resource this link refers to"/>
       <definition value="Type of resource this link refers to."/>
-      <requirements value="Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.type` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.type` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -694,7 +694,7 @@
       <sliceName value="profile"/>
       <short value="Profile for the target resource"/>
       <definition value="Profile for the target resource."/>
-      <requirements value="Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.profile` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.node.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `GraphDefinition.node.profile` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1096,7 +1096,7 @@
       <sliceName value="nodeId"/>
       <short value="Internal ID - target for link references"/>
       <definition value="Internal ID of node - target for link references."/>
-      <requirements value="Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.nodeId` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.nodeId` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1136,7 +1136,7 @@
       <sliceName value="description"/>
       <short value="Why this node is specified"/>
       <definition value="Information about why this node is of interest in this graph definition."/>
-      <requirements value="Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.description` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.description` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1176,7 +1176,7 @@
       <sliceName value="type"/>
       <short value="Type of resource this link refers to"/>
       <definition value="Type of resource this link refers to."/>
-      <requirements value="Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.type` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.type` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1216,7 +1216,7 @@
       <sliceName value="profile"/>
       <short value="Profile for the target resource"/>
       <definition value="Profile for the target resource."/>
-      <requirements value="Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Element `GraphDefinition.node.profile` is mapped to FHIR R4 structure `GraphDefinition`, but has no target element specified."/>
+      <requirements value="Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.node.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `GraphDefinition.node.profile` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

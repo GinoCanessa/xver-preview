@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `RequestOrchestratio
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.RequestOrchestration for use in FHIR R4](StructureDefinition-profile-RequestOrchestration-for-RequestGroup.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-RequestOrchestration.act.output)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
   "title" : "Cross-version Extension `R5.RequestOrchestration.action.output` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RequestOrchestration.action.output` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RequestOrchestration.action.output` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RequestOrchestration.action.output` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RequestOrchestration.action.output` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RequestOrchestration.action.output` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RequestOrchestration.action.output` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "RequestGroup.action"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that results as output from the action.",
-        "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that is results as output from the action.",
         "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-        "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified.",
+        "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {

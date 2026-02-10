@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
   "title" : "Cross-version Extension `R5.Provenance.agent` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
         "sliceName" : "who",
         "short" : "The agent that participated in the event",
         "definition" : "Indicates who or what performed in the event.",
-        "requirements" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who`.",
+        "requirements" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
         "sliceName" : "onBehalfOf",
         "short" : "The agent that delegated",
         "definition" : "The agent that delegated authority to perform the activity performed by the agent.who element.",
-        "requirements" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf`.",
+        "requirements" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf`.",
         "min" : 0,
         "max" : "1",
         "base" : {

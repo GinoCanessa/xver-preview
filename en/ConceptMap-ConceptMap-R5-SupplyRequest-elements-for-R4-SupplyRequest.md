@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.5871908-06:00",
+  "date" : "2026-02-09T22:05:44.2799002-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SupplyRequest` is representable via FHIR R4B Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR R4B element `SupplyRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SupplyRequest` is representable via FHIR STU3 Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR STU3 element `SupplyRequest.orderedItem`."
+              "comment" : "FHIR R5 Resource `SupplyRequest` is representable via FHIR R4 Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR R4 element `SupplyRequest`."
             }
           ]
         },
@@ -101,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.meta` is mapped to FHIR R4B element `SupplyRequest.meta`."
+              "comment" : "Element `SupplyRequest.meta` is mapped to FHIR R4 element `SupplyRequest.meta`."
             }
           ]
         },
@@ -112,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.implicitRules` is mapped to FHIR R4B element `SupplyRequest.implicitRules`."
+              "comment" : "Element `SupplyRequest.implicitRules` is mapped to FHIR R4 element `SupplyRequest.implicitRules`."
             }
           ]
         },
@@ -123,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.language` is mapped to FHIR R4B element `SupplyRequest.language`."
+              "comment" : "Element `SupplyRequest.language` is mapped to FHIR R4 element `SupplyRequest.language`."
             }
           ]
         },
@@ -134,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.text` is mapped to FHIR R4B element `SupplyRequest.text`."
+              "comment" : "Element `SupplyRequest.text` is mapped to FHIR R4 element `SupplyRequest.text`."
             }
           ]
         },
@@ -145,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.contained` is mapped to FHIR R4B element `SupplyRequest.contained`."
+              "comment" : "Element `SupplyRequest.contained` is mapped to FHIR R4 element `SupplyRequest.contained`."
             }
           ]
         },
@@ -156,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.identifier` is mapped to FHIR R4B element `SupplyRequest.identifier`."
+              "comment" : "Element `SupplyRequest.identifier` is mapped to FHIR R4 element `SupplyRequest.identifier`."
             }
           ]
         },
@@ -167,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.status` is mapped to FHIR R4B element `SupplyRequest.status`."
+              "comment" : "Element `SupplyRequest.status` is mapped to FHIR R4 element `SupplyRequest.status`."
             }
           ]
         },
@@ -176,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn",
+              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.basedOn` is mapped to FHIR R4B structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.basedOn` is will have a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`."
             }
           ]
         },
@@ -189,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.category` is mapped to FHIR R4B element `SupplyRequest.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.kind",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.category` is mapped to FHIR DSTU2 element `SupplyRequest.kind`."
+              "comment" : "Element `SupplyRequest.category` is mapped to FHIR R4 element `SupplyRequest.category`."
             }
           ]
         },
@@ -205,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.priority` is mapped to FHIR R4B element `SupplyRequest.priority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.priority` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Element `SupplyRequest.priority` is mapped to FHIR R4 element `SupplyRequest.priority`."
             }
           ]
         },
@@ -219,9 +204,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "deliverFor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.deliverFor` is mapped to FHIR R4B structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.deliverFor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.deliverFor` is will have a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`."
             }
           ]
         },
@@ -232,17 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.item[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.item` is mapped to FHIR R4B element `SupplyRequest.item[x]`.\nNote that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem.item[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyRequest.orderedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.orderedItem`.\nElement `SupplyRequest.item` is mapped to FHIR STU3 element `SupplyRequest.orderedItem.item[x]`.\nNote that the target element context `SupplyRequest.orderedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.orderedItem`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.item",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.item` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Note that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.item` is mapped to FHIR R4 element `SupplyRequest.item[x]`.\nNote that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`."
             }
           ]
         },
@@ -253,17 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.quantity` is mapped to FHIR R4B element `SupplyRequest.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.quantity` is mapped to FHIR STU3 element `SupplyRequest.orderedItem.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.quantity` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Element `SupplyRequest.quantity` is mapped to FHIR R4 element `SupplyRequest.quantity`."
             }
           ]
         },
@@ -274,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.parameter` is mapped to FHIR R4B element `SupplyRequest.parameter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.parameter` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Element `SupplyRequest.parameter` is mapped to FHIR R4 element `SupplyRequest.parameter`."
             }
           ]
         },
@@ -290,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.parameter.code` is mapped to FHIR R4B element `SupplyRequest.parameter.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.parameter.code` is part of an existing definition because parent element `SupplyRequest.parameter` requires a cross-version extension.\nElement `SupplyRequest.parameter.code` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Element `SupplyRequest.parameter.code` is mapped to FHIR R4 element `SupplyRequest.parameter.code`."
             }
           ]
         },
@@ -306,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR R4B element `SupplyRequest.parameter.value[x]`.\nNote that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.parameter.value[x]` is part of an existing definition because parent element `SupplyRequest.parameter` requires a cross-version extension.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Note that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR R4 element `SupplyRequest.parameter.value[x]`.\nNote that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`."
             }
           ]
         },
@@ -322,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.occurrence[x]` is mapped to FHIR R4B element `SupplyRequest.occurrence[x]`.\nNote that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.when.schedule",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.occurrence[x]` is mapped to FHIR DSTU2 element `SupplyRequest.when.schedule`."
+              "comment" : "Note that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.occurrence[x]` is mapped to FHIR R4 element `SupplyRequest.occurrence[x]`.\nNote that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`."
             }
           ]
         },
@@ -338,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.authoredOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.authoredOn` is mapped to FHIR R4B element `SupplyRequest.authoredOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.authoredOn` is mapped to FHIR DSTU2 element `SupplyRequest.date`."
+              "comment" : "Element `SupplyRequest.authoredOn` is mapped to FHIR R4 element `SupplyRequest.authoredOn`."
             }
           ]
         },
@@ -354,17 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.requester",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.requester` is mapped to FHIR R4B element `SupplyRequest.requester`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.requester.agent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.requester` is mapped to FHIR STU3 element `SupplyRequest.requester.agent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.source",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.requester` is mapped to FHIR DSTU2 element `SupplyRequest.source`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.requester` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.requester` is mapped to FHIR R4 element `SupplyRequest.requester`."
             }
           ]
         },
@@ -375,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.supplier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.supplier` is mapped to FHIR R4B element `SupplyRequest.supplier`."
+              "comment" : "Element `SupplyRequest.supplier` is mapped to FHIR R4 element `SupplyRequest.supplier`."
             }
           ]
         },
@@ -386,17 +316,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonReference`."
+              "comment" : "Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reason[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.reason` is mapped to FHIR STU3 element `SupplyRequest.reason[x]`.\nNote that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.reason` is mapped to FHIR STU3 element `SupplyRequest.reason[x]`.\nNote that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`."
+              "comment" : "Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference`."
             }
           ]
         },
@@ -407,12 +332,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.deliverFrom",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.deliverFrom` is mapped to FHIR R4B element `SupplyRequest.deliverFrom`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFrom",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.deliverFrom` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Element `SupplyRequest.deliverFrom` is mapped to FHIR R4 element `SupplyRequest.deliverFrom`."
             }
           ]
         },
@@ -423,12 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.deliverTo",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.deliverTo` is mapped to FHIR R4B element `SupplyRequest.deliverTo`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SupplyRequest.deliverTo` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyRequest.deliverTo` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyRequest.deliverTo` is mapped to FHIR R4 element `SupplyRequest.deliverTo`."
             }
           ]
         }

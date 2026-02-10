@@ -13,7 +13,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type","Extension.extension","type","","",0,1,"","","","Extension {[]} {[]}
 ","state | milestone","Identifies the aspect of the subject's journey that the state refers to.","","Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.
-Element `ResearchSubject.progress.type` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ResearchSubject.progress.type` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -29,7 +29,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:subjectState","Extension.extension","subjectState","","",0,1,"","","","Extension {[]} {[]}
 ","candidate | eligible | follow-up | ineligible | not-registered | off-study | on-study | on-study-intervention | on-study-observation | pending-on-study | potential-candidate | screening | withdrawn","The current state of the subject.","","Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.
-Element `ResearchSubject.progress.subjectState` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ResearchSubject.progress.subjectState` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:subjectState.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -45,7 +45,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:milestone","Extension.extension","milestone","","",0,1,"","","","Extension {[]} {[]}
 ","SignedUp | Screened | Randomized","The milestones the subject has passed through.","There can be multiple entries but it is also valid to just have the most recent.  This should npt be rlied upon as the full path the subject has taken.","Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.
-Element `ResearchSubject.progress.milestone` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ResearchSubject.progress.milestone` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:milestone.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -61,7 +61,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:reason","Extension.extension","reason","","",0,1,"","","","Extension {[]} {[]}
 ","State change reason","The reason for the state change.  If coded it should follow the formal subject state model.","","Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.
-Element `ResearchSubject.progress.reason` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ResearchSubject.progress.reason` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:reason.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -77,7 +77,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:startDate","Extension.extension","startDate","","",0,1,"","","","Extension {[]} {[]}
 ","State change date","The date when the new status started.","This is NOT the date the change in state was recorded.","This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.
-Element `ResearchSubject.progress.startDate` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ResearchSubject.progress.startDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:startDate.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -93,7 +93,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:endDate","Extension.extension","endDate","","",0,1,"","","","Extension {[]} {[]}
 ","State change date","The date when the state ended.","","See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.
-Element `ResearchSubject.progress.endDate` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `ResearchSubject.progress.endDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:endDate.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

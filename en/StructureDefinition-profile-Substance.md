@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
   "title" : "Cross-version Profile for R5.Substance for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8012811-06:00",
+  "date" : "2026-02-09T22:05:43.3476087-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -165,9 +165,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
         }
       },
       {
-        "id" : "Substance.code.extension",
+        "id" : "Substance.code.extension:code",
         "path" : "Substance.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for Substance.code from R5 for use in FHIR R4",
+        "comment" : "Element `Substance.code` is mapped to FHIR R4 element `Substance.code`.",
         "min" : 1,
         "max" : "1",
         "base" : {

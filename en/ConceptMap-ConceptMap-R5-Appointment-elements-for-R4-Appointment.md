@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.9916272-06:00",
+  "date" : "2026-02-09T22:05:43.4590494-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Appointment` is representable via FHIR R4B Resource `Appointment`.\nElement `Appointment` is mapped to FHIR R4B element `Appointment`."
+              "comment" : "FHIR R5 Resource `Appointment` is representable via FHIR R4 Resource `Appointment`.\nElement `Appointment` is mapped to FHIR R4 element `Appointment`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.meta` is mapped to FHIR R4B element `Appointment.meta`."
+              "comment" : "Element `Appointment.meta` is mapped to FHIR R4 element `Appointment.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.implicitRules` is mapped to FHIR R4B element `Appointment.implicitRules`."
+              "comment" : "Element `Appointment.implicitRules` is mapped to FHIR R4 element `Appointment.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.language` is mapped to FHIR R4B element `Appointment.language`."
+              "comment" : "Element `Appointment.language` is mapped to FHIR R4 element `Appointment.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.text` is mapped to FHIR R4B element `Appointment.text`."
+              "comment" : "Element `Appointment.text` is mapped to FHIR R4 element `Appointment.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.contained` is mapped to FHIR R4B element `Appointment.contained`."
+              "comment" : "Element `Appointment.contained` is mapped to FHIR R4 element `Appointment.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.identifier` is mapped to FHIR R4B element `Appointment.identifier`."
+              "comment" : "Element `Appointment.identifier` is mapped to FHIR R4 element `Appointment.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.status` is mapped to FHIR R4B element `Appointment.status`."
+              "comment" : "Element `Appointment.status` is mapped to FHIR R4 element `Appointment.status`."
             }
           ]
         },
@@ -173,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.cancelationReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.cancellationReason` is mapped to FHIR R4B element `Appointment.cancelationReason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.cancellationReason` is mapped to FHIR STU3 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.cancellationReason` is mapped to FHIR R4 element `Appointment.cancelationReason`."
             }
           ]
         },
@@ -187,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "class",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.class` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.class` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -200,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.serviceCategory",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.serviceCategory` is mapped to FHIR R4B element `Appointment.serviceCategory`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.serviceCategory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.serviceCategory` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.serviceCategory` is mapped to FHIR R4 element `Appointment.serviceCategory`."
             }
           ]
         },
@@ -216,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.serviceType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.serviceType` is mapped to FHIR R4B element `Appointment.serviceType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.serviceType` is mapped to FHIR DSTU2 element `Appointment.type`."
+              "comment" : "Element `Appointment.serviceType` is mapped to FHIR R4 element `Appointment.serviceType`."
             }
           ]
         },
@@ -232,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.specialty",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.specialty` is mapped to FHIR R4B element `Appointment.specialty`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.specialty",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.specialty` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.specialty` is mapped to FHIR R4 element `Appointment.specialty`."
             }
           ]
         },
@@ -248,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.appointmentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.appointmentType` is mapped to FHIR R4B element `Appointment.appointmentType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.appointmentType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.appointmentType` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.appointmentType` is mapped to FHIR R4 element `Appointment.appointmentType`."
             }
           ]
         },
@@ -264,22 +239,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.reason` is mapped to FHIR R4B element `Appointment.reasonCode`.\nElement `Appointment.reason` is mapped to FHIR R4B element `Appointment.reasonReference`."
+              "comment" : "Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode`.\nElement `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.reason` is mapped to FHIR R4B element `Appointment.reasonCode`.\nElement `Appointment.reason` is mapped to FHIR R4B element `Appointment.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.indication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.reason` is mapped to FHIR STU3 element `Appointment.reason`.\nElement `Appointment.reason` is mapped to FHIR STU3 element `Appointment.indication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.reason` is mapped to FHIR STU3 element `Appointment.reason`.\nElement `Appointment.reason` is mapped to FHIR STU3 element `Appointment.indication`."
+              "comment" : "Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode`.\nElement `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference`."
             }
           ]
         },
@@ -290,7 +255,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.priority` is mapped to FHIR R4B element `Appointment.priority`."
+              "comment" : "Element `Appointment.priority` is mapped to FHIR R4 element `Appointment.priority`."
             }
           ]
         },
@@ -301,7 +266,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.description` is mapped to FHIR R4B element `Appointment.description`."
+              "comment" : "Element `Appointment.description` is mapped to FHIR R4 element `Appointment.description`."
             }
           ]
         },
@@ -310,9 +275,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "replaces",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.replaces",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.replaces` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.replaces` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -321,9 +286,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "virtualService",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.virtualService` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.virtualService` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -334,12 +299,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.supportingInformation",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.supportingInformation` is mapped to FHIR R4B element `Appointment.supportingInformation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.supportingInformation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.supportingInformation` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.supportingInformation` is mapped to FHIR R4 element `Appointment.supportingInformation`."
             }
           ]
         },
@@ -348,9 +308,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "previousAppointment",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.previousAppointment",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.previousAppointment` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.previousAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.previousAppointment` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -359,9 +319,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "originatingAppointment",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.originatingAppointment",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.originatingAppointment` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.originatingAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.originatingAppointment` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -372,7 +332,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.start",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.start` is mapped to FHIR R4B element `Appointment.start`."
+              "comment" : "Element `Appointment.start` is mapped to FHIR R4 element `Appointment.start`."
             }
           ]
         },
@@ -383,7 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.end",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.end` is mapped to FHIR R4B element `Appointment.end`."
+              "comment" : "Element `Appointment.end` is mapped to FHIR R4 element `Appointment.end`."
             }
           ]
         },
@@ -394,7 +354,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.minutesDuration",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.minutesDuration` is mapped to FHIR R4B element `Appointment.minutesDuration`."
+              "comment" : "Element `Appointment.minutesDuration` is mapped to FHIR R4 element `Appointment.minutesDuration`."
             }
           ]
         },
@@ -405,12 +365,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.requestedPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.requestedPeriod` is mapped to FHIR R4B element `Appointment.requestedPeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.requestedPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.requestedPeriod` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.requestedPeriod` is mapped to FHIR R4 element `Appointment.requestedPeriod`."
             }
           ]
         },
@@ -421,7 +376,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.slot",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.slot` is mapped to FHIR R4B element `Appointment.slot`."
+              "comment" : "Element `Appointment.slot` is mapped to FHIR R4 element `Appointment.slot`."
             }
           ]
         },
@@ -430,9 +385,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "account",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.account",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.account` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.account` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -443,12 +398,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.created` is mapped to FHIR R4B element `Appointment.created`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.created",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -> basic: `date`:0..1).\nElement `Appointment.created` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.created` is mapped to FHIR R4 element `Appointment.created`."
             }
           ]
         },
@@ -457,9 +407,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "cancellationDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.cancellationDate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.cancellationDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -470,7 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.note` is mapped to FHIR R4B element `Appointment.comment`."
+              "comment" : "Element `Appointment.note` is mapped to FHIR R4 element `Appointment.comment`."
             }
           ]
         },
@@ -481,12 +431,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.patientInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.patientInstruction` is mapped to FHIR R4B element `Appointment.patientInstruction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.patientInstruction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.patientInstruction` is mapped to FHIR STU3 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.patientInstruction` is mapped to FHIR R4 element `Appointment.patientInstruction`."
             }
           ]
         },
@@ -497,17 +442,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.basedOn` is mapped to FHIR R4B element `Appointment.basedOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.incomingReferral",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.basedOn` is mapped to FHIR STU3 element `Appointment.incomingReferral`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.basedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.basedOn` is mapped to FHIR DSTU2 structure `Appointment`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.basedOn` is mapped to FHIR R4 element `Appointment.basedOn`."
             }
           ]
         },
@@ -516,9 +451,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subject",
           "target" : [
             {
-              "code" : "Basic.subject",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Appointment.subject` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.subject` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -529,7 +464,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant` is mapped to FHIR R4B element `Appointment.participant`."
+              "comment" : "Element `Appointment.participant` is mapped to FHIR R4 element `Appointment.participant`."
             }
           ]
         },
@@ -540,7 +475,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.participant.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant.type` is mapped to FHIR R4B element `Appointment.participant.type`."
+              "comment" : "Element `Appointment.participant.type` is mapped to FHIR R4 element `Appointment.participant.type`."
             }
           ]
         },
@@ -551,12 +486,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.participant.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant.period` is mapped to FHIR R4B element `Appointment.participant.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant.period` is mapped to FHIR STU3 structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.participant.period` is mapped to FHIR R4 element `Appointment.participant.period`."
             }
           ]
         },
@@ -567,7 +497,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.participant.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant.actor` is mapped to FHIR R4B element `Appointment.participant.actor`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.participant.actor` is mapped to FHIR R4 element `Appointment.participant.actor`."
             }
           ]
         },
@@ -578,7 +508,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.participant.required",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant.required` is mapped to FHIR R4B element `Appointment.participant.required`."
+              "comment" : "Element `Appointment.participant.required` is mapped to FHIR R4 element `Appointment.participant.required`."
             }
           ]
         },
@@ -589,7 +519,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment.participant.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.participant.status` is mapped to FHIR R4B element `Appointment.participant.status`."
+              "comment" : "Element `Appointment.participant.status` is mapped to FHIR R4 element `Appointment.participant.status`."
             }
           ]
         },
@@ -598,9 +528,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recurrenceId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceId` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -609,9 +539,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "occurrenceChanged",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.occurrenceChanged` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.occurrenceChanged` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -620,9 +550,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recurrenceTemplate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -631,9 +561,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "timezone",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:timezone",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.timezone` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.timezone` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -642,9 +572,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recurrenceType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:recurrenceType",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.recurrenceType` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.recurrenceType` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -653,9 +583,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastOccurrenceDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:lastOccurrenceDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.lastOccurrenceDate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.lastOccurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -664,9 +594,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "occurrenceCount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:occurrenceCount",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceCount` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceCount` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -675,9 +605,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "occurrenceDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:occurrenceDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceDate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -686,9 +616,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "weeklyTemplate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -697,9 +627,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "monday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:monday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.monday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.monday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -708,9 +638,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tuesday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:tuesday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -719,9 +649,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "wednesday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:wednesday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -730,9 +660,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "thursday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:thursday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -741,9 +671,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "friday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:friday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.friday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.friday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -752,9 +682,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "saturday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:saturday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -763,9 +693,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sunday",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:sunday",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -774,9 +704,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "weekInterval",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:weekInterval",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -785,9 +715,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "monthlyTemplate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -796,9 +726,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "dayOfMonth",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:dayOfMonth",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -807,9 +737,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "nthWeekOfMonth",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:nthWeekOfMonth",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -818,9 +748,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "dayOfWeek",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:dayOfWeek",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -829,9 +759,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "monthInterval",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:monthInterval",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -840,9 +770,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "yearlyTemplate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -851,9 +781,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "yearInterval",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate:yearInterval",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -862,9 +792,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "excludingDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:excludingDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingDate` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         },
@@ -873,9 +803,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "excludingRecurrenceId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:excludingRecurrenceId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Appointment#Appointment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingRecurrenceId` is mapped to FHIR R4B structure `Appointment`, but has no target element specified."
+              "comment" : "Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingRecurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`."
             }
           ]
         }

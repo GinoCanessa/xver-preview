@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
   "title" : "Cross-version Profile for R5.Medication for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7292427-06:00",
+  "date" : "2026-02-09T22:05:43.1946049-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "path" : "Medication"
       },
       {
+        "id" : "Medication.extension",
+        "path" : "Medication.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Medication.extension:definition",
+        "path" : "Medication.extension",
+        "sliceName" : "definition",
+        "short" : "Cross-version extension for Medication.definition from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationKnowledge in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Medication.definition` is will have a context of Medication based on following the parent source element upwards and mapping to `Medication`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Medication.amount.extension",
         "path" : "Medication.amount.extension",
         "slicing" : {
@@ -161,7 +205,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Medication.amount",
@@ -170,9 +214,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "Medication.amount.extension",
+        "id" : "Medication.amount.extension:totalVolume",
         "path" : "Medication.amount.extension",
+        "sliceName" : "totalVolume",
         "short" : "Cross-version extension for Medication.totalVolume from R5 for use in FHIR R4",
+        "comment" : "Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -202,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Medication.ingredient.strength",
@@ -211,9 +257,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "Medication.ingredient.strength.extension",
+        "id" : "Medication.ingredient.strength.extension:strength",
         "path" : "Medication.ingredient.strength.extension",
+        "sliceName" : "strength",
         "short" : "Cross-version extension for Medication.ingredient.strength[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength`.",
         "min" : 0,
         "max" : "1",
         "base" : {

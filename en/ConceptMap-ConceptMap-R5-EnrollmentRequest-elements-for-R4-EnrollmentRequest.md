@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.4302582-06:00",
+  "date" : "2026-02-09T22:05:43.8162349-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EnrollmentRequest` is representable via FHIR R4B Resource `EnrollmentRequest`.\nElement `EnrollmentRequest` is mapped to FHIR R4B element `EnrollmentRequest`."
+              "comment" : "FHIR R5 Resource `EnrollmentRequest` is representable via FHIR R4 Resource `EnrollmentRequest`.\nElement `EnrollmentRequest` is mapped to FHIR R4 element `EnrollmentRequest`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.meta` is mapped to FHIR R4B element `EnrollmentRequest.meta`."
+              "comment" : "Element `EnrollmentRequest.meta` is mapped to FHIR R4 element `EnrollmentRequest.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.implicitRules` is mapped to FHIR R4B element `EnrollmentRequest.implicitRules`."
+              "comment" : "Element `EnrollmentRequest.implicitRules` is mapped to FHIR R4 element `EnrollmentRequest.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.language` is mapped to FHIR R4B element `EnrollmentRequest.language`."
+              "comment" : "Element `EnrollmentRequest.language` is mapped to FHIR R4 element `EnrollmentRequest.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.text` is mapped to FHIR R4B element `EnrollmentRequest.text`."
+              "comment" : "Element `EnrollmentRequest.text` is mapped to FHIR R4 element `EnrollmentRequest.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.contained` is mapped to FHIR R4B element `EnrollmentRequest.contained`."
+              "comment" : "Element `EnrollmentRequest.contained` is mapped to FHIR R4 element `EnrollmentRequest.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.identifier` is mapped to FHIR R4B element `EnrollmentRequest.identifier`."
+              "comment" : "Element `EnrollmentRequest.identifier` is mapped to FHIR R4 element `EnrollmentRequest.identifier`."
             }
           ]
         },
@@ -162,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.status` is mapped to FHIR R4B element `EnrollmentRequest.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EnrollmentRequest.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.status` is mapped to FHIR DSTU2 structure `EnrollmentRequest`, but has no target element specified."
+              "comment" : "Element `EnrollmentRequest.status` is mapped to FHIR R4 element `EnrollmentRequest.status`."
             }
           ]
         },
@@ -178,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.created` is mapped to FHIR R4B element `EnrollmentRequest.created`."
+              "comment" : "Element `EnrollmentRequest.created` is mapped to FHIR R4 element `EnrollmentRequest.created`."
             }
           ]
         },
@@ -189,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.insurer",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.insurer` is mapped to FHIR R4B element `EnrollmentRequest.insurer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.target",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.insurer` is mapped to FHIR DSTU2 element `EnrollmentRequest.target`."
+              "comment" : "Element `EnrollmentRequest.insurer` is mapped to FHIR R4 element `EnrollmentRequest.insurer`."
             }
           ]
         },
@@ -205,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.provider` is mapped to FHIR R4B element `EnrollmentRequest.provider`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.organization",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.provider` is mapped to FHIR STU3 element `EnrollmentRequest.provider`.\nElement `EnrollmentRequest.provider` is mapped to FHIR STU3 element `EnrollmentRequest.organization`."
+              "comment" : "Element `EnrollmentRequest.provider` is mapped to FHIR R4 element `EnrollmentRequest.provider`."
             }
           ]
         },
@@ -221,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.candidate",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.candidate` is mapped to FHIR R4B element `EnrollmentRequest.candidate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.candidate` is mapped to FHIR STU3 element `EnrollmentRequest.subject`."
+              "comment" : "Element `EnrollmentRequest.candidate` is mapped to FHIR R4 element `EnrollmentRequest.candidate`."
             }
           ]
         },
@@ -237,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `EnrollmentRequest.coverage` is mapped to FHIR R4B element `EnrollmentRequest.coverage`."
+              "comment" : "Element `EnrollmentRequest.coverage` is mapped to FHIR R4 element `EnrollmentRequest.coverage`."
             }
           ]
         }

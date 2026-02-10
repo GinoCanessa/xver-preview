@@ -7,7 +7,7 @@ This cross-version profile allows R5 SubstancePolymer content to be represented 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.SubstanceDefinition.polymer` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.polymer.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SubstancePolymer)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
   "title" : "Cross-version Profile for R5.SubstancePolymer for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8053399-06:00",
+  "date" : "2026-02-09T22:05:43.3621027-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

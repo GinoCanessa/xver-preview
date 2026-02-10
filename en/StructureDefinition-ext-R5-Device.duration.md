@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Device.duration` fo
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Device for use in FHIR R4](StructureDefinition-profile-Device.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Device.duration)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Device.dur
   "title" : "Cross-version Extension `R5.Device.duration` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Device.dur
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Device.duration` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Device.duration` 0..1 `Duration`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Device.duration` 0..1 `Duration`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Device.duration` is mapped to FHIR R4 structure `Device`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Device.duration` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Device.duration` 0..1 `Duration`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Device.duration` 0..1 `Duration`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Device.duration` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Device.dur
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Device"
     }
   ],
   "type" : "Extension",

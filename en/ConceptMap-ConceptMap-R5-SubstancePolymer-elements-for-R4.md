@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.5072688-06:00",
+  "date" : "2026-02-09T22:05:44.2651409-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SubstancePolymer` is representable via FHIR R4B Resource `Basic`.\nElement `SubstancePolymer` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `SubstancePolymer.meta` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.meta` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `SubstancePolymer.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `SubstancePolymer.language` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.language` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `SubstancePolymer.text` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.text` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `SubstancePolymer.contained` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.contained` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `SubstancePolymer.identifier` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.identifier` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:class",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.class` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.class` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:geometry",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.geometry` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.geometry` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:copolymerConnectivity",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.copolymerConnectivity` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.copolymerConnectivity` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:modification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.modification` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
+              "comment" : "Element `SubstancePolymer.modification` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
             }
           ]
         },
@@ -203,11 +203,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.monomerSet",
           "display" : "monomerSet",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet",
               "equivalence" : "relatedto",
@@ -220,11 +215,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "ratioType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet:ratioType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet.ratioType` is part of an existing definition because parent element `SubstancePolymer.monomerSet` requires a cross-version extension.\nElement `SubstancePolymer.monomerSet.ratioType` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet:ratioType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.monomerSet.ratioType` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -235,11 +225,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.monomerSet.startingMaterial",
           "display" : "startingMaterial",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet:startingMaterial",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial` is part of an existing definition because parent element `SubstancePolymer.monomerSet` requires a cross-version extension.\nElement `SubstancePolymer.monomerSet.startingMaterial` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial",
               "equivalence" : "relatedto",
@@ -252,11 +237,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet:startingMaterial:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial.code` is part of an existing definition because parent element `SubstancePolymer.monomerSet.startingMaterial` requires a cross-version extension.\nElement `SubstancePolymer.monomerSet.startingMaterial.code` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial:code",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial.code` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -267,11 +247,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.monomerSet.startingMaterial.category",
           "display" : "category",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet:startingMaterial:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial.category` is part of an existing definition because parent element `SubstancePolymer.monomerSet.startingMaterial` requires a cross-version extension.\nElement `SubstancePolymer.monomerSet.startingMaterial.category` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial:category",
               "equivalence" : "relatedto",
@@ -284,11 +259,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "isDefining",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet:startingMaterial:isDefining",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial.isDefining` is part of an existing definition because parent element `SubstancePolymer.monomerSet.startingMaterial` requires a cross-version extension.\nElement `SubstancePolymer.monomerSet.startingMaterial.isDefining` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial:isDefining",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial.isDefining` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -299,11 +269,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.monomerSet.startingMaterial.amount",
           "display" : "amount",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:monomerSet:startingMaterial:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.monomerSet.startingMaterial.amount` is part of an existing definition because parent element `SubstancePolymer.monomerSet.startingMaterial` requires a cross-version extension.\nElement `SubstancePolymer.monomerSet.startingMaterial.amount` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial:amount",
               "equivalence" : "relatedto",
@@ -316,11 +281,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "repeat",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -331,11 +291,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.averageMolecularFormula",
           "display" : "averageMolecularFormula",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:averageMolecularFormula",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.averageMolecularFormula` is part of an existing definition because parent element `SubstancePolymer.repeat` requires a cross-version extension.\nElement `SubstancePolymer.repeat.averageMolecularFormula` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:averageMolecularFormula",
               "equivalence" : "relatedto",
@@ -348,11 +303,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "repeatUnitAmountType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnitAmountType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnitAmountType` is part of an existing definition because parent element `SubstancePolymer.repeat` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnitAmountType` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:repeatUnitAmountType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnitAmountType` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -363,11 +313,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit",
           "display" : "repeatUnit",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit` is part of an existing definition because parent element `SubstancePolymer.repeat` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit",
               "equivalence" : "relatedto",
@@ -380,11 +325,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "unit",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:unit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.unit` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.unit` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:unit",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.unit` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -395,11 +335,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit.orientation",
           "display" : "orientation",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:orientation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.orientation` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.orientation` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:orientation",
               "equivalence" : "relatedto",
@@ -412,11 +347,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.amount` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.amount` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:amount",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.amount` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -427,11 +357,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation",
           "display" : "degreeOfPolymerisation",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:degreeOfPolymerisation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation",
               "equivalence" : "relatedto",
@@ -444,11 +369,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:degreeOfPolymerisation:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.type` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.type` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation:type",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.type` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -459,11 +379,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.average",
           "display" : "average",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:degreeOfPolymerisation:average",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.average` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.average` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation:average",
               "equivalence" : "relatedto",
@@ -476,11 +391,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "low",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:degreeOfPolymerisation:low",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.low` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.low` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation:low",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.low` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -491,11 +401,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.high",
           "display" : "high",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:degreeOfPolymerisation:high",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.high` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.high` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation:high",
               "equivalence" : "relatedto",
@@ -508,11 +413,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "structuralRepresentation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:structuralRepresentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -523,11 +423,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit.structuralRepresentation.type",
           "display" : "type",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:structuralRepresentation:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.type` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.type` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation:type",
               "equivalence" : "relatedto",
@@ -540,11 +435,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "representation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:structuralRepresentation:representation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.representation` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.representation` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation:representation",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.representation` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -556,11 +446,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "format",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:structuralRepresentation:format",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.format` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.format` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation:format",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.format` is not mapped to FHIR R4, since FHIR R5 `SubstancePolymer` is not mapped."
@@ -571,11 +456,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstancePolymer.repeat.repeatUnit.structuralRepresentation.attachment",
           "display" : "attachment",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:repeat:repeatUnit:structuralRepresentation:attachment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.attachment` is part of an existing definition because parent element `SubstancePolymer.repeat.repeatUnit.structuralRepresentation` requires a cross-version extension.\nElement `SubstancePolymer.repeat.repeatUnit.structuralRepresentation.attachment` is not mapped to FHIR R4B, since FHIR R5 `SubstancePolymer` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation:attachment",
               "equivalence" : "relatedto",

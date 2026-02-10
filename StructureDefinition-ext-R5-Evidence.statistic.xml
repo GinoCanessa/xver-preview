@@ -126,7 +126,7 @@
   <title value="Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -143,7 +143,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Evidence.statistic` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Evidence.statistic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Evidence.statistic` 0..* `BackboneElement`&#xA;*  R4B: `Evidence.statistic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Evidence.statistic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Evidence.statistic` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Evidence.statistic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Evidence.statistic` 0..* `BackboneElement`&#xA;*  R4B: `Evidence.statistic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Evidence.statistic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -154,7 +154,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Evidence"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -265,7 +265,7 @@
       <sliceName value="description"/>
       <short value="Description of content"/>
       <definition value="A description of the content value of the statistic."/>
-      <requirements value="Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -429,7 +429,7 @@
       <sliceName value="note"/>
       <short value="Footnotes and/or explanatory notes"/>
       <definition value="Footnotes and/or explanatory notes."/>
-      <requirements value="Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -593,7 +593,7 @@
       <sliceName value="statisticType"/>
       <short value="Type of statistic, e.g., relative risk"/>
       <definition value="Type of statistic, e.g., relative risk."/>
-      <requirements value="Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -762,7 +762,7 @@
       <short value="Associated category for categorical variable"/>
       <definition value="When the measured variable is handled categorically, the category element is used to define which category the statistic is reporting."/>
       <comment value="Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets."/>
-      <requirements value="Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -927,7 +927,7 @@
       <sliceName value="quantity"/>
       <short value="Statistic value"/>
       <definition value="Statistic value."/>
-      <requirements value="Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1092,7 +1092,7 @@
       <short value="The number of events associated with the statistic"/>
       <definition value="The number of events associated with the statistic, where the unit of analysis is different from numberAffected, sampleSize.knownDataCount and sampleSize.numberOfParticipants."/>
       <comment value="When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events."/>
-      <requirements value="Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1258,7 +1258,7 @@
       <short value="The number of participants affected"/>
       <definition value="The number of participants affected where the unit of analysis is the same as sampleSize.knownDataCount and sampleSize.numberOfParticipants."/>
       <comment value="When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events."/>
-      <requirements value="Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1423,7 +1423,7 @@
       <sliceName value="sampleSize"/>
       <short value="Number of samples in the statistic"/>
       <definition value="Number of samples in the statistic."/>
-      <requirements value="Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1525,7 +1525,7 @@
       <sliceName value="description"/>
       <short value="Textual description of sample size for statistic"/>
       <definition value="Human-readable summary of population sample size."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1689,7 +1689,7 @@
       <sliceName value="note"/>
       <short value="Footnote or explanatory note about the sample size"/>
       <definition value="Footnote or explanatory note about the sample size."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1853,7 +1853,7 @@
       <sliceName value="numberOfStudies"/>
       <short value="Number of contributing studies"/>
       <definition value="Number of participants in the population."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2017,7 +2017,7 @@
       <sliceName value="numberOfParticipants"/>
       <short value="Cumulative number of participants"/>
       <definition value="A human-readable string to clarify or explain concepts about the sample size."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2181,7 +2181,7 @@
       <sliceName value="knownDataCount"/>
       <short value="Number of participants with known results for measured variables"/>
       <definition value="Number of participants with known results for measured variables."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2548,7 +2548,7 @@
       <sliceName value="attributeEstimate"/>
       <short value="An attribute of the Statistic"/>
       <definition value="A statistical attribute of the statistic such as a measure of heterogeneity."/>
-      <requirements value="Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2859,7 +2859,7 @@
       <sliceName value="modelCharacteristic"/>
       <short value="An aspect of the statistical model"/>
       <definition value="A component of the method to generate the statistic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2961,7 +2961,7 @@
       <sliceName value="code"/>
       <short value="Model specification"/>
       <definition value="Description of a component of the method to generate the statistic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3129,7 +3129,7 @@
       <sliceName value="value"/>
       <short value="Numerical value to complete model specification"/>
       <definition value="Further specification of the quantified value of the component of the method to generate the statistic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3294,7 +3294,7 @@
       <sliceName value="variable"/>
       <short value="A variable adjusted for in the adjusted analysis"/>
       <definition value="A variable adjusted for in the adjusted analysis."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3396,7 +3396,7 @@
       <sliceName value="variableDefinition"/>
       <short value="Description of the variable"/>
       <definition value="Description of the variable."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3564,7 +3564,7 @@
       <sliceName value="handling"/>
       <short value="continuous | dichotomous | ordinal | polychotomous"/>
       <definition value="How the variable is classified for use in adjusted analysis."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3732,7 +3732,7 @@
       <sliceName value="valueCategory"/>
       <short value="Description for grouping of ordinal or polychotomous variables"/>
       <definition value="Description for grouping of ordinal or polychotomous variables."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3896,7 +3896,7 @@
       <sliceName value="valueQuantity"/>
       <short value="Discrete value for grouping of ordinal or polychotomous variables"/>
       <definition value="Discrete value for grouping of ordinal or polychotomous variables."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4060,7 +4060,7 @@
       <sliceName value="valueRange"/>
       <short value="Range of values for grouping of ordinal or polychotomous variables"/>
       <definition value="Range of values for grouping of ordinal or polychotomous variables."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4427,7 +4427,7 @@
       <sliceName value="attributeEstimate"/>
       <short value="An attribute of the statistic used as a model characteristic"/>
       <definition value="An attribute of the statistic used as a model characteristic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5177,7 +5177,7 @@
       <sliceName value="description"/>
       <short value="Description of content"/>
       <definition value="A description of the content value of the statistic."/>
-      <requirements value="Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5217,7 +5217,7 @@
       <sliceName value="note"/>
       <short value="Footnotes and/or explanatory notes"/>
       <definition value="Footnotes and/or explanatory notes."/>
-      <requirements value="Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5257,7 +5257,7 @@
       <sliceName value="statisticType"/>
       <short value="Type of statistic, e.g., relative risk"/>
       <definition value="Type of statistic, e.g., relative risk."/>
-      <requirements value="Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5302,7 +5302,7 @@
       <short value="Associated category for categorical variable"/>
       <definition value="When the measured variable is handled categorically, the category element is used to define which category the statistic is reporting."/>
       <comment value="Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets."/>
-      <requirements value="Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5343,7 +5343,7 @@
       <sliceName value="quantity"/>
       <short value="Statistic value"/>
       <definition value="Statistic value."/>
-      <requirements value="Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5384,7 +5384,7 @@
       <short value="The number of events associated with the statistic"/>
       <definition value="The number of events associated with the statistic, where the unit of analysis is different from numberAffected, sampleSize.knownDataCount and sampleSize.numberOfParticipants."/>
       <comment value="When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events."/>
-      <requirements value="Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5426,7 +5426,7 @@
       <short value="The number of participants affected"/>
       <definition value="The number of participants affected where the unit of analysis is the same as sampleSize.knownDataCount and sampleSize.numberOfParticipants."/>
       <comment value="When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events."/>
-      <requirements value="Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5467,7 +5467,7 @@
       <sliceName value="sampleSize"/>
       <short value="Number of samples in the statistic"/>
       <definition value="Number of samples in the statistic."/>
-      <requirements value="Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5499,7 +5499,7 @@
       <sliceName value="description"/>
       <short value="Textual description of sample size for statistic"/>
       <definition value="Human-readable summary of population sample size."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5539,7 +5539,7 @@
       <sliceName value="note"/>
       <short value="Footnote or explanatory note about the sample size"/>
       <definition value="Footnote or explanatory note about the sample size."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5579,7 +5579,7 @@
       <sliceName value="numberOfStudies"/>
       <short value="Number of contributing studies"/>
       <definition value="Number of participants in the population."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5619,7 +5619,7 @@
       <sliceName value="numberOfParticipants"/>
       <short value="Cumulative number of participants"/>
       <definition value="A human-readable string to clarify or explain concepts about the sample size."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5659,7 +5659,7 @@
       <sliceName value="knownDataCount"/>
       <short value="Number of participants with known results for measured variables"/>
       <definition value="Number of participants with known results for measured variables."/>
-      <requirements value="Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.&#xA;Element `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5720,7 +5720,7 @@
       <sliceName value="attributeEstimate"/>
       <short value="An attribute of the Statistic"/>
       <definition value="A statistical attribute of the statistic such as a measure of heterogeneity."/>
-      <requirements value="Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5755,7 +5755,7 @@
       <sliceName value="modelCharacteristic"/>
       <short value="An aspect of the statistical model"/>
       <definition value="A component of the method to generate the statistic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5787,7 +5787,7 @@
       <sliceName value="code"/>
       <short value="Model specification"/>
       <definition value="Description of a component of the method to generate the statistic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -5831,7 +5831,7 @@
       <sliceName value="value"/>
       <short value="Numerical value to complete model specification"/>
       <definition value="Further specification of the quantified value of the component of the method to generate the statistic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5872,7 +5872,7 @@
       <sliceName value="variable"/>
       <short value="A variable adjusted for in the adjusted analysis"/>
       <definition value="A variable adjusted for in the adjusted analysis."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -5904,7 +5904,7 @@
       <sliceName value="variableDefinition"/>
       <short value="Description of the variable"/>
       <definition value="Description of the variable."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -5948,7 +5948,7 @@
       <sliceName value="handling"/>
       <short value="continuous | dichotomous | ordinal | polychotomous"/>
       <definition value="How the variable is classified for use in adjusted analysis."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5992,7 +5992,7 @@
       <sliceName value="valueCategory"/>
       <short value="Description for grouping of ordinal or polychotomous variables"/>
       <definition value="Description for grouping of ordinal or polychotomous variables."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -6032,7 +6032,7 @@
       <sliceName value="valueQuantity"/>
       <short value="Discrete value for grouping of ordinal or polychotomous variables"/>
       <definition value="Discrete value for grouping of ordinal or polychotomous variables."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -6072,7 +6072,7 @@
       <sliceName value="valueRange"/>
       <short value="Range of values for grouping of ordinal or polychotomous variables"/>
       <definition value="Range of values for grouping of ordinal or polychotomous variables."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -6133,7 +6133,7 @@
       <sliceName value="attributeEstimate"/>
       <short value="An attribute of the statistic used as a model characteristic"/>
       <definition value="An attribute of the statistic used as a model characteristic."/>
-      <requirements value="Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."/>
+      <requirements value="Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.&#xA;Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

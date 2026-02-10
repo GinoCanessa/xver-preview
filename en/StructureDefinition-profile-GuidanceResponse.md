@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GuidanceR
   "title" : "Cross-version Profile for R5.GuidanceResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7072362-06:00",
+  "date" : "2026-02-09T22:05:43.1483411-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GuidanceR
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "GuidanceResponse.result",
@@ -165,9 +165,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GuidanceR
         }
       },
       {
-        "id" : "GuidanceResponse.result.extension",
+        "id" : "GuidanceResponse.result.extension:result",
         "path" : "GuidanceResponse.result.extension",
+        "sliceName" : "result",
         "short" : "Cross-version extension for GuidanceResponse.result from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment,http://hl7.org/fhir/StructureDefinition/AppointmentResponse,http://hl7.org/fhir/StructureDefinition/Claim,http://hl7.org/fhir/StructureDefinition/CommunicationRequest,http://hl7.org/fhir/StructureDefinition/Contract,http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/EnrollmentRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/SupplyRequest,http://hl7.org/fhir/StructureDefinition/Task,http://hl7.org/fhir/StructureDefinition/VisionPrescription in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GuidanceResponse.result` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `GuidanceResponse.result` is mapped to FHIR R4 element `GuidanceResponse.result`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -179,7 +182,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GuidanceR
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-GuidanceResponse.result|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

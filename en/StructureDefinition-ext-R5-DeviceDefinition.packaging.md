@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DeviceDefinition.pa
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.DeviceDefinition for use in FHIR R4](StructureDefinition-profile-DeviceDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DeviceDefinition.packaging)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "title" : "Cross-version Extension `R5.DeviceDefinition.packaging` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.packaging` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.packaging` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "DeviceDefinition"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "identifier",
         "short" : "Business identifier of the packaged medication",
         "definition" : "The business identifier of the packaged medication.",
-        "requirements" : "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "type",
         "short" : "A code that defines the specific type of packaging",
         "definition" : "A code that defines the specific type of packaging.",
-        "requirements" : "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "count",
         "short" : "The number of items contained in the package (devices or sub-packages)",
         "definition" : "The number of items contained in the package (devices or sub-packages).",
-        "requirements" : "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "distributor",
         "short" : "An organization that distributes the packaged device",
         "definition" : "An organization that distributes the packaged device.",
-        "requirements" : "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -355,7 +355,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "name",
         "short" : "Distributor's human-readable name",
         "definition" : "Distributor's human-readable name.",
-        "requirements" : "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -400,7 +400,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "organizationReference",
         "short" : "Distributor as an Organization resource",
         "definition" : "Distributor as an Organization resource.",
-        "requirements" : "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -472,7 +472,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "udiDeviceIdentifier",
         "short" : "Unique Device Identifier (UDI) Barcode string on the packaging",
         "definition" : "Unique Device Identifier (UDI) Barcode string on the packaging.",
-        "requirements" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -510,7 +510,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "packaging",
         "short" : "Allows packages within packages",
         "definition" : "Allows packages within packages.",
-        "requirements" : "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {

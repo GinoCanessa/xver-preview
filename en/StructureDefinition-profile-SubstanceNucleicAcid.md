@@ -7,7 +7,7 @@ This cross-version profile allows R5 SubstanceNucleicAcid content to be represen
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.SubstanceDefinition.nucleicAcid` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.nucleicAcid.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SubstanceNucleicAcid)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
   "title" : "Cross-version Profile for R5.SubstanceNucleicAcid for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.8046841-06:00",
+  "date" : "2026-02-09T22:05:43.3608508-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

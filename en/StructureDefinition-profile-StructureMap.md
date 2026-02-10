@@ -7,7 +7,7 @@ This cross-version profile allows R5 StructureMap content to be represented via 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.transform` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.transform.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-StructureMap)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
   "title" : "Cross-version Profile for R5.StructureMap for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7963972-06:00",
+  "date" : "2026-02-09T22:05:43.3389349-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,93 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         "path" : "StructureMap"
       },
       {
+        "id" : "StructureMap.extension",
+        "path" : "StructureMap.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "StructureMap.extension:versionAlgorithm",
+        "path" : "StructureMap.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for StructureMap.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `StructureMap.versionAlgorithm[x]` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureMap.extension:copyrightLabel",
+        "path" : "StructureMap.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for StructureMap.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `StructureMap.copyrightLabel` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureMap.extension:const",
+        "path" : "StructureMap.extension",
+        "sliceName" : "const",
+        "short" : "Cross-version extension for StructureMap.const from R5 for use in FHIR R4",
+        "comment" : "Element `StructureMap.const` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "StructureMap.group.rule.target.parameter.extension",
         "path" : "StructureMap.group.rule.target.parameter.extension",
         "slicing" : {
@@ -161,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -170,9 +257,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         }
       },
       {
-        "id" : "StructureMap.group.rule.target.parameter.extension",
+        "id" : "StructureMap.group.rule.target.parameter.extension:parameter",
         "path" : "StructureMap.group.rule.target.parameter.extension",
+        "sliceName" : "parameter",
         "short" : "Cross-version extension for StructureMap.group.rule.target.parameter from R5 for use in FHIR R4",
+        "comment" : "Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -211,9 +300,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         }
       },
       {
-        "id" : "StructureMap.group.rule.dependent.variable.extension",
+        "id" : "StructureMap.group.rule.dependent.variable.extension:parameter",
         "path" : "StructureMap.group.rule.dependent.variable.extension",
+        "sliceName" : "parameter",
         "short" : "Cross-version extension for StructureMap.group.rule.dependent.parameter from R5 for use in FHIR R4",
+        "comment" : "Element `StructureMap.group.rule.dependent.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.variable`.",
         "min" : 1,
         "max" : "*",
         "base" : {

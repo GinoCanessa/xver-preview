@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Condition.participa
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Condition for use in FHIR R4](StructureDefinition-profile-Condition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Condition.participant)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Condition.
   "title" : "Cross-version Extension `R5.Condition.participant` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Condition.
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Condition.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Condition.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Condition.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Condition.participant` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Condition.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Condition.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Condition.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Condition.participant` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Condition.
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Condition"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Condition.
         "sliceName" : "function",
         "short" : "Type of involvement",
         "definition" : "Distinguishes the type of involvement of the actor in the activities related to the condition.",
-        "requirements" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+        "requirements" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Condition.
         "sliceName" : "actor",
         "short" : "Who or what participated in the activities related to the condition",
         "definition" : "Indicates who or what participated in the activities related to the condition.",
-        "requirements" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.actor` is mapped to FHIR R4 structure `Condition`, but has no target element specified.",
+        "requirements" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Condition.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Condition.participant.actor` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.DeviceAssociation.operation` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceAssociation.operation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceAssociation.operation` is mapped to FHIR R4 structure `Device`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceAssociation.operation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceAssociation.operation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceAssociation.operation` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Device" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "status" ] ;
        fhir:short [ fhir:v "Device operational condition" ] ;
        fhir:definition [ fhir:v "Device operational condition corresponding to the association." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is mapped to FHIR R4 structure `Device`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -525,7 +525,7 @@
        fhir:sliceName [ fhir:v "operator" ] ;
        fhir:short [ fhir:v "The individual performing the action enabled by the device" ] ;
        fhir:definition [ fhir:v "The individual performing the action enabled by the device." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.operator` is mapped to FHIR R4 structure `Device`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.operation.operator` is will have a context of Device based on following the parent source element upwards and mapping to `Device`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -755,7 +755,7 @@
        fhir:sliceName [ fhir:v "period" ] ;
        fhir:short [ fhir:v "Begin and end dates and times for the device's operation" ] ;
        fhir:definition [ fhir:v "Begin and end dates and times for the device's operation." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is mapped to FHIR R4 structure `Device`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1322,7 +1322,7 @@
        fhir:sliceName [ fhir:v "status" ] ;
        fhir:short [ fhir:v "Device operational condition" ] ;
        fhir:definition [ fhir:v "Device operational condition corresponding to the association." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is mapped to FHIR R4 structure `Device`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1369,7 +1369,7 @@
        fhir:sliceName [ fhir:v "operator" ] ;
        fhir:short [ fhir:v "The individual performing the action enabled by the device" ] ;
        fhir:definition [ fhir:v "The individual performing the action enabled by the device." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.operator` is mapped to FHIR R4 structure `Device`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.operation.operator` is will have a context of Device based on following the parent source element upwards and mapping to `Device`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1435,7 +1435,7 @@
        fhir:sliceName [ fhir:v "period" ] ;
        fhir:short [ fhir:v "Begin and end dates and times for the device's operation" ] ;
        fhir:definition [ fhir:v "Begin and end dates and times for the device's operation." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is mapped to FHIR R4 structure `Device`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

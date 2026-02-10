@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ClaimResponse.event
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ClaimResponse for use in FHIR R4](StructureDefinition-profile-ClaimResponse.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ClaimResponse.event)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClaimRespo
   "title" : "Cross-version Extension `R5.ClaimResponse.event` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClaimRespo
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ClaimResponse.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ClaimResponse.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ClaimResponse.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ClaimResponse.event` is mapped to FHIR R4 structure `ClaimResponse`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ClaimResponse.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ClaimResponse.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ClaimResponse.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ClaimResponse.event` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClaimRespo
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ClaimResponse"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClaimRespo
         "sliceName" : "type",
         "short" : "Specific event",
         "definition" : "A coded event such as when a service is expected or a card printed.",
-        "requirements" : "Element `ClaimResponse.event.type` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.type` is mapped to FHIR R4 structure `ClaimResponse`, but has no target element specified.",
+        "requirements" : "Element `ClaimResponse.event.type` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.type` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ClaimRespo
         "sliceName" : "when",
         "short" : "Occurance date or period",
         "definition" : "A date or period in the past or future indicating when the event occurred or is expectd to occur.",
-        "requirements" : "Element `ClaimResponse.event.when[x]` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.when[x]` is mapped to FHIR R4 structure `ClaimResponse`, but has no target element specified.",
+        "requirements" : "Element `ClaimResponse.event.when[x]` is part of an existing definition because parent element `ClaimResponse.event` requires a cross-version extension.\nElement `ClaimResponse.event.when[x]` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.",
         "min" : 1,
         "max" : "1",
         "base" : {

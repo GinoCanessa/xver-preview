@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Claim.event` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Claim.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Claim.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Claim.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Claim.event` is mapped to FHIR R4 structure `Claim`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Claim.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Claim.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Claim.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Claim.event` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Claim" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Specific event" ] ;
        fhir:definition [ fhir:v "A coded event such as when a service is expected or a card printed." ] ;
-       fhir:requirements [ fhir:v "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is mapped to FHIR R4 structure `Claim`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -525,7 +525,7 @@
        fhir:sliceName [ fhir:v "when" ] ;
        fhir:short [ fhir:v "Occurance date or period" ] ;
        fhir:definition [ fhir:v "A date or period in the past or future indicating when the event occurred or is expectd to occur." ] ;
-       fhir:requirements [ fhir:v "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is mapped to FHIR R4 structure `Claim`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1097,7 +1097,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Specific event" ] ;
        fhir:definition [ fhir:v "A coded event such as when a service is expected or a card printed." ] ;
-       fhir:requirements [ fhir:v "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is mapped to FHIR R4 structure `Claim`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1144,7 +1144,7 @@
        fhir:sliceName [ fhir:v "when" ] ;
        fhir:short [ fhir:v "Occurance date or period" ] ;
        fhir:definition [ fhir:v "A date or period in the past or future indicating when the event occurred or is expectd to occur." ] ;
-       fhir:requirements [ fhir:v "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is mapped to FHIR R4 structure `Claim`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

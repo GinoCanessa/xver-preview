@@ -61,7 +61,7 @@
   <title value="Cross-version Extension `R5.RequestOrchestration.action.input` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -78,7 +78,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `RequestOrchestration.action.input` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`RequestOrchestration.action.input` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `RequestOrchestration.action.input` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `RequestOrchestration.action.input` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `RequestOrchestration.action.input` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`RequestOrchestration.action.input` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `RequestOrchestration.action.input` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -89,7 +89,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="RequestGroup.action"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -200,7 +200,7 @@
       <sliceName value="title"/>
       <short value="User-visible title"/>
       <definition value="A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers."/>
-      <requirements value="Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -364,7 +364,7 @@
       <sliceName value="requirement"/>
       <short value="What data is provided"/>
       <definition value="Defines the data that is to be provided as input to the action."/>
-      <requirements value="Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -529,7 +529,7 @@
       <short value="What data is provided"/>
       <definition value="Points to an existing input or output element that provides data to this input."/>
       <comment value="The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action"/>
-      <requirements value="Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -930,7 +930,7 @@
       <sliceName value="title"/>
       <short value="User-visible title"/>
       <definition value="A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers."/>
-      <requirements value="Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -970,7 +970,7 @@
       <sliceName value="requirement"/>
       <short value="What data is provided"/>
       <definition value="Defines the data that is to be provided as input to the action."/>
-      <requirements value="Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1011,7 +1011,7 @@
       <short value="What data is provided"/>
       <definition value="Points to an existing input or output element that provides data to this input."/>
       <comment value="The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action"/>
-      <requirements value="Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified."/>
+      <requirements value="Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

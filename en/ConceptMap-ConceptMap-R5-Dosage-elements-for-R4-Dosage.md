@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.3047018-06:00",
+  "date" : "2026-02-09T22:05:43.793617-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Dosage` is representable via FHIR R4B extensions.\nElement `Dosage` is mapped to FHIR R4B element `Dosage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Dosage` is representable via FHIR DSTU2 extensions.\nElement `Dosage` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "FHIR R5 ComplexType `Dosage` is representable via FHIR R4 extensions.\nElement `Dosage` is mapped to FHIR R4 element `Dosage`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.sequence` is mapped to FHIR R4B element `Dosage.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.sequence` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.sequence` is mapped to FHIR R4 element `Dosage.sequence`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.text` is mapped to FHIR R4B element `Dosage.text`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:text",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `string`:0..1 -> basic: `Narrative`:0..1).\nElement `Dosage.text` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.text` is mapped to FHIR R4 element `Dosage.text`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.additionalInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.additionalInstruction` is mapped to FHIR R4B element `Dosage.additionalInstruction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:additionalInstruction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.additionalInstruction` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.additionalInstruction` is mapped to FHIR R4 element `Dosage.additionalInstruction`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.patientInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.patientInstruction` is mapped to FHIR R4B element `Dosage.patientInstruction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:patientInstruction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.patientInstruction` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.patientInstruction` is mapped to FHIR R4 element `Dosage.patientInstruction`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.timing",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.timing` is mapped to FHIR R4B element `Dosage.timing`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:timing",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.timing` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.timing` is mapped to FHIR R4 element `Dosage.timing`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.asNeeded[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`.\nElement `Dosage.asNeeded` is mapped to FHIR R4B element `Dosage.asNeeded[x]`.\nNote that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:asNeeded",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.asNeeded` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Note that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`.\nElement `Dosage.asNeeded` is mapped to FHIR R4 element `Dosage.asNeeded[x]`.\nNote that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`."
             }
           ]
         },
@@ -197,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.asNeeded[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`.\nElement `Dosage.asNeededFor` is mapped to FHIR R4B element `Dosage.asNeeded[x]`.\nNote that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:asNeededFor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.asNeededFor` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Note that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`.\nElement `Dosage.asNeededFor` is mapped to FHIR R4 element `Dosage.asNeeded[x]`.\nNote that the target element context `Dosage.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`."
             }
           ]
         },
@@ -213,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.site",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.site` is mapped to FHIR R4B element `Dosage.site`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:site",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.site` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.site` is mapped to FHIR R4 element `Dosage.site`."
             }
           ]
         },
@@ -229,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.route",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.route` is mapped to FHIR R4B element `Dosage.route`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:route",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.route` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.route` is mapped to FHIR R4 element `Dosage.route`."
             }
           ]
         },
@@ -245,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.method` is mapped to FHIR R4B element `Dosage.method`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.method` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.method` is mapped to FHIR R4 element `Dosage.method`."
             }
           ]
         },
@@ -261,17 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.doseAndRate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate` is mapped to FHIR R4B element `Dosage.doseAndRate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage.doseAndRate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate` is mapped to FHIR STU3 structure `Dosage`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:doseAndRate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.doseAndRate` is mapped to FHIR R4 element `Dosage.doseAndRate`."
             }
           ]
         },
@@ -282,17 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.doseAndRate.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.type` is mapped to FHIR R4B element `Dosage.doseAndRate.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage.doseAndRate:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.type` is part of an existing definition because parent element `Dosage.doseAndRate` requires a cross-version extension.\nElement `Dosage.doseAndRate.type` is mapped to FHIR STU3 structure `Dosage`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:doseAndRate:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.type` is part of an existing definition because parent element `Dosage.doseAndRate` requires a cross-version extension.\nElement `Dosage.doseAndRate.type` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.doseAndRate.type` is mapped to FHIR R4 element `Dosage.doseAndRate.type`."
             }
           ]
         },
@@ -303,17 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.doseAndRate.dose[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Dosage.doseAndRate.dose[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`.\nElement `Dosage.doseAndRate.dose[x]` is mapped to FHIR R4B element `Dosage.doseAndRate.dose[x]`.\nNote that the target element context `Dosage.doseAndRate.dose[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.dose[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.dose[x]` is part of an existing definition because parent element `Dosage.doseAndRate` requires a cross-version extension.\nNote that the target element context `Dosage.dose[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`.\nElement `Dosage.doseAndRate.dose[x]` is mapped to FHIR STU3 element `Dosage.dose[x]`.\nNote that the target element context `Dosage.dose[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:doseAndRate:dose",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.dose[x]` is part of an existing definition because parent element `Dosage.doseAndRate` requires a cross-version extension.\nElement `Dosage.doseAndRate.dose[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Note that the target element context `Dosage.doseAndRate.dose[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`.\nElement `Dosage.doseAndRate.dose[x]` is mapped to FHIR R4 element `Dosage.doseAndRate.dose[x]`.\nNote that the target element context `Dosage.doseAndRate.dose[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`."
             }
           ]
         },
@@ -324,17 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.doseAndRate.rate[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Dosage.doseAndRate.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`.\nElement `Dosage.doseAndRate.rate[x]` is mapped to FHIR R4B element `Dosage.doseAndRate.rate[x]`.\nNote that the target element context `Dosage.doseAndRate.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.rate[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.rate[x]` is part of an existing definition because parent element `Dosage.doseAndRate` requires a cross-version extension.\nNote that the target element context `Dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`.\nElement `Dosage.doseAndRate.rate[x]` is mapped to FHIR STU3 element `Dosage.rate[x]`.\nNote that the target element context `Dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:doseAndRate:rate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.doseAndRate.rate[x]` is part of an existing definition because parent element `Dosage.doseAndRate` requires a cross-version extension.\nElement `Dosage.doseAndRate.rate[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Note that the target element context `Dosage.doseAndRate.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`.\nElement `Dosage.doseAndRate.rate[x]` is mapped to FHIR R4 element `Dosage.doseAndRate.rate[x]`.\nNote that the target element context `Dosage.doseAndRate.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Dosage.doseAndRate`."
             }
           ]
         },
@@ -345,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.maxDosePerPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.maxDosePerPeriod` is mapped to FHIR R4B element `Dosage.maxDosePerPeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:maxDosePerPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.maxDosePerPeriod` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.maxDosePerPeriod` is mapped to FHIR R4 element `Dosage.maxDosePerPeriod`."
             }
           ]
         },
@@ -361,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.maxDosePerAdministration",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.maxDosePerAdministration` is mapped to FHIR R4B element `Dosage.maxDosePerAdministration`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:maxDosePerAdministration",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.maxDosePerAdministration` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.maxDosePerAdministration` is mapped to FHIR R4 element `Dosage.maxDosePerAdministration`."
             }
           ]
         },
@@ -377,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Dosage#Dosage.maxDosePerLifetime",
               "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.maxDosePerLifetime` is mapped to FHIR R4B element `Dosage.maxDosePerLifetime`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage:maxDosePerLifetime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Dosage.maxDosePerLifetime` is not mapped to FHIR DSTU2, since FHIR R5 `Dosage` is not mapped."
+              "comment" : "Element `Dosage.maxDosePerLifetime` is mapped to FHIR R4 element `Dosage.maxDosePerLifetime`."
             }
           ]
         }

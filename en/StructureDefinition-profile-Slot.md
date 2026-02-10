@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Slot.csv)
   "title" : "Cross-version Profile for R5.Slot for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7916747-06:00",
+  "date" : "2026-02-09T22:05:43.3265745-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Slot.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Slot.serviceType",
@@ -165,9 +165,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Slot.csv)
         }
       },
       {
-        "id" : "Slot.serviceType.extension",
+        "id" : "Slot.serviceType.extension:serviceType",
         "path" : "Slot.serviceType.extension",
+        "sliceName" : "serviceType",
         "short" : "Cross-version extension for Slot.serviceType from R5 for use in FHIR R4",
+        "comment" : "Element `Slot.serviceType` is mapped to FHIR R4 element `Slot.serviceType`.",
         "min" : 0,
         "max" : "*",
         "base" : {

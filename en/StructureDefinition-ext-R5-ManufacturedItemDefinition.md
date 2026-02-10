@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
   "title" : "Cross-version Extension `R5.ManufacturedItemDefinition` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -376,7 +376,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         "sliceName" : "manufacturer",
         "short" : "Manufacturer of the item, one of several possible",
         "definition" : "Manufacturer of the item, one of several possible.",
-        "requirements" : "Element `ManufacturedItemDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ManufacturedItemDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ManufacturedItemDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
         "min" : 0,
         "max" : "*",
         "base" : {

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.1202341-06:00",
+  "date" : "2026-02-09T22:05:43.4977187-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `BodyStructure` is representable via FHIR R4B Resource `BodyStructure`.\nElement `BodyStructure` is mapped to FHIR R4B element `BodyStructure`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `BodyStructure` is representable via FHIR STU3 Resource `BodySite`.\nElement `BodyStructure` is mapped to FHIR STU3 element `BodySite`."
+              "comment" : "FHIR R5 Resource `BodyStructure` is representable via FHIR R4 Resource `BodyStructure`.\nElement `BodyStructure` is mapped to FHIR R4 element `BodyStructure`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.meta` is mapped to FHIR R4B element `BodyStructure.meta`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.meta` is mapped to FHIR STU3 element `BodySite.meta`."
+              "comment" : "Element `BodyStructure.meta` is mapped to FHIR R4 element `BodyStructure.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.implicitRules` is mapped to FHIR R4B element `BodyStructure.implicitRules`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.implicitRules` is mapped to FHIR STU3 element `BodySite.implicitRules`."
+              "comment" : "Element `BodyStructure.implicitRules` is mapped to FHIR R4 element `BodyStructure.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.language` is mapped to FHIR R4B element `BodyStructure.language`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.language` is mapped to FHIR STU3 element `BodySite.language`."
+              "comment" : "Element `BodyStructure.language` is mapped to FHIR R4 element `BodyStructure.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.text` is mapped to FHIR R4B element `BodyStructure.text`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.text` is mapped to FHIR STU3 element `BodySite.text`."
+              "comment" : "Element `BodyStructure.text` is mapped to FHIR R4 element `BodyStructure.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.contained` is mapped to FHIR R4B element `BodyStructure.contained`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.contained` is mapped to FHIR STU3 element `BodySite.contained`."
+              "comment" : "Element `BodyStructure.contained` is mapped to FHIR R4 element `BodyStructure.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.identifier` is mapped to FHIR R4B element `BodyStructure.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.identifier` is mapped to FHIR STU3 element `BodySite.identifier`."
+              "comment" : "Element `BodyStructure.identifier` is mapped to FHIR R4 element `BodyStructure.identifier`."
             }
           ]
         },
@@ -197,17 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.active` is mapped to FHIR R4B element `BodyStructure.active`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.active",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.active` is mapped to FHIR STU3 element `BodySite.active`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.active",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.active` is mapped to FHIR DSTU2 structure `BodySite`, but has no target element specified."
+              "comment" : "Element `BodyStructure.active` is mapped to FHIR R4 element `BodyStructure.active`."
             }
           ]
         },
@@ -218,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.morphology",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.morphology` is mapped to FHIR R4B element `BodyStructure.morphology`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.morphology",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.morphology` is mapped to FHIR STU3 structure `BodySite`, but has no target element specified."
+              "comment" : "Element `BodyStructure.morphology` is mapped to FHIR R4 element `BodyStructure.morphology`."
             }
           ]
         },
@@ -234,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure` is mapped to FHIR R4B element `BodyStructure`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure` is mapped to FHIR STU3 element `BodySite`."
+              "comment" : "Element `BodyStructure.includedStructure` is mapped to FHIR R4 element `BodyStructure`."
             }
           ]
         },
@@ -248,9 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "structure",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.structure",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.structure` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.structure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -259,9 +204,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "laterality",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.laterality",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.laterality` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.laterality` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -270,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodyLandmarkOrientation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -281,9 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "landmarkDescription",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:landmarkDescription",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -292,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "clockFacePosition",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:clockFacePosition",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -303,9 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "distanceFromLandmark",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -314,9 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark:device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -325,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -336,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "surfaceOrientation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:surfaceOrientation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -347,9 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "spatialReference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.spatialReference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.spatialReference` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.includedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BodyStructure.includedStructure.spatialReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BodyStructure.includedStructure.spatialReference` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -360,17 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.locationQualifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.qualifier` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.qualifier` is mapped to FHIR R4B element `BodyStructure.locationQualifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.qualifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.qualifier` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.qualifier` is mapped to FHIR STU3 element `BodySite.qualifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.includedStructure.qualifier` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.qualifier` is mapped to FHIR DSTU2 element `BodySite.modifier`."
+              "comment" : "Element `BodyStructure.includedStructure.qualifier` is part of an existing definition because parent element `BodyStructure.includedStructure` requires a component extension (e.g., if this element is used as a content reference).\nElement `BodyStructure.includedStructure.qualifier` is mapped to FHIR R4 element `BodyStructure.locationQualifier`."
             }
           ]
         },
@@ -379,9 +314,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "excludedStructure",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -390,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "structure",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:structure",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.structure` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.structure` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.structure` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.structure` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -401,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "laterality",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:laterality",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.laterality` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.laterality` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.laterality` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.laterality` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -412,9 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodyLandmarkOrientation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -423,9 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "landmarkDescription",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation:landmarkDescription",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.landmarkDescription` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.landmarkDescription` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -434,9 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "clockFacePosition",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation:clockFacePosition",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.clockFacePosition` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.clockFacePosition` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -445,9 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "distanceFromLandmark",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -456,9 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark:device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -467,9 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -478,9 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "surfaceOrientation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure.bodyLandmarkOrientation:surfaceOrientation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.surfaceOrientation` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.excludedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.bodyLandmarkOrientation.surfaceOrientation` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -489,9 +424,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "spatialReference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:spatialReference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.spatialReference` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.spatialReference` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BodyStructure.excludedStructure.spatialReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BodyStructure.excludedStructure.spatialReference` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -500,9 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "qualifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure:qualifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.excludedStructure.qualifier` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.qualifier` is mapped to FHIR R4B structure `BodyStructure`, but has no target element specified."
+              "comment" : "Element `BodyStructure.excludedStructure.qualifier` is part of an existing definition because parent element `BodyStructure.excludedStructure` requires a cross-version extension.\nElement `BodyStructure.excludedStructure.qualifier` is will have a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`."
             }
           ]
         },
@@ -513,12 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.description` is mapped to FHIR R4B element `BodyStructure.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.description` is mapped to FHIR STU3 element `BodySite.description`."
+              "comment" : "Element `BodyStructure.description` is mapped to FHIR R4 element `BodyStructure.description`."
             }
           ]
         },
@@ -529,12 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.image",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.image` is mapped to FHIR R4B element `BodyStructure.image`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.image",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.image` is mapped to FHIR STU3 element `BodySite.image`."
+              "comment" : "Element `BodyStructure.image` is mapped to FHIR R4 element `BodyStructure.image`."
             }
           ]
         },
@@ -545,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodyStructure.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.patient` is mapped to FHIR R4B element `BodyStructure.patient`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/BodyStructure#BodySite.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BodyStructure.patient` is mapped to FHIR STU3 element `BodySite.patient`."
+              "comment" : "Element `BodyStructure.patient` is mapped to FHIR R4 element `BodyStructure.patient`."
             }
           ]
         }

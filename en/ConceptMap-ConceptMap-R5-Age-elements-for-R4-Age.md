@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.9670729-06:00",
+  "date" : "2026-02-09T22:05:43.4540203-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Age` is representable via FHIR R4B extensions.\nElement `Age` is mapped to FHIR R4B element `Age`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Age#Quantity",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Age` is representable via FHIR DSTU2 extensions.\nElement `Age` is mapped to FHIR DSTU2 element `Quantity`."
+              "comment" : "FHIR R5 ComplexType `Age` is representable via FHIR R4 extensions.\nElement `Age` is mapped to FHIR R4 element `Age`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.value` is mapped to FHIR R4B element `Age.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Age#Quantity.value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Age.value` is mapped to FHIR DSTU2 element `Quantity.value`."
+              "comment" : "Element `Age.value` is mapped to FHIR R4 element `Age.value`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Age.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Age.comparator` is mapped to FHIR R4B element `Age.comparator`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Age#Quantity.comparator",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Age.comparator` is mapped to FHIR DSTU2 element `Quantity.comparator`."
+              "comment" : "Note that the target element context `Age.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Age.comparator` is mapped to FHIR R4 element `Age.comparator`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.unit` is mapped to FHIR R4B element `Age.unit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Age#Quantity.unit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Age.unit` is mapped to FHIR DSTU2 element `Quantity.unit`."
+              "comment" : "Element `Age.unit` is mapped to FHIR R4 element `Age.unit`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.system` is mapped to FHIR R4B element `Age.system`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Age#Quantity.system",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Age.system` is mapped to FHIR DSTU2 element `Quantity.system`."
+              "comment" : "Element `Age.system` is mapped to FHIR R4 element `Age.system`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.code` is mapped to FHIR R4B element `Age.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Age#Quantity.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Age.code` is mapped to FHIR DSTU2 element `Quantity.code`."
+              "comment" : "Element `Age.code` is mapped to FHIR R4 element `Age.code`."
             }
           ]
         }

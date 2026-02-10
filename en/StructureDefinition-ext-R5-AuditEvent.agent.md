@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
   "title" : "Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -290,7 +290,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Identifier of who",
         "definition" : "Reference to who this agent is that was involved in the event.",
         "comment" : "Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display.",
-        "requirements" : "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`.",
+        "requirements" : "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`.",
         "min" : 1,
         "max" : "1",
         "base" : {

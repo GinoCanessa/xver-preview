@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.8823197-06:00",
+  "date" : "2026-02-09T22:05:43.893616-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `FormularyItem` is representable via FHIR R4B Resource `Basic`.\nElement `FormularyItem` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `FormularyItem.meta` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.meta` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `FormularyItem.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.implicitRules` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `FormularyItem.language` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.language` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `FormularyItem.text` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.text` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `FormularyItem.contained` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.contained` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `FormularyItem.identifier` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.identifier` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem:code",
               "equivalence" : "relatedto",
-              "comment" : "Element `FormularyItem.code` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.code` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem:status",
               "equivalence" : "relatedto",
-              "comment" : "Element `FormularyItem.status` is not mapped to FHIR R4B, since FHIR R5 `FormularyItem` is not mapped."
+              "comment" : "Element `FormularyItem.status` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped."
             }
           ]
         }

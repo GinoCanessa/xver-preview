@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
   "title" : "Cross-version Profile for R5.RiskAssessment for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7855228-06:00",
+  "date" : "2026-02-09T22:05:43.3144408-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -166,7 +166,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "RiskAssessment.performer",
@@ -175,9 +175,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
         }
       },
       {
-        "id" : "RiskAssessment.performer.extension",
+        "id" : "RiskAssessment.performer.extension:performer",
         "path" : "RiskAssessment.performer.extension",
+        "sliceName" : "performer",
         "short" : "Cross-version extension for RiskAssessment.performer from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RiskAssessment.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RiskAssessment.performer` is mapped to FHIR R4 element `RiskAssessment.performer`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -189,7 +192,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-RiskAssessment.performer|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

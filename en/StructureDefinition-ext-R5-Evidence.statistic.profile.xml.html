@@ -52,8 +52,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.622"}
-    h3,h4,h5,h6{--heading-prefix:"7.622"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.555"}
+    h3,h4,h5,h6{--heading-prefix:"7.555"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -410,7 +410,7 @@ XML Profile
          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-06T19:17:19.5427077+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-10T04:05:33.0136333+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
@@ -441,7 +441,7 @@ Across FHIR versions, the element set has been mapped as:
 *  R4B: `Evidence.statistic` 0..* `BackboneElement`
 
 Following are the generation technical comments:
-Element `Evidence.statistic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4.0.1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">mapping</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
@@ -452,7 +452,7 @@ Element `Evidence.statistic` is mapped to FHIR R4 structure `Evidence`, but has 
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.abstract">abstract</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;element&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Evidence&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Extension&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.baseDefinition">baseDefinition</a>
@@ -578,7 +578,7 @@ Element `Evidence.statistic` is mapped to FHIR R4 structure `Evidence`, but has 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A description of the content value of the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -762,7 +762,7 @@ Element `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidenc
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Footnotes and/or explanatory notes.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -945,7 +945,7 @@ Element `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Type of statistic, e.g., relative risk.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1136,7 +1136,7 @@ Element `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evide
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1322,7 +1322,7 @@ Element `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`,
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Statistic value.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1508,7 +1508,7 @@ Element `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`,
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1697,7 +1697,7 @@ Element `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evid
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1883,7 +1883,7 @@ Element `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evid
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of samples in the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1997,7 +1997,7 @@ Element `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Human-readable summary of population sample size.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2183,7 +2183,7 @@ Element `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structu
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Footnote or explanatory note about the sample size.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2367,7 +2367,7 @@ Element `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evi
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of participants in the population.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2556,7 +2556,7 @@ Element `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 str
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A human-readable string to clarify or explain concepts about the sample size.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -2746,7 +2746,7 @@ Element `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of participants with known results for measured variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3145,7 +3145,7 @@ Element `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 stru
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A statistical attribute of the statistic such as a measure of heterogeneity.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3478,7 +3478,7 @@ Element `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `E
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A component of the method to generate the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3593,7 +3593,7 @@ Element `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Description of a component of the method to generate the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3785,7 +3785,7 @@ Element `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 struc
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Further specification of the quantified value of the component of the method to generate the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -3974,7 +3974,7 @@ Element `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 stru
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A variable adjusted for in the adjusted analysis.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4091,7 +4091,8 @@ Element `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 s
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Description of the variable.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4288,7 +4289,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;How the variable is classified for use in adjusted analysis.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4484,7 +4485,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Description for grouping of ordinal or polychotomous variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4676,7 +4677,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mappe
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Discrete value for grouping of ordinal or polychotomous variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -4868,7 +4869,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mappe
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Range of values for grouping of ordinal or polychotomous variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -5272,7 +5273,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped t
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;An attribute of the statistic used as a model characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6062,7 +6063,7 @@ Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A description of the content value of the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6105,7 +6106,7 @@ Element `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidenc
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Footnotes and/or explanatory notes.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6147,7 +6148,7 @@ Element `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Type of statistic, e.g., relative risk.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6197,7 +6198,7 @@ Element `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evide
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6242,7 +6243,7 @@ Element `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`,
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Statistic value.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6287,7 +6288,7 @@ Element `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`,
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6335,7 +6336,7 @@ Element `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evid
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6380,7 +6381,7 @@ Element `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evid
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of samples in the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6414,7 +6415,7 @@ Element `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Human-readable summary of population sample size.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6458,7 +6459,7 @@ Element `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structu
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Footnote or explanatory note about the sample size.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6501,7 +6502,7 @@ Element `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evi
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of participants in the population.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6547,7 +6548,7 @@ Element `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 str
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A human-readable string to clarify or explain concepts about the sample size.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6594,7 +6595,7 @@ Element `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Number of participants with known results for measured variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.
-Element `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6663,7 +6664,7 @@ Element `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 stru
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A statistical attribute of the statistic such as a measure of heterogeneity.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6702,7 +6703,7 @@ Element `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `E
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A component of the method to generate the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6737,7 +6738,7 @@ Element `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Description of a component of the method to generate the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6787,7 +6788,7 @@ Element `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 struc
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Further specification of the quantified value of the component of the method to generate the statistic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6834,7 +6835,7 @@ Element `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 stru
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;A variable adjusted for in the adjusted analysis.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6870,7 +6871,8 @@ Element `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 s
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Description of the variable.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6924,7 +6926,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;How the variable is classified for use in adjusted analysis.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -6977,7 +6979,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to 
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Description for grouping of ordinal or polychotomous variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7026,7 +7028,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mappe
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Discrete value for grouping of ordinal or polychotomous variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7075,7 +7077,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mappe
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Range of values for grouping of ordinal or polychotomous variables.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7148,7 +7150,7 @@ Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped t
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;An attribute of the statistic used as a model characteristic.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.
-Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.&quot;/&gt;
+Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -7284,8 +7286,8 @@ Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

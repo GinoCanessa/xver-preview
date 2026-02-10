@@ -7,7 +7,7 @@ This cross-version profile allows R5 GenomicStudy content to be represented via 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.DiagnosticReport.study` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.study.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.Observation.derivedFrom` for use in FHIR R4](StructureDefinition-ext-R5-Observation.derivedFrom.md) and [Cross-version Extension `R5.Observation.partOf` for use in FHIR R4](StructureDefinition-ext-R5-Observation.partOf.md)
+* Refer to this Profile: [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-GenomicStudy)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-GenomicSt
   "title" : "Cross-version Profile for R5.GenomicStudy for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7032036-06:00",
+  "date" : "2026-02-09T22:05:43.139183-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

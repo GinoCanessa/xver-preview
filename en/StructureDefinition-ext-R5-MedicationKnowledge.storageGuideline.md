@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `MedicationKnowledge
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.MedicationKnowledge for use in FHIR R4](StructureDefinition-profile-MedicationKnowledge.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-MedicationKnowledge.storageGuideline)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "title" : "Cross-version Extension `R5.MedicationKnowledge.storageGuideline` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.storageGuideline` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.storageGuideline` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.storageGuideline` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.storageGuideline` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.storageGuideline` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.storageGuideline` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.storageGuideline` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.storageGuideline` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "MedicationKnowledge"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "reference",
         "short" : "Reference to additional information",
         "definition" : "Reference to additional information about the storage guidelines.",
-        "requirements" : "Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.reference` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.reference` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "note",
         "short" : "Additional storage notes",
         "definition" : "Additional notes about the storage.",
-        "requirements" : "Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.note` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.note` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "stabilityDuration",
         "short" : "Duration remains stable",
         "definition" : "Duration that the medication remains stable if the environmentalSetting is respected.",
-        "requirements" : "Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.stabilityDuration` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.stabilityDuration` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "environmentalSetting",
         "short" : "Setting or value of environment for adequate storage",
         "definition" : "Describes a setting/value on the environment for the adequate storage of the medication and other substances.  Environment settings may involve temperature, humidity, or exposure to light.",
-        "requirements" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -355,7 +355,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "type",
         "short" : "Categorization of the setting",
         "definition" : "Identifies the category or type of setting (e.g., type of location, temperature, humidity).",
-        "requirements" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.type` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.type` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -400,7 +400,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "value",
         "short" : "Value of the setting",
         "definition" : "Value associated to the setting. E.g., 40° – 50°F for temperature.",
-        "requirements" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is mapped to FHIR R4 structure `MedicationKnowledge`, but has no target element specified.",
+        "requirements" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 1,
         "max" : "1",
         "base" : {

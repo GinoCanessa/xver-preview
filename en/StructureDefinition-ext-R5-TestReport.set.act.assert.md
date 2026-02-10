@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
   "title" : "Cross-version Extension `R5.TestReport.setup.action.assert` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -325,7 +325,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
         "short" : "Links or references to the testing requirements",
         "definition" : "Links or references providing traceability to the testing requirements for this assert.",
         "comment" : "TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements.",
-        "requirements" : "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestReport`, but has no target element specified.",
+        "requirements" : "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -361,7 +361,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
         "sliceName" : "link",
         "short" : "Link or reference to the testing requirement",
         "definition" : "Link or reference providing traceability to the testing requirement for this test.",
-        "requirements" : "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestReport`, but has no target element specified.",
+        "requirements" : "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.",
         "min" : 0,
         "max" : "1",
         "base" : {

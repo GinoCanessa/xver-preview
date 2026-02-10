@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.DeviceDefinition.packaging` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.packaging` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.packaging` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.packaging` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "DeviceDefinition" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "identifier" ] ;
        fhir:short [ fhir:v "Business identifier of the packaged medication" ] ;
        fhir:definition [ fhir:v "The business identifier of the packaged medication." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -525,7 +525,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "A code that defines the specific type of packaging" ] ;
        fhir:definition [ fhir:v "A code that defines the specific type of packaging." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -736,7 +736,7 @@
        fhir:sliceName [ fhir:v "count" ] ;
        fhir:short [ fhir:v "The number of items contained in the package (devices or sub-packages)" ] ;
        fhir:definition [ fhir:v "The number of items contained in the package (devices or sub-packages)." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -947,7 +947,7 @@
        fhir:sliceName [ fhir:v "distributor" ] ;
        fhir:short [ fhir:v "An organization that distributes the packaged device" ] ;
        fhir:definition [ fhir:v "An organization that distributes the packaged device." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1076,7 +1076,7 @@
        fhir:sliceName [ fhir:v "name" ] ;
        fhir:short [ fhir:v "Distributor's human-readable name" ] ;
        fhir:definition [ fhir:v "Distributor's human-readable name." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1287,7 +1287,7 @@
        fhir:sliceName [ fhir:v "organizationReference" ] ;
        fhir:short [ fhir:v "Distributor as an Organization resource" ] ;
        fhir:definition [ fhir:v "Distributor as an Organization resource." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1827,7 +1827,7 @@
        fhir:sliceName [ fhir:v "udiDeviceIdentifier" ] ;
        fhir:short [ fhir:v "Unique Device Identifier (UDI) Barcode string on the packaging" ] ;
        fhir:definition [ fhir:v "Unique Device Identifier (UDI) Barcode string on the packaging." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2283,7 +2283,7 @@
        fhir:sliceName [ fhir:v "packaging" ] ;
        fhir:short [ fhir:v "Allows packages within packages" ] ;
        fhir:definition [ fhir:v "Allows packages within packages." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3095,7 +3095,7 @@
        fhir:sliceName [ fhir:v "identifier" ] ;
        fhir:short [ fhir:v "Business identifier of the packaged medication" ] ;
        fhir:definition [ fhir:v "The business identifier of the packaged medication." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3142,7 +3142,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "A code that defines the specific type of packaging" ] ;
        fhir:definition [ fhir:v "A code that defines the specific type of packaging." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3189,7 +3189,7 @@
        fhir:sliceName [ fhir:v "count" ] ;
        fhir:short [ fhir:v "The number of items contained in the package (devices or sub-packages)" ] ;
        fhir:definition [ fhir:v "The number of items contained in the package (devices or sub-packages)." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3236,7 +3236,7 @@
        fhir:sliceName [ fhir:v "distributor" ] ;
        fhir:short [ fhir:v "An organization that distributes the packaged device" ] ;
        fhir:definition [ fhir:v "An organization that distributes the packaged device." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3268,7 +3268,7 @@
        fhir:sliceName [ fhir:v "name" ] ;
        fhir:short [ fhir:v "Distributor's human-readable name" ] ;
        fhir:definition [ fhir:v "Distributor's human-readable name." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3315,7 +3315,7 @@
        fhir:sliceName [ fhir:v "organizationReference" ] ;
        fhir:short [ fhir:v "Distributor as an Organization resource" ] ;
        fhir:definition [ fhir:v "Distributor as an Organization resource." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3394,7 +3394,7 @@
        fhir:sliceName [ fhir:v "udiDeviceIdentifier" ] ;
        fhir:short [ fhir:v "Unique Device Identifier (UDI) Barcode string on the packaging" ] ;
        fhir:definition [ fhir:v "Unique Device Identifier (UDI) Barcode string on the packaging." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3433,7 +3433,7 @@
        fhir:sliceName [ fhir:v "packaging" ] ;
        fhir:short [ fhir:v "Allows packages within packages" ] ;
        fhir:definition [ fhir:v "Allows packages within packages." ] ;
-       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ExplanationOfBenefi
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ExplanationOfBenefit for use in FHIR R4](StructureDefinition-profile-ExplanationOfBenefit.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ExplanationOfBenefit.ite.reviewOutcome)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
   "title" : "Cross-version Extension `R5.ExplanationOfBenefit.item.reviewOutcome` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ExplanationOfBenefit.item.reviewOutcome` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ExplanationOfBenefit.item.reviewOutcome` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ExplanationOfBenefit.item.reviewOutcome` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ExplanationOfBenefit.item.reviewOutcome` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ExplanationOfBenefit.item.reviewOutcome` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ExplanationOfBenefit.item.reviewOutcome` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ExplanationOfBenefit.item.reviewOutcome` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ExplanationOfBenefit.item.reviewOutcome` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "ExplanationOfBenefit.item"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
         "short" : "Result of the adjudication",
         "definition" : "The result of the claim, predetermination, or preauthorization adjudication.",
         "comment" : "The element is used to indicate the current state of the adjudication overall for the claim resource, for example: the request has been held (pended) for adjudication processing, for manual review or other reasons; that it has been processed and will be paid, or the outstanding paid, as submitted (approved); that no amount will be paid (denied); or that some amount between zero and the submitted amount will be paid (partial).",
-        "requirements" : "To advise the requestor of the result of the adjudication process. Element `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+        "requirements" : "To advise the requestor of the result of the adjudication process. Element `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -231,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
         "sliceName" : "reason",
         "short" : "Reason for result of the adjudication",
         "definition" : "The reasons for the result of the claim, predetermination, or preauthorization adjudication.",
-        "requirements" : "To advise the requestor of the contributors to the result of the adjudication process. Element `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+        "requirements" : "To advise the requestor of the contributors to the result of the adjudication process. Element `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -277,7 +277,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
         "short" : "Preauthorization reference",
         "definition" : "Reference from the Insurer which is used in later communications which refers to this adjudication.",
         "comment" : "This value is only present on preauthorization adjudications.",
-        "requirements" : "On subsequent claims, the insurer may require the provider to quote this value. Element `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+        "requirements" : "On subsequent claims, the insurer may require the provider to quote this value. Element `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -323,7 +323,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Explanatio
         "sliceName" : "preAuthPeriod",
         "short" : "Preauthorization reference effective period",
         "definition" : "The time frame during which this authorization is effective.",
-        "requirements" : "To convey to the provider when the authorized products and services must be supplied for the authorized adjudication to apply. Element `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+        "requirements" : "To convey to the provider when the authorized products and services must be supplied for the authorized adjudication to apply. Element `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
         "min" : 0,
         "max" : "1",
         "base" : {

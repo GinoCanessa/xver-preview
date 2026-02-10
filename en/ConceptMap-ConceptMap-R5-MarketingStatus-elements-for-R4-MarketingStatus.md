@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.2514816-06:00",
+  "date" : "2026-02-09T22:05:43.9874965-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MarketingStatus#MarketingStatus",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `MarketingStatus` is representable via FHIR R4B extensions.\nElement `MarketingStatus` is mapped to FHIR R4B element `MarketingStatus`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MarketingStatus",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `MarketingStatus` is representable via FHIR STU3 extensions.\nElement `MarketingStatus` is not mapped to FHIR STU3, since FHIR R5 `MarketingStatus` is not mapped."
+              "comment" : "FHIR R5 ComplexType `MarketingStatus` is representable via FHIR R4 extensions.\nElement `MarketingStatus` is mapped to FHIR R4 element `MarketingStatus`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MarketingStatus#MarketingStatus.country",
               "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.country` is mapped to FHIR R4B element `MarketingStatus.country`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MarketingStatus:country",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.country` is not mapped to FHIR STU3, since FHIR R5 `MarketingStatus` is not mapped."
+              "comment" : "Element `MarketingStatus.country` is mapped to FHIR R4 element `MarketingStatus.country`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MarketingStatus#MarketingStatus.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.jurisdiction` is mapped to FHIR R4B element `MarketingStatus.jurisdiction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MarketingStatus:jurisdiction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.jurisdiction` is not mapped to FHIR STU3, since FHIR R5 `MarketingStatus` is not mapped."
+              "comment" : "Element `MarketingStatus.jurisdiction` is mapped to FHIR R4 element `MarketingStatus.jurisdiction`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MarketingStatus#MarketingStatus.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.status` is mapped to FHIR R4B element `MarketingStatus.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MarketingStatus:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.status` is not mapped to FHIR STU3, since FHIR R5 `MarketingStatus` is not mapped."
+              "comment" : "Element `MarketingStatus.status` is mapped to FHIR R4 element `MarketingStatus.status`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MarketingStatus#MarketingStatus.dateRange",
               "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.dateRange` is mapped to FHIR R4B element `MarketingStatus.dateRange`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MarketingStatus:dateRange",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.dateRange` is not mapped to FHIR STU3, since FHIR R5 `MarketingStatus` is not mapped."
+              "comment" : "Element `MarketingStatus.dateRange` is mapped to FHIR R4 element `MarketingStatus.dateRange`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MarketingStatus#MarketingStatus.restoreDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.restoreDate` is mapped to FHIR R4B element `MarketingStatus.restoreDate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MarketingStatus:restoreDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MarketingStatus.restoreDate` is not mapped to FHIR STU3, since FHIR R5 `MarketingStatus` is not mapped."
+              "comment" : "Element `MarketingStatus.restoreDate` is mapped to FHIR R4 element `MarketingStatus.restoreDate`."
             }
           ]
         }

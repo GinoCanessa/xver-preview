@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EventDefi
   "title" : "Cross-version Profile for R5.EventDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6867546-06:00",
+  "date" : "2026-02-09T22:05:43.1100279-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EventDefi
       {
         "id" : "EventDefinition",
         "path" : "EventDefinition"
+      },
+      {
+        "id" : "EventDefinition.extension",
+        "path" : "EventDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "EventDefinition.extension:versionAlgorithm",
+        "path" : "EventDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for EventDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `EventDefinition.versionAlgorithm[x]` is will have a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EventDefinition.extension:copyrightLabel",
+        "path" : "EventDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for EventDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `EventDefinition.copyrightLabel` is will have a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

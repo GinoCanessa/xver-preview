@@ -76,7 +76,7 @@
   <title value="Cross-version Extension `R5.DeviceDefinition.packaging` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -93,7 +93,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DeviceDefinition.packaging` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DeviceDefinition.packaging` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DeviceDefinition.packaging` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DeviceDefinition.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DeviceDefinition.packaging` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DeviceDefinition.packaging` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DeviceDefinition.packaging` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DeviceDefinition.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -104,7 +104,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="DeviceDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -215,7 +215,7 @@
       <sliceName value="identifier"/>
       <short value="Business identifier of the packaged medication"/>
       <definition value="The business identifier of the packaged medication."/>
-      <requirements value="Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.identifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -379,7 +379,7 @@
       <sliceName value="type"/>
       <short value="A code that defines the specific type of packaging"/>
       <definition value="A code that defines the specific type of packaging."/>
-      <requirements value="Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -543,7 +543,7 @@
       <sliceName value="count"/>
       <short value="The number of items contained in the package (devices or sub-packages)"/>
       <definition value="The number of items contained in the package (devices or sub-packages)."/>
-      <requirements value="Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -707,7 +707,7 @@
       <sliceName value="distributor"/>
       <short value="An organization that distributes the packaged device"/>
       <definition value="An organization that distributes the packaged device."/>
-      <requirements value="Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.distributor` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -809,7 +809,7 @@
       <sliceName value="name"/>
       <short value="Distributor's human-readable name"/>
       <definition value="Distributor's human-readable name."/>
-      <requirements value="Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor.name` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -973,7 +973,7 @@
       <sliceName value="organizationReference"/>
       <short value="Distributor as an Organization resource"/>
       <definition value="Distributor as an Organization resource."/>
-      <requirements value="Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor.organizationReference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1342,7 +1342,7 @@
       <sliceName value="udiDeviceIdentifier"/>
       <short value="Unique Device Identifier (UDI) Barcode string on the packaging"/>
       <definition value="Unique Device Identifier (UDI) Barcode string on the packaging."/>
-      <requirements value="Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1653,7 +1653,7 @@
       <sliceName value="packaging"/>
       <short value="Allows packages within packages"/>
       <definition value="Allows packages within packages."/>
-      <requirements value="Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2200,7 +2200,7 @@
       <sliceName value="identifier"/>
       <short value="Business identifier of the packaged medication"/>
       <definition value="The business identifier of the packaged medication."/>
-      <requirements value="Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.identifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2240,7 +2240,7 @@
       <sliceName value="type"/>
       <short value="A code that defines the specific type of packaging"/>
       <definition value="A code that defines the specific type of packaging."/>
-      <requirements value="Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2280,7 +2280,7 @@
       <sliceName value="count"/>
       <short value="The number of items contained in the package (devices or sub-packages)"/>
       <definition value="The number of items contained in the package (devices or sub-packages)."/>
-      <requirements value="Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2320,7 +2320,7 @@
       <sliceName value="distributor"/>
       <short value="An organization that distributes the packaged device"/>
       <definition value="An organization that distributes the packaged device."/>
-      <requirements value="Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.distributor` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2352,7 +2352,7 @@
       <sliceName value="name"/>
       <short value="Distributor's human-readable name"/>
       <definition value="Distributor's human-readable name."/>
-      <requirements value="Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor.name` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2392,7 +2392,7 @@
       <sliceName value="organizationReference"/>
       <short value="Distributor as an Organization resource"/>
       <definition value="Distributor as an Organization resource."/>
-      <requirements value="Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.distributor.organizationReference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2455,7 +2455,7 @@
       <sliceName value="udiDeviceIdentifier"/>
       <short value="Unique Device Identifier (UDI) Barcode string on the packaging"/>
       <definition value="Unique Device Identifier (UDI) Barcode string on the packaging."/>
-      <requirements value="Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2490,7 +2490,7 @@
       <sliceName value="packaging"/>
       <short value="Allows packages within packages"/>
       <definition value="Allows packages within packages."/>
-      <requirements value="Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified."/>
+      <requirements value="Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.&#xA;Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

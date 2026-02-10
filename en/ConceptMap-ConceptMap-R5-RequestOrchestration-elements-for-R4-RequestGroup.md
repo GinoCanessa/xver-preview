@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.1116384-06:00",
+  "date" : "2026-02-09T22:05:44.1776634-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `RequestOrchestration` is representable via FHIR R4B Resource `RequestGroup`.\nElement `RequestOrchestration` is mapped to FHIR R4B element `RequestGroup`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `RequestOrchestration` is representable via FHIR DSTU2 Resource `Basic`.\nElement `RequestOrchestration` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "FHIR R5 Resource `RequestOrchestration` is representable via FHIR R4 Resource `RequestGroup`.\nElement `RequestOrchestration` is mapped to FHIR R4 element `RequestGroup`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.meta` is mapped to FHIR R4B element `RequestGroup.meta`."
-            },
-            {
-              "code" : "Basic.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `RequestOrchestration.meta` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.meta` is mapped to FHIR R4 element `RequestGroup.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.implicitRules` is mapped to FHIR R4B element `RequestGroup.implicitRules`."
-            },
-            {
-              "code" : "Basic.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `RequestOrchestration.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.implicitRules` is mapped to FHIR R4 element `RequestGroup.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.language` is mapped to FHIR R4B element `RequestGroup.language`."
-            },
-            {
-              "code" : "Basic.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `RequestOrchestration.language` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.language` is mapped to FHIR R4 element `RequestGroup.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.text` is mapped to FHIR R4B element `RequestGroup.text`."
-            },
-            {
-              "code" : "Basic.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `RequestOrchestration.text` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.text` is mapped to FHIR R4 element `RequestGroup.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.contained` is mapped to FHIR R4B element `RequestGroup.contained`."
-            },
-            {
-              "code" : "Basic.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `RequestOrchestration.contained` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.contained` is mapped to FHIR R4 element `RequestGroup.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.identifier` is mapped to FHIR R4B element `RequestGroup.identifier`."
-            },
-            {
-              "code" : "Basic.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `RequestOrchestration.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.identifier` is mapped to FHIR R4 element `RequestGroup.identifier`."
             }
           ]
         },
@@ -197,17 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.instantiatesCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.instantiatesCanonical` is mapped to FHIR R4B element `RequestGroup.instantiatesCanonical`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.instantiatesCanonical` is mapped to FHIR STU3 element `RequestGroup.definition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:instantiatesCanonical",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.instantiatesCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.instantiatesCanonical` is mapped to FHIR R4 element `RequestGroup.instantiatesCanonical`."
             }
           ]
         },
@@ -218,17 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.instantiatesUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.instantiatesUri` is mapped to FHIR R4B element `RequestGroup.instantiatesUri`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.instantiatesUri",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.instantiatesUri` is mapped to FHIR STU3 structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:instantiatesUri",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.instantiatesUri` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.instantiatesUri` is mapped to FHIR R4 element `RequestGroup.instantiatesUri`."
             }
           ]
         },
@@ -239,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.basedOn` is mapped to FHIR R4B element `RequestGroup.basedOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:basedOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.basedOn` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.basedOn` is mapped to FHIR R4 element `RequestGroup.basedOn`."
             }
           ]
         },
@@ -255,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.replaces",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.replaces` is mapped to FHIR R4B element `RequestGroup.replaces`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:replaces",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.replaces` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.replaces` is mapped to FHIR R4 element `RequestGroup.replaces`."
             }
           ]
         },
@@ -271,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.groupIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.groupIdentifier` is mapped to FHIR R4B element `RequestGroup.groupIdentifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:groupIdentifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.groupIdentifier` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.groupIdentifier` is mapped to FHIR R4 element `RequestGroup.groupIdentifier`."
             }
           ]
         },
@@ -287,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.status` is mapped to FHIR R4B element `RequestGroup.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.status` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.status` is mapped to FHIR R4 element `RequestGroup.status`."
             }
           ]
         },
@@ -303,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.intent",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.intent` is mapped to FHIR R4B element `RequestGroup.intent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:intent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.intent` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.intent` is mapped to FHIR R4 element `RequestGroup.intent`."
             }
           ]
         },
@@ -319,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.priority` is mapped to FHIR R4B element `RequestGroup.priority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.priority` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.priority` is mapped to FHIR R4 element `RequestGroup.priority`."
             }
           ]
         },
@@ -335,17 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.code` is mapped to FHIR R4B element `RequestGroup.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.code` is mapped to FHIR STU3 structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.code` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.code` is mapped to FHIR R4 element `RequestGroup.code`."
             }
           ]
         },
@@ -356,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `RequestOrchestration.subject` is mapped to FHIR R4B element `RequestGroup.subject`."
-            },
-            {
-              "code" : "Basic.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `RequestOrchestration.subject` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.subject` is mapped to FHIR R4 element `RequestGroup.subject`."
             }
           ]
         },
@@ -372,17 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.encounter` is mapped to FHIR R4B element `RequestGroup.encounter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.encounter` is mapped to FHIR STU3 element `RequestGroup.context`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:encounter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.encounter` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.encounter` is mapped to FHIR R4 element `RequestGroup.encounter`."
             }
           ]
         },
@@ -393,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.authoredOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.authoredOn` is mapped to FHIR R4B element `RequestGroup.authoredOn`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:authoredOn",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.authoredOn` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.authoredOn` is mapped to FHIR R4 element `RequestGroup.authoredOn`."
             }
           ]
         },
@@ -409,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.author` is mapped to FHIR R4B element `RequestGroup.author`."
-            },
-            {
-              "code" : "Basic.author",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nElement `RequestOrchestration.author` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.author` is mapped to FHIR R4 element `RequestGroup.author`."
             }
           ]
         },
@@ -425,22 +305,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.reason` is mapped to FHIR R4B element `RequestGroup.reasonCode`.\nElement `RequestOrchestration.reason` is mapped to FHIR R4B element `RequestGroup.reasonReference`."
+              "comment" : "Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode`.\nElement `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.reason` is mapped to FHIR R4B element `RequestGroup.reasonCode`.\nElement `RequestOrchestration.reason` is mapped to FHIR R4B element `RequestGroup.reasonReference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.reason[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `RequestGroup.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup`.\nElement `RequestOrchestration.reason` is mapped to FHIR STU3 element `RequestGroup.reason[x]`.\nNote that the target element context `RequestGroup.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup`.\nElement `RequestOrchestration.reason` is mapped to FHIR STU3 element `RequestGroup.reason[x]`.\nNote that the target element context `RequestGroup.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.reason` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode`.\nElement `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference`."
             }
           ]
         },
@@ -449,14 +319,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "goal",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.goal",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.goal` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:goal",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.goal` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.goal` is will have a context of RequestGroup based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -467,12 +332,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.note` is mapped to FHIR R4B element `RequestGroup.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.note` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.note` is mapped to FHIR R4 element `RequestGroup.note`."
             }
           ]
         },
@@ -483,12 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action` is mapped to FHIR R4B element `RequestGroup.action`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action` is mapped to FHIR R4 element `RequestGroup.action`."
             }
           ]
         },
@@ -497,14 +352,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -515,17 +365,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.prefix",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.prefix` is mapped to FHIR R4B element `RequestGroup.action.prefix`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.label",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.prefix` is mapped to FHIR STU3 element `RequestGroup.action.label`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:prefix",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.prefix` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.prefix` is mapped to FHIR R4 element `RequestGroup.action.prefix`."
             }
           ]
         },
@@ -536,12 +376,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.title` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.title` is mapped to FHIR R4B element `RequestGroup.action.title`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.title` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.title` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.title` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.title` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.title` is mapped to FHIR R4 element `RequestGroup.action.title`."
             }
           ]
         },
@@ -552,12 +387,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.description` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.description` is mapped to FHIR R4B element `RequestGroup.action.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.description` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.description` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.description` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.description` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.description` is mapped to FHIR R4 element `RequestGroup.action.description`."
             }
           ]
         },
@@ -568,12 +398,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.textEquivalent",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.textEquivalent` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.textEquivalent` is mapped to FHIR R4B element `RequestGroup.action.textEquivalent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:textEquivalent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.textEquivalent` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.textEquivalent` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.textEquivalent` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.textEquivalent` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.textEquivalent` is mapped to FHIR R4 element `RequestGroup.action.textEquivalent`."
             }
           ]
         },
@@ -584,17 +409,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.priority` is mapped to FHIR R4B element `RequestGroup.action.priority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.priority` is mapped to FHIR STU3 structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.priority` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.priority` is mapped to FHIR R4 element `RequestGroup.action.priority`."
             }
           ]
         },
@@ -605,12 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.code` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.code` is mapped to FHIR R4B element `RequestGroup.action.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.code` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.code` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.code` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.code` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.code` is mapped to FHIR R4 element `RequestGroup.action.code`."
             }
           ]
         },
@@ -621,12 +431,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.documentation` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.documentation` is mapped to FHIR R4B element `RequestGroup.action.documentation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:documentation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.documentation` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.documentation` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.documentation` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.documentation` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.documentation` is mapped to FHIR R4 element `RequestGroup.action.documentation`."
             }
           ]
         },
@@ -635,14 +440,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "goal",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.goal",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.goal` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:goal",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.goal` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -653,12 +453,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.condition` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.condition` is mapped to FHIR R4B element `RequestGroup.action.condition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.condition` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.condition` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.condition` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.condition` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.condition` is mapped to FHIR R4 element `RequestGroup.action.condition`."
             }
           ]
         },
@@ -669,12 +464,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.condition.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.condition.kind` is mapped to FHIR R4B element `RequestGroup.action.condition.kind`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:condition:kind",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.condition.kind` is part of an existing definition because parent element `RequestOrchestration.action.condition` requires a cross-version extension.\nElement `RequestOrchestration.action.condition.kind` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.condition.kind` is mapped to FHIR R4 element `RequestGroup.action.condition.kind`."
             }
           ]
         },
@@ -685,12 +475,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.condition.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.condition.expression` is mapped to FHIR R4B element `RequestGroup.action.condition.expression`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:condition:expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.condition.expression` is part of an existing definition because parent element `RequestOrchestration.action.condition` requires a cross-version extension.\nElement `RequestOrchestration.action.condition.expression` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.condition.expression` is mapped to FHIR R4 element `RequestGroup.action.condition.expression`."
             }
           ]
         },
@@ -699,14 +484,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "input",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:input",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -715,14 +495,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:title",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:input:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -731,14 +506,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requirement",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:requirement",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:input:requirement",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -747,14 +517,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedData",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:relatedData",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:input:relatedData",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -763,14 +528,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "output",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:output",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -779,14 +539,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:title",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:output:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -795,14 +550,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requirement",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:requirement",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:output:requirement",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -811,14 +561,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedData",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:relatedData",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:output:relatedData",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -829,12 +574,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.relatedAction",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.relatedAction` is mapped to FHIR R4B element `RequestGroup.action.relatedAction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:relatedAction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.relatedAction` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.relatedAction` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.relatedAction` is mapped to FHIR R4 element `RequestGroup.action.relatedAction`."
             }
           ]
         },
@@ -845,12 +585,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.relatedAction.actionId",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.targetId` is mapped to FHIR R4B element `RequestGroup.action.relatedAction.actionId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:relatedAction:targetId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.targetId` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.targetId` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.relatedAction.targetId` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.actionId`."
             }
           ]
         },
@@ -861,12 +596,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.relatedAction.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.relationship` is mapped to FHIR R4B element `RequestGroup.action.relatedAction.relationship`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:relatedAction:relationship",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.relationship` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.relationship` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.relatedAction.relationship` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.relationship`."
             }
           ]
         },
@@ -875,14 +605,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "endRelationship",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.relatedAction.endRelationship",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.relatedAction",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:relatedAction:endRelationship",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.endRelationship` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is will have a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -893,12 +618,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.relatedAction.offset[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.\nElement `RequestOrchestration.action.relatedAction.offset[x]` is mapped to FHIR R4B element `RequestGroup.action.relatedAction.offset[x]`.\nNote that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:relatedAction:offset",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.relatedAction.offset[x]` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.offset[x]` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Note that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.\nElement `RequestOrchestration.action.relatedAction.offset[x]` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.offset[x]`.\nNote that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`."
             }
           ]
         },
@@ -909,12 +629,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.timing[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.timing[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.\nElement `RequestOrchestration.action.timing[x]` is mapped to FHIR R4B element `RequestGroup.action.timing[x]`.\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:timing",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.timing[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.timing[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.timing[x]` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.timing[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.\nElement `RequestOrchestration.action.timing[x]` is mapped to FHIR R4 element `RequestGroup.action.timing[x]`.\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`."
             }
           ]
         },
@@ -923,14 +638,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.location",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -941,12 +651,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.participant` is mapped to FHIR R4B element `RequestGroup.action.participant`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.participant` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.participant` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.participant` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.participant` is mapped to FHIR R4 element `RequestGroup.action.participant`."
             }
           ]
         },
@@ -955,14 +660,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.type` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.type` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -971,14 +671,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "typeCanonical",
           "target" : [
             {
-              "code" : "typeCanonical",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant:typeCanonical",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.typeCanonical` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.typeCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -987,14 +682,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "typeReference",
           "target" : [
             {
-              "code" : "typeReference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant:typeReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.typeReference` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.typeReference` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1003,14 +693,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "role",
           "target" : [
             {
-              "code" : "role",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant:role",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.role` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1019,14 +704,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "function",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant:function",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.function` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.function` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1035,14 +715,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actor[x]",
           "target" : [
             {
-              "code" : "actor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:participant:actor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.participant.actor[x]` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.actor[x]` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1053,12 +728,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.type` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.type` is mapped to FHIR R4B element `RequestGroup.action.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.type` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.type` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.type` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.type` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.type` is mapped to FHIR R4 element `RequestGroup.action.type`."
             }
           ]
         },
@@ -1069,12 +739,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.groupingBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.groupingBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.groupingBehavior` is mapped to FHIR R4B element `RequestGroup.action.groupingBehavior`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:groupingBehavior",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.groupingBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.groupingBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.groupingBehavior` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.groupingBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.groupingBehavior` is mapped to FHIR R4 element `RequestGroup.action.groupingBehavior`."
             }
           ]
         },
@@ -1085,12 +750,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.selectionBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.selectionBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.selectionBehavior` is mapped to FHIR R4B element `RequestGroup.action.selectionBehavior`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:selectionBehavior",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.selectionBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.selectionBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.selectionBehavior` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.selectionBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.selectionBehavior` is mapped to FHIR R4 element `RequestGroup.action.selectionBehavior`."
             }
           ]
         },
@@ -1101,12 +761,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.requiredBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.requiredBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.requiredBehavior` is mapped to FHIR R4B element `RequestGroup.action.requiredBehavior`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:requiredBehavior",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.requiredBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.requiredBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.requiredBehavior` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.requiredBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.requiredBehavior` is mapped to FHIR R4 element `RequestGroup.action.requiredBehavior`."
             }
           ]
         },
@@ -1117,12 +772,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.precheckBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.precheckBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.precheckBehavior` is mapped to FHIR R4B element `RequestGroup.action.precheckBehavior`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:precheckBehavior",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.precheckBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.precheckBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.precheckBehavior` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.precheckBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.precheckBehavior` is mapped to FHIR R4 element `RequestGroup.action.precheckBehavior`."
             }
           ]
         },
@@ -1133,12 +783,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.cardinalityBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.cardinalityBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.cardinalityBehavior` is mapped to FHIR R4B element `RequestGroup.action.cardinalityBehavior`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:cardinalityBehavior",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.cardinalityBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.cardinalityBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.cardinalityBehavior` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.cardinalityBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.cardinalityBehavior` is mapped to FHIR R4 element `RequestGroup.action.cardinalityBehavior`."
             }
           ]
         },
@@ -1149,12 +794,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.resource` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.resource` is mapped to FHIR R4B element `RequestGroup.action.resource`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:resource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.resource` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.resource` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.resource` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.resource` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.resource` is mapped to FHIR R4 element `RequestGroup.action.resource`."
             }
           ]
         },
@@ -1163,14 +803,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definition[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.definition",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:definition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1179,14 +814,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "transform",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.transform",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.transform` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:transform",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.transform` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1195,14 +825,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "dynamicValue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:dynamicValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1211,14 +836,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "path",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue:path",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:dynamicValue:path",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1227,14 +847,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "expression",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue:expression",
+              "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4B structure `RequestGroup`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:dynamicValue:expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`."
             }
           ]
         },
@@ -1245,12 +860,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RequestGroup#RequestGroup.action.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.action` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.action` is mapped to FHIR R4B element `RequestGroup.action.action`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration:action:action",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RequestOrchestration.action.action` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.action` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.action` is not mapped to FHIR DSTU2, since FHIR R5 `RequestOrchestration` is not mapped."
+              "comment" : "Element `RequestOrchestration.action.action` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.action` is mapped to FHIR R4 element `RequestGroup.action.action`."
             }
           ]
         }

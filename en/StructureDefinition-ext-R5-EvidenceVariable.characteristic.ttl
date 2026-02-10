@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -315,7 +315,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Label for internal linking" ] ;
        fhir:definition [ fhir:v "Label used for when a characteristic refers to another characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -737,7 +737,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Used for footnotes or explanatory notes" ] ;
        fhir:definition [ fhir:v "A human-readable string to clarify or explain concepts about the characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1159,7 +1159,7 @@
        fhir:sliceName [ fhir:v "definitionReference" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by a Reference" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using a Reference." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1389,7 +1389,7 @@
        fhir:sliceName [ fhir:v "definitionCanonical" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by a Canonical" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using Canonical." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1613,7 +1613,7 @@
        fhir:sliceName [ fhir:v "definitionCodeableConcept" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by a CodeableConcept" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using CodeableConcept." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1825,7 +1825,7 @@
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by an expression" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using Expression." ] ;
        fhir:comment [ fhir:v "When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2037,7 +2037,7 @@
        fhir:sliceName [ fhir:v "definitionId" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by an id" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using id." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2248,7 +2248,7 @@
        fhir:sliceName [ fhir:v "definitionByTypeAndValue" ] ;
        fhir:short [ fhir:v "Defines the characteristic using type and value" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using both a type and value[x] elements." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2377,7 +2377,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Expresses the type of characteristic" ] ;
        fhir:definition [ fhir:v "Used to express the type of characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2595,7 +2595,7 @@
        fhir:sliceName [ fhir:v "method" ] ;
        fhir:short [ fhir:v "Method for how the characteristic value was determined" ] ;
        fhir:definition [ fhir:v "Method for how the characteristic value was determined." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2806,7 +2806,7 @@
        fhir:sliceName [ fhir:v "device" ] ;
        fhir:short [ fhir:v "Device used for determining characteristic" ] ;
        fhir:definition [ fhir:v "Device used for determining characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3030,7 +3030,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Defines the characteristic when coupled with characteristic.type" ] ;
        fhir:definition [ fhir:v "Defines the characteristic when paired with characteristic.type." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3266,7 +3266,7 @@
        fhir:sliceName [ fhir:v "offset" ] ;
        fhir:short [ fhir:v "Reference point for valueQuantity or valueRange" ] ;
        fhir:definition [ fhir:v "Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3799,7 +3799,7 @@
        fhir:sliceName [ fhir:v "definitionByCombination" ] ;
        fhir:short [ fhir:v "Used to specify how two or more characteristics are combined" ] ;
        fhir:definition [ fhir:v "Defines the characteristic as a combination of two or more characteristics." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3928,7 +3928,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "all-of | any-of | at-least | at-most | statistical | net-effect | dataset" ] ;
        fhir:definition [ fhir:v "Used to specify if two or more characteristics are combined with OR or AND." ] ;
-       fhir:requirements [ fhir:v "If code is \"at-least\" or \"at-most\" then threshold SHALL be used. If code is neither \"at-least\" nor \"at-most\" then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "If code is \"at-least\" or \"at-most\" then threshold SHALL be used. If code is neither \"at-least\" nor \"at-most\" then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4146,7 +4146,7 @@
        fhir:sliceName [ fhir:v "threshold" ] ;
        fhir:short [ fhir:v "Provides the value of \"n\" when \"at-least\" or \"at-most\" codes are used" ] ;
        fhir:definition [ fhir:v "Provides the value of \"n\" when \"at-least\" or \"at-most\" codes are used." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4357,7 +4357,7 @@
        fhir:sliceName [ fhir:v "characteristic" ] ;
        fhir:short [ fhir:v "A defining factor of the characteristic" ] ;
        fhir:definition [ fhir:v "A defining factor of the characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5135,7 +5135,7 @@
        fhir:sliceName [ fhir:v "instances" ] ;
        fhir:short [ fhir:v "Number of occurrences meeting the characteristic" ] ;
        fhir:definition [ fhir:v "Number of occurrences meeting the characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5351,7 +5351,7 @@
        fhir:sliceName [ fhir:v "duration" ] ;
        fhir:short [ fhir:v "Length of time in which the characteristic is met" ] ;
        fhir:definition [ fhir:v "Length of time in which the characteristic is met." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5696,7 +5696,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Human readable description" ] ;
        fhir:definition [ fhir:v "Human readable description." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5907,7 +5907,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Used for footnotes or explanatory notes" ] ;
        fhir:definition [ fhir:v "A human-readable string to clarify or explain concepts about the timeFromEvent." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -6118,7 +6118,7 @@
        fhir:sliceName [ fhir:v "event" ] ;
        fhir:short [ fhir:v "The event used as a base point (reference point) in time" ] ;
        fhir:definition [ fhir:v "The event used as a base point (reference point) in time." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -6344,7 +6344,7 @@
        fhir:sliceName [ fhir:v "quantity" ] ;
        fhir:short [ fhir:v "Used to express the observation at a defined amount of time before or after the event" ] ;
        fhir:definition [ fhir:v "Used to express the observation at a defined amount of time before or after the event." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -6555,7 +6555,7 @@
        fhir:sliceName [ fhir:v "range" ] ;
        fhir:short [ fhir:v "Used to express the observation within a period before and/or after the event" ] ;
        fhir:definition [ fhir:v "Used to express the observation within a period before and/or after the event." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7445,7 +7445,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Label for internal linking" ] ;
        fhir:definition [ fhir:v "Label used for when a characteristic refers to another characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7539,7 +7539,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Used for footnotes or explanatory notes" ] ;
        fhir:definition [ fhir:v "A human-readable string to clarify or explain concepts about the characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7633,7 +7633,7 @@
        fhir:sliceName [ fhir:v "definitionReference" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by a Reference" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using a Reference." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7699,7 +7699,7 @@
        fhir:sliceName [ fhir:v "definitionCanonical" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by a Canonical" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using Canonical." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7759,7 +7759,7 @@
        fhir:sliceName [ fhir:v "definitionCodeableConcept" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by a CodeableConcept" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using CodeableConcept." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7807,7 +7807,7 @@
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by an expression" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using Expression." ] ;
        fhir:comment [ fhir:v "When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7855,7 +7855,7 @@
        fhir:sliceName [ fhir:v "definitionId" ] ;
        fhir:short [ fhir:v "Defines the characteristic (without using type and value) by an id" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using id." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7902,7 +7902,7 @@
        fhir:sliceName [ fhir:v "definitionByTypeAndValue" ] ;
        fhir:short [ fhir:v "Defines the characteristic using type and value" ] ;
        fhir:definition [ fhir:v "Defines the characteristic using both a type and value[x] elements." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7934,7 +7934,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "Expresses the type of characteristic" ] ;
        fhir:definition [ fhir:v "Used to express the type of characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7988,7 +7988,7 @@
        fhir:sliceName [ fhir:v "method" ] ;
        fhir:short [ fhir:v "Method for how the characteristic value was determined" ] ;
        fhir:definition [ fhir:v "Method for how the characteristic value was determined." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -8035,7 +8035,7 @@
        fhir:sliceName [ fhir:v "device" ] ;
        fhir:short [ fhir:v "Device used for determining characteristic" ] ;
        fhir:definition [ fhir:v "Device used for determining characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8095,7 +8095,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Defines the characteristic when coupled with characteristic.type" ] ;
        fhir:definition [ fhir:v "Defines the characteristic when paired with characteristic.type." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8167,7 +8167,7 @@
        fhir:sliceName [ fhir:v "offset" ] ;
        fhir:short [ fhir:v "Reference point for valueQuantity or valueRange" ] ;
        fhir:definition [ fhir:v "Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8239,7 +8239,7 @@
        fhir:sliceName [ fhir:v "definitionByCombination" ] ;
        fhir:short [ fhir:v "Used to specify how two or more characteristics are combined" ] ;
        fhir:definition [ fhir:v "Defines the characteristic as a combination of two or more characteristics." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8271,7 +8271,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "all-of | any-of | at-least | at-most | statistical | net-effect | dataset" ] ;
        fhir:definition [ fhir:v "Used to specify if two or more characteristics are combined with OR or AND." ] ;
-       fhir:requirements [ fhir:v "If code is \"at-least\" or \"at-most\" then threshold SHALL be used. If code is neither \"at-least\" nor \"at-most\" then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "If code is \"at-least\" or \"at-most\" then threshold SHALL be used. If code is neither \"at-least\" nor \"at-most\" then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8325,7 +8325,7 @@
        fhir:sliceName [ fhir:v "threshold" ] ;
        fhir:short [ fhir:v "Provides the value of \"n\" when \"at-least\" or \"at-most\" codes are used" ] ;
        fhir:definition [ fhir:v "Provides the value of \"n\" when \"at-least\" or \"at-most\" codes are used." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8372,7 +8372,7 @@
        fhir:sliceName [ fhir:v "characteristic" ] ;
        fhir:short [ fhir:v "A defining factor of the characteristic" ] ;
        fhir:definition [ fhir:v "A defining factor of the characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -8436,7 +8436,7 @@
        fhir:sliceName [ fhir:v "instances" ] ;
        fhir:short [ fhir:v "Number of occurrences meeting the characteristic" ] ;
        fhir:definition [ fhir:v "Number of occurrences meeting the characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8488,7 +8488,7 @@
        fhir:sliceName [ fhir:v "duration" ] ;
        fhir:short [ fhir:v "Length of time in which the characteristic is met" ] ;
        fhir:definition [ fhir:v "Length of time in which the characteristic is met." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8572,7 +8572,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Human readable description" ] ;
        fhir:definition [ fhir:v "Human readable description." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8619,7 +8619,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Used for footnotes or explanatory notes" ] ;
        fhir:definition [ fhir:v "A human-readable string to clarify or explain concepts about the timeFromEvent." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -8666,7 +8666,7 @@
        fhir:sliceName [ fhir:v "event" ] ;
        fhir:short [ fhir:v "The event used as a base point (reference point) in time" ] ;
        fhir:definition [ fhir:v "The event used as a base point (reference point) in time." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8728,7 +8728,7 @@
        fhir:sliceName [ fhir:v "quantity" ] ;
        fhir:short [ fhir:v "Used to express the observation at a defined amount of time before or after the event" ] ;
        fhir:definition [ fhir:v "Used to express the observation at a defined amount of time before or after the event." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8775,7 +8775,7 @@
        fhir:sliceName [ fhir:v "range" ] ;
        fhir:short [ fhir:v "Used to express the observation within a period before and/or after the event" ] ;
        fhir:definition [ fhir:v "Used to express the observation within a period before and/or after the event." ] ;
-       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

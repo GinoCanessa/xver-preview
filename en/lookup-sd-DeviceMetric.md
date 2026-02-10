@@ -25,7 +25,7 @@ A computable version of the following element information is available in: [Conc
 | [`DeviceMetric.operationalStatus`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric.operationalStatus](https://hl7.org/fhir/R4/DeviceMetric.html#resource) |
 | [`DeviceMetric.color`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric.color](https://hl7.org/fhir/R4/DeviceMetric.html#resource) |
 | [`DeviceMetric.category`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric.category](https://hl7.org/fhir/R4/DeviceMetric.html#resource) |
-| [`DeviceMetric.measurementFrequency`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.measurementFrequency](StructureDefinition-ext-R5-DeviceMetric.measurementFrequency.md) |
+| [`DeviceMetric.measurementFrequency`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric](https://hl7.org/fhir/R4/DeviceMetric.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.measurementFrequency](StructureDefinition-ext-R5-DeviceMetric.measurementFrequency.md) |
 | [`DeviceMetric.calibration`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric.calibration](https://hl7.org/fhir/R4/DeviceMetric.html#resource) |
 | [`DeviceMetric.calibration.type`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric.calibration.type](https://hl7.org/fhir/R4/DeviceMetric.html#resource) |
 | [`DeviceMetric.calibration.state`](https://hl7.org/fhir/R5/DeviceMetric.html#resource) | [DeviceMetric.calibration.state](https://hl7.org/fhir/R4/DeviceMetric.html#resource) |

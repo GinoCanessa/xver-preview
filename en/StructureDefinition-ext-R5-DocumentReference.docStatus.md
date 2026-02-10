@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DocumentReference.d
 
 **Usages:**
 
-* Use this Extension: [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference.md)
+* Use this Extension: [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference-for-Media.md) and [Cross-version Profile for R5.DocumentReference for use in FHIR R4](StructureDefinition-profile-DocumentReference.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DocumentReference.docStatus)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
   "title" : "Cross-version Extension `R5.DocumentReference.docStatus` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.docStatus` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.docStatus` 0..1 `code`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.docStatus` 0..1 `code`\n*  R5: `DocumentReference.docStatus` 0..1 `code`\n*  R4B: `DocumentReference.docStatus` 0..1 `code`\n*  R4: `DocumentReference.docStatus` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus`.\nElement `DocumentReference.docStatus` is mapped to FHIR R4 structure `Media`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.docStatus` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.docStatus` 0..1 `code`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.docStatus` 0..1 `code`\n*  R5: `DocumentReference.docStatus` 0..1 `code`\n*  R4B: `DocumentReference.docStatus` 0..1 `code`\n*  R4: `DocumentReference.docStatus` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus`.\nElement `DocumentReference.docStatus` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -136,6 +136,10 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DocumentRe
     {
       "type" : "element",
       "expression" : "DocumentReference.docStatus"
+    },
+    {
+      "type" : "element",
+      "expression" : "Media"
     }
   ],
   "type" : "Extension",

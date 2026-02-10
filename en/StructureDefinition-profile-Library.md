@@ -7,7 +7,7 @@ This cross-version profile allows R5 Library content to be represented via FHIR 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md) and [Cross-version Extension `R5.Measure.group.library` for use in FHIR R4](StructureDefinition-ext-R5-Measure.gro.library.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Library)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Library.c
   "title" : "Cross-version Profile for R5.Library for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7217676-06:00",
+  "date" : "2026-02-09T22:05:43.1798201-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Library.c
       {
         "id" : "Library",
         "path" : "Library"
+      },
+      {
+        "id" : "Library.extension",
+        "path" : "Library.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Library.extension:versionAlgorithm",
+        "path" : "Library.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for Library.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Library.versionAlgorithm[x]` is will have a context of Library based on following the parent source element upwards and mapping to `Library`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Library.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Library.extension:copyrightLabel",
+        "path" : "Library.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for Library.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `Library.copyrightLabel` is will have a context of Library based on following the parent source element upwards and mapping to `Library`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Library.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

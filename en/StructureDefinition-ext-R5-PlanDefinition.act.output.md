@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
   "title" : "Cross-version Extension `R5.PlanDefinition.action.output` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `PlanDefinition.action.output.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.output.title` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that results as output from the action.",
-        "requirements" : "Element `PlanDefinition.action.output.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.output.requirement` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that is results as output from the action.",
         "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-        "requirements" : "Element `PlanDefinition.action.output.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.output.relatedData` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {

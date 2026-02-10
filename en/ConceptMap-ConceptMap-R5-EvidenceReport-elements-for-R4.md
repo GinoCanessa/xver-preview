@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.5739955-06:00",
+  "date" : "2026-02-09T22:05:43.8380172-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -83,11 +83,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "EvidenceReport",
           "target" : [
             {
-              "code" : "#EvidenceReport",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EvidenceReport` is representable via FHIR R4B Resource `EvidenceReport`.\nElement `EvidenceReport` is mapped to FHIR R4B element `EvidenceReport`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport",
               "equivalence" : "relatedto",
               "comment" : "FHIR R5 Resource `EvidenceReport` is representable via FHIR R4 Resource `Basic`.\nElement `EvidenceReport` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -98,11 +93,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.meta",
           "display" : "meta",
           "target" : [
-            {
-              "code" : "#EvidenceReport.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.meta` is mapped to FHIR R4B element `EvidenceReport.meta`."
-            },
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
@@ -115,11 +105,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "implicitRules",
           "target" : [
             {
-              "code" : "#EvidenceReport.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.implicitRules` is mapped to FHIR R4B element `EvidenceReport.implicitRules`."
-            },
-            {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `EvidenceReport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -130,11 +115,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.language",
           "display" : "language",
           "target" : [
-            {
-              "code" : "#EvidenceReport.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.language` is mapped to FHIR R4B element `EvidenceReport.language`."
-            },
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
@@ -147,11 +127,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "text",
           "target" : [
             {
-              "code" : "#EvidenceReport.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.text` is mapped to FHIR R4B element `EvidenceReport.text`."
-            },
-            {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `EvidenceReport.text` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -162,11 +137,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.contained",
           "display" : "contained",
           "target" : [
-            {
-              "code" : "#EvidenceReport.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.contained` is mapped to FHIR R4B element `EvidenceReport.contained`."
-            },
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
@@ -179,11 +149,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "#EvidenceReport.url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.url` is mapped to FHIR R4B element `EvidenceReport.url`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:url",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.url` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -194,11 +159,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.status",
           "display" : "status",
           "target" : [
-            {
-              "code" : "#EvidenceReport.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.status` is mapped to FHIR R4B element `EvidenceReport.status`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:status",
               "equivalence" : "relatedto",
@@ -211,11 +171,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "useContext",
           "target" : [
             {
-              "code" : "#EvidenceReport.useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.useContext` is mapped to FHIR R4B element `EvidenceReport.useContext`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:useContext",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.useContext` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -226,11 +181,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.identifier",
           "display" : "identifier",
           "target" : [
-            {
-              "code" : "#EvidenceReport.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.identifier` is mapped to FHIR R4B element `EvidenceReport.identifier`."
-            },
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
@@ -243,11 +193,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedIdentifier",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatedIdentifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatedIdentifier` is mapped to FHIR R4B element `EvidenceReport.relatedIdentifier`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatedIdentifier",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatedIdentifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -258,11 +203,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.citeAs[x]",
           "display" : "citeAs[x]",
           "target" : [
-            {
-              "code" : "#EvidenceReport.citeAs[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.citeAs[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport`.\nElement `EvidenceReport.citeAs[x]` is mapped to FHIR R4B element `EvidenceReport.citeAs[x]`.\nNote that the target element context `EvidenceReport.citeAs[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:citeAs",
               "equivalence" : "relatedto",
@@ -275,11 +215,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "#EvidenceReport.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.type` is mapped to FHIR R4B element `EvidenceReport.type`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:type",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.type` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -290,11 +225,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.note",
           "display" : "note",
           "target" : [
-            {
-              "code" : "#EvidenceReport.note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.note` is mapped to FHIR R4B element `EvidenceReport.note`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:note",
               "equivalence" : "relatedto",
@@ -307,11 +237,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedArtifact",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatedArtifact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatedArtifact` is mapped to FHIR R4B element `EvidenceReport.relatedArtifact`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatedArtifact",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatedArtifact` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -323,19 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subject",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject` is mapped to FHIR R4B element `EvidenceReport.subject`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject",
               "equivalence" : "relatedto",
               "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `BackboneElement`:1..1 -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).\nElement `EvidenceReport.subject` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped.\nNote that the source element matches Basic element path `Basic.subject`, but the definitions are not compatible (source: `BackboneElement`:1..1 -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1)."
             }
           ]
         },
@@ -344,19 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "characteristic",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject.characteristic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic` is mapped to FHIR R4B element `EvidenceReport.subject.characteristic`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject:characteristic",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.subject.characteristic` is part of an existing definition because parent element `EvidenceReport.subject` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -365,19 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject.characteristic.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.code` is mapped to FHIR R4B element `EvidenceReport.subject.characteristic.code`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject:characteristic:code",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.subject.characteristic.code` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.code` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.code` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -386,19 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject.characteristic.value[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.subject.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.subject.characteristic`.\nElement `EvidenceReport.subject.characteristic.value[x]` is mapped to FHIR R4B element `EvidenceReport.subject.characteristic.value[x]`.\nNote that the target element context `EvidenceReport.subject.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.subject.characteristic`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject:characteristic:value",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.subject.characteristic.value[x]` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.value[x]` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.value[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -407,19 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "exclude",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject.characteristic.exclude",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.exclude` is mapped to FHIR R4B element `EvidenceReport.subject.characteristic.exclude`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject:characteristic:exclude",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.subject.characteristic.exclude` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.exclude` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:exclude",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.exclude` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -428,19 +303,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "period",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject.characteristic.period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.period` is mapped to FHIR R4B element `EvidenceReport.subject.characteristic.period`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject:characteristic:period",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.subject.characteristic.period` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.period` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.characteristic.period` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -449,19 +314,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "#EvidenceReport.subject.note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.note` is mapped to FHIR R4B element `EvidenceReport.subject.note`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:subject:note",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.subject.note` is part of an existing definition because parent element `EvidenceReport.subject` requires a cross-version extension.\nElement `EvidenceReport.subject.note` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.subject.note` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -469,11 +324,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.publisher",
           "display" : "publisher",
           "target" : [
-            {
-              "code" : "#EvidenceReport.publisher",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.publisher` is mapped to FHIR R4B element `EvidenceReport.publisher`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:publisher",
               "equivalence" : "relatedto",
@@ -486,11 +336,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contact",
           "target" : [
             {
-              "code" : "#EvidenceReport.contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.contact` is mapped to FHIR R4B element `EvidenceReport.contact`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:contact",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.contact` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -501,11 +346,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.author",
           "display" : "author",
           "target" : [
-            {
-              "code" : "#EvidenceReport.author",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.author` is mapped to FHIR R4B element `EvidenceReport.author`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:author",
               "equivalence" : "relatedto",
@@ -518,11 +358,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "editor",
           "target" : [
             {
-              "code" : "#EvidenceReport.editor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.editor` is mapped to FHIR R4B element `EvidenceReport.editor`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:editor",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.editor` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -533,11 +368,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "EvidenceReport.reviewer",
           "display" : "reviewer",
           "target" : [
-            {
-              "code" : "#EvidenceReport.reviewer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.reviewer` is mapped to FHIR R4B element `EvidenceReport.reviewer`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:reviewer",
               "equivalence" : "relatedto",
@@ -550,11 +380,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "endorser",
           "target" : [
             {
-              "code" : "#EvidenceReport.endorser",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.endorser` is mapped to FHIR R4B element `EvidenceReport.endorser`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:endorser",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.endorser` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
@@ -566,19 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatesTo",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo` is mapped to FHIR R4B element `EvidenceReport.relatesTo`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatesTo` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -587,19 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.code` is mapped to FHIR R4B element `EvidenceReport.relatesTo.code`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo:code",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatesTo.code` is part of an existing definition because parent element `EvidenceReport.relatesTo` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.code` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.code` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -608,19 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "target",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`.\nElement `EvidenceReport.relatesTo.target` is mapped to FHIR R4B element `EvidenceReport.relatesTo.target[x]`.\nNote that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo:target",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatesTo.target` is part of an existing definition because parent element `EvidenceReport.relatesTo` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.target` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -629,19 +424,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`.\nElement `EvidenceReport.relatesTo.target.url` is mapped to FHIR R4B element `EvidenceReport.relatesTo.target[x]`.\nNote that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo:target:url",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatesTo.target.url` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.url` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.target.url` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -650,19 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`.\nElement `EvidenceReport.relatesTo.target.identifier` is mapped to FHIR R4B element `EvidenceReport.relatesTo.target[x]`.\nNote that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo:target:identifier",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatesTo.target.identifier` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.identifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.target.identifier` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -671,19 +446,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "display",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`.\nElement `EvidenceReport.relatesTo.target.display` is mapped to FHIR R4B element `EvidenceReport.relatesTo.target[x]`.\nNote that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo:target:display",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.relatesTo.target.display` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.display` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:display",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.target.display` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -692,19 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "resource",
           "target" : [
             {
-              "code" : "#EvidenceReport.relatesTo.target[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`.\nElement `EvidenceReport.relatesTo.target.resource` is mapped to FHIR R4B element `EvidenceReport.relatesTo.target[x]`.\nNote that the target element context `EvidenceReport.relatesTo.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceReport.relatesTo`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:relatesTo:target:resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.target.resource` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:resource",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
+              "comment" : "Element `EvidenceReport.relatesTo.target.resource` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceReport.relatesTo.target.resource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -713,19 +468,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "section",
           "target" : [
             {
-              "code" : "#EvidenceReport.section",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section` is mapped to FHIR R4B element `EvidenceReport.section`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -734,19 +479,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.title` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.title` is mapped to FHIR R4B element `EvidenceReport.section.title`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:title",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.title` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.title` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.title` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.title` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -755,19 +490,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "focus",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.focus",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.focus` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.focus` is mapped to FHIR R4B element `EvidenceReport.section.focus`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:focus",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.focus` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.focus` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.focus` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:focus",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.focus` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -776,19 +501,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "focusReference",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.focusReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.focusReference` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.focusReference` is mapped to FHIR R4B element `EvidenceReport.section.focusReference`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:focusReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.focusReference` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.focusReference` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.focusReference` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:focusReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.focusReference` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
+              "comment" : "Element `EvidenceReport.section.focusReference` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.focusReference` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceReport.section.focusReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceReport.section.focusReference` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -797,19 +512,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "author",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.author",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.author` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.author` is mapped to FHIR R4B element `EvidenceReport.section.author`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:author",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.author` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.author` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.author` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:author",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.author` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
+              "comment" : "Element `EvidenceReport.section.author` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.author` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceReport.section.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceReport.section.author` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -818,19 +523,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "text",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.text` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.text` is mapped to FHIR R4B element `EvidenceReport.section.text`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:text",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.text` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.text` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.text` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.text` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -839,19 +534,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "mode",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.mode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.mode` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.mode` is mapped to FHIR R4B element `EvidenceReport.section.mode`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:mode",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.mode` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.mode` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.mode` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:mode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.mode` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -860,19 +545,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "orderedBy",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.orderedBy",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.orderedBy` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.orderedBy` is mapped to FHIR R4B element `EvidenceReport.section.orderedBy`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:orderedBy",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.orderedBy` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.orderedBy` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.orderedBy` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:orderedBy",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.orderedBy` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -881,19 +556,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "entryClassifier",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.entryClassifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryClassifier` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.entryClassifier` is mapped to FHIR R4B element `EvidenceReport.section.entryClassifier`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:entryClassifier",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.entryClassifier` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryClassifier` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.entryClassifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:entryClassifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryClassifier` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -902,19 +567,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "entryReference",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.entryReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryReference` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.entryReference` is mapped to FHIR R4B element `EvidenceReport.section.entryReference`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:entryReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryReference` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryReference` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.entryReference` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:entryReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryReference` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
+              "comment" : "Element `EvidenceReport.section.entryReference` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryReference` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceReport.section.entryReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceReport.section.entryReference` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -923,19 +578,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "entryQuantity",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.entryQuantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryQuantity` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.entryQuantity` is mapped to FHIR R4B element `EvidenceReport.section.entryQuantity`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:entryQuantity",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.entryQuantity` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryQuantity` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.entryQuantity` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:entryQuantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.entryQuantity` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -944,19 +589,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "emptyReason",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.emptyReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.emptyReason` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.emptyReason` is mapped to FHIR R4B element `EvidenceReport.section.emptyReason`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:emptyReason",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.emptyReason` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.emptyReason` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.emptyReason` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:emptyReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.emptyReason` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         },
@@ -965,19 +600,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "section",
           "target" : [
             {
-              "code" : "#EvidenceReport.section.section",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.section` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.section` is mapped to FHIR R4B element `EvidenceReport.section.section`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:section:section",
               "equivalence" : "relatedto",
               "comment" : "Element `EvidenceReport.section.section` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.section` is part of an existing definition because parent element `EvidenceReport.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceReport.section.section` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:section",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceReport.section.section` is not mapped to FHIR STU3, since FHIR R5 `EvidenceReport` is not mapped."
             }
           ]
         }

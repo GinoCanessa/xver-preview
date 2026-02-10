@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.1262722-06:00",
+  "date" : "2026-02-09T22:05:43.7490767-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceAssociation` is representable via FHIR R4B Resource `Device`.\nElement `DeviceAssociation` is mapped to FHIR R4B element `Device`."
+              "comment" : "FHIR R5 Resource `DeviceAssociation` is representable via FHIR R4 Resource `Device`.\nElement `DeviceAssociation` is mapped to FHIR R4 element `Device`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.meta` is mapped to FHIR R4B element `Device.meta`."
+              "comment" : "Element `DeviceAssociation.meta` is mapped to FHIR R4 element `Device.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`."
+              "comment" : "Element `DeviceAssociation.implicitRules` is mapped to FHIR R4 element `Device.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.language` is mapped to FHIR R4B element `Device.language`."
+              "comment" : "Element `DeviceAssociation.language` is mapped to FHIR R4 element `Device.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.text` is mapped to FHIR R4B element `Device.text`."
+              "comment" : "Element `DeviceAssociation.text` is mapped to FHIR R4 element `Device.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.contained` is mapped to FHIR R4B element `Device.contained`."
+              "comment" : "Element `DeviceAssociation.contained` is mapped to FHIR R4 element `Device.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.identifier` is mapped to FHIR R4B element `Device.identifier`."
+              "comment" : "Element `DeviceAssociation.identifier` is mapped to FHIR R4 element `Device.identifier`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.device` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.device` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -171,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.category",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.category` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.category` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -182,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.status",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.status` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -195,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.statusReason` is mapped to FHIR R4B element `Device.statusReason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.statusReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.statusReason` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.statusReason` is mapped to FHIR R4 element `Device.statusReason`."
             }
           ]
         },
@@ -211,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceAssociation.subject` is mapped to FHIR R4B element `Device.patient`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.subject` is mapped to FHIR R4 element `Device.patient`."
             }
           ]
         },
@@ -220,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodyStructure",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.bodyStructure",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.bodyStructure` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.bodyStructure` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -231,9 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "period",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.period",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.period` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -242,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "operation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.operation` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.operation` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -253,9 +248,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:status",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -264,9 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "operator",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:operator",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.operator` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.operation.operator` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         },
@@ -275,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "period",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:period",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+              "comment" : "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is will have a context of Device based on following the parent source element upwards and mapping to `Device`."
             }
           ]
         }

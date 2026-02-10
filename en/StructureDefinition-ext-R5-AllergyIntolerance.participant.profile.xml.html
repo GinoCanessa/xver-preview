@@ -52,8 +52,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.280"}
-    h3,h4,h5,h6{--heading-prefix:"7.280"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.268"}
+    h3,h4,h5,h6{--heading-prefix:"7.268"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -341,7 +341,7 @@ XML Profile
          <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version Extension `R5.AllergyIntolerance.participant` for use in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-06T19:17:19.5427077+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-10T04:05:33.0136333+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
@@ -371,7 +371,7 @@ Across FHIR versions, the element set has been mapped as:
 *  R5: `AllergyIntolerance.participant` 0..* `BackboneElement`
 
 Following are the generation technical comments:
-Element `AllergyIntolerance.participant` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.&quot;/&gt;
+Element `AllergyIntolerance.participant` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4.0.1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping">mapping</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
@@ -382,7 +382,7 @@ Element `AllergyIntolerance.participant` is mapped to FHIR R4 structure `Allergy
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.abstract">abstract</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;element&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AllergyIntolerance&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.context">context</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Extension&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.baseDefinition">baseDefinition</a>
@@ -510,7 +510,7 @@ Element `AllergyIntolerance.participant` is mapped to FHIR R4 structure `Allergy
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Distinguishes the type of involvement of the actor in the activities related to the allergy or intolerance.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.
-Element `AllergyIntolerance.participant.function` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.&quot;/&gt;
+Element `AllergyIntolerance.participant.function` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -701,7 +701,8 @@ Element `AllergyIntolerance.participant.function` is mapped to FHIR R4 structure
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Indicates who or what participated in the activities related to the allergy or intolerance.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.
-Element `AllergyIntolerance.participant.actor` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AllergyIntolerance.participant.actor` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1160,7 +1161,7 @@ Element `AllergyIntolerance.participant.actor` is mapped to FHIR R4 structure `A
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Distinguishes the type of involvement of the actor in the activities related to the allergy or intolerance.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.
-Element `AllergyIntolerance.participant.function` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.&quot;/&gt;
+Element `AllergyIntolerance.participant.function` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1210,7 +1211,8 @@ Element `AllergyIntolerance.participant.function` is mapped to FHIR R4 structure
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Indicates who or what participated in the activities related to the allergy or intolerance.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.
-Element `AllergyIntolerance.participant.actor` is mapped to FHIR R4 structure `AllergyIntolerance`, but has no target element specified.&quot;/&gt;
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AllergyIntolerance.participant.actor` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1356,8 +1358,8 @@ Element `AllergyIntolerance.participant.actor` is mapped to FHIR R4 structure `A
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

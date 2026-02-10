@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Subscription.filterBy` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.filterBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.filterBy` is mapped to FHIR R4 structure `Subscription`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.filterBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.filterBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Subscription" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "resourceType" ] ;
        fhir:short [ fhir:v "Allowed Resource (reference to definition) for this Subscription filter" ] ;
        fhir:definition [ fhir:v "A resource listed in the `SubscriptionTopic` this `Subscription` references (`SubscriptionTopic.canFilterBy.resource`). This element can be used to differentiate filters for topics that include more than one resource type." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "filterParameter" ] ;
        fhir:short [ fhir:v "Filter label defined in SubscriptionTopic" ] ;
        fhir:definition [ fhir:v "The filter as defined in the `SubscriptionTopic.canFilterBy.filterParameter` element." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -736,7 +736,7 @@
        fhir:short [ fhir:v "eq | ne | gt | lt | ge | le | sa | eb | ap" ] ;
        fhir:definition [ fhir:v "Comparator applied to this filter parameter." ] ;
        fhir:comment [ fhir:v "Must be a comparator allowed by the SubscriptionTopic relevant to this Subscription filter." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -957,7 +957,7 @@
        fhir:short [ fhir:v "missing | exact | contains | not | text | in | not-in | below | above | type | identifier | of-type | code-text | text-advanced | iterate" ] ;
        fhir:definition [ fhir:v "Modifier applied to this filter parameter." ] ;
        fhir:comment [ fhir:v "Must be a modifier allowed by the SubscriptionTopic relevant to this Subscription filter." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1177,7 +1177,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Literal value or resource path" ] ;
        fhir:definition [ fhir:v "The literal value or resource path as is legal in search - for example, `Patient/123` or `le1950`." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1744,7 +1744,7 @@
        fhir:sliceName [ fhir:v "resourceType" ] ;
        fhir:short [ fhir:v "Allowed Resource (reference to definition) for this Subscription filter" ] ;
        fhir:definition [ fhir:v "A resource listed in the `SubscriptionTopic` this `Subscription` references (`SubscriptionTopic.canFilterBy.resource`). This element can be used to differentiate filters for topics that include more than one resource type." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.resourceType` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1791,7 +1791,7 @@
        fhir:sliceName [ fhir:v "filterParameter" ] ;
        fhir:short [ fhir:v "Filter label defined in SubscriptionTopic" ] ;
        fhir:definition [ fhir:v "The filter as defined in the `SubscriptionTopic.canFilterBy.filterParameter` element." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.filterParameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1839,7 +1839,7 @@
        fhir:short [ fhir:v "eq | ne | gt | lt | ge | le | sa | eb | ap" ] ;
        fhir:definition [ fhir:v "Comparator applied to this filter parameter." ] ;
        fhir:comment [ fhir:v "Must be a comparator allowed by the SubscriptionTopic relevant to this Subscription filter." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.comparator` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1896,7 +1896,7 @@
        fhir:short [ fhir:v "missing | exact | contains | not | text | in | not-in | below | above | type | identifier | of-type | code-text | text-advanced | iterate" ] ;
        fhir:definition [ fhir:v "Modifier applied to this filter parameter." ] ;
        fhir:comment [ fhir:v "Must be a modifier allowed by the SubscriptionTopic relevant to this Subscription filter." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.modifier` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1952,7 +1952,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Literal value or resource path" ] ;
        fhir:definition [ fhir:v "The literal value or resource path as is legal in search - for example, `Patient/123` or `le1950`." ] ;
-       fhir:requirements [ fhir:v "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is mapped to FHIR R4 structure `Subscription`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.\nElement `Subscription.filterBy.value` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

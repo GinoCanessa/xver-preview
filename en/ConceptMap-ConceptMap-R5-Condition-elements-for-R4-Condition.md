@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.8015127-06:00",
+  "date" : "2026-02-09T22:05:43.6812969-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Condition` is representable via FHIR R4B Resource `Condition`.\nElement `Condition` is mapped to FHIR R4B element `Condition`."
+              "comment" : "FHIR R5 Resource `Condition` is representable via FHIR R4 Resource `Condition`.\nElement `Condition` is mapped to FHIR R4 element `Condition`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.meta` is mapped to FHIR R4B element `Condition.meta`."
+              "comment" : "Element `Condition.meta` is mapped to FHIR R4 element `Condition.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.implicitRules` is mapped to FHIR R4B element `Condition.implicitRules`."
+              "comment" : "Element `Condition.implicitRules` is mapped to FHIR R4 element `Condition.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.language` is mapped to FHIR R4B element `Condition.language`."
+              "comment" : "Element `Condition.language` is mapped to FHIR R4 element `Condition.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.text` is mapped to FHIR R4B element `Condition.text`."
+              "comment" : "Element `Condition.text` is mapped to FHIR R4 element `Condition.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.contained` is mapped to FHIR R4B element `Condition.contained`."
+              "comment" : "Element `Condition.contained` is mapped to FHIR R4 element `Condition.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.identifier` is mapped to FHIR R4B element `Condition.identifier`."
+              "comment" : "Element `Condition.identifier` is mapped to FHIR R4 element `Condition.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.clinicalStatus",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` is mapped to FHIR R4B element `Condition.clinicalStatus`."
+              "comment" : "Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` is mapped to FHIR R4 element `Condition.clinicalStatus`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.verificationStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.verificationStatus` is mapped to FHIR R4B element `Condition.verificationStatus`."
+              "comment" : "Element `Condition.verificationStatus` is mapped to FHIR R4 element `Condition.verificationStatus`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.category` is mapped to FHIR R4B element `Condition.category`."
+              "comment" : "Element `Condition.category` is mapped to FHIR R4 element `Condition.category`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.severity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.severity` is mapped to FHIR R4B element `Condition.severity`."
+              "comment" : "Element `Condition.severity` is mapped to FHIR R4 element `Condition.severity`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.code` is mapped to FHIR R4B element `Condition.code`."
+              "comment" : "Element `Condition.code` is mapped to FHIR R4 element `Condition.code`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.bodySite` is mapped to FHIR R4B element `Condition.bodySite`."
+              "comment" : "Element `Condition.bodySite` is mapped to FHIR R4 element `Condition.bodySite`."
             }
           ]
         },
@@ -228,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.subject` is mapped to FHIR R4B element `Condition.subject`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Condition.subject` is mapped to FHIR DSTU2 element `Condition.patient`."
+              "comment" : "Element `Condition.subject` is mapped to FHIR R4 element `Condition.subject`."
             }
           ]
         },
@@ -244,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.encounter` is mapped to FHIR R4B element `Condition.encounter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.context",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Condition.encounter` is mapped to FHIR STU3 element `Condition.context`."
+              "comment" : "Element `Condition.encounter` is mapped to FHIR R4 element `Condition.encounter`."
             }
           ]
         },
@@ -260,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.onset[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.onset[x]` is mapped to FHIR R4B element `Condition.onset[x]`.\nNote that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`."
+              "comment" : "Note that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.onset[x]` is mapped to FHIR R4 element `Condition.onset[x]`.\nNote that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`."
             }
           ]
         },
@@ -271,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.abatement[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.abatement[x]` is mapped to FHIR R4B element `Condition.abatement[x]`.\nNote that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`."
+              "comment" : "Note that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.abatement[x]` is mapped to FHIR R4 element `Condition.abatement[x]`.\nNote that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`."
             }
           ]
         },
@@ -282,17 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.recordedDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.recordedDate` is mapped to FHIR R4B element `Condition.recordedDate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.assertedDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Condition.recordedDate` is mapped to FHIR STU3 element `Condition.assertedDate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.dateRecorded",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Condition.recordedDate` is mapped to FHIR DSTU2 element `Condition.dateRecorded`."
+              "comment" : "Element `Condition.recordedDate` is mapped to FHIR R4 element `Condition.recordedDate`."
             }
           ]
         },
@@ -301,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "participant",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.participant` is mapped to FHIR R4B structure `Condition`, but has no target element specified."
+              "comment" : "Element `Condition.participant` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`."
             }
           ]
         },
@@ -312,9 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant:function",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is mapped to FHIR R4B structure `Condition`, but has no target element specified."
+              "comment" : "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`."
             }
           ]
         },
@@ -323,9 +303,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant:actor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.actor` is mapped to FHIR R4B structure `Condition`, but has no target element specified."
+              "comment" : "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Condition.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Condition.participant.actor` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`."
             }
           ]
         },
@@ -336,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.stage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.stage` is mapped to FHIR R4B element `Condition.stage`."
+              "comment" : "Element `Condition.stage` is mapped to FHIR R4 element `Condition.stage`."
             }
           ]
         },
@@ -347,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.stage.summary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.stage.summary` is mapped to FHIR R4B element `Condition.stage.summary`."
+              "comment" : "Element `Condition.stage.summary` is mapped to FHIR R4 element `Condition.stage.summary`."
             }
           ]
         },
@@ -358,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.stage.assessment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.stage.assessment` is mapped to FHIR R4B element `Condition.stage.assessment`."
+              "comment" : "Element `Condition.stage.assessment` is mapped to FHIR R4 element `Condition.stage.assessment`."
             }
           ]
         },
@@ -369,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.stage.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.stage.type` is mapped to FHIR R4B element `Condition.stage.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Condition.stage.type` is mapped to FHIR STU3 structure `Condition`, but has no target element specified."
+              "comment" : "Element `Condition.stage.type` is mapped to FHIR R4 element `Condition.stage.type`."
             }
           ]
         },
@@ -385,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.evidence",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.evidence` is mapped to FHIR R4B element `Condition.evidence`."
+              "comment" : "Element `Condition.evidence` is mapped to FHIR R4 element `Condition.evidence`."
             }
           ]
         },
@@ -396,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Condition.note` is mapped to FHIR R4B element `Condition.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Condition#Condition.notes",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Condition.note` is mapped to FHIR DSTU2 element `Condition.notes`."
+              "comment" : "Element `Condition.note` is mapped to FHIR R4 element `Condition.note`."
             }
           ]
         }

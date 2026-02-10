@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type","Extension.extension","type","","",1,1,"","","","Extension {[]} {[]}
 ","Highlighted feature","The landmark or feature being highlighted.","","Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.
-Element `Specimen.feature.type` is mapped to FHIR R4 structure `Specimen`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Specimen.feature.type` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:description","Extension.extension","description","","",1,1,"","","","Extension {[]} {[]}
 ","Information about the feature","Description of the feature of the specimen.","","Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.
-Element `Specimen.feature.description` is mapped to FHIR R4 structure `Specimen`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `Specimen.feature.description` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:description.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

@@ -61,7 +61,7 @@
   "title" : "Cross-version Extension `R5.ExplanationOfBenefit.addItem.bodySite` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [{
     "name" : "FHIR Infrastructure",
@@ -207,7 +207,7 @@
       "short" : "Location",
       "definition" : "Physical service site on the patient (limb, tooth, etc.).",
       "comment" : "For example, providing a tooth code allows an insurer to identify a provider performing a filling on a tooth that was previously removed.",
-      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.site` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.site` is will have a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
       "min" : 1,
       "max" : "*",
       "base" : {
@@ -485,7 +485,7 @@
       "sliceName" : "concept",
       "short" : "Reference to a concept (by class)",
       "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -660,7 +660,7 @@
       "sliceName" : "reference",
       "short" : "Reference to a resource (by instance)",
       "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-      "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+      "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1039,7 +1039,7 @@
       "sliceName" : "subSite",
       "short" : "Sub-location",
       "definition" : "A region or surface of the bodySite, e.g. limb region or tooth surface(s).",
-      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.subSite` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.subSite` is will have a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -1456,7 +1456,7 @@
       "short" : "Location",
       "definition" : "Physical service site on the patient (limb, tooth, etc.).",
       "comment" : "For example, providing a tooth code allows an insurer to identify a provider performing a filling on a tooth that was previously removed.",
-      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.site` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.site` is will have a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
       "min" : 1,
       "max" : "*",
       "base" : {
@@ -1532,7 +1532,7 @@
       "sliceName" : "concept",
       "short" : "Reference to a concept (by class)",
       "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+      "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1579,7 +1579,7 @@
       "sliceName" : "reference",
       "short" : "Reference to a resource (by instance)",
       "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-      "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+      "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1647,7 +1647,7 @@
       "sliceName" : "subSite",
       "short" : "Sub-location",
       "definition" : "A region or surface of the bodySite, e.g. limb region or tooth surface(s).",
-      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.subSite` is mapped to FHIR R4 structure `ExplanationOfBenefit`, but has no target element specified.",
+      "requirements" : "Allows insurer to validate specific procedures. Element `ExplanationOfBenefit.addItem.bodySite.subSite` is will have a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`.",
       "min" : 0,
       "max" : "*",
       "base" : {

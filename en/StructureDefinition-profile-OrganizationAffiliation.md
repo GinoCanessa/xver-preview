@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Organizat
   "title" : "Cross-version Profile for R5.OrganizationAffiliation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7585912-06:00",
+  "date" : "2026-02-09T22:05:43.2537661-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Organizat
       {
         "id" : "OrganizationAffiliation",
         "path" : "OrganizationAffiliation"
+      },
+      {
+        "id" : "OrganizationAffiliation.extension",
+        "path" : "OrganizationAffiliation.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "OrganizationAffiliation.extension:contact",
+        "path" : "OrganizationAffiliation.extension",
+        "sliceName" : "contact",
+        "short" : "Cross-version extension for OrganizationAffiliation.contact from R5 for use in FHIR R4",
+        "comment" : "Element `OrganizationAffiliation.contact` is will have a context of OrganizationAffiliation based on following the parent source element upwards and mapping to `OrganizationAffiliation`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OrganizationAffiliation.contact|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

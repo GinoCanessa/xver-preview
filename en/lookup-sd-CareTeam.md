@@ -28,7 +28,7 @@ A computable version of the following element information is available in: [Conc
 | [`CareTeam.participant.role`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.participant.role](https://hl7.org/fhir/R4/CareTeam.html#resource) |
 | [`CareTeam.participant.member`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.participant.member](https://hl7.org/fhir/R4/CareTeam.html#resource) |
 | [`CareTeam.participant.onBehalfOf`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.participant.onBehalfOf](https://hl7.org/fhir/R4/CareTeam.html#resource) |
-| [`CareTeam.participant.coverage[x]`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage](StructureDefinition-ext-R5-CareTeam.par.coverage.md) |
+| [`CareTeam.participant.coverage[x]`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.participant](https://hl7.org/fhir/R4/CareTeam.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage](StructureDefinition-ext-R5-CareTeam.par.coverage.md) |
 | [`CareTeam.reason`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.reasonCode](https://hl7.org/fhir/R4/CareTeam.html#resource)[CareTeam.reasonReference](https://hl7.org/fhir/R4/CareTeam.html#resource) |
 | [`CareTeam.managingOrganization`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.managingOrganization](https://hl7.org/fhir/R4/CareTeam.html#resource) |
 | [`CareTeam.telecom`](https://hl7.org/fhir/R5/CareTeam.html#resource) | [CareTeam.telecom](https://hl7.org/fhir/R4/CareTeam.html#resource) |

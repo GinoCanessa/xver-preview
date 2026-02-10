@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.ConceptMap.group.element.target.property` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.group.element.target.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.group.element.target.property` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.group.element.target.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.group.element.target.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.group.element.target.property` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "ConceptMap.group.element.target" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Reference to ConceptMap.property.code" ] ;
        fhir:definition [ fhir:v "A reference to a mapping property defined in ConceptMap.property." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the property for this concept" ] ;
        fhir:definition [ fhir:v "The value of this property. If the type chosen for this element is 'code', then the property SHALL be defined in a ConceptMap.property element." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1121,7 +1121,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Reference to ConceptMap.property.code" ] ;
        fhir:definition [ fhir:v "A reference to a mapping property defined in ConceptMap.property." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1168,7 +1168,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the property for this concept" ] ;
        fhir:definition [ fhir:v "The value of this property. If the type chosen for this element is 'code', then the property SHALL be defined in a ConceptMap.property element." ] ;
-       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

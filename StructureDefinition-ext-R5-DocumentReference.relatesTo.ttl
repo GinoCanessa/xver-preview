@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.DocumentReference.relatesTo` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.relatesTo` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4B: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4: `DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is mapped to FHIR R4 structure `Media`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.relatesTo` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4B: `DocumentReference.relatesTo` 0..* `BackboneElement`\n*  R4: `DocumentReference.relatesTo` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,6 +165,9 @@
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
      fhir:expression [ fhir:v "DocumentReference.relatesTo" ]
+  ] [
+     fhir:type [ fhir:v "element" ] ;
+     fhir:expression [ fhir:v "Media" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -315,7 +318,7 @@
        fhir:short [ fhir:v "The relationship type with another document" ] ;
        fhir:definition [ fhir:v "The type of relationship that this document has with anther document." ] ;
        fhir:comment [ fhir:v "If this document appends another document, then the document cannot be fully understood without also accessing the referenced document." ] ;
-       fhir:requirements [ fhir:v "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -535,7 +538,7 @@
        fhir:sliceName [ fhir:v "target" ] ;
        fhir:short [ fhir:v "Target of the relationship" ] ;
        fhir:definition [ fhir:v "The target document of this relationship." ] ;
-       fhir:requirements [ fhir:v "Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1111,7 +1114,7 @@
        fhir:short [ fhir:v "The relationship type with another document" ] ;
        fhir:definition [ fhir:v "The type of relationship that this document has with anther document." ] ;
        fhir:comment [ fhir:v "If this document appends another document, then the document cannot be fully understood without also accessing the referenced document." ] ;
-       fhir:requirements [ fhir:v "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1167,7 +1170,7 @@
        fhir:sliceName [ fhir:v "target" ] ;
        fhir:short [ fhir:v "Target of the relationship" ] ;
        fhir:definition [ fhir:v "The target document of this relationship." ] ;
-       fhir:requirements [ fhir:v "Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

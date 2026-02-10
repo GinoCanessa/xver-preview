@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.9177249-06:00",
+  "date" : "2026-02-09T22:05:44.1264538-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Person` is representable via FHIR R4B Resource `Person`.\nElement `Person` is mapped to FHIR R4B element `Person`."
+              "comment" : "FHIR R5 Resource `Person` is representable via FHIR R4 Resource `Person`.\nElement `Person` is mapped to FHIR R4 element `Person`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.meta` is mapped to FHIR R4B element `Person.meta`."
+              "comment" : "Element `Person.meta` is mapped to FHIR R4 element `Person.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.implicitRules` is mapped to FHIR R4B element `Person.implicitRules`."
+              "comment" : "Element `Person.implicitRules` is mapped to FHIR R4 element `Person.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.language` is mapped to FHIR R4B element `Person.language`."
+              "comment" : "Element `Person.language` is mapped to FHIR R4 element `Person.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.text` is mapped to FHIR R4B element `Person.text`."
+              "comment" : "Element `Person.text` is mapped to FHIR R4 element `Person.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.contained` is mapped to FHIR R4B element `Person.contained`."
+              "comment" : "Element `Person.contained` is mapped to FHIR R4 element `Person.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.identifier` is mapped to FHIR R4B element `Person.identifier`."
+              "comment" : "Element `Person.identifier` is mapped to FHIR R4 element `Person.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.active` is mapped to FHIR R4B element `Person.active`."
+              "comment" : "Element `Person.active` is mapped to FHIR R4 element `Person.active`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.name` is mapped to FHIR R4B element `Person.name`."
+              "comment" : "Element `Person.name` is mapped to FHIR R4 element `Person.name`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.telecom",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.telecom` is mapped to FHIR R4B element `Person.telecom`."
+              "comment" : "Element `Person.telecom` is mapped to FHIR R4 element `Person.telecom`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.gender",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.gender` is mapped to FHIR R4B element `Person.gender`."
+              "comment" : "Element `Person.gender` is mapped to FHIR R4 element `Person.gender`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.birthDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.birthDate` is mapped to FHIR R4B element `Person.birthDate`."
+              "comment" : "Element `Person.birthDate` is mapped to FHIR R4 element `Person.birthDate`."
             }
           ]
         },
@@ -215,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "deceased[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceased",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.deceased[x]` is mapped to FHIR R4B structure `Person`, but has no target element specified."
+              "comment" : "Element `Person.deceased[x]` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.address",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.address` is mapped to FHIR R4B element `Person.address`."
+              "comment" : "Element `Person.address` is mapped to FHIR R4 element `Person.address`."
             }
           ]
         },
@@ -237,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "maritalStatus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.maritalStatus` is mapped to FHIR R4B structure `Person`, but has no target element specified."
+              "comment" : "Element `Person.maritalStatus` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.photo",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.photo` is mapped to FHIR R4B element `Person.photo`."
+              "comment" : "Element `Person.photo` is mapped to FHIR R4 element `Person.photo`."
             }
           ]
         },
@@ -259,9 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "communication",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.communication` is mapped to FHIR R4B structure `Person`, but has no target element specified."
+              "comment" : "Element `Person.communication` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."
             }
           ]
         },
@@ -270,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "language",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication:language",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is mapped to FHIR R4B structure `Person`, but has no target element specified."
+              "comment" : "Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."
             }
           ]
         },
@@ -281,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preferred",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication:preferred",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is mapped to FHIR R4B structure `Person`, but has no target element specified."
+              "comment" : "Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is will have a context of Person based on following the parent source element upwards and mapping to `Person`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.managingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.managingOrganization` is mapped to FHIR R4B element `Person.managingOrganization`."
+              "comment" : "Element `Person.managingOrganization` is mapped to FHIR R4 element `Person.managingOrganization`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.link` is mapped to FHIR R4B element `Person.link`."
+              "comment" : "Element `Person.link` is mapped to FHIR R4 element `Person.link`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.link.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.link.target` is mapped to FHIR R4B element `Person.link.target`."
+              "comment" : "Element `Person.link.target` is mapped to FHIR R4 element `Person.link.target`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Person#Person.link.assurance",
               "equivalence" : "relatedto",
-              "comment" : "Element `Person.link.assurance` is mapped to FHIR R4B element `Person.link.assurance`."
+              "comment" : "Element `Person.link.assurance` is mapped to FHIR R4 element `Person.link.assurance`."
             }
           ]
         }

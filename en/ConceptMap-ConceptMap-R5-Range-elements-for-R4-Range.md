@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0748846-06:00",
+  "date" : "2026-02-09T22:05:44.1675592-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Range#Range",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Range` is representable via FHIR R4B extensions.\nElement `Range` is mapped to FHIR R4B element `Range`."
+              "comment" : "FHIR R5 ComplexType `Range` is representable via FHIR R4 extensions.\nElement `Range` is mapped to FHIR R4 element `Range`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Range#Range.low",
               "equivalence" : "relatedto",
-              "comment" : "Element `Range.low` is mapped to FHIR R4B element `Range.low`."
+              "comment" : "Element `Range.low` is mapped to FHIR R4 element `Range.low`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Range#Range.high",
               "equivalence" : "relatedto",
-              "comment" : "Element `Range.high` is mapped to FHIR R4B element `Range.high`."
+              "comment" : "Element `Range.high` is mapped to FHIR R4 element `Range.high`."
             }
           ]
         }

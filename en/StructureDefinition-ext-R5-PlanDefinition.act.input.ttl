@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.PlanDefinition.action.input` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -525,7 +525,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that is to be provided as input to the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -737,7 +737,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that provides data to this input." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action" ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1305,7 +1305,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1352,7 +1352,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that is to be provided as input to the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1400,7 +1400,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that provides data to this input." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action" ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

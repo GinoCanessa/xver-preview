@@ -7,7 +7,7 @@ This cross-version profile allows R5 Citation content to be represented via FHIR
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ArtifactAssessment` for use in FHIR R4](StructureDefinition-ext-R5-ArtifactAssessment.md), [Cross-version Extension `R5.Citation` for use in FHIR R4](StructureDefinition-ext-R5-Citation.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.Evidence.citeAs[x]` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.citeAs.md)... Show 3 more, [Cross-version Extension `R5.EvidenceReport` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceReport.md), [Cross-version Extension `R5.ResearchStudy.result` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.result.md) and [Cross-version Extension `R5.SubstanceDefinition.informationSource` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.informationSource.md)
+* Refer to this Profile: [Cross-version Extension `R5.ArtifactAssessment` for use in FHIR R4](StructureDefinition-ext-R5-ArtifactAssessment.md), [Cross-version Extension `R5.Citation` for use in FHIR R4](StructureDefinition-ext-R5-Citation.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.Evidence.citeAs[x]` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.citeAs.md) and [Cross-version Extension `R5.EvidenceReport` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceReport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Citation)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Citation.
   "title" : "Cross-version Profile for R5.Citation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6372147-06:00",
+  "date" : "2026-02-09T22:05:43.0133986-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

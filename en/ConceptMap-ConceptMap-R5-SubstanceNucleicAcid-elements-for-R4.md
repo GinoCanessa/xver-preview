@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.4905798-06:00",
+  "date" : "2026-02-09T22:05:44.262563-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SubstanceNucleicAcid` is representable via FHIR R4B Resource `Basic`.\nElement `SubstanceNucleicAcid` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `SubstanceNucleicAcid.meta` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.meta` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `SubstanceNucleicAcid.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `SubstanceNucleicAcid.language` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.language` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `SubstanceNucleicAcid.text` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.text` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `SubstanceNucleicAcid.contained` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.contained` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:sequenceType",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.sequenceType` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.sequenceType` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:numberOfSubunits",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.numberOfSubunits` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.numberOfSubunits` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:areaOfHybridisation",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.areaOfHybridisation` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.areaOfHybridisation` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:oligoNucleotideType",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.oligoNucleotideType` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
+              "comment" : "Element `SubstanceNucleicAcid.oligoNucleotideType` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
             }
           ]
         },
@@ -192,11 +192,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit",
           "display" : "subunit",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit",
               "equivalence" : "relatedto",
@@ -209,11 +204,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subunit",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:subunit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.subunit` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.subunit` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:subunit",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.subunit` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -224,11 +214,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.sequence",
           "display" : "sequence",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.sequence` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.sequence` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:sequence",
               "equivalence" : "relatedto",
@@ -241,11 +226,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "length",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:length",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.length` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.length` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:length",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.length` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -256,11 +236,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.sequenceAttachment",
           "display" : "sequenceAttachment",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:sequenceAttachment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.sequenceAttachment` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.sequenceAttachment` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:sequenceAttachment",
               "equivalence" : "relatedto",
@@ -273,11 +248,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "fivePrime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:fivePrime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.fivePrime` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.fivePrime` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:fivePrime",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.fivePrime` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -288,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.threePrime",
           "display" : "threePrime",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:threePrime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.threePrime` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.threePrime` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:threePrime",
               "equivalence" : "relatedto",
@@ -305,11 +270,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkage",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:linkage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.linkage` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.linkage` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.linkage` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -320,11 +280,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.linkage.connectivity",
           "display" : "connectivity",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:linkage:connectivity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.linkage.connectivity` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.linkage` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.linkage.connectivity` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage:connectivity",
               "equivalence" : "relatedto",
@@ -337,11 +292,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:linkage:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.linkage.identifier` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.linkage` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.linkage.identifier` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage:identifier",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.linkage.identifier` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -352,11 +302,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.linkage.name",
           "display" : "name",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:linkage:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.linkage.name` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.linkage` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.linkage.name` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage:name",
               "equivalence" : "relatedto",
@@ -369,11 +314,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "residueSite",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:linkage:residueSite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.linkage.residueSite` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.linkage` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.linkage.residueSite` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage:residueSite",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.linkage.residueSite` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -384,11 +324,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.sugar",
           "display" : "sugar",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:sugar",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.sugar` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.sugar` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar",
               "equivalence" : "relatedto",
@@ -401,11 +336,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:sugar:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.sugar.identifier` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.sugar` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.sugar.identifier` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar:identifier",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.sugar.identifier` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -417,11 +347,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:sugar:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.sugar.name` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.sugar` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.sugar.name` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar:name",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceNucleicAcid.subunit.sugar.name` is not mapped to FHIR R4, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
@@ -432,11 +357,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "SubstanceNucleicAcid.subunit.sugar.residueSite",
           "display" : "residueSite",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:subunit:sugar:residueSite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceNucleicAcid.subunit.sugar.residueSite` is part of an existing definition because parent element `SubstanceNucleicAcid.subunit.sugar` requires a cross-version extension.\nElement `SubstanceNucleicAcid.subunit.sugar.residueSite` is not mapped to FHIR R4B, since FHIR R5 `SubstanceNucleicAcid` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar:residueSite",
               "equivalence" : "relatedto",

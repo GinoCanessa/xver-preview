@@ -102,7 +102,7 @@
   <title value="Cross-version Extension `R5.Consent.provision` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -2887,7 +2887,7 @@
       <short value="A computable expression of the consent"/>
       <definition value="A computable (FHIRPath or other) definition of what is controlled by this consent."/>
       <comment value="Constraining the expression type for a specific implementation via profile is recommended"/>
-      <requirements value="Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Consent.provision.expression` is mapped to FHIR R4 structure `Consent`, but has no target element specified."/>
+      <requirements value="Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4253,7 +4253,7 @@
       <short value="A computable expression of the consent"/>
       <definition value="A computable (FHIRPath or other) definition of what is controlled by this consent."/>
       <comment value="Constraining the expression type for a specific implementation via profile is recommended"/>
-      <requirements value="Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Consent.provision.expression` is mapped to FHIR R4 structure `Consent`, but has no target element specified."/>
+      <requirements value="Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

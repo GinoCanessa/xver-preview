@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.693422-06:00",
+  "date" : "2026-02-09T22:05:43.8556915-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ExplanationOfBenefit` is representable via FHIR R4B Resource `ExplanationOfBenefit`.\nElement `ExplanationOfBenefit` is mapped to FHIR R4B element `ExplanationOfBenefit`."
+              "comment" : "FHIR R5 Resource `ExplanationOfBenefit` is representable via FHIR R4 Resource `ExplanationOfBenefit`.\nElement `ExplanationOfBenefit` is mapped to FHIR R4 element `ExplanationOfBenefit`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.meta` is mapped to FHIR R4B element `ExplanationOfBenefit.meta`."
+              "comment" : "Element `ExplanationOfBenefit.meta` is mapped to FHIR R4 element `ExplanationOfBenefit.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.implicitRules` is mapped to FHIR R4B element `ExplanationOfBenefit.implicitRules`."
+              "comment" : "Element `ExplanationOfBenefit.implicitRules` is mapped to FHIR R4 element `ExplanationOfBenefit.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.language` is mapped to FHIR R4B element `ExplanationOfBenefit.language`."
+              "comment" : "Element `ExplanationOfBenefit.language` is mapped to FHIR R4 element `ExplanationOfBenefit.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.text` is mapped to FHIR R4B element `ExplanationOfBenefit.text`."
+              "comment" : "Element `ExplanationOfBenefit.text` is mapped to FHIR R4 element `ExplanationOfBenefit.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.contained` is mapped to FHIR R4B element `ExplanationOfBenefit.contained`."
+              "comment" : "Element `ExplanationOfBenefit.contained` is mapped to FHIR R4 element `ExplanationOfBenefit.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.identifier` is mapped to FHIR R4B element `ExplanationOfBenefit.identifier`."
+              "comment" : "Element `ExplanationOfBenefit.identifier` is mapped to FHIR R4 element `ExplanationOfBenefit.identifier`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.traceNumber` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -173,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.status` is mapped to FHIR R4B element `ExplanationOfBenefit.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.status` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.status` is mapped to FHIR R4 element `ExplanationOfBenefit.status`."
             }
           ]
         },
@@ -189,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.type` is mapped to FHIR R4B element `ExplanationOfBenefit.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.type` is mapped to FHIR R4 element `ExplanationOfBenefit.type`."
             }
           ]
         },
@@ -205,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.subType",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.subType` is mapped to FHIR R4B element `ExplanationOfBenefit.subType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.subType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.subType` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.subType` is mapped to FHIR R4 element `ExplanationOfBenefit.subType`."
             }
           ]
         },
@@ -221,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.use` is mapped to FHIR R4B element `ExplanationOfBenefit.use`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.use",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.use` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.use` is mapped to FHIR R4 element `ExplanationOfBenefit.use`."
             }
           ]
         },
@@ -237,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.patient` is mapped to FHIR R4B element `ExplanationOfBenefit.patient`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.patient",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.patient` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.patient` is mapped to FHIR R4 element `ExplanationOfBenefit.patient`."
             }
           ]
         },
@@ -253,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.billablePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.billablePeriod` is mapped to FHIR R4B element `ExplanationOfBenefit.billablePeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.billablePeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.billablePeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.billablePeriod` is mapped to FHIR R4 element `ExplanationOfBenefit.billablePeriod`."
             }
           ]
         },
@@ -269,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.created` is mapped to FHIR R4B element `ExplanationOfBenefit.created`."
+              "comment" : "Element `ExplanationOfBenefit.created` is mapped to FHIR R4 element `ExplanationOfBenefit.created`."
             }
           ]
         },
@@ -280,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.enterer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.enterer` is mapped to FHIR R4B element `ExplanationOfBenefit.enterer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.enterer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.enterer` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.enterer` is mapped to FHIR R4 element `ExplanationOfBenefit.enterer`."
             }
           ]
         },
@@ -296,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.insurer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurer` is mapped to FHIR R4B element `ExplanationOfBenefit.insurer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurer` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.insurer` is mapped to FHIR R4 element `ExplanationOfBenefit.insurer`."
             }
           ]
         },
@@ -312,17 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.provider` is mapped to FHIR R4B element `ExplanationOfBenefit.provider`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.organization",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.provider` is mapped to FHIR STU3 element `ExplanationOfBenefit.provider`.\nElement `ExplanationOfBenefit.provider` is mapped to FHIR STU3 element `ExplanationOfBenefit.organization`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.requestProvider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.provider` is mapped to FHIR DSTU2 element `ExplanationOfBenefit.requestProvider`.\nElement `ExplanationOfBenefit.provider` is mapped to FHIR DSTU2 element `ExplanationOfBenefit.organization`."
+              "comment" : "Element `ExplanationOfBenefit.provider` is mapped to FHIR R4 element `ExplanationOfBenefit.provider`."
             }
           ]
         },
@@ -333,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.priority` is mapped to FHIR R4B element `ExplanationOfBenefit.priority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.priority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.priority` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.priority` is mapped to FHIR R4 element `ExplanationOfBenefit.priority`."
             }
           ]
         },
@@ -349,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.fundsReserveRequested",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.fundsReserveRequested` is mapped to FHIR R4B element `ExplanationOfBenefit.fundsReserveRequested`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.fundsReserveRequested",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.fundsReserveRequested` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.fundsReserveRequested` is mapped to FHIR R4 element `ExplanationOfBenefit.fundsReserveRequested`."
             }
           ]
         },
@@ -365,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.fundsReserve",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.fundsReserve` is mapped to FHIR R4B element `ExplanationOfBenefit.fundsReserve`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.fundsReserve",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.fundsReserve` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.fundsReserve` is mapped to FHIR R4 element `ExplanationOfBenefit.fundsReserve`."
             }
           ]
         },
@@ -381,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.related",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related` is mapped to FHIR R4B element `ExplanationOfBenefit.related`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.related",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.related` is mapped to FHIR R4 element `ExplanationOfBenefit.related`."
             }
           ]
         },
@@ -397,12 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.related.claim",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related.claim` is mapped to FHIR R4B element `ExplanationOfBenefit.related.claim`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.related:claim",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related.claim` is part of an existing definition because parent element `ExplanationOfBenefit.related` requires a cross-version extension.\nElement `ExplanationOfBenefit.related.claim` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.related.claim` is mapped to FHIR R4 element `ExplanationOfBenefit.related.claim`."
             }
           ]
         },
@@ -413,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.related.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related.relationship` is mapped to FHIR R4B element `ExplanationOfBenefit.related.relationship`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.related:relationship",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related.relationship` is part of an existing definition because parent element `ExplanationOfBenefit.related` requires a cross-version extension.\nElement `ExplanationOfBenefit.related.relationship` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.related.relationship` is mapped to FHIR R4 element `ExplanationOfBenefit.related.relationship`."
             }
           ]
         },
@@ -429,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.related.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related.reference` is mapped to FHIR R4B element `ExplanationOfBenefit.related.reference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.related:reference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.related.reference` is part of an existing definition because parent element `ExplanationOfBenefit.related` requires a cross-version extension.\nElement `ExplanationOfBenefit.related.reference` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.related.reference` is mapped to FHIR R4 element `ExplanationOfBenefit.related.reference`."
             }
           ]
         },
@@ -445,12 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.prescription",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.prescription` is mapped to FHIR R4B element `ExplanationOfBenefit.prescription`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.prescription",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.prescription` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.prescription` is mapped to FHIR R4 element `ExplanationOfBenefit.prescription`."
             }
           ]
         },
@@ -461,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.originalPrescription",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.originalPrescription` is mapped to FHIR R4B element `ExplanationOfBenefit.originalPrescription`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.originalPrescription",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.originalPrescription` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.originalPrescription` is mapped to FHIR R4 element `ExplanationOfBenefit.originalPrescription`."
             }
           ]
         },
@@ -475,9 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "event",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.event",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.event` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.event` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -486,9 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.event:type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.event.type` is part of an existing definition because parent element `ExplanationOfBenefit.event` requires a cross-version extension.\nElement `ExplanationOfBenefit.event.type` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.event.type` is part of an existing definition because parent element `ExplanationOfBenefit.event` requires a cross-version extension.\nElement `ExplanationOfBenefit.event.type` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -497,9 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "when[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.event:when",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.event.when[x]` is part of an existing definition because parent element `ExplanationOfBenefit.event` requires a cross-version extension.\nElement `ExplanationOfBenefit.event.when[x]` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.event.when[x]` is part of an existing definition because parent element `ExplanationOfBenefit.event` requires a cross-version extension.\nElement `ExplanationOfBenefit.event.when[x]` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -510,12 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payee",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payee` is mapped to FHIR R4B element `ExplanationOfBenefit.payee`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payee",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payee` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payee` is mapped to FHIR R4 element `ExplanationOfBenefit.payee`."
             }
           ]
         },
@@ -526,12 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payee.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payee.type` is mapped to FHIR R4B element `ExplanationOfBenefit.payee.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payee:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payee.type` is part of an existing definition because parent element `ExplanationOfBenefit.payee` requires a cross-version extension.\nElement `ExplanationOfBenefit.payee.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payee.type` is mapped to FHIR R4 element `ExplanationOfBenefit.payee.type`."
             }
           ]
         },
@@ -542,12 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payee.party",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payee.party` is mapped to FHIR R4B element `ExplanationOfBenefit.payee.party`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payee:party",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payee.party` is part of an existing definition because parent element `ExplanationOfBenefit.payee` requires a cross-version extension.\nElement `ExplanationOfBenefit.payee.party` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payee.party` is mapped to FHIR R4 element `ExplanationOfBenefit.payee.party`."
             }
           ]
         },
@@ -558,12 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.referral",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.referral` is mapped to FHIR R4B element `ExplanationOfBenefit.referral`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.referral",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.referral` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.referral` is mapped to FHIR R4 element `ExplanationOfBenefit.referral`."
             }
           ]
         },
@@ -572,9 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.encounter",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.encounter` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.encounter` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -585,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.facility",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.facility` is mapped to FHIR R4B element `ExplanationOfBenefit.facility`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.facility",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.facility` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.facility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.facility` is mapped to FHIR R4 element `ExplanationOfBenefit.facility`."
             }
           ]
         },
@@ -601,12 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.claim",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.claim` is mapped to FHIR R4B element `ExplanationOfBenefit.claim`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.claim",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.claim` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.claim` is mapped to FHIR R4 element `ExplanationOfBenefit.claim`."
             }
           ]
         },
@@ -617,12 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.claimResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.claimResponse` is mapped to FHIR R4B element `ExplanationOfBenefit.claimResponse`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.claimResponse",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.claimResponse` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.claimResponse` is mapped to FHIR R4 element `ExplanationOfBenefit.claimResponse`."
             }
           ]
         },
@@ -633,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.outcome` is mapped to FHIR R4B element `ExplanationOfBenefit.outcome`."
+              "comment" : "Element `ExplanationOfBenefit.outcome` is mapped to FHIR R4 element `ExplanationOfBenefit.outcome`."
             }
           ]
         },
@@ -642,9 +512,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.decision` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -655,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.disposition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.disposition` is mapped to FHIR R4B element `ExplanationOfBenefit.disposition`."
+              "comment" : "Element `ExplanationOfBenefit.disposition` is mapped to FHIR R4 element `ExplanationOfBenefit.disposition`."
             }
           ]
         },
@@ -666,12 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.preAuthRef",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.preAuthRef` is mapped to FHIR R4B element `ExplanationOfBenefit.preAuthRef`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.preAuthRef` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.preAuthRef` is mapped to FHIR R4 element `ExplanationOfBenefit.preAuthRef`."
             }
           ]
         },
@@ -682,12 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.preAuthRefPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.preAuthRefPeriod` is mapped to FHIR R4B element `ExplanationOfBenefit.preAuthRefPeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.preAuthRefPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.preAuthRefPeriod` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.preAuthRefPeriod` is mapped to FHIR R4 element `ExplanationOfBenefit.preAuthRefPeriod`."
             }
           ]
         },
@@ -696,9 +556,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "diagnosisRelatedGroup",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosisRelatedGroup",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosisRelatedGroup` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.diagnosisRelatedGroup` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -709,12 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.careTeam",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam` is mapped to FHIR R4B element `ExplanationOfBenefit.careTeam`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.careTeam` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam`."
             }
           ]
         },
@@ -725,12 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.careTeam.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.careTeam.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.careTeam` requires a cross-version extension.\nElement `ExplanationOfBenefit.careTeam.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.careTeam.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.sequence`."
             }
           ]
         },
@@ -741,12 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.careTeam.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.provider` is mapped to FHIR R4B element `ExplanationOfBenefit.careTeam.provider`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam:provider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.provider` is part of an existing definition because parent element `ExplanationOfBenefit.careTeam` requires a cross-version extension.\nElement `ExplanationOfBenefit.careTeam.provider` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.careTeam.provider` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.provider`."
             }
           ]
         },
@@ -757,12 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.careTeam.responsible",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.responsible` is mapped to FHIR R4B element `ExplanationOfBenefit.careTeam.responsible`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam:responsible",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.responsible` is part of an existing definition because parent element `ExplanationOfBenefit.careTeam` requires a cross-version extension.\nElement `ExplanationOfBenefit.careTeam.responsible` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.careTeam.responsible` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.responsible`."
             }
           ]
         },
@@ -773,12 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.careTeam.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.role` is mapped to FHIR R4B element `ExplanationOfBenefit.careTeam.role`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam:role",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.role` is part of an existing definition because parent element `ExplanationOfBenefit.careTeam` requires a cross-version extension.\nElement `ExplanationOfBenefit.careTeam.role` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.careTeam.role` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.role`."
             }
           ]
         },
@@ -789,12 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.careTeam.qualification",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.specialty` is mapped to FHIR R4B element `ExplanationOfBenefit.careTeam.qualification`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam:specialty",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.careTeam.specialty` is part of an existing definition because parent element `ExplanationOfBenefit.careTeam` requires a cross-version extension.\nElement `ExplanationOfBenefit.careTeam.specialty` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.careTeam.specialty` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.qualification`."
             }
           ]
         },
@@ -805,17 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo` is mapped to FHIR STU3 element `ExplanationOfBenefit.information`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo`."
             }
           ]
         },
@@ -826,17 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information.sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.sequence` is mapped to FHIR STU3 element `ExplanationOfBenefit.information.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.supportingInfo` requires a cross-version extension.\nElement `ExplanationOfBenefit.supportingInfo.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.sequence`."
             }
           ]
         },
@@ -847,17 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.category` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information.category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.category` is mapped to FHIR STU3 element `ExplanationOfBenefit.information.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.category` is part of an existing definition because parent element `ExplanationOfBenefit.supportingInfo` requires a cross-version extension.\nElement `ExplanationOfBenefit.supportingInfo.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.category` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.category`."
             }
           ]
         },
@@ -868,17 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.code` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.code` is mapped to FHIR STU3 element `ExplanationOfBenefit.information.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.code` is part of an existing definition because parent element `ExplanationOfBenefit.supportingInfo` requires a cross-version extension.\nElement `ExplanationOfBenefit.supportingInfo.code` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.code` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.code`."
             }
           ]
         },
@@ -889,17 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo.timing[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.timing[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo.timing[x]`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information.timing[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.information.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.information`.\nElement `ExplanationOfBenefit.supportingInfo.timing[x]` is mapped to FHIR STU3 element `ExplanationOfBenefit.information.timing[x]`.\nNote that the target element context `ExplanationOfBenefit.information.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.information`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo:timing",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.timing[x]` is part of an existing definition because parent element `ExplanationOfBenefit.supportingInfo` requires a cross-version extension.\nElement `ExplanationOfBenefit.supportingInfo.timing[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.timing[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.timing[x]`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
             }
           ]
         },
@@ -910,17 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.value[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo.value[x]`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information.value[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.information.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.information`.\nElement `ExplanationOfBenefit.supportingInfo.value[x]` is mapped to FHIR STU3 element `ExplanationOfBenefit.information.value[x]`.\nNote that the target element context `ExplanationOfBenefit.information.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.information`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.value[x]` is part of an existing definition because parent element `ExplanationOfBenefit.supportingInfo` requires a cross-version extension.\nElement `ExplanationOfBenefit.supportingInfo.value[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.value[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.value[x]`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
             }
           ]
         },
@@ -931,17 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.supportingInfo.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.supportingInfo.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.information.reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.reason` is mapped to FHIR STU3 element `ExplanationOfBenefit.information.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.supportingInfo.reason` is part of an existing definition because parent element `ExplanationOfBenefit.supportingInfo` requires a cross-version extension.\nElement `ExplanationOfBenefit.supportingInfo.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.reason`."
             }
           ]
         },
@@ -952,12 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.diagnosis",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis` is mapped to FHIR R4B element `ExplanationOfBenefit.diagnosis`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.diagnosis` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis`."
             }
           ]
         },
@@ -968,12 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.diagnosis.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.diagnosis.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.diagnosis` requires a cross-version extension.\nElement `ExplanationOfBenefit.diagnosis.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.diagnosis.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.sequence`."
             }
           ]
         },
@@ -984,12 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.diagnosis.diagnosis[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.diagnosis`.\nElement `ExplanationOfBenefit.diagnosis.diagnosis[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.diagnosis.diagnosis[x]`.\nNote that the target element context `ExplanationOfBenefit.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.diagnosis`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis:diagnosis",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.diagnosis[x]` is part of an existing definition because parent element `ExplanationOfBenefit.diagnosis` requires a cross-version extension.\nElement `ExplanationOfBenefit.diagnosis.diagnosis[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.diagnosis`.\nElement `ExplanationOfBenefit.diagnosis.diagnosis[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.diagnosis[x]`.\nNote that the target element context `ExplanationOfBenefit.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.diagnosis`."
             }
           ]
         },
@@ -1000,12 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.diagnosis.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.type` is mapped to FHIR R4B element `ExplanationOfBenefit.diagnosis.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.type` is part of an existing definition because parent element `ExplanationOfBenefit.diagnosis` requires a cross-version extension.\nElement `ExplanationOfBenefit.diagnosis.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.diagnosis.type` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.type`."
             }
           ]
         },
@@ -1016,17 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.diagnosis.onAdmission",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.onAdmission` is mapped to FHIR R4B element `ExplanationOfBenefit.diagnosis.onAdmission`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis.onAdmission",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.onAdmission` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis:onAdmission",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.diagnosis.onAdmission` is part of an existing definition because parent element `ExplanationOfBenefit.diagnosis` requires a cross-version extension.\nElement `ExplanationOfBenefit.diagnosis.onAdmission` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.diagnosis.onAdmission` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.onAdmission`."
             }
           ]
         },
@@ -1037,12 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.procedure",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure` is mapped to FHIR R4B element `ExplanationOfBenefit.procedure`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.procedure` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure`."
             }
           ]
         },
@@ -1053,12 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.procedure.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.procedure.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.procedure` requires a cross-version extension.\nElement `ExplanationOfBenefit.procedure.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.procedure.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.sequence`."
             }
           ]
         },
@@ -1069,17 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.procedure.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.type` is mapped to FHIR R4B element `ExplanationOfBenefit.procedure.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.type` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.type` is part of an existing definition because parent element `ExplanationOfBenefit.procedure` requires a cross-version extension.\nElement `ExplanationOfBenefit.procedure.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.procedure.type` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.type`."
             }
           ]
         },
@@ -1090,12 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.procedure.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.date` is mapped to FHIR R4B element `ExplanationOfBenefit.procedure.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.date` is part of an existing definition because parent element `ExplanationOfBenefit.procedure` requires a cross-version extension.\nElement `ExplanationOfBenefit.procedure.date` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.procedure.date` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.date`."
             }
           ]
         },
@@ -1106,12 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.procedure.procedure[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.procedure`.\nElement `ExplanationOfBenefit.procedure.procedure[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.procedure.procedure[x]`.\nNote that the target element context `ExplanationOfBenefit.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.procedure`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure:procedure",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.procedure[x]` is part of an existing definition because parent element `ExplanationOfBenefit.procedure` requires a cross-version extension.\nElement `ExplanationOfBenefit.procedure.procedure[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.procedure`.\nElement `ExplanationOfBenefit.procedure.procedure[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.procedure[x]`.\nNote that the target element context `ExplanationOfBenefit.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.procedure`."
             }
           ]
         },
@@ -1122,17 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.procedure.udi",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.udi` is mapped to FHIR R4B element `ExplanationOfBenefit.procedure.udi`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure.udi",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.udi` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure:udi",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.procedure.udi` is part of an existing definition because parent element `ExplanationOfBenefit.procedure` requires a cross-version extension.\nElement `ExplanationOfBenefit.procedure.udi` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.procedure.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.udi`."
             }
           ]
         },
@@ -1143,12 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.precedence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.precedence` is mapped to FHIR R4B element `ExplanationOfBenefit.precedence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.precedence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.precedence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.precedence` is mapped to FHIR R4 element `ExplanationOfBenefit.precedence`."
             }
           ]
         },
@@ -1159,12 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.insurance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance` is mapped to FHIR R4B element `ExplanationOfBenefit.insurance`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurance",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.insurance` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance`."
             }
           ]
         },
@@ -1175,17 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.insurance.focal",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.focal` is mapped to FHIR R4B element `ExplanationOfBenefit.insurance.focal`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurance.focal",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.focal` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurance:focal",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.focal` is part of an existing definition because parent element `ExplanationOfBenefit.insurance` requires a cross-version extension.\nElement `ExplanationOfBenefit.insurance.focal` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.insurance.focal` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance.focal`."
             }
           ]
         },
@@ -1196,12 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.insurance.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.coverage` is mapped to FHIR R4B element `ExplanationOfBenefit.insurance.coverage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurance:coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.coverage` is part of an existing definition because parent element `ExplanationOfBenefit.insurance` requires a cross-version extension.\nElement `ExplanationOfBenefit.insurance.coverage` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.insurance.coverage` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance.coverage`."
             }
           ]
         },
@@ -1212,12 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.insurance.preAuthRef",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.preAuthRef` is mapped to FHIR R4B element `ExplanationOfBenefit.insurance.preAuthRef`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurance:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.insurance.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.insurance` requires a cross-version extension.\nElement `ExplanationOfBenefit.insurance.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.insurance.preAuthRef` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance.preAuthRef`."
             }
           ]
         },
@@ -1228,12 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.accident",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident` is mapped to FHIR R4B element `ExplanationOfBenefit.accident`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.accident",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.accident` is mapped to FHIR R4 element `ExplanationOfBenefit.accident`."
             }
           ]
         },
@@ -1244,12 +899,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.accident.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident.date` is mapped to FHIR R4B element `ExplanationOfBenefit.accident.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.accident:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident.date` is part of an existing definition because parent element `ExplanationOfBenefit.accident` requires a cross-version extension.\nElement `ExplanationOfBenefit.accident.date` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.accident.date` is mapped to FHIR R4 element `ExplanationOfBenefit.accident.date`."
             }
           ]
         },
@@ -1260,12 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.accident.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident.type` is mapped to FHIR R4B element `ExplanationOfBenefit.accident.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.accident:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident.type` is part of an existing definition because parent element `ExplanationOfBenefit.accident` requires a cross-version extension.\nElement `ExplanationOfBenefit.accident.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.accident.type` is mapped to FHIR R4 element `ExplanationOfBenefit.accident.type`."
             }
           ]
         },
@@ -1276,12 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.accident.location[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.accident`.\nElement `ExplanationOfBenefit.accident.location[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.accident.location[x]`.\nNote that the target element context `ExplanationOfBenefit.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.accident`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.accident:location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.accident.location[x]` is part of an existing definition because parent element `ExplanationOfBenefit.accident` requires a cross-version extension.\nElement `ExplanationOfBenefit.accident.location[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.accident`.\nElement `ExplanationOfBenefit.accident.location[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.accident.location[x]`.\nNote that the target element context `ExplanationOfBenefit.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.accident`."
             }
           ]
         },
@@ -1290,9 +930,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.patientPaid` is will have a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1303,12 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item` is mapped to FHIR R4B element `ExplanationOfBenefit.item`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item` is mapped to FHIR R4 element `ExplanationOfBenefit.item`."
             }
           ]
         },
@@ -1319,12 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.sequence`."
             }
           ]
         },
@@ -1335,17 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.careTeamSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.careTeamSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.careTeamSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.careTeamLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.careTeamSequence` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.careTeamLinkId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:careTeamSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.careTeamSequence` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.careTeamSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.careTeamSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.careTeamSequence`."
             }
           ]
         },
@@ -1356,17 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.diagnosisSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.diagnosisSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.diagnosisSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.diagnosisLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.diagnosisSequence` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.diagnosisLinkId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:diagnosisSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.diagnosisSequence` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.diagnosisSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.diagnosisSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.diagnosisSequence`."
             }
           ]
         },
@@ -1377,17 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.procedureSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.procedureSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.procedureSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.procedureLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.procedureSequence` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.procedureLinkId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:procedureSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.procedureSequence` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.procedureSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.procedureSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.procedureSequence`."
             }
           ]
         },
@@ -1398,17 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.informationSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.informationSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.informationSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.informationLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.informationSequence` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.informationLinkId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:informationSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.informationSequence` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.informationSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.informationSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.informationSequence`."
             }
           ]
         },
@@ -1417,14 +1007,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.traceNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.traceNumber` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1435,12 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.revenue",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.revenue` is mapped to FHIR R4B element `ExplanationOfBenefit.item.revenue`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.revenue` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.revenue` is mapped to FHIR R4 element `ExplanationOfBenefit.item.revenue`."
             }
           ]
         },
@@ -1451,12 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.category` is mapped to FHIR R4B element `ExplanationOfBenefit.item.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.category` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.category`."
             }
           ]
         },
@@ -1467,17 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.productOrService` is mapped to FHIR R4B element `ExplanationOfBenefit.item.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.productOrService` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.service`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.productOrService` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.item.productOrService`."
             }
           ]
         },
@@ -1486,14 +1051,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.productOrServiceEnd` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.productOrServiceEnd` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.productOrServiceEnd` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1502,14 +1062,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "request",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.request",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.request` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:request",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.request` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.request` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.item.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.item.request` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1520,12 +1075,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.modifier` is mapped to FHIR R4B element `ExplanationOfBenefit.item.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.modifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.item.modifier`."
             }
           ]
         },
@@ -1536,12 +1086,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.programCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.programCode` is mapped to FHIR R4B element `ExplanationOfBenefit.item.programCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:programCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.programCode` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.programCode` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.item.programCode`."
             }
           ]
         },
@@ -1552,12 +1097,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.serviced[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`.\nElement `ExplanationOfBenefit.item.serviced[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.item.serviced[x]`.\nNote that the target element context `ExplanationOfBenefit.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:serviced",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.serviced[x]` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.serviced[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`.\nElement `ExplanationOfBenefit.item.serviced[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.item.serviced[x]`.\nNote that the target element context `ExplanationOfBenefit.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`."
             }
           ]
         },
@@ -1568,12 +1108,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.location[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`.\nElement `ExplanationOfBenefit.item.location[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.item.location[x]`.\nNote that the target element context `ExplanationOfBenefit.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.location[x]` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.location[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`.\nElement `ExplanationOfBenefit.item.location[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.item.location[x]`.\nNote that the target element context `ExplanationOfBenefit.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`."
             }
           ]
         },
@@ -1582,14 +1117,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.patientPaid` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.patientPaid` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1600,12 +1130,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.item.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.quantity`."
             }
           ]
         },
@@ -1616,12 +1141,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.unitPrice` is mapped to FHIR R4B element `ExplanationOfBenefit.item.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.unitPrice` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.item.unitPrice`."
             }
           ]
         },
@@ -1632,12 +1152,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.factor` is mapped to FHIR R4B element `ExplanationOfBenefit.item.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.factor` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.factor` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.item.factor`."
             }
           ]
         },
@@ -1646,14 +1161,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.tax` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.tax` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.tax` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.tax` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1664,12 +1174,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.net` is mapped to FHIR R4B element `ExplanationOfBenefit.item.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.net` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.net` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.net` is mapped to FHIR R4 element `ExplanationOfBenefit.item.net`."
             }
           ]
         },
@@ -1680,12 +1185,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.udi",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.udi` is mapped to FHIR R4B element `ExplanationOfBenefit.item.udi`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:udi",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.udi` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.udi` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.item.udi`."
             }
           ]
         },
@@ -1696,12 +1196,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.bodySite` is mapped to FHIR R4B element `ExplanationOfBenefit.item.bodySite`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.bodySite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.bodySite` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.bodySite` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.bodySite` is mapped to FHIR R4 element `ExplanationOfBenefit.item.bodySite`."
             }
           ]
         },
@@ -1712,12 +1207,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.bodySite.site` is mapped to FHIR R4B element `ExplanationOfBenefit.item`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.bodySite:site",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.bodySite.site` is part of an existing definition because parent element `ExplanationOfBenefit.item.bodySite` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.bodySite.site` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.bodySite.site` is mapped to FHIR R4 element `ExplanationOfBenefit.item`."
             }
           ]
         },
@@ -1728,12 +1218,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.subSite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.bodySite.subSite` is mapped to FHIR R4B element `ExplanationOfBenefit.item.subSite`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.bodySite:subSite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.bodySite.subSite` is part of an existing definition because parent element `ExplanationOfBenefit.item.bodySite` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.bodySite.subSite` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.bodySite.subSite` is mapped to FHIR R4 element `ExplanationOfBenefit.item.subSite`."
             }
           ]
         },
@@ -1744,12 +1229,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.encounter` is mapped to FHIR R4B element `ExplanationOfBenefit.item.encounter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:encounter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.encounter` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.encounter` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.encounter` is mapped to FHIR R4 element `ExplanationOfBenefit.item.encounter`."
             }
           ]
         },
@@ -1760,12 +1240,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.noteNumber` is mapped to FHIR R4B element `ExplanationOfBenefit.item.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.noteNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.item.noteNumber`."
             }
           ]
         },
@@ -1774,14 +1249,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1790,14 +1260,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1806,14 +1271,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1822,14 +1282,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1838,14 +1293,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.reviewOutcome` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1856,12 +1306,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.item.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.adjudication` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication`."
             }
           ]
         },
@@ -1872,12 +1317,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.item.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.category`."
             }
           ]
         },
@@ -1888,12 +1328,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.item.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.reason`."
             }
           ]
         },
@@ -1904,12 +1339,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.item.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.amount`."
             }
           ]
         },
@@ -1920,12 +1350,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.adjudication.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.item.adjudication.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExplanationOfBenefit.item.adjudication.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.value`."
             }
           ]
         },
@@ -1936,12 +1361,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail` is part of an existing definition because parent element `ExplanationOfBenefit.item` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail`."
             }
           ]
         },
@@ -1952,12 +1372,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.sequence`."
             }
           ]
         },
@@ -1966,14 +1381,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.traceNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.traceNumber` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -1984,12 +1394,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.revenue",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.revenue` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.revenue`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.revenue` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.revenue` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.revenue`."
             }
           ]
         },
@@ -2000,12 +1405,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.category` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.category`."
             }
           ]
         },
@@ -2016,17 +1416,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrService` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrService` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.detail.service`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.productOrService` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.productOrService`."
             }
           ]
         },
@@ -2035,14 +1425,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrServiceEnd` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.productOrServiceEnd` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrServiceEnd` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2053,12 +1438,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.modifier` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.modifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.modifier`."
             }
           ]
         },
@@ -2069,12 +1449,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.programCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.programCode` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.programCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:programCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.programCode` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.programCode` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.programCode`."
             }
           ]
         },
@@ -2083,14 +1458,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.patientPaid` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.patientPaid` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2101,12 +1471,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.quantity`."
             }
           ]
         },
@@ -2117,12 +1482,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.unitPrice` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.unitPrice` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.unitPrice`."
             }
           ]
         },
@@ -2133,12 +1493,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.factor` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.factor` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.factor` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.factor`."
             }
           ]
         },
@@ -2147,14 +1502,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.tax` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.tax` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.tax` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.tax` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2165,12 +1515,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.net` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.net` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.net` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.net`."
             }
           ]
         },
@@ -2181,12 +1526,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.udi",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.udi` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.udi`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:udi",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.udi` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.udi` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.udi`."
             }
           ]
         },
@@ -2197,12 +1537,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.noteNumber` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.noteNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.noteNumber`."
             }
           ]
         },
@@ -2211,14 +1546,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2227,14 +1557,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.decision` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2243,14 +1568,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.reason` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2259,14 +1579,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2275,14 +1590,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthPeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2293,12 +1603,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.adjudication` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.adjudication`."
             }
           ]
         },
@@ -2309,12 +1614,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail`."
             }
           ]
         },
@@ -2325,12 +1625,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.adjudication.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.adjudication.category`."
             }
           ]
         },
@@ -2341,12 +1636,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.adjudication.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.adjudication.reason`."
             }
           ]
         },
@@ -2357,12 +1647,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.sequence` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.sequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:sequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.sequence` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.sequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.sequence`."
             }
           ]
         },
@@ -2373,12 +1658,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.adjudication.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.adjudication.amount`."
             }
           ]
         },
@@ -2387,14 +1667,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.traceNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.traceNumber` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2403,14 +1678,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.quantity` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication.quantity` is will have a context of ExplanationOfBenefit.item.detail.adjudication based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2421,12 +1691,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.revenue",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.revenue` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.revenue`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.revenue` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.revenue` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.revenue`."
             }
           ]
         },
@@ -2437,12 +1702,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.category` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.category`."
             }
           ]
         },
@@ -2453,17 +1713,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrService` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrService` is mapped to FHIR STU3 element `ExplanationOfBenefit.item.detail.subDetail.service`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.productOrService` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.productOrService`."
             }
           ]
         },
@@ -2472,14 +1722,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2490,12 +1735,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.modifier` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.modifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.modifier`."
             }
           ]
         },
@@ -2506,12 +1746,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.programCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.programCode` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.programCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:programCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.programCode` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.programCode` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.programCode`."
             }
           ]
         },
@@ -2520,14 +1755,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.patientPaid` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.patientPaid` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2538,12 +1768,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.quantity`."
             }
           ]
         },
@@ -2554,12 +1779,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.unitPrice` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.unitPrice` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.unitPrice`."
             }
           ]
         },
@@ -2570,12 +1790,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.factor` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.factor` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.factor` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.factor`."
             }
           ]
         },
@@ -2584,14 +1799,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.tax` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.tax` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.tax` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.tax` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2602,12 +1812,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.net` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.net` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.net` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.net`."
             }
           ]
         },
@@ -2618,12 +1823,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.udi",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.udi` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.udi`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:udi",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.udi` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.udi` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.udi`."
             }
           ]
         },
@@ -2634,12 +1834,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.noteNumber` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.noteNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.noteNumber`."
             }
           ]
         },
@@ -2648,14 +1843,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2666,12 +1856,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.adjudication` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.adjudication`."
             }
           ]
         },
@@ -2682,12 +1867,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem`."
             }
           ]
         },
@@ -2696,14 +1876,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.decision` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2712,14 +1887,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.reason` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2730,17 +1900,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.itemSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.itemSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.itemSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.sequenceLinkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.itemSequence` is mapped to FHIR STU3 element `ExplanationOfBenefit.addItem.sequenceLinkId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:itemSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.itemSequence` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.itemSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.itemSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.itemSequence`."
             }
           ]
         },
@@ -2749,14 +1909,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2767,17 +1922,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detailSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detailSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detailSequence` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:detailSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detailSequence` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detailSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detailSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detailSequence`."
             }
           ]
         },
@@ -2786,14 +1931,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2804,17 +1944,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.subDetailSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.subDetailSequence` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.subDetailSequence`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.subDetailSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.subDetailSequence` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:subDetailSequence",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.subDetailSequence` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.subDetailSequence` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.subDetailSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.subDetailSequence`."
             }
           ]
         },
@@ -2823,14 +1953,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.traceNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.traceNumber` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2841,17 +1966,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.provider` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.provider`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.provider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.provider` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:provider",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.provider` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.provider` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.provider` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.provider`."
             }
           ]
         },
@@ -2860,14 +1975,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "revenue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.revenue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.revenue` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.revenue` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.revenue` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2878,17 +1988,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.productOrService` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.productOrService` is mapped to FHIR STU3 element `ExplanationOfBenefit.addItem.service`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.productOrService` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.productOrService`."
             }
           ]
         },
@@ -2897,14 +1997,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.productOrServiceEnd` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.productOrServiceEnd` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.productOrServiceEnd` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2913,14 +2008,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "request",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.request",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.request` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:request",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.request` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.request` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.addItem.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.addItem.request` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -2931,12 +2021,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.modifier` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.modifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.modifier`."
             }
           ]
         },
@@ -2947,17 +2032,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.programCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.programCode` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.programCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.programCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.programCode` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:programCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.programCode` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.programCode` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.programCode`."
             }
           ]
         },
@@ -2968,17 +2043,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.serviced[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`.\nElement `ExplanationOfBenefit.addItem.serviced[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.serviced[x]`.\nNote that the target element context `ExplanationOfBenefit.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.serviced",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.serviced[x]` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:serviced",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.serviced[x]` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.serviced[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`.\nElement `ExplanationOfBenefit.addItem.serviced[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.serviced[x]`.\nNote that the target element context `ExplanationOfBenefit.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`."
             }
           ]
         },
@@ -2989,17 +2054,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.location[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`.\nElement `ExplanationOfBenefit.addItem.location[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.location[x]`.\nNote that the target element context `ExplanationOfBenefit.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.location[x]` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.location[x]` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.location[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`.\nElement `ExplanationOfBenefit.addItem.location[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.location[x]`.\nNote that the target element context `ExplanationOfBenefit.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`."
             }
           ]
         },
@@ -3008,14 +2063,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.patientPaid` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.patientPaid` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3026,12 +2076,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.adjudication.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.adjudication.category`."
             }
           ]
         },
@@ -3042,17 +2087,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.quantity` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.quantity`."
             }
           ]
         },
@@ -3063,12 +2098,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason`."
             }
           ]
         },
@@ -3079,17 +2109,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.unitPrice` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.unitPrice` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.unitPrice` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.unitPrice`."
             }
           ]
         },
@@ -3100,12 +2120,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount`."
             }
           ]
         },
@@ -3116,17 +2131,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.factor` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.factor` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.factor` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.factor` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.factor`."
             }
           ]
         },
@@ -3135,14 +2140,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.item.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.quantity` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.item.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.item.detail.subDetail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication.quantity` is will have a context of ExplanationOfBenefit.item.detail.subDetail.adjudication based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3151,14 +2151,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.tax` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.tax` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.tax` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.tax` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3169,17 +2164,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.net` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.fee",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.net` is mapped to FHIR STU3 element `ExplanationOfBenefit.addItem.fee`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.net` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.net` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.net` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.net`."
             }
           ]
         },
@@ -3190,17 +2175,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.bodySite`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.bodySite` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.bodySite`."
             }
           ]
         },
@@ -3209,19 +2184,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "site",
           "target" : [
             {
-              "code" : "site",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.site` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite:site",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.site` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.bodySite` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.bodySite.site` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite:site",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.site` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.bodySite` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.bodySite.site` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.site` is will have a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3230,19 +2195,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subSite",
           "target" : [
             {
-              "code" : "subSite",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.subSite` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite:subSite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.subSite` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.bodySite` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.bodySite.subSite` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite:subSite",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.subSite` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.bodySite` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.bodySite.subSite` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.subSite` is will have a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3253,12 +2208,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.noteNumber` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.noteNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.noteNumber`."
             }
           ]
         },
@@ -3267,14 +2217,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3285,12 +2230,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.adjudication` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.adjudication`."
             }
           ]
         },
@@ -3301,12 +2241,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail` is part of an existing definition because parent element `ExplanationOfBenefit.addItem` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail`."
             }
           ]
         },
@@ -3315,14 +2250,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.traceNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.traceNumber` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3331,14 +2261,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "revenue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.revenue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.revenue` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.revenue` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.revenue` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3349,17 +2274,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrService` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.service",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrService` is mapped to FHIR STU3 element `ExplanationOfBenefit.addItem.detail.service`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.productOrService` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.productOrService`."
             }
           ]
         },
@@ -3368,14 +2283,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrServiceEnd` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.productOrServiceEnd` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrServiceEnd` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3386,12 +2296,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.modifier` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.modifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.modifier`."
             }
           ]
         },
@@ -3400,14 +2305,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.patientPaid` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.patientPaid` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3418,17 +2318,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.quantity` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.quantity`."
             }
           ]
         },
@@ -3439,17 +2329,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.unitPrice` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.unitPrice` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.unitPrice` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.unitPrice`."
             }
           ]
         },
@@ -3460,17 +2340,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.factor` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.factor` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.factor` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.factor` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.factor`."
             }
           ]
         },
@@ -3479,14 +2349,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.tax` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.tax` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.tax` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.tax` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3497,17 +2362,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.net` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.fee",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.net` is mapped to FHIR STU3 element `ExplanationOfBenefit.addItem.detail.fee`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.net` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.net` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.net`."
             }
           ]
         },
@@ -3518,12 +2373,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.noteNumber` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.noteNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.noteNumber`."
             }
           ]
         },
@@ -3532,14 +2382,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3548,14 +2393,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.decision` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3564,14 +2404,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.reason` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3580,14 +2415,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3596,14 +2426,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.preAuthPeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3614,12 +2439,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.adjudication` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.adjudication`."
             }
           ]
         },
@@ -3630,12 +2450,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.adjudication.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.adjudication.category`."
             }
           ]
         },
@@ -3646,12 +2461,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.adjudication.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.adjudication.reason`."
             }
           ]
         },
@@ -3662,17 +2472,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail`."
             }
           ]
         },
@@ -3683,12 +2483,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.adjudication.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.adjudication.amount`."
             }
           ]
         },
@@ -3697,14 +2492,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.quantity` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.adjudication.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication.quantity` is will have a context of ExplanationOfBenefit.addItem.adjudication based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3713,19 +2503,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "traceNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.traceNumber",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:traceNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3734,19 +2514,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "revenue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.revenue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.revenue` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.revenue` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:revenue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.revenue` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.revenue` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.revenue` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3757,17 +2527,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:productOrService",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService`."
             }
           ]
         },
@@ -3776,19 +2536,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "productOrServiceEnd",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:productOrServiceEnd",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3799,17 +2549,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.modifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:modifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.modifier`."
             }
           ]
         },
@@ -3818,19 +2558,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patientPaid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.patientPaid",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:patientPaid",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3841,17 +2571,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.quantity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.quantity`."
             }
           ]
         },
@@ -3862,17 +2582,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:unitPrice",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice`."
             }
           ]
         },
@@ -3883,17 +2593,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.factor` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.factor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.factor` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.factor` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:factor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.factor` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.factor` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.factor`."
             }
           ]
         },
@@ -3902,19 +2602,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "tax",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.tax",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.tax` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.tax` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.tax` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:tax",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.tax` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.tax` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.tax` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3925,17 +2615,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.net` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.net`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.net` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.net` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:net",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.net` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.net` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.net`."
             }
           ]
         },
@@ -3946,17 +2626,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.noteNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:noteNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber`."
             }
           ]
         },
@@ -3965,19 +2635,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewOutcome",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -3988,17 +2648,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication`."
             }
           ]
         },
@@ -4007,14 +2657,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.decision` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4023,14 +2668,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.reason` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4039,14 +2679,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4057,12 +2692,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication` is mapped to FHIR R4B element `ExplanationOfBenefit.adjudication`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.adjudication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.adjudication`."
             }
           ]
         },
@@ -4071,14 +2701,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthPeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4089,12 +2714,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.total",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total` is mapped to FHIR R4B element `ExplanationOfBenefit.total`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.total",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.total` is mapped to FHIR R4 element `ExplanationOfBenefit.total`."
             }
           ]
         },
@@ -4105,12 +2725,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.total.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total.category` is mapped to FHIR R4B element `ExplanationOfBenefit.total.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.total:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total.category` is part of an existing definition because parent element `ExplanationOfBenefit.total` requires a cross-version extension.\nElement `ExplanationOfBenefit.total.category` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.total.category` is mapped to FHIR R4 element `ExplanationOfBenefit.total.category`."
             }
           ]
         },
@@ -4121,12 +2736,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.adjudication.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.adjudication.category`."
             }
           ]
         },
@@ -4137,22 +2747,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.total.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.total.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.totalBenefit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total.amount` is part of an existing definition because parent element `ExplanationOfBenefit.total` requires a cross-version extension.\nElement `ExplanationOfBenefit.total.amount` is mapped to FHIR STU3 element `ExplanationOfBenefit.totalCost`.\nElement `ExplanationOfBenefit.total.amount` is mapped to FHIR STU3 element `ExplanationOfBenefit.totalBenefit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.totalCost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total.amount` is part of an existing definition because parent element `ExplanationOfBenefit.total` requires a cross-version extension.\nElement `ExplanationOfBenefit.total.amount` is mapped to FHIR STU3 element `ExplanationOfBenefit.totalCost`.\nElement `ExplanationOfBenefit.total.amount` is mapped to FHIR STU3 element `ExplanationOfBenefit.totalBenefit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.total:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.total.amount` is part of an existing definition because parent element `ExplanationOfBenefit.total` requires a cross-version extension.\nElement `ExplanationOfBenefit.total.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified.\nElement `ExplanationOfBenefit.total.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.total.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.total.amount`."
             }
           ]
         },
@@ -4163,12 +2758,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.adjudication.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.adjudication.reason`."
             }
           ]
         },
@@ -4179,12 +2769,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment` is mapped to FHIR R4B element `ExplanationOfBenefit.payment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment` is mapped to FHIR R4 element `ExplanationOfBenefit.payment`."
             }
           ]
         },
@@ -4195,12 +2780,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.adjudication.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.adjudication.amount`."
             }
           ]
         },
@@ -4209,14 +2789,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.quantity` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication.quantity` is will have a context of ExplanationOfBenefit.addItem.detail.adjudication based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4227,12 +2802,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.type` is mapped to FHIR R4B element `ExplanationOfBenefit.payment.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.type` is part of an existing definition because parent element `ExplanationOfBenefit.payment` requires a cross-version extension.\nElement `ExplanationOfBenefit.payment.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment.type` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.type`."
             }
           ]
         },
@@ -4243,12 +2813,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment.adjustment",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.adjustment` is mapped to FHIR R4B element `ExplanationOfBenefit.payment.adjustment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment:adjustment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.adjustment` is part of an existing definition because parent element `ExplanationOfBenefit.payment` requires a cross-version extension.\nElement `ExplanationOfBenefit.payment.adjustment` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment.adjustment` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.adjustment`."
             }
           ]
         },
@@ -4259,12 +2824,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment.adjustmentReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.adjustmentReason` is mapped to FHIR R4B element `ExplanationOfBenefit.payment.adjustmentReason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment:adjustmentReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.adjustmentReason` is part of an existing definition because parent element `ExplanationOfBenefit.payment` requires a cross-version extension.\nElement `ExplanationOfBenefit.payment.adjustmentReason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment.adjustmentReason` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.adjustmentReason`."
             }
           ]
         },
@@ -4275,12 +2835,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.date` is mapped to FHIR R4B element `ExplanationOfBenefit.payment.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.date` is part of an existing definition because parent element `ExplanationOfBenefit.payment` requires a cross-version extension.\nElement `ExplanationOfBenefit.payment.date` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment.date` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.date`."
             }
           ]
         },
@@ -4291,12 +2846,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.payment.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.amount` is part of an existing definition because parent element `ExplanationOfBenefit.payment` requires a cross-version extension.\nElement `ExplanationOfBenefit.payment.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.amount`."
             }
           ]
         },
@@ -4307,12 +2857,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.payment.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.identifier` is mapped to FHIR R4B element `ExplanationOfBenefit.payment.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.payment.identifier` is part of an existing definition because parent element `ExplanationOfBenefit.payment` requires a cross-version extension.\nElement `ExplanationOfBenefit.payment.identifier` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.payment.identifier` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.identifier`."
             }
           ]
         },
@@ -4323,17 +2868,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.formCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.formCode` is mapped to FHIR R4B element `ExplanationOfBenefit.formCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.form",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.formCode` is mapped to FHIR STU3 element `ExplanationOfBenefit.form`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.formCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.formCode` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.formCode` is mapped to FHIR R4 element `ExplanationOfBenefit.formCode`."
             }
           ]
         },
@@ -4344,12 +2879,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.form",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.form` is mapped to FHIR R4B element `ExplanationOfBenefit.form`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.form",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.form` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.form` is mapped to FHIR R4 element `ExplanationOfBenefit.form`."
             }
           ]
         },
@@ -4360,12 +2890,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.processNote",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote` is mapped to FHIR R4B element `ExplanationOfBenefit.processNote`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.processNote` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote`."
             }
           ]
         },
@@ -4376,12 +2901,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.processNote.number",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.number` is mapped to FHIR R4B element `ExplanationOfBenefit.processNote.number`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote:number",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.number` is part of an existing definition because parent element `ExplanationOfBenefit.processNote` requires a cross-version extension.\nElement `ExplanationOfBenefit.processNote.number` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.processNote.number` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.number`."
             }
           ]
         },
@@ -4392,12 +2912,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.processNote.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.type` is mapped to FHIR R4B element `ExplanationOfBenefit.processNote.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.type` is part of an existing definition because parent element `ExplanationOfBenefit.processNote` requires a cross-version extension.\nElement `ExplanationOfBenefit.processNote.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.processNote.type` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.type`."
             }
           ]
         },
@@ -4408,12 +2923,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.processNote.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.text` is mapped to FHIR R4B element `ExplanationOfBenefit.processNote.text`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote:text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.text` is part of an existing definition because parent element `ExplanationOfBenefit.processNote` requires a cross-version extension.\nElement `ExplanationOfBenefit.processNote.text` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.processNote.text` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.text`."
             }
           ]
         },
@@ -4424,12 +2934,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.processNote.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.language` is mapped to FHIR R4B element `ExplanationOfBenefit.processNote.language`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote:language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.processNote.language` is part of an existing definition because parent element `ExplanationOfBenefit.processNote` requires a cross-version extension.\nElement `ExplanationOfBenefit.processNote.language` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.processNote.language` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.language`."
             }
           ]
         },
@@ -4440,12 +2945,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitPeriod` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitPeriod`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitPeriod` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitPeriod` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitPeriod`."
             }
           ]
         },
@@ -4456,12 +2956,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance`."
             }
           ]
         },
@@ -4472,12 +2967,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.category` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.category` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.category` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.category`."
             }
           ]
         },
@@ -4488,12 +2978,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.excluded",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.excluded` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.excluded`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:excluded",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.excluded` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.excluded` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.excluded` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.excluded`."
             }
           ]
         },
@@ -4504,12 +2989,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.name` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.name` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.name` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.name` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.name`."
             }
           ]
         },
@@ -4520,12 +3000,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.description` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.description` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.description` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.description` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.description`."
             }
           ]
         },
@@ -4536,12 +3011,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.network` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.network`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.network` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.network` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.network` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.network`."
             }
           ]
         },
@@ -4550,19 +3020,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "decision",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:decision",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:decision",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.decision` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4573,12 +3033,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.unit` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.unit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:unit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.unit` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.unit` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.unit` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.unit`."
             }
           ]
         },
@@ -4587,19 +3042,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.reason` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4610,12 +3055,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.term",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.term` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.term`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:term",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.term` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.term` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.term` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.term`."
             }
           ]
         },
@@ -4624,19 +3064,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthRef",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:preAuthRef",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:preAuthRef",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthRef` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4647,12 +3077,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.financial",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.financial`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance.financial",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.financial` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial`."
             }
           ]
         },
@@ -4661,19 +3086,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "preAuthPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:preAuthPeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome:preAuthPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome.preAuthPeriod` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4684,12 +3099,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.financial.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial.type` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.financial.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance.financial:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial.type` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance.financial` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.financial.type` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial.type` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial.type`."
             }
           ]
         },
@@ -4700,12 +3110,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.financial.allowed[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`.\nElement `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.financial.allowed[x]`.\nNote that the target element context `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance.financial:allowed",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance.financial` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`.\nElement `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial.allowed[x]`.\nNote that the target element context `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`."
             }
           ]
         },
@@ -4716,12 +3121,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.benefitBalance.financial.used[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ExplanationOfBenefit.benefitBalance.financial.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`.\nElement `ExplanationOfBenefit.benefitBalance.financial.used[x]` is mapped to FHIR R4B element `ExplanationOfBenefit.benefitBalance.financial.used[x]`.\nNote that the target element context `ExplanationOfBenefit.benefitBalance.financial.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance.financial:used",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial.used[x]` is part of an existing definition because parent element `ExplanationOfBenefit.benefitBalance.financial` requires a cross-version extension.\nElement `ExplanationOfBenefit.benefitBalance.financial.used[x]` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Note that the target element context `ExplanationOfBenefit.benefitBalance.financial.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`.\nElement `ExplanationOfBenefit.benefitBalance.financial.used[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial.used[x]`.\nNote that the target element context `ExplanationOfBenefit.benefitBalance.financial.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`."
             }
           ]
         },
@@ -4732,17 +3132,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category`."
             }
           ]
         },
@@ -4753,17 +3143,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason`."
             }
           ]
         },
@@ -4774,17 +3154,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount`."
             }
           ]
         },
@@ -4793,19 +3163,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.quantity` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.quantity` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.quantity` is mapped to FHIR DSTU2 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.quantity` is will have a context of ExplanationOfBenefit.addItem.detail.subDetail.adjudication based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         },
@@ -4816,12 +3176,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.adjudication.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.category` is mapped to FHIR R4B element `ExplanationOfBenefit.adjudication.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.adjudication:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.category` is part of an existing definition because parent element `ExplanationOfBenefit.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.adjudication.category` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.adjudication.category`."
             }
           ]
         },
@@ -4832,12 +3187,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.adjudication.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.reason` is mapped to FHIR R4B element `ExplanationOfBenefit.adjudication.reason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.adjudication:reason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.reason` is part of an existing definition because parent element `ExplanationOfBenefit.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.adjudication.reason` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.adjudication.reason`."
             }
           ]
         },
@@ -4848,12 +3198,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.adjudication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.amount` is mapped to FHIR R4B element `ExplanationOfBenefit.adjudication.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.adjudication:amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.amount` is part of an existing definition because parent element `ExplanationOfBenefit.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.adjudication.amount` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.adjudication.amount`."
             }
           ]
         },
@@ -4862,14 +3207,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit#ExplanationOfBenefit.adjudication",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.quantity` is mapped to FHIR R4B structure `ExplanationOfBenefit`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.adjudication:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExplanationOfBenefit.adjudication.quantity` is part of an existing definition because parent element `ExplanationOfBenefit.adjudication` requires a cross-version extension.\nElement `ExplanationOfBenefit.adjudication.quantity` is mapped to FHIR STU3 structure `ExplanationOfBenefit`, but has no target element specified."
+              "comment" : "Element `ExplanationOfBenefit.adjudication.quantity` is will have a context of ExplanationOfBenefit.adjudication based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
             }
           ]
         }

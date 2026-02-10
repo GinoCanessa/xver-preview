@@ -43,6 +43,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:who","Extension.extension","who","","",1,1,"","","","Extension {[]} {[]}
 ","The agent that participated in the event","Indicates who or what performed in the event.","","Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:who.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -59,6 +60,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:onBehalfOf","Extension.extension","onBehalfOf","","",0,1,"","","","Extension {[]} {[]}
 ","The agent that delegated","The agent that delegated authority to perform the activity performed by the agent.who element.","","Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:onBehalfOf.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}

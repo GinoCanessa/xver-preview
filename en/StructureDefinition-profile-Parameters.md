@@ -7,7 +7,7 @@ This cross-version profile allows R5 Parameters content to be represented via FH
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.MeasureReport.inputParameters` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.inputParameters.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Parameters)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Parameter
   "title" : "Cross-version Profile for R5.Parameters for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7609731-06:00",
+  "date" : "2026-02-09T22:05:43.257953-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -151,7 +151,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Parameter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -160,9 +160,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Parameter
         }
       },
       {
-        "id" : "Parameters.parameter.extension",
+        "id" : "Parameters.parameter.extension:value",
         "path" : "Parameters.parameter.extension",
+        "sliceName" : "value",
         "short" : "Cross-version extension for Parameters.parameter.value[x] from R5 for use in FHIR R4",
+        "comment" : "Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.\nElement `Parameters.parameter.value[x]` is mapped to FHIR R4 element `Parameters.parameter.value[x]`.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {

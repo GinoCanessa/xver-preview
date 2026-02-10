@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
   "title" : "Cross-version Profile for R5.Schedule for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7866946-06:00",
+  "date" : "2026-02-09T22:05:43.3167308-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
         "path" : "Schedule"
       },
       {
+        "id" : "Schedule.extension",
+        "path" : "Schedule.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Schedule.extension:name",
+        "path" : "Schedule.extension",
+        "sliceName" : "name",
+        "short" : "Cross-version extension for Schedule.name from R5 for use in FHIR R4",
+        "comment" : "Element `Schedule.name` is will have a context of Schedule based on following the parent source element upwards and mapping to `Schedule`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Schedule.serviceType.extension",
         "path" : "Schedule.serviceType.extension",
         "slicing" : {
@@ -156,7 +199,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Schedule.serviceType",
@@ -165,9 +208,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
         }
       },
       {
-        "id" : "Schedule.serviceType.extension",
+        "id" : "Schedule.serviceType.extension:serviceType",
         "path" : "Schedule.serviceType.extension",
+        "sliceName" : "serviceType",
         "short" : "Cross-version extension for Schedule.serviceType from R5 for use in FHIR R4",
+        "comment" : "Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -206,9 +251,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
         }
       },
       {
-        "id" : "Schedule.actor.extension",
+        "id" : "Schedule.actor.extension:actor",
         "path" : "Schedule.actor.extension",
+        "sliceName" : "actor",
         "short" : "Cross-version extension for Schedule.actor from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Schedule.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Schedule.actor` is mapped to FHIR R4 element `Schedule.actor`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -220,7 +268,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.actor|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

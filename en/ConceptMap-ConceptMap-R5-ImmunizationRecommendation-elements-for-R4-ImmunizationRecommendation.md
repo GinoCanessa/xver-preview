@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.0562218-06:00",
+  "date" : "2026-02-09T22:05:43.943663-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ImmunizationRecommendation` is representable via FHIR R4B Resource `ImmunizationRecommendation`.\nElement `ImmunizationRecommendation` is mapped to FHIR R4B element `ImmunizationRecommendation`."
+              "comment" : "FHIR R5 Resource `ImmunizationRecommendation` is representable via FHIR R4 Resource `ImmunizationRecommendation`.\nElement `ImmunizationRecommendation` is mapped to FHIR R4 element `ImmunizationRecommendation`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.meta` is mapped to FHIR R4B element `ImmunizationRecommendation.meta`."
+              "comment" : "Element `ImmunizationRecommendation.meta` is mapped to FHIR R4 element `ImmunizationRecommendation.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.implicitRules` is mapped to FHIR R4B element `ImmunizationRecommendation.implicitRules`."
+              "comment" : "Element `ImmunizationRecommendation.implicitRules` is mapped to FHIR R4 element `ImmunizationRecommendation.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.language` is mapped to FHIR R4B element `ImmunizationRecommendation.language`."
+              "comment" : "Element `ImmunizationRecommendation.language` is mapped to FHIR R4 element `ImmunizationRecommendation.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.text` is mapped to FHIR R4B element `ImmunizationRecommendation.text`."
+              "comment" : "Element `ImmunizationRecommendation.text` is mapped to FHIR R4 element `ImmunizationRecommendation.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.contained` is mapped to FHIR R4B element `ImmunizationRecommendation.contained`."
+              "comment" : "Element `ImmunizationRecommendation.contained` is mapped to FHIR R4 element `ImmunizationRecommendation.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.identifier` is mapped to FHIR R4B element `ImmunizationRecommendation.identifier`."
+              "comment" : "Element `ImmunizationRecommendation.identifier` is mapped to FHIR R4 element `ImmunizationRecommendation.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.patient` is mapped to FHIR R4B element `ImmunizationRecommendation.patient`."
+              "comment" : "Element `ImmunizationRecommendation.patient` is mapped to FHIR R4 element `ImmunizationRecommendation.patient`."
             }
           ]
         },
@@ -173,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.date` is mapped to FHIR R4B element `ImmunizationRecommendation.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.date` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.date`."
+              "comment" : "Element `ImmunizationRecommendation.date` is mapped to FHIR R4 element `ImmunizationRecommendation.date`."
             }
           ]
         },
@@ -189,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.authority",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.authority` is mapped to FHIR R4B element `ImmunizationRecommendation.authority`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.authority",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.authority` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.authority`."
+              "comment" : "Element `ImmunizationRecommendation.authority` is mapped to FHIR R4 element `ImmunizationRecommendation.authority`."
             }
           ]
         },
@@ -205,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation`."
             }
           ]
         },
@@ -221,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.vaccineCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.vaccineCode` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.vaccineCode`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.vaccineCode` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.vaccineCode`."
             }
           ]
         },
@@ -232,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.targetDisease",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.targetDisease`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.targetDisease",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR DSTU2 structure `ImmunizationRecommendation`, but has no target element specified."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.targetDisease`."
             }
           ]
         },
@@ -248,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.contraindicatedVaccineCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.contraindicatedVaccineCode",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR STU3 structure `ImmunizationRecommendation`, but has no target element specified."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode`."
             }
           ]
         },
@@ -264,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.forecastStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.forecastStatus` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.forecastStatus`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.forecastStatus` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.forecastStatus`."
             }
           ]
         },
@@ -275,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.forecastReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.forecastReason`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.forecastReason",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR STU3 structure `ImmunizationRecommendation`, but has no target element specified."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.forecastReason`."
             }
           ]
         },
@@ -291,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.dateCriterion` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.dateCriterion` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.dateCriterion`."
             }
           ]
         },
@@ -302,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.dateCriterion.code` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion.code`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.dateCriterion.code` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.dateCriterion.code`."
             }
           ]
         },
@@ -313,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.dateCriterion.value` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion.value`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.dateCriterion.value` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.dateCriterion.value`."
             }
           ]
         },
@@ -324,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.description`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.description`."
             }
           ]
         },
@@ -340,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.series",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.series`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.series",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.series`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.series`."
             }
           ]
         },
@@ -356,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.doseNumber[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.doseNumber[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.doseNumber",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.doseNumber`."
+              "comment" : "Note that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.doseNumber[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`."
             }
           ]
         },
@@ -372,12 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.seriesDoses[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.seriesDoses[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation`."
+              "comment" : "Note that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.seriesDoses[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`."
             }
           ]
         },
@@ -388,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.supportingImmunization",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.supportingImmunization` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.supportingImmunization`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.supportingImmunization` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.supportingImmunization`."
             }
           ]
         },
@@ -399,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.supportingPatientInformation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImmunizationRecommendation.recommendation.supportingPatientInformation` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.supportingPatientInformation`."
+              "comment" : "Element `ImmunizationRecommendation.recommendation.supportingPatientInformation` is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation.supportingPatientInformation`."
             }
           ]
         }

@@ -7,7 +7,7 @@ This cross-version profile allows R5 MedicationAdministration content to be repr
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md)... Show 2 more, [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md) and [Cross-version Extension `R5.MedicationDispense.partOf` for use in FHIR R4](StructureDefinition-ext-R5-MedicationDispense.partOf.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md) and [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-MedicationAdministration)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
   "title" : "Cross-version Profile for R5.MedicationAdministration for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7303199-06:00",
+  "date" : "2026-02-09T22:05:43.196586-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -175,9 +175,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationAdministration.extension",
+        "id" : "MedicationAdministration.extension:occurence",
         "path" : "MedicationAdministration.extension",
+        "sliceName" : "occurence",
         "short" : "Cross-version extension for MedicationAdministration.occurence[x] from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR R4 element `MedicationAdministration.effective[x]`.\nNote that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -195,6 +197,95 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         ]
       },
       {
+        "id" : "MedicationAdministration.extension:recorded",
+        "path" : "MedicationAdministration.extension",
+        "sliceName" : "recorded",
+        "short" : "Cross-version extension for MedicationAdministration.recorded from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationAdministration.recorded` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.recorded|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationAdministration.extension:isSubPotent",
+        "path" : "MedicationAdministration.extension",
+        "sliceName" : "isSubPotent",
+        "short" : "Cross-version extension for MedicationAdministration.isSubPotent from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationAdministration.isSubPotent` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.isSubPotent|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationAdministration.extension:subPotentReason",
+        "path" : "MedicationAdministration.extension",
+        "sliceName" : "subPotentReason",
+        "short" : "Cross-version extension for MedicationAdministration.subPotentReason from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationAdministration.subPotentReason` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.subPotentReason|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MedicationAdministration.extension:basedOn",
+        "path" : "MedicationAdministration.extension",
+        "sliceName" : "basedOn",
+        "short" : "Cross-version extension for MedicationAdministration.basedOn from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationAdministration.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationAdministration.basedOn` is will have a context of MedicationAdministration based on following the parent source element upwards and mapping to `MedicationAdministration`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "MedicationAdministration.partOf.extension",
         "path" : "MedicationAdministration.partOf.extension",
         "slicing" : {
@@ -207,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "MedicationAdministration.partOf",
@@ -216,9 +307,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationAdministration.partOf.extension",
+        "id" : "MedicationAdministration.partOf.extension:partOf",
         "path" : "MedicationAdministration.partOf.extension",
+        "sliceName" : "partOf",
         "short" : "Cross-version extension for MedicationAdministration.partOf from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationDispense in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationAdministration.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationAdministration.partOf` is mapped to FHIR R4 element `MedicationAdministration.partOf`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -230,7 +324,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.partOf|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -257,9 +351,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationAdministration.performer.actor.extension",
+        "id" : "MedicationAdministration.performer.actor.extension:actor",
         "path" : "MedicationAdministration.performer.actor.extension",
+        "sliceName" : "actor",
         "short" : "Cross-version extension for MedicationAdministration.performer.actor from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationAdministration.performer.actor` is mapped to FHIR R4 element `MedicationAdministration.performer.actor`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -289,7 +385,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "MedicationAdministration.device",
@@ -298,9 +394,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         }
       },
       {
-        "id" : "MedicationAdministration.device.extension",
+        "id" : "MedicationAdministration.device.extension:device",
         "path" : "MedicationAdministration.device.extension",
+        "sliceName" : "device",
         "short" : "Cross-version extension for MedicationAdministration.device from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationAdministration.device` is mapped to FHIR R4 element `MedicationAdministration.device`.",
         "min" : 0,
         "max" : "*",
         "base" : {

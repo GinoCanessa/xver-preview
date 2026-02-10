@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.statistic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.statistic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.statistic` 0..* `BackboneElement`\n*  R4B: `Evidence.statistic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.statistic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.statistic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.statistic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.statistic` 0..* `BackboneElement`\n*  R4B: `Evidence.statistic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.statistic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Evidence" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Description of content" ] ;
        fhir:definition [ fhir:v "A description of the content value of the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Footnotes and/or explanatory notes" ] ;
        fhir:definition [ fhir:v "Footnotes and/or explanatory notes." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -735,7 +735,7 @@
        fhir:sliceName [ fhir:v "statisticType" ] ;
        fhir:short [ fhir:v "Type of statistic, e.g., relative risk" ] ;
        fhir:definition [ fhir:v "Type of statistic, e.g., relative risk." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -954,7 +954,7 @@
        fhir:short [ fhir:v "Associated category for categorical variable" ] ;
        fhir:definition [ fhir:v "When the measured variable is handled categorically, the category element is used to define which category the statistic is reporting." ] ;
        fhir:comment [ fhir:v "Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1166,7 +1166,7 @@
        fhir:sliceName [ fhir:v "quantity" ] ;
        fhir:short [ fhir:v "Statistic value" ] ;
        fhir:definition [ fhir:v "Statistic value." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1378,7 +1378,7 @@
        fhir:short [ fhir:v "The number of events associated with the statistic" ] ;
        fhir:definition [ fhir:v "The number of events associated with the statistic, where the unit of analysis is different from numberAffected, sampleSize.knownDataCount and sampleSize.numberOfParticipants." ] ;
        fhir:comment [ fhir:v "When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1591,7 +1591,7 @@
        fhir:short [ fhir:v "The number of participants affected" ] ;
        fhir:definition [ fhir:v "The number of participants affected where the unit of analysis is the same as sampleSize.knownDataCount and sampleSize.numberOfParticipants." ] ;
        fhir:comment [ fhir:v "When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1803,7 +1803,7 @@
        fhir:sliceName [ fhir:v "sampleSize" ] ;
        fhir:short [ fhir:v "Number of samples in the statistic" ] ;
        fhir:definition [ fhir:v "Number of samples in the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1932,7 +1932,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Textual description of sample size for statistic" ] ;
        fhir:definition [ fhir:v "Human-readable summary of population sample size." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2143,7 +2143,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Footnote or explanatory note about the sample size" ] ;
        fhir:definition [ fhir:v "Footnote or explanatory note about the sample size." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2354,7 +2354,7 @@
        fhir:sliceName [ fhir:v "numberOfStudies" ] ;
        fhir:short [ fhir:v "Number of contributing studies" ] ;
        fhir:definition [ fhir:v "Number of participants in the population." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2565,7 +2565,7 @@
        fhir:sliceName [ fhir:v "numberOfParticipants" ] ;
        fhir:short [ fhir:v "Cumulative number of participants" ] ;
        fhir:definition [ fhir:v "A human-readable string to clarify or explain concepts about the sample size." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2776,7 +2776,7 @@
        fhir:sliceName [ fhir:v "knownDataCount" ] ;
        fhir:short [ fhir:v "Number of participants with known results for measured variables" ] ;
        fhir:definition [ fhir:v "Number of participants with known results for measured variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3309,7 +3309,7 @@
        fhir:sliceName [ fhir:v "attributeEstimate" ] ;
        fhir:short [ fhir:v "An attribute of the Statistic" ] ;
        fhir:definition [ fhir:v "A statistical attribute of the statistic such as a measure of heterogeneity." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3765,7 +3765,7 @@
        fhir:sliceName [ fhir:v "modelCharacteristic" ] ;
        fhir:short [ fhir:v "An aspect of the statistical model" ] ;
        fhir:definition [ fhir:v "A component of the method to generate the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3894,7 +3894,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Model specification" ] ;
        fhir:definition [ fhir:v "Description of a component of the method to generate the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4112,7 +4112,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Numerical value to complete model specification" ] ;
        fhir:definition [ fhir:v "Further specification of the quantified value of the component of the method to generate the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4327,7 +4327,7 @@
        fhir:sliceName [ fhir:v "variable" ] ;
        fhir:short [ fhir:v "A variable adjusted for in the adjusted analysis" ] ;
        fhir:definition [ fhir:v "A variable adjusted for in the adjusted analysis." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4456,7 +4456,7 @@
        fhir:sliceName [ fhir:v "variableDefinition" ] ;
        fhir:short [ fhir:v "Description of the variable" ] ;
        fhir:definition [ fhir:v "Description of the variable." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4680,7 +4680,7 @@
        fhir:sliceName [ fhir:v "handling" ] ;
        fhir:short [ fhir:v "continuous | dichotomous | ordinal | polychotomous" ] ;
        fhir:definition [ fhir:v "How the variable is classified for use in adjusted analysis." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4898,7 +4898,7 @@
        fhir:sliceName [ fhir:v "valueCategory" ] ;
        fhir:short [ fhir:v "Description for grouping of ordinal or polychotomous variables" ] ;
        fhir:definition [ fhir:v "Description for grouping of ordinal or polychotomous variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5109,7 +5109,7 @@
        fhir:sliceName [ fhir:v "valueQuantity" ] ;
        fhir:short [ fhir:v "Discrete value for grouping of ordinal or polychotomous variables" ] ;
        fhir:definition [ fhir:v "Discrete value for grouping of ordinal or polychotomous variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5320,7 +5320,7 @@
        fhir:sliceName [ fhir:v "valueRange" ] ;
        fhir:short [ fhir:v "Range of values for grouping of ordinal or polychotomous variables" ] ;
        fhir:definition [ fhir:v "Range of values for grouping of ordinal or polychotomous variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5853,7 +5853,7 @@
        fhir:sliceName [ fhir:v "attributeEstimate" ] ;
        fhir:short [ fhir:v "An attribute of the statistic used as a model characteristic" ] ;
        fhir:definition [ fhir:v "An attribute of the statistic used as a model characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -6987,7 +6987,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Description of content" ] ;
        fhir:definition [ fhir:v "A description of the content value of the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7034,7 +7034,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Footnotes and/or explanatory notes" ] ;
        fhir:definition [ fhir:v "Footnotes and/or explanatory notes." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7081,7 +7081,7 @@
        fhir:sliceName [ fhir:v "statisticType" ] ;
        fhir:short [ fhir:v "Type of statistic, e.g., relative risk" ] ;
        fhir:definition [ fhir:v "Type of statistic, e.g., relative risk." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7136,7 +7136,7 @@
        fhir:short [ fhir:v "Associated category for categorical variable" ] ;
        fhir:definition [ fhir:v "When the measured variable is handled categorically, the category element is used to define which category the statistic is reporting." ] ;
        fhir:comment [ fhir:v "Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7184,7 +7184,7 @@
        fhir:sliceName [ fhir:v "quantity" ] ;
        fhir:short [ fhir:v "Statistic value" ] ;
        fhir:definition [ fhir:v "Statistic value." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7232,7 +7232,7 @@
        fhir:short [ fhir:v "The number of events associated with the statistic" ] ;
        fhir:definition [ fhir:v "The number of events associated with the statistic, where the unit of analysis is different from numberAffected, sampleSize.knownDataCount and sampleSize.numberOfParticipants." ] ;
        fhir:comment [ fhir:v "When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7281,7 +7281,7 @@
        fhir:short [ fhir:v "The number of participants affected" ] ;
        fhir:definition [ fhir:v "The number of participants affected where the unit of analysis is the same as sampleSize.knownDataCount and sampleSize.numberOfParticipants." ] ;
        fhir:comment [ fhir:v "When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7329,7 +7329,7 @@
        fhir:sliceName [ fhir:v "sampleSize" ] ;
        fhir:short [ fhir:v "Number of samples in the statistic" ] ;
        fhir:definition [ fhir:v "Number of samples in the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7361,7 +7361,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "Textual description of sample size for statistic" ] ;
        fhir:definition [ fhir:v "Human-readable summary of population sample size." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7408,7 +7408,7 @@
        fhir:sliceName [ fhir:v "note" ] ;
        fhir:short [ fhir:v "Footnote or explanatory note about the sample size" ] ;
        fhir:definition [ fhir:v "Footnote or explanatory note about the sample size." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7455,7 +7455,7 @@
        fhir:sliceName [ fhir:v "numberOfStudies" ] ;
        fhir:short [ fhir:v "Number of contributing studies" ] ;
        fhir:definition [ fhir:v "Number of participants in the population." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7502,7 +7502,7 @@
        fhir:sliceName [ fhir:v "numberOfParticipants" ] ;
        fhir:short [ fhir:v "Cumulative number of participants" ] ;
        fhir:definition [ fhir:v "A human-readable string to clarify or explain concepts about the sample size." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7549,7 +7549,7 @@
        fhir:sliceName [ fhir:v "knownDataCount" ] ;
        fhir:short [ fhir:v "Number of participants with known results for measured variables" ] ;
        fhir:definition [ fhir:v "Number of participants with known results for measured variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7621,7 +7621,7 @@
        fhir:sliceName [ fhir:v "attributeEstimate" ] ;
        fhir:short [ fhir:v "An attribute of the Statistic" ] ;
        fhir:definition [ fhir:v "A statistical attribute of the statistic such as a measure of heterogeneity." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7660,7 +7660,7 @@
        fhir:sliceName [ fhir:v "modelCharacteristic" ] ;
        fhir:short [ fhir:v "An aspect of the statistical model" ] ;
        fhir:definition [ fhir:v "A component of the method to generate the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7692,7 +7692,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Model specification" ] ;
        fhir:definition [ fhir:v "Description of a component of the method to generate the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7746,7 +7746,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Numerical value to complete model specification" ] ;
        fhir:definition [ fhir:v "Further specification of the quantified value of the component of the method to generate the statistic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7797,7 +7797,7 @@
        fhir:sliceName [ fhir:v "variable" ] ;
        fhir:short [ fhir:v "A variable adjusted for in the adjusted analysis" ] ;
        fhir:definition [ fhir:v "A variable adjusted for in the adjusted analysis." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7829,7 +7829,7 @@
        fhir:sliceName [ fhir:v "variableDefinition" ] ;
        fhir:short [ fhir:v "Description of the variable" ] ;
        fhir:definition [ fhir:v "Description of the variable." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7889,7 +7889,7 @@
        fhir:sliceName [ fhir:v "handling" ] ;
        fhir:short [ fhir:v "continuous | dichotomous | ordinal | polychotomous" ] ;
        fhir:definition [ fhir:v "How the variable is classified for use in adjusted analysis." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7943,7 +7943,7 @@
        fhir:sliceName [ fhir:v "valueCategory" ] ;
        fhir:short [ fhir:v "Description for grouping of ordinal or polychotomous variables" ] ;
        fhir:definition [ fhir:v "Description for grouping of ordinal or polychotomous variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -7990,7 +7990,7 @@
        fhir:sliceName [ fhir:v "valueQuantity" ] ;
        fhir:short [ fhir:v "Discrete value for grouping of ordinal or polychotomous variables" ] ;
        fhir:definition [ fhir:v "Discrete value for grouping of ordinal or polychotomous variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -8037,7 +8037,7 @@
        fhir:sliceName [ fhir:v "valueRange" ] ;
        fhir:short [ fhir:v "Range of values for grouping of ordinal or polychotomous variables" ] ;
        fhir:definition [ fhir:v "Range of values for grouping of ordinal or polychotomous variables." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -8109,7 +8109,7 @@
        fhir:sliceName [ fhir:v "attributeEstimate" ] ;
        fhir:short [ fhir:v "An attribute of the statistic used as a model characteristic" ] ;
        fhir:definition [ fhir:v "An attribute of the statistic used as a model characteristic." ] ;
-       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

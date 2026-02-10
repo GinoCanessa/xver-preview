@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -533,7 +533,7 @@
        fhir:sliceName [ fhir:v "typeCanonical" ] ;
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -752,7 +752,7 @@
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
        fhir:comment [ fhir:v "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1037,7 +1037,7 @@
        fhir:sliceName [ fhir:v "role" ] ;
        fhir:short [ fhir:v "E.g. Nurse, Surgeon, Parent, etc" ] ;
        fhir:definition [ fhir:v "The role the participant should play in performing the described action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1256,7 +1256,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "E.g. Author, Reviewer, Witness, etc" ] ;
        fhir:definition [ fhir:v "Indicates how the actor will be involved in the action - author, reviewer, witness, etc." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1467,7 +1467,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who/what is participating?" ] ;
        fhir:definition [ fhir:v "A reference to the actual participant." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2120,7 +2120,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2175,7 +2175,7 @@
        fhir:sliceName [ fhir:v "typeCanonical" ] ;
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2230,7 +2230,7 @@
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
        fhir:comment [ fhir:v "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2351,7 +2351,7 @@
        fhir:sliceName [ fhir:v "role" ] ;
        fhir:short [ fhir:v "E.g. Nurse, Surgeon, Parent, etc" ] ;
        fhir:definition [ fhir:v "The role the participant should play in performing the described action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2406,7 +2406,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "E.g. Author, Reviewer, Witness, etc" ] ;
        fhir:definition [ fhir:v "Indicates how the actor will be involved in the action - author, reviewer, witness, etc." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2453,7 +2453,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who/what is participating?" ] ;
        fhir:definition [ fhir:v "A reference to the actual participant." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

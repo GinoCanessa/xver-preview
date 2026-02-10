@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.667259-06:00",
+  "date" : "2026-02-09T22:05:43.6584729-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coding#Coding",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Coding` is representable via FHIR R4B extensions.\nElement `Coding` is mapped to FHIR R4B element `Coding`."
+              "comment" : "FHIR R5 ComplexType `Coding` is representable via FHIR R4 extensions.\nElement `Coding` is mapped to FHIR R4 element `Coding`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coding#Coding.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coding.system` is mapped to FHIR R4B element `Coding.system`."
+              "comment" : "Element `Coding.system` is mapped to FHIR R4 element `Coding.system`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coding#Coding.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coding.version` is mapped to FHIR R4B element `Coding.version`."
+              "comment" : "Element `Coding.version` is mapped to FHIR R4 element `Coding.version`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coding#Coding.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coding.code` is mapped to FHIR R4B element `Coding.code`."
+              "comment" : "Element `Coding.code` is mapped to FHIR R4 element `Coding.code`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coding#Coding.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coding.display` is mapped to FHIR R4B element `Coding.display`."
+              "comment" : "Element `Coding.display` is mapped to FHIR R4 element `Coding.display`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coding#Coding.userSelected",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coding.userSelected` is mapped to FHIR R4B element `Coding.userSelected`."
+              "comment" : "Element `Coding.userSelected` is mapped to FHIR R4 element `Coding.userSelected`."
             }
           ]
         }

@@ -7,7 +7,7 @@ This cross-version profile allows R5 Condition content to be represented via FHI
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Account.diagnosis` for use in FHIR R4](StructureDefinition-ext-R5-Account.diagnosis.md), [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md), [Cross-version Extension `R5.CarePlan.addresses` for use in FHIR R4](StructureDefinition-ext-R5-CarePlan.addresses.md)... Show 7 more, [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.Encounter.diagnosis.condition` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.dia.condition.md), [Cross-version Extension `R5.EpisodeOfCare.diagnosis.condition` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.dia.condition.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.MedicationStatement.relatedClinicalInformation` for use in FHIR R4](StructureDefinition-ext-R5-MedicationStatement.rCI.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
+* Refer to this Profile: [Cross-version Extension `R5.Account.diagnosis` for use in FHIR R4](StructureDefinition-ext-R5-Account.diagnosis.md), [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md), [Cross-version Extension `R5.CarePlan.addresses` for use in FHIR R4](StructureDefinition-ext-R5-CarePlan.addresses.md)... Show 6 more, [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.Encounter.diagnosis.condition` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.dia.condition.md), [Cross-version Extension `R5.EpisodeOfCare.diagnosis.condition` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.dia.condition.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Condition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Condition
   "title" : "Cross-version Profile for R5.Condition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6548027-06:00",
+  "date" : "2026-02-09T22:05:43.0445108-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -159,6 +159,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Condition
         "path" : "Condition"
       },
       {
+        "id" : "Condition.extension",
+        "path" : "Condition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Condition.extension:participant",
+        "path" : "Condition.extension",
+        "sliceName" : "participant",
+        "short" : "Cross-version extension for Condition.participant from R5 for use in FHIR R4",
+        "comment" : "Element `Condition.participant` is will have a context of Condition based on following the parent source element upwards and mapping to `Condition`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Condition.clinicalStatus.extension",
         "path" : "Condition.clinicalStatus.extension",
         "slicing" : {
@@ -180,9 +223,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Condition
         }
       },
       {
-        "id" : "Condition.clinicalStatus.extension",
+        "id" : "Condition.clinicalStatus.extension:clinicalStatus",
         "path" : "Condition.clinicalStatus.extension",
+        "sliceName" : "clinicalStatus",
         "short" : "Cross-version extension for Condition.clinicalStatus from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` is mapped to FHIR R4 element `Condition.clinicalStatus`.",
         "min" : 1,
         "max" : "1",
         "base" : {

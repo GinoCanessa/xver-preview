@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.property` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "type",
         "short" : "A code expressing the type of property",
         "definition" : "A code expressing the type of property.",
-        "requirements" : "Element `SubstanceDefinition.property.type` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.property.type` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "value",
         "short" : "A value for the property",
         "definition" : "A value for the property.",
-        "requirements" : "Element `SubstanceDefinition.property.value[x]` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.property.value[x]` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {

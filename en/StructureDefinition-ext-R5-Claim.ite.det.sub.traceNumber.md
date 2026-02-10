@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Claim.item.detail.s
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Claim for use in FHIR R4](StructureDefinition-profile-Claim.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Claim.ite.det.sub.traceNumber)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.ite.
   "title" : "Cross-version Extension `R5.Claim.item.detail.subDetail.traceNumber` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.ite.
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Claim.item.detail.subDetail.traceNumber` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Claim.item.detail.subDetail.traceNumber` 0..* `Identifier`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Claim.item.detail.subDetail.traceNumber` 0..* `Identifier`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Claim.item.detail.subDetail.traceNumber` is mapped to FHIR R4 structure `Claim`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Claim.item.detail.subDetail.traceNumber` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Claim.item.detail.subDetail.traceNumber` 0..* `Identifier`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Claim.item.detail.subDetail.traceNumber` 0..* `Identifier`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Claim.item.detail.subDetail.traceNumber` is will have a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Claim.ite.
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Claim.item.detail.subDetail"
     }
   ],
   "type" : "Extension",

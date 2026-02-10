@@ -12,7 +12,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:identifier","Extension.extension","identifier","","",0,1,"","","","Extension {[]} {[]}
 ","Business identifier of the packaged medication","The business identifier of the packaged medication.","","Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.
 Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).
-Element `DeviceDefinition.packaging.identifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:identifier.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -29,7 +29,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:type","Extension.extension","type","","",0,1,"","","","Extension {[]} {[]}
 ","A code that defines the specific type of packaging","A code that defines the specific type of packaging.","","Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.
 Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).
-Element `DeviceDefinition.packaging.type` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -46,7 +46,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:count","Extension.extension","count","","",0,1,"","","","Extension {[]} {[]}
 ","The number of items contained in the package (devices or sub-packages)","The number of items contained in the package (devices or sub-packages).","","Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.
 Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).
-Element `DeviceDefinition.packaging.count` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:count.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -63,7 +63,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:distributor","Extension.extension","distributor","","",0,*,"","","","Extension {[]} {[]}
 ","An organization that distributes the packaged device","An organization that distributes the packaged device.","","Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.
 Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).
-Element `DeviceDefinition.packaging.distributor` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:distributor.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -73,7 +73,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:distributor.extension:name","Extension.extension.extension","name","","",0,1,"","","","Extension {[]} {[]}
 ","Distributor's human-readable name","Distributor's human-readable name.","","Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.
-Element `DeviceDefinition.packaging.distributor.name` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:distributor.extension:name.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -89,7 +89,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:distributor.extension:organizationReference","Extension.extension.extension","organizationReference","","",0,*,"","","","Extension {[]} {[]}
 ","Distributor as an Organization resource","Distributor as an Organization resource.","","Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.
-Element `DeviceDefinition.packaging.distributor.organizationReference` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:distributor.extension:organizationReference.id","Extension.extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -111,7 +112,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 "Extension.extension:udiDeviceIdentifier","Extension.extension","udiDeviceIdentifier","","",0,*,"","","","Extension {[]} {[]}
 ","Unique Device Identifier (UDI) Barcode string on the packaging","Unique Device Identifier (UDI) Barcode string on the packaging.","","Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.
 Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).
-Element `DeviceDefinition.packaging.udiDeviceIdentifier` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:udiDeviceIdentifier.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -128,7 +129,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 "Extension.extension:packaging","Extension.extension","packaging","","",0,*,"","","","Extension {[]} {[]}
 ","Allows packages within packages","Allows packages within packages.","","Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.
 Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).
-Element `DeviceDefinition.packaging.packaging` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:packaging.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

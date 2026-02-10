@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
   "title" : "Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "linkId",
         "short" : "Unique id for the action in the PlanDefinition",
         "definition" : "An identifier that is unique within the PlanDefinition to allow linkage within the realized CarePlan and/or RequestOrchestration.",
-        "requirements" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -939,7 +939,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `PlanDefinition.action.input.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -984,7 +984,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that is to be provided as input to the action.",
-        "requirements" : "Element `PlanDefinition.action.input.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1030,7 +1030,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that provides data to this input.",
         "comment" : "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action",
-        "requirements" : "Element `PlanDefinition.action.input.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1135,7 +1135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `PlanDefinition.action.output.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.output.title` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1180,7 +1180,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that results as output from the action.",
-        "requirements" : "Element `PlanDefinition.action.output.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.output.requirement` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1226,7 +1226,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that is results as output from the action.",
         "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-        "requirements" : "Element `PlanDefinition.action.output.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.output.relatedData` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1605,7 +1605,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Where it should happen",
         "definition" : "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc.",
         "comment" : "May reference a specific clinical location or may just identify a type of location.",
-        "requirements" : "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1685,7 +1685,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1730,7 +1730,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1838,7 +1838,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "actorId",
         "short" : "What actor",
         "definition" : "A reference to the id element of the actor who will participate in this action.",
-        "requirements" : "Element `PlanDefinition.action.participant.actorId` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.participant.actorId` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1933,7 +1933,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "typeCanonical",
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `PlanDefinition.action.participant.typeCanonical` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1983,7 +1983,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
         "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-        "requirements" : "Element `PlanDefinition.action.participant.typeReference` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2105,7 +2105,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "function",
         "short" : "E.g. Author, Reviewer, Witness, etc",
         "definition" : "Indicates how the actor will be involved in the action - author, reviewer, witness, etc.",
-        "requirements" : "Element `PlanDefinition.action.participant.function` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified.",
+        "requirements" : "Element `PlanDefinition.action.participant.function` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {

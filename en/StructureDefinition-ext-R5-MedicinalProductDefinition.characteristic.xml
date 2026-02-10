@@ -65,7 +65,7 @@
   <title value="Cross-version Extension `R5.MedicinalProductDefinition.characteristic` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -82,7 +82,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `MedicinalProductDefinition.characteristic` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`MedicinalProductDefinition.characteristic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`&#xA;*  R4B: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `MedicinalProductDefinition.characteristic` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `MedicinalProductDefinition.characteristic` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`MedicinalProductDefinition.characteristic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`&#xA;*  R4B: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `MedicinalProductDefinition.characteristic` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -93,7 +93,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="MedicinalProduct"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -204,7 +204,7 @@
       <sliceName value="type"/>
       <short value="A code expressing the type of characteristic"/>
       <definition value="A code expressing the type of characteristic."/>
-      <requirements value="Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -369,7 +369,7 @@
       <short value="A value for the characteristic"/>
       <definition value="A value for the characteristic.text."/>
       <comment value="Text, as markdown, is intended to be used only when the item cannot ever reasonably be coded. Otherwise, for cases where a code is not available, but is feasible, use CodeableConcept.text."/>
-      <requirements value="Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.value[x]` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.value[x]` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -788,7 +788,7 @@
       <sliceName value="type"/>
       <short value="A code expressing the type of characteristic"/>
       <definition value="A code expressing the type of characteristic."/>
-      <requirements value="Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -829,7 +829,7 @@
       <short value="A value for the characteristic"/>
       <definition value="A value for the characteristic.text."/>
       <comment value="Text, as markdown, is intended to be used only when the item cannot ever reasonably be coded. Otherwise, for cases where a code is not available, but is feasible, use CodeableConcept.text."/>
-      <requirements value="Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.value[x]` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified."/>
+      <requirements value="Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.&#xA;Element `MedicinalProductDefinition.characteristic.value[x]` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

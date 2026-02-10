@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
   "title" : "Cross-version Extension `R5.TestScript.setup.action.assert` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -518,7 +518,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "short" : "fail | pass | skip | stop",
         "definition" : "The default manual completion outcome applied to this assertion.",
         "comment" : "Manual completion is used to pause the test engine execution and evaluation allowing an external review of the defined assert condition. The defaultManualCompletion defines the default manual completion outcome applied if one of the enumerated values is not applied.",
-        "requirements" : "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is mapped to FHIR R4 structure `TestScript`, but has no target element specified.",
+        "requirements" : "Element `TestScript.setup.action.assert.defaultManualCompletion` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.defaultManualCompletion` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1144,7 +1144,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "short" : "If this assert fails, will the current test execution stop?",
         "definition" : "Whether or not the current test execution will stop on failure for this assert.",
         "comment" : "If this element is specified and it is true, then assertion failures should not stop the current test execution from proceeding.",
-        "requirements" : "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is mapped to FHIR R4 structure `TestScript`, but has no target element specified.",
+        "requirements" : "Element `TestScript.setup.action.assert.stopTestOnFail` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.stopTestOnFail` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1332,7 +1332,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "short" : "Links or references to the testing requirements",
         "definition" : "Links or references providing traceability to the testing requirements for this assert.",
         "comment" : "TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements.",
-        "requirements" : "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is mapped to FHIR R4 structure `TestScript`, but has no target element specified.",
+        "requirements" : "Element `TestScript.setup.action.assert.requirement` is part of an existing definition because parent element `TestScript.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestScript.setup.action.assert.requirement` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1368,7 +1368,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "sliceName" : "link",
         "short" : "Link or reference to the testing requirement",
         "definition" : "Link or reference providing traceability to the testing requirement for this test.",
-        "requirements" : "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is mapped to FHIR R4 structure `TestScript`, but has no target element specified.",
+        "requirements" : "Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestScript.setup.action.assert.requirement.link[x]` is will have a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 0,
         "max" : "1",
         "base" : {

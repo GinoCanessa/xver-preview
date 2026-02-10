@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
   "title" : "Cross-version Profile for R5.ImplementationGuide for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7157268-06:00",
+  "date" : "2026-02-09T22:05:43.1608207-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,93 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
         "path" : "ImplementationGuide"
       },
       {
+        "id" : "ImplementationGuide.extension",
+        "path" : "ImplementationGuide.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ImplementationGuide.extension:versionAlgorithm",
+        "path" : "ImplementationGuide.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for ImplementationGuide.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.versionAlgorithm[x]` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ImplementationGuide.extension:purpose",
+        "path" : "ImplementationGuide.extension",
+        "sliceName" : "purpose",
+        "short" : "Cross-version extension for ImplementationGuide.purpose from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.purpose` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.purpose|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ImplementationGuide.extension:copyrightLabel",
+        "path" : "ImplementationGuide.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for ImplementationGuide.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.copyrightLabel` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "ImplementationGuide.fhirVersion.extension",
         "path" : "ImplementationGuide.fhirVersion.extension",
         "slicing" : {
@@ -170,9 +257,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
         }
       },
       {
-        "id" : "ImplementationGuide.fhirVersion.extension",
+        "id" : "ImplementationGuide.fhirVersion.extension:fhirVersion",
         "path" : "ImplementationGuide.fhirVersion.extension",
+        "sliceName" : "fhirVersion",
         "short" : "Cross-version extension for ImplementationGuide.fhirVersion from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -185,6 +274,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.fhirVersion|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ImplementationGuide.dependsOn.extension",
+        "path" : "ImplementationGuide.dependsOn.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ImplementationGuide.dependsOn.extension:reason",
+        "path" : "ImplementationGuide.dependsOn.extension",
+        "sliceName" : "reason",
+        "short" : "Cross-version extension for ImplementationGuide.dependsOn.reason from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.dependsOn.reason` is will have a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn.reason|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -211,9 +343,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
         }
       },
       {
-        "id" : "ImplementationGuide.global.type.extension",
+        "id" : "ImplementationGuide.global.type.extension:type",
         "path" : "ImplementationGuide.global.type.extension",
+        "sliceName" : "type",
         "short" : "Cross-version extension for ImplementationGuide.global.type from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -243,7 +377,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ImplementationGuide.definition.resource.fhirVersion",
@@ -252,9 +386,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
         }
       },
       {
-        "id" : "ImplementationGuide.definition.resource.fhirVersion.extension",
+        "id" : "ImplementationGuide.definition.resource.fhirVersion.extension:fhirVersion",
         "path" : "ImplementationGuide.definition.resource.fhirVersion.extension",
+        "sliceName" : "fhirVersion",
         "short" : "Cross-version extension for ImplementationGuide.definition.resource.fhirVersion from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -267,6 +403,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.fhirVersion|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ImplementationGuide.definition.page.extension",
+        "path" : "ImplementationGuide.definition.page.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ImplementationGuide.definition.page.extension:source",
+        "path" : "ImplementationGuide.definition.page.extension",
+        "sliceName" : "source",
+        "short" : "Cross-version extension for ImplementationGuide.definition.page.source[x] from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.definition.page.source[x]` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.source[x]` is will have a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page.source|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -293,9 +472,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Implement
         }
       },
       {
-        "id" : "ImplementationGuide.definition.parameter.code.extension",
+        "id" : "ImplementationGuide.definition.parameter.code.extension:code",
         "path" : "ImplementationGuide.definition.parameter.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for ImplementationGuide.definition.parameter.code from R5 for use in FHIR R4",
+        "comment" : "Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code`.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.6092891-06:00",
+  "date" : "2026-02-09T22:05:43.8428654-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EvidenceVariable` is representable via FHIR R4B Resource `EvidenceVariable`.\nElement `EvidenceVariable` is mapped to FHIR R4B element `EvidenceVariable`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EvidenceVariable` is representable via FHIR STU3 Resource `Basic`.\nElement `EvidenceVariable` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "FHIR R5 Resource `EvidenceVariable` is representable via FHIR R4 Resource `EvidenceVariable`.\nElement `EvidenceVariable` is mapped to FHIR R4 element `EvidenceVariable`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.meta` is mapped to FHIR R4B element `EvidenceVariable.meta`."
-            },
-            {
-              "code" : "Basic.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `EvidenceVariable.meta` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.meta` is mapped to FHIR R4 element `EvidenceVariable.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.implicitRules` is mapped to FHIR R4B element `EvidenceVariable.implicitRules`."
-            },
-            {
-              "code" : "Basic.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `EvidenceVariable.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.implicitRules` is mapped to FHIR R4 element `EvidenceVariable.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.language` is mapped to FHIR R4B element `EvidenceVariable.language`."
-            },
-            {
-              "code" : "Basic.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `EvidenceVariable.language` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.language` is mapped to FHIR R4 element `EvidenceVariable.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.text` is mapped to FHIR R4B element `EvidenceVariable.text`."
-            },
-            {
-              "code" : "Basic.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `EvidenceVariable.text` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.text` is mapped to FHIR R4 element `EvidenceVariable.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.contained` is mapped to FHIR R4B element `EvidenceVariable.contained`."
-            },
-            {
-              "code" : "Basic.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `EvidenceVariable.contained` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.contained` is mapped to FHIR R4 element `EvidenceVariable.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.url` is mapped to FHIR R4B element `EvidenceVariable.url`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.url` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.url` is mapped to FHIR R4 element `EvidenceVariable.url`."
             }
           ]
         },
@@ -197,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.identifier` is mapped to FHIR R4B element `EvidenceVariable.identifier`."
-            },
-            {
-              "code" : "Basic.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `EvidenceVariable.identifier` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.identifier` is mapped to FHIR R4 element `EvidenceVariable.identifier`."
             }
           ]
         },
@@ -213,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.version` is mapped to FHIR R4B element `EvidenceVariable.version`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:version",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.version` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.version` is mapped to FHIR R4 element `EvidenceVariable.version`."
             }
           ]
         },
@@ -227,14 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.versionAlgorithm[x]` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:versionAlgorithm",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.versionAlgorithm[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.versionAlgorithm[x]` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -245,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.name` is mapped to FHIR R4B element `EvidenceVariable.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.name` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.name` is mapped to FHIR R4 element `EvidenceVariable.name`."
             }
           ]
         },
@@ -261,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.title` is mapped to FHIR R4B element `EvidenceVariable.title`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.title` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.title` is mapped to FHIR R4 element `EvidenceVariable.title`."
             }
           ]
         },
@@ -277,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.shortTitle",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.shortTitle` is mapped to FHIR R4B element `EvidenceVariable.shortTitle`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:shortTitle",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.shortTitle` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.shortTitle` is mapped to FHIR R4 element `EvidenceVariable.shortTitle`."
             }
           ]
         },
@@ -293,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.status` is mapped to FHIR R4B element `EvidenceVariable.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.status` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.status` is mapped to FHIR R4 element `EvidenceVariable.status`."
             }
           ]
         },
@@ -307,14 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.experimental",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.experimental` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:experimental",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.experimental` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.experimental` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -325,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.date` is mapped to FHIR R4B element `EvidenceVariable.date`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.date` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.date` is mapped to FHIR R4 element `EvidenceVariable.date`."
             }
           ]
         },
@@ -341,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.publisher` is mapped to FHIR R4B element `EvidenceVariable.publisher`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:publisher",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.publisher` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.publisher` is mapped to FHIR R4 element `EvidenceVariable.publisher`."
             }
           ]
         },
@@ -357,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.contact` is mapped to FHIR R4B element `EvidenceVariable.contact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.contact` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.contact` is mapped to FHIR R4 element `EvidenceVariable.contact`."
             }
           ]
         },
@@ -373,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.description` is mapped to FHIR R4B element `EvidenceVariable.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.description` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.description` is mapped to FHIR R4 element `EvidenceVariable.description`."
             }
           ]
         },
@@ -389,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.note` is mapped to FHIR R4B element `EvidenceVariable.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.note` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.note` is mapped to FHIR R4 element `EvidenceVariable.note`."
             }
           ]
         },
@@ -405,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.useContext` is mapped to FHIR R4B element `EvidenceVariable.useContext`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.useContext` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.useContext` is mapped to FHIR R4 element `EvidenceVariable.useContext`."
             }
           ]
         },
@@ -419,14 +314,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.purpose",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.purpose` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:purpose",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.purpose` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.purpose` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -435,14 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyright",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.copyright` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:copyright",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.copyright` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.copyright` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -451,14 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.copyrightLabel` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:copyrightLabel",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.copyrightLabel` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.copyrightLabel` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -467,14 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "approvalDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.approvalDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.approvalDate` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:approvalDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.approvalDate` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.approvalDate` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -483,14 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastReviewDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.lastReviewDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.lastReviewDate` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:lastReviewDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.lastReviewDate` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.lastReviewDate` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -499,14 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "effectivePeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.effectivePeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.effectivePeriod` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:effectivePeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.effectivePeriod` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.effectivePeriod` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -517,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.author` is mapped to FHIR R4B element `EvidenceVariable.author`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:author",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `EvidenceVariable.author` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.author` is mapped to FHIR R4 element `EvidenceVariable.author`."
             }
           ]
         },
@@ -533,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.editor",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.editor` is mapped to FHIR R4B element `EvidenceVariable.editor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:editor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.editor` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.editor` is mapped to FHIR R4 element `EvidenceVariable.editor`."
             }
           ]
         },
@@ -549,12 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.reviewer",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.reviewer` is mapped to FHIR R4B element `EvidenceVariable.reviewer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:reviewer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.reviewer` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.reviewer` is mapped to FHIR R4 element `EvidenceVariable.reviewer`."
             }
           ]
         },
@@ -565,12 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.endorser",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.endorser` is mapped to FHIR R4B element `EvidenceVariable.endorser`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:endorser",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.endorser` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.endorser` is mapped to FHIR R4 element `EvidenceVariable.endorser`."
             }
           ]
         },
@@ -581,12 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.relatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.relatedArtifact` is mapped to FHIR R4B element `EvidenceVariable.relatedArtifact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:relatedArtifact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.relatedArtifact` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.relatedArtifact` is mapped to FHIR R4 element `EvidenceVariable.relatedArtifact`."
             }
           ]
         },
@@ -595,19 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actual",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.actual",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.actual` is mapped to FHIR R4B element `EvidenceVariable.actual`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.actual",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.actual` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:actual",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.actual` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.actual` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -618,17 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic` is mapped to FHIR R4B element `EvidenceVariable.characteristic`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic` is mapped to FHIR R4 element `EvidenceVariable.characteristic`."
             }
           ]
         },
@@ -637,19 +457,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "linkId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:linkId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -660,17 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.description` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.description` is mapped to FHIR R4B element `EvidenceVariable.characteristic.description`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.description` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.description` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.description` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.description` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.description` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.description` is mapped to FHIR R4 element `EvidenceVariable.characteristic.description`."
             }
           ]
         },
@@ -679,19 +479,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.note",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.note` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -702,17 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.exclude",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.exclude` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4B element `EvidenceVariable.characteristic.exclude`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:exclude",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.exclude` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.exclude` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.exclude` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:exclude",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.exclude` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.exclude` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4 element `EvidenceVariable.characteristic.exclude`."
             }
           ]
         },
@@ -721,19 +501,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionReference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionReference` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionReference` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:definitionReference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionReference` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -742,19 +512,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionCanonical",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCanonical` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionCanonical",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCanonical` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:definitionCanonical",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -763,19 +523,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionCodeableConcept",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCodeableConcept",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionCodeableConcept",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:definitionCodeableConcept",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -784,19 +534,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionExpression",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionExpression",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionExpression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:definitionExpression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionExpression` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -805,19 +545,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionId",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:definitionId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionId` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -826,19 +556,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionByTypeAndValue",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByTypeAndValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -847,19 +567,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByTypeAndValue:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -868,19 +578,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "method",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:method",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByTypeAndValue:method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -889,19 +589,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByTypeAndValue:device",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:device",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -910,19 +600,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByTypeAndValue:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -931,19 +611,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "offset",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:offset",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByTypeAndValue:offset",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:offset",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -952,19 +622,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definitionByCombination",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByCombination",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -973,19 +633,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByCombination:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.code` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -994,19 +644,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "threshold",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:threshold",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByCombination:threshold",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:threshold",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1015,19 +655,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "characteristic",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:characteristic",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:definitionByCombination:characteristic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:characteristic",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1036,19 +666,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instances[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.instances",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:instances",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:instances",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.instances[x]` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1057,19 +677,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "duration[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.duration",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:duration",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:duration",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.duration[x]` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1080,17 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4B element `EvidenceVariable.characteristic.timeFromStart`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:timeFromEvent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.timeFromEvent` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 element `EvidenceVariable.characteristic.timeFromStart`."
             }
           ]
         },
@@ -1099,24 +699,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart.description",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4B element `EvidenceVariable.characteristic.timeFromStart.description`."
-            },
-            {
-              "code" : "description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:timeFromEvent:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.description` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent:description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1125,24 +710,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart.note",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4B element `EvidenceVariable.characteristic.timeFromStart.note`."
-            },
-            {
-              "code" : "note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:timeFromEvent:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.note` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent:note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1151,24 +721,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "event[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.event",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4B structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "event",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:timeFromEvent:event",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.event[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent:event",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1177,24 +732,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart.quantity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4B element `EvidenceVariable.characteristic.timeFromStart.quantity`."
-            },
-            {
-              "code" : "quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:timeFromEvent:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.quantity` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent:quantity",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1203,24 +743,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "range",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart.range",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.characteristic.timeFromStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4B element `EvidenceVariable.characteristic.timeFromStart.range`."
-            },
-            {
-              "code" : "range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:characteristic:timeFromEvent:range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.range` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent:range",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1229,19 +754,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "handling",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.handling",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.handling` is mapped to FHIR R4B element `EvidenceVariable.handling`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.handling",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.handling` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:handling",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.handling` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.handling` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1250,24 +765,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.category",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category` is mapped to FHIR R4B element `EvidenceVariable.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.category` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1276,24 +776,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.category.name",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.name` is mapped to FHIR R4B element `EvidenceVariable.category.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.name` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.\nElement `EvidenceVariable.category.name` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:category:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.name` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.\nElement `EvidenceVariable.category.name` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.name` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.category.name` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.\nElement `EvidenceVariable.category.name` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         },
@@ -1302,24 +787,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable.category.value[x]",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EvidenceVariable#EvidenceVariable",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EvidenceVariable.category.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceVariable.category`.\nElement `EvidenceVariable.category.value[x]` is mapped to FHIR R4B element `EvidenceVariable.category.value[x]`.\nNote that the target element context `EvidenceVariable.category.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EvidenceVariable.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.value[x]` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.\nElement `EvidenceVariable.category.value[x]` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:category:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.value[x]` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.\nElement `EvidenceVariable.category.value[x]` is not mapped to FHIR STU3, since FHIR R5 `EvidenceVariable` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EvidenceVariable.category.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `EvidenceVariable` is not mapped."
+              "comment" : "Element `EvidenceVariable.category.value[x]` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.\nElement `EvidenceVariable.category.value[x]` is will have a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`."
             }
           ]
         }

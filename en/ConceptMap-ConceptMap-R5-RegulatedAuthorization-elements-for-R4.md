@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0886802-06:00",
+  "date" : "2026-02-09T22:05:44.1708442-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -83,11 +83,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "RegulatedAuthorization",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `RegulatedAuthorization` is representable via FHIR R4B Resource `RegulatedAuthorization`.\nElement `RegulatedAuthorization` is mapped to FHIR R4B element `RegulatedAuthorization`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization",
               "equivalence" : "relatedto",
               "comment" : "FHIR R5 Resource `RegulatedAuthorization` is representable via FHIR R4 Resource `Basic`.\nElement `RegulatedAuthorization` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -98,11 +93,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.meta",
           "display" : "meta",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.meta` is mapped to FHIR R4B element `RegulatedAuthorization.meta`."
-            },
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
@@ -115,11 +105,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "implicitRules",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.implicitRules` is mapped to FHIR R4B element `RegulatedAuthorization.implicitRules`."
-            },
-            {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `RegulatedAuthorization.implicitRules` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -130,11 +115,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.language",
           "display" : "language",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.language` is mapped to FHIR R4B element `RegulatedAuthorization.language`."
-            },
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
@@ -147,11 +127,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "text",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.text` is mapped to FHIR R4B element `RegulatedAuthorization.text`."
-            },
-            {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `RegulatedAuthorization.text` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -162,11 +137,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.contained",
           "display" : "contained",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.contained` is mapped to FHIR R4B element `RegulatedAuthorization.contained`."
-            },
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
@@ -179,11 +149,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.identifier` is mapped to FHIR R4B element `RegulatedAuthorization.identifier`."
-            },
-            {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
               "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `RegulatedAuthorization.identifier` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -195,14 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subject",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.subject",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `RegulatedAuthorization.subject` is mapped to FHIR R4B element `RegulatedAuthorization.subject`."
-            },
-            {
               "code" : "Basic.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `RegulatedAuthorization.subject` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.subject` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -210,11 +170,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.type",
           "display" : "type",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.type` is mapped to FHIR R4B element `RegulatedAuthorization.type`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:type",
               "equivalence" : "relatedto",
@@ -227,11 +182,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.description",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.description` is mapped to FHIR R4B element `RegulatedAuthorization.description`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:description",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.description` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -242,11 +192,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.region",
           "display" : "region",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.region",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.region` is mapped to FHIR R4B element `RegulatedAuthorization.region`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:region",
               "equivalence" : "relatedto",
@@ -259,11 +204,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.status` is mapped to FHIR R4B element `RegulatedAuthorization.status`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:status",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.status` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -274,11 +214,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.statusDate",
           "display" : "statusDate",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.statusDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.statusDate` is mapped to FHIR R4B element `RegulatedAuthorization.statusDate`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:statusDate",
               "equivalence" : "relatedto",
@@ -291,11 +226,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "validityPeriod",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.validityPeriod",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.validityPeriod` is mapped to FHIR R4B element `RegulatedAuthorization.validityPeriod`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:validityPeriod",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.validityPeriod` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -306,11 +236,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.indication",
           "display" : "indication",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.indication",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.indication` is mapped to FHIR R4B element `RegulatedAuthorization.indication`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:indication",
               "equivalence" : "relatedto",
@@ -323,11 +248,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "intendedUse",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.intendedUse",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.intendedUse` is mapped to FHIR R4B element `RegulatedAuthorization.intendedUse`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:intendedUse",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.intendedUse` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
@@ -338,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RegulatedAuthorization.basis",
           "display" : "basis",
           "target" : [
-            {
-              "code" : "#RegulatedAuthorization.basis",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.basis` is mapped to FHIR R4B element `RegulatedAuthorization.basis`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:basis",
               "equivalence" : "relatedto",
@@ -355,14 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "holder",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.holder",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.holder` is mapped to FHIR R4B element `RegulatedAuthorization.holder`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:holder",
               "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.holder` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.holder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.holder` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -371,14 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "regulator",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.regulator",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.regulator` is mapped to FHIR R4B element `RegulatedAuthorization.regulator`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:regulator",
               "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.regulator` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.regulator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.regulator` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -387,14 +292,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "attachedDocument",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.attachedDocument",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.attachedDocument` is mapped to FHIR R4B structure `RegulatedAuthorization`, but has no target element specified."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:attachedDocument",
               "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.attachedDocument` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RegulatedAuthorization.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RegulatedAuthorization.attachedDocument` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -403,19 +303,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "case",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.case",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case` is mapped to FHIR R4B element `RegulatedAuthorization.case`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:case",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.case` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case` is not mapped to FHIR STU3, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -424,19 +314,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.case.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.identifier` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.identifier` is mapped to FHIR R4B element `RegulatedAuthorization.case.identifier`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:case:identifier",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.case.identifier` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.identifier` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.identifier` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.identifier` is not mapped to FHIR STU3, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -445,19 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.case.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.type` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.type` is mapped to FHIR R4B element `RegulatedAuthorization.case.type`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:case:type",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.case.type` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.type` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.type` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.type` is not mapped to FHIR STU3, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -466,19 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.case.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.status` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.status` is mapped to FHIR R4B element `RegulatedAuthorization.case.status`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:case:status",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.case.status` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.status` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.status` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.status` is not mapped to FHIR STU3, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -487,19 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date[x]",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.case.date[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.date[x]` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `RegulatedAuthorization.case.date[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RegulatedAuthorization.case`.\nElement `RegulatedAuthorization.case.date[x]` is mapped to FHIR R4B element `RegulatedAuthorization.case.date[x]`.\nNote that the target element context `RegulatedAuthorization.case.date[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RegulatedAuthorization.case`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:case:date",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.case.date[x]` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.date[x]` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.date[x]` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case:date",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.date[x]` is not mapped to FHIR STU3, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         },
@@ -508,19 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "application",
           "target" : [
             {
-              "code" : "#RegulatedAuthorization.case.application",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.application` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.application` is mapped to FHIR R4B element `RegulatedAuthorization.case.application`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:case:application",
               "equivalence" : "relatedto",
               "comment" : "Element `RegulatedAuthorization.case.application` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.application` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a component extension (e.g., if this element is used as a content reference).\nElement `RegulatedAuthorization.case.application` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization:http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case:application",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RegulatedAuthorization.case.application` is not mapped to FHIR STU3, since FHIR R5 `RegulatedAuthorization` is not mapped."
             }
           ]
         }

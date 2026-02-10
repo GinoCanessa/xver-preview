@@ -7,7 +7,7 @@ This cross-version profile allows R5 Account content to be represented via FHIR 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Appointment.account` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.account.md), [Cross-version Extension `R5.PaymentReconciliation.allocation.account` for use in FHIR R4](StructureDefinition-ext-R5-PR.all.account.md) and [Cross-version Extension `R5.PaymentReconciliation.allocation.target` for use in FHIR R4](StructureDefinition-ext-R5-PR.all.target.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Account)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Account.c
   "title" : "Cross-version Profile for R5.Account for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.607575-06:00",
+  "date" : "2026-02-09T22:05:42.9587645-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,181 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Account.c
       {
         "id" : "Account",
         "path" : "Account"
+      },
+      {
+        "id" : "Account.extension",
+        "path" : "Account.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Account.extension:billingStatus",
+        "path" : "Account.extension",
+        "sliceName" : "billingStatus",
+        "short" : "Cross-version extension for Account.billingStatus from R5 for use in FHIR R4",
+        "comment" : "Element `Account.billingStatus` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.billingStatus|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Account.extension:diagnosis",
+        "path" : "Account.extension",
+        "sliceName" : "diagnosis",
+        "short" : "Cross-version extension for Account.diagnosis from R5 for use in FHIR R4",
+        "comment" : "Element `Account.diagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Account.extension:procedure",
+        "path" : "Account.extension",
+        "sliceName" : "procedure",
+        "short" : "Cross-version extension for Account.procedure from R5 for use in FHIR R4",
+        "comment" : "Element `Account.procedure` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Account.extension:currency",
+        "path" : "Account.extension",
+        "sliceName" : "currency",
+        "short" : "Cross-version extension for Account.currency from R5 for use in FHIR R4",
+        "comment" : "Element `Account.currency` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.currency|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Account.extension:balance",
+        "path" : "Account.extension",
+        "sliceName" : "balance",
+        "short" : "Cross-version extension for Account.balance from R5 for use in FHIR R4",
+        "comment" : "Element `Account.balance` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Account.extension:calculatedAt",
+        "path" : "Account.extension",
+        "sliceName" : "calculatedAt",
+        "short" : "Cross-version extension for Account.calculatedAt from R5 for use in FHIR R4",
+        "comment" : "Element `Account.calculatedAt` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.calculatedAt|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Account.extension:relationship",
+        "path" : "Account.extension",
+        "sliceName" : "relationship",
+        "short" : "Cross-version extension for Account.relatedAccount.relationship from R5 for use in FHIR R4",
+        "comment" : "Element `Account.relatedAccount.relationship` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount.relationship|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

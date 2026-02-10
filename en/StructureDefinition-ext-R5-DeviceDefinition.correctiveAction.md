@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `DeviceDefinition.co
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.DeviceDefinition for use in FHIR R4](StructureDefinition-profile-DeviceDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-DeviceDefinition.correctiveAction)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "title" : "Cross-version Extension `R5.DeviceDefinition.correctiveAction` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.correctiveAction` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.correctiveAction` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.correctiveAction` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.correctiveAction` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.correctiveAction` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.correctiveAction` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.correctiveAction` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.correctiveAction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "DeviceDefinition"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "short" : "Whether the corrective action was a recall",
         "definition" : "Whether the last corrective action known for this device was a recall.",
         "comment" : "When a field safety action has been initiated but not yet resulted in a recall, this element will be set to 'false'.",
-        "requirements" : "Element `DeviceDefinition.correctiveAction.recall` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.recall` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.correctiveAction.recall` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.recall` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -231,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "scope",
         "short" : "model | lot-numbers | serial-numbers",
         "definition" : "The scope of the corrective action - whether the action targeted all units of a given device model, or only a specific set of batches identified by lot numbers, or individually identified devices identified by the serial name.",
-        "requirements" : "Element `DeviceDefinition.correctiveAction.scope` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.scope` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.correctiveAction.scope` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.scope` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "period",
         "short" : "Start and end dates of the  corrective action",
         "definition" : "Start and end dates of the  corrective action.",
-        "requirements" : "Element `DeviceDefinition.correctiveAction.period` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.period` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.",
+        "requirements" : "Element `DeviceDefinition.correctiveAction.period` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.period` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {

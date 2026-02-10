@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Transport` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -7547,7 +7547,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7758,7 +7758,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -16047,7 +16047,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -16258,7 +16258,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -24469,7 +24469,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -24680,7 +24680,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -27538,7 +27538,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -27585,7 +27585,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -29339,7 +29339,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -29386,7 +29386,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -31138,7 +31138,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -31185,7 +31185,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

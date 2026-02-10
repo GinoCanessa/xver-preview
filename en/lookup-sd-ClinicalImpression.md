@@ -29,7 +29,7 @@ A computable version of the following element information is available in: [Conc
 | [`ClinicalImpression.performer`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression.assessor](https://hl7.org/fhir/R4/ClinicalImpression.html#resource) |
 | [`ClinicalImpression.previous`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression.previous](https://hl7.org/fhir/R4/ClinicalImpression.html#resource) |
 | [`ClinicalImpression.problem`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression.problem](https://hl7.org/fhir/R4/ClinicalImpression.html#resource) |
-| [`ClinicalImpression.changePattern`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern](StructureDefinition-ext-R5-ClinicalImpression.changePattern.md) |
+| [`ClinicalImpression.changePattern`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression](https://hl7.org/fhir/R4/ClinicalImpression.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern](StructureDefinition-ext-R5-ClinicalImpression.changePattern.md) |
 | [`ClinicalImpression.protocol`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression.protocol](https://hl7.org/fhir/R4/ClinicalImpression.html#resource) |
 | [`ClinicalImpression.summary`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression.summary](https://hl7.org/fhir/R4/ClinicalImpression.html#resource) |
 | [`ClinicalImpression.finding`](https://hl7.org/fhir/R5/ClinicalImpression.html#resource) | [ClinicalImpression.finding](https://hl7.org/fhir/R4/ClinicalImpression.html#resource) |

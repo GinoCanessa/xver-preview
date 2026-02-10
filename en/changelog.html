@@ -202,7 +202,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="001-snapshot-3">0.0.1-snapshot-3</h3>
 
-<ul class="task-list">
+<ul>
   <li>Fix: resources mapping to <code class="language-plaintext highlighter-rouge">Basic</code> still need a <code class="language-plaintext highlighter-rouge">[Source.]code</code> extension, <code class="language-plaintext highlighter-rouge">Basic.code</code> has a necessary meaning. Excluded <code class="language-plaintext highlighter-rouge">Basic.code</code> from automatic removal when mapping to <code class="language-plaintext highlighter-rouge">Basic</code>.</li>
   <li>Fix: non-resource structures should not create profiles of <code class="language-plaintext highlighter-rouge">Basic</code> resources. Only resource structures should create <code class="language-plaintext highlighter-rouge">Basic</code> profiles.</li>
   <li>Updated to use language-based fragment inclusions.</li>
@@ -226,29 +226,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Fix: removed CodeSystems that are experimental and have 'example' in their id from exports.</li>
   <li>Fix: added prefixes to all exported content to avoid collisions</li>
   <li>Updated structure lookup files to link to the ancestor extension definition when the target is a slice in an extension definition.</li>
-  <li>
-    <p>Fix: all extension slicing is <code class="language-plaintext highlighter-rouge">open</code> in extension definitions</p>
-  </li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Fix: extensions that can target multiple structures:
-    <ul>
-      <li>Should they join into the same extension via multiple contexts</li>
-      <li>Should they be defined as multiple extensions with the target structure name included</li>
-    </ul>
-  </li>
-  <li class="task-list-item">[?] Fix: regression: use <code class="language-plaintext highlighter-rouge">alternate-canonical</code> for target types that are not canonicals in target version
-    <ul>
-      <li>Determine if we <em>actually</em> want this</li>
-    </ul>
-  </li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Port Search Parameters for new resources
-    <ul class="task-list">
-      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Determine if we can add new search parameters due to additional elements</li>
-    </ul>
-  </li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Port Operation Definitions for new resources</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add ImplementationGuide.definition.grouping to organize resources in the IG</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add support for STU3 package generation</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add support for DSTU2 package generation</li>
+  <li>Fix: all extension slicing is <code class="language-plaintext highlighter-rouge">open</code> in extension definitions</li>
+  <li>Added: use <code class="language-plaintext highlighter-rouge">alternate-canonical</code> to represent any canonical definition</li>
+  <li>Added: use <code class="language-plaintext highlighter-rouge">alternate-reference</code> to represent any reference definition</li>
+  <li>Added: use <code class="language-plaintext highlighter-rouge">alternate-canonical</code> and <code class="language-plaintext highlighter-rouge">alternate-reference</code> in place of specific parts of choice types.</li>
 </ul>
 
 <h3 id="001-snapshot-2">0.0.1-snapshot-2</h3>
@@ -361,8 +342,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-06 13:22:00 -0600">
-    2026-02-06
+  <span title="2026-02-09 22:08:00 -0600">
+    2026-02-09
   </span>
 
           <br/>

@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Organization.qualification` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Organization.qualification` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Organization.qualification` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Organization.qualification` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Organization.qualification` is mapped to FHIR R4 structure `Organization`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Organization.qualification` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Organization.qualification` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Organization.qualification` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Organization.qualification` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "Organization" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -313,7 +313,7 @@
        fhir:sliceName [ fhir:v "identifier" ] ;
        fhir:short [ fhir:v "An identifier for this qualification for the organization" ] ;
        fhir:definition [ fhir:v "An identifier allocated to this qualification for this organization." ] ;
-       fhir:requirements [ fhir:v "Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -524,7 +524,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Coded representation of the qualification" ] ;
        fhir:definition [ fhir:v "Coded representation of the qualification." ] ;
-       fhir:requirements [ fhir:v "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -735,7 +735,7 @@
        fhir:sliceName [ fhir:v "period" ] ;
        fhir:short [ fhir:v "Period during which the qualification is valid" ] ;
        fhir:definition [ fhir:v "Period during which the qualification is valid." ] ;
-       fhir:requirements [ fhir:v "Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -946,7 +946,7 @@
        fhir:sliceName [ fhir:v "issuer" ] ;
        fhir:short [ fhir:v "Organization that regulates and issues the qualification" ] ;
        fhir:definition [ fhir:v "Organization that regulates and issues the qualification." ] ;
-       fhir:requirements [ fhir:v "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.issuer` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1520,7 +1520,7 @@
        fhir:sliceName [ fhir:v "identifier" ] ;
        fhir:short [ fhir:v "An identifier for this qualification for the organization" ] ;
        fhir:definition [ fhir:v "An identifier allocated to this qualification for this organization." ] ;
-       fhir:requirements [ fhir:v "Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1567,7 +1567,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Coded representation of the qualification" ] ;
        fhir:definition [ fhir:v "Coded representation of the qualification." ] ;
-       fhir:requirements [ fhir:v "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1614,7 +1614,7 @@
        fhir:sliceName [ fhir:v "period" ] ;
        fhir:short [ fhir:v "Period during which the qualification is valid" ] ;
        fhir:definition [ fhir:v "Period during which the qualification is valid." ] ;
-       fhir:requirements [ fhir:v "Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1661,7 +1661,7 @@
        fhir:sliceName [ fhir:v "issuer" ] ;
        fhir:short [ fhir:v "Organization that regulates and issues the qualification" ] ;
        fhir:definition [ fhir:v "Organization that regulates and issues the qualification." ] ;
-       fhir:requirements [ fhir:v "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.issuer` is mapped to FHIR R4 structure `Organization`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

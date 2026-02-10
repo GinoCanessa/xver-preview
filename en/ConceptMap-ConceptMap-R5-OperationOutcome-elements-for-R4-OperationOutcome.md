@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.7860704-06:00",
+  "date" : "2026-02-09T22:05:44.0988683-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `OperationOutcome` is representable via FHIR R4B Resource `OperationOutcome`.\nElement `OperationOutcome` is mapped to FHIR R4B element `OperationOutcome`."
+              "comment" : "FHIR R5 Resource `OperationOutcome` is representable via FHIR R4 Resource `OperationOutcome`.\nElement `OperationOutcome` is mapped to FHIR R4 element `OperationOutcome`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.meta` is mapped to FHIR R4B element `OperationOutcome.meta`."
+              "comment" : "Element `OperationOutcome.meta` is mapped to FHIR R4 element `OperationOutcome.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.implicitRules` is mapped to FHIR R4B element `OperationOutcome.implicitRules`."
+              "comment" : "Element `OperationOutcome.implicitRules` is mapped to FHIR R4 element `OperationOutcome.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.language` is mapped to FHIR R4B element `OperationOutcome.language`."
+              "comment" : "Element `OperationOutcome.language` is mapped to FHIR R4 element `OperationOutcome.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.text` is mapped to FHIR R4B element `OperationOutcome.text`."
+              "comment" : "Element `OperationOutcome.text` is mapped to FHIR R4 element `OperationOutcome.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.contained` is mapped to FHIR R4B element `OperationOutcome.contained`."
+              "comment" : "Element `OperationOutcome.contained` is mapped to FHIR R4 element `OperationOutcome.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue` is mapped to FHIR R4B element `OperationOutcome.issue`."
+              "comment" : "Element `OperationOutcome.issue` is mapped to FHIR R4 element `OperationOutcome.issue`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.severity",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.severity` is mapped to FHIR R4B element `OperationOutcome.issue.severity`."
+              "comment" : "Element `OperationOutcome.issue.severity` is mapped to FHIR R4 element `OperationOutcome.issue.severity`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.code` is mapped to FHIR R4B element `OperationOutcome.issue.code`."
+              "comment" : "Element `OperationOutcome.issue.code` is mapped to FHIR R4 element `OperationOutcome.issue.code`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.details",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.details` is mapped to FHIR R4B element `OperationOutcome.issue.details`."
+              "comment" : "Element `OperationOutcome.issue.details` is mapped to FHIR R4 element `OperationOutcome.issue.details`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.diagnostics",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.diagnostics` is mapped to FHIR R4B element `OperationOutcome.issue.diagnostics`."
+              "comment" : "Element `OperationOutcome.issue.diagnostics` is mapped to FHIR R4 element `OperationOutcome.issue.diagnostics`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.location` is mapped to FHIR R4B element `OperationOutcome.issue.location`."
+              "comment" : "Element `OperationOutcome.issue.location` is mapped to FHIR R4 element `OperationOutcome.issue.location`."
             }
           ]
         },
@@ -217,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.expression` is mapped to FHIR R4B element `OperationOutcome.issue.expression`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue.expression",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.expression` is mapped to FHIR DSTU2 structure `OperationOutcome`, but has no target element specified."
+              "comment" : "Element `OperationOutcome.issue.expression` is mapped to FHIR R4 element `OperationOutcome.issue.expression`."
             }
           ]
         }

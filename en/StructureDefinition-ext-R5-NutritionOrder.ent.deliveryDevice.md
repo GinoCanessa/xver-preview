@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `NutritionOrder.ente
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.NutritionOrder for use in FHIR R4](StructureDefinition-profile-NutritionOrder.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-NutritionOrder.ent.deliveryDevice)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
   "title" : "Cross-version Extension `R5.NutritionOrder.enteralFormula.deliveryDevice` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `NutritionOrder.enteralFormula.deliveryDevice` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`NutritionOrder.enteralFormula.deliveryDevice` 0..* `CodeableReference(http://hl7.org/fhir/StructureDefinition/DeviceDefinition)`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `NutritionOrder.enteralFormula.deliveryDevice` 0..* `CodeableReference(http://hl7.org/fhir/StructureDefinition/DeviceDefinition)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `NutritionOrder.enteralFormula.deliveryDevice` is mapped to FHIR R4 structure `NutritionOrder`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `NutritionOrder.enteralFormula.deliveryDevice` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`NutritionOrder.enteralFormula.deliveryDevice` 0..* `CodeableReference(http://hl7.org/fhir/StructureDefinition/DeviceDefinition)`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `NutritionOrder.enteralFormula.deliveryDevice` 0..* `CodeableReference(http://hl7.org/fhir/StructureDefinition/DeviceDefinition)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `NutritionOrder.enteralFormula.deliveryDevice` is will have a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "NutritionOrder.enteralFormula"
     }
   ],
   "type" : "Extension",
@@ -228,7 +228,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -273,7 +273,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionO
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {

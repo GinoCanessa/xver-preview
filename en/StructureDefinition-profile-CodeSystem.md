@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CodeSyste
   "title" : "Cross-version Profile for R5.CodeSystem for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6447484-06:00",
+  "date" : "2026-02-09T22:05:43.0266891-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,269 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CodeSyste
         "path" : "CodeSystem"
       },
       {
+        "id" : "CodeSystem.extension",
+        "path" : "CodeSystem.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CodeSystem.extension:versionAlgorithm",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for CodeSystem.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.versionAlgorithm[x]` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:copyrightLabel",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for CodeSystem.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.copyrightLabel` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:approvalDate",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "approvalDate",
+        "short" : "Cross-version extension for CodeSystem.approvalDate from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.approvalDate` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.approvalDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:lastReviewDate",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "lastReviewDate",
+        "short" : "Cross-version extension for CodeSystem.lastReviewDate from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.lastReviewDate` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.lastReviewDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:effectivePeriod",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "effectivePeriod",
+        "short" : "Cross-version extension for CodeSystem.effectivePeriod from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.effectivePeriod` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.effectivePeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:topic",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "topic",
+        "short" : "Cross-version extension for CodeSystem.topic from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.topic` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.topic|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:author",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "author",
+        "short" : "Cross-version extension for CodeSystem.author from R5 for use in FHIR R4",
+        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `CodeSystem.author` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.author|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:editor",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "editor",
+        "short" : "Cross-version extension for CodeSystem.editor from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.editor` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.editor|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:reviewer",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "reviewer",
+        "short" : "Cross-version extension for CodeSystem.reviewer from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.reviewer` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.reviewer|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:endorser",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "endorser",
+        "short" : "Cross-version extension for CodeSystem.endorser from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.endorser` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.extension:relatedArtifact",
+        "path" : "CodeSystem.extension",
+        "sliceName" : "relatedArtifact",
+        "short" : "Cross-version extension for CodeSystem.relatedArtifact from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.relatedArtifact` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.relatedArtifact|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "CodeSystem.filter.operator.extension",
         "path" : "CodeSystem.filter.operator.extension",
         "slicing" : {
@@ -170,9 +433,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CodeSyste
         }
       },
       {
-        "id" : "CodeSystem.filter.operator.extension",
+        "id" : "CodeSystem.filter.operator.extension:operator",
         "path" : "CodeSystem.filter.operator.extension",
+        "sliceName" : "operator",
         "short" : "Cross-version extension for CodeSystem.filter.operator from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -185,6 +450,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CodeSyste
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter.operator|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CodeSystem.concept.designation.extension",
+        "path" : "CodeSystem.concept.designation.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CodeSystem.concept.designation.extension:additionalUse",
+        "path" : "CodeSystem.concept.designation.extension",
+        "sliceName" : "additionalUse",
+        "short" : "Cross-version extension for CodeSystem.concept.designation.additionalUse from R5 for use in FHIR R4",
+        "comment" : "Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse|0.0.1-snapshot-3"
             ]
           }
         ]

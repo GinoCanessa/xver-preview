@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`MessageDefinition.url`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.url](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.identifier`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.identifier](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.version`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.version](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.versionAlgorithm](StructureDefinition-ext-R5-MessageDefinition.versionAlgorithm.md) |
+| [`MessageDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.versionAlgorithm](StructureDefinition-ext-R5-MessageDefinition.versionAlgorithm.md) |
 | [`MessageDefinition.name`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.name](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.title`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.title](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.replaces`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.replaces](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
@@ -35,7 +35,7 @@ A computable version of the following element information is available in: [Conc
 | [`MessageDefinition.jurisdiction`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.jurisdiction](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.purpose`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.purpose](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.copyright`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.copyright](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.copyrightLabel`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel](StructureDefinition-ext-R5-MessageDefinition.copyrightLabel.md) |
+| [`MessageDefinition.copyrightLabel`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel](StructureDefinition-ext-R5-MessageDefinition.copyrightLabel.md) |
 | [`MessageDefinition.base`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.base](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.parent`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.parent](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.event[x]`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.event[x]](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |

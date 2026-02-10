@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
   "title" : "Cross-version Extension `R5.ConceptMap.group.element.target.dependsOn` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -282,7 +282,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap
         "sliceName" : "valueSet",
         "short" : "The mapping depends on a data element with a value from this value set",
         "definition" : "This mapping applies if the data element value is a code from this value set.",
-        "requirements" : "Element `ConceptMap.group.element.target.dependsOn.valueSet` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a component extension (e.g., if this element is used as a content reference).\nElement `ConceptMap.group.element.target.dependsOn.valueSet` is mapped to FHIR R4 structure `ConceptMap`, but has no target element specified.",
+        "requirements" : "Element `ConceptMap.group.element.target.dependsOn.valueSet` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.dependsOn.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.target.dependsOn.valueSet` is will have a context of ConceptMap.group.element.target.dependsOn based on following the parent source element upwards and mapping to `ConceptMap`.",
         "min" : 0,
         "max" : "1",
         "base" : {

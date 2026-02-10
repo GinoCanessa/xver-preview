@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.sourceMaterial` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "type",
         "short" : "Classification of the origin of the raw material. e.g. cat hair is an Animal source type",
         "definition" : "A classification that provides the origin of the raw material. Example: cat hair would be an Animal source type.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.type` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.type` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "genus",
         "short" : "The genus of an organism e.g. the Latin epithet of the plant/animal scientific name",
         "definition" : "The genus of an organism, typically referring to the Latin epithet of the genus element of the plant/animal scientific name.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.genus` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.genus` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "species",
         "short" : "The species of an organism e.g. the Latin epithet of the species of the plant/animal",
         "definition" : "The species of an organism, typically referring to the Latin epithet of the species of the plant/animal.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.species` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.species` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -334,7 +334,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "part",
         "short" : "An anatomical origin of the source material within an organism",
         "definition" : "An anatomical origin of the source material within an organism.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.part` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.part` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -384,7 +384,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "countryOfOrigin",
         "short" : "The country or countries where the material is harvested",
         "definition" : "The country or countries where the material is harvested.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "*",
         "base" : {

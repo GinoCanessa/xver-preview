@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.SubstanceDefinition.characterization` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.characterization` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.characterization` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.characterization` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.characterization` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "SubstanceSpecification" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "technique" ] ;
        fhir:short [ fhir:v "The method used to find the characterization e.g. HPLC" ] ;
        fhir:definition [ fhir:v "The method used to elucidate the characterization of the drug substance. Example: HPLC." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -533,7 +533,7 @@
        fhir:sliceName [ fhir:v "form" ] ;
        fhir:short [ fhir:v "Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form" ] ;
        fhir:definition [ fhir:v "Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -744,7 +744,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "The description or justification in support of the interpretation of the data file" ] ;
        fhir:definition [ fhir:v "The description or justification in support of the interpretation of the data file." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -955,7 +955,7 @@
        fhir:sliceName [ fhir:v "file" ] ;
        fhir:short [ fhir:v "The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis" ] ;
        fhir:definition [ fhir:v "The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1522,7 +1522,7 @@
        fhir:sliceName [ fhir:v "technique" ] ;
        fhir:short [ fhir:v "The method used to find the characterization e.g. HPLC" ] ;
        fhir:definition [ fhir:v "The method used to elucidate the characterization of the drug substance. Example: HPLC." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1577,7 +1577,7 @@
        fhir:sliceName [ fhir:v "form" ] ;
        fhir:short [ fhir:v "Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form" ] ;
        fhir:definition [ fhir:v "Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1624,7 +1624,7 @@
        fhir:sliceName [ fhir:v "description" ] ;
        fhir:short [ fhir:v "The description or justification in support of the interpretation of the data file" ] ;
        fhir:definition [ fhir:v "The description or justification in support of the interpretation of the data file." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1671,7 +1671,7 @@
        fhir:sliceName [ fhir:v "file" ] ;
        fhir:short [ fhir:v "The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis" ] ;
        fhir:definition [ fhir:v "The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis." ] ;
-       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

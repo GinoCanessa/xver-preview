@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Measure.term` for u
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Measure for use in FHIR R4](StructureDefinition-profile-Measure.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Measure.term)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.te
   "title" : "Cross-version Extension `R5.Measure.term` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.te
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Measure.term` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Measure.term` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Measure.term` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Measure.term` is mapped to FHIR R4 structure `Measure`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Measure.term` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Measure.term` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Measure.term` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Measure.term` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.te
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Measure"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.te
         "sliceName" : "code",
         "short" : "What term?",
         "definition" : "A codeable representation of the defined term.",
-        "requirements" : "Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` is mapped to FHIR R4 structure `Measure`, but has no target element specified.",
+        "requirements" : "Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.te
         "sliceName" : "definition",
         "short" : "Meaning of the term",
         "definition" : "Provides a definition for the term as used within the measure.",
-        "requirements" : "Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` is mapped to FHIR R4 structure `Measure`, but has no target element specified.",
+        "requirements" : "Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
         "min" : 0,
         "max" : "1",
         "base" : {

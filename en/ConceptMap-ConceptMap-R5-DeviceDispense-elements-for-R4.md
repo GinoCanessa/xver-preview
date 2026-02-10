@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.1791472-06:00",
+  "date" : "2026-02-09T22:05:43.7601046-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceDispense` is representable via FHIR R4B Resource `Basic`.\nElement `DeviceDispense` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `DeviceDispense.meta` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.meta` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `DeviceDispense.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.implicitRules` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `DeviceDispense.language` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.language` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `DeviceDispense.text` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.text` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `DeviceDispense.contained` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.contained` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `DeviceDispense.identifier` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.identifier` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.basedOn` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.basedOn` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.partOf` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.partOf` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:status",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.status` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.status` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.statusReason` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.statusReason` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:category",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.category` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.category` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.device` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.device` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceDispense.subject` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.subject` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.\nElement matches Basic element path `Basic.subject` and is compatible, use that element instead."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:receiver",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.receiver` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.receiver` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.encounter` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.encounter` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:supportingInformation",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.supportingInformation` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.supportingInformation` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -269,11 +269,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "DeviceDispense.performer",
           "display" : "performer",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.performer` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer",
               "equivalence" : "relatedto",
@@ -286,11 +281,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer:function",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.performer.function` is part of an existing definition because parent element `DeviceDispense.performer` requires a cross-version extension.\nElement `DeviceDispense.performer.function` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer:function",
               "equivalence" : "relatedto",
               "comment" : "Element `DeviceDispense.performer.function` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
@@ -301,11 +291,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "DeviceDispense.performer.actor",
           "display" : "actor",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer:actor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.performer.actor` is part of an existing definition because parent element `DeviceDispense.performer` requires a cross-version extension.\nElement `DeviceDispense.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer:actor",
               "equivalence" : "relatedto",
@@ -320,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:location",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.location` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.location` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -331,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.type` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.type` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -342,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.quantity` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.quantity` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -353,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:preparedDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.preparedDate` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.preparedDate` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -364,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:whenHandedOver",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.whenHandedOver` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.whenHandedOver` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -375,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.destination` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.destination` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -386,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:note",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.note` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.note` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -397,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:usageInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.usageInstruction` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.usageInstruction` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         },
@@ -408,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:eventHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDispense.eventHistory` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped."
+              "comment" : "Element `DeviceDispense.eventHistory` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped."
             }
           ]
         }

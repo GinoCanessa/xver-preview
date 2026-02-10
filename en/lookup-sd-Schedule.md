@@ -23,7 +23,7 @@ A computable version of the following element information is available in: [Conc
 | [`Schedule.serviceCategory`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule.serviceCategory](https://hl7.org/fhir/R4/Schedule.html#resource) |
 | [`Schedule.serviceType`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule.serviceType](https://hl7.org/fhir/R4/Schedule.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.serviceType](StructureDefinition-ext-R5-Schedule.serviceType.md) |
 | [`Schedule.specialty`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule.specialty](https://hl7.org/fhir/R4/Schedule.html#resource) |
-| [`Schedule.name`](https://hl7.org/fhir/R5/Schedule.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name](StructureDefinition-ext-R5-Schedule.name.md) |
+| [`Schedule.name`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule](https://hl7.org/fhir/R4/Schedule.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name](StructureDefinition-ext-R5-Schedule.name.md) |
 | [`Schedule.actor`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule.actor](https://hl7.org/fhir/R4/Schedule.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.actor](StructureDefinition-ext-R5-Schedule.actor.md) |
 | [`Schedule.planningHorizon`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule.planningHorizon](https://hl7.org/fhir/R4/Schedule.html#resource) |
 | [`Schedule.comment`](https://hl7.org/fhir/R5/Schedule.html#resource) | [Schedule.comment](https://hl7.org/fhir/R4/Schedule.html#resource) |

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Pointer to specific item from the PlanDefinition" ] ;
        fhir:definition [ fhir:v "The linkId of the action from the PlanDefinition that corresponds to this action in the RequestOrchestration resource." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2017,7 +2017,7 @@
        fhir:sliceName [ fhir:v "goal" ] ;
        fhir:short [ fhir:v "What goals" ] ;
        fhir:definition [ fhir:v "Goals that are intended to be achieved by following the requests in this action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.goal` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3121,7 +3121,7 @@
        fhir:sliceName [ fhir:v "input" ] ;
        fhir:short [ fhir:v "Input data requirements" ] ;
        fhir:definition [ fhir:v "Defines input data requirements for the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3250,7 +3250,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3461,7 +3461,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that is to be provided as input to the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3673,7 +3673,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that provides data to this input." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action" ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4207,7 +4207,7 @@
        fhir:sliceName [ fhir:v "output" ] ;
        fhir:short [ fhir:v "Output data definition" ] ;
        fhir:definition [ fhir:v "Defines the outputs of the action, if any." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4336,7 +4336,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4547,7 +4547,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that results as output from the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4759,7 +4759,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that is results as output from the action." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action" ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5852,7 +5852,7 @@
        fhir:sliceName [ fhir:v "endRelationship" ] ;
        fhir:short [ fhir:v "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end" ] ;
        fhir:definition [ fhir:v "The relationship of the end of this action to the related action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.relatedAction.endRelationship` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.relatedAction.endRelationship` is will have a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -6848,7 +6848,7 @@
        fhir:short [ fhir:v "Where it should happen" ] ;
        fhir:definition [ fhir:v "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc." ] ;
        fhir:comment [ fhir:v "May reference a specific clinical location or may just identify a type of location." ] ;
-       fhir:requirements [ fhir:v "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7192,7 +7192,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7403,7 +7403,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8073,7 +8073,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8292,7 +8292,7 @@
        fhir:sliceName [ fhir:v "typeCanonical" ] ;
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8511,7 +8511,7 @@
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
        fhir:comment [ fhir:v "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8796,7 +8796,7 @@
        fhir:sliceName [ fhir:v "role" ] ;
        fhir:short [ fhir:v "E.g. Nurse, Surgeon, Parent, etc" ] ;
        fhir:definition [ fhir:v "The role the participant should play in performing the described action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -9015,7 +9015,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "E.g. Author, Reviewer, Witness, etc" ] ;
        fhir:definition [ fhir:v "Indicates how the actor will be involved in the action - author, reviewer, witness, etc." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -9226,7 +9226,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who/what is participating?" ] ;
        fhir:definition [ fhir:v "A reference to the actual participant." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -11379,7 +11379,7 @@
        fhir:short [ fhir:v "Description of the activity to be performed" ] ;
        fhir:definition [ fhir:v "A reference to an ActivityDefinition that describes the action to be taken in detail, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured." ] ;
        fhir:comment [ fhir:v "Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -11628,7 +11628,7 @@
        fhir:short [ fhir:v "Transform to apply the template" ] ;
        fhir:definition [ fhir:v "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input." ] ;
        fhir:comment [ fhir:v "Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.transform` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -11848,7 +11848,7 @@
        fhir:short [ fhir:v "Dynamic aspects of the definition" ] ;
        fhir:definition [ fhir:v "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result." ] ;
        fhir:comment [ fhir:v "Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -11978,7 +11978,7 @@
        fhir:short [ fhir:v "The path to the element to be set dynamically" ] ;
        fhir:definition [ fhir:v "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details)." ] ;
        fhir:comment [ fhir:v "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -12191,7 +12191,7 @@
        fhir:short [ fhir:v "An expression that provides the dynamic value for the customization" ] ;
        fhir:definition [ fhir:v "An expression specifying the value of the customized element." ] ;
        fhir:comment [ fhir:v "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -13537,7 +13537,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Pointer to specific item from the PlanDefinition" ] ;
        fhir:definition [ fhir:v "The linkId of the action from the PlanDefinition that corresponds to this action in the RequestOrchestration resource." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -13928,7 +13928,7 @@
        fhir:sliceName [ fhir:v "goal" ] ;
        fhir:short [ fhir:v "What goals" ] ;
        fhir:definition [ fhir:v "Goals that are intended to be achieved by following the requests in this action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.goal` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -14146,7 +14146,7 @@
        fhir:sliceName [ fhir:v "input" ] ;
        fhir:short [ fhir:v "Input data requirements" ] ;
        fhir:definition [ fhir:v "Defines input data requirements for the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -14178,7 +14178,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14225,7 +14225,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that is to be provided as input to the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14273,7 +14273,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that provides data to this input." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action" ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14346,7 +14346,7 @@
        fhir:sliceName [ fhir:v "output" ] ;
        fhir:short [ fhir:v "Output data definition" ] ;
        fhir:definition [ fhir:v "Defines the outputs of the action, if any." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -14378,7 +14378,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14425,7 +14425,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that results as output from the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14473,7 +14473,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that is results as output from the action." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action" ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14680,7 +14680,7 @@
        fhir:sliceName [ fhir:v "endRelationship" ] ;
        fhir:short [ fhir:v "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end" ] ;
        fhir:definition [ fhir:v "The relationship of the end of this action to the related action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.relatedAction.endRelationship` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.relatedAction.endRelationship` is will have a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14887,7 +14887,7 @@
        fhir:short [ fhir:v "Where it should happen" ] ;
        fhir:definition [ fhir:v "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc." ] ;
        fhir:comment [ fhir:v "May reference a specific clinical location or may just identify a type of location." ] ;
-       fhir:requirements [ fhir:v "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14968,7 +14968,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15015,7 +15015,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15127,7 +15127,7 @@
        fhir:sliceName [ fhir:v "type" ] ;
        fhir:short [ fhir:v "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15182,7 +15182,7 @@
        fhir:sliceName [ fhir:v "typeCanonical" ] ;
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeCanonical` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15237,7 +15237,7 @@
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
        fhir:comment [ fhir:v "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.typeReference` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15358,7 +15358,7 @@
        fhir:sliceName [ fhir:v "role" ] ;
        fhir:short [ fhir:v "E.g. Nurse, Surgeon, Parent, etc" ] ;
        fhir:definition [ fhir:v "The role the participant should play in performing the described action." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15413,7 +15413,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "E.g. Author, Reviewer, Witness, etc" ] ;
        fhir:definition [ fhir:v "Indicates how the actor will be involved in the action - author, reviewer, witness, etc." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15460,7 +15460,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who/what is participating?" ] ;
        fhir:definition [ fhir:v "A reference to the actual participant." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -16004,7 +16004,7 @@
        fhir:short [ fhir:v "Description of the activity to be performed" ] ;
        fhir:definition [ fhir:v "A reference to an ActivityDefinition that describes the action to be taken in detail, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured." ] ;
        fhir:comment [ fhir:v "Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -16089,7 +16089,7 @@
        fhir:short [ fhir:v "Transform to apply the template" ] ;
        fhir:definition [ fhir:v "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input." ] ;
        fhir:comment [ fhir:v "Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.transform` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -16145,7 +16145,7 @@
        fhir:short [ fhir:v "Dynamic aspects of the definition" ] ;
        fhir:definition [ fhir:v "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result." ] ;
        fhir:comment [ fhir:v "Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -16178,7 +16178,7 @@
        fhir:short [ fhir:v "The path to the element to be set dynamically" ] ;
        fhir:definition [ fhir:v "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details)." ] ;
        fhir:comment [ fhir:v "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -16227,7 +16227,7 @@
        fhir:short [ fhir:v "An expression that provides the dynamic value for the customization" ] ;
        fhir:definition [ fhir:v "An expression specifying the value of the customized element." ] ;
        fhir:comment [ fhir:v "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element." ] ;
-       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is mapped to FHIR R4 structure `RequestGroup`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

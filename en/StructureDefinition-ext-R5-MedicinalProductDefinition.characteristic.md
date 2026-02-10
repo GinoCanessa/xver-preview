@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `MedicinalProductDef
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.MedicinalProductDefinition for use in FHIR R4](StructureDefinition-profile-MedicinalProductDefinition-for-MedicinalProduct.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-MedicinalProductDefinition.characteristic)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
   "title" : "Cross-version Extension `R5.MedicinalProductDefinition.characteristic` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.characteristic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.characteristic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`\n*  R4B: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.characteristic` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.characteristic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.characteristic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`\n*  R4B: `MedicinalProductDefinition.characteristic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.characteristic` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "MedicinalProduct"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "type",
         "short" : "A code expressing the type of characteristic",
         "definition" : "A code expressing the type of characteristic.",
-        "requirements" : "Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.\nElement `MedicinalProductDefinition.characteristic.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.",
+        "requirements" : "Element `MedicinalProductDefinition.characteristic.type` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.\nElement `MedicinalProductDefinition.characteristic.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "short" : "A value for the characteristic",
         "definition" : "A value for the characteristic.text.",
         "comment" : "Text, as markdown, is intended to be used only when the item cannot ever reasonably be coded. Otherwise, for cases where a code is not available, but is feasible, use CodeableConcept.text.",
-        "requirements" : "Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.\nElement `MedicinalProductDefinition.characteristic.value[x]` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.",
+        "requirements" : "Element `MedicinalProductDefinition.characteristic.value[x]` is part of an existing definition because parent element `MedicinalProductDefinition.characteristic` requires a cross-version extension.\nElement `MedicinalProductDefinition.characteristic.value[x]` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {

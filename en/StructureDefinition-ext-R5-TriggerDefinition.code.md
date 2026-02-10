@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TriggerDef
   "title" : "Cross-version Extension `R5.TriggerDefinition.code` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TriggerDef
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TriggerDefinition.code` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TriggerDefinition.code` 0..1 `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TriggerDefinition.code` 0..1 `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TriggerDefinition.code` is mapped to FHIR R4 structure `TriggerDefinition`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TriggerDefinition.code` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TriggerDefinition.code` 0..1 `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TriggerDefinition.code` 0..1 `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TriggerDefinition.code` is will have a context of TriggerDefinition based on following the parent source element upwards and mapping to `TriggerDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TriggerDef
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "TriggerDefinition"
     }
   ],
   "type" : "Extension",

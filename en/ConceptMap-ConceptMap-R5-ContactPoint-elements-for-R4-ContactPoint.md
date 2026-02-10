@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.8669805-06:00",
+  "date" : "2026-02-09T22:05:43.6930537-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ContactPoint` is representable via FHIR R4B extensions.\nElement `ContactPoint` is mapped to FHIR R4B element `ContactPoint`."
+              "comment" : "FHIR R5 ComplexType `ContactPoint` is representable via FHIR R4 extensions.\nElement `ContactPoint` is mapped to FHIR R4 element `ContactPoint`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.system` is mapped to FHIR R4B element `ContactPoint.system`."
+              "comment" : "Element `ContactPoint.system` is mapped to FHIR R4 element `ContactPoint.system`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.value` is mapped to FHIR R4B element `ContactPoint.value`."
+              "comment" : "Element `ContactPoint.value` is mapped to FHIR R4 element `ContactPoint.value`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.use` is mapped to FHIR R4B element `ContactPoint.use`."
+              "comment" : "Element `ContactPoint.use` is mapped to FHIR R4 element `ContactPoint.use`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.rank",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.rank` is mapped to FHIR R4B element `ContactPoint.rank`."
+              "comment" : "Element `ContactPoint.rank` is mapped to FHIR R4 element `ContactPoint.rank`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.period` is mapped to FHIR R4B element `ContactPoint.period`."
+              "comment" : "Element `ContactPoint.period` is mapped to FHIR R4 element `ContactPoint.period`."
             }
           ]
         }

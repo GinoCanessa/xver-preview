@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.2633665-06:00",
+  "date" : "2026-02-09T22:05:44.2179046-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Slot` is representable via FHIR R4B Resource `Slot`.\nElement `Slot` is mapped to FHIR R4B element `Slot`."
+              "comment" : "FHIR R5 Resource `Slot` is representable via FHIR R4 Resource `Slot`.\nElement `Slot` is mapped to FHIR R4 element `Slot`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.meta` is mapped to FHIR R4B element `Slot.meta`."
+              "comment" : "Element `Slot.meta` is mapped to FHIR R4 element `Slot.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.implicitRules` is mapped to FHIR R4B element `Slot.implicitRules`."
+              "comment" : "Element `Slot.implicitRules` is mapped to FHIR R4 element `Slot.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.language` is mapped to FHIR R4B element `Slot.language`."
+              "comment" : "Element `Slot.language` is mapped to FHIR R4 element `Slot.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.text` is mapped to FHIR R4B element `Slot.text`."
+              "comment" : "Element `Slot.text` is mapped to FHIR R4 element `Slot.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.contained` is mapped to FHIR R4B element `Slot.contained`."
+              "comment" : "Element `Slot.contained` is mapped to FHIR R4 element `Slot.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.identifier` is mapped to FHIR R4B element `Slot.identifier`."
+              "comment" : "Element `Slot.identifier` is mapped to FHIR R4 element `Slot.identifier`."
             }
           ]
         },
@@ -162,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.serviceCategory",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.serviceCategory` is mapped to FHIR R4B element `Slot.serviceCategory`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.serviceCategory",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Slot.serviceCategory` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified."
+              "comment" : "Element `Slot.serviceCategory` is mapped to FHIR R4 element `Slot.serviceCategory`."
             }
           ]
         },
@@ -178,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.serviceType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.serviceType` is mapped to FHIR R4B element `Slot.serviceType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Slot.serviceType` is mapped to FHIR DSTU2 element `Slot.type`."
+              "comment" : "Element `Slot.serviceType` is mapped to FHIR R4 element `Slot.serviceType`."
             }
           ]
         },
@@ -194,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.specialty",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.specialty` is mapped to FHIR R4B element `Slot.specialty`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.specialty",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Slot.specialty` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified."
+              "comment" : "Element `Slot.specialty` is mapped to FHIR R4 element `Slot.specialty`."
             }
           ]
         },
@@ -210,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.appointmentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.appointmentType` is mapped to FHIR R4B element `Slot.appointmentType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.appointmentType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Slot.appointmentType` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified."
+              "comment" : "Element `Slot.appointmentType` is mapped to FHIR R4 element `Slot.appointmentType`."
             }
           ]
         },
@@ -226,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.schedule` is mapped to FHIR R4B element `Slot.schedule`."
+              "comment" : "Element `Slot.schedule` is mapped to FHIR R4 element `Slot.schedule`."
             }
           ]
         },
@@ -237,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.status` is mapped to FHIR R4B element `Slot.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.freeBusyType",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Slot.status` is mapped to FHIR DSTU2 element `Slot.freeBusyType`."
+              "comment" : "Element `Slot.status` is mapped to FHIR R4 element `Slot.status`."
             }
           ]
         },
@@ -253,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.start",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.start` is mapped to FHIR R4B element `Slot.start`."
+              "comment" : "Element `Slot.start` is mapped to FHIR R4 element `Slot.start`."
             }
           ]
         },
@@ -264,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.end",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.end` is mapped to FHIR R4B element `Slot.end`."
+              "comment" : "Element `Slot.end` is mapped to FHIR R4 element `Slot.end`."
             }
           ]
         },
@@ -275,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.overbooked",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.overbooked` is mapped to FHIR R4B element `Slot.overbooked`."
+              "comment" : "Element `Slot.overbooked` is mapped to FHIR R4 element `Slot.overbooked`."
             }
           ]
         },
@@ -286,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Slot#Slot.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Slot.comment` is mapped to FHIR R4B element `Slot.comment`."
+              "comment" : "Element `Slot.comment` is mapped to FHIR R4 element `Slot.comment`."
             }
           ]
         }

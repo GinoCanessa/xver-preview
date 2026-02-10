@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
   "title" : "Cross-version Extension `R5.Consent.provision` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -914,7 +914,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "A computable expression of the consent",
         "definition" : "A computable (FHIRPath or other) definition of what is controlled by this consent.",
         "comment" : "Constraining the expression type for a specific implementation via profile is recommended",
-        "requirements" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is mapped to FHIR R4 structure `Consent`, but has no target element specified.",
+        "requirements" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "1",
         "base" : {

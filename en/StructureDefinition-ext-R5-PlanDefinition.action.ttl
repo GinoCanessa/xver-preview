@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -315,7 +315,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Unique id for the action in the PlanDefinition" ] ;
        fhir:definition [ fhir:v "An identifier that is unique within the PlanDefinition to allow linkage within the realized CarePlan and/or RequestOrchestration." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3890,7 +3890,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4101,7 +4101,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that is to be provided as input to the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4313,7 +4313,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that provides data to this input." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action" ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4976,7 +4976,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.title` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5187,7 +5187,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that results as output from the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.requirement` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5399,7 +5399,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that is results as output from the action." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action" ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.relatedData` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7479,7 +7479,7 @@
        fhir:short [ fhir:v "Where it should happen" ] ;
        fhir:definition [ fhir:v "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc." ] ;
        fhir:comment [ fhir:v "May reference a specific clinical location or may just identify a type of location." ] ;
-       fhir:requirements [ fhir:v "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -7823,7 +7823,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8034,7 +8034,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -8703,7 +8703,7 @@
        fhir:sliceName [ fhir:v "actorId" ] ;
        fhir:short [ fhir:v "What actor" ] ;
        fhir:definition [ fhir:v "A reference to the id element of the actor who will participate in this action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.actorId` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.actorId` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -9133,7 +9133,7 @@
        fhir:sliceName [ fhir:v "typeCanonical" ] ;
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.typeCanonical` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -9352,7 +9352,7 @@
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
        fhir:comment [ fhir:v "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.typeReference` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -9856,7 +9856,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "E.g. Author, Reviewer, Witness, etc" ] ;
        fhir:definition [ fhir:v "Indicates how the actor will be involved in the action - author, reviewer, witness, etc." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.function` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.function` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -13869,7 +13869,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Unique id for the action in the PlanDefinition" ] ;
        fhir:definition [ fhir:v "An identifier that is unique within the PlanDefinition to allow linkage within the realized CarePlan and/or RequestOrchestration." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14657,7 +14657,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14704,7 +14704,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that is to be provided as input to the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14752,7 +14752,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that provides data to this input." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action" ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14857,7 +14857,7 @@
        fhir:sliceName [ fhir:v "title" ] ;
        fhir:short [ fhir:v "User-visible title" ] ;
        fhir:definition [ fhir:v "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.title` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.title` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14904,7 +14904,7 @@
        fhir:sliceName [ fhir:v "requirement" ] ;
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Defines the data that results as output from the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.requirement` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.requirement` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -14952,7 +14952,7 @@
        fhir:short [ fhir:v "What data is provided" ] ;
        fhir:definition [ fhir:v "Points to an existing input or output element that is results as output from the action." ] ;
        fhir:comment [ fhir:v "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action" ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.relatedData` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.output.relatedData` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15357,7 +15357,7 @@
        fhir:short [ fhir:v "Where it should happen" ] ;
        fhir:definition [ fhir:v "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc." ] ;
        fhir:comment [ fhir:v "May reference a specific clinical location or may just identify a type of location." ] ;
-       fhir:requirements [ fhir:v "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15438,7 +15438,7 @@
        fhir:sliceName [ fhir:v "concept" ] ;
        fhir:short [ fhir:v "Reference to a concept (by class)" ] ;
        fhir:definition [ fhir:v "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15485,7 +15485,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Reference to a resource (by instance)" ] ;
        fhir:definition [ fhir:v "A reference to a resource the provides exact details about the information being referenced." ] ;
-       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
+       fhir:requirements [ fhir:v "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15596,7 +15596,7 @@
        fhir:sliceName [ fhir:v "actorId" ] ;
        fhir:short [ fhir:v "What actor" ] ;
        fhir:definition [ fhir:v "A reference to the id element of the actor who will participate in this action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.actorId` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.actorId` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15698,7 +15698,7 @@
        fhir:sliceName [ fhir:v "typeCanonical" ] ;
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.typeCanonical` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15753,7 +15753,7 @@
        fhir:short [ fhir:v "Who or what can participate" ] ;
        fhir:definition [ fhir:v "The type of participant in the action." ] ;
        fhir:comment [ fhir:v "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.typeReference` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15929,7 +15929,7 @@
        fhir:sliceName [ fhir:v "function" ] ;
        fhir:short [ fhir:v "E.g. Author, Reviewer, Witness, etc" ] ;
        fhir:definition [ fhir:v "Indicates how the actor will be involved in the action - author, reviewer, witness, etc." ] ;
-       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.function` is mapped to FHIR R4 structure `PlanDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `PlanDefinition.action.participant.function` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

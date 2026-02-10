@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
   "title" : "Cross-version Profile for R5.MessageDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7413429-06:00",
+  "date" : "2026-02-09T22:05:43.2183758-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,71 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
         "path" : "MessageDefinition"
       },
       {
+        "id" : "MessageDefinition.extension",
+        "path" : "MessageDefinition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MessageDefinition.extension:versionAlgorithm",
+        "path" : "MessageDefinition.extension",
+        "sliceName" : "versionAlgorithm",
+        "short" : "Cross-version extension for MessageDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MessageDefinition.versionAlgorithm[x]` is will have a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.versionAlgorithm|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MessageDefinition.extension:copyrightLabel",
+        "path" : "MessageDefinition.extension",
+        "sliceName" : "copyrightLabel",
+        "short" : "Cross-version extension for MessageDefinition.copyrightLabel from R5 for use in FHIR R4",
+        "comment" : "Element `MessageDefinition.copyrightLabel` is will have a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "MessageDefinition.focus.code.extension",
         "path" : "MessageDefinition.focus.code.extension",
         "slicing" : {
@@ -175,9 +240,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
         }
       },
       {
-        "id" : "MessageDefinition.focus.code.extension",
+        "id" : "MessageDefinition.focus.code.extension:code",
         "path" : "MessageDefinition.focus.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for MessageDefinition.focus.code from R5 for use in FHIR R4",
+        "comment" : "Element `MessageDefinition.focus.code` is mapped to FHIR R4 element `MessageDefinition.focus.code`.",
         "min" : 1,
         "max" : "1",
         "base" : {

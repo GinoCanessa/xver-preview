@@ -58,7 +58,7 @@
   <title value="Cross-version Extension `R5.DocumentReference.relatesTo` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -75,7 +75,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DocumentReference.relatesTo` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DocumentReference.relatesTo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xA;*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xA;*  R4B: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xA;*  R4: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.&#xA;Element `DocumentReference.relatesTo` is mapped to FHIR R4 structure `Media`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DocumentReference.relatesTo` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DocumentReference.relatesTo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xA;*  R5: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xA;*  R4B: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xA;*  R4: `DocumentReference.relatesTo` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.&#xA;Element `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -87,6 +87,10 @@
   <context>
     <type value="element"/>
     <expression value="DocumentReference.relatesTo"/>
+  </context>
+  <context>
+    <type value="element"/>
+    <expression value="Media"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -199,7 +203,7 @@
       <short value="The relationship type with another document"/>
       <definition value="The type of relationship that this document has with anther document."/>
       <comment value="If this document appends another document, then the document cannot be fully understood without also accessing the referenced document."/>
-      <requirements value="Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.&#xA;Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 structure `Media`, but has no target element specified."/>
+      <requirements value="Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.&#xA;Element `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -369,7 +373,7 @@
       <sliceName value="target"/>
       <short value="Target of the relationship"/>
       <definition value="The target document of this relationship."/>
-      <requirements value="Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.&#xA;Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 structure `Media`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.&#xA;Element `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -773,7 +777,7 @@
       <short value="The relationship type with another document"/>
       <definition value="The type of relationship that this document has with anther document."/>
       <comment value="If this document appends another document, then the document cannot be fully understood without also accessing the referenced document."/>
-      <requirements value="Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.&#xA;Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 structure `Media`, but has no target element specified."/>
+      <requirements value="Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.&#xA;Element `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -819,7 +823,7 @@
       <sliceName value="target"/>
       <short value="Target of the relationship"/>
       <definition value="The target document of this relationship."/>
-      <requirements value="Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.&#xA;Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 structure `Media`, but has no target element specified."/>
+      <requirements value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.&#xA;Element `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."/>
       <min value="1"/>
       <max value="1"/>
       <base>

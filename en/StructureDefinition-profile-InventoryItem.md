@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Inventory
   "title" : "Cross-version Profile for R5.InventoryItem for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7192653-06:00",
+  "date" : "2026-02-09T22:05:43.1733359-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

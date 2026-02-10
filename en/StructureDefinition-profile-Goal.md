@@ -7,7 +7,7 @@ This cross-version profile allows R5 Goal content to be represented via FHIR R4 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.RequestOrchestration.action.goal` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.goal.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.RequestOrchestration.goal` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.goal.md)
+* Refer to this Profile: [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Goal)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
   "title" : "Cross-version Profile for R5.Goal for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7039411-06:00",
+  "date" : "2026-02-09T22:05:43.140614-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -144,6 +144,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
         "path" : "Goal"
       },
       {
+        "id" : "Goal.extension",
+        "path" : "Goal.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Goal.extension:continuous",
+        "path" : "Goal.extension",
+        "sliceName" : "continuous",
+        "short" : "Cross-version extension for Goal.continuous from R5 for use in FHIR R4",
+        "comment" : "Element `Goal.continuous` is will have a context of Goal based on following the parent source element upwards and mapping to `Goal`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Goal.expressedBy.extension",
         "path" : "Goal.expressedBy.extension",
         "slicing" : {
@@ -156,7 +199,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Goal.expressedBy",
@@ -165,9 +208,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
         }
       },
       {
-        "id" : "Goal.expressedBy.extension",
+        "id" : "Goal.expressedBy.extension:source",
         "path" : "Goal.expressedBy.extension",
+        "sliceName" : "source",
         "short" : "Cross-version extension for Goal.source from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.source` is mapped to FHIR R4 element `Goal.expressedBy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -179,7 +225,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.source|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -197,7 +243,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Goal.addresses",
@@ -206,9 +252,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
         }
       },
       {
-        "id" : "Goal.addresses.extension",
+        "id" : "Goal.addresses.extension:addresses",
         "path" : "Goal.addresses.extension",
+        "sliceName" : "addresses",
         "short" : "Cross-version extension for Goal.addresses from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/Procedure in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.addresses` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.addresses` is mapped to FHIR R4 element `Goal.addresses`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -220,7 +269,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.addresses|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.ValueSet.expansion.contains` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -2042,7 +2042,7 @@
        fhir:sliceName [ fhir:v "property" ] ;
        fhir:short [ fhir:v "Property value for the concept" ] ;
        fhir:definition [ fhir:v "A property value for this concept." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2171,7 +2171,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Reference to ValueSet.expansion.property.code" ] ;
        fhir:definition [ fhir:v "A code that is a reference to ValueSet.expansion.property.code." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2382,7 +2382,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the property for this concept" ] ;
        fhir:definition [ fhir:v "The value of this property." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.value[x]` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2623,7 +2623,7 @@
        fhir:sliceName [ fhir:v "subProperty" ] ;
        fhir:short [ fhir:v "SubProperty value for the concept" ] ;
        fhir:definition [ fhir:v "A subproperty value for this concept." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2752,7 +2752,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Reference to ValueSet.expansion.property.code" ] ;
        fhir:definition [ fhir:v "A code that is a reference to ValueSet.expansion.property.code." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2963,7 +2963,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the subproperty for this concept" ] ;
        fhir:definition [ fhir:v "The value of this subproperty." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.value[x]` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4989,7 +4989,7 @@
        fhir:sliceName [ fhir:v "property" ] ;
        fhir:short [ fhir:v "Property value for the concept" ] ;
        fhir:definition [ fhir:v "A property value for this concept." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5021,7 +5021,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Reference to ValueSet.expansion.property.code" ] ;
        fhir:definition [ fhir:v "A code that is a reference to ValueSet.expansion.property.code." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5068,7 +5068,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the property for this concept" ] ;
        fhir:definition [ fhir:v "The value of this property." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.value[x]` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5145,7 +5145,7 @@
        fhir:sliceName [ fhir:v "subProperty" ] ;
        fhir:short [ fhir:v "SubProperty value for the concept" ] ;
        fhir:definition [ fhir:v "A subproperty value for this concept." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5177,7 +5177,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Reference to ValueSet.expansion.property.code" ] ;
        fhir:definition [ fhir:v "A code that is a reference to ValueSet.expansion.property.code." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.code` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5224,7 +5224,7 @@
        fhir:sliceName [ fhir:v "value" ] ;
        fhir:short [ fhir:v "Value of the subproperty for this concept" ] ;
        fhir:definition [ fhir:v "The value of this subproperty." ] ;
-       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.value[x]` is mapped to FHIR R4 structure `ValueSet`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

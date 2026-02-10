@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.2172143-06:00",
+  "date" : "2026-02-09T22:05:43.9788214-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `List` is representable via FHIR R4B Resource `List`.\nElement `List` is mapped to FHIR R4B element `List`."
+              "comment" : "FHIR R5 Resource `List` is representable via FHIR R4 Resource `List`.\nElement `List` is mapped to FHIR R4 element `List`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.meta` is mapped to FHIR R4B element `List.meta`."
+              "comment" : "Element `List.meta` is mapped to FHIR R4 element `List.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.implicitRules` is mapped to FHIR R4B element `List.implicitRules`."
+              "comment" : "Element `List.implicitRules` is mapped to FHIR R4 element `List.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.language` is mapped to FHIR R4B element `List.language`."
+              "comment" : "Element `List.language` is mapped to FHIR R4 element `List.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.text` is mapped to FHIR R4B element `List.text`."
+              "comment" : "Element `List.text` is mapped to FHIR R4 element `List.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.contained` is mapped to FHIR R4B element `List.contained`."
+              "comment" : "Element `List.contained` is mapped to FHIR R4 element `List.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.identifier` is mapped to FHIR R4B element `List.identifier`."
+              "comment" : "Element `List.identifier` is mapped to FHIR R4 element `List.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.status` is mapped to FHIR R4B element `List.status`."
+              "comment" : "Element `List.status` is mapped to FHIR R4 element `List.status`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.mode` is mapped to FHIR R4B element `List.mode`."
+              "comment" : "Element `List.mode` is mapped to FHIR R4 element `List.mode`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.title` is mapped to FHIR R4B element `List.title`."
+              "comment" : "Element `List.title` is mapped to FHIR R4 element `List.title`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.code` is mapped to FHIR R4B element `List.code`."
+              "comment" : "Element `List.code` is mapped to FHIR R4 element `List.code`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `List.subject` is mapped to FHIR R4B element `List.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `List.subject` is mapped to FHIR R4 element `List.subject`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.encounter` is mapped to FHIR R4B element `List.encounter`."
+              "comment" : "Element `List.encounter` is mapped to FHIR R4 element `List.encounter`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.date` is mapped to FHIR R4B element `List.date`."
+              "comment" : "Element `List.date` is mapped to FHIR R4 element `List.date`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.source` is mapped to FHIR R4B element `List.source`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `List.source` is mapped to FHIR R4 element `List.source`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.orderedBy",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.orderedBy` is mapped to FHIR R4B element `List.orderedBy`."
+              "comment" : "Element `List.orderedBy` is mapped to FHIR R4 element `List.orderedBy`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.note` is mapped to FHIR R4B element `List.note`."
+              "comment" : "Element `List.note` is mapped to FHIR R4 element `List.note`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.entry",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.entry` is mapped to FHIR R4B element `List.entry`."
+              "comment" : "Element `List.entry` is mapped to FHIR R4 element `List.entry`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.entry.flag",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.entry.flag` is mapped to FHIR R4B element `List.entry.flag`."
+              "comment" : "Element `List.entry.flag` is mapped to FHIR R4 element `List.entry.flag`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.entry.deleted",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.entry.deleted` is mapped to FHIR R4B element `List.entry.deleted`."
+              "comment" : "Element `List.entry.deleted` is mapped to FHIR R4 element `List.entry.deleted`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.entry.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.entry.date` is mapped to FHIR R4B element `List.entry.date`."
+              "comment" : "Element `List.entry.date` is mapped to FHIR R4 element `List.entry.date`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.entry.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.entry.item` is mapped to FHIR R4B element `List.entry.item`."
+              "comment" : "Element `List.entry.item` is mapped to FHIR R4 element `List.entry.item`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/List#List.emptyReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `List.emptyReason` is mapped to FHIR R4B element `List.emptyReason`."
+              "comment" : "Element `List.emptyReason` is mapped to FHIR R4 element `List.emptyReason`."
             }
           ]
         }

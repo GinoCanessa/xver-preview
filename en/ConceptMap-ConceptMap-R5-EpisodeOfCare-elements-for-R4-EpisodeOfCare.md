@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.4534332-06:00",
+  "date" : "2026-02-09T22:05:43.8203954-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EpisodeOfCare` is representable via FHIR R4B Resource `EpisodeOfCare`.\nElement `EpisodeOfCare` is mapped to FHIR R4B element `EpisodeOfCare`."
+              "comment" : "FHIR R5 Resource `EpisodeOfCare` is representable via FHIR R4 Resource `EpisodeOfCare`.\nElement `EpisodeOfCare` is mapped to FHIR R4 element `EpisodeOfCare`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.meta` is mapped to FHIR R4B element `EpisodeOfCare.meta`."
+              "comment" : "Element `EpisodeOfCare.meta` is mapped to FHIR R4 element `EpisodeOfCare.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.implicitRules` is mapped to FHIR R4B element `EpisodeOfCare.implicitRules`."
+              "comment" : "Element `EpisodeOfCare.implicitRules` is mapped to FHIR R4 element `EpisodeOfCare.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.language` is mapped to FHIR R4B element `EpisodeOfCare.language`."
+              "comment" : "Element `EpisodeOfCare.language` is mapped to FHIR R4 element `EpisodeOfCare.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.text` is mapped to FHIR R4B element `EpisodeOfCare.text`."
+              "comment" : "Element `EpisodeOfCare.text` is mapped to FHIR R4 element `EpisodeOfCare.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.contained` is mapped to FHIR R4B element `EpisodeOfCare.contained`."
+              "comment" : "Element `EpisodeOfCare.contained` is mapped to FHIR R4 element `EpisodeOfCare.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.identifier` is mapped to FHIR R4B element `EpisodeOfCare.identifier`."
+              "comment" : "Element `EpisodeOfCare.identifier` is mapped to FHIR R4 element `EpisodeOfCare.identifier`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.status` is mapped to FHIR R4B element `EpisodeOfCare.status`."
+              "comment" : "Element `EpisodeOfCare.status` is mapped to FHIR R4 element `EpisodeOfCare.status`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.statusHistory` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory`."
+              "comment" : "Element `EpisodeOfCare.statusHistory` is mapped to FHIR R4 element `EpisodeOfCare.statusHistory`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.statusHistory.status` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory.status`."
+              "comment" : "Element `EpisodeOfCare.statusHistory.status` is mapped to FHIR R4 element `EpisodeOfCare.statusHistory.status`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.statusHistory.period` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory.period`."
+              "comment" : "Element `EpisodeOfCare.statusHistory.period` is mapped to FHIR R4 element `EpisodeOfCare.statusHistory.period`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.type` is mapped to FHIR R4B element `EpisodeOfCare.type`."
+              "comment" : "Element `EpisodeOfCare.type` is mapped to FHIR R4 element `EpisodeOfCare.type`."
             }
           ]
         },
@@ -215,9 +215,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.reason` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified."
+              "comment" : "Element `EpisodeOfCare.reason` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."
             }
           ]
         },
@@ -226,9 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "use",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason:use",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.use` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified."
+              "comment" : "Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.use` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."
             }
           ]
         },
@@ -237,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.value` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified."
+              "comment" : "Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.value` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`."
             }
           ]
         },
@@ -250,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.diagnosis` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.diagnosis` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified."
+              "comment" : "Element `EpisodeOfCare.diagnosis` is mapped to FHIR R4 element `EpisodeOfCare.diagnosis`."
             }
           ]
         },
@@ -266,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.diagnosis.condition` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis.condition`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.condition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.diagnosis.condition` is part of an existing definition because parent element `EpisodeOfCare.diagnosis` requires a cross-version extension.\nElement `EpisodeOfCare.diagnosis.condition` is mapped to FHIR DSTU2 element `EpisodeOfCare.condition`."
+              "comment" : "Element `EpisodeOfCare.diagnosis.condition` is mapped to FHIR R4 element `EpisodeOfCare.diagnosis.condition`."
             }
           ]
         },
@@ -282,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.diagnosis.use` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis.role`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis:use",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.diagnosis.use` is part of an existing definition because parent element `EpisodeOfCare.diagnosis` requires a cross-version extension.\nElement `EpisodeOfCare.diagnosis.use` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified."
+              "comment" : "Element `EpisodeOfCare.diagnosis.use` is mapped to FHIR R4 element `EpisodeOfCare.diagnosis.role`."
             }
           ]
         },
@@ -298,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.patient` is mapped to FHIR R4B element `EpisodeOfCare.patient`."
+              "comment" : "Element `EpisodeOfCare.patient` is mapped to FHIR R4 element `EpisodeOfCare.patient`."
             }
           ]
         },
@@ -309,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.managingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.managingOrganization` is mapped to FHIR R4B element `EpisodeOfCare.managingOrganization`."
+              "comment" : "Element `EpisodeOfCare.managingOrganization` is mapped to FHIR R4 element `EpisodeOfCare.managingOrganization`."
             }
           ]
         },
@@ -320,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.period` is mapped to FHIR R4B element `EpisodeOfCare.period`."
+              "comment" : "Element `EpisodeOfCare.period` is mapped to FHIR R4 element `EpisodeOfCare.period`."
             }
           ]
         },
@@ -331,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.referralRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.referralRequest` is mapped to FHIR R4B element `EpisodeOfCare.referralRequest`."
+              "comment" : "Element `EpisodeOfCare.referralRequest` is mapped to FHIR R4 element `EpisodeOfCare.referralRequest`."
             }
           ]
         },
@@ -342,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.careManager",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.careManager` is mapped to FHIR R4B element `EpisodeOfCare.careManager`."
+              "comment" : "Element `EpisodeOfCare.careManager` is mapped to FHIR R4 element `EpisodeOfCare.careManager`."
             }
           ]
         },
@@ -353,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.team",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.careTeam` is mapped to FHIR R4B element `EpisodeOfCare.team`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.careTeam",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.careTeam` is mapped to FHIR DSTU2 element `EpisodeOfCare.careTeam`."
+              "comment" : "Element `EpisodeOfCare.careTeam` is mapped to FHIR R4 element `EpisodeOfCare.team`."
             }
           ]
         },
@@ -369,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.account",
               "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.account` is mapped to FHIR R4B element `EpisodeOfCare.account`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.account",
-              "equivalence" : "relatedto",
-              "comment" : "Element `EpisodeOfCare.account` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified."
+              "comment" : "Element `EpisodeOfCare.account` is mapped to FHIR R4 element `EpisodeOfCare.account`."
             }
           ]
         }

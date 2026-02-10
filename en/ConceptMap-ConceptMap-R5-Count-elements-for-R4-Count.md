@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.9430884-06:00",
+  "date" : "2026-02-09T22:05:43.7249223-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Count` is representable via FHIR R4B extensions.\nElement `Count` is mapped to FHIR R4B element `Count`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Count#Quantity",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Count` is representable via FHIR DSTU2 extensions.\nElement `Count` is mapped to FHIR DSTU2 element `Quantity`."
+              "comment" : "FHIR R5 ComplexType `Count` is representable via FHIR R4 extensions.\nElement `Count` is mapped to FHIR R4 element `Count`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.value` is mapped to FHIR R4B element `Count.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Count#Quantity.value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Count.value` is mapped to FHIR DSTU2 element `Quantity.value`."
+              "comment" : "Element `Count.value` is mapped to FHIR R4 element `Count.value`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Count.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR R4B element `Count.comparator`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Count#Quantity.comparator",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR DSTU2 element `Quantity.comparator`."
+              "comment" : "Note that the target element context `Count.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR R4 element `Count.comparator`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.unit` is mapped to FHIR R4B element `Count.unit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Count#Quantity.unit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Count.unit` is mapped to FHIR DSTU2 element `Quantity.unit`."
+              "comment" : "Element `Count.unit` is mapped to FHIR R4 element `Count.unit`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.system` is mapped to FHIR R4B element `Count.system`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Count#Quantity.system",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Count.system` is mapped to FHIR DSTU2 element `Quantity.system`."
+              "comment" : "Element `Count.system` is mapped to FHIR R4 element `Count.system`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.code` is mapped to FHIR R4B element `Count.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Count#Quantity.code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Count.code` is mapped to FHIR DSTU2 element `Quantity.code`."
+              "comment" : "Element `Count.code` is mapped to FHIR R4 element `Count.code`."
             }
           ]
         }

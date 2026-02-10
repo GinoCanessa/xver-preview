@@ -7,7 +7,7 @@ This cross-version profile allows R5 Appointment content to be represented via F
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Appointment.originatingAppointment` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.originatingAppointment.md), [Cross-version Extension `R5.Appointment.previousAppointment` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.previousAppointment.md), [Cross-version Extension `R5.Appointment.replaces` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.replaces.md), [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md)... Show 3 more, [Cross-version Extension `R5.DocumentReference.context` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.context.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md) and [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md)
+* Refer to this Profile: [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Appointment)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
   "title" : "Cross-version Profile for R5.Appointment for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6189857-06:00",
+  "date" : "2026-02-09T22:05:42.9823567-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,251 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "Appointment"
       },
       {
+        "id" : "Appointment.extension",
+        "path" : "Appointment.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Appointment.extension:class",
+        "path" : "Appointment.extension",
+        "sliceName" : "class",
+        "short" : "Cross-version extension for Appointment.class from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.class` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:virtualService",
+        "path" : "Appointment.extension",
+        "sliceName" : "virtualService",
+        "short" : "Cross-version extension for Appointment.virtualService from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.virtualService` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:cancellationDate",
+        "path" : "Appointment.extension",
+        "sliceName" : "cancellationDate",
+        "short" : "Cross-version extension for Appointment.cancellationDate from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.cancellationDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:recurrenceId",
+        "path" : "Appointment.extension",
+        "sliceName" : "recurrenceId",
+        "short" : "Cross-version extension for Appointment.recurrenceId from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.recurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:occurrenceChanged",
+        "path" : "Appointment.extension",
+        "sliceName" : "occurrenceChanged",
+        "short" : "Cross-version extension for Appointment.occurrenceChanged from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.occurrenceChanged` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:recurrenceTemplate",
+        "path" : "Appointment.extension",
+        "sliceName" : "recurrenceTemplate",
+        "short" : "Cross-version extension for Appointment.recurrenceTemplate from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.recurrenceTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:replaces",
+        "path" : "Appointment.extension",
+        "sliceName" : "replaces",
+        "short" : "Cross-version extension for Appointment.replaces from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.replaces` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:previousAppointment",
+        "path" : "Appointment.extension",
+        "sliceName" : "previousAppointment",
+        "short" : "Cross-version extension for Appointment.previousAppointment from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.previousAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.previousAppointment` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:originatingAppointment",
+        "path" : "Appointment.extension",
+        "sliceName" : "originatingAppointment",
+        "short" : "Cross-version extension for Appointment.originatingAppointment from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.originatingAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.originatingAppointment` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Appointment.extension:account",
+        "path" : "Appointment.extension",
+        "sliceName" : "account",
+        "short" : "Cross-version extension for Appointment.account from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Account in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.account` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Appointment.serviceType.extension",
         "path" : "Appointment.serviceType.extension",
         "slicing" : {
@@ -166,7 +411,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.serviceType",
@@ -175,9 +420,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.serviceType.extension",
+        "id" : "Appointment.serviceType.extension:serviceType",
         "path" : "Appointment.serviceType.extension",
+        "sliceName" : "serviceType",
         "short" : "Cross-version extension for Appointment.serviceType from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.serviceType` is mapped to FHIR R4 element `Appointment.serviceType`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -207,7 +454,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.priority",
@@ -216,9 +463,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.priority.extension",
+        "id" : "Appointment.priority.extension:priority",
         "path" : "Appointment.priority.extension",
+        "sliceName" : "priority",
         "short" : "Cross-version extension for Appointment.priority from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.priority` is mapped to FHIR R4 element `Appointment.priority`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +497,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.comment",
@@ -257,9 +506,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.comment.extension",
+        "id" : "Appointment.comment.extension:note",
         "path" : "Appointment.comment.extension",
+        "sliceName" : "note",
         "short" : "Cross-version extension for Appointment.note from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.note` is mapped to FHIR R4 element `Appointment.comment`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -289,7 +540,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.patientInstruction",
@@ -298,9 +549,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.patientInstruction.extension",
+        "id" : "Appointment.patientInstruction.extension:patientInstruction",
         "path" : "Appointment.patientInstruction.extension",
+        "sliceName" : "patientInstruction",
         "short" : "Cross-version extension for Appointment.patientInstruction from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.patientInstruction` is mapped to FHIR R4 element `Appointment.patientInstruction`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -330,7 +583,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.basedOn",
@@ -339,9 +592,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.basedOn.extension",
+        "id" : "Appointment.basedOn.extension:basedOn",
         "path" : "Appointment.basedOn.extension",
+        "sliceName" : "basedOn",
         "short" : "Cross-version extension for Appointment.basedOn from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/MedicationRequest in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.basedOn` is mapped to FHIR R4 element `Appointment.basedOn`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -353,7 +609,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.basedOn|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -371,7 +627,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.participant.actor",
@@ -380,9 +636,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.participant.actor.extension",
+        "id" : "Appointment.participant.actor.extension:actor",
         "path" : "Appointment.participant.actor.extension",
+        "sliceName" : "actor",
         "short" : "Cross-version extension for Appointment.participant.actor from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.participant.actor` is mapped to FHIR R4 element `Appointment.participant.actor`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -394,7 +653,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.actor|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]
@@ -412,7 +671,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Appointment.participant.required",
@@ -421,9 +680,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         }
       },
       {
-        "id" : "Appointment.participant.required.extension",
+        "id" : "Appointment.participant.required.extension:required",
         "path" : "Appointment.participant.required.extension",
+        "sliceName" : "required",
         "short" : "Cross-version extension for Appointment.participant.required from R5 for use in FHIR R4",
+        "comment" : "Element `Appointment.participant.required` is mapped to FHIR R4 element `Appointment.participant.required`.",
         "min" : 0,
         "max" : "1",
         "base" : {

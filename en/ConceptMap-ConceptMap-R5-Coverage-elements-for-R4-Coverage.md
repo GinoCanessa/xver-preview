@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.9461344-06:00",
+  "date" : "2026-02-09T22:05:43.7259379-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Coverage` is representable via FHIR R4B Resource `Coverage`.\nElement `Coverage` is mapped to FHIR R4B element `Coverage`."
+              "comment" : "FHIR R5 Resource `Coverage` is representable via FHIR R4 Resource `Coverage`.\nElement `Coverage` is mapped to FHIR R4 element `Coverage`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.meta` is mapped to FHIR R4B element `Coverage.meta`."
+              "comment" : "Element `Coverage.meta` is mapped to FHIR R4 element `Coverage.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.implicitRules` is mapped to FHIR R4B element `Coverage.implicitRules`."
+              "comment" : "Element `Coverage.implicitRules` is mapped to FHIR R4 element `Coverage.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.language` is mapped to FHIR R4B element `Coverage.language`."
+              "comment" : "Element `Coverage.language` is mapped to FHIR R4 element `Coverage.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.text` is mapped to FHIR R4B element `Coverage.text`."
+              "comment" : "Element `Coverage.text` is mapped to FHIR R4 element `Coverage.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.contained` is mapped to FHIR R4B element `Coverage.contained`."
+              "comment" : "Element `Coverage.contained` is mapped to FHIR R4 element `Coverage.contained`."
             }
           ]
         },
@@ -151,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.identifier` is mapped to FHIR R4B element `Coverage.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.bin",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.identifier` is mapped to FHIR DSTU2 element `Coverage.bin`."
+              "comment" : "Element `Coverage.identifier` is mapped to FHIR R4 element `Coverage.identifier`."
             }
           ]
         },
@@ -167,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.status` is mapped to FHIR R4B element `Coverage.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.status` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.status` is mapped to FHIR R4 element `Coverage.status`."
             }
           ]
         },
@@ -181,9 +171,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "kind",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.kind` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.kind` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -192,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "paymentBy",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.paymentBy` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.paymentBy` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -203,9 +193,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "party",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy:party",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.paymentBy.party` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.party` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.paymentBy.party` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Coverage.paymentBy.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Coverage.paymentBy.party` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -214,9 +204,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "responsibility",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy:responsibility",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.paymentBy.responsibility` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.responsibility` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.paymentBy.responsibility` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.responsibility` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -227,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.type` is mapped to FHIR R4B element `Coverage.type`."
+              "comment" : "Element `Coverage.type` is mapped to FHIR R4 element `Coverage.type`."
             }
           ]
         },
@@ -238,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.policyHolder",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.policyHolder` is mapped to FHIR R4B element `Coverage.policyHolder`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.policyHolder",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.policyHolder` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.policyHolder` is mapped to FHIR R4 element `Coverage.policyHolder`."
             }
           ]
         },
@@ -254,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.subscriber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.subscriber` is mapped to FHIR R4B element `Coverage.subscriber`."
+              "comment" : "Element `Coverage.subscriber` is mapped to FHIR R4 element `Coverage.subscriber`."
             }
           ]
         },
@@ -265,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.subscriberId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.subscriberId` is mapped to FHIR R4B element `Coverage.subscriberId`."
+              "comment" : "Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId`."
             }
           ]
         },
@@ -276,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.beneficiary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.beneficiary` is mapped to FHIR R4B element `Coverage.beneficiary`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.beneficiary",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.beneficiary` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.beneficiary` is mapped to FHIR R4 element `Coverage.beneficiary`."
             }
           ]
         },
@@ -292,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.dependent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.dependent` is mapped to FHIR R4B element `Coverage.dependent`."
+              "comment" : "Element `Coverage.dependent` is mapped to FHIR R4 element `Coverage.dependent`."
             }
           ]
         },
@@ -303,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.relationship` is mapped to FHIR R4B element `Coverage.relationship`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.relationship",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.relationship` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.relationship` is mapped to FHIR R4 element `Coverage.relationship`."
             }
           ]
         },
@@ -319,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.period` is mapped to FHIR R4B element `Coverage.period`."
+              "comment" : "Element `Coverage.period` is mapped to FHIR R4 element `Coverage.period`."
             }
           ]
         },
@@ -330,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.payor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.insurer` is mapped to FHIR R4B element `Coverage.payor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.issuer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.insurer` is mapped to FHIR DSTU2 element `Coverage.issuer`."
+              "comment" : "Element `Coverage.insurer` is mapped to FHIR R4 element `Coverage.payor`."
             }
           ]
         },
@@ -346,17 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.class",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class` is mapped to FHIR R4B element `Coverage.class`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.grouping",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class` is mapped to FHIR STU3 element `Coverage.grouping`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.class` is mapped to FHIR R4 element `Coverage.class`."
             }
           ]
         },
@@ -367,17 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.class.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.type` is mapped to FHIR R4B element `Coverage.class.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.grouping",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.type` is mapped to FHIR STU3 element `Coverage.grouping`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.type` is part of an existing definition because parent element `Coverage.class` requires a cross-version extension.\nElement `Coverage.class.type` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.class.type` is mapped to FHIR R4 element `Coverage.class.type`."
             }
           ]
         },
@@ -388,17 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.class.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.value` is mapped to FHIR R4B element `Coverage.class.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.grouping",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.value` is mapped to FHIR STU3 element `Coverage.grouping`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.value` is part of an existing definition because parent element `Coverage.class` requires a cross-version extension.\nElement `Coverage.class.value` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value`."
             }
           ]
         },
@@ -409,17 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.class.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.name` is mapped to FHIR R4B element `Coverage.class.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.grouping",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.name` is mapped to FHIR STU3 element `Coverage.grouping`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.class.name` is part of an existing definition because parent element `Coverage.class` requires a cross-version extension.\nElement `Coverage.class.name` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.class.name` is mapped to FHIR R4 element `Coverage.class.name`."
             }
           ]
         },
@@ -430,12 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.order",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.order` is mapped to FHIR R4B element `Coverage.order`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.order",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.order` is mapped to FHIR DSTU2 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.order` is mapped to FHIR R4 element `Coverage.order`."
             }
           ]
         },
@@ -446,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.network` is mapped to FHIR R4B element `Coverage.network`."
+              "comment" : "Element `Coverage.network` is mapped to FHIR R4 element `Coverage.network`."
             }
           ]
         },
@@ -457,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary` is mapped to FHIR R4B element `Coverage.costToBeneficiary`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary` is mapped to FHIR R4 element `Coverage.costToBeneficiary`."
             }
           ]
         },
@@ -473,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.type` is mapped to FHIR R4B element `Coverage.costToBeneficiary.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.type` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.type` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.type` is mapped to FHIR R4 element `Coverage.costToBeneficiary.type`."
             }
           ]
         },
@@ -487,14 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.category` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.category` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.category` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.category` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -503,14 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "network",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.network` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.network` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.network` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.network` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -519,14 +424,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "unit",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.unit` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:unit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.unit` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.unit` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.unit` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -535,14 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "term",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.term` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:term",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.term` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.term` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.term` is will have a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         },
@@ -553,12 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Coverage.costToBeneficiary.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Coverage.costToBeneficiary`.\nElement `Coverage.costToBeneficiary.value[x]` is mapped to FHIR R4B element `Coverage.costToBeneficiary.value[x]`.\nNote that the target element context `Coverage.costToBeneficiary.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Coverage.costToBeneficiary`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.value[x]` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.value[x]` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Note that the target element context `Coverage.costToBeneficiary.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Coverage.costToBeneficiary`.\nElement `Coverage.costToBeneficiary.value[x]` is mapped to FHIR R4 element `Coverage.costToBeneficiary.value[x]`.\nNote that the target element context `Coverage.costToBeneficiary.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Coverage.costToBeneficiary`."
             }
           ]
         },
@@ -569,12 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary.exception",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.exception` is mapped to FHIR R4B element `Coverage.costToBeneficiary.exception`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.exception",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.exception` is part of an existing definition because parent element `Coverage.costToBeneficiary` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.exception` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.exception` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception`."
             }
           ]
         },
@@ -585,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary.exception.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.exception.type` is mapped to FHIR R4B element `Coverage.costToBeneficiary.exception.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.exception:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.exception.type` is part of an existing definition because parent element `Coverage.costToBeneficiary.exception` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.exception.type` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.exception.type` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception.type`."
             }
           ]
         },
@@ -601,12 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.costToBeneficiary.exception.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.exception.period` is mapped to FHIR R4B element `Coverage.costToBeneficiary.exception.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary:http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.exception:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.costToBeneficiary.exception.period` is part of an existing definition because parent element `Coverage.costToBeneficiary.exception` requires a cross-version extension.\nElement `Coverage.costToBeneficiary.exception.period` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.costToBeneficiary.exception.period` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception.period`."
             }
           ]
         },
@@ -617,12 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.subrogation",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.subrogation` is mapped to FHIR R4B element `Coverage.subrogation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.subrogation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.subrogation` is mapped to FHIR STU3 structure `Coverage`, but has no target element specified."
+              "comment" : "Element `Coverage.subrogation` is mapped to FHIR R4 element `Coverage.subrogation`."
             }
           ]
         },
@@ -633,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage.contract",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.contract` is mapped to FHIR R4B element `Coverage.contract`."
+              "comment" : "Element `Coverage.contract` is mapped to FHIR R4 element `Coverage.contract`."
             }
           ]
         },
@@ -642,9 +512,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "insurancePlan",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.insurancePlan",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Coverage#Coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Coverage.insurancePlan` is mapped to FHIR R4B structure `Coverage`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Coverage.insurancePlan` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Coverage.insurancePlan` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`."
             }
           ]
         }

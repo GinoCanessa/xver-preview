@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
   "title" : "Cross-version Profile for R5.EncounterHistory for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6811401-06:00",
+  "date" : "2026-02-09T22:05:43.0956825-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,138 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         "path" : "Encounter"
       },
       {
+        "id" : "Encounter.extension",
+        "path" : "Encounter.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Encounter.extension:subjectStatus",
+        "path" : "Encounter.extension",
+        "sliceName" : "subjectStatus",
+        "short" : "Cross-version extension for EncounterHistory.subjectStatus from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.subjectStatus` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.subjectStatus|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:actualPeriod",
+        "path" : "Encounter.extension",
+        "sliceName" : "actualPeriod",
+        "short" : "Cross-version extension for EncounterHistory.actualPeriod from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.actualPeriod` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.actualPeriod|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:plannedStartDate",
+        "path" : "Encounter.extension",
+        "sliceName" : "plannedStartDate",
+        "short" : "Cross-version extension for EncounterHistory.plannedStartDate from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.plannedStartDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.plannedStartDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:plannedEndDate",
+        "path" : "Encounter.extension",
+        "sliceName" : "plannedEndDate",
+        "short" : "Cross-version extension for EncounterHistory.plannedEndDate from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.plannedEndDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.plannedEndDate|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.extension:encounter",
+        "path" : "Encounter.extension",
+        "sliceName" : "encounter",
+        "short" : "Cross-version extension for EncounterHistory.encounter from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EncounterHistory.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EncounterHistory.encounter` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Encounter.status.extension",
         "path" : "Encounter.status.extension",
         "slicing" : {
@@ -170,9 +302,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.status.extension",
+        "id" : "Encounter.status.extension:status",
         "path" : "Encounter.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for EncounterHistory.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -211,9 +345,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.class.extension",
+        "id" : "Encounter.class.extension:class",
         "path" : "Encounter.class.extension",
+        "sliceName" : "class",
         "short" : "Cross-version extension for EncounterHistory.class from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -243,7 +379,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Encounter.serviceType",
@@ -252,9 +388,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
         }
       },
       {
-        "id" : "Encounter.serviceType.extension",
+        "id" : "Encounter.serviceType.extension:serviceType",
         "path" : "Encounter.serviceType.extension",
+        "sliceName" : "serviceType",
         "short" : "Cross-version extension for EncounterHistory.serviceType from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -267,6 +405,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Encounter
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.serviceType|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Encounter.location.extension",
+        "path" : "Encounter.location.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Encounter.location.extension:form",
+        "path" : "Encounter.location.extension",
+        "sliceName" : "form",
+        "short" : "Cross-version extension for EncounterHistory.location.form from R5 for use in FHIR R4",
+        "comment" : "Element `EncounterHistory.location.form` is will have a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.location.form|0.0.1-snapshot-3"
             ]
           }
         ]

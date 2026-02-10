@@ -21,10 +21,30 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "ClaimResponse.contained","ClaimResponse.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"ClaimResponse.extension","ClaimResponse.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"ClaimResponse.extension","ClaimResponse.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.extension:traceNumber","ClaimResponse.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.traceNumber` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.extension:decision","ClaimResponse.extension","decision","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.decision|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.decision from R5 for use in FHIR R4","The result of the claim, predetermination, or preauthorization adjudication.","Element `ClaimResponse.decision` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.extension:event","ClaimResponse.extension","event","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.event|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.event from R5 for use in FHIR R4","Information code for an event with a corresponding date or period.","Element `ClaimResponse.event` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.extension:diagnosisRelatedGroup","ClaimResponse.extension","diagnosisRelatedGroup","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.diagnosisRelatedGroup|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.diagnosisRelatedGroup from R5 for use in FHIR R4","A package billing code or bundle code used to group products and services to a particular health condition (such as heart attack) which is based on a predetermined grouping code system.","Element `ClaimResponse.diagnosisRelatedGroup` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.extension:encounter","ClaimResponse.extension","encounter","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+","Cross-version extension for ClaimResponse.encounter from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClaimResponse.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ClaimResponse.encounter` is will have a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.modifierExtension","ClaimResponse.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -81,10 +101,18 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.item.id","ClaimResponse.item.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.item.extension","ClaimResponse.item.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.item.extension","ClaimResponse.item.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.item.extension:traceNumber","ClaimResponse.item.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.item.traceNumber` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.item.extension:reviewOutcome","ClaimResponse.item.extension","reviewOutcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.reviewOutcome from R5 for use in FHIR R4","The high-level results of the adjudication if adjudication has been performed.","Element `ClaimResponse.item.reviewOutcome` is will have a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.item.modifierExtension","ClaimResponse.item.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -126,12 +154,13 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.item.adjudication.value.id","ClaimResponse.item.adjudication.value.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"ClaimResponse.item.adjudication.value.extension","ClaimResponse.item.adjudication.value.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.item.adjudication.value.extension","ClaimResponse.item.adjudication.value.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.item.adjudication.value.extension","ClaimResponse.item.adjudication.value.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.adjudication.quantity|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.item.adjudication.quantity from R5 for use in FHIR R4","A non-monetary value associated with the category. Mutually exclusive to the amount element above.","For example: eligible percentage or co-payment percentage.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.item.adjudication.value.extension:quantity","ClaimResponse.item.adjudication.value.extension","quantity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.adjudication.quantity|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.adjudication.quantity from R5 for use in FHIR R4","A non-monetary value associated with the category. Mutually exclusive to the amount element above.","Element `ClaimResponse.item.adjudication.quantity` is part of an existing definition because parent element `ClaimResponse.item.adjudication` requires a component extension (e.g., if this element is used as a content reference).
+Element `ClaimResponse.item.adjudication.quantity` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.value`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.item.adjudication.value.value","ClaimResponse.item.adjudication.value.value","","","",0,1,"","","","decimal {[]} {[]}
@@ -141,10 +170,18 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.item.detail.id","ClaimResponse.item.detail.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.item.detail.extension","ClaimResponse.item.detail.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.item.detail.extension","ClaimResponse.item.detail.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.item.detail.extension:traceNumber","ClaimResponse.item.detail.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.detail.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.item.detail.traceNumber` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.item.detail.extension:reviewOutcome","ClaimResponse.item.detail.extension","reviewOutcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.detail.reviewOutcome from R5 for use in FHIR R4","The high-level results of the adjudication if adjudication has been performed.","Element `ClaimResponse.item.detail.reviewOutcome` is will have a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.item.detail.modifierExtension","ClaimResponse.item.detail.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -162,12 +199,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.item.detail.adjudication.id","ClaimResponse.item.detail.adjudication.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.item.detail.adjudication.extension","ClaimResponse.item.detail.adjudication.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.item.detail.adjudication.extension","ClaimResponse.item.detail.adjudication.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.item.detail.adjudication.extension","ClaimResponse.item.detail.adjudication.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.adjudication|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.item.detail.adjudication from R5 for use in FHIR R4","The adjudication results.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.item.detail.adjudication.extension:adjudication","ClaimResponse.item.detail.adjudication.extension","adjudication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.adjudication|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.detail.adjudication from R5 for use in FHIR R4","The adjudication results.","Element `ClaimResponse.item.detail.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.detail.adjudication`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.item.detail.adjudication.modifierExtension","ClaimResponse.item.detail.adjudication.modifierExtension","","extensions
@@ -193,10 +230,18 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.item.detail.subDetail.id","ClaimResponse.item.detail.subDetail.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.item.detail.subDetail.extension","ClaimResponse.item.detail.subDetail.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.item.detail.subDetail.extension","ClaimResponse.item.detail.subDetail.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.item.detail.subDetail.extension:traceNumber","ClaimResponse.item.detail.subDetail.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.detail.subDetail.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.item.detail.subDetail.traceNumber` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.item.detail.subDetail.extension:reviewOutcome","ClaimResponse.item.detail.subDetail.extension","reviewOutcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.detail.subDetail.reviewOutcome from R5 for use in FHIR R4","The high-level results of the adjudication if adjudication has been performed.","Element `ClaimResponse.item.detail.subDetail.reviewOutcome` is will have a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.item.detail.subDetail.modifierExtension","ClaimResponse.item.detail.subDetail.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -214,12 +259,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.item.detail.subDetail.adjudication.id","ClaimResponse.item.detail.subDetail.adjudication.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.item.detail.subDetail.adjudication.extension","ClaimResponse.item.detail.subDetail.adjudication.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.item.detail.subDetail.adjudication.extension","ClaimResponse.item.detail.subDetail.adjudication.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.item.detail.subDetail.adjudication.extension","ClaimResponse.item.detail.subDetail.adjudication.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.adjudication|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.item.detail.subDetail.adjudication from R5 for use in FHIR R4","The adjudication results.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.item.detail.subDetail.adjudication.extension:adjudication","ClaimResponse.item.detail.subDetail.adjudication.extension","adjudication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.adjudication|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.item.detail.subDetail.adjudication from R5 for use in FHIR R4","The adjudication results.","Element `ClaimResponse.item.detail.subDetail.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.adjudication`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.item.detail.subDetail.adjudication.modifierExtension","ClaimResponse.item.detail.subDetail.adjudication.modifierExtension","","extensions
@@ -245,10 +290,34 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.addItem.id","ClaimResponse.addItem.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.extension","ClaimResponse.addItem.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.addItem.extension","ClaimResponse.addItem.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.extension:traceNumber","ClaimResponse.addItem.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.addItem.traceNumber` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.extension:revenue","ClaimResponse.addItem.extension","revenue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.revenue|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.revenue from R5 for use in FHIR R4","The type of revenue or cost center providing the product and/or service.","Element `ClaimResponse.addItem.revenue` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.extension:productOrServiceEnd","ClaimResponse.addItem.extension","productOrServiceEnd","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.productOrServiceEnd|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.productOrServiceEnd from R5 for use in FHIR R4","This contains the end of a range of product, service, drug or other billing codes for the item. This element is not used when the .productOrService is a group code. This value may only be present when a .productOfService code has been provided to convey the start of the range. Typically this value may be used only with preauthorizations and not with claims.","Element `ClaimResponse.addItem.productOrServiceEnd` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.extension:tax","ClaimResponse.addItem.extension","tax","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.tax|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.tax from R5 for use in FHIR R4","The total of taxes applicable for this product or service.","Element `ClaimResponse.addItem.tax` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.extension:reviewOutcome","ClaimResponse.addItem.extension","reviewOutcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.reviewOutcome from R5 for use in FHIR R4","The high-level results of the adjudication if adjudication has been performed.","Element `ClaimResponse.addItem.reviewOutcome` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.extension:request","ClaimResponse.addItem.extension","request","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.request from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/SupplyRequest,http://hl7.org/fhir/StructureDefinition/VisionPrescription in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClaimResponse.addItem.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ClaimResponse.addItem.request` is will have a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.modifierExtension","ClaimResponse.addItem.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -299,12 +368,12 @@ Address {[]} {[]}Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDef
 "
 "ClaimResponse.addItem.bodySite.id","ClaimResponse.addItem.bodySite.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.bodySite.extension","ClaimResponse.addItem.bodySite.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.addItem.bodySite.extension","ClaimResponse.addItem.bodySite.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.addItem.bodySite.extension","ClaimResponse.addItem.bodySite.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.addItem.bodySite from R5 for use in FHIR R4","Physical location where the service is performed or applies.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"ClaimResponse.addItem.bodySite.extension:bodySite","ClaimResponse.addItem.bodySite.extension","bodySite","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.bodySite from R5 for use in FHIR R4","Physical location where the service is performed or applies.","Element `ClaimResponse.addItem.bodySite` is mapped to FHIR R4 element `ClaimResponse.addItem.bodySite`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.bodySite.coding","ClaimResponse.addItem.bodySite.coding","","","",0,*,"","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -323,12 +392,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.addItem.adjudication.id","ClaimResponse.addItem.adjudication.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.adjudication.extension","ClaimResponse.addItem.adjudication.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.addItem.adjudication.extension","ClaimResponse.addItem.adjudication.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.addItem.adjudication.extension","ClaimResponse.addItem.adjudication.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.adjudication|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.addItem.adjudication from R5 for use in FHIR R4","The adjudication results.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.addItem.adjudication.extension:adjudication","ClaimResponse.addItem.adjudication.extension","adjudication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.adjudication|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.adjudication from R5 for use in FHIR R4","The adjudication results.","Element `ClaimResponse.addItem.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.adjudication`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.adjudication.modifierExtension","ClaimResponse.addItem.adjudication.modifierExtension","","extensions
@@ -354,10 +423,30 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.addItem.detail.id","ClaimResponse.addItem.detail.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.detail.extension","ClaimResponse.addItem.detail.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.addItem.detail.extension","ClaimResponse.addItem.detail.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.extension:traceNumber","ClaimResponse.addItem.detail.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.addItem.detail.traceNumber` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.extension:revenue","ClaimResponse.addItem.detail.extension","revenue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.revenue|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.revenue from R5 for use in FHIR R4","The type of revenue or cost center providing the product and/or service.","Element `ClaimResponse.addItem.detail.revenue` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.extension:productOrServiceEnd","ClaimResponse.addItem.detail.extension","productOrServiceEnd","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.productOrServiceEnd|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.productOrServiceEnd from R5 for use in FHIR R4","This contains the end of a range of product, service, drug or other billing codes for the item. This element is not used when the .productOrService is a group code. This value may only be present when a .productOfService code has been provided to convey the start of the range. Typically this value may be used only with preauthorizations and not with claims.","Element `ClaimResponse.addItem.detail.productOrServiceEnd` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.extension:tax","ClaimResponse.addItem.detail.extension","tax","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.tax|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.tax from R5 for use in FHIR R4","The total of taxes applicable for this product or service.","Element `ClaimResponse.addItem.detail.tax` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.extension:reviewOutcome","ClaimResponse.addItem.detail.extension","reviewOutcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.reviewOutcome from R5 for use in FHIR R4","The high-level results of the adjudication if adjudication has been performed.","Element `ClaimResponse.addItem.detail.reviewOutcome` is will have a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.detail.modifierExtension","ClaimResponse.addItem.detail.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -390,12 +479,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.addItem.detail.adjudication.id","ClaimResponse.addItem.detail.adjudication.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.detail.adjudication.extension","ClaimResponse.addItem.detail.adjudication.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.addItem.detail.adjudication.extension","ClaimResponse.addItem.detail.adjudication.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.addItem.detail.adjudication.extension","ClaimResponse.addItem.detail.adjudication.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.adjudication|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.addItem.detail.adjudication from R5 for use in FHIR R4","The adjudication results.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.addItem.detail.adjudication.extension:adjudication","ClaimResponse.addItem.detail.adjudication.extension","adjudication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.adjudication|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.adjudication from R5 for use in FHIR R4","The adjudication results.","Element `ClaimResponse.addItem.detail.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.adjudication`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.detail.adjudication.modifierExtension","ClaimResponse.addItem.detail.adjudication.modifierExtension","","extensions
@@ -421,10 +510,30 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.addItem.detail.subDetail.id","ClaimResponse.addItem.detail.subDetail.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.detail.subDetail.extension","ClaimResponse.addItem.detail.subDetail.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.addItem.detail.subDetail.extension","ClaimResponse.addItem.detail.subDetail.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.subDetail.extension:traceNumber","ClaimResponse.addItem.detail.subDetail.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.traceNumber|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.subDetail.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `ClaimResponse.addItem.detail.subDetail.traceNumber` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.subDetail.extension:revenue","ClaimResponse.addItem.detail.subDetail.extension","revenue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.revenue|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.subDetail.revenue from R5 for use in FHIR R4","The type of revenue or cost center providing the product and/or service.","Element `ClaimResponse.addItem.detail.subDetail.revenue` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.subDetail.extension:productOrServiceEnd","ClaimResponse.addItem.detail.subDetail.extension","productOrServiceEnd","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.productOrServiceEnd|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.subDetail.productOrServiceEnd from R5 for use in FHIR R4","This contains the end of a range of product, service, drug or other billing codes for the item. This element is not used when the .productOrService is a group code. This value may only be present when a .productOfService code has been provided to convey the start of the range. Typically this value may be used only with preauthorizations and not with claims.","Element `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.subDetail.extension:tax","ClaimResponse.addItem.detail.subDetail.extension","tax","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.tax|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.subDetail.tax from R5 for use in FHIR R4","The total of taxes applicable for this product or service.","Element `ClaimResponse.addItem.detail.subDetail.tax` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.addItem.detail.subDetail.extension:reviewOutcome","ClaimResponse.addItem.detail.subDetail.extension","reviewOutcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.subDetail.reviewOutcome from R5 for use in FHIR R4","The high-level results of the adjudication if adjudication has been performed.","Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` is will have a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.detail.subDetail.modifierExtension","ClaimResponse.addItem.detail.subDetail.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -457,12 +566,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.addItem.detail.subDetail.adjudication.id","ClaimResponse.addItem.detail.subDetail.adjudication.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.addItem.detail.subDetail.adjudication.extension","ClaimResponse.addItem.detail.subDetail.adjudication.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.addItem.detail.subDetail.adjudication.extension","ClaimResponse.addItem.detail.subDetail.adjudication.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.addItem.detail.subDetail.adjudication.extension","ClaimResponse.addItem.detail.subDetail.adjudication.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.addItem.detail.subDetail.adjudication from R5 for use in FHIR R4","The adjudication results.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.addItem.detail.subDetail.adjudication.extension:adjudication","ClaimResponse.addItem.detail.subDetail.adjudication.extension","adjudication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.addItem.detail.subDetail.adjudication from R5 for use in FHIR R4","The adjudication results.","Element `ClaimResponse.addItem.detail.subDetail.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.adjudication`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.addItem.detail.subDetail.adjudication.modifierExtension","ClaimResponse.addItem.detail.subDetail.adjudication.modifierExtension","","extensions
@@ -488,12 +597,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.adjudication.id","ClaimResponse.adjudication.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.adjudication.extension","ClaimResponse.adjudication.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.adjudication.extension","ClaimResponse.adjudication.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.adjudication.extension","ClaimResponse.adjudication.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.adjudication from R5 for use in FHIR R4","The adjudication results which are presented at the header level rather than at the line-item or add-item levels.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.adjudication.extension:adjudication","ClaimResponse.adjudication.extension","adjudication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.adjudication from R5 for use in FHIR R4","The adjudication results which are presented at the header level rather than at the line-item or add-item levels.","Element `ClaimResponse.adjudication` is mapped to FHIR R4 element `ClaimResponse.adjudication`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.adjudication.modifierExtension","ClaimResponse.adjudication.modifierExtension","","extensions
@@ -600,12 +709,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.processNote.type.id","ClaimResponse.processNote.type.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"ClaimResponse.processNote.type.extension","ClaimResponse.processNote.type.extension","","","",1,*,"","","","Extension {[]} {[]}
+"ClaimResponse.processNote.type.extension","ClaimResponse.processNote.type.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ClaimResponse.processNote.type.extension","ClaimResponse.processNote.type.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.processNote.type|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ClaimResponse.processNote.type from R5 for use in FHIR R4","The business purpose of the note text.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ClaimResponse.processNote.type.extension:type","ClaimResponse.processNote.type.extension","type","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.processNote.type|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.processNote.type from R5 for use in FHIR R4","The business purpose of the note text.","Element `ClaimResponse.processNote.type` is mapped to FHIR R4 element `ClaimResponse.processNote.type`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.processNote.type.value","ClaimResponse.processNote.type.value","","","",0,1,"","","","string {[]} {[]}
@@ -654,10 +763,14 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ClaimResponse.error.id","ClaimResponse.error.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ClaimResponse.error.extension","ClaimResponse.error.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ClaimResponse.error.extension","ClaimResponse.error.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ClaimResponse.error.extension:expression","ClaimResponse.error.extension","expression","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.error.expression|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ClaimResponse.error.expression from R5 for use in FHIR R4","A [simple subset of FHIRPath](https://hl7.org/fhir/fhirpat.html#simple) limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised.","Element `ClaimResponse.error.expression` is will have a context of ClaimResponse.error based on following the parent source element upwards and mapping to `ClaimResponse`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ClaimResponse.error.modifierExtension","ClaimResponse.error.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.

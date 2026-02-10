@@ -7,7 +7,7 @@ This cross-version profile allows R5 ImmunizationRecommendation content to be re
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AuditEvent.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.basedOn.md), [Cross-version Extension `R5.CarePlan.activity.plannedActivityReference` for use in FHIR R4](StructureDefinition-ext-R5-CarePlan.act.pAR.md), [Cross-version Extension `R5.DocumentReference.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.basedOn.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md)... Show 2 more, [Cross-version Extension `R5.Immunization.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.basedOn.md) and [Cross-version Extension `R5.Provenance.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Provenance.basedOn.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ImmunizationRecommendation)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
   "title" : "Cross-version Profile for R5.ImmunizationRecommendation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7146712-06:00",
+  "date" : "2026-02-09T22:05:43.1581748-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

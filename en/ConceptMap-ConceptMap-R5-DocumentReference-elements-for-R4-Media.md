@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:32.2877442-06:00",
+  "date" : "2026-02-09T22:05:43.7890524-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DocumentReference` is representable via FHIR R4B Resource `Media`.\nFHIR R5 Resource `DocumentReference` is representable via FHIR R4B Resource `DocumentReference`.\nElement `DocumentReference` is mapped to FHIR R4B element `Media`.\nElement `DocumentReference` is mapped to FHIR R4B element `DocumentReference`."
+              "comment" : "FHIR R5 Resource `DocumentReference` is representable via FHIR R4 Resource `DocumentReference`.\nFHIR R5 Resource `DocumentReference` is representable via FHIR R4 Resource `Media`.\nElement `DocumentReference` is mapped to FHIR R4 element `DocumentReference`.\nElement `DocumentReference` is mapped to FHIR R4 element `Media`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DocumentReference` is representable via FHIR R4B Resource `Media`.\nFHIR R5 Resource `DocumentReference` is representable via FHIR R4B Resource `DocumentReference`.\nElement `DocumentReference` is mapped to FHIR R4B element `Media`.\nElement `DocumentReference` is mapped to FHIR R4B element `DocumentReference`."
+              "comment" : "FHIR R5 Resource `DocumentReference` is representable via FHIR R4 Resource `DocumentReference`.\nFHIR R5 Resource `DocumentReference` is representable via FHIR R4 Resource `Media`.\nElement `DocumentReference` is mapped to FHIR R4 element `DocumentReference`.\nElement `DocumentReference` is mapped to FHIR R4 element `Media`."
             }
           ]
         },
@@ -101,12 +101,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.meta` is mapped to FHIR R4B element `Media.meta`.\nElement `DocumentReference.meta` is mapped to FHIR R4B element `DocumentReference.meta`."
+              "comment" : "Element `DocumentReference.meta` is mapped to FHIR R4 element `DocumentReference.meta`.\nElement `DocumentReference.meta` is mapped to FHIR R4 element `Media.meta`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.meta` is mapped to FHIR R4B element `Media.meta`.\nElement `DocumentReference.meta` is mapped to FHIR R4B element `DocumentReference.meta`."
+              "comment" : "Element `DocumentReference.meta` is mapped to FHIR R4 element `DocumentReference.meta`.\nElement `DocumentReference.meta` is mapped to FHIR R4 element `Media.meta`."
             }
           ]
         },
@@ -117,12 +117,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.implicitRules` is mapped to FHIR R4B element `Media.implicitRules`.\nElement `DocumentReference.implicitRules` is mapped to FHIR R4B element `DocumentReference.implicitRules`."
+              "comment" : "Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `DocumentReference.implicitRules`.\nElement `DocumentReference.implicitRules` is mapped to FHIR R4 element `Media.implicitRules`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.implicitRules` is mapped to FHIR R4B element `Media.implicitRules`.\nElement `DocumentReference.implicitRules` is mapped to FHIR R4B element `DocumentReference.implicitRules`."
+              "comment" : "Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `DocumentReference.implicitRules`.\nElement `DocumentReference.implicitRules` is mapped to FHIR R4 element `Media.implicitRules`."
             }
           ]
         },
@@ -133,12 +133,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.language` is mapped to FHIR R4B element `Media.language`.\nElement `DocumentReference.language` is mapped to FHIR R4B element `DocumentReference.language`."
+              "comment" : "Element `DocumentReference.language` is mapped to FHIR R4 element `DocumentReference.language`.\nElement `DocumentReference.language` is mapped to FHIR R4 element `Media.language`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.language` is mapped to FHIR R4B element `Media.language`.\nElement `DocumentReference.language` is mapped to FHIR R4B element `DocumentReference.language`."
+              "comment" : "Element `DocumentReference.language` is mapped to FHIR R4 element `DocumentReference.language`.\nElement `DocumentReference.language` is mapped to FHIR R4 element `Media.language`."
             }
           ]
         },
@@ -149,12 +149,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.text` is mapped to FHIR R4B element `Media.text`.\nElement `DocumentReference.text` is mapped to FHIR R4B element `DocumentReference.text`."
+              "comment" : "Element `DocumentReference.text` is mapped to FHIR R4 element `DocumentReference.text`.\nElement `DocumentReference.text` is mapped to FHIR R4 element `Media.text`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.text` is mapped to FHIR R4B element `Media.text`.\nElement `DocumentReference.text` is mapped to FHIR R4B element `DocumentReference.text`."
+              "comment" : "Element `DocumentReference.text` is mapped to FHIR R4 element `DocumentReference.text`.\nElement `DocumentReference.text` is mapped to FHIR R4 element `Media.text`."
             }
           ]
         },
@@ -165,12 +165,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.contained` is mapped to FHIR R4B element `Media.contained`.\nElement `DocumentReference.contained` is mapped to FHIR R4B element `DocumentReference.contained`."
+              "comment" : "Element `DocumentReference.contained` is mapped to FHIR R4 element `DocumentReference.contained`.\nElement `DocumentReference.contained` is mapped to FHIR R4 element `Media.contained`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.contained` is mapped to FHIR R4B element `Media.contained`.\nElement `DocumentReference.contained` is mapped to FHIR R4B element `DocumentReference.contained`."
+              "comment" : "Element `DocumentReference.contained` is mapped to FHIR R4 element `DocumentReference.contained`.\nElement `DocumentReference.contained` is mapped to FHIR R4 element `Media.contained`."
             }
           ]
         },
@@ -181,12 +181,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.identifier` is mapped to FHIR R4B element `Media.identifier`.\nElement `DocumentReference.identifier` is mapped to FHIR R4B element `DocumentReference.identifier`."
+              "comment" : "Element `DocumentReference.identifier` is mapped to FHIR R4 element `DocumentReference.identifier`.\nElement `DocumentReference.identifier` is mapped to FHIR R4 element `Media.identifier`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.identifier` is mapped to FHIR R4B element `Media.identifier`.\nElement `DocumentReference.identifier` is mapped to FHIR R4B element `DocumentReference.identifier`."
+              "comment" : "Element `DocumentReference.identifier` is mapped to FHIR R4 element `DocumentReference.identifier`.\nElement `DocumentReference.identifier` is mapped to FHIR R4 element `Media.identifier`."
             }
           ]
         },
@@ -195,9 +195,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.version` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.version` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.version` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.version` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.version` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.version` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -206,14 +211,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.basedOn",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.basedOn` is mapped to FHIR R4B element `Media.basedOn`.\nElement `DocumentReference.basedOn` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.basedOn` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.basedOn` is mapped to FHIR R4 element `Media.basedOn`."
             },
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.basedOn",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.basedOn` is mapped to FHIR DSTU2 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.basedOn` is mapped to FHIR DSTU2 structure `Media`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.basedOn` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.basedOn` is mapped to FHIR R4 element `Media.basedOn`."
             }
           ]
         },
@@ -224,12 +229,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.status` is mapped to FHIR R4B element `Media.status`.\nElement `DocumentReference.status` is mapped to FHIR R4B element `DocumentReference.status`."
+              "comment" : "Element `DocumentReference.status` is mapped to FHIR R4 element `DocumentReference.status`.\nElement `DocumentReference.status` is mapped to FHIR R4 element `Media.status`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.status` is mapped to FHIR R4B element `Media.status`.\nElement `DocumentReference.status` is mapped to FHIR R4B element `DocumentReference.status`."
+              "comment" : "Element `DocumentReference.status` is mapped to FHIR R4 element `DocumentReference.status`.\nElement `DocumentReference.status` is mapped to FHIR R4 element `Media.status`."
             }
           ]
         },
@@ -240,7 +245,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.docStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.docStatus` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.docStatus` is mapped to FHIR R4B element `DocumentReference.docStatus`."
+              "comment" : "Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus`.\nElement `DocumentReference.docStatus` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus`.\nElement `DocumentReference.docStatus` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -249,14 +259,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "modality",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.modality",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.modality` is mapped to FHIR R4B element `Media.modality`.\nElement `DocumentReference.modality` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.modality` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.modality` is mapped to FHIR R4 element `Media.modality`."
             },
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.subtype",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.modality",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.modality` is mapped to FHIR STU3 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.modality` is mapped to FHIR STU3 element `Media.subtype`."
+              "comment" : "Element `DocumentReference.modality` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.modality` is mapped to FHIR R4 element `Media.modality`."
             }
           ]
         },
@@ -267,12 +277,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.type` is mapped to FHIR R4B element `Media.type`.\nElement `DocumentReference.type` is mapped to FHIR R4B element `DocumentReference.type`."
+              "comment" : "Element `DocumentReference.type` is mapped to FHIR R4 element `DocumentReference.type`.\nElement `DocumentReference.type` is mapped to FHIR R4 element `Media.type`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.type` is mapped to FHIR R4B element `Media.type`.\nElement `DocumentReference.type` is mapped to FHIR R4B element `DocumentReference.type`."
+              "comment" : "Element `DocumentReference.type` is mapped to FHIR R4 element `DocumentReference.type`.\nElement `DocumentReference.type` is mapped to FHIR R4 element `Media.type`."
             }
           ]
         },
@@ -283,12 +293,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.category` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.category` is mapped to FHIR R4B element `DocumentReference.category`."
+              "comment" : "Element `DocumentReference.category` is mapped to FHIR R4 element `DocumentReference.category`.\nElement `DocumentReference.category` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             },
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.class",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.category` is mapped to FHIR STU3 element `DocumentReference.class`.\nElement `DocumentReference.category` is mapped to FHIR STU3 structure `Media`, but has no target element specified."
+              "comment" : "Element `DocumentReference.category` is mapped to FHIR R4 element `DocumentReference.category`.\nElement `DocumentReference.category` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -299,12 +309,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DocumentReference.subject` is mapped to FHIR R4B element `Media.subject`.\nElement `DocumentReference.subject` is mapped to FHIR R4B element `DocumentReference.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.subject` is mapped to FHIR R4 element `DocumentReference.subject`.\nElement `DocumentReference.subject` is mapped to FHIR R4 element `Media.subject`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DocumentReference.subject` is mapped to FHIR R4B element `Media.subject`.\nElement `DocumentReference.subject` is mapped to FHIR R4B element `DocumentReference.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.subject` is mapped to FHIR R4 element `DocumentReference.subject`.\nElement `DocumentReference.subject` is mapped to FHIR R4 element `Media.subject`."
             }
           ]
         },
@@ -315,7 +325,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.context",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.context` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.context` is mapped to FHIR R4B element `DocumentReference.context`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context`.\nElement `DocumentReference.context` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context`.\nElement `DocumentReference.context` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -326,7 +341,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.context.event",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.event` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.event` is mapped to FHIR R4B element `DocumentReference.context.event`."
+              "comment" : "Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event`.\nElement `DocumentReference.event` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event`.\nElement `DocumentReference.event` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -335,14 +355,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodySite",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.bodySite",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.bodySite` is mapped to FHIR R4B element `Media.bodySite`.\nElement `DocumentReference.bodySite` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.bodySite` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite`."
             },
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.bodySite",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.bodySite` is mapped to FHIR DSTU2 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.bodySite` is mapped to FHIR DSTU2 structure `Media`, but has no target element specified."
+              "comment" : "Element `DocumentReference.bodySite` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite`."
             }
           ]
         },
@@ -353,7 +373,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.context.facilityType",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.facilityType` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.facilityType` is mapped to FHIR R4B element `DocumentReference.context.facilityType`."
+              "comment" : "Element `DocumentReference.facilityType` is mapped to FHIR R4 element `DocumentReference.context.facilityType`.\nElement `DocumentReference.facilityType` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.facilityType` is mapped to FHIR R4 element `DocumentReference.context.facilityType`.\nElement `DocumentReference.facilityType` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -364,7 +389,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.context.practiceSetting",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.practiceSetting` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.practiceSetting` is mapped to FHIR R4B element `DocumentReference.context.practiceSetting`."
+              "comment" : "Element `DocumentReference.practiceSetting` is mapped to FHIR R4 element `DocumentReference.context.practiceSetting`.\nElement `DocumentReference.practiceSetting` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.practiceSetting` is mapped to FHIR R4 element `DocumentReference.context.practiceSetting`.\nElement `DocumentReference.practiceSetting` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -375,7 +405,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.context.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.period` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.period` is mapped to FHIR R4B element `DocumentReference.context.period`."
+              "comment" : "Element `DocumentReference.period` is mapped to FHIR R4 element `DocumentReference.context.period`.\nElement `DocumentReference.period` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.period` is mapped to FHIR R4 element `DocumentReference.context.period`.\nElement `DocumentReference.period` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -386,12 +421,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.date` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.date` is mapped to FHIR R4B element `DocumentReference.date`."
+              "comment" : "Element `DocumentReference.date` is mapped to FHIR R4 element `DocumentReference.date`.\nElement `DocumentReference.date` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             },
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.indexed",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.date` is mapped to FHIR STU3 element `DocumentReference.indexed`.\nElement `DocumentReference.date` is mapped to FHIR STU3 structure `Media`, but has no target element specified."
+              "comment" : "Element `DocumentReference.date` is mapped to FHIR R4 element `DocumentReference.date`.\nElement `DocumentReference.date` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -402,7 +437,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.author",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nElement `DocumentReference.author` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.author` is mapped to FHIR R4B element `DocumentReference.author`."
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.author` is mapped to FHIR R4 element `DocumentReference.author`.\nElement `DocumentReference.author` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.author` is mapped to FHIR R4 element `DocumentReference.author`.\nElement `DocumentReference.author` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -411,9 +451,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "attester",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.attester` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.attester` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.attester` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.attester` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -422,9 +467,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "mode",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:mode",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.attester.mode` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.mode` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.mode` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -433,9 +483,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "time",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:time",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.attester.time` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.time` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.time` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -444,9 +499,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "party",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:party",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.party` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.attester.party` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.attester.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.attester.party` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.party` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.attester.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.attester.party` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.party` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -457,7 +517,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.custodian",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.custodian` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.custodian` is mapped to FHIR R4B element `DocumentReference.custodian`."
+              "comment" : "Element `DocumentReference.custodian` is mapped to FHIR R4 element `DocumentReference.custodian`.\nElement `DocumentReference.custodian` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.custodian` is mapped to FHIR R4 element `DocumentReference.custodian`.\nElement `DocumentReference.custodian` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -468,7 +533,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.relatesTo",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.relatesTo` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.relatesTo` is mapped to FHIR R4B element `DocumentReference.relatesTo`."
+              "comment" : "Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -479,7 +549,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.relatesTo.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.relatesTo.code` is mapped to FHIR R4B element `DocumentReference.relatesTo.code`."
+              "comment" : "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code`.\nElement `DocumentReference.relatesTo.code` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -490,7 +565,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.relatesTo.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.relatesTo.target` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4B element `DocumentReference.relatesTo.target`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target`.\nElement `DocumentReference.relatesTo.target` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -501,7 +581,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.description` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.description` is mapped to FHIR R4B element `DocumentReference.description`."
+              "comment" : "Element `DocumentReference.description` is mapped to FHIR R4 element `DocumentReference.description`.\nElement `DocumentReference.description` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.description` is mapped to FHIR R4 element `DocumentReference.description`.\nElement `DocumentReference.description` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -512,7 +597,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.securityLabel",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.securityLabel` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.securityLabel` is mapped to FHIR R4B element `DocumentReference.securityLabel`."
+              "comment" : "Element `DocumentReference.securityLabel` is mapped to FHIR R4 element `DocumentReference.securityLabel`.\nElement `DocumentReference.securityLabel` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.securityLabel` is mapped to FHIR R4 element `DocumentReference.securityLabel`.\nElement `DocumentReference.securityLabel` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -523,12 +613,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.content",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.content` is mapped to FHIR R4B element `Media.content`.\nElement `DocumentReference.content` is mapped to FHIR R4B element `DocumentReference.content`."
+              "comment" : "Element `DocumentReference.content` is mapped to FHIR R4 element `DocumentReference.content`.\nElement `DocumentReference.content` is mapped to FHIR R4 element `Media.content`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.content",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.content` is mapped to FHIR R4B element `Media.content`.\nElement `DocumentReference.content` is mapped to FHIR R4B element `DocumentReference.content`."
+              "comment" : "Element `DocumentReference.content` is mapped to FHIR R4 element `DocumentReference.content`.\nElement `DocumentReference.content` is mapped to FHIR R4 element `Media.content`."
             }
           ]
         },
@@ -539,7 +629,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.content.attachment",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.content.attachment` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.content.attachment` is mapped to FHIR R4B element `DocumentReference.content.attachment`."
+              "comment" : "Element `DocumentReference.content.attachment` is mapped to FHIR R4 element `DocumentReference.content.attachment`.\nElement `DocumentReference.content.attachment` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.content",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.content.attachment` is mapped to FHIR R4 element `DocumentReference.content.attachment`.\nElement `DocumentReference.content.attachment` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -548,9 +643,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "profile",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.content",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.content.profile` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.content.profile` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.content.profile` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.content",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.content.profile` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         },
@@ -559,9 +659,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#DocumentReference.content",
               "equivalence" : "relatedto",
-              "comment" : "Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.\nElement `DocumentReference.content.profile.value[x]` is mapped to FHIR R4B structure `Media`, but has no target element specified.\nElement `DocumentReference.content.profile.value[x]` is mapped to FHIR R4B structure `DocumentReference`, but has no target element specified."
+              "comment" : "Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.\nElement `DocumentReference.content.profile.value[x]` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile.value[x]` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Media#Media.content",
+              "equivalence" : "relatedto",
+              "comment" : "Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.\nElement `DocumentReference.content.profile.value[x]` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile.value[x]` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`."
             }
           ]
         }

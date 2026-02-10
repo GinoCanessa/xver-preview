@@ -66,7 +66,7 @@
   <title value="Cross-version Extension `R5.DataRequirement.valueFilter` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -83,7 +83,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DataRequirement.valueFilter` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DataRequirement.valueFilter` 0..* `Element`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DataRequirement.valueFilter` 0..* `Element`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DataRequirement.valueFilter` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `DataRequirement.valueFilter` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`DataRequirement.valueFilter` 0..* `Element`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `DataRequirement.valueFilter` 0..* `Element`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `DataRequirement.valueFilter` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -94,7 +94,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="DataRequirement"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -206,7 +206,7 @@
       <short value="An attribute to filter on"/>
       <definition value="The attribute of the filter. The specified path SHALL be a FHIRPath resolvable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of a type that is comparable to the valueFilter.value[x] element for the filter."/>
       <comment value="The path attribute contains a [Simple FHIR Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation."/>
-      <requirements value="Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.path` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.path` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -371,7 +371,7 @@
       <sliceName value="searchParam"/>
       <short value="A parameter to search on"/>
       <definition value="A search parameter defined on the specified type of the DataRequirement, and which searches on elements of a type compatible with the type of the valueFilter.value[x] for the filter."/>
-      <requirements value="Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.searchParam` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.searchParam` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -535,7 +535,7 @@
       <sliceName value="comparator"/>
       <short value="eq | gt | lt | ge | le | sa | eb"/>
       <definition value="The comparator to be used to determine whether the value is matching."/>
-      <requirements value="Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.comparator` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.comparator` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -699,7 +699,7 @@
       <sliceName value="value"/>
       <short value="The value of the filter, as a Period, DateTime, or Duration value"/>
       <definition value="The value of the filter."/>
-      <requirements value="Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.value[x]` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.value[x]` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1106,7 +1106,7 @@
       <short value="An attribute to filter on"/>
       <definition value="The attribute of the filter. The specified path SHALL be a FHIRPath resolvable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of a type that is comparable to the valueFilter.value[x] element for the filter."/>
       <comment value="The path attribute contains a [Simple FHIR Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation."/>
-      <requirements value="Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.path` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.path` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1147,7 +1147,7 @@
       <sliceName value="searchParam"/>
       <short value="A parameter to search on"/>
       <definition value="A search parameter defined on the specified type of the DataRequirement, and which searches on elements of a type compatible with the type of the valueFilter.value[x] for the filter."/>
-      <requirements value="Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.searchParam` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.searchParam` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1187,7 +1187,7 @@
       <sliceName value="comparator"/>
       <short value="eq | gt | lt | ge | le | sa | eb"/>
       <definition value="The comparator to be used to determine whether the value is matching."/>
-      <requirements value="Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.comparator` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.comparator` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1227,7 +1227,7 @@
       <sliceName value="value"/>
       <short value="The value of the filter, as a Period, DateTime, or Duration value"/>
       <definition value="The value of the filter."/>
-      <requirements value="Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.value[x]` is mapped to FHIR R4 structure `DataRequirement`, but has no target element specified."/>
+      <requirements value="Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.&#xA;Element `DataRequirement.valueFilter.value[x]` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

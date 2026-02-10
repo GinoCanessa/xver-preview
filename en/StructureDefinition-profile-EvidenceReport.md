@@ -7,7 +7,7 @@ This cross-version profile allows R5 EvidenceReport content to be represented vi
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ResearchStudy.result` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.result.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-EvidenceReport)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EvidenceR
   "title" : "Cross-version Profile for R5.EvidenceReport for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6891543-06:00",
+  "date" : "2026-02-09T22:05:43.1153603-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceMet
   "title" : "Cross-version Profile for R5.DeviceMetric for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6706991-06:00",
+  "date" : "2026-02-09T22:05:43.0710226-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceMet
       {
         "id" : "DeviceMetric",
         "path" : "DeviceMetric"
+      },
+      {
+        "id" : "DeviceMetric.extension",
+        "path" : "DeviceMetric.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DeviceMetric.extension:measurementFrequency",
+        "path" : "DeviceMetric.extension",
+        "sliceName" : "measurementFrequency",
+        "short" : "Cross-version extension for DeviceMetric.measurementFrequency from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceMetric.measurementFrequency` is will have a context of DeviceMetric based on following the parent source element upwards and mapping to `DeviceMetric`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.measurementFrequency|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

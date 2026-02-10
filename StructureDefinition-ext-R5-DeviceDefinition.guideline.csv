@@ -11,7 +11,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:useContext","Extension.extension","useContext","","",0,*,"","","","Extension {[]} {[]}
 ","The circumstances that form the setting for using the device","The circumstances that form the setting for using the device.","","Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.useContext` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.useContext` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:useContext.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -27,7 +27,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:usageInstruction","Extension.extension","usageInstruction","","",0,1,"","","","Extension {[]} {[]}
 ","Detailed written and visual directions for the user on how to use the device","Detailed written and visual directions for the user on how to use the device.","","Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.usageInstruction` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.usageInstruction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:usageInstruction.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -43,7 +43,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:relatedArtifact","Extension.extension","relatedArtifact","","",0,*,"","","","Extension {[]} {[]}
 ","A source of information or reference for this guideline","A source of information or reference for this guideline.","","Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.relatedArtifact` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.relatedArtifact` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:relatedArtifact.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -59,7 +59,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:indication","Extension.extension","indication","","",0,*,"","","","Extension {[]} {[]}
 ","A clinical condition for which the device was designed to be used","A clinical condition for which the device was designed to be used.","A ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.","Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.indication` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.indication` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:indication.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -75,7 +75,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:contraindication","Extension.extension","contraindication","","",0,*,"","","","Extension {[]} {[]}
 ","A specific situation when a device should not be used because it may cause harm","A specific situation when a device should not be used because it may cause harm.","A ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.","Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.contraindication` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.contraindication` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:contraindication.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -91,7 +91,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:warning","Extension.extension","warning","","",0,*,"","","","Extension {[]} {[]}
 ","Specific hazard alert information that a user needs to know before using the device","Specific hazard alert information that a user needs to know before using the device.","A ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.","Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.warning` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.warning` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:warning.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -107,7 +107,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:intendedUse","Extension.extension","intendedUse","","",0,1,"","","","Extension {[]} {[]}
 ","A description of the general purpose or medical use of the device or its function","A description of the general purpose or medical use of the device or its function.","","Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.
-Element `DeviceDefinition.guideline.intendedUse` is mapped to FHIR R4 structure `DeviceDefinition`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DeviceDefinition.guideline.intendedUse` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:intendedUse.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

@@ -64,7 +64,7 @@
   <title value="Cross-version Extension `R5.ObservationDefinition.component` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -81,7 +81,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ObservationDefinition.component` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ObservationDefinition.component` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ObservationDefinition.component` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ObservationDefinition.component` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ObservationDefinition.component` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ObservationDefinition.component` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ObservationDefinition.component` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ObservationDefinition.component` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -92,7 +92,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ObservationDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -203,7 +203,7 @@
       <sliceName value="code"/>
       <short value="Type of observation"/>
       <definition value="Describes what will be observed."/>
-      <requirements value="Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.code` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.code` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -372,7 +372,7 @@
       <sliceName value="permittedDataType"/>
       <short value="Quantity | CodeableConcept | string | boolean | integer | Range | Ratio | SampledData | time | dateTime | Period"/>
       <definition value="The data types allowed for the value element of the instance of this component observations."/>
-      <requirements value="Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedDataType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -541,7 +541,7 @@
       <sliceName value="permittedUnit"/>
       <short value="Unit for quantitative results"/>
       <definition value="Units allowed for the valueQuantity element in the instance observations conforming to this ObservationDefinition."/>
-      <requirements value="Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedUnit` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -705,7 +705,7 @@
       <sliceName value="qualifiedValue"/>
       <short value="Set of qualified values for observation results"/>
       <definition value="A set of qualified values associated with a context and a set of conditions -  provides a range for quantitative and ordinal observations and a collection of value sets for qualitative observations."/>
-      <requirements value="Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.qualifiedValue` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1252,7 +1252,7 @@
       <sliceName value="code"/>
       <short value="Type of observation"/>
       <definition value="Describes what will be observed."/>
-      <requirements value="Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.code` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.code` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1297,7 +1297,7 @@
       <sliceName value="permittedDataType"/>
       <short value="Quantity | CodeableConcept | string | boolean | integer | Range | Ratio | SampledData | time | dateTime | Period"/>
       <definition value="The data types allowed for the value element of the instance of this component observations."/>
-      <requirements value="Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedDataType` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedDataType` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1342,7 +1342,7 @@
       <sliceName value="permittedUnit"/>
       <short value="Unit for quantitative results"/>
       <definition value="Units allowed for the valueQuantity element in the instance observations conforming to this ObservationDefinition."/>
-      <requirements value="Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedUnit` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.permittedUnit` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1382,7 +1382,7 @@
       <sliceName value="qualifiedValue"/>
       <short value="Set of qualified values for observation results"/>
       <definition value="A set of qualified values associated with a context and a set of conditions -  provides a range for quantitative and ordinal observations and a collection of value sets for qualitative observations."/>
-      <requirements value="Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.qualifiedValue` is mapped to FHIR R4 structure `ObservationDefinition`, but has no target element specified."/>
+      <requirements value="Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.&#xA;Element `ObservationDefinition.component.qualifiedValue` is will have a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.DocumentReference.attester` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.attester` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.attester` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.attester` 0..* `BackboneElement`\n*  R5: `DocumentReference.attester` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.attester` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester` is mapped to FHIR R4 structure `Media`, but has no target element specified."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DocumentReference.attester` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DocumentReference.attester` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DocumentReference.attester` 0..* `BackboneElement`\n*  R5: `DocumentReference.attester` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DocumentReference.attester` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester` is will have a context of Media based on following the parent source element upwards and mapping to `Media`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,10 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Element" ]
+     fhir:expression [ fhir:v "DocumentReference" ]
+  ] [
+     fhir:type [ fhir:v "element" ] ;
+     fhir:expression [ fhir:v "Media" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +317,7 @@
        fhir:sliceName [ fhir:v "mode" ] ;
        fhir:short [ fhir:v "personal | professional | legal | official" ] ;
        fhir:definition [ fhir:v "The type of attestation the authenticator offers." ] ;
-       fhir:requirements [ fhir:v "Indicates the level of authority of the attestation. Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester.mode` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Indicates the level of authority of the attestation. Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.mode` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -533,7 +536,7 @@
        fhir:sliceName [ fhir:v "time" ] ;
        fhir:short [ fhir:v "When the document was attested" ] ;
        fhir:definition [ fhir:v "When the document was attested by the party." ] ;
-       fhir:requirements [ fhir:v "Identifies when the information in the document was deemed accurate.  (Things may have changed since then.). Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester.time` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Identifies when the information in the document was deemed accurate.  (Things may have changed since then.). Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.time` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -744,7 +747,7 @@
        fhir:sliceName [ fhir:v "party" ] ;
        fhir:short [ fhir:v "Who attested the document" ] ;
        fhir:definition [ fhir:v "Who attested the document in the specified way." ] ;
-       fhir:requirements [ fhir:v "Identifies who has taken on the responsibility for accuracy of the document content. Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.party` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester.party` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Identifies who has taken on the responsibility for accuracy of the document content. Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.attester.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.attester.party` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.party` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1343,7 +1346,7 @@
        fhir:sliceName [ fhir:v "mode" ] ;
        fhir:short [ fhir:v "personal | professional | legal | official" ] ;
        fhir:definition [ fhir:v "The type of attestation the authenticator offers." ] ;
-       fhir:requirements [ fhir:v "Indicates the level of authority of the attestation. Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester.mode` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Indicates the level of authority of the attestation. Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.mode` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.mode` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1398,7 +1401,7 @@
        fhir:sliceName [ fhir:v "time" ] ;
        fhir:short [ fhir:v "When the document was attested" ] ;
        fhir:definition [ fhir:v "When the document was attested by the party." ] ;
-       fhir:requirements [ fhir:v "Identifies when the information in the document was deemed accurate.  (Things may have changed since then.). Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester.time` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Identifies when the information in the document was deemed accurate.  (Things may have changed since then.). Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.time` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.time` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1445,7 +1448,7 @@
        fhir:sliceName [ fhir:v "party" ] ;
        fhir:short [ fhir:v "Who attested the document" ] ;
        fhir:definition [ fhir:v "Who attested the document in the specified way." ] ;
-       fhir:requirements [ fhir:v "Identifies who has taken on the responsibility for accuracy of the document content. Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nElement `DocumentReference.attester.party` is mapped to FHIR R4 structure `DocumentReference`, but has no target element specified.\nElement `DocumentReference.attester.party` is mapped to FHIR R4 structure `Media`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Identifies who has taken on the responsibility for accuracy of the document content. Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.attester.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.attester.party` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester.party` is will have a context of Media based on following the parent source element upwards and mapping to `Media`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

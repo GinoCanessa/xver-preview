@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.7563954-06:00",
+  "date" : "2026-02-09T22:05:44.0924929-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `OperationDefinition` is representable via FHIR R4B Resource `OperationDefinition`.\nElement `OperationDefinition` is mapped to FHIR R4B element `OperationDefinition`."
+              "comment" : "FHIR R5 Resource `OperationDefinition` is representable via FHIR R4 Resource `OperationDefinition`.\nElement `OperationDefinition` is mapped to FHIR R4 element `OperationDefinition`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.meta` is mapped to FHIR R4B element `OperationDefinition.meta`."
+              "comment" : "Element `OperationDefinition.meta` is mapped to FHIR R4 element `OperationDefinition.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.implicitRules` is mapped to FHIR R4B element `OperationDefinition.implicitRules`."
+              "comment" : "Element `OperationDefinition.implicitRules` is mapped to FHIR R4 element `OperationDefinition.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.language` is mapped to FHIR R4B element `OperationDefinition.language`."
+              "comment" : "Element `OperationDefinition.language` is mapped to FHIR R4 element `OperationDefinition.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.text` is mapped to FHIR R4B element `OperationDefinition.text`."
+              "comment" : "Element `OperationDefinition.text` is mapped to FHIR R4 element `OperationDefinition.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.contained` is mapped to FHIR R4B element `OperationDefinition.contained`."
+              "comment" : "Element `OperationDefinition.contained` is mapped to FHIR R4 element `OperationDefinition.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.url` is mapped to FHIR R4B element `OperationDefinition.url`."
+              "comment" : "Element `OperationDefinition.url` is mapped to FHIR R4 element `OperationDefinition.url`."
             }
           ]
         },
@@ -160,9 +160,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "Basic.identifier",
+              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `OperationDefinition.identifier` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `OperationDefinition.identifier` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.version` is mapped to FHIR R4B element `OperationDefinition.version`."
+              "comment" : "Element `OperationDefinition.version` is mapped to FHIR R4 element `OperationDefinition.version`."
             }
           ]
         },
@@ -182,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.versionAlgorithm[x]` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.name` is mapped to FHIR R4B element `OperationDefinition.name`."
+              "comment" : "Element `OperationDefinition.name` is mapped to FHIR R4 element `OperationDefinition.name`."
             }
           ]
         },
@@ -206,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.title` is mapped to FHIR R4B element `OperationDefinition.title`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.title` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.title` is mapped to FHIR R4 element `OperationDefinition.title`."
             }
           ]
         },
@@ -222,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.status` is mapped to FHIR R4B element `OperationDefinition.status`."
+              "comment" : "Element `OperationDefinition.status` is mapped to FHIR R4 element `OperationDefinition.status`."
             }
           ]
         },
@@ -233,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.kind` is mapped to FHIR R4B element `OperationDefinition.kind`."
+              "comment" : "Element `OperationDefinition.kind` is mapped to FHIR R4 element `OperationDefinition.kind`."
             }
           ]
         },
@@ -244,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.experimental` is mapped to FHIR R4B element `OperationDefinition.experimental`."
+              "comment" : "Element `OperationDefinition.experimental` is mapped to FHIR R4 element `OperationDefinition.experimental`."
             }
           ]
         },
@@ -255,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.date` is mapped to FHIR R4B element `OperationDefinition.date`."
+              "comment" : "Element `OperationDefinition.date` is mapped to FHIR R4 element `OperationDefinition.date`."
             }
           ]
         },
@@ -266,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.publisher` is mapped to FHIR R4B element `OperationDefinition.publisher`."
+              "comment" : "Element `OperationDefinition.publisher` is mapped to FHIR R4 element `OperationDefinition.publisher`."
             }
           ]
         },
@@ -277,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.contact` is mapped to FHIR R4B element `OperationDefinition.contact`."
+              "comment" : "Element `OperationDefinition.contact` is mapped to FHIR R4 element `OperationDefinition.contact`."
             }
           ]
         },
@@ -288,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.description` is mapped to FHIR R4B element `OperationDefinition.description`."
+              "comment" : "Element `OperationDefinition.description` is mapped to FHIR R4 element `OperationDefinition.description`."
             }
           ]
         },
@@ -299,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.useContext` is mapped to FHIR R4B element `OperationDefinition.useContext`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.useContext` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.useContext` is mapped to FHIR R4 element `OperationDefinition.useContext`."
             }
           ]
         },
@@ -315,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.jurisdiction` is mapped to FHIR R4B element `OperationDefinition.jurisdiction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.jurisdiction",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.jurisdiction` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.jurisdiction` is mapped to FHIR R4 element `OperationDefinition.jurisdiction`."
             }
           ]
         },
@@ -331,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.purpose` is mapped to FHIR R4B element `OperationDefinition.purpose`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.requirements",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.purpose` is mapped to FHIR DSTU2 element `OperationDefinition.requirements`."
+              "comment" : "Element `OperationDefinition.purpose` is mapped to FHIR R4 element `OperationDefinition.purpose`."
             }
           ]
         },
@@ -345,9 +325,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyright",
+              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.copyright` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.copyright` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`."
             }
           ]
         },
@@ -356,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.copyrightLabel` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.copyrightLabel` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`."
             }
           ]
         },
@@ -369,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.affectsState",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.affectsState` is mapped to FHIR R4B element `OperationDefinition.affectsState`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.idempotent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.affectsState` is mapped to FHIR STU3 element `OperationDefinition.idempotent`."
+              "comment" : "Element `OperationDefinition.affectsState` is mapped to FHIR R4 element `OperationDefinition.affectsState`."
             }
           ]
         },
@@ -385,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.code` is mapped to FHIR R4B element `OperationDefinition.code`."
+              "comment" : "Element `OperationDefinition.code` is mapped to FHIR R4 element `OperationDefinition.code`."
             }
           ]
         },
@@ -396,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.comment` is mapped to FHIR R4B element `OperationDefinition.comment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.notes",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.comment` is mapped to FHIR DSTU2 element `OperationDefinition.notes`."
+              "comment" : "Element `OperationDefinition.comment` is mapped to FHIR R4 element `OperationDefinition.comment`."
             }
           ]
         },
@@ -412,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.base",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.base` is mapped to FHIR R4B element `OperationDefinition.base`."
+              "comment" : "Element `OperationDefinition.base` is mapped to FHIR R4 element `OperationDefinition.base`."
             }
           ]
         },
@@ -423,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.resource` is mapped to FHIR R4B element `OperationDefinition.resource`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.resource` is mapped to FHIR DSTU2 element `OperationDefinition.type`."
+              "comment" : "Element `OperationDefinition.resource` is mapped to FHIR R4 element `OperationDefinition.resource`."
             }
           ]
         },
@@ -439,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.system` is mapped to FHIR R4B element `OperationDefinition.system`."
+              "comment" : "Element `OperationDefinition.system` is mapped to FHIR R4 element `OperationDefinition.system`."
             }
           ]
         },
@@ -450,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.type` is mapped to FHIR R4B element `OperationDefinition.type`."
+              "comment" : "Element `OperationDefinition.type` is mapped to FHIR R4 element `OperationDefinition.type`."
             }
           ]
         },
@@ -461,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.instance",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.instance` is mapped to FHIR R4B element `OperationDefinition.instance`."
+              "comment" : "Element `OperationDefinition.instance` is mapped to FHIR R4 element `OperationDefinition.instance`."
             }
           ]
         },
@@ -472,12 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.inputProfile",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.inputProfile` is mapped to FHIR R4B element `OperationDefinition.inputProfile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.inputProfile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.inputProfile` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.inputProfile` is mapped to FHIR R4 element `OperationDefinition.inputProfile`."
             }
           ]
         },
@@ -488,12 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.outputProfile",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.outputProfile` is mapped to FHIR R4B element `OperationDefinition.outputProfile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.outputProfile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.outputProfile` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.outputProfile` is mapped to FHIR R4 element `OperationDefinition.outputProfile`."
             }
           ]
         },
@@ -504,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter` is mapped to FHIR R4B element `OperationDefinition.parameter`."
+              "comment" : "Element `OperationDefinition.parameter` is mapped to FHIR R4 element `OperationDefinition.parameter`."
             }
           ]
         },
@@ -515,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.name` is mapped to FHIR R4B element `OperationDefinition.parameter.name`."
+              "comment" : "Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.name` is mapped to FHIR R4 element `OperationDefinition.parameter.name`."
             }
           ]
         },
@@ -526,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.use` is mapped to FHIR R4B element `OperationDefinition.parameter.use`."
+              "comment" : "Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.use` is mapped to FHIR R4 element `OperationDefinition.parameter.use`."
             }
           ]
         },
@@ -535,9 +490,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "scope",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope",
+              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."
             }
           ]
         },
@@ -548,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.min",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.min` is mapped to FHIR R4B element `OperationDefinition.parameter.min`."
+              "comment" : "Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.min` is mapped to FHIR R4 element `OperationDefinition.parameter.min`."
             }
           ]
         },
@@ -559,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.max",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.max` is mapped to FHIR R4B element `OperationDefinition.parameter.max`."
+              "comment" : "Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.max` is mapped to FHIR R4 element `OperationDefinition.parameter.max`."
             }
           ]
         },
@@ -570,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.documentation` is mapped to FHIR R4B element `OperationDefinition.parameter.documentation`."
+              "comment" : "Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.documentation` is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`."
             }
           ]
         },
@@ -581,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.type` is mapped to FHIR R4B element `OperationDefinition.parameter.type`."
+              "comment" : "Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.type` is mapped to FHIR R4 element `OperationDefinition.parameter.type`."
             }
           ]
         },
@@ -590,9 +545,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "allowedType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType",
+              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."
             }
           ]
         },
@@ -603,12 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.targetProfile",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4B element `OperationDefinition.parameter.targetProfile`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.profile",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.targetProfile` is mapped to FHIR STU3 element `OperationDefinition.parameter.profile`."
+              "comment" : "Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`."
             }
           ]
         },
@@ -619,12 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.searchType",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.searchType` is mapped to FHIR R4B element `OperationDefinition.parameter.searchType`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.searchType` is mapped to FHIR DSTU2 element `OperationDefinition.parameter.type`."
+              "comment" : "Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.searchType` is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`."
             }
           ]
         },
@@ -635,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.binding` is mapped to FHIR R4B element `OperationDefinition.parameter.binding`."
+              "comment" : "Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.binding` is mapped to FHIR R4 element `OperationDefinition.parameter.binding`."
             }
           ]
         },
@@ -646,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding.strength",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4B element `OperationDefinition.parameter.binding.strength`."
+              "comment" : "Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`."
             }
           ]
         },
@@ -657,12 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding.valueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4B element `OperationDefinition.parameter.binding.valueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding.valueSet[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `OperationDefinition.parameter.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `OperationDefinition.parameter.binding`.\nElement `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR STU3 element `OperationDefinition.parameter.binding.valueSet[x]`.\nNote that the target element context `OperationDefinition.parameter.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `OperationDefinition.parameter.binding`."
+              "comment" : "Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`."
             }
           ]
         },
@@ -673,12 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.referencedFrom",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4B element `OperationDefinition.parameter.referencedFrom`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.referencedFrom",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.referencedFrom` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`."
             }
           ]
         },
@@ -689,12 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.referencedFrom.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4B element `OperationDefinition.parameter.referencedFrom.source`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.referencedFrom:source",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.referencedFrom.source` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.\nElement `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`."
             }
           ]
         },
@@ -705,12 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.referencedFrom.sourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4B element `OperationDefinition.parameter.referencedFrom.sourceId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.referencedFrom:sourceId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.referencedFrom.sourceId` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.\nElement `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`."
             }
           ]
         },
@@ -721,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.part",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.part` is mapped to FHIR R4B element `OperationDefinition.parameter.part`."
+              "comment" : "Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.part` is mapped to FHIR R4 element `OperationDefinition.parameter.part`."
             }
           ]
         },
@@ -732,12 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.overload",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.overload` is mapped to FHIR R4B element `OperationDefinition.overload`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.overload` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.overload` is mapped to FHIR R4 element `OperationDefinition.overload`."
             }
           ]
         },
@@ -748,12 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.overload.parameterName",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.overload.parameterName` is mapped to FHIR R4B element `OperationDefinition.overload.parameterName`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload:parameterName",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.overload.parameterName` is part of an existing definition because parent element `OperationDefinition.overload` requires a cross-version extension.\nElement `OperationDefinition.overload.parameterName` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.overload.parameterName` is mapped to FHIR R4 element `OperationDefinition.overload.parameterName`."
             }
           ]
         },
@@ -764,12 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.overload.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.overload.comment` is mapped to FHIR R4B element `OperationDefinition.overload.comment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload:comment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `OperationDefinition.overload.comment` is part of an existing definition because parent element `OperationDefinition.overload` requires a cross-version extension.\nElement `OperationDefinition.overload.comment` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified."
+              "comment" : "Element `OperationDefinition.overload.comment` is mapped to FHIR R4 element `OperationDefinition.overload.comment`."
             }
           ]
         }

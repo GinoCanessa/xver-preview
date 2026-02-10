@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:33.1209709-06:00",
+  "date" : "2026-02-09T22:05:43.9568064-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `InsurancePlan` is representable via FHIR R4B Resource `InsurancePlan`.\nElement `InsurancePlan` is mapped to FHIR R4B element `InsurancePlan`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `InsurancePlan` is representable via FHIR STU3 Resource `Basic`.\nElement `InsurancePlan` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "FHIR R5 Resource `InsurancePlan` is representable via FHIR R4 Resource `InsurancePlan`.\nElement `InsurancePlan` is mapped to FHIR R4 element `InsurancePlan`."
             }
           ]
         },
@@ -101,12 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.meta` is mapped to FHIR R4B element `InsurancePlan.meta`."
-            },
-            {
-              "code" : "Basic.meta",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `InsurancePlan.meta` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.meta` is mapped to FHIR R4 element `InsurancePlan.meta`."
             }
           ]
         },
@@ -117,12 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.implicitRules` is mapped to FHIR R4B element `InsurancePlan.implicitRules`."
-            },
-            {
-              "code" : "Basic.implicitRules",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `InsurancePlan.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.implicitRules` is mapped to FHIR R4 element `InsurancePlan.implicitRules`."
             }
           ]
         },
@@ -133,12 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.language` is mapped to FHIR R4B element `InsurancePlan.language`."
-            },
-            {
-              "code" : "Basic.language",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `InsurancePlan.language` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.language` is mapped to FHIR R4 element `InsurancePlan.language`."
             }
           ]
         },
@@ -149,12 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.text` is mapped to FHIR R4B element `InsurancePlan.text`."
-            },
-            {
-              "code" : "Basic.text",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `InsurancePlan.text` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.text` is mapped to FHIR R4 element `InsurancePlan.text`."
             }
           ]
         },
@@ -165,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.contained` is mapped to FHIR R4B element `InsurancePlan.contained`."
-            },
-            {
-              "code" : "Basic.contained",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `InsurancePlan.contained` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.contained` is mapped to FHIR R4 element `InsurancePlan.contained`."
             }
           ]
         },
@@ -181,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.identifier` is mapped to FHIR R4B element `InsurancePlan.identifier`."
-            },
-            {
-              "code" : "Basic.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `InsurancePlan.identifier` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.identifier` is mapped to FHIR R4 element `InsurancePlan.identifier`."
             }
           ]
         },
@@ -197,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.status` is mapped to FHIR R4B element `InsurancePlan.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.status` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.status` is mapped to FHIR R4 element `InsurancePlan.status`."
             }
           ]
         },
@@ -213,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.type` is mapped to FHIR R4B element `InsurancePlan.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.type` is mapped to FHIR R4 element `InsurancePlan.type`."
             }
           ]
         },
@@ -229,12 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.name` is mapped to FHIR R4B element `InsurancePlan.name`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.name` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.name` is mapped to FHIR R4 element `InsurancePlan.name`."
             }
           ]
         },
@@ -245,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.alias",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.alias` is mapped to FHIR R4B element `InsurancePlan.alias`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:alias",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.alias` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.alias` is mapped to FHIR R4 element `InsurancePlan.alias`."
             }
           ]
         },
@@ -261,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.period` is mapped to FHIR R4B element `InsurancePlan.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:period",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.period` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.period` is mapped to FHIR R4 element `InsurancePlan.period`."
             }
           ]
         },
@@ -277,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.ownedBy",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.ownedBy` is mapped to FHIR R4B element `InsurancePlan.ownedBy`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:ownedBy",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.ownedBy` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.ownedBy` is mapped to FHIR R4 element `InsurancePlan.ownedBy`."
             }
           ]
         },
@@ -293,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.administeredBy",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.administeredBy` is mapped to FHIR R4B element `InsurancePlan.administeredBy`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:administeredBy",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.administeredBy` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.administeredBy` is mapped to FHIR R4 element `InsurancePlan.administeredBy`."
             }
           ]
         },
@@ -309,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverageArea",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverageArea` is mapped to FHIR R4B element `InsurancePlan.coverageArea`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverageArea",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverageArea` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverageArea` is mapped to FHIR R4 element `InsurancePlan.coverageArea`."
             }
           ]
         },
@@ -325,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.contact` is mapped to FHIR R4B element `InsurancePlan.contact`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:contact",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.contact` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.contact` is mapped to FHIR R4 element `InsurancePlan.contact`."
             }
           ]
         },
@@ -341,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.endpoint` is mapped to FHIR R4B element `InsurancePlan.endpoint`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:endpoint",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.endpoint` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.endpoint` is mapped to FHIR R4 element `InsurancePlan.endpoint`."
             }
           ]
         },
@@ -357,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.network` is mapped to FHIR R4B element `InsurancePlan.network`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.network` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.network` is mapped to FHIR R4 element `InsurancePlan.network`."
             }
           ]
         },
@@ -373,17 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage` is mapped to FHIR R4B element `InsurancePlan.coverage`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage` is mapped to FHIR R4 element `InsurancePlan.coverage`."
             }
           ]
         },
@@ -394,17 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.type` is mapped to FHIR R4B element `InsurancePlan.coverage.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.type` is part of an existing definition because parent element `InsurancePlan.coverage` requires a cross-version extension.\nElement `InsurancePlan.coverage.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.type` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.type` is mapped to FHIR R4 element `InsurancePlan.coverage.type`."
             }
           ]
         },
@@ -415,17 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.network` is mapped to FHIR R4B element `InsurancePlan.coverage.network`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.network` is part of an existing definition because parent element `InsurancePlan.coverage` requires a cross-version extension.\nElement `InsurancePlan.coverage.network` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.network` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.network` is mapped to FHIR R4 element `InsurancePlan.coverage.network`."
             }
           ]
         },
@@ -436,17 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.benefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit` is mapped to FHIR R4B element `InsurancePlan.coverage.benefit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:benefit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit` is part of an existing definition because parent element `InsurancePlan.coverage` requires a cross-version extension.\nElement `InsurancePlan.coverage.benefit` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.benefit` is mapped to FHIR R4 element `InsurancePlan.coverage.benefit`."
             }
           ]
         },
@@ -457,17 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.benefit.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.type` is mapped to FHIR R4B element `InsurancePlan.coverage.benefit.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:benefit:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.type` is part of an existing definition because parent element `InsurancePlan.coverage.benefit` requires a cross-version extension.\nElement `InsurancePlan.coverage.benefit.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.type` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.benefit.type` is mapped to FHIR R4 element `InsurancePlan.coverage.benefit.type`."
             }
           ]
         },
@@ -478,17 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.benefit.requirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.requirement` is mapped to FHIR R4B element `InsurancePlan.coverage.benefit.requirement`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:benefit:requirement",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.requirement` is part of an existing definition because parent element `InsurancePlan.coverage.benefit` requires a cross-version extension.\nElement `InsurancePlan.coverage.benefit.requirement` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit:requirement",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.benefit.requirement` is mapped to FHIR R4 element `InsurancePlan.coverage.benefit.requirement`."
             }
           ]
         },
@@ -499,17 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.benefit.limit",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit` is mapped to FHIR R4B element `InsurancePlan.coverage.benefit.limit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:benefit:limit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit` is part of an existing definition because parent element `InsurancePlan.coverage.benefit` requires a cross-version extension.\nElement `InsurancePlan.coverage.benefit.limit` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit.limit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.benefit.limit` is mapped to FHIR R4 element `InsurancePlan.coverage.benefit.limit`."
             }
           ]
         },
@@ -520,17 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.benefit.limit.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit.value` is mapped to FHIR R4B element `InsurancePlan.coverage.benefit.limit.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:benefit:limit:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit.value` is part of an existing definition because parent element `InsurancePlan.coverage.benefit.limit` requires a cross-version extension.\nElement `InsurancePlan.coverage.benefit.limit.value` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit.limit:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit.value` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.benefit.limit.value` is mapped to FHIR R4 element `InsurancePlan.coverage.benefit.limit.value`."
             }
           ]
         },
@@ -541,17 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.coverage.benefit.limit.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit.code` is mapped to FHIR R4B element `InsurancePlan.coverage.benefit.limit.code`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:coverage:benefit:limit:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit.code` is part of an existing definition because parent element `InsurancePlan.coverage.benefit.limit` requires a cross-version extension.\nElement `InsurancePlan.coverage.benefit.limit.code` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage.benefit.limit:code",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.coverage.benefit.limit.code` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.coverage.benefit.limit.code` is mapped to FHIR R4 element `InsurancePlan.coverage.benefit.limit.code`."
             }
           ]
         },
@@ -562,17 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan` is mapped to FHIR R4B element `InsurancePlan.plan`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan` is mapped to FHIR R4 element `InsurancePlan.plan`."
             }
           ]
         },
@@ -583,17 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.identifier` is mapped to FHIR R4B element `InsurancePlan.plan.identifier`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.identifier` is part of an existing definition because parent element `InsurancePlan.plan` requires a cross-version extension.\nElement `InsurancePlan.plan.identifier` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.identifier` is mapped to FHIR R4 element `InsurancePlan.plan.identifier`."
             }
           ]
         },
@@ -604,17 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.type` is mapped to FHIR R4B element `InsurancePlan.plan.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.type` is part of an existing definition because parent element `InsurancePlan.plan` requires a cross-version extension.\nElement `InsurancePlan.plan.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.type` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.type` is mapped to FHIR R4 element `InsurancePlan.plan.type`."
             }
           ]
         },
@@ -625,17 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.coverageArea",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.coverageArea` is mapped to FHIR R4B element `InsurancePlan.plan.coverageArea`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:coverageArea",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.coverageArea` is part of an existing definition because parent element `InsurancePlan.plan` requires a cross-version extension.\nElement `InsurancePlan.plan.coverageArea` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:coverageArea",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.coverageArea` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.coverageArea` is mapped to FHIR R4 element `InsurancePlan.plan.coverageArea`."
             }
           ]
         },
@@ -646,17 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.network` is mapped to FHIR R4B element `InsurancePlan.plan.network`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.network` is part of an existing definition because parent element `InsurancePlan.plan` requires a cross-version extension.\nElement `InsurancePlan.plan.network` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.network` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.network` is mapped to FHIR R4 element `InsurancePlan.plan.network`."
             }
           ]
         },
@@ -667,17 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.generalCost",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost` is mapped to FHIR R4B element `InsurancePlan.plan.generalCost`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:generalCost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost` is part of an existing definition because parent element `InsurancePlan.plan` requires a cross-version extension.\nElement `InsurancePlan.plan.generalCost` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.generalCost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.generalCost` is mapped to FHIR R4 element `InsurancePlan.plan.generalCost`."
             }
           ]
         },
@@ -688,17 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.generalCost.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.type` is mapped to FHIR R4B element `InsurancePlan.plan.generalCost.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:generalCost:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.type` is part of an existing definition because parent element `InsurancePlan.plan.generalCost` requires a cross-version extension.\nElement `InsurancePlan.plan.generalCost.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.generalCost:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.type` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.generalCost.type` is mapped to FHIR R4 element `InsurancePlan.plan.generalCost.type`."
             }
           ]
         },
@@ -709,17 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.generalCost.groupSize",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.groupSize` is mapped to FHIR R4B element `InsurancePlan.plan.generalCost.groupSize`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:generalCost:groupSize",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.groupSize` is part of an existing definition because parent element `InsurancePlan.plan.generalCost` requires a cross-version extension.\nElement `InsurancePlan.plan.generalCost.groupSize` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.generalCost:groupSize",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.groupSize` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.generalCost.groupSize` is mapped to FHIR R4 element `InsurancePlan.plan.generalCost.groupSize`."
             }
           ]
         },
@@ -730,17 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.generalCost.cost",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.cost` is mapped to FHIR R4B element `InsurancePlan.plan.generalCost.cost`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:generalCost:cost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.cost` is part of an existing definition because parent element `InsurancePlan.plan.generalCost` requires a cross-version extension.\nElement `InsurancePlan.plan.generalCost.cost` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.generalCost:cost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.cost` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.generalCost.cost` is mapped to FHIR R4 element `InsurancePlan.plan.generalCost.cost`."
             }
           ]
         },
@@ -751,17 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.generalCost.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.comment` is mapped to FHIR R4B element `InsurancePlan.plan.generalCost.comment`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:generalCost:comment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.comment` is part of an existing definition because parent element `InsurancePlan.plan.generalCost` requires a cross-version extension.\nElement `InsurancePlan.plan.generalCost.comment` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.generalCost:comment",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.generalCost.comment` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.generalCost.comment` is mapped to FHIR R4 element `InsurancePlan.plan.generalCost.comment`."
             }
           ]
         },
@@ -772,17 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost` is part of an existing definition because parent element `InsurancePlan.plan` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost`."
             }
           ]
         },
@@ -793,17 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.category` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.category`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.category` is part of an existing definition because parent element `InsurancePlan.plan.specificCost` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.category` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:category",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.category` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.category` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.category`."
             }
           ]
         },
@@ -814,17 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit` is part of an existing definition because parent element `InsurancePlan.plan.specificCost` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit`."
             }
           ]
         },
@@ -835,17 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.type` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.type` is part of an existing definition because parent element `InsurancePlan.plan.specificCost.benefit` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.type` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.type` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit.type`."
             }
           ]
         },
@@ -856,17 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit.cost",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit.cost`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit:cost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost` is part of an existing definition because parent element `InsurancePlan.plan.specificCost.benefit` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit.cost` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit.cost",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit.cost`."
             }
           ]
         },
@@ -877,17 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit.cost.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.type` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit.cost.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit:cost:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.type` is part of an existing definition because parent element `InsurancePlan.plan.specificCost.benefit.cost` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit.cost.type` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit.cost:type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.type` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.type` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit.cost.type`."
             }
           ]
         },
@@ -898,17 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit.cost.applicability",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.applicability` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit.cost.applicability`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit:cost:applicability",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.applicability` is part of an existing definition because parent element `InsurancePlan.plan.specificCost.benefit.cost` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit.cost.applicability` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit.cost:applicability",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.applicability` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.applicability` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit.cost.applicability`."
             }
           ]
         },
@@ -919,17 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit.cost.qualifiers",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.qualifiers` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit.cost.qualifiers`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit:cost:qualifiers",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.qualifiers` is part of an existing definition because parent element `InsurancePlan.plan.specificCost.benefit.cost` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit.cost.qualifiers` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit.cost:qualifiers",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.qualifiers` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.qualifiers` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit.cost.qualifiers`."
             }
           ]
         },
@@ -940,17 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan#InsurancePlan.plan.specificCost.benefit.cost.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.value` is mapped to FHIR R4B element `InsurancePlan.plan.specificCost.benefit.cost.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:plan:specificCost:benefit:cost:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.value` is part of an existing definition because parent element `InsurancePlan.plan.specificCost.benefit.cost` requires a cross-version extension.\nElement `InsurancePlan.plan.specificCost.benefit.cost.value` is not mapped to FHIR STU3, since FHIR R5 `InsurancePlan` is not mapped."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit:http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan.specificCost.benefit.cost:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.value` is not mapped to FHIR DSTU2, since FHIR R5 `InsurancePlan` is not mapped."
+              "comment" : "Element `InsurancePlan.plan.specificCost.benefit.cost.value` is mapped to FHIR R4 element `InsurancePlan.plan.specificCost.benefit.cost.value`."
             }
           ]
         }

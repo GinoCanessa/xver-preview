@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.AuditEvent.outcome` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -315,7 +315,7 @@
        fhir:short [ fhir:v "Whether the event succeeded or failed" ] ;
        fhir:definition [ fhir:v "Indicates whether the event succeeded or failed." ] ;
        fhir:comment [ fhir:v "In some cases a \"success\" may be partial, for example, an incomplete or interrupted transfer of a radiological study. For the purpose of establishing accountability, these distinctions are not relevant." ] ;
-       fhir:requirements [ fhir:v "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is mapped to FHIR R4 structure `AuditEvent`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -536,7 +536,7 @@
        fhir:short [ fhir:v "Additional outcome detail" ] ;
        fhir:definition [ fhir:v "Additional details about the error. This may be a text description of the error or a system code that identifies the error." ] ;
        fhir:comment [ fhir:v "A human readable description of the error issue SHOULD be placed in details.text." ] ;
-       fhir:requirements [ fhir:v "Element `AuditEvent.outcome.detail` is mapped to FHIR R4 structure `AuditEvent`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `AuditEvent.outcome.detail` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1106,7 +1106,7 @@
        fhir:short [ fhir:v "Whether the event succeeded or failed" ] ;
        fhir:definition [ fhir:v "Indicates whether the event succeeded or failed." ] ;
        fhir:comment [ fhir:v "In some cases a \"success\" may be partial, for example, an incomplete or interrupted transfer of a radiological study. For the purpose of establishing accountability, these distinctions are not relevant." ] ;
-       fhir:requirements [ fhir:v "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is mapped to FHIR R4 structure `AuditEvent`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1163,7 +1163,7 @@
        fhir:short [ fhir:v "Additional outcome detail" ] ;
        fhir:definition [ fhir:v "Additional details about the error. This may be a text description of the error or a system code that identifies the error." ] ;
        fhir:comment [ fhir:v "A human readable description of the error issue SHOULD be placed in details.text." ] ;
-       fhir:requirements [ fhir:v "Element `AuditEvent.outcome.detail` is mapped to FHIR R4 structure `AuditEvent`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `AuditEvent.outcome.detail` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

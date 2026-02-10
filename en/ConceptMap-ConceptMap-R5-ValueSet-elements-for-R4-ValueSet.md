@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.8628172-06:00",
+  "date" : "2026-02-09T22:05:44.3436075-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ValueSet` is representable via FHIR R4B Resource `ValueSet`.\nElement `ValueSet` is mapped to FHIR R4B element `ValueSet`."
+              "comment" : "FHIR R5 Resource `ValueSet` is representable via FHIR R4 Resource `ValueSet`.\nElement `ValueSet` is mapped to FHIR R4 element `ValueSet`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.meta` is mapped to FHIR R4B element `ValueSet.meta`."
+              "comment" : "Element `ValueSet.meta` is mapped to FHIR R4 element `ValueSet.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.implicitRules` is mapped to FHIR R4B element `ValueSet.implicitRules`."
+              "comment" : "Element `ValueSet.implicitRules` is mapped to FHIR R4 element `ValueSet.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.language` is mapped to FHIR R4B element `ValueSet.language`."
+              "comment" : "Element `ValueSet.language` is mapped to FHIR R4 element `ValueSet.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.text` is mapped to FHIR R4B element `ValueSet.text`."
+              "comment" : "Element `ValueSet.text` is mapped to FHIR R4 element `ValueSet.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.contained` is mapped to FHIR R4B element `ValueSet.contained`."
+              "comment" : "Element `ValueSet.contained` is mapped to FHIR R4 element `ValueSet.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.url` is mapped to FHIR R4B element `ValueSet.url`."
+              "comment" : "Element `ValueSet.url` is mapped to FHIR R4 element `ValueSet.url`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.identifier` is mapped to FHIR R4B element `ValueSet.identifier`."
+              "comment" : "Element `ValueSet.identifier` is mapped to FHIR R4 element `ValueSet.identifier`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.version` is mapped to FHIR R4B element `ValueSet.version`."
+              "comment" : "Element `ValueSet.version` is mapped to FHIR R4 element `ValueSet.version`."
             }
           ]
         },
@@ -182,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.versionAlgorithm",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.versionAlgorithm[x]` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.versionAlgorithm[x]` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.name` is mapped to FHIR R4B element `ValueSet.name`."
+              "comment" : "Element `ValueSet.name` is mapped to FHIR R4 element `ValueSet.name`."
             }
           ]
         },
@@ -206,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.title` is mapped to FHIR R4B element `ValueSet.title`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.title",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.title` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.title` is mapped to FHIR R4 element `ValueSet.title`."
             }
           ]
         },
@@ -222,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.status` is mapped to FHIR R4B element `ValueSet.status`."
+              "comment" : "Element `ValueSet.status` is mapped to FHIR R4 element `ValueSet.status`."
             }
           ]
         },
@@ -233,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.experimental` is mapped to FHIR R4B element `ValueSet.experimental`."
+              "comment" : "Element `ValueSet.experimental` is mapped to FHIR R4 element `ValueSet.experimental`."
             }
           ]
         },
@@ -244,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.date` is mapped to FHIR R4B element `ValueSet.date`."
+              "comment" : "Element `ValueSet.date` is mapped to FHIR R4 element `ValueSet.date`."
             }
           ]
         },
@@ -255,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.publisher` is mapped to FHIR R4B element `ValueSet.publisher`."
+              "comment" : "Element `ValueSet.publisher` is mapped to FHIR R4 element `ValueSet.publisher`."
             }
           ]
         },
@@ -266,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.contact` is mapped to FHIR R4B element `ValueSet.contact`."
+              "comment" : "Element `ValueSet.contact` is mapped to FHIR R4 element `ValueSet.contact`."
             }
           ]
         },
@@ -277,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.description` is mapped to FHIR R4B element `ValueSet.description`."
+              "comment" : "Element `ValueSet.description` is mapped to FHIR R4 element `ValueSet.description`."
             }
           ]
         },
@@ -288,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.useContext` is mapped to FHIR R4B element `ValueSet.useContext`."
+              "comment" : "Element `ValueSet.useContext` is mapped to FHIR R4 element `ValueSet.useContext`."
             }
           ]
         },
@@ -299,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.jurisdiction` is mapped to FHIR R4B element `ValueSet.jurisdiction`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.useContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.jurisdiction` is mapped to FHIR DSTU2 element `ValueSet.useContext`."
+              "comment" : "Element `ValueSet.jurisdiction` is mapped to FHIR R4 element `ValueSet.jurisdiction`."
             }
           ]
         },
@@ -315,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.immutable",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.immutable` is mapped to FHIR R4B element `ValueSet.immutable`."
+              "comment" : "Element `ValueSet.immutable` is mapped to FHIR R4 element `ValueSet.immutable`."
             }
           ]
         },
@@ -326,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.purpose` is mapped to FHIR R4B element `ValueSet.purpose`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.requirements",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.purpose` is mapped to FHIR DSTU2 element `ValueSet.requirements`."
+              "comment" : "Element `ValueSet.purpose` is mapped to FHIR R4 element `ValueSet.purpose`."
             }
           ]
         },
@@ -342,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.copyright` is mapped to FHIR R4B element `ValueSet.copyright`."
+              "comment" : "Element `ValueSet.copyright` is mapped to FHIR R4 element `ValueSet.copyright`."
             }
           ]
         },
@@ -351,9 +336,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.copyrightLabel",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.copyrightLabel` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.copyrightLabel` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -362,9 +347,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "approvalDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.approvalDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.approvalDate` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.approvalDate` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -373,9 +358,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastReviewDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.lastReviewDate",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.lastReviewDate` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.lastReviewDate` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -384,9 +369,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "effectivePeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.effectivePeriod",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.effectivePeriod` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.effectivePeriod` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -395,9 +380,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "topic",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.topic",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.topic` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.topic` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -406,9 +391,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "author",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.author",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `ValueSet.author` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `ValueSet.author` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -417,9 +402,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "editor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.editor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.editor` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.editor` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -428,9 +413,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reviewer",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.reviewer",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.reviewer` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.reviewer` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -439,9 +424,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "endorser",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.endorser",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.endorser` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.endorser` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -450,9 +435,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedArtifact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.relatedArtifact",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.relatedArtifact` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.relatedArtifact` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -463,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose` is mapped to FHIR R4B element `ValueSet.compose`."
+              "comment" : "Element `ValueSet.compose` is mapped to FHIR R4 element `ValueSet.compose`."
             }
           ]
         },
@@ -474,12 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.lockedDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.lockedDate` is mapped to FHIR R4B element `ValueSet.compose.lockedDate`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.lockedDate",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.lockedDate` is mapped to FHIR DSTU2 element `ValueSet.lockedDate`."
+              "comment" : "Element `ValueSet.compose.lockedDate` is mapped to FHIR R4 element `ValueSet.compose.lockedDate`."
             }
           ]
         },
@@ -490,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.inactive",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.inactive` is mapped to FHIR R4B element `ValueSet.compose.inactive`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.inactive",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.inactive` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.inactive` is mapped to FHIR R4 element `ValueSet.compose.inactive`."
             }
           ]
         },
@@ -506,12 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include` is mapped to FHIR R4B element `ValueSet.compose.include`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.codeSystem",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include` is mapped to FHIR DSTU2 element `ValueSet.codeSystem`.\nElement `ValueSet.compose.include` is mapped to FHIR DSTU2 element `ValueSet.compose.include`."
+              "comment" : "Element `ValueSet.compose.include` is mapped to FHIR R4 element `ValueSet.compose.include`."
             }
           ]
         },
@@ -522,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.system` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.system` is mapped to FHIR R4B element `ValueSet.compose.include.system`."
+              "comment" : "Element `ValueSet.compose.include.system` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.system` is mapped to FHIR R4 element `ValueSet.compose.include.system`."
             }
           ]
         },
@@ -533,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.version` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.version` is mapped to FHIR R4B element `ValueSet.compose.include.version`."
+              "comment" : "Element `ValueSet.compose.include.version` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.version` is mapped to FHIR R4 element `ValueSet.compose.include.version`."
             }
           ]
         },
@@ -544,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept` is mapped to FHIR R4B element `ValueSet.compose.include.concept`."
+              "comment" : "Element `ValueSet.compose.include.concept` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept` is mapped to FHIR R4 element `ValueSet.compose.include.concept`."
             }
           ]
         },
@@ -555,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.code` is mapped to FHIR R4B element `ValueSet.compose.include.concept.code`."
+              "comment" : "Element `ValueSet.compose.include.concept.code` is mapped to FHIR R4 element `ValueSet.compose.include.concept.code`."
             }
           ]
         },
@@ -566,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.display` is mapped to FHIR R4B element `ValueSet.compose.include.concept.display`."
+              "comment" : "Element `ValueSet.compose.include.concept.display` is mapped to FHIR R4 element `ValueSet.compose.include.concept.display`."
             }
           ]
         },
@@ -577,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.designation` is mapped to FHIR R4B element `ValueSet.compose.include.concept.designation`."
+              "comment" : "Element `ValueSet.compose.include.concept.designation` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation`."
             }
           ]
         },
@@ -588,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.designation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.designation.language` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.language` is mapped to FHIR R4B element `ValueSet.compose.include.concept.designation.language`."
+              "comment" : "Element `ValueSet.compose.include.concept.designation.language` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.language` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.language`."
             }
           ]
         },
@@ -599,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.designation.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.designation.use` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.use` is mapped to FHIR R4B element `ValueSet.compose.include.concept.designation.use`."
+              "comment" : "Element `ValueSet.compose.include.concept.designation.use` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.use` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.use`."
             }
           ]
         },
@@ -608,14 +578,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "additionalUse",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.concept.designation.additionalUse",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.designation.additionalUse` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.additionalUse` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
-            },
-            {
-              "code" : "additionalUse",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.designation.additionalUse` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.additionalUse` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.include.concept.designation.additionalUse` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.additionalUse` is will have a context of ValueSet.compose.include.concept.designation based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -626,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.concept.designation.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.concept.designation.value` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.value` is mapped to FHIR R4B element `ValueSet.compose.include.concept.designation.value`."
+              "comment" : "Element `ValueSet.compose.include.concept.designation.value` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.value` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.value`."
             }
           ]
         },
@@ -637,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.filter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.filter` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.filter` is mapped to FHIR R4B element `ValueSet.compose.include.filter`."
+              "comment" : "Element `ValueSet.compose.include.filter` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.filter` is mapped to FHIR R4 element `ValueSet.compose.include.filter`."
             }
           ]
         },
@@ -648,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.filter.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.filter.property` is mapped to FHIR R4B element `ValueSet.compose.include.filter.property`."
+              "comment" : "Element `ValueSet.compose.include.filter.property` is mapped to FHIR R4 element `ValueSet.compose.include.filter.property`."
             }
           ]
         },
@@ -659,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.filter.op",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4B element `ValueSet.compose.include.filter.op`."
+              "comment" : "Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4 element `ValueSet.compose.include.filter.op`."
             }
           ]
         },
@@ -670,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.filter.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.filter.value` is mapped to FHIR R4B element `ValueSet.compose.include.filter.value`."
+              "comment" : "Element `ValueSet.compose.include.filter.value` is mapped to FHIR R4 element `ValueSet.compose.include.filter.value`."
             }
           ]
         },
@@ -681,12 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include.valueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.valueSet` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.valueSet` is mapped to FHIR R4B element `ValueSet.compose.include.valueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.import",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.valueSet` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.valueSet` is mapped to FHIR DSTU2 element `ValueSet.compose.import`."
+              "comment" : "Element `ValueSet.compose.include.valueSet` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.valueSet` is mapped to FHIR R4 element `ValueSet.compose.include.valueSet`."
             }
           ]
         },
@@ -695,9 +655,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.include",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.include.copyright` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.copyright` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.include.copyright` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.copyright` is will have a context of ValueSet.compose.include based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -708,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude` is mapped to FHIR R4B element `ValueSet.compose.exclude`."
+              "comment" : "Element `ValueSet.compose.exclude` is mapped to FHIR R4 element `ValueSet.compose.exclude`."
             }
           ]
         },
@@ -719,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.system` is mapped to FHIR R4B element `ValueSet.compose.exclude.system`."
+              "comment" : "Element `ValueSet.compose.exclude.system` is mapped to FHIR R4 element `ValueSet.compose.exclude.system`."
             }
           ]
         },
@@ -730,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.version` is mapped to FHIR R4B element `ValueSet.compose.exclude.version`."
+              "comment" : "Element `ValueSet.compose.exclude.version` is mapped to FHIR R4 element `ValueSet.compose.exclude.version`."
             }
           ]
         },
@@ -741,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept`."
+              "comment" : "Element `ValueSet.compose.exclude.concept` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept`."
             }
           ]
         },
@@ -752,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.code` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept.code`."
+              "comment" : "Element `ValueSet.compose.exclude.concept.code` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept.code`."
             }
           ]
         },
@@ -763,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.display` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept.display`."
+              "comment" : "Element `ValueSet.compose.exclude.concept.display` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept.display`."
             }
           ]
         },
@@ -774,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept.designation`."
+              "comment" : "Element `ValueSet.compose.exclude.concept.designation` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept.designation`."
             }
           ]
         },
@@ -785,12 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.designation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.language` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept.designation.language`."
-            },
-            {
-              "code" : "language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.language` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.exclude.concept.designation.language` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept.designation.language`."
             }
           ]
         },
@@ -801,12 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.designation.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.use` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept.designation.use`."
-            },
-            {
-              "code" : "use",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.use` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.exclude.concept.designation.use` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept.designation.use`."
             }
           ]
         },
@@ -815,9 +765,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "additionalUse",
           "target" : [
             {
-              "code" : "additionalUse",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.additionalUse` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.exclude.concept.designation.additionalUse` is will have a context of ValueSet.compose.exclude.concept.designation based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -828,12 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.concept.designation.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.value` is mapped to FHIR R4B element `ValueSet.compose.exclude.concept.designation.value`."
-            },
-            {
-              "code" : "value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.concept.designation.value` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.exclude.concept.designation.value` is mapped to FHIR R4 element `ValueSet.compose.exclude.concept.designation.value`."
             }
           ]
         },
@@ -844,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.filter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.filter` is mapped to FHIR R4B element `ValueSet.compose.exclude.filter`."
+              "comment" : "Element `ValueSet.compose.exclude.filter` is mapped to FHIR R4 element `ValueSet.compose.exclude.filter`."
             }
           ]
         },
@@ -855,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains` is mapped to FHIR R4B element `ValueSet.expansion.contains`."
+              "comment" : "Element `ValueSet.expansion.contains` is mapped to FHIR R4 element `ValueSet.expansion.contains`."
             }
           ]
         },
@@ -866,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.filter.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.filter.property` is mapped to FHIR R4B element `ValueSet.compose.exclude.filter.property`."
+              "comment" : "Element `ValueSet.compose.exclude.filter.property` is mapped to FHIR R4 element `ValueSet.compose.exclude.filter.property`."
             }
           ]
         },
@@ -877,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.filter.op",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.filter.op` is mapped to FHIR R4B element `ValueSet.compose.exclude.filter.op`."
+              "comment" : "Element `ValueSet.compose.exclude.filter.op` is mapped to FHIR R4 element `ValueSet.compose.exclude.filter.op`."
             }
           ]
         },
@@ -888,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.filter.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.filter.value` is mapped to FHIR R4B element `ValueSet.compose.exclude.filter.value`."
+              "comment" : "Element `ValueSet.compose.exclude.filter.value` is mapped to FHIR R4 element `ValueSet.compose.exclude.filter.value`."
             }
           ]
         },
@@ -899,12 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude.valueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.valueSet` is mapped to FHIR R4B element `ValueSet.compose.exclude.valueSet`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.import",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.valueSet` is mapped to FHIR DSTU2 element `ValueSet.compose.import`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ValueSet.compose.exclude.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ValueSet.compose.exclude.valueSet` is mapped to FHIR R4 element `ValueSet.compose.exclude.valueSet`."
             }
           ]
         },
@@ -913,14 +853,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "copyright",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose.exclude",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.copyright` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.exclude.copyright",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.exclude.copyright` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.exclude.copyright` is will have a context of ValueSet.compose.exclude based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -929,9 +864,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "property",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.property",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.compose",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.compose.property` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.compose.property` is will have a context of ValueSet.compose based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -942,7 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion` is mapped to FHIR R4B element `ValueSet.expansion`."
+              "comment" : "Element `ValueSet.expansion` is mapped to FHIR R4 element `ValueSet.expansion`."
             }
           ]
         },
@@ -953,7 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.identifier` is mapped to FHIR R4B element `ValueSet.expansion.identifier`."
+              "comment" : "Element `ValueSet.expansion.identifier` is mapped to FHIR R4 element `ValueSet.expansion.identifier`."
             }
           ]
         },
@@ -962,9 +897,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "next",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.next",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.next` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.next` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -975,7 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.timestamp",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.timestamp` is mapped to FHIR R4B element `ValueSet.expansion.timestamp`."
+              "comment" : "Element `ValueSet.expansion.timestamp` is mapped to FHIR R4 element `ValueSet.expansion.timestamp`."
             }
           ]
         },
@@ -986,7 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.total",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.total` is mapped to FHIR R4B element `ValueSet.expansion.total`."
+              "comment" : "Element `ValueSet.expansion.total` is mapped to FHIR R4 element `ValueSet.expansion.total`."
             }
           ]
         },
@@ -997,7 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.offset",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.offset` is mapped to FHIR R4B element `ValueSet.expansion.offset`."
+              "comment" : "Element `ValueSet.expansion.offset` is mapped to FHIR R4 element `ValueSet.expansion.offset`."
             }
           ]
         },
@@ -1008,7 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.parameter` is mapped to FHIR R4B element `ValueSet.expansion.parameter`."
+              "comment" : "Element `ValueSet.expansion.parameter` is mapped to FHIR R4 element `ValueSet.expansion.parameter`."
             }
           ]
         },
@@ -1019,7 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.parameter.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.parameter.name` is mapped to FHIR R4B element `ValueSet.expansion.parameter.name`."
+              "comment" : "Element `ValueSet.expansion.parameter.name` is mapped to FHIR R4 element `ValueSet.expansion.parameter.name`."
             }
           ]
         },
@@ -1030,7 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.parameter.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ValueSet.expansion.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ValueSet.expansion.parameter`.\nElement `ValueSet.expansion.parameter.value[x]` is mapped to FHIR R4B element `ValueSet.expansion.parameter.value[x]`.\nNote that the target element context `ValueSet.expansion.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ValueSet.expansion.parameter`."
+              "comment" : "Note that the target element context `ValueSet.expansion.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ValueSet.expansion.parameter`.\nElement `ValueSet.expansion.parameter.value[x]` is mapped to FHIR R4 element `ValueSet.expansion.parameter.value[x]`.\nNote that the target element context `ValueSet.expansion.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ValueSet.expansion.parameter`."
             }
           ]
         },
@@ -1039,9 +974,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "property",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.property` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.property` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1050,9 +985,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property:code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.code` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.code` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1061,9 +996,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "uri",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property:uri",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.uri` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.\nElement `ValueSet.expansion.property.uri` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1074,7 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.system` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.system` is mapped to FHIR R4B element `ValueSet.expansion.contains.system`."
+              "comment" : "Element `ValueSet.expansion.contains.system` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.system` is mapped to FHIR R4 element `ValueSet.expansion.contains.system`."
             }
           ]
         },
@@ -1085,7 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.abstract",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.abstract` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.abstract` is mapped to FHIR R4B element `ValueSet.expansion.contains.abstract`."
+              "comment" : "Element `ValueSet.expansion.contains.abstract` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.abstract` is mapped to FHIR R4 element `ValueSet.expansion.contains.abstract`."
             }
           ]
         },
@@ -1096,12 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.inactive",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.inactive` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.inactive` is mapped to FHIR R4B element `ValueSet.expansion.contains.inactive`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.inactive",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.inactive` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.inactive` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.inactive` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.inactive` is mapped to FHIR R4 element `ValueSet.expansion.contains.inactive`."
             }
           ]
         },
@@ -1112,7 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.version` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.version` is mapped to FHIR R4B element `ValueSet.expansion.contains.version`."
+              "comment" : "Element `ValueSet.expansion.contains.version` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.version` is mapped to FHIR R4 element `ValueSet.expansion.contains.version`."
             }
           ]
         },
@@ -1123,7 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.code` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.code` is mapped to FHIR R4B element `ValueSet.expansion.contains.code`."
+              "comment" : "Element `ValueSet.expansion.contains.code` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.code` is mapped to FHIR R4 element `ValueSet.expansion.contains.code`."
             }
           ]
         },
@@ -1134,7 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.display` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.display` is mapped to FHIR R4B element `ValueSet.expansion.contains.display`."
+              "comment" : "Element `ValueSet.expansion.contains.display` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.display` is mapped to FHIR R4 element `ValueSet.expansion.contains.display`."
             }
           ]
         },
@@ -1145,12 +1075,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.designation` is mapped to FHIR R4B element `ValueSet.expansion.contains.designation`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.designation` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.designation` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.designation` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation`."
             }
           ]
         },
@@ -1159,9 +1084,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "property",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1170,9 +1095,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.code` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1181,9 +1106,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.value[x]` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1192,9 +1117,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subProperty",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:subProperty",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1203,9 +1128,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:subProperty:code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.code` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.code` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1214,9 +1139,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:subProperty:value",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.value[x]` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.\nElement `ValueSet.expansion.contains.property.subProperty.value[x]` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1227,7 +1152,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.contains",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.contains` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.contains` is mapped to FHIR R4B element `ValueSet.expansion.contains.contains`."
+              "comment" : "Element `ValueSet.expansion.contains.contains` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.contains` is mapped to FHIR R4 element `ValueSet.expansion.contains.contains`."
             }
           ]
         },
@@ -1236,9 +1161,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "scope",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.scope` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.scope` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1247,9 +1172,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "inclusionCriteria",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope:inclusionCriteria",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.scope.inclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.inclusionCriteria` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.scope.inclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.inclusionCriteria` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1258,9 +1183,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "exclusionCriteria",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope:exclusionCriteria",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.scope.exclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.exclusionCriteria` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.scope.exclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.exclusionCriteria` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1271,12 +1196,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.designation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.language` is mapped to FHIR R4B element `ValueSet.expansion.contains.designation.language`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation:language",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.language` is part of an existing definition because parent element `ValueSet.expansion.contains.designation` requires a cross-version extension.\nElement `ValueSet.expansion.contains.designation.language` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.designation.language` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation.language`."
             }
           ]
         },
@@ -1287,12 +1207,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.designation.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.use` is mapped to FHIR R4B element `ValueSet.expansion.contains.designation.use`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation:use",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.use` is part of an existing definition because parent element `ValueSet.expansion.contains.designation` requires a cross-version extension.\nElement `ValueSet.expansion.contains.designation.use` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.designation.use` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation.use`."
             }
           ]
         },
@@ -1301,14 +1216,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "additionalUse",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.additionalUse",
+              "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.additionalUse` is mapped to FHIR R4B structure `ValueSet`, but has no target element specified."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation:additionalUse",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.additionalUse` is part of an existing definition because parent element `ValueSet.expansion.contains.designation` requires a cross-version extension.\nElement `ValueSet.expansion.contains.designation.additionalUse` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.designation.additionalUse` is will have a context of ValueSet.expansion.contains.designation based on following the parent source element upwards and mapping to `ValueSet`."
             }
           ]
         },
@@ -1319,12 +1229,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ValueSet#ValueSet.expansion.contains.designation.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.value` is mapped to FHIR R4B element `ValueSet.expansion.contains.designation.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation:value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ValueSet.expansion.contains.designation.value` is part of an existing definition because parent element `ValueSet.expansion.contains.designation` requires a cross-version extension.\nElement `ValueSet.expansion.contains.designation.value` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+              "comment" : "Element `ValueSet.expansion.contains.designation.value` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation.value`."
             }
           ]
         }

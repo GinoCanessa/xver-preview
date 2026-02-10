@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.0939536-06:00",
+  "date" : "2026-02-09T22:05:43.4911675-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Binary` is representable via FHIR R4B Resource `Binary`.\nElement `Binary` is mapped to FHIR R4B element `Binary`."
+              "comment" : "FHIR R5 Resource `Binary` is representable via FHIR R4 Resource `Binary`.\nElement `Binary` is mapped to FHIR R4 element `Binary`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Binary.meta` is mapped to FHIR R4B element `Binary.meta`."
+              "comment" : "Element `Binary.meta` is mapped to FHIR R4 element `Binary.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Binary.implicitRules` is mapped to FHIR R4B element `Binary.implicitRules`."
+              "comment" : "Element `Binary.implicitRules` is mapped to FHIR R4 element `Binary.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Binary.language` is mapped to FHIR R4B element `Binary.language`."
+              "comment" : "Element `Binary.language` is mapped to FHIR R4 element `Binary.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Binary.contentType` is mapped to FHIR R4B element `Binary.contentType`."
+              "comment" : "Element `Binary.contentType` is mapped to FHIR R4 element `Binary.contentType`."
             }
           ]
         },
@@ -140,12 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.securityContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `Binary.securityContext` is mapped to FHIR R4B element `Binary.securityContext`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Binary.securityContext",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Binary.securityContext` is mapped to FHIR DSTU2 structure `Binary`, but has no target element specified."
+              "comment" : "Element `Binary.securityContext` is mapped to FHIR R4 element `Binary.securityContext`."
             }
           ]
         },
@@ -156,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.data",
               "equivalence" : "relatedto",
-              "comment" : "Element `Binary.data` is mapped to FHIR R4B element `Binary.data`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Binary#Binary.content",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Binary.data` is mapped to FHIR STU3 element `Binary.content`."
+              "comment" : "Element `Binary.data` is mapped to FHIR R4 element `Binary.data`."
             }
           ]
         }

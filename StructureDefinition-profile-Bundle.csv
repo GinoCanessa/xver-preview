@@ -19,18 +19,6 @@ bdl-2:entry.search only when a search {entry.search.empty() or (type = 'searchse
 "Bundle.type","Bundle.type","","","",1,1,"","","Y","code {[]} {[]}
 ","document | message | transaction | transaction-response | batch | batch-response | history | searchset | collection","Indicates the purpose of this bundle - how it is intended to be used.","It's possible to use a bundle for other purposes (e.g. a document can be accepted as a transaction). This is primarily defined so that there can be specific rules for some of the bundle types.","","","","","","","","",,"required","Indicates the purpose of a bundle - how it is intended to be used.","http://hl7.org/fhir/ValueSet/bundle-type|4.0.1","",,,,"Bundle.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.class"
-"Bundle.type.id","Bundle.type.id","","","",0,1,"","","","string {[]} {[]}
-","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"Bundle.type.extension","Bundle.type.extension","","","",1,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.type.extension","Bundle.type.extension","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.type|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Bundle.type from R5 for use in FHIR R4","Indicates the purpose of this bundle - how it is intended to be used.","It's possible to use a bundle for other purposes (e.g. a document can be accepted as a transaction). This is primarily defined so that there can be specific rules for some of the bundle types.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.type.value","Bundle.type.value","","","",0,1,"","","","string {[]} {[]}
-","Primitive value for code","Primitive value for code","","","","","","","","","",,,,,"",,,,"string.value",0,1,"",""
 "Bundle.timestamp","Bundle.timestamp","","","",0,1,"","","Y","instant {[]} {[]}
 ","When the bundle was assembled","The date/time that the bundle was assembled - i.e. when the resources were placed in the bundle.","For many bundles, the timestamp is equal to .meta.lastUpdated, because they are not stored (e.g. search results). When a bundle is placed in a persistent store, .meta.lastUpdated will be usually be changed by the server. When the bundle is a message, a middleware agent altering the message (even if not stored) SHOULD update .meta.lastUpdated. .timestamp is used to track the original time of the Bundle, and SHOULD be populated.  
 
@@ -70,18 +58,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Bundle.link.relation","Bundle.link.relation","","","",1,1,"","","Y","string {[]} {[]}
 ","See http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1","A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1).","","","","","","","","","",,,,,"",,,,"Bundle.link.relation",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Bundle.link.relation.id","Bundle.link.relation.id","","","",0,1,"","","","string {[]} {[]}
-","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"Bundle.link.relation.extension","Bundle.link.relation.extension","","","",1,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.link.relation.extension","Bundle.link.relation.extension","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Bundle.link.relation from R5 for use in FHIR R4","A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.link.relation.value","Bundle.link.relation.value","","","",0,1,"","","","string {[]} {[]}
-","Primitive value for string","The actual value","","","","","","","","","",1048576,,,,"",,,,"string.value",0,1,"",""
 "Bundle.link.url","Bundle.link.url","","","",1,1,"","","Y","uri {[]} {[]}
 ","Reference details for the link","The reference details for the link.","","","","","","","","","",,,,,"",,,,"Bundle.link.url",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -100,30 +76,8 @@ user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
-"Bundle.entry.link","Bundle.entry.link","","","",0,*,"","","Y","BackboneElement {[]} {[]}
+"Bundle.entry.link","Bundle.entry.link","","","",0,*,"","","Y","null {[]} {[]}
 ","Links related to this entry","A series of links that provide context to this entry.","","","","","","","","","",,,,,"",,,,"Bundle.entry.link",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
-"Bundle.entry.link.id","Bundle.entry.link.id","","","",0,1,"","","","string {[]} {[]}
-","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Bundle.entry.link.extension","Bundle.entry.link.extension","","","",1,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.entry.link.extension","Bundle.entry.link.extension","","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.link|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Bundle.entry.link from R5 for use in FHIR R4","A series of links that provide context to this entry.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.entry.link.modifierExtension","Bundle.entry.link.modifierExtension","","extensions
-user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
-","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
-
-Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
-"Bundle.entry.link.relation","Bundle.entry.link.relation","","","",1,1,"","","Y","string {[]} {[]}
-","See http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1","A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1).","","","","","","","","","",,,,,"",,,,"Bundle.link.relation",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
-"Bundle.entry.link.url","Bundle.entry.link.url","","","",1,1,"","","Y","uri {[]} {[]}
-","Reference details for the link","The reference details for the link.","","","","","","","","","",,,,,"",,,,"Bundle.link.url",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Bundle.entry.fullUrl","Bundle.entry.fullUrl","","","",0,1,"","","Y","uri {[]} {[]}
 ","URI for resource (Absolute URL server address or URI for UUID/OID)","The Absolute URL for the resource.  The fullUrl SHALL NOT disagree with the id in the resource - i.e. if the fullUrl is not a urn:uuid, the URL shall be version-independent URL consistent with the Resource.id. The fullUrl is a version independent reference to the resource. The fullUrl element SHALL have a value except that: 

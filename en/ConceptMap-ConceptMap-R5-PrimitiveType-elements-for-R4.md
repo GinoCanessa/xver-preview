@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0021157-06:00",
+  "date" : "2026-02-09T22:05:44.1486706-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PrimitiveType",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `PrimitiveType` is representable via FHIR R4B extensions.\nElement `PrimitiveType` is not mapped to FHIR R4B, since FHIR R5 `PrimitiveType` is not mapped."
+              "comment" : "Element `PrimitiveType` is not mapped to FHIR R4, since FHIR R5 `PrimitiveType` is not mapped."
             }
           ]
         }

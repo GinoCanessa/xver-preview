@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.1089244-06:00",
+  "date" : "2026-02-09T22:05:43.4947811-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `BiologicallyDerivedProductDispense` is representable via FHIR R4B Resource `Basic`.\nElement `BiologicallyDerivedProductDispense` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `BiologicallyDerivedProductDispense.meta` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.meta` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `BiologicallyDerivedProductDispense.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.implicitRules` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.language",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `BiologicallyDerivedProductDispense.language` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.language` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.text",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `BiologicallyDerivedProductDispense.text` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.text` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `BiologicallyDerivedProductDispense.contained` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.contained` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "Basic.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `BiologicallyDerivedProductDispense.identifier` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.identifier` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.basedOn` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.basedOn` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.partOf` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.partOf` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:status",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.status` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.status` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:originRelationshipType",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.originRelationshipType` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.originRelationshipType` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:product",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.product` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.product` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.patient` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.patient` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:matchStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.matchStatus` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.matchStatus` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -236,11 +236,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "BiologicallyDerivedProductDispense.performer",
           "display" : "performer",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:performer",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.performer` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.performer",
               "equivalence" : "relatedto",
@@ -253,11 +248,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:performer:function",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.performer.function` is part of an existing definition because parent element `BiologicallyDerivedProductDispense.performer` requires a cross-version extension.\nElement `BiologicallyDerivedProductDispense.performer.function` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.performer:function",
               "equivalence" : "relatedto",
               "comment" : "Element `BiologicallyDerivedProductDispense.performer.function` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
@@ -268,11 +258,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "BiologicallyDerivedProductDispense.performer.actor",
           "display" : "actor",
           "target" : [
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:performer:actor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.performer.actor` is part of an existing definition because parent element `BiologicallyDerivedProductDispense.performer` requires a cross-version extension.\nElement `BiologicallyDerivedProductDispense.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.performer:actor",
               "equivalence" : "relatedto",
@@ -287,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:location",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.location` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.location` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -298,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.quantity` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.quantity` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -309,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:preparedDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.preparedDate` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.preparedDate` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -320,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:whenHandedOver",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.whenHandedOver` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.whenHandedOver` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -331,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.destination` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.destination` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -342,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:note",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.note` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.note` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         },
@@ -353,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense:usageInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProductDispense.usageInstruction` is not mapped to FHIR R4B, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
+              "comment" : "Element `BiologicallyDerivedProductDispense.usageInstruction` is not mapped to FHIR R4, since FHIR R5 `BiologicallyDerivedProductDispense` is not mapped."
             }
           ]
         }

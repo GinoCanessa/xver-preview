@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
   "title" : "Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "parameterFocus",
         "short" : "The context of the order details by reference",
         "definition" : "Indicates the context of the order details by reference.",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameterFocus` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameterFocus` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -265,7 +265,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified.",
+        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -396,7 +396,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "parameter",
         "short" : "The parameter details for the service being requested",
         "definition" : "The parameter details for the service being requested.",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameter` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameter` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -432,7 +432,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "code",
         "short" : "The detail of the order being requested",
         "definition" : "A value representing the additional detail or instructions for the order (e.g., catheter insertion, body elevation, descriptive device configuration and/or setting instructions).",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.code` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.code` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -478,7 +478,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "short" : "The value for the order detail",
         "definition" : "Indicates a value for the order detail.",
         "comment" : "CodeableConcept values are indented to express concepts that would normally be coded - when a code is not available for a concept, CodeableConcept.text can be used. When the data is a text or not a single identifiable concept, string should be used.",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.value[x]` is mapped to FHIR R4 structure `ServiceRequest`, but has no target element specified.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.value[x]` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {

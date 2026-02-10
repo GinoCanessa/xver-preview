@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.9235474-06:00",
+  "date" : "2026-02-09T22:05:44.3627722-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `VisionPrescription` is representable via FHIR R4B Resource `VisionPrescription`.\nElement `VisionPrescription` is mapped to FHIR R4B element `VisionPrescription`."
+              "comment" : "FHIR R5 Resource `VisionPrescription` is representable via FHIR R4 Resource `VisionPrescription`.\nElement `VisionPrescription` is mapped to FHIR R4 element `VisionPrescription`."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.meta` is mapped to FHIR R4B element `VisionPrescription.meta`."
+              "comment" : "Element `VisionPrescription.meta` is mapped to FHIR R4 element `VisionPrescription.meta`."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.implicitRules` is mapped to FHIR R4B element `VisionPrescription.implicitRules`."
+              "comment" : "Element `VisionPrescription.implicitRules` is mapped to FHIR R4 element `VisionPrescription.implicitRules`."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.language` is mapped to FHIR R4B element `VisionPrescription.language`."
+              "comment" : "Element `VisionPrescription.language` is mapped to FHIR R4 element `VisionPrescription.language`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.text` is mapped to FHIR R4B element `VisionPrescription.text`."
+              "comment" : "Element `VisionPrescription.text` is mapped to FHIR R4 element `VisionPrescription.text`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.contained` is mapped to FHIR R4B element `VisionPrescription.contained`."
+              "comment" : "Element `VisionPrescription.contained` is mapped to FHIR R4 element `VisionPrescription.contained`."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.identifier` is mapped to FHIR R4B element `VisionPrescription.identifier`."
+              "comment" : "Element `VisionPrescription.identifier` is mapped to FHIR R4 element `VisionPrescription.identifier`."
             }
           ]
         },
@@ -162,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.status` is mapped to FHIR R4B element `VisionPrescription.status`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.status",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.status` is mapped to FHIR DSTU2 structure `VisionPrescription`, but has no target element specified."
+              "comment" : "Element `VisionPrescription.status` is mapped to FHIR R4 element `VisionPrescription.status`."
             }
           ]
         },
@@ -178,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.created` is mapped to FHIR R4B element `VisionPrescription.created`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.created",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:1..1 -> basic: `date`:0..1).\nElement `VisionPrescription.created` is mapped to FHIR STU3 structure `VisionPrescription`, but has no target element specified."
+              "comment" : "Element `VisionPrescription.created` is mapped to FHIR R4 element `VisionPrescription.created`."
             }
           ]
         },
@@ -194,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.patient` is mapped to FHIR R4B element `VisionPrescription.patient`."
+              "comment" : "Element `VisionPrescription.patient` is mapped to FHIR R4 element `VisionPrescription.patient`."
             }
           ]
         },
@@ -205,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.encounter` is mapped to FHIR R4B element `VisionPrescription.encounter`."
+              "comment" : "Element `VisionPrescription.encounter` is mapped to FHIR R4 element `VisionPrescription.encounter`."
             }
           ]
         },
@@ -216,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dateWritten",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.dateWritten` is mapped to FHIR R4B element `VisionPrescription.dateWritten`."
+              "comment" : "Element `VisionPrescription.dateWritten` is mapped to FHIR R4 element `VisionPrescription.dateWritten`."
             }
           ]
         },
@@ -227,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.prescriber",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.prescriber` is mapped to FHIR R4B element `VisionPrescription.prescriber`."
+              "comment" : "Element `VisionPrescription.prescriber` is mapped to FHIR R4 element `VisionPrescription.prescriber`."
             }
           ]
         },
@@ -238,12 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification` is mapped to FHIR R4B element `VisionPrescription.lensSpecification`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification` is mapped to FHIR STU3 element `VisionPrescription.dispense`."
+              "comment" : "Element `VisionPrescription.lensSpecification` is mapped to FHIR R4 element `VisionPrescription.lensSpecification`."
             }
           ]
         },
@@ -254,12 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.product",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.product` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.product`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.product",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.product` is mapped to FHIR STU3 element `VisionPrescription.dispense.product`."
+              "comment" : "Element `VisionPrescription.lensSpecification.product` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.product`."
             }
           ]
         },
@@ -270,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.eye",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.eye`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.eye",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR STU3 element `VisionPrescription.dispense.eye`."
+              "comment" : "Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.eye`."
             }
           ]
         },
@@ -286,12 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.sphere",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.sphere`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.sphere",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR STU3 element `VisionPrescription.dispense.sphere`."
+              "comment" : "Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.sphere`."
             }
           ]
         },
@@ -302,12 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.cylinder",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.cylinder`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.cylinder",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR STU3 element `VisionPrescription.dispense.cylinder`."
+              "comment" : "Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.cylinder`."
             }
           ]
         },
@@ -318,12 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.axis",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.axis`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.axis",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR STU3 element `VisionPrescription.dispense.axis`."
+              "comment" : "Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.axis`."
             }
           ]
         },
@@ -334,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification.prism",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR STU3 structure `VisionPrescription`, but has no target element specified."
+              "comment" : "Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism`."
             }
           ]
         },
@@ -350,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism.amount`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.prism",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.prism.amount` is part of an existing definition because parent element `VisionPrescription.lensSpecification.prism` requires a cross-version extension.\nElement `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR STU3 element `VisionPrescription.dispense.prism`."
+              "comment" : "Element `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism.amount`."
             }
           ]
         },
@@ -366,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism.base",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism.base`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.base",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.prism.base` is part of an existing definition because parent element `VisionPrescription.lensSpecification.prism` requires a cross-version extension.\nElement `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR STU3 element `VisionPrescription.dispense.base`."
+              "comment" : "Element `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism.base`."
             }
           ]
         },
@@ -382,12 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.add",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.add` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.add`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.add",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.add` is mapped to FHIR STU3 element `VisionPrescription.dispense.add`."
+              "comment" : "Element `VisionPrescription.lensSpecification.add` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.add`."
             }
           ]
         },
@@ -398,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.power",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.power` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.power`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.power",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.power` is mapped to FHIR STU3 element `VisionPrescription.dispense.power`."
+              "comment" : "Element `VisionPrescription.lensSpecification.power` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.power`."
             }
           ]
         },
@@ -414,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.backCurve",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.backCurve`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.backCurve",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR STU3 element `VisionPrescription.dispense.backCurve`."
+              "comment" : "Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.backCurve`."
             }
           ]
         },
@@ -430,12 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.diameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.diameter`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.diameter",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR STU3 element `VisionPrescription.dispense.diameter`."
+              "comment" : "Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.diameter`."
             }
           ]
         },
@@ -446,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.duration",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.duration`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.duration",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR STU3 element `VisionPrescription.dispense.duration`."
+              "comment" : "Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.duration`."
             }
           ]
         },
@@ -462,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.color",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.color` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.color`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.color",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.color` is mapped to FHIR STU3 element `VisionPrescription.dispense.color`."
+              "comment" : "Element `VisionPrescription.lensSpecification.color` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.color`."
             }
           ]
         },
@@ -478,12 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.brand",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.brand`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.brand",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR STU3 element `VisionPrescription.dispense.brand`."
+              "comment" : "Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.brand`."
             }
           ]
         },
@@ -494,17 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR STU3 element `VisionPrescription.dispense.note`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification.note",
-              "equivalence" : "relatedto",
-              "comment" : "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR DSTU2 structure `VisionPrescription`, but has no target element specified."
+              "comment" : "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.note`."
             }
           ]
         }

@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:34.0787452-06:00",
+  "date" : "2026-02-09T22:05:44.1689638-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -83,11 +83,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "RatioRange",
           "target" : [
             {
-              "code" : "#RatioRange",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `RatioRange` is representable via FHIR R4B extensions.\nElement `RatioRange` is mapped to FHIR R4B element `RatioRange`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RatioRange",
               "equivalence" : "relatedto",
               "comment" : "FHIR R5 ComplexType `RatioRange` is representable via FHIR R4 extensions.\nElement `RatioRange` is not mapped to FHIR R4, since FHIR R5 `RatioRange` is not mapped."
@@ -98,11 +93,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RatioRange.lowNumerator",
           "display" : "lowNumerator",
           "target" : [
-            {
-              "code" : "#RatioRange.lowNumerator",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RatioRange.lowNumerator` is mapped to FHIR R4B element `RatioRange.lowNumerator`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RatioRange:lowNumerator",
               "equivalence" : "relatedto",
@@ -115,11 +105,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "highNumerator",
           "target" : [
             {
-              "code" : "#RatioRange.highNumerator",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RatioRange.highNumerator` is mapped to FHIR R4B element `RatioRange.highNumerator`."
-            },
-            {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RatioRange:highNumerator",
               "equivalence" : "relatedto",
               "comment" : "Element `RatioRange.highNumerator` is not mapped to FHIR R4, since FHIR R5 `RatioRange` is not mapped."
@@ -130,11 +115,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "code" : "RatioRange.denominator",
           "display" : "denominator",
           "target" : [
-            {
-              "code" : "#RatioRange.denominator",
-              "equivalence" : "relatedto",
-              "comment" : "Element `RatioRange.denominator` is mapped to FHIR R4B element `RatioRange.denominator`."
-            },
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RatioRange:denominator",
               "equivalence" : "relatedto",

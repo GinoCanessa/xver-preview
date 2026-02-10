@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "title" : "Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "targetNumber",
         "short" : "Estimated total number of participants to be enrolled",
         "definition" : "Estimated total number of participants to be enrolled.",
-        "requirements" : "Element `ResearchStudy.recruitment.targetNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.recruitment.targetNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "actualNumber",
         "short" : "Actual total number of participants enrolled in study",
         "definition" : "Actual total number of participants enrolled in study.",
-        "requirements" : "Element `ResearchStudy.recruitment.actualNumber` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Element `ResearchStudy.recruitment.actualNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "eligibility",
         "short" : "Inclusion and exclusion criteria",
         "definition" : "Inclusion and exclusion criteria.",
-        "requirements" : "Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -323,7 +323,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "actualGroup",
         "short" : "Group of participants who were enrolled in study",
         "definition" : "Group of participants who were enrolled in study.",
-        "requirements" : "Element `ResearchStudy.recruitment.actualGroup` is mapped to FHIR R4 structure `ResearchStudy`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.actualGroup` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {

@@ -69,7 +69,7 @@
   <title value="Cross-version Extension `R5.ResearchSubject.progress` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -86,7 +86,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ResearchSubject.progress` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ResearchSubject.progress` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ResearchSubject.progress` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ResearchSubject.progress` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `ResearchSubject.progress` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`ResearchSubject.progress` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `ResearchSubject.progress` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -97,7 +97,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="ResearchSubject"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -209,7 +209,7 @@
       <sliceName value="type"/>
       <short value="state | milestone"/>
       <definition value="Identifies the aspect of the subject's journey that the state refers to."/>
-      <requirements value="Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.type` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.type` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -373,7 +373,7 @@
       <sliceName value="subjectState"/>
       <short value="candidate | eligible | follow-up | ineligible | not-registered | off-study | on-study | on-study-intervention | on-study-observation | pending-on-study | potential-candidate | screening | withdrawn"/>
       <definition value="The current state of the subject."/>
-      <requirements value="Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.subjectState` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.subjectState` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -538,7 +538,7 @@
       <short value="SignedUp | Screened | Randomized"/>
       <definition value="The milestones the subject has passed through."/>
       <comment value="There can be multiple entries but it is also valid to just have the most recent.  This should npt be rlied upon as the full path the subject has taken."/>
-      <requirements value="Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.milestone` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.milestone` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -703,7 +703,7 @@
       <sliceName value="reason"/>
       <short value="State change reason"/>
       <definition value="The reason for the state change.  If coded it should follow the formal subject state model."/>
-      <requirements value="Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.reason` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.reason` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -868,7 +868,7 @@
       <short value="State change date"/>
       <definition value="The date when the new status started."/>
       <comment value="This is NOT the date the change in state was recorded."/>
-      <requirements value="This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.startDate` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.startDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1033,7 +1033,7 @@
       <sliceName value="endDate"/>
       <short value="State change date"/>
       <definition value="The date when the state ended."/>
-      <requirements value="See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.endDate` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.endDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1434,7 +1434,7 @@
       <sliceName value="type"/>
       <short value="state | milestone"/>
       <definition value="Identifies the aspect of the subject's journey that the state refers to."/>
-      <requirements value="Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.type` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.type` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1474,7 +1474,7 @@
       <sliceName value="subjectState"/>
       <short value="candidate | eligible | follow-up | ineligible | not-registered | off-study | on-study | on-study-intervention | on-study-observation | pending-on-study | potential-candidate | screening | withdrawn"/>
       <definition value="The current state of the subject."/>
-      <requirements value="Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.subjectState` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.subjectState` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1515,7 +1515,7 @@
       <short value="SignedUp | Screened | Randomized"/>
       <definition value="The milestones the subject has passed through."/>
       <comment value="There can be multiple entries but it is also valid to just have the most recent.  This should npt be rlied upon as the full path the subject has taken."/>
-      <requirements value="Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.milestone` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.milestone` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1556,7 +1556,7 @@
       <sliceName value="reason"/>
       <short value="State change reason"/>
       <definition value="The reason for the state change.  If coded it should follow the formal subject state model."/>
-      <requirements value="Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.reason` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.reason` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1597,7 +1597,7 @@
       <short value="State change date"/>
       <definition value="The date when the new status started."/>
       <comment value="This is NOT the date the change in state was recorded."/>
-      <requirements value="This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.startDate` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.startDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1638,7 +1638,7 @@
       <sliceName value="endDate"/>
       <short value="State change date"/>
       <definition value="The date when the state ended."/>
-      <requirements value="See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.endDate` is mapped to FHIR R4 structure `ResearchSubject`, but has no target element specified."/>
+      <requirements value="See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.&#xA;Element `ResearchSubject.progress.endDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

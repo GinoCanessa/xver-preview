@@ -20,10 +20,42 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "Device.contained","Device.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"Device.extension","Device.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"Device.extension","Device.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:availabilityStatus","Device.extension","availabilityStatus","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.availabilityStatus from R5 for use in FHIR R4","The availability of the device.","Element `Device.availabilityStatus` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:biologicalSourceEvent","Device.extension","biologicalSourceEvent","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.biologicalSourceEvent from R5 for use in FHIR R4","An identifier that supports traceability to the event during which material in this product from one or more biological entities was obtained or pooled.","Element `Device.biologicalSourceEvent` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:category","Device.extension","category","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.category from R5 for use in FHIR R4","Devices may be associated with one or more categories.","Element `Device.category` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:mode","Device.extension","mode","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.mode from R5 for use in FHIR R4","The designated condition for performing a task with the device.","Element `Device.mode` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:cycle","Device.extension","cycle","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.cycle from R5 for use in FHIR R4","The series of occurrences that repeats during the operation of the device.","Element `Device.cycle` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:duration","Device.extension","duration","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.duration from R5 for use in FHIR R4","A measurement of time during the device's operation (e.g., days, hours, mins, etc.).","Element `Device.duration` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:gateway","Device.extension","gateway","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.gateway from R5 for use in FHIR R4","The linked device acting as a communication controller, data collector, translator, or concentrator for the current device (e.g., mobile phone application that relays a blood pressure device's data).","Element `Device.gateway` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.extension:endpoint","Device.extension","endpoint","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+","Cross-version extension for Device.endpoint from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Device.endpoint` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Device.endpoint` is will have a context of Device based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.modifierExtension","Device.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -38,12 +70,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "Device.definition.id","Device.definition.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Device.definition.extension","Device.definition.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Device.definition.extension","Device.definition.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Device.definition.extension","Device.definition.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Device.definition from R5 for use in FHIR R4","The reference to the definition for the device.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.definition.extension:definition","Device.definition.extension","definition","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.definition from R5 for use in FHIR R4","The reference to the definition for the device.","Element `Device.definition` is mapped to FHIR R4 element `Device.definition`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.definition.reference","Device.definition.reference","","","",0,1,"","","Y","string {[]} {[]}
 ","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ref-1
@@ -121,12 +153,12 @@ ICCBA DIs for other devices:
 ","NA"
 "Device.udiCarrier.entryType.id","Device.udiCarrier.entryType.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"Device.udiCarrier.entryType.extension","Device.udiCarrier.entryType.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Device.udiCarrier.entryType.extension","Device.udiCarrier.entryType.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Device.udiCarrier.entryType.extension","Device.udiCarrier.entryType.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.udiCarrier.entryType|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Device.udiCarrier.entryType from R5 for use in FHIR R4","A coded entry to indicate how the data was entered.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Device.udiCarrier.entryType.extension:entryType","Device.udiCarrier.entryType.extension","entryType","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.udiCarrier.entryType|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.udiCarrier.entryType from R5 for use in FHIR R4","A coded entry to indicate how the data was entered.","Element `Device.udiCarrier.entryType` is mapped to FHIR R4 element `Device.udiCarrier.entryType`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.udiCarrier.entryType.value","Device.udiCarrier.entryType.value","","","",0,1,"","","","string {[]} {[]}
@@ -161,12 +193,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "Device.deviceName.id","Device.deviceName.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Device.deviceName.extension","Device.deviceName.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Device.deviceName.extension","Device.deviceName.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Device.deviceName.extension","Device.deviceName.extension","","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.displayName|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Device.displayName from R5 for use in FHIR R4","The name used to display by default when the device is referenced. Based on intent of use by the resource creator, this may reflect one of the names in Device.name, or may be another simple name.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Device.deviceName.extension:displayName","Device.deviceName.extension","displayName","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.displayName|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.displayName from R5 for use in FHIR R4","The name used to display by default when the device is referenced. Based on intent of use by the resource creator, this may reflect one of the names in Device.name, or may be another simple name.","Element `Device.displayName` is mapped to FHIR R4 element `Device.deviceName`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.deviceName.modifierExtension","Device.deviceName.modifierExtension","","extensions
@@ -197,10 +229,14 @@ UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | 
 "
 "Device.specialization.id","Device.specialization.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Device.specialization.extension","Device.specialization.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Device.specialization.extension","Device.specialization.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.specialization.extension:version","Device.specialization.extension","version","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.conformsTo.version from R5 for use in FHIR R4","Identifies the specific form or variant of the standard, specification, or formal guidance. This may be a 'version number', release, document edition, publication year, or other label.","Element `Device.conformsTo.version` is will have a context of Device.specialization based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.specialization.modifierExtension","Device.specialization.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -219,10 +255,14 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "Device.version.id","Device.version.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Device.version.extension","Device.version.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Device.version.extension","Device.version.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Device.version.extension:installDate","Device.version.extension","installDate","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.version.installDate from R5 for use in FHIR R4","The date the version was installed on the device.","Element `Device.version.installDate` is will have a context of Device.version based on following the parent source element upwards and mapping to `Device`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.version.modifierExtension","Device.version.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -248,8 +288,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Device.property.extension","Device.property.extension","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property.value|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Device.property.value[x] from R5 for use in FHIR R4","The value of the property specified by the associated property.type code.","The text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Device.property.extension:value","Device.property.extension","value","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property.value|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Device.property.value[x] from R5 for use in FHIR R4","The value of the property specified by the associated property.type code.","Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity`.
+Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Device.property.modifierExtension","Device.property.modifierExtension","","extensions

@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Evidence.statistic`
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Evidence for use in FHIR R4](StructureDefinition-profile-Evidence.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Evidence.statistic)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
   "title" : "Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.statistic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.statistic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.statistic` 0..* `BackboneElement`\n*  R4B: `Evidence.statistic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.statistic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.statistic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.statistic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.statistic` 0..* `BackboneElement`\n*  R4B: `Evidence.statistic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.statistic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
   "context" : [
     {
       "type" : "element",
-      "expression" : "Element"
+      "expression" : "Evidence"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "description",
         "short" : "Description of content",
         "definition" : "A description of the content value of the statistic.",
-        "requirements" : "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "note",
         "short" : "Footnotes and/or explanatory notes",
         "definition" : "Footnotes and/or explanatory notes.",
-        "requirements" : "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "statisticType",
         "short" : "Type of statistic, e.g., relative risk",
         "definition" : "Type of statistic, e.g., relative risk.",
-        "requirements" : "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -324,7 +324,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "short" : "Associated category for categorical variable",
         "definition" : "When the measured variable is handled categorically, the category element is used to define which category the statistic is reporting.",
         "comment" : "Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets.",
-        "requirements" : "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -370,7 +370,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "quantity",
         "short" : "Statistic value",
         "definition" : "Statistic value.",
-        "requirements" : "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -416,7 +416,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "short" : "The number of events associated with the statistic",
         "definition" : "The number of events associated with the statistic, where the unit of analysis is different from numberAffected, sampleSize.knownDataCount and sampleSize.numberOfParticipants.",
         "comment" : "When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events.",
-        "requirements" : "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -463,7 +463,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "short" : "The number of participants affected",
         "definition" : "The number of participants affected where the unit of analysis is the same as sampleSize.knownDataCount and sampleSize.numberOfParticipants.",
         "comment" : "When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events.",
-        "requirements" : "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -509,7 +509,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "sampleSize",
         "short" : "Number of samples in the statistic",
         "definition" : "Number of samples in the statistic.",
-        "requirements" : "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -545,7 +545,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "description",
         "short" : "Textual description of sample size for statistic",
         "definition" : "Human-readable summary of population sample size.",
-        "requirements" : "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -590,7 +590,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "note",
         "short" : "Footnote or explanatory note about the sample size",
         "definition" : "Footnote or explanatory note about the sample size.",
-        "requirements" : "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -635,7 +635,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "numberOfStudies",
         "short" : "Number of contributing studies",
         "definition" : "Number of participants in the population.",
-        "requirements" : "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -680,7 +680,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "numberOfParticipants",
         "short" : "Cumulative number of participants",
         "definition" : "A human-readable string to clarify or explain concepts about the sample size.",
-        "requirements" : "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -725,7 +725,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "knownDataCount",
         "short" : "Number of participants with known results for measured variables",
         "definition" : "Number of participants with known results for measured variables.",
-        "requirements" : "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -793,7 +793,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "attributeEstimate",
         "short" : "An attribute of the Statistic",
         "definition" : "A statistical attribute of the statistic such as a measure of heterogeneity.",
-        "requirements" : "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -831,7 +831,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "modelCharacteristic",
         "short" : "An aspect of the statistical model",
         "definition" : "A component of the method to generate the statistic.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -867,7 +867,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "code",
         "short" : "Model specification",
         "definition" : "Description of a component of the method to generate the statistic.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -916,7 +916,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "value",
         "short" : "Numerical value to complete model specification",
         "definition" : "Further specification of the quantified value of the component of the method to generate the statistic.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -964,7 +964,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "variable",
         "short" : "A variable adjusted for in the adjusted analysis",
         "definition" : "A variable adjusted for in the adjusted analysis.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1000,7 +1000,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "variableDefinition",
         "short" : "Description of the variable",
         "definition" : "Description of the variable.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1051,7 +1051,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "handling",
         "short" : "continuous | dichotomous | ordinal | polychotomous",
         "definition" : "How the variable is classified for use in adjusted analysis.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1100,7 +1100,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "valueCategory",
         "short" : "Description for grouping of ordinal or polychotomous variables",
         "definition" : "Description for grouping of ordinal or polychotomous variables.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1145,7 +1145,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "valueQuantity",
         "short" : "Discrete value for grouping of ordinal or polychotomous variables",
         "definition" : "Discrete value for grouping of ordinal or polychotomous variables.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1190,7 +1190,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "valueRange",
         "short" : "Range of values for grouping of ordinal or polychotomous variables",
         "definition" : "Range of values for grouping of ordinal or polychotomous variables.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1258,7 +1258,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.s
         "sliceName" : "attributeEstimate",
         "short" : "An attribute of the statistic used as a model characteristic",
         "definition" : "An attribute of the statistic used as a model characteristic.",
-        "requirements" : "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` is mapped to FHIR R4 structure `Evidence`, but has no target element specified.",
+        "requirements" : "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {

@@ -61,7 +61,7 @@
   <title value="Cross-version Extension `R5.TestScript.scope` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -78,7 +78,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `TestScript.scope` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`TestScript.scope` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `TestScript.scope` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `TestScript.scope` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `TestScript.scope` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`TestScript.scope` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `TestScript.scope` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `TestScript.scope` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -89,7 +89,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="TestScript"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -200,7 +200,7 @@
       <sliceName value="artifact"/>
       <short value="The specific conformance artifact being tested"/>
       <definition value="The specific conformance artifact being tested. The canonical reference can be version-specific."/>
-      <requirements value="Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.artifact` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+      <requirements value="Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.scope.artifact` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `TestScript.scope.artifact` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -366,7 +366,7 @@
       <sliceName value="conformance"/>
       <short value="required | optional | strict"/>
       <definition value="The expectation of whether the test must pass for the system to be considered conformant with the artifact: required - all tests are expected to pass, optional - all test are expected to pass but non-pass status may be allowed, strict - all tests are expected to pass and warnings are treated as a failure."/>
-      <requirements value="Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.conformance` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+      <requirements value="Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.conformance` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -530,7 +530,7 @@
       <sliceName value="phase"/>
       <short value="unit | integration | production"/>
       <definition value="The phase of testing for this artifact: unit - development / implementation phase, integration - internal system to system phase, production - live system to system phase (Note, this may involve pii/phi data)."/>
-      <requirements value="Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.phase` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+      <requirements value="Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.phase` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -930,7 +930,7 @@
       <sliceName value="artifact"/>
       <short value="The specific conformance artifact being tested"/>
       <definition value="The specific conformance artifact being tested. The canonical reference can be version-specific."/>
-      <requirements value="Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.artifact` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+      <requirements value="Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.scope.artifact` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `TestScript.scope.artifact` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -972,7 +972,7 @@
       <sliceName value="conformance"/>
       <short value="required | optional | strict"/>
       <definition value="The expectation of whether the test must pass for the system to be considered conformant with the artifact: required - all tests are expected to pass, optional - all test are expected to pass but non-pass status may be allowed, strict - all tests are expected to pass and warnings are treated as a failure."/>
-      <requirements value="Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.conformance` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+      <requirements value="Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.conformance` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1012,7 +1012,7 @@
       <sliceName value="phase"/>
       <short value="unit | integration | production"/>
       <definition value="The phase of testing for this artifact: unit - development / implementation phase, integration - internal system to system phase, production - live system to system phase (Note, this may involve pii/phi data)."/>
-      <requirements value="Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.phase` is mapped to FHIR R4 structure `TestScript`, but has no target element specified."/>
+      <requirements value="Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.phase` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

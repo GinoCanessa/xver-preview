@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.0598475-06:00",
+  "date" : "2026-02-09T22:05:43.4798103-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,12 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `AuditEvent` is representable via FHIR R4B Resource `AuditEvent`.\nElement `AuditEvent` is mapped to FHIR R4B element `AuditEvent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `AuditEvent` is representable via FHIR DSTU2 Resource `AuditEvent`.\nElement `AuditEvent` is mapped to FHIR DSTU2 element `AuditEvent.event`."
+              "comment" : "FHIR R5 Resource `AuditEvent` is representable via FHIR R4 Resource `AuditEvent`.\nElement `AuditEvent` is mapped to FHIR R4 element `AuditEvent`."
             }
           ]
         },
@@ -101,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.meta` is mapped to FHIR R4B element `AuditEvent.meta`."
+              "comment" : "Element `AuditEvent.meta` is mapped to FHIR R4 element `AuditEvent.meta`."
             }
           ]
         },
@@ -112,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.implicitRules` is mapped to FHIR R4B element `AuditEvent.implicitRules`."
+              "comment" : "Element `AuditEvent.implicitRules` is mapped to FHIR R4 element `AuditEvent.implicitRules`."
             }
           ]
         },
@@ -123,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.language` is mapped to FHIR R4B element `AuditEvent.language`."
+              "comment" : "Element `AuditEvent.language` is mapped to FHIR R4 element `AuditEvent.language`."
             }
           ]
         },
@@ -134,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.text` is mapped to FHIR R4B element `AuditEvent.text`."
+              "comment" : "Element `AuditEvent.text` is mapped to FHIR R4 element `AuditEvent.text`."
             }
           ]
         },
@@ -145,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.contained` is mapped to FHIR R4B element `AuditEvent.contained`."
+              "comment" : "Element `AuditEvent.contained` is mapped to FHIR R4 element `AuditEvent.contained`."
             }
           ]
         },
@@ -156,12 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.category` is mapped to FHIR R4B element `AuditEvent.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.category` is mapped to FHIR DSTU2 element `AuditEvent.event.type`."
+              "comment" : "Element `AuditEvent.category` is mapped to FHIR R4 element `AuditEvent.type`."
             }
           ]
         },
@@ -172,12 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.subtype",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.code` is mapped to FHIR R4B element `AuditEvent.subtype`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event.subtype",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.code` is mapped to FHIR DSTU2 element `AuditEvent.event.subtype`."
+              "comment" : "Element `AuditEvent.code` is mapped to FHIR R4 element `AuditEvent.subtype`."
             }
           ]
         },
@@ -188,12 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.action` is mapped to FHIR R4B element `AuditEvent.action`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event.action",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.action` is mapped to FHIR DSTU2 element `AuditEvent.event.action`."
+              "comment" : "Element `AuditEvent.action` is mapped to FHIR R4 element `AuditEvent.action`."
             }
           ]
         },
@@ -202,9 +182,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "severity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.severity",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.severity` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.severity` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -215,12 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.occurred[x]` is mapped to FHIR R4B element `AuditEvent.period`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.occurred",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.occurred[x]` is mapped to FHIR STU3 structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.occurred[x]` is mapped to FHIR R4 element `AuditEvent.period`."
             }
           ]
         },
@@ -231,12 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.recorded",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.recorded` is mapped to FHIR R4B element `AuditEvent.recorded`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event.dateTime",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.recorded` is mapped to FHIR DSTU2 element `AuditEvent.event.dateTime`."
+              "comment" : "Element `AuditEvent.recorded` is mapped to FHIR R4 element `AuditEvent.recorded`."
             }
           ]
         },
@@ -247,12 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.outcome` is mapped to FHIR R4B element `AuditEvent.outcome`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event.outcome",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.outcome` is mapped to FHIR DSTU2 element `AuditEvent.event.outcome`."
+              "comment" : "Element `AuditEvent.outcome` is mapped to FHIR R4 element `AuditEvent.outcome`."
             }
           ]
         },
@@ -261,9 +226,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "code",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.outcome.code` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.outcome.code` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -272,9 +237,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "detail",
           "target" : [
             {
-              "code" : "detail",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.outcome.detail` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.outcome.detail` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -285,12 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.purposeOfEvent",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.authorization` is mapped to FHIR R4B element `AuditEvent.purposeOfEvent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.event.purposeOfEvent",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.authorization` is mapped to FHIR DSTU2 element `AuditEvent.event.purposeOfEvent`."
+              "comment" : "Element `AuditEvent.authorization` is mapped to FHIR R4 element `AuditEvent.purposeOfEvent`."
             }
           ]
         },
@@ -299,9 +259,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.basedOn",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.basedOn` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.basedOn` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -310,9 +270,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "patient",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.patient",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.patient` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.patient` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -321,9 +281,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.encounter",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.encounter` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.encounter` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -334,12 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent` is mapped to FHIR R4B element `AuditEvent.agent`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent` is mapped to FHIR DSTU2 element `AuditEvent.participant`."
+              "comment" : "Element `AuditEvent.agent` is mapped to FHIR R4 element `AuditEvent.agent`."
             }
           ]
         },
@@ -350,12 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.type` is mapped to FHIR R4B element `AuditEvent.agent.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.type` is mapped to FHIR STU3 structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.type` is mapped to FHIR R4 element `AuditEvent.agent.type`."
             }
           ]
         },
@@ -366,12 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.role` is mapped to FHIR R4B element `AuditEvent.agent.role`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.role",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.role` is mapped to FHIR DSTU2 element `AuditEvent.participant.role`."
+              "comment" : "Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.role` is mapped to FHIR R4 element `AuditEvent.agent.role`."
             }
           ]
         },
@@ -382,27 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.who",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR R4B element `AuditEvent.agent.who`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.reference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR STU3 element `AuditEvent.agent.reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR STU3 element `AuditEvent.agent.userId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.userId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR STU3 element `AuditEvent.agent.reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR STU3 element `AuditEvent.agent.userId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.reference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR DSTU2 element `AuditEvent.participant.reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR DSTU2 element `AuditEvent.participant.userId`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.userId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.who` is mapped to FHIR DSTU2 element `AuditEvent.participant.reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR DSTU2 element `AuditEvent.participant.userId`."
+              "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`."
             }
           ]
         },
@@ -413,12 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.requestor",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.requestor` is mapped to FHIR R4B element `AuditEvent.agent.requestor`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.requestor",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.requestor` is mapped to FHIR DSTU2 element `AuditEvent.participant.requestor`."
+              "comment" : "Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.requestor` is mapped to FHIR R4 element `AuditEvent.agent.requestor`."
             }
           ]
         },
@@ -429,12 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.location` is mapped to FHIR R4B element `AuditEvent.agent.location`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.location",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.location` is mapped to FHIR DSTU2 element `AuditEvent.participant.location`."
+              "comment" : "Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.location` is mapped to FHIR R4 element `AuditEvent.agent.location`."
             }
           ]
         },
@@ -445,12 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.policy",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.policy` is mapped to FHIR R4B element `AuditEvent.agent.policy`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.policy",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.policy` is mapped to FHIR DSTU2 element `AuditEvent.participant.policy`."
+              "comment" : "Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.policy` is mapped to FHIR R4 element `AuditEvent.agent.policy`."
             }
           ]
         },
@@ -461,12 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.network[x]` is mapped to FHIR R4B element `AuditEvent.agent.network`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.network",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.network[x]` is mapped to FHIR DSTU2 element `AuditEvent.participant.network`."
+              "comment" : "Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.network[x]` is mapped to FHIR R4 element `AuditEvent.agent.network`."
             }
           ]
         },
@@ -477,12 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.agent.purposeOfUse",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.authorization` is mapped to FHIR R4B element `AuditEvent.agent.purposeOfUse`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.participant.purposeOfUse",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.authorization` is mapped to FHIR DSTU2 element `AuditEvent.participant.purposeOfUse`."
+              "comment" : "Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.authorization` is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`."
             }
           ]
         },
@@ -493,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.source` is mapped to FHIR R4B element `AuditEvent.source`."
+              "comment" : "Element `AuditEvent.source` is mapped to FHIR R4 element `AuditEvent.source`."
             }
           ]
         },
@@ -504,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.source.site",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.source.site` is mapped to FHIR R4B element `AuditEvent.source.site`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.source.site` is mapped to FHIR R4 element `AuditEvent.source.site`."
             }
           ]
         },
@@ -515,12 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.source.observer",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.source.observer` is mapped to FHIR R4B element `AuditEvent.source.observer`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.source.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.source.observer` is mapped to FHIR STU3 element `AuditEvent.source.identifier`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.source.observer` is mapped to FHIR R4 element `AuditEvent.source.observer`."
             }
           ]
         },
@@ -531,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.source.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.source.type` is mapped to FHIR R4B element `AuditEvent.source.type`."
+              "comment" : "Element `AuditEvent.source.type` is mapped to FHIR R4 element `AuditEvent.source.type`."
             }
           ]
         },
@@ -542,12 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity` is mapped to FHIR R4B element `AuditEvent.entity`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity` is mapped to FHIR DSTU2 element `AuditEvent.object`."
+              "comment" : "Element `AuditEvent.entity` is mapped to FHIR R4 element `AuditEvent.entity`."
             }
           ]
         },
@@ -558,27 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.what",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR R4B element `AuditEvent.entity.what`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR STU3 element `AuditEvent.entity.identifier`.\nElement `AuditEvent.entity.what` is mapped to FHIR STU3 element `AuditEvent.entity.reference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.reference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR STU3 element `AuditEvent.entity.identifier`.\nElement `AuditEvent.entity.what` is mapped to FHIR STU3 element `AuditEvent.entity.reference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.identifier",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR DSTU2 element `AuditEvent.object.identifier`.\nElement `AuditEvent.entity.what` is mapped to FHIR DSTU2 element `AuditEvent.object.reference`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.reference",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR DSTU2 element `AuditEvent.object.identifier`.\nElement `AuditEvent.entity.what` is mapped to FHIR DSTU2 element `AuditEvent.object.reference`."
+              "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR R4 element `AuditEvent.entity.what`."
             }
           ]
         },
@@ -589,12 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.role` is mapped to FHIR R4B element `AuditEvent.entity.role`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.role",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.role` is mapped to FHIR DSTU2 element `AuditEvent.object.role`."
+              "comment" : "Element `AuditEvent.entity.role` is mapped to FHIR R4 element `AuditEvent.entity.role`."
             }
           ]
         },
@@ -605,12 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.securityLabel",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.securityLabel` is mapped to FHIR R4B element `AuditEvent.entity.securityLabel`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.securityLabel",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.securityLabel` is mapped to FHIR DSTU2 element `AuditEvent.object.securityLabel`."
+              "comment" : "Element `AuditEvent.entity.securityLabel` is mapped to FHIR R4 element `AuditEvent.entity.securityLabel`."
             }
           ]
         },
@@ -621,12 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.query",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.query` is mapped to FHIR R4B element `AuditEvent.entity.query`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.query",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.query` is mapped to FHIR DSTU2 element `AuditEvent.object.query`."
+              "comment" : "Element `AuditEvent.entity.query` is mapped to FHIR R4 element `AuditEvent.entity.query`."
             }
           ]
         },
@@ -637,12 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.detail` is mapped to FHIR R4B element `AuditEvent.entity.detail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.detail` is mapped to FHIR DSTU2 element `AuditEvent.object.detail`."
+              "comment" : "Element `AuditEvent.entity.detail` is mapped to FHIR R4 element `AuditEvent.entity.detail`."
             }
           ]
         },
@@ -653,12 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.detail.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.detail.type` is mapped to FHIR R4B element `AuditEvent.entity.detail.type`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.detail.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.detail.type` is mapped to FHIR DSTU2 element `AuditEvent.object.detail.type`."
+              "comment" : "Element `AuditEvent.entity.detail.type` is mapped to FHIR R4 element `AuditEvent.entity.detail.type`."
             }
           ]
         },
@@ -669,17 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.detail.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.\nElement `AuditEvent.entity.detail.value[x]` is mapped to FHIR R4B element `AuditEvent.entity.detail.value[x]`.\nNote that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity.detail.value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.detail.value[x]` is mapped to FHIR STU3 element `AuditEvent.entity.detail.value`."
-            },
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.object.detail.value",
-              "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.detail.value[x]` is mapped to FHIR DSTU2 element `AuditEvent.object.detail.value`."
+              "comment" : "Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.\nElement `AuditEvent.entity.detail.value[x]` is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]`.\nNote that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`."
             }
           ]
         },
@@ -688,9 +523,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "agent",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -699,9 +534,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.type` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.type` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.type` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.type` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -710,9 +545,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "role",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:role",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.role` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.role` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.role` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.role` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -721,9 +556,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "who",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:who",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.who` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.who` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.who` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.entity.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.entity.agent.who` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -732,9 +567,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requestor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:requestor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.requestor` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.requestor` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.requestor` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.requestor` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -743,9 +578,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:location",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.location` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.location` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.location` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.entity.agent.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.entity.agent.location` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -754,9 +589,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "policy",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:policy",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.policy` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.policy` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.policy` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.policy` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -765,9 +600,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "network[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:network",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.network[x]` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.network[x]` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.network[x]` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.network[x]` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         },
@@ -776,9 +611,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "authorization",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent:authorization",
+              "code" : "http://hl7.org/fhir/StructureDefinition/AuditEvent#AuditEvent.entity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AuditEvent.entity.agent.authorization` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.authorization` is mapped to FHIR R4B structure `AuditEvent`, but has no target element specified."
+              "comment" : "Element `AuditEvent.entity.agent.authorization` is part of an existing definition because parent element `AuditEvent.entity.agent` requires a cross-version extension.\nElement `AuditEvent.entity.agent.authorization` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."
             }
           ]
         }

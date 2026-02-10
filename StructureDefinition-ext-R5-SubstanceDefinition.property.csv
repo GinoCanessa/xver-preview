@@ -10,7 +10,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type","Extension.extension","type","","",1,1,"","","","Extension {[]} {[]}
-","A code expressing the type of property","A code expressing the type of property.","","Element `SubstanceDefinition.property.type` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","A code expressing the type of property","A code expressing the type of property.","","Element `SubstanceDefinition.property.type` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -25,7 +25,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","A code expressing the type of property","A code expressing the type of property.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:value","Extension.extension","value","","",0,1,"","","","Extension {[]} {[]}
-","A value for the property","A value for the property.","","Element `SubstanceDefinition.property.value[x]` is mapped to FHIR R4 structure `SubstanceSpecification`, but has no target element specified.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","A value for the property","A value for the property.","","Element `SubstanceDefinition.property.value[x]` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:value.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

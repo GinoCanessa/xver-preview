@@ -63,7 +63,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
   <title value="Cross-version Extension `R5.Observation.triggeredBy` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -80,7 +80,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Observation.triggeredBy` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Observation.triggeredBy` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Observation.triggeredBy` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Observation.triggeredBy` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Observation.triggeredBy` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Observation.triggeredBy` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Observation.triggeredBy` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Observation.triggeredBy` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -91,7 +91,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Observation"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -202,7 +202,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <sliceName value="observation"/>
       <short value="Triggering observation"/>
       <definition value="Reference to the triggering observation."/>
-      <requirements value="Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.observation` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+      <requirements value="Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Observation.triggeredBy.observation` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -368,7 +368,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <sliceName value="type"/>
       <short value="reflex | repeat | re-run"/>
       <definition value="The type of trigger.&#xA;Reflex | Repeat | Re-run."/>
-      <requirements value="Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.type` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+      <requirements value="Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.type` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -532,7 +532,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <sliceName value="reason"/>
       <short value="Reason that the observation was triggered"/>
       <definition value="Provides the reason why this observation was performed as a result of the observation(s) referenced."/>
-      <requirements value="Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.reason` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+      <requirements value="Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.reason` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -932,7 +932,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <sliceName value="observation"/>
       <short value="Triggering observation"/>
       <definition value="Reference to the triggering observation."/>
-      <requirements value="Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.observation` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+      <requirements value="Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Observation.triggeredBy.observation` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -974,7 +974,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <sliceName value="type"/>
       <short value="reflex | repeat | re-run"/>
       <definition value="The type of trigger.&#xA;Reflex | Repeat | Re-run."/>
-      <requirements value="Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.type` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+      <requirements value="Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.type` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1014,7 +1014,7 @@ Reflex | Repeat | Re-run.">value[x]</a><a name="Extension.extension.value_x_.2">
       <sliceName value="reason"/>
       <short value="Reason that the observation was triggered"/>
       <definition value="Provides the reason why this observation was performed as a result of the observation(s) referenced."/>
-      <requirements value="Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.reason` is mapped to FHIR R4 structure `Observation`, but has no target element specified."/>
+      <requirements value="Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.reason` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`."/>
       <min value="0"/>
       <max value="1"/>
       <base>

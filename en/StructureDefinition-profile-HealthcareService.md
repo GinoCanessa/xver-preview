@@ -7,7 +7,7 @@ This cross-version profile allows R5 HealthcareService content to be represented
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.par.typeReference.md), [Cross-version Extension `R5.Appointment.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.serviceType.md), [Cross-version Extension `R5.ChargeItem.performer.actor` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.per.actor.md), [Cross-version Extension `R5.ChargeItemDefinition.instance` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItemDefinition.instance.md)... Show 27 more, [Cross-version Extension `R5.Consent.controller` for use in FHIR R4](StructureDefinition-ext-R5-Consent.controller.md), [Cross-version Extension `R5.Consent.grantee` for use in FHIR R4](StructureDefinition-ext-R5-Consent.grantee.md), [Cross-version Extension `R5.Consent.grantor` for use in FHIR R4](StructureDefinition-ext-R5-Consent.grantor.md), [Cross-version Extension `R5.Consent.manager` for use in FHIR R4](StructureDefinition-ext-R5-Consent.manager.md), [Cross-version Extension `R5.Encounter.participant.actor` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.par.actor.md), [Cross-version Extension `R5.Encounter.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.serviceType.md), [Cross-version Extension `R5.EncounterHistory.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-EncounterHistory.serviceType.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.Group.member.entity` for use in FHIR R4](StructureDefinition-ext-R5-Group.mem.entity.md), [Cross-version Extension `R5.HealthcareService.offeredIn` for use in FHIR R4](StructureDefinition-ext-R5-HealthcareService.offeredIn.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.ImagingStudy.series.performer.actor` for use in FHIR R4](StructureDefinition-ext-R5-ImagingStudy.ser.per.actor.md), [Cross-version Extension `R5.MeasureReport.group.subject` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.gro.subject.md), [Cross-version Extension `R5.MedicationRequest.performer` for use in FHIR R4](StructureDefinition-ext-R5-MedicationRequest.performer.md), [Cross-version Extension `R5.Permission` for use in FHIR R4](StructureDefinition-ext-R5-Permission.md), [Cross-version Extension `R5.PlanDefinition.action.participant.typeReference` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.act.par.typeReference.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.Procedure.performer.actor` for use in FHIR R4](StructureDefinition-ext-R5-Procedure.per.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.Schedule.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Schedule.serviceType.md), [Cross-version Extension `R5.Slot.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Slot.serviceType.md), [Cross-version Extension `R5.Subscription.managingEntity` for use in FHIR R4](StructureDefinition-ext-R5-Subscription.managingEntity.md), [Cross-version Extension `R5.Task.requestedPerformer` for use in FHIR R4](StructureDefinition-ext-R5-Task.requestedPerformer.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
+* Refer to this Profile: [Cross-version Extension `R5.Appointment.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.serviceType.md), [Cross-version Extension `R5.Encounter.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.serviceType.md), [Cross-version Extension `R5.EncounterHistory.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-EncounterHistory.serviceType.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md)... Show 11 more, [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.Permission` for use in FHIR R4](StructureDefinition-ext-R5-Permission.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.Schedule.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Schedule.serviceType.md), [Cross-version Extension `R5.Slot.serviceType` for use in FHIR R4](StructureDefinition-ext-R5-Slot.serviceType.md), [Cross-version Extension `R5.Task.requestedPerformer` for use in FHIR R4](StructureDefinition-ext-R5-Task.requestedPerformer.md) and [Cross-version Extension `R5.Transport` for use in FHIR R4](StructureDefinition-ext-R5-Transport.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-HealthcareService)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Healthcar
   "title" : "Cross-version Profile for R5.HealthcareService for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.708251-06:00",
+  "date" : "2026-02-09T22:05:43.1499576-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,72 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Healthcar
       {
         "id" : "HealthcareService",
         "path" : "HealthcareService"
+      },
+      {
+        "id" : "HealthcareService.extension",
+        "path" : "HealthcareService.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "HealthcareService.extension:contact",
+        "path" : "HealthcareService.extension",
+        "sliceName" : "contact",
+        "short" : "Cross-version extension for HealthcareService.contact from R5 for use in FHIR R4",
+        "comment" : "Element `HealthcareService.contact` is will have a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "HealthcareService.extension:offeredIn",
+        "path" : "HealthcareService.extension",
+        "sliceName" : "offeredIn",
+        "short" : "Cross-version extension for HealthcareService.offeredIn from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/HealthcareService in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `HealthcareService.offeredIn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `HealthcareService.offeredIn` is will have a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
       }
     ]
   }

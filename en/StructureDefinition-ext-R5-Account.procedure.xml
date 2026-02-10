@@ -80,7 +80,7 @@
   <title value="Cross-version Extension `R5.Account.procedure` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -97,7 +97,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Account.procedure` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Account.procedure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Account.procedure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Account.procedure` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Account.procedure` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Account.procedure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Account.procedure` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Account.procedure` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -108,7 +108,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="Account"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -219,7 +219,7 @@
       <sliceName value="sequence"/>
       <short value="Ranking of the procedure (for each type)"/>
       <definition value="Ranking of the procedure (for each type)."/>
-      <requirements value="Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -383,7 +383,7 @@
       <sliceName value="code"/>
       <short value="The procedure relevant to the account"/>
       <definition value="The procedure relevant to the account."/>
-      <requirements value="Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.code` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.code` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -650,7 +650,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -818,7 +818,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1187,7 +1187,7 @@
       <sliceName value="dateOfService"/>
       <short value="Date of the procedure (when coded procedure)"/>
       <definition value="Date of the procedure when using a coded procedure. If using a reference to a procedure, then the date on the procedure should be used."/>
-      <requirements value="Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.dateOfService` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.dateOfService` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1351,7 +1351,7 @@
       <sliceName value="type"/>
       <short value="How this procedure value should be used in charging the account"/>
       <definition value="How this procedure value should be used in charging the account."/>
-      <requirements value="Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.type` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1515,7 +1515,7 @@
       <sliceName value="packageCode"/>
       <short value="Package Code specific for billing"/>
       <definition value="The package code can be used to group procedures that may be priced or delivered as a single product. Such as DRGs."/>
-      <requirements value="Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1679,7 +1679,7 @@
       <sliceName value="device"/>
       <short value="Any devices that were associated with the procedure"/>
       <definition value="Any devices that were associated with the procedure relevant to the account."/>
-      <requirements value="Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.device` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Account.procedure.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Account.procedure.device` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2081,7 +2081,7 @@
       <sliceName value="sequence"/>
       <short value="Ranking of the procedure (for each type)"/>
       <definition value="Ranking of the procedure (for each type)."/>
-      <requirements value="Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.sequence` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.sequence` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2121,7 +2121,7 @@
       <sliceName value="code"/>
       <short value="The procedure relevant to the account"/>
       <definition value="The procedure relevant to the account."/>
-      <requirements value="Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.code` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.code` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.code` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2192,7 +2192,7 @@
       <sliceName value="concept"/>
       <short value="Reference to a concept (by class)"/>
       <definition value="A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology."/>
-      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."/>
+      <requirements value="Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.&#xA;Element `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2236,7 +2236,7 @@
       <sliceName value="reference"/>
       <short value="Reference to a resource (by instance)"/>
       <definition value="A reference to a resource the provides exact details about the information being referenced."/>
-      <requirements value="Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
+      <requirements value="Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.&#xA;Element `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2299,7 +2299,7 @@
       <sliceName value="dateOfService"/>
       <short value="Date of the procedure (when coded procedure)"/>
       <definition value="Date of the procedure when using a coded procedure. If using a reference to a procedure, then the date on the procedure should be used."/>
-      <requirements value="Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.dateOfService` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.dateOfService` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.dateOfService` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2339,7 +2339,7 @@
       <sliceName value="type"/>
       <short value="How this procedure value should be used in charging the account"/>
       <definition value="How this procedure value should be used in charging the account."/>
-      <requirements value="Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.type` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.type` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2379,7 +2379,7 @@
       <sliceName value="packageCode"/>
       <short value="Package Code specific for billing"/>
       <definition value="The package code can be used to group procedures that may be priced or delivered as a single product. Such as DRGs."/>
-      <requirements value="Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.packageCode` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.packageCode` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2419,7 +2419,7 @@
       <sliceName value="device"/>
       <short value="Any devices that were associated with the procedure"/>
       <definition value="Any devices that were associated with the procedure relevant to the account."/>
-      <requirements value="Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Element `Account.procedure.device` is mapped to FHIR R4 structure `Account`, but has no target element specified."/>
+      <requirements value="Element `Account.procedure.device` is part of an existing definition because parent element `Account.procedure` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Account.procedure.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Account.procedure.device` is will have a context of Account based on following the parent source element upwards and mapping to `Account`."/>
       <min value="0"/>
       <max value="*"/>
       <base>

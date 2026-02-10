@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:31.6649176-06:00",
+  "date" : "2026-02-09T22:05:43.6577978-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -83,11 +83,6 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "CodeableReference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Reference#CodeableReference",
-              "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `CodeableReference` is representable via FHIR R4B extensions.\nElement `CodeableReference` is mapped to FHIR R4B element `CodeableReference`."
-            },
-            {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#CodeableConcept",
               "equivalence" : "relatedto",
               "comment" : "FHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nFHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nElement `CodeableReference` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference` is mapped to FHIR R4 element `Reference`."
@@ -104,14 +99,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "concept",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Reference#CodeableReference.concept",
-              "equivalence" : "relatedto",
-              "comment" : "Element `CodeableReference.concept` is mapped to FHIR R4B element `CodeableReference.concept`."
-            },
-            {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#CodeableConcept",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is mapped to FHIR R4 structure `Reference`, but has no target element specified."
+              "comment" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference",
+              "equivalence" : "relatedto",
+              "comment" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`."
             }
           ]
         },
@@ -120,14 +115,14 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Reference#CodeableReference.reference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/Reference#CodeableConcept",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableReference.reference` is mapped to FHIR R4B element `CodeableReference.reference`."
+              "comment" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Reference#Reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableReference.reference` is mapped to FHIR R4 structure `CodeableConcept`, but has no target element specified.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."
+              "comment" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`."
             }
           ]
         }

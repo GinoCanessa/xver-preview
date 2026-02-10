@@ -7,7 +7,7 @@ This cross-version profile allows R5 DiagnosticReport content to be represented 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.ResearchStudy.result` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.result.md)
+* Refer to this Profile: [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-DiagnosticReport)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Diagnosti
   "title" : "Cross-version Profile for R5.DiagnosticReport for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.6740124-06:00",
+  "date" : "2026-02-09T22:05:43.0773344-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -149,6 +149,117 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Diagnosti
         "path" : "DiagnosticReport"
       },
       {
+        "id" : "DiagnosticReport.extension",
+        "path" : "DiagnosticReport.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DiagnosticReport.extension:note",
+        "path" : "DiagnosticReport.extension",
+        "sliceName" : "note",
+        "short" : "Cross-version extension for DiagnosticReport.note from R5 for use in FHIR R4",
+        "comment" : "Element `DiagnosticReport.note` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DiagnosticReport.extension:supportingInfo",
+        "path" : "DiagnosticReport.extension",
+        "sliceName" : "supportingInfo",
+        "short" : "Cross-version extension for DiagnosticReport.supportingInfo from R5 for use in FHIR R4",
+        "comment" : "Element `DiagnosticReport.supportingInfo` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DiagnosticReport.extension:study",
+        "path" : "DiagnosticReport.extension",
+        "sliceName" : "study",
+        "short" : "Cross-version extension for DiagnosticReport.study from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/GenomicStudy,http://hl7.org/fhir/StructureDefinition/ImagingStudy in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.study` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.study` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DiagnosticReport.extension:composition",
+        "path" : "DiagnosticReport.extension",
+        "sliceName" : "composition",
+        "short" : "Cross-version extension for DiagnosticReport.composition from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Composition in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.composition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.composition` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "DiagnosticReport.status.extension",
         "path" : "DiagnosticReport.status.extension",
         "slicing" : {
@@ -170,9 +281,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Diagnosti
         }
       },
       {
-        "id" : "DiagnosticReport.status.extension",
+        "id" : "DiagnosticReport.status.extension:status",
         "path" : "DiagnosticReport.status.extension",
+        "sliceName" : "status",
         "short" : "Cross-version extension for DiagnosticReport.status from R5 for use in FHIR R4",
+        "comment" : "Note that the target element context `DiagnosticReport.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DiagnosticReport.status` is mapped to FHIR R4 element `DiagnosticReport.status`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -211,9 +324,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Diagnosti
         }
       },
       {
-        "id" : "DiagnosticReport.media.link.extension",
+        "id" : "DiagnosticReport.media.link.extension:link",
         "path" : "DiagnosticReport.media.link.extension",
+        "sliceName" : "link",
         "short" : "Cross-version extension for DiagnosticReport.media.link from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.media.link` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.media.link` is mapped to FHIR R4 element `DiagnosticReport.media.link`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -225,7 +341,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Diagnosti
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.media.link|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
             ]
           }
         ]

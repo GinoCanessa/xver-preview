@@ -7,7 +7,7 @@ This cross-version profile allows R5 ServiceRequest content to be represented vi
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AuditEvent.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-AuditEvent.basedOn.md), [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md), [Cross-version Extension `R5.CarePlan.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-CarePlan.basedOn.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md)... Show 11 more, [Cross-version Extension `R5.Claim.item.request` for use in FHIR R4](StructureDefinition-ext-R5-Claim.ite.request.md), [Cross-version Extension `R5.ClaimResponse.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.add.request.md), [Cross-version Extension `R5.ExplanationOfBenefit.addItem.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.add.request.md), [Cross-version Extension `R5.ExplanationOfBenefit.item.request` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.ite.request.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.GuidanceResponse.result` for use in FHIR R4](StructureDefinition-ext-R5-GuidanceResponse.result.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.Immunization.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.basedOn.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.NutritionOrder.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.basedOn.md) and [Cross-version Extension `R5.Provenance.basedOn` for use in FHIR R4](StructureDefinition-ext-R5-Provenance.basedOn.md)
+* Refer to this Profile: [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ServiceRequest)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
   "title" : "Cross-version Profile for R5.ServiceRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T13:17:30.7904312-06:00",
+  "date" : "2026-02-09T22:05:43.3223014-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -154,6 +154,73 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "path" : "ServiceRequest"
       },
       {
+        "id" : "ServiceRequest.extension",
+        "path" : "ServiceRequest.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ServiceRequest.extension:focus",
+        "path" : "ServiceRequest.extension",
+        "sliceName" : "focus",
+        "short" : "Cross-version extension for ServiceRequest.focus from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ServiceRequest.extension:bodyStructure",
+        "path" : "ServiceRequest.extension",
+        "sliceName" : "bodyStructure",
+        "short" : "Cross-version extension for ServiceRequest.bodyStructure from R5 for use in FHIR R4",
+        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BodyStructure in FHIR R4",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "ServiceRequest.code.extension",
         "path" : "ServiceRequest.code.extension",
         "slicing" : {
@@ -166,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ServiceRequest.code",
@@ -175,9 +242,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         }
       },
       {
-        "id" : "ServiceRequest.code.extension",
+        "id" : "ServiceRequest.code.extension:code",
         "path" : "ServiceRequest.code.extension",
+        "sliceName" : "code",
         "short" : "Cross-version extension for ServiceRequest.code from R5 for use in FHIR R4",
+        "comment" : "Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -207,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ServiceRequest.orderDetail",
@@ -216,9 +285,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         }
       },
       {
-        "id" : "ServiceRequest.orderDetail.extension",
+        "id" : "ServiceRequest.orderDetail.extension:orderDetail",
         "path" : "ServiceRequest.orderDetail.extension",
+        "sliceName" : "orderDetail",
         "short" : "Cross-version extension for ServiceRequest.orderDetail from R5 for use in FHIR R4",
+        "comment" : "Element `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -248,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ServiceRequest.supportingInfo",
@@ -257,9 +328,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         }
       },
       {
-        "id" : "ServiceRequest.supportingInfo.extension",
+        "id" : "ServiceRequest.supportingInfo.extension:supportingInfo",
         "path" : "ServiceRequest.supportingInfo.extension",
+        "sliceName" : "supportingInfo",
         "short" : "Cross-version extension for ServiceRequest.supportingInfo from R5 for use in FHIR R4",
+        "comment" : "Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -289,7 +362,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "ServiceRequest.patientInstruction",
@@ -298,9 +371,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         }
       },
       {
-        "id" : "ServiceRequest.patientInstruction.extension",
+        "id" : "ServiceRequest.patientInstruction.extension:patientInstruction",
         "path" : "ServiceRequest.patientInstruction.extension",
+        "sliceName" : "patientInstruction",
         "short" : "Cross-version extension for ServiceRequest.patientInstruction from R5 for use in FHIR R4",
+        "comment" : "Element `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction`.",
         "min" : 0,
         "max" : "*",
         "base" : {

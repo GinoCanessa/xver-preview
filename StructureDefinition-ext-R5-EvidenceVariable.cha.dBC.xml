@@ -60,7 +60,7 @@
   <title value="Cross-version Extension `R5.EvidenceVariable.characteristic.definitionByCombination` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <date value="2026-02-10T04:05:33.0136333+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -77,7 +77,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `EvidenceVariable.characteristic.definitionByCombination` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`EvidenceVariable.characteristic.definitionByCombination` 0..1 `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `EvidenceVariable.characteristic.definitionByCombination` 0..1 `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `EvidenceVariable.characteristic.definitionByCombination` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`EvidenceVariable.characteristic.definitionByCombination` 0..1 `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `EvidenceVariable.characteristic.definitionByCombination` 0..1 `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -88,7 +88,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Element"/>
+    <expression value="EvidenceVariable.characteristic"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -199,7 +199,7 @@
       <sliceName value="code"/>
       <short value="all-of | any-of | at-least | at-most | statistical | net-effect | dataset"/>
       <definition value="Used to specify if two or more characteristics are combined with OR or AND."/>
-      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -367,7 +367,7 @@
       <sliceName value="threshold"/>
       <short value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used"/>
       <definition value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -531,7 +531,7 @@
       <sliceName value="characteristic"/>
       <short value="A defining factor of the characteristic"/>
       <definition value="A defining factor of the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -1078,7 +1078,7 @@
       <sliceName value="code"/>
       <short value="all-of | any-of | at-least | at-most | statistical | net-effect | dataset"/>
       <definition value="Used to specify if two or more characteristics are combined with OR or AND."/>
-      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="If code is &quot;at-least&quot; or &quot;at-most&quot; then threshold SHALL be used. If code is neither &quot;at-least&quot; nor &quot;at-most&quot; then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1122,7 +1122,7 @@
       <sliceName value="threshold"/>
       <short value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used"/>
       <definition value="Provides the value of &quot;n&quot; when &quot;at-least&quot; or &quot;at-most&quot; codes are used."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1162,7 +1162,7 @@
       <sliceName value="characteristic"/>
       <short value="A defining factor of the characteristic"/>
       <definition value="A defining factor of the characteristic."/>
-      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is mapped to FHIR R4 structure `EvidenceVariable`, but has no target element specified."/>
+      <requirements value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`."/>
       <min value="1"/>
       <max value="*"/>
       <base>

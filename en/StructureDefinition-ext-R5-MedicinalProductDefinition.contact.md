@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
   "title" : "Cross-version Extension `R5.MedicinalProductDefinition.contact` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "date" : "2026-02-10T04:05:33.0136333+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "type",
         "short" : "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information",
         "definition" : "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information.",
-        "requirements" : "Element `MedicinalProductDefinition.contact.type` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.",
+        "requirements" : "Element `MedicinalProductDefinition.contact.type` is will have a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "contact",
         "short" : "A product specific contact, person (in a role), or an organization",
         "definition" : "A product specific contact, person (in a role), or an organization.",
-        "requirements" : "Element `MedicinalProductDefinition.contact.contact` is mapped to FHIR R4 structure `MedicinalProduct`, but has no target element specified.",
+        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.contact.contact` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.contact.contact` is will have a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 1,
         "max" : "1",
         "base" : {

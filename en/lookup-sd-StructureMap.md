@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`StructureMap.url`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.url](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.identifier`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.identifier](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.version`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.version](https://hl7.org/fhir/R4/StructureMap.html#resource) |
-| [`StructureMap.versionAlgorithm[x]`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.versionAlgorithm](StructureDefinition-ext-R5-StructureMap.versionAlgorithm.md) |
+| [`StructureMap.versionAlgorithm[x]`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap](https://hl7.org/fhir/R4/StructureMap.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.versionAlgorithm](StructureDefinition-ext-R5-StructureMap.versionAlgorithm.md) |
 | [`StructureMap.name`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.name](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.title`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.title](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.status`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.status](https://hl7.org/fhir/R4/StructureMap.html#resource) |
@@ -34,16 +34,16 @@ A computable version of the following element information is available in: [Conc
 | [`StructureMap.jurisdiction`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.jurisdiction](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.purpose`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.purpose](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.copyright`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.copyright](https://hl7.org/fhir/R4/StructureMap.html#resource) |
-| [`StructureMap.copyrightLabel`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.copyrightLabel](StructureDefinition-ext-R5-StructureMap.copyrightLabel.md) |
+| [`StructureMap.copyrightLabel`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap](https://hl7.org/fhir/R4/StructureMap.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.copyrightLabel](StructureDefinition-ext-R5-StructureMap.copyrightLabel.md) |
 | [`StructureMap.structure`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.structure](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.structure.url`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.structure.url](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.structure.mode`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.structure.mode](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.structure.alias`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.structure.alias](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.structure.documentation`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.structure.documentation](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.import`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.import](https://hl7.org/fhir/R4/StructureMap.html#resource) |
-| [`StructureMap.const`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const](StructureDefinition-ext-R5-StructureMap.const.md) |
-| [`StructureMap.const.name`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [Extension slice: name](StructureDefinition-ext-R5-StructureMap.const.md) |
-| [`StructureMap.const.value`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [Extension slice: value](StructureDefinition-ext-R5-StructureMap.const.md) |
+| [`StructureMap.const`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap](https://hl7.org/fhir/R4/StructureMap.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const](StructureDefinition-ext-R5-StructureMap.const.md) |
+| [`StructureMap.const.name`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap](https://hl7.org/fhir/R4/StructureMap.html#resource)[Extension slice: name](StructureDefinition-ext-R5-StructureMap.const.md) |
+| [`StructureMap.const.value`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap](https://hl7.org/fhir/R4/StructureMap.html#resource)[Extension slice: value](StructureDefinition-ext-R5-StructureMap.const.md) |
 | [`StructureMap.group`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.group.name`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.name](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.group.extends`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.extends](https://hl7.org/fhir/R4/StructureMap.html#resource) |
@@ -81,6 +81,6 @@ A computable version of the following element information is available in: [Conc
 | [`StructureMap.group.rule.dependent`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.rule.dependent](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.group.rule.dependent.name`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.rule.dependent.name](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 | [`StructureMap.group.rule.dependent.parameter`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.rule.dependent.variable](https://hl7.org/fhir/R4/StructureMap.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.dependent.parameter](StructureDefinition-ext-R5-StructureMap.gro.rul.dep.parameter.md) |
-| [`StructureMap.group.rule.dependent.parameter.value[x]`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [Extension slice: value](StructureDefinition-ext-R5-StructureMap.gro.rul.dep.parameter.md) |
+| [`StructureMap.group.rule.dependent.parameter.value[x]`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.rule.dependent.variable](https://hl7.org/fhir/R4/StructureMap.html#resource)[Extension slice: value](StructureDefinition-ext-R5-StructureMap.gro.rul.dep.parameter.md) |
 | [`StructureMap.group.rule.documentation`](https://hl7.org/fhir/R5/StructureMap.html#resource) | [StructureMap.group.rule.documentation](https://hl7.org/fhir/R4/StructureMap.html#resource) |
 

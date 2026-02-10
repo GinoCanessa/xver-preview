@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -749,7 +749,7 @@
        fhir:sliceName [ fhir:v "scope" ] ;
        fhir:short [ fhir:v "instance | type | system" ] ;
        fhir:definition [ fhir:v "If present, indicates that the parameter applies when the operation is being invoked at the specified level." ] ;
-       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is mapped to FHIR R4 structure `OperationDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1807,7 +1807,7 @@
        fhir:short [ fhir:v "Allowed sub-type this parameter can have (if type is abstract)" ] ;
        fhir:definition [ fhir:v "Support for polymorphic types. If the parameter type is abstract, this element lists allowed sub-types for the parameter." ] ;
        fhir:comment [ fhir:v "In previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type" ] ;
-       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is mapped to FHIR R4 structure `OperationDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5146,7 +5146,7 @@
        fhir:sliceName [ fhir:v "scope" ] ;
        fhir:short [ fhir:v "instance | type | system" ] ;
        fhir:definition [ fhir:v "If present, indicates that the parameter applies when the operation is being invoked at the specified level." ] ;
-       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is mapped to FHIR R4 structure `OperationDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5384,7 +5384,7 @@
        fhir:short [ fhir:v "Allowed sub-type this parameter can have (if type is abstract)" ] ;
        fhir:definition [ fhir:v "Support for polymorphic types. If the parameter type is abstract, this element lists allowed sub-types for the parameter." ] ;
        fhir:comment [ fhir:v "In previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type" ] ;
-       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is mapped to FHIR R4 structure `OperationDefinition`, but has no target element specified." ] ;
+       fhir:requirements [ fhir:v "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
